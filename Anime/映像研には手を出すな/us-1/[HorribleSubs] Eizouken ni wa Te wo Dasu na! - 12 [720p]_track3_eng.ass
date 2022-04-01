@@ -1,0 +1,369 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,1,0,0,100,100,0,0,1,2,1,2,13,13,24,1
+Style: OP_ED,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,13,13,24,0
+Style: Default - Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Keep Your Hands Off Eizouken,Open Sans Semibold,45,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_261_5_UFO_Wars_Sound_M,Open Sans Semibold,35,&H00262827,&H000000FF,&H00F6F8F8,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,1,40,40,27,1
+Style: sign_285_10_To_Film_Research,Open Sans Semibold,24,&H00262827,&H000000FF,&H00F6F8F8,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,1,40,323,27,1
+Style: sign_288_11_I_suddenly_got_t,Open Sans Semibold,32,&H00262827,&H000000FF,&H00F6F8F8,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,1,40,40,27,1
+Style: sign_299_14_From_Part_Shouji,Open Sans Semibold,41,&H00262827,&H000000FF,&H00F6F8F8,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,1,40,40,27,1
+Style: sign_288_16_Memo,Open Sans Semibold,15,&H00262827,&H000000FF,&H00DBDEDD,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,1,40,40,27,1
+Style: sign_623_23_A_piece_with_a_c,Open Sans Semibold,12,&H004F5252,&H000000FF,&H00F6F8F8,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_623_24_Stillness,Open Sans Semibold,18,&H00484848,&H000000FF,&H00F8F8F8,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_623_51_Title,Open Sans Semibold,21,&H005D5B74,&H000000FF,&H00D4D1F5,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_9852_161_Camera_continues,Open Sans Semibold,17,&H00212D32,&H000000FF,&H00CBDBE1,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,513,40,180,0
+Style: sign_9852_162_Dance_party_with,Open Sans Semibold,45,&H00212D32,&H000000FF,&H00CBDBE1,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,493,40,180,0
+Style: sign_10066_165_Disrespect_Schoo,Open Sans Semibold,12,&H00F5F5F5,&H000000FF,&H00181415,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,40,40,27,0
+Style: sign_10066_166________Suicide__,Open Sans Semibold,12,&H00F5F5F5,&H000000FF,&H00181415,&H00000000,1,0,0,0,100,100,0,0,1,3,0,9,40,40,27,0
+Style: sign_11868_184_Film,Open Sans Semibold,35,&H00343231,&H000000FF,&H004C4D41,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,2,40,40,27,1
+Style: sign_11968_185_Film,Open Sans Semibold,53,&H00473B2F,&H000000FF,&H00746948,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,2,67,40,127,1
+Style: sign_12052_186_Film,Open Sans Semibold,60,&H00412626,&H000000FF,&H00946F6C,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,8,40,167,27,1
+Style: sign_12949_191_Shibahama_Shoppi,Open Sans Semibold,30,&H003668AD,&H000000FF,&H00C2B4BB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,200,27,0
+Style: sign_13377_195_Film,Open Sans Semibold,17,&H00413634,&H000000FF,&H00796D69,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,2,40,40,27,1
+Style: sign_14620_209_Blast_Past_Those,Open Sans Semibold,20,&H0000002F,&H000000FF,&H00B4C4C9,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,8,40,40,27,1
+Style: sign_14850_214_Traveling_to,Open Sans Semibold,32,&H006FF0B3,&H000000FF,&H005475DA,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,2,413,40,160,1
+Style: sign_14850_215_Iceland,Open Sans Semibold,23,&H006FF0B3,&H000000FF,&H005475DA,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,8,473,40,399,1
+Style: sign_15478_227_The_cut_scene_th,Open Sans Semibold,41,&H00203746,&H000000FF,&H0076ACC1,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,0,9,40,40,27,1
+Style: sign_15795_228_Eizouken,Open Sans Semibold,27,&H00121F1A,&H000000FF,&H00C3D1CA,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_15855_229_Love,Open Sans Semibold,45,&H00414743,&H000000FF,&H00F0F9F9,&H00716D6A,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_16035_230_Large_Scale_Farm,Open Sans Semibold,12,&H0074524C,&H000000FF,&H00E9D4A5,&H00716D6A,1,0,0,0,100,100,0,0,1,4,0,3,40,40,27,1
+Style: sign_16991_241_Eizouken_Anime,Open Sans Semibold,23,&H00001726,&H000000FF,&H005C8A9E,&H00425AB8,0,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_17419_247_Pictures,Open Sans Semibold,44,&H0016242D,&H000000FF,&H00A9CBCC,&H00425AB8,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_17785_252__kenkenpi_221_Mi,Open Sans Semibold,12,&H003C331F,&H000000FF,&H00C9AA64,&H00425AB8,0,0,0,0,100,100,0,0,1,2,0,7,40,40,21,1
+Style: sign_729_8_Shibahama_South_,Open Sans Semibold,24,&H00575150,&H000000FF,&H00F1F2EF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,233,40,27,1
+Style: sign_19490_276_Shibahama_South_,Open Sans Semibold,24,&H00412B1B,&H000000FF,&H009C6D4A,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,233,40,27,1
+Style: sign_20564_285_Shibahama,Open Sans Semibold,33,&H001834A0,&H000000FF,&H0064E8C0,&H00E9EBE1,0,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_20661_290_Shibahama__Shopp,Open Sans Semibold,30,&H00003273,&H000000FF,&H0057585A,&H00E9EBE1,0,0,0,0,100,100,0,0,1,0,0,7,316,340,253,1
+Style: sign_20778_291_Film_,Open Sans Semibold,50,&H0062E7F5,&H000000FF,&H00C0B1B3,&H00FDFFFF,1,0,0,0,100,100,0,0,1,0,0,2,473,333,393,1
+Style: sign_20778_292_Film__The_Film_R,Open Sans Semibold,60,&H0081C9D2,&H000000FF,&H00C0B1B3,&H00FDFFFF,0,0,0,0,100,100,0,0,1,0,0,8,40,40,27,1
+Style: sign_20974_293_Look_Out__Danger,Open Sans Semibold,45,&H00E8EBA3,&H000000FF,&H0087A1B9,&H00E9EBE1,0,0,0,0,100,100,0,0,1,2,0,7,40,40,27,1
+Style: sign_35868_301_Animation_by__Su,Open Sans Semibold,18,&H19000000,&H000000FF,&H00755F5C,&H00000000,1,0,0,0,100,100,0,0,1,0,0,1,53,40,53,1
+Style: sign_5695_125_Episode_12______,Open Sans Semibold,29,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,1,200,40,327,1
+Style: sign_9735_163_Coexistence,Open Sans Semibold,45,&H0036383F,&H000000FF,&H00F6FBFA,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.30,0:00:02.98,main,M,0000,0000,0000,,This is nothing like the demo!
+Dialogue: 0,0:00:02.98,0:00:05.24,main,M,0000,0000,0000,,Are you sure it's the right file?
+Dialogue: 0,0:00:05.24,0:00:07.76,main,D,0000,0000,0000,,Yeah, the length fits perfectly.
+Dialogue: 0,0:00:07.76,0:00:10.86,main,D,0000,0000,0000,,And the title is right, too.\NI'm pretty sure this is it.
+Dialogue: 0,0:00:10.86,0:00:12.01,sign_261_5_UFO_Wars_Sound_M,Sign,0000,0000,0000,,{\pos(150,119.429)\fscx94}Dance Scene demo                      {\fscx70}(4 weeks ago)
+Dialogue: 0,0:00:10.86,0:00:12.01,sign_261_5_UFO_Wars_Sound_M,Sign,0000,0000,0000,,{\pos(148.857,168.571)\fscx52\fad(1,120)}Background Music TAKE 1                                                     {\fscx70}(2 weeks ago)
+Dialogue: 0,0:00:10.86,0:00:12.01,sign_261_5_UFO_Wars_Sound_M,Sign,0000,0000,0000,,{\pos(190,208.571)\fscx72\fscy80\fad(1,120)}M1~12 A Hot Spring in Space.mp3    {\fscx70}(2 weeks ago)
+Dialogue: 0,0:00:10.86,0:00:12.01,sign_261_5_UFO_Wars_Sound_M,Sign,0000,0000,0000,,{\pos(187.714,255.429)\fscy80\fscx84\fad(1,120)}Memo.txt                                      {\fscx70}(2 weeks ago)
+Dialogue: 0,0:00:10.86,0:00:12.03,sign_261_5_UFO_Wars_Sound_M,Sign,0000,0000,0000,,{\pos(150,66.857)}UFO Wars Sound Menu.pdf     {\fscx70}(6 weeks ago)
+Dialogue: 0,0:00:11.90,0:00:20.49,sign_285_10_To_Film_Research,Letter sign,0000,0000,0000,,{\pos(107.714,88.571)\fscx103\fscy93\fad(120,1)}To.Film Study Association
+Dialogue: 0,0:00:11.90,0:00:20.49,sign_288_11_I_suddenly_got_t,Letter sign,0000,0000,0000,,{\pos(124.857,136.571)\fscy80\fad(120,1)}I suddenly got this vision of a hot springs sitting
+Dialogue: 0,0:00:11.90,0:00:20.49,sign_288_11_I_suddenly_got_t,Letter sign,0000,0000,0000,,{\pos(123.714,180)\fscy80\fad(120,1)}amidst the cosmos, and put this together thinking
+Dialogue: 0,0:00:11.90,0:00:20.49,sign_288_11_I_suddenly_got_t,Letter sign,0000,0000,0000,,{\pos(122.571,223.429)\fscy80\fad(120,1)}it could fit all the scenes. What do you think?
+Dialogue: 0,0:00:11.90,0:00:20.49,sign_299_14_From_Part_Shouji,From,0000,0000,0000,,{\fscx55\pos(476.858,287.429)\fad(120,1)}(2 weeks ago)
+Dialogue: 0,0:00:11.90,0:00:20.49,sign_288_16_Memo,From,0000,0000,0000,,{\pos(222,52)\fad(120,1)}Memo
+Dialogue: 0,0:00:12.45,0:00:20.49,sign_299_14_From_Part_Shouji,Letter sign,0000,0000,0000,,{\pos(107.714,289.714)\fscx103\fad(120,1)}From.Part Shouji
+Dialogue: 0,0:00:13.73,0:00:15.52,main,M,0000,0000,0000,,Huh? What the heck?
+Dialogue: 0,0:00:15.52,0:00:16.98,main,A,0000,0000,0000,,I never noticed...
+Dialogue: 0,0:00:18.10,0:00:20.49,main,K,0000,0000,0000,,This is from two weeks ago.
+Dialogue: 0,0:00:20.49,0:00:22.79,main,K,0000,0000,0000,,Didn't you check it?
+Dialogue: 0,0:00:25.96,0:00:28.96,main,D,0000,0000,0000,,A hot spring amidst the cosmos, huh?
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,D,0000,0000,0000,,{\pos(287,63)}A piece with a calm, sensible tone
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,D,0000,0000,0000,,{\pos(222,77)}Stillness
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,D,0000,0000,0000,,{\fscx90\pos(286,91)}For use on c001-012, even-handed and\N steady sounding, with sparse arrangement
+Dialogue: 0,0:00:25.96,0:00:28.96,Default,D,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6F8F8&}m 167 96 l 167 116 276 116 274 97
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,D,0000,0000,0000,,{\pos(223,101)}Sign • Premonition
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,D,0000,0000,0000,,{\pos(284,114)}For use on c025-033, arrangement is\N gradually starting to become more lively
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,D,0000,0000,0000,,{\pos(221,126)}Tension
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,D,0000,0000,0000,,{\pos(286,140)}For use with c050-070, brings to mind\N tensely played string instruments
+Dialogue: 0,0:00:25.96,0:00:28.96,Default,D,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6F8F8&}m 178 150 l 178 169 265 170 264 148
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,D,0000,0000,0000,,{\pos(221,153)}Intensifying
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,D,0000,0000,0000,,{\pos(287,168)\fscx75}For use with c090-126, Steadily starts to\N intensify, coming on more strongly, and thrillingly.
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,,0000,0000,0000,,{\pos(221,180)}Understanding
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,,0000,0000,0000,,{\pos(284,194)\fscx85}For use on c135-c163. On the sparse side\N re: arrangement, with a gentle, intimate sound
+Dialogue: 0,0:00:25.96,0:00:28.96,Default,,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6F8F8&}m 173 203 l 172 219 270 221 270 204
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,,0000,0000,0000,,{\pos(223,205)}Battle Pattern 1
+Dialogue: 0,0:00:25.96,0:00:28.96,Default,,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6F8F8&}m 282 202 l 282 221 420 222 418 202
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,,0000,0000,0000,,{\pos(285,220)}Shibahama comes under attack. Lots of\N low tones.
+Dialogue: 0,0:00:25.96,0:00:28.96,Default,,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6F8F8&}m 170 228 l 170 246 273 246 272 227
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,,0000,0000,0000,,{\pos(224,229)}Battle Pattern 2
+Dialogue: 0,0:00:25.96,0:00:28.96,Default,,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6F8F8&}m 282 227 l 282 246 421 245 421 227
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,,0000,0000,0000,,{\pos(286,244)}UFO VS Steam Tanks. Starting to sound\N more heated
+Dialogue: 0,0:00:25.96,0:00:28.96,Default,,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF8F8F8&}m 170 252 l 170 271 272 271 271 252
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,,0000,0000,0000,,{\pos(223,255)}Battle Pattern 3
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,,0000,0000,0000,,{\pos(286,264)}Fast-paced, the most exciting piece
+Dialogue: 0,0:00:25.96,0:00:28.96,Default,,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6F8F8&}m 171 275 l 195 292 272 293 266 273
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_24_Stillness,,0000,0000,0000,,{\pos(228,278)}Dance Scene
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,,0000,0000,0000,,{\pos(284,289)}Music like you'd hear at an elegant ball
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_23_A_piece_with_a_c,,0000,0000,0000,,{\pos(285,312)}A bright, fun-sounding piece
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_51_Title,,0000,0000,0000,,{\fsp4\pos(222,29)}Title
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_51_Title,,0000,0000,0000,,{\pos(353,30)}Summary
+Dialogue: 0,0:00:25.96,0:00:28.96,sign_623_51_Title,,0000,0000,0000,,{\pos(449,30)\fscx65}Demo
+Dialogue: 0,0:00:30.69,0:00:33.19,main,D,0000,0000,0000,,The track itself isn't a bad one, but...
+Dialogue: 0,0:00:33.19,0:00:35.31,main,M,0000,0000,0000,,It doesn't fit the story at all!
+Dialogue: 0,0:00:35.31,0:00:38.03,main,D,0000,0000,0000,,It's kinda the opposite. It's got a sad vibe.
+Dialogue: 0,0:00:39.39,0:00:41.78,main,M,0000,0000,0000,,Which isn't fun at all!
+Dialogue: 0,0:00:41.78,0:00:43.10,main,M,0000,0000,0000,,We can't use this!
+Dialogue: 0,0:00:43.10,0:00:44.25,main,M,0000,0000,0000,,Is there anything else?!
+Dialogue: 0,0:00:44.25,0:00:46.12,main,K,0000,0000,0000,,This is the only track that was sent?
+Dialogue: 0,0:00:46.12,0:00:47.33,main,D,0000,0000,0000,,It is.
+Dialogue: 0,0:00:47.33,0:00:50.46,main,D,0000,0000,0000,,I wonder if the idea was to compose it \Nusing traditional film scoring.
+Dialogue: 0,0:00:50.46,0:00:52.25,main,M,0000,0000,0000,,It doesn't match the visuals at all!
+Dialogue: 0,0:00:52.25,0:00:53.66,main,M,0000,0000,0000,,Why?! Let's call them!
+Dialogue: 0,0:00:53.66,0:00:58.08,main,D,0000,0000,0000,,I dunno, I really doubt a \Nrewrite would be ready in time.
+Dialogue: 0,0:00:58.08,0:00:59.89,main,K,0000,0000,0000,,Is there any other music we can use?
+Dialogue: 0,0:00:59.89,0:01:02.15,main,M,0000,0000,0000,,Well, we can't use this in the dance scene!
+Dialogue: 0,0:01:02.15,0:01:05.67,main,M,0000,0000,0000,,It was done to fit the demo, \Nso it won't work with anything else!
+Dialogue: 0,0:01:05.67,0:01:07.34,main,K,0000,0000,0000,,What about the demo itself?
+Dialogue: 0,0:01:07.34,0:01:09.65,main,M,0000,0000,0000,,Ugh, why'd he change it out of the blue?!
+Dialogue: 0,0:01:10.30,0:01:14.05,top,M,0000,0000,0000,,Of all the... It's so...!
+Dialogue: 0,0:01:13.05,0:01:15.59,main,K,0000,0000,0000,,Well, we can't use this. I understand.
+Dialogue: 0,0:01:19.53,0:01:24.32,main,K,0000,0000,0000,,We'll have to pass on this music. \NLook for some free tracks we can—
+Dialogue: 0,0:01:24.32,0:01:25.60,main,M,0000,0000,0000,,I'm telling you, there are none!
+Dialogue: 0,0:01:25.60,0:01:28.57,main,M,0000,0000,0000,,I made sure the animation matched \Nthe exact timing and rhythm!
+Dialogue: 0,0:01:28.57,0:01:30.47,main,K,0000,0000,0000,,Well, what do we do, then?
+Dialogue: 0,0:01:31.32,0:01:35.10,main,K,0000,0000,0000,,We've dragged a lot of other people \Ninto announcing the day of the sale.
+Dialogue: 0,0:01:35.10,0:01:39.47,main,K,0000,0000,0000,,All of our advertising and DVD \Nsales are targeted for Comet A.
+Dialogue: 0,0:01:39.47,0:01:42.31,main,K,0000,0000,0000,,Everything has been moving \Ntoward that one day.
+Dialogue: 0,0:01:42.31,0:01:48.33,main,K,0000,0000,0000,,Not to mention, having Tsubame Mizusaki at the \Nevent selling DVDs was a big part of our draw.
+Dialogue: 0,0:01:48.33,0:01:50.49,main,K,0000,0000,0000,,And there are a lot of \Npeople who are going to be
+Dialogue: 0,0:01:50.49,0:01:52.80,main,K,0000,0000,0000,,participating at the special \Nscreening in Shibahama, too.
+Dialogue: 0,0:01:52.80,0:01:54.75,main,K,0000,0000,0000,,No matter how the short turns out,
+Dialogue: 0,0:01:54.75,0:01:58.51,main,K,0000,0000,0000,,our participation in Comet A \Nis a 1,000% foregone conclusion.
+Dialogue: 0,0:01:59.30,0:02:02.52,main,K,0000,0000,0000,,Do you have any ideas, Asakusa?
+Dialogue: 0,0:02:02.52,0:02:04.22,main,K,0000,0000,0000,,We've got one hour and 32 minutes before
+Dialogue: 0,0:02:04.22,0:02:08.24,main,K,0000,0000,0000,,our arrangement with the company we \Nhave making the DVDs for cheap is broken.
+Dialogue: 0,0:02:08.24,0:02:10.74,main,A,0000,0000,0000,,Can we stretch that out a little?
+Dialogue: 0,0:02:10.74,0:02:12.52,main,A,0000,0000,0000,,Maybe get us until the morning?
+Dialogue: 0,0:02:12.52,0:02:16.38,main,K,0000,0000,0000,,I'll try negotiating, just in case,\N but don't get your hopes up.
+Dialogue: 0,0:02:19.50,0:02:22.11,main,K,0000,0000,0000,,There's something I need your help with.
+Dialogue: 0,0:02:22.11,0:02:24.93,main,K,0000,0000,0000,,Right. Do you think it's possible?
+Dialogue: 0,0:02:25.91,0:02:28.41,main,K,0000,0000,0000,,Yes, it's an emergency.
+Dialogue: 0,0:02:29.89,0:02:30.95,main,K,0000,0000,0000,,I see.
+Dialogue: 0,0:02:31.77,0:02:34.57,main,K,0000,0000,0000,,Okay, in that case, don't worry about it.
+Dialogue: 0,0:02:34.57,0:02:36.21,main,K,0000,0000,0000,,Yeah. Right.
+Dialogue: 0,0:02:36.21,0:02:37.78,main,K,0000,0000,0000,,I hope we can work together \Nagain some time.
+Dialogue: 0,0:02:42.25,0:02:45.27,main,,0000,0000,0000,,They could only wait as late as midnight tonight.
+Dialogue: 0,0:02:45.27,0:02:49.07,main,,0000,0000,0000,,Any later and the delay fee \Nwould nearly double the price.
+Dialogue: 0,0:02:49.07,0:02:51.00,main,,0000,0000,0000,,Since we're on a tight budget,
+Dialogue: 0,0:02:51.00,0:02:53.40,main,,0000,0000,0000,,and it probably won't be ready,\N I went ahead and canceled.
+Dialogue: 0,0:02:53.40,0:02:56.05,main,M,0000,0000,0000,,It wouldn't kill them to just wait a little.
+Dialogue: 0,0:02:56.05,0:02:57.87,main,M,0000,0000,0000,,We're in big trouble here!
+Dialogue: 0,0:02:57.87,0:02:59.65,main,K,0000,0000,0000,,This is how it works.
+Dialogue: 0,0:03:00.62,0:03:04.09,main,K,0000,0000,0000,,An overnight job would mean making \Nextra arrangements for their staff...
+Dialogue: 0,0:03:04.09,0:03:06.62,main,K,0000,0000,0000,,And it'll affect their workload tomorrow.
+Dialogue: 0,0:03:06.62,0:03:08.77,main,K,0000,0000,0000,,This have their own business to worry about.
+Dialogue: 0,0:03:08.77,0:03:13.42,main,K,0000,0000,0000,,They don't gain anything by indulging \Nour trouble for fun, or out of curiosity.
+Dialogue: 0,0:03:14.31,0:03:17.96,main,K,0000,0000,0000,,If anything, they're already at a loss,\N since we canceled so suddenly.
+Dialogue: 0,0:03:17.96,0:03:20.40,main,K,0000,0000,0000,,The school has protected us,
+Dialogue: 0,0:03:20.40,0:03:23.91,main,K,0000,0000,0000,,and taken our side when they've \Ndeemed us in need of it,
+Dialogue: 0,0:03:23.91,0:03:25.40,main,K,0000,0000,0000,,but once we're outside of their jurisdiction,
+Dialogue: 0,0:03:25.40,0:03:29.30,main,K,0000,0000,0000,,the fact that we're "just students" \Ndoesn't hold water anymore.
+Dialogue: 0,0:03:29.30,0:03:30.82,main,K,0000,0000,0000,,That being the case,
+Dialogue: 0,0:03:30.82,0:03:34.03,main,K,0000,0000,0000,,I now need to come up with a way \Nfor us to produce these DVDs.
+Dialogue: 0,0:03:34.03,0:03:36.80,main,K,0000,0000,0000,,I'll figure it out, so don't worry.
+Dialogue: 0,0:03:36.80,0:03:37.98,main,K,0000,0000,0000,,In the meantime,
+Dialogue: 0,0:03:37.98,0:03:41.25,main,K,0000,0000,0000,,I need the rest of you to think \Nup a way to finish the short.
+Dialogue: 0,0:03:41.25,0:03:42.70,main,M,0000,0000,0000,,No... but it's already...
+Dialogue: 0,0:03:42.70,0:03:43.94,main,A,0000,0000,0000,,Think...
+Dialogue: 0,0:03:44.85,0:03:47.17,main,A,0000,0000,0000,,That's it! Keep thinking!
+Dialogue: 0,0:03:47.17,0:03:50.46,main,A,0000,0000,0000,,Let's adjust the whole thing to fit this score!
+Dialogue: 0,0:03:50.46,0:03:54.74,main,A,0000,0000,0000,,We'll ditch the dance scene! And make\N major adjustments to the story!
+Dialogue: 0,0:03:57.50,0:04:00.92,sign_5695_125_Episode_12______,Eptitle sign,0000,0000,0000,,{\fscx110\fad(515,515)}Episode 12        {\fscx120}Shibahama UFO Wars!
+Dialogue: 0,0:04:54.10,0:04:55.27,Keep Your Hands Off Eizouken,,0000,0000,0000,,Keep
+Dialogue: 0,0:04:56.48,0:04:57.65,Keep Your Hands Off Eizouken,,0000,0000,0000,,Your
+Dialogue: 0,0:04:59.02,0:05:00.19,Keep Your Hands Off Eizouken,,0000,0000,0000,,Hands
+Dialogue: 0,0:05:01.53,0:05:02.69,Keep Your Hands Off Eizouken,,0000,0000,0000,,Off
+Dialogue: 0,0:05:02.90,0:05:12.62,Keep Your Hands Off Eizouken,,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:05:13.33,0:05:23.34,Keep Your Hands Off Eizouken,,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:05:26.47,0:05:28.99,main,K,0000,0000,0000,,You want to what?! After all \Nthis time!? Is that a joke?!
+Dialogue: 0,0:05:28.99,0:05:29.96,main,M,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:05:29.96,0:05:31.50,main,K,0000,0000,0000,,You get two seconds to explain.
+Dialogue: 0,0:05:31.50,0:05:33.85,main,A,0000,0000,0000,,Can't... Neck...
+Dialogue: 0,0:05:33.85,0:05:35.11,main,K,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:05:35.11,0:05:36.48,main,A,0000,0000,0000,,I'm sorry, Mizusaki.
+Dialogue: 0,0:05:36.48,0:05:39.27,main,A,0000,0000,0000,,Something's actually been kinda \Nbothering me about the finale.
+Dialogue: 0,0:05:39.27,0:05:40.61,main,A,0000,0000,0000,,Whether it was a good idea.
+Dialogue: 0,0:05:40.61,0:05:44.27,main,A,0000,0000,0000,,We can adjust the whole \Nthing to suit this music,
+Dialogue: 0,0:05:44.27,0:05:45.79,main,A,0000,0000,0000,,and then, if we make a new finale,
+Dialogue: 0,0:05:45.79,0:05:47.83,main,A,0000,0000,0000,,I think it'll turn out even \Nbetter than we we have.
+Dialogue: 0,0:05:47.83,0:05:49.61,main,M,0000,0000,0000,,Adjust to the music?
+Dialogue: 0,0:05:49.61,0:05:54.51,main,A,0000,0000,0000,,We can release the dance scene as \Nspecial extra footage somewhere.
+Dialogue: 0,0:05:55.22,0:05:57.62,main,K,0000,0000,0000,,"Adjust the whole thing." \N"Change the finale."
+Dialogue: 0,0:05:57.62,0:05:58.86,main,K,0000,0000,0000,,There's no way we have time to—
+Dialogue: 0,0:05:58.86,0:06:01.63,main,A,0000,0000,0000,,We can use the material we already \Nhave for everything except the finale!
+Dialogue: 0,0:06:01.63,0:06:03.91,main,A,0000,0000,0000,,And the finale would only \Nbe another two cuts!
+Dialogue: 0,0:06:03.91,0:06:08.22,main,A,0000,0000,0000,,So... we should be able to \Nfinish by... morning, I think.
+Dialogue: 0,0:06:08.22,0:06:11.46,main,M,0000,0000,0000,,And the final result will something \Nyou'd be satisfied with?
+Dialogue: 0,0:06:12.13,0:06:13.01,main,A,0000,0000,0000,,Indeed!
+Dialogue: 0,0:06:13.97,0:06:17.43,main,A,0000,0000,0000,,Right now, we have a story where two \Nsides with different positions start fighting,
+Dialogue: 0,0:06:17.43,0:06:19.44,main,A,0000,0000,0000,,and then a pair of prisoners from each side
+Dialogue: 0,0:06:19.44,0:06:21.59,main,A,0000,0000,0000,,realize everything they have in common,
+Dialogue: 0,0:06:21.59,0:06:24.53,main,A,0000,0000,0000,,and how a misunderstanding is \Nwhat caused the conflict.
+Dialogue: 0,0:06:24.86,0:06:29.45,main,A,0000,0000,0000,,"There's no real reason to fight." \NIn order to convey that message,
+Dialogue: 0,0:06:29.45,0:06:33.08,main,A,0000,0000,0000,,the duo repair, and then activate \Na tool that sends a message.
+Dialogue: 0,0:06:33.08,0:06:34.42,main,A,0000,0000,0000,,The signal goes out.
+Dialogue: 0,0:06:34.42,0:06:36.21,main,A,0000,0000,0000,,A sound that reaches everywhere.
+Dialogue: 0,0:06:36.87,0:06:41.29,main,A,0000,0000,0000,,After everyone hears it, they understand\N the truth in an instant,
+Dialogue: 0,0:06:41.29,0:06:43.67,main,A,0000,0000,0000,,with everyone putting down \Ntheir weapons at once,
+Dialogue: 0,0:06:43.67,0:06:47.92,main,A,0000,0000,0000,,agreeing to respect each \Nother's territory, de-escalate,
+Dialogue: 0,0:06:46.02,0:06:47.92,sign_9735_163_Coexistence,Sign,0000,0000,0000,,{\fad(756,1)}Coexistence
+Dialogue: 0,0:06:47.92,0:06:49.58,main,A,0000,0000,0000,,and the relationship turns friendly.
+Dialogue: 0,0:06:50.88,0:06:52.76,main,A,0000,0000,0000,,And then there's a dance party.
+Dialogue: 0,0:06:50.88,0:06:52.76,sign_9852_161_Camera_continues,Storyboard Signs,0000,0000,0000,,Camera continues to gradually pull out,\Nthe scene repeating,\Ncreating momentum
+Dialogue: 0,0:06:50.88,0:06:52.76,sign_9852_162_Dance_party_with,Storyboard Signs,0000,0000,0000,,{\pos(158,178)\frz5.75}Dance party with\Nkappas and\N people begins!!
+Dialogue: 0,0:06:53.69,0:06:55.30,main,A,0000,0000,0000,,But that'd never happen!
+Dialogue: 0,0:06:55.30,0:06:59.10,main,A,0000,0000,0000,,Even in times of peace, different sides \Nwill jockey for position and benefits!
+Dialogue: 0,0:06:59.81,0:07:01.95,main,A,0000,0000,0000,,Take any respected individual.
+Dialogue: 0,0:06:59.81,0:07:29.34,sign_10066_165_Disrespect_Schoo,A,0000,0000,0000,,{\fad(5156,1)}Disrespect      School regulations\NWeight loss      Social media\NRecycling      Stalking\NGenerational differences      Poaching (cooking) & Poaching (killing)\NTrash      Abusive workplaces\NCryptocurrency      Property\NAging population      Higher taxes\NAccidents      Alcohol\NCancel culture      Death from overwork\NViolence      Self-sufficiency\NAllowances      Bias\NSexual harassment      Power harassment\N"Don't rock the boat" thinking      Ransom\NGambling      Unpaid overtime\NDeath of the pension system      Abuse\NInternet trouble      PTA\NInequality      Decay\NCosts\NEducation      Study\NTardiness\N Bullying      Talent\NCamaraderie      Child rearing\NTests      Moratoriums\NGrades      Contagion\NCrime      Infidelity\NKidnapping      Corporal punishment
+Dialogue: 0,0:06:59.81,0:07:29.34,sign_10066_166________Suicide__,A,0000,0000,0000,,{\fad(5156,1)}Suicide      Equality\NEndurance      The working poor\NComplaints      Territory\NDependence      Cram schools\NOne-click      E-mail\NInvasive species      Panic\NMom friends      Gender\NBest friends      Effort\NRenovation      Extortion\NDrugs      Crowded trains\NPost-Olympics recession      Landslides\NLack of consideration      Freedom\NShut-ins      Board of education\NMonster parents      Over-achievers\NCriminal relationships      Social castes\NRace      Segregation\NCyber education      Missiles\NControversy      Senior isolation\NInfrastructure      Closings\NHigher education      Homeless children\NWater      Nationality\NCriminal recidivism      Conflict\NNukes      Marathons\NStudent council      Future\NVacant housing      Genetic modification
+Dialogue: 0,0:07:01.95,0:07:04.02,main,A,0000,0000,0000,,Once their interests don't align \Nwith yours, that opinion changes!
+Dialogue: 0,0:07:17.19,0:07:20.15,main,A,0000,0000,0000,,The majority of what's going \Non in the world isn't peaceful!
+Dialogue: 0,0:07:23.13,0:07:27.36,main,A,0000,0000,0000,,There's no such thing as a perfect 50/50 split!
+Dialogue: 0,0:07:29.34,0:07:31.76,main,K,0000,0000,0000,,Even when you share the same ideals,
+Dialogue: 0,0:07:31.76,0:07:33.84,main,K,0000,0000,0000,,making certain distinctions \Ncan still be hard, true.
+Dialogue: 0,0:07:34.28,0:07:36.00,main,K,0000,0000,0000,,So what happens?
+Dialogue: 0,0:07:36.00,0:07:37.71,main,A,0000,0000,0000,,The fighting doesn't stop!
+Dialogue: 0,0:07:38.47,0:07:42.16,main,A,0000,0000,0000,,But even then, the POW human \Nand POW kappa don't give up!
+Dialogue: 0,0:07:42.16,0:07:43.31,main,A,0000,0000,0000,,They try again!
+Dialogue: 0,0:07:44.15,0:07:46.61,main,A,0000,0000,0000,,Even if what they think is right doesn't work,
+Dialogue: 0,0:07:46.61,0:07:51.07,main,A,0000,0000,0000,,they keep thinking, and keep \Ndoing what they believe is right!
+Dialogue: 0,0:07:51.65,0:07:54.07,main,M,0000,0000,0000,,Hey, neither of them will \Nbe able to back down, now!
+Dialogue: 0,0:07:54.07,0:07:55.62,main,M,0000,0000,0000,,Are they both going to die?
+Dialogue: 0,0:07:57.12,0:07:59.21,main,A,0000,0000,0000,,The path they ultimately choose is...
+Dialogue: 0,0:08:07.63,0:08:09.39,main,K,0000,0000,0000,,You've got until morning.
+Dialogue: 0,0:08:11.09,0:08:12.63,main,A,0000,0000,0000,,Roger, dodger, and wilco!
+Dialogue: 0,0:08:14.59,0:08:19.14,sign_11868_184_Film,Building sign,0000,0000,0000,,{\frz1.64\fax0.07\move(650,65,305,70)}Film
+Dialogue: 0,0:08:19.14,0:08:20.64,sign_11968_185_Film,Building sign,0000,0000,0000,,{\pos(332,265)}Film
+Dialogue: 0,0:08:22.64,0:08:24.14,sign_12052_186_Film,Building sign,0000,0000,0000,,Film
+Dialogue: 0,0:08:26.90,0:08:28.40,sign_12052_186_Film,Building sign,0000,0000,0000,,{\c&H2D402F&\3c&HF3EAEA&}Film
+Dialogue: 0,0:08:30.40,0:08:31.90,sign_12052_186_Film,Building sign,0000,0000,0000,,{\c&H303C33&\3c&HFFFFFF&}Film
+Dialogue: 0,0:08:35.41,0:08:36.91,sign_12052_186_Film,Building sign,0000,0000,0000,,{\c&H8D8687&\3c&HFFFFFF&}Film
+Dialogue: 0,0:08:53.92,0:08:57.18,main,K,0000,0000,0000,,I'm here to deliver that \Ndata you were asking for.
+Dialogue: 0,0:09:00.08,0:09:03.18,sign_12949_191_Shibahama_Shoppi,Street signs,0000,0000,0000,,Shibahama Shopping District's\N{\c&FFFFFF&\3c&H482297&}Local Celebration Anime!\N{\c&H944437&\3c&HBDB8BD&}On Sale at Comet A!
+Dialogue: 0,0:09:10.01,0:09:12.41,main,K,0000,0000,0000,,I've arranged for the DVDs.
+Dialogue: 0,0:09:12.41,0:09:16.51,main,K,0000,0000,0000,,You need to be done in the next\N 43 minutes and 30 seconds.
+Dialogue: 0,0:09:16.51,0:09:20.23,main,Trio,0000,0000,0000,,Roger that!
+Dialogue: 0,0:09:17.91,0:09:19.41,sign_13377_195_Film,Building sign,0000,0000,0000,,{\move(465,120,465,185)}Film
+Dialogue: 0,0:09:29.22,0:09:30.69,main,Crowd,0000,0000,0000,,So how much are you spending today?
+Dialogue: 0,0:09:30.69,0:09:31.71,main,Crowd,0000,0000,0000,,Gonna hit a convenience store first.
+Dialogue: 0,0:09:31.71,0:09:33.71,main,Crowd,0000,0000,0000,,You think the Katou sisters \Nwill be there this year?
+Dialogue: 0,0:09:33.71,0:09:35.09,main,Crowd,0000,0000,0000,,Uh, what sisters are those?
+Dialogue: 0,0:09:35.87,0:09:38.22,main,Crowd,0000,0000,0000,,I heard there's a new anime \Nfrom Studio Kobanzame.
+Dialogue: 0,0:09:38.54,0:09:39.33,main,Crowd,0000,0000,0000,,For real?
+Dialogue: 0,0:09:39.33,0:09:41.63,main,Crowd,0000,0000,0000,,They updated their blog out \Nof nowhere this morning.
+Dialogue: 0,0:09:48.26,0:09:50.28,italics,PA,0000,0000,0000,,{\an8}Good morning.
+Dialogue: 0,0:09:50.28,0:09:54.09,italics,PA,0000,0000,0000,,{\an8}As of this moment, Comet A is now open.
+Dialogue: 0,0:10:04.49,0:10:05.69,main,Customer,0000,0000,0000,,I'll take one of those red ones.
+Dialogue: 0,0:10:05.69,0:10:06.75,main,Customer,0000,0000,0000,,No, the other red.
+Dialogue: 0,0:10:06.75,0:10:08.90,main,Vendor,0000,0000,0000,,Oh, we're out of 100 yen coins...
+Dialogue: 0,0:10:08.90,0:10:09.75,main,Vendor,0000,0000,0000,,Oh, that'd be a huge help!
+Dialogue: 0,0:10:09.75,0:10:13.84,sign_14620_209_Blast_Past_Those,Zine titles,0000,0000,0000,,Blast Past Those Borders!\NMonthly Borders
+Dialogue: 0,0:10:10.15,0:10:13.84,main,Borders Editor,0000,0000,0000,,Kinda feels... like we're \Nkind of out of place, here.
+Dialogue: 0,0:10:14.18,0:10:16.78,main,Customer,0000,0000,0000,,How long did it take to make this?
+Dialogue: 0,0:10:16.78,0:10:17.97,main,Lady,0000,0000,0000,,Eight years.
+Dialogue: 0,0:10:17.97,0:10:19.34,main,Customer,0000,0000,0000,,Eight...
+Dialogue: 0,0:10:19.34,0:10:21.32,main,Crowd,0000,0000,0000,,There she is! Tsubame Mizusaki!
+Dialogue: 0,0:10:19.34,0:10:26.56,sign_14850_214_Traveling_to,Next to Eizouken sign,0000,0000,0000,,{\fay.04}Traveling to
+Dialogue: 0,0:10:19.34,0:10:26.56,sign_14850_215_Iceland,Next to Eizouken sign,0000,0000,0000,,{\fay.04\pos(482,299)}Iceland
+Dialogue: 0,0:10:21.32,0:10:22.34,main,Crowd,0000,0000,0000,,So cute!
+Dialogue: 0,0:10:22.01,0:10:23.57,main,Crowd,0000,0000,0000,,Hey, this is it.
+Dialogue: 0,0:10:22.34,0:10:23.57,main,Crowd,0000,0000,0000,,Her face is so tiny!
+Dialogue: 0,0:10:22.71,0:10:24.58,top,M,0000,0000,0000,,Thank you very much!
+Dialogue: 0,0:10:23.57,0:10:25.54,main,Crowd,0000,0000,0000,,This says it's set in Shibahama.
+Dialogue: 0,0:10:26.56,0:10:28.85,main,M,0000,0000,0000,,That'll be 1,000 yen.
+Dialogue: 0,0:10:32.39,0:10:34.21,main,K,0000,0000,0000,,Yakisoba omelets.
+Dialogue: 0,0:10:34.21,0:10:35.70,main,A,0000,0000,0000,,Thanks muchly.
+Dialogue: 0,0:10:36.15,0:10:36.86,main,A,0000,0000,0000,,Here you are.
+Dialogue: 0,0:10:36.86,0:10:37.77,main,M,0000,0000,0000,,There I am.
+Dialogue: 0,0:10:45.54,0:10:50.25,sign_15478_227_The_cut_scene_th,Sign,0000,0000,0000,,{\pos(282,20)\frx2\fry340}The {\3c&H4A5C9A&}cut scene {\3c&H76ACC1&}that Tsubame Mizusaki\N{\3c&H5E589D&}poured her heart and soul into!\N{\3c&H76ACC1&}Purchase a DVD and you'll be able\Nto see the {\3c&H6E6FB4&}finished version \N{\3c&H76ACC1&}(with sound) online in the future!
+Dialogue: 0,0:10:58.76,0:11:01.26,sign_15795_228_Eizouken,Sign,0000,0000,0000,,{\fax-0.28\frz20.38\pos(375,75)\fscx95}Eizouken
+Dialogue: 0,0:11:01.26,0:11:03.76,sign_15855_229_Love,Calligraphy sign,0000,0000,0000,,{\frz-14.24\fax-0.15\pos(371,158)}Love
+Dialogue: 0,0:11:08.77,0:11:11.27,sign_16035_230_Large_Scale_Farm,Blue booth sign,0000,0000,0000,,{\pos(534,324)}Large-Scale Farming Machinery\N{\fs20} Anime
+Dialogue: 0,0:11:17.55,0:11:19.40,main,M,0000,0000,0000,,Thank you very much!
+Dialogue: 0,0:11:21.06,0:11:23.63,main,A,0000,0000,0000,,I wasn't mentally ready for this.
+Dialogue: 0,0:11:24.95,0:11:29.15,main,A,0000,0000,0000,,I'm not sure where I am, or what I'm doing here.
+Dialogue: 0,0:11:29.87,0:11:31.79,main,A,0000,0000,0000,,It doesn't feel real.
+Dialogue: 0,0:11:32.53,0:11:34.93,main,A,0000,0000,0000,,All these folks, who've lived \Nlives totally different from mine,
+Dialogue: 0,0:11:34.93,0:11:37.80,main,A,0000,0000,0000,,who are neither friend or foe,
+Dialogue: 0,0:11:37.80,0:11:41.89,main,A,0000,0000,0000,,come here, hand cash over, \Nand walk away with a box, but why?
+Dialogue: 0,0:11:43.70,0:11:46.57,main,A,0000,0000,0000,,So tired. Wanna go home.
+Dialogue: 0,0:11:48.64,0:11:49.92,main,Customer,0000,0000,0000,,You're really cute!
+Dialogue: 0,0:11:48.64,0:11:51.39,sign_16991_241_Eizouken_Anime,New kanamori sign,0000,0000,0000,,{\pos(421,190)\frx4\fry348}Eizouken\N{\b1\c&H5C8A9E&\3c&H001726&}Anime
+Dialogue: 0,0:11:49.92,0:11:51.39,main,M,0000,0000,0000,,Thank you so much!
+Dialogue: 0,0:11:51.79,0:11:56.29,main,Staff,0000,0000,0000,,{\an8}This is a thoroughfare! Please stay in motion!
+Dialogue: 0,0:11:56.74,0:11:58.65,main,M,0000,0000,0000,,I'm hungry for some sincere criticism.
+Dialogue: 0,0:11:58.99,0:12:01.93,main,M,0000,0000,0000,,I bet that's something that'll never go away.
+Dialogue: 0,0:12:02.66,0:12:03.91,main,K,0000,0000,0000,,All right.
+Dialogue: 0,0:12:04.85,0:12:06.49,main,K,0000,0000,0000,,Time for paper bags.
+Dialogue: 0,0:12:06.49,0:12:08.74,sign_17419_247_Pictures,Mizusaki Bag sign,0000,0000,0000,,{\pos(136,43)}Pictures
+Dialogue: 0,0:12:08.74,0:12:10.86,main,Crowd,0000,0000,0000,,Is that Tsubame Mizusaki?
+Dialogue: 0,0:12:10.86,0:12:13.13,main,A,0000,0000,0000,,Seems pretty obvious who she is, bag or not.
+Dialogue: 0,0:12:13.13,0:12:16.01,main,K,0000,0000,0000,,And that's fine. It's all stagecraft.
+Dialogue: 0,0:12:16.01,0:12:21.76,main,K,0000,0000,0000,,The idea of "The model who makes anime" \Nhelps strengthen Mizusaki's identity,
+Dialogue: 0,0:12:21.76,0:12:26.51,sign_17785_252__kenkenpi_221_Mi,Sign,0000,0000,0000,,@kpst_066\NI saw something, but I dunno if it's her or not. #TsubameMizusaki\N\N@mooric_07\NWhoa, there's someone who kinda looks like Tsubame Mizusaki at Comet A #CometA\N\N@gmzymt\NI think she's selling something, but Tsubame Mizusaki being at Comet A freaked me out... #CometA\N\N@2000tinachu\NOh, that's cool. #CometA\N\N@gmzymt\NApparently Tsubame Mizusaki is making an anime while in high school. Impressive. #CometA\N\N@mtbokkuri_t2\NSaw Tsubame Mizusaki at Comet A with a paper bag on her head lol #CometA\N\N@a2k801\NHuh?! That was actually Tsubame?! I should've shaked her hand.... <- #TsubameMizusaki #CometA\N\N@chelyama\Nwiped out from setting up table #CometA\N\N@ryuusis_1710\Nhang on!!! tsubame's at comet a!!!! she's got a paper bag and is selling an anime for some group!!! why!?!?!?!?! #CometA\N\N@bujisawa_0827\NIt's unbelievable that she's a popular amateur model and an animator. I guess God gives some people two gifts. #CometA\N\N@cs_1992_mnm\NWow someone at Comet A looks a lot like Tsubame Mizusaki! is what I thought when I passed by, but I guess that's really her. I wonder if she made something. #CometA\N\N@asstnt_ss\NI'm almost there! I hope the book I wanted is still in stock... #CometA\N\N@kkk375\NThat was Tsubame Mizusaki selling something, right?! She was super cute #CometA\N\N@yoi_0902\NTsubame made an anime? I should've gone...! #CometA\N\N@minami47uv\Nwhy the paper bag tho #TsubameMizusaki #CometA
+Dialogue: 0,0:12:22.10,0:12:23.49,main,K,0000,0000,0000,,but if we have people speculating on why
+Dialogue: 0,0:12:23.49,0:12:25.40,main,K,0000,0000,0000,,she would go as far as to hide her identity,
+Dialogue: 0,0:12:25.40,0:12:26.51,main,K,0000,0000,0000,,just because she's making anime...
+Dialogue: 0,0:12:26.51,0:12:29.60,main,K,0000,0000,0000,,It will amplify their interest in the project.
+Dialogue: 0,0:12:29.60,0:12:30.99,main,Crowd,0000,0000,0000,,I'd like a copy.
+Dialogue: 0,0:12:30.99,0:12:32.35,main,Crowd,0000,0000,0000,,Me, too.
+Dialogue: 0,0:12:32.35,0:12:33.66,main,Crowd,0000,0000,0000,,Can I get one?
+Dialogue: 0,0:12:33.66,0:12:34.84,main,Crowd,0000,0000,0000,,I'd like a copy!
+Dialogue: 0,0:12:34.84,0:12:35.85,main,Crowd,0000,0000,0000,,Um, I'd like a copy.
+Dialogue: 0,0:12:34.84,0:12:35.85,main,Crowd,0000,0000,0000,,One for me.
+Dialogue: 0,0:12:35.85,0:12:37.45,main,M,0000,0000,0000,,Thank you so much!
+Dialogue: 0,0:12:36.27,0:12:38.05,top,A,0000,0000,0000,,That'll be 1,000 yen.
+Dialogue: 0,0:12:38.05,0:12:39.02,main,Fan,0000,0000,0000,,I'm a big fan!
+Dialogue: 0,0:12:39.02,0:12:40.23,main,M,0000,0000,0000,,Thanks!
+Dialogue: 0,0:12:39.37,0:12:40.69,main,A,0000,0000,0000,,It's 1,000 yen a piece.
+Dialogue: 0,0:12:40.23,0:12:41.31,top,Crowd,0000,0000,0000,,I'll take one.
+Dialogue: 0,0:12:41.31,0:12:43.20,main,Crowd,0000,0000,0000,,Thank you.
+Dialogue: 0,0:12:46.95,0:12:49.30,main,Crowd,0000,0000,0000,,Excuse me, can I get one?
+Dialogue: 0,0:12:47.93,0:12:49.30,main,M,0000,0000,0000,,Thanks for coming by!
+Dialogue: 0,0:12:49.30,0:12:51.20,main,A,0000,0000,0000,,That'll be 1,000 yen.
+Dialogue: 0,0:13:09.33,0:13:13.78,italics,PA,0000,0000,0000,,{\an8}This now concludes Comet A.
+Dialogue: 0,0:13:24.81,0:13:28.24,main,A,0000,0000,0000,,I still haven't sat down \Nand watched my own anime.
+Dialogue: 0,0:13:28.24,0:13:32.87,main,A,0000,0000,0000,,Hey, let's watch {\i1}Shibahama UFO Wars{\i0} at my house!
+Dialogue: 0,0:13:32.87,0:13:37.25,sign_19490_276_Shibahama_South_,Sign,0000,0000,0000,,{\frz11.62\fax-0.16\pos(392,231)}Shibahama South Building
+Dialogue: 0,0:13:37.25,0:13:40.78,main,K,0000,0000,0000,,Turning a profit from these kinds of \Nevents is a bit of an anachronism,
+Dialogue: 0,0:13:40.78,0:13:44.33,main,K,0000,0000,0000,,but when you factor in the awareness \Nthat this has built for us,
+Dialogue: 0,0:13:44.33,0:13:46.81,main,K,0000,0000,0000,,I think we can call this project a success.
+Dialogue: 0,0:13:46.81,0:13:50.05,main,M,0000,0000,0000,,The reactions on social \Nmedia were pretty good, too!
+Dialogue: 0,0:14:01.99,0:14:02.85,main,A,0000,0000,0000,,Come to think of it,
+Dialogue: 0,0:14:02.85,0:14:06.00,main,A,0000,0000,0000,,Doumeki just recorded some audio from \Nthe show floor and then left, huh?
+Dialogue: 0,0:14:06.00,0:14:08.50,main,K,0000,0000,0000,,She doesn't believe in group activities\N for their own sake, after all.
+Dialogue: 0,0:14:09.30,0:14:11.07,main,M,0000,0000,0000,,All right, let's get this party started!
+Dialogue: 0,0:14:17.68,0:14:26.59,sign_20564_285_Shibahama,Untranslated part of street signs,0000,0000,0000,,{\pos(550,102)\fad(927,1)}Shibahama
+Dialogue: 0,0:14:17.68,0:14:26.59,sign_20564_285_Shibahama,Untranslated part of street signs,0000,0000,0000,,{\pos(19,167)\fad(927,1)}Shibahama
+Dialogue: 0,0:14:17.68,0:14:26.59,sign_20564_285_Shibahama,Untranslated part of street signs,0000,0000,0000,,{\fs14\pos(416,297)\clip(m 419 279 l 373 277 371 305 438 301)\fad(927,1)}Shibahama
+Dialogue: 0,0:14:17.68,0:14:26.59,sign_20564_285_Shibahama,Untranslated part of street signs,0000,0000,0000,,{\fs18\pos(468,213)\fad(927,1)}Shibahama
+Dialogue: 0,0:14:17.68,0:14:26.59,sign_20564_285_Shibahama,Untranslated part of street signs,0000,0000,0000,,{\fs18\pos(72,264)\clip(m 78 245 l 59 269 122 270 122 244)\fad(927,1)}Shibahama
+Dialogue: 0,0:14:21.73,0:14:26.59,sign_20661_290_Shibahama__Shopp,Sign,0000,0000,0000,,{\fad(1000,1)}Shibahama\N Shopping\N District
+Dialogue: 0,0:14:26.59,0:14:28.59,sign_20778_291_Film_,Sign,0000,0000,0000,,{\pos(319,90)}Film
+Dialogue: 0,0:14:26.59,0:14:28.59,sign_20778_292_Film__The_Film_R,Sign,0000,0000,0000,,{\pos(325,240)\fsp2}The Film Study Association
+Dialogue: 0,0:14:34.78,0:14:36.89,sign_20974_293_Look_Out__Danger,Warning sign,0000,0000,0000,,Look Out\N{\c&HBB8597&\b1\3c&H41515E&\fs40}Danger
+Dialogue: 0,0:22:04.67,0:22:05.96,main,M,0000,0000,0000,,That was...
+Dialogue: 0,0:22:05.96,0:22:09.10,main,K,0000,0000,0000,,Agreed. The visuals and sound, both.
+Dialogue: 0,0:22:09.10,0:22:13.39,main,M,0000,0000,0000,,Kinda hard to say for sure \Nwithout Asakusa's input, but...
+Dialogue: 0,0:22:17.39,0:22:18.95,main,M,0000,0000,0000,,Even then, it's pretty easy...
+Dialogue: 0,0:22:18.95,0:22:21.34,main,K,0000,0000,0000,,...to imagine what she's going to say.
+Dialogue: 0,0:22:21.90,0:22:24.73,main,K,0000,0000,0000,,We've got more to do tomorrow, \Nso let's head home.
+Dialogue: 0,0:22:42.19,0:22:44.34,main,A,0000,0000,0000,,There's still a lot of room for improvement.
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_301_Animation_by__Su,,0000,0000,0000,,{\fscx120}Animation by:     {\fscx90}Sumito Owara

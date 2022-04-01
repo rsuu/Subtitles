@@ -1,0 +1,465 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: YY-main,Amira,25,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-overlap,Amira,25,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-note,Amira,22,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: YY-note-big,Amira,27,&H00000000,&H000000FF,&H00EEF2ED,&H00FFFFFF,0,0,0,0,100,100,0,0,1,3,0,8,0020,0020,0015,0
+Style: YY-Sign-top,Amira,30,&H00FCFEFF,&H000000FF,&H0000082A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0090,0090,0020,0
+Style: YY-title,Amira,50,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,110,100,0,0,1,0,3,8,0020,0020,0020,0
+Style: YY-ep-title-top,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0100,0
+Style: YY-ep-title-bottom,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0100,0
+Style: YY-eyecatch,Amira,30,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,100,100,0,0,1,4,2,4,0020,0020,0020,0
+Style: Next Episode,Amira,45,&H000000A7,&H000000FF,&H00FFFFFF,&H005E6E5A,1,0,0,0,100,100,0,0,1,2,1,3,0020,0050,0080,0
+Style: Next ep title,Amira,40,&H00001627,&H000000FF,&H0095C296,&H008CA695,0,0,0,0,100,100,0,0,1,0,2,1,0052,0020,0090,0
+Style: Natsume-end-title,Amira,30,&H00AC751D,&H000000FF,&H008ABEE8,&H00273821,1,0,0,0,100,100,0,0,1,0,2,9,0020,0020,0020,0
+Style: Class,Amira,25,&H0045432D,&H000000FF,&H00D1C9B6,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0010,0010,0015,0
+Style: Council,Amira,25,&H00FFFBF6,&H000000FF,&H00474C45,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0020,0020,0020,0
+Style: 1 week later,Amira,27,&H00FFFFFF,&H000000FF,&H0025281E,&H003A3D33,0,0,0,0,100,100,0,0,1,3,2,2,0020,0020,0020,0
+Style: ayano,Amira,32,&H001333E8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H007D4E07,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,7,7,13,1
+Style: anemic,Amira,45,&H00F8FBFF,&H000000FF,&H00020076,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,0060,0020,0020,1
+Style: missed,Amira,42,&H005947EE,&H000000FF,&H00EBEFFD,&H00000000,0,0,0,0,100,100,0,0,1,2,3,8,0020,0020,0020,1
+Style: unfortunately,Amira,35,&H00FFFFFF,&H000000FF,&H0025281E,&H003A3D33,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0080,0
+Style: Ding Dong,Amira,40,&H007AF0FD,&H000000FF,&H005F54B8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: punkin,Amira,40,&H00362B3D,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,{\pos(264,180)}Yuru Yuri 2 Episode 3 "Chocolate and \NTears and Girls and Girls and Isobe Fries"
+Dialogue: 0,0:00:03.19,0:00:04.93,Default,ALL,0000,0000,0000,,Akarin!
+Dialogue: 0,0:00:05.35,0:00:06.63,Default,AKARI,0000,0000,0000,,Hey!
+Dialogue: 0,0:00:06.63,0:00:08.50,Default,AKARI,0000,0000,0000,,Another UFO?
+Dialogue: 0,0:00:08.50,0:00:10.64,Default,AKARI,0000,0000,0000,,Bun bazooka!
+Dialogue: 0,0:00:11.57,0:00:12.66,Default,AKARI,0000,0000,0000,,I did it!
+Dialogue: 0,0:00:13.05,0:00:14.79,Default,AKARI,0000,0000,0000,,Let's take it from the top!
+Dialogue: 0,0:00:14.79,0:00:16.18,Default,AKARI,0000,0000,0000,,Yuru Yuri's start...
+Dialogue: 0,0:00:25.65,0:00:26.90,Default,SAKURAKO,0000,0000,0000,,I'm so tired!
+Dialogue: 0,0:00:26.90,0:00:29.43,Default,HIMAWARI,0000,0000,0000,,I bet you were up late last night.
+Dialogue: 0,0:00:29.43,0:00:34.23,Default,SAKURAKO,0000,0000,0000,,Once I started reading\N {\i1}The Glass Mask{\i0}, I couldn't stop.
+Dialogue: 0,0:00:34.23,0:00:36.39,Default,HIMAWARI,0000,0000,0000,,You're hopeless.
+Dialogue: 0,0:00:37.02,0:00:38.48,Default,SAKURAKO,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:00:38.48,0:00:40.26,Default,SAKURAKO,0000,0000,0000,,I'm gonna sleep through first period,
+Dialogue: 0,0:00:40.26,0:00:41.63,Default,,0000,0000,0000,,so let me copy your notes later!
+Dialogue: 0,0:00:41.63,0:00:42.78,Default,HIMAWARI,0000,0000,0000,,No.
+Dialogue: 0,0:00:42.78,0:00:43.46,Default,SAKURAKO,0000,0000,0000,,What?
+Dialogue: 0,0:00:43.46,0:00:44.58,Default,SAKURAKO,0000,0000,0000,,Why not?
+Dialogue: 0,0:00:44.58,0:00:45.89,Default,SAKURAKO,0000,0000,0000,,Himawari, you're so mean!
+Dialogue: 0,0:00:46.19,0:00:49.36,Default,HIMAWARI,0000,0000,0000,,How does that make me mean?
+Dialogue: 0,0:00:49.54,0:00:51.04,Default,SAKURAKO,0000,0000,0000,,Because it {\i1}is{\i0} mean.
+Dialogue: 0,0:00:51.04,0:00:53.87,Default,HIMAWARI,0000,0000,0000,,Isn't it normal for people \Nto take their own notes?
+Dialogue: 0,0:00:53.87,0:00:56.47,Default,SAKURAKO,0000,0000,0000,,Fine, you booby monster!
+Dialogue: 0,0:00:57.14,0:00:59.85,Default,HIMAWARI,0000,0000,0000,,You think name calling will \Nmake me show you my notes?
+Dialogue: 0,0:01:00.48,0:01:05.79,Default,SAKURAKO,0000,0000,0000,,Monster, monster, booby monster, go!
+Dialogue: 0,0:01:06.49,0:01:08.21,Default,SAKURAKO,0000,0000,0000,,This is actually kinda fun!
+Dialogue: 0,0:01:08.47,0:01:09.99,Default,HIMAWARI,0000,0000,0000,,You don't say.
+Dialogue: 0,0:02:40.97,0:02:45.93,YY-ep-title-top,EPTITLE,0000,0000,0000,,{\pos(320,76)}"Chocolate and Tears and Girls \Nand Girls and Isobe Fries"
+Dialogue: 0,0:02:46.84,0:02:50.81,Default,SAKURAKO,0000,0000,0000,,Isobe fried fish cakes! \NIsobe fried fish cakes!
+Dialogue: 0,0:02:50.81,0:02:52.35,Default,HIMAWARI,0000,0000,0000,,Sakurako, shut up.
+Dialogue: 0,0:02:52.81,0:02:54.48,Default,SAKURAKO,0000,0000,0000,,But I like them.
+Dialogue: 0,0:02:54.48,0:02:56.72,Default,AKARI,0000,0000,0000,,Isobe fries are so good.
+Dialogue: 0,0:02:56.72,0:02:59.03,Default,SAKURAKO,0000,0000,0000,,Hey, Himawari, my lunch.
+Dialogue: 0,0:02:59.34,0:03:01.99,Default,HIMAWARI,0000,0000,0000,,Yes, yes. I'll go get it.
+Dialogue: 0,0:03:08.62,0:03:09.96,Default,SAKURAKO,0000,0000,0000,,These are mine!
+Dialogue: 0,0:03:10.33,0:03:11.12,Default,HIMAWARI,0000,0000,0000,,Hey...
+Dialogue: 0,0:03:12.31,0:03:14.15,Default,CHINATSU,0000,0000,0000,,It's seaweed rice today.
+Dialogue: 0,0:03:14.15,0:03:15.52,Default,SAKURAKO,0000,0000,0000,,Oh my God!
+Dialogue: 0,0:03:17.86,0:03:19.72,Default,AKARI,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:03:20.01,0:03:23.64,Default,SAKURAKO,0000,0000,0000,,Forgot chopsticks...
+Dialogue: 0,0:03:23.64,0:03:26.15,Default,CHINATSU,0000,0000,0000,,That's barely a sentence...
+Dialogue: 0,0:03:26.66,0:03:28.21,Default,AKARI,0000,0000,0000,,I have some disposable ones.
+Dialogue: 0,0:03:28.21,0:03:29.34,Default,,0000,0000,0000,,Here.
+Dialogue: 0,0:03:29.70,0:03:32.21,Default,SAKURAKO,0000,0000,0000,,Akari-chan, thank you!
+Dialogue: 0,0:03:32.21,0:03:34.09,Default,SAKURAKO,0000,0000,0000,,You're so much better than Himawari!
+Dialogue: 0,0:03:34.09,0:03:36.94,Default,SAKURAKO,0000,0000,0000,,How mean to only bring chopsticks for yourself!
+Dialogue: 0,0:03:37.36,0:03:40.66,Default,HIMAWARI,0000,0000,0000,,Did I hear you say you don't \Nwant your Isobe fries, Sakurako?
+Dialogue: 0,0:03:40.66,0:03:41.86,Default,HIMAWARI,0000,0000,0000,,Then allow me...
+Dialogue: 0,0:03:42.11,0:03:44.26,Default,SAKURAKO,0000,0000,0000,,I'm sorry!
+Dialogue: 0,0:03:44.92,0:03:46.97,Default,AKARI,0000,0000,0000,,What do you want to do today?
+Dialogue: 0,0:03:46.97,0:03:48.80,Default,SAKURAKO,0000,0000,0000,,What did we do yesterday?
+Dialogue: 0,0:03:48.80,0:03:50.25,Default,HIMAWARI,0000,0000,0000,,We played five-character shiritori.
+Dialogue: 0,0:03:51.91,0:03:53.50,Default,CHINATSU,0000,0000,0000,,What should we do?
+Dialogue: 0,0:03:53.93,0:03:55.74,Default,SAKURAKO,0000,0000,0000,,Let's all speak English!
+Dialogue: 0,0:03:55.74,0:03:57.13,Default,AKARI,0000,0000,0000,,That sounds fun!
+Dialogue: 0,0:03:57.53,0:03:59.26,Default,SAKURAKO,0000,0000,0000,,Starting now, only English!
+Dialogue: 0,0:03:59.73,0:04:00.51,Default,SAKURAKO,0000,0000,0000,,Start!
+Dialogue: 0,0:04:09.22,0:04:11.27,Default,AKARI,0000,0000,0000,,D-Delicious!
+Dialogue: 0,0:04:12.16,0:04:14.16,Default,SAKURAKO,0000,0000,0000,,Oh, delicious!
+Dialogue: 0,0:04:14.16,0:04:15.69,Default,AKARI,0000,0000,0000,,Delicious, delicious!
+Dialogue: 0,0:04:15.85,0:04:17.44,Default,CHINATSU,0000,0000,0000,,Yes, delicious!
+Dialogue: 0,0:04:17.86,0:04:20.24,Default,SAKURAKO,0000,0000,0000,,Isobe fries delicious!
+Dialogue: 0,0:04:20.24,0:04:21.94,Default,HIMAWARI,0000,0000,0000,,All you're saying is "delicious."
+Dialogue: 0,0:04:22.52,0:04:25.35,Default,SAKURAKO,0000,0000,0000,,Can you do any better?
+Dialogue: 0,0:04:25.35,0:04:26.70,Default,HIMAWARI,0000,0000,0000,,Of course I can!
+Dialogue: 0,0:04:32.00,0:04:33.69,Default,HIMAWARI,0000,0000,0000,,This is rice.
+Dialogue: 0,0:04:33.69,0:04:35.08,Default,SAKURAKO,0000,0000,0000,,I know that!
+Dialogue: 0,0:04:35.58,0:04:37.93,Default,HIMAWARI,0000,0000,0000,,I do just fine in class...
+Dialogue: 0,0:04:37.93,0:04:40.64,Default,AKARI,0000,0000,0000,,But it's hard to actually speak it.
+Dialogue: 0,0:04:46.72,0:04:48.01,Default,AKARI,0000,0000,0000,,I thought I was gonna choke!
+Dialogue: 0,0:04:48.34,0:04:49.79,Default,CHINATSU,0000,0000,0000,,What should we do next?
+Dialogue: 0,0:04:49.79,0:04:51.32,Default,SAKURAKO,0000,0000,0000,,Let's say cheesy things.
+Dialogue: 0,0:04:51.32,0:04:52.14,Default,CHINATSU,0000,0000,0000,,Cheesy?
+Dialogue: 0,0:04:53.17,0:04:56.32,Default,SAKURAKO,0000,0000,0000,,Chinatsu-chan, your eyes are beautiful.
+Dialogue: 0,0:04:56.32,0:04:59.00,Default,SAKURAKO,0000,0000,0000,,They're like stars twinkling \Nin the night sky.
+Dialogue: 0,0:04:59.00,0:05:00.65,Default,CHINATSU,0000,0000,0000,,Oh, that sort of thing.
+Dialogue: 0,0:05:01.26,0:05:02.86,Default,AKARI,0000,0000,0000,,Penne arrabiata.
+Dialogue: 0,0:05:03.18,0:05:04.95,Default,SAKURAKO,0000,0000,0000,,That's not really the same.
+Dialogue: 0,0:05:04.95,0:05:07.27,Default,HIMAWARI,0000,0000,0000,,What sort of game is this?
+Dialogue: 0,0:05:07.27,0:05:09.00,Default,SAKURAKO,0000,0000,0000,,Oh, Himawari!
+Dialogue: 0,0:05:09.00,0:05:13.26,Default,,0000,0000,0000,,Your Isobe fries are truly \Nfine and delicious looking...
+Dialogue: 0,0:05:13.26,0:05:14.02,Default,SAKURAKO,0000,0000,0000,,Gimme!
+Dialogue: 0,0:05:14.30,0:05:16.98,Default,CHINATSU,0000,0000,0000,,I can't really think of any new games.
+Dialogue: 0,0:05:16.98,0:05:18.83,Default,AKARI,0000,0000,0000,,We've already done everything.
+Dialogue: 0,0:05:19.13,0:05:22.30,YY-note,,0000,0000,0000,,Triumphant Look
+Dialogue: 0,0:05:19.46,0:05:21.23,Default,SAKURAKO,0000,0000,0000,,Then it's time for this!
+Dialogue: 0,0:05:22.43,0:05:23.78,Default,AKARI,0000,0000,0000,,What's that?
+Dialogue: 0,0:05:23.78,0:05:25.60,Default,SAKURAKO,0000,0000,0000,,I made it during class.
+Dialogue: 0,0:05:25.60,0:05:26.88,Default,SAKURAKO,0000,0000,0000,,Roll it.
+Dialogue: 0,0:05:30.18,0:05:32.43,YY-note,TEXT,0000,0000,0000,,Embarrassing Story
+Dialogue: 0,0:05:30.79,0:05:32.43,Default,HIMAWARI,0000,0000,0000,,An embarrassing story?
+Dialogue: 0,0:05:32.89,0:05:34.70,Default,SAKURAKO,0000,0000,0000,,Okay, you gotta tell us one.
+Dialogue: 0,0:05:34.70,0:05:35.89,Default,AKARI,0000,0000,0000,,I see.
+Dialogue: 0,0:05:37.99,0:05:41.64,Default,CHINATSU,0000,0000,0000,,Once, when I slept over \Nat Yui-senpai's house...
+Dialogue: 0,0:05:45.69,0:05:48.21,Default,AKARI,0000,0000,0000,,You wish you stood out more?
+Dialogue: 0,0:05:49.63,0:05:52.19,Default,AKARI,0000,0000,0000,,It's okay, Kyoko-chan.
+Dialogue: 0,0:05:52.63,0:05:56.41,Default,AKARI,0000,0000,0000,,If you work hard, you'll \Nbe like me in no time.
+Dialogue: 0,0:05:58.96,0:06:01.45,Default,CHINATSU,0000,0000,0000,,...is what Akari-chan said in her sleep.
+Dialogue: 0,0:06:01.45,0:06:04.17,Default,AKARI,0000,0000,0000,,That's an embarrassing story about me!
+Dialogue: 0,0:06:04.54,0:06:06.42,Default,SAKURAKO,0000,0000,0000,,You're next, Akari-chan.
+Dialogue: 0,0:06:09.47,0:06:11.22,YY-note,TEXT,0000,0000,0000,,Pun!
+Dialogue: 0,0:06:10.23,0:06:11.22,Default,AKARI,0000,0000,0000,,A pun...
+Dialogue: 0,0:06:14.65,0:06:16.90,Default,AKARI,0000,0000,0000,,Y-You can tune a piano...
+Dialogue: 0,0:06:16.90,0:06:18.23,Default,AKARI,0000,0000,0000,,...but you can't tuna fish!
+Dialogue: 0,0:06:22.35,0:06:24.09,Default,AKARI,0000,0000,0000,,This is so embarrassing!
+Dialogue: 0,0:06:24.09,0:06:26.55,Default,SAKURAKO,0000,0000,0000,,Now you have another \Nembarrassing story you can tell!
+Dialogue: 0,0:06:26.55,0:06:27.99,Default,AKARI,0000,0000,0000,,That's not a good thing!
+Dialogue: 0,0:06:28.30,0:06:30.29,Default,SAKURAKO,0000,0000,0000,,Himawari, you're next.
+Dialogue: 0,0:06:34.56,0:06:37.25,YY-note,TEXT,0000,0000,0000,,Win!
+Dialogue: 0,0:06:35.83,0:06:37.25,Default,HIMAWARI,0000,0000,0000,,...Win?
+Dialogue: 0,0:06:37.88,0:06:39.36,Default,HIMAWARI,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:06:39.36,0:06:42.05,Default,SAKURAKO,0000,0000,0000,,Himawari won, huh?
+Dialogue: 0,0:06:42.81,0:06:44.16,Default,SAKURAKO,0000,0000,0000,,Here you go.
+Dialogue: 0,0:06:47.11,0:06:47.97,Default,HIMAWARI,0000,0000,0000,,Chocolate?
+Dialogue: 0,0:06:48.95,0:06:51.92,Default,HIMAWARI,0000,0000,0000,,How unexpectedly normal, coming from you.
+Dialogue: 0,0:06:51.92,0:06:56.53,Default,SAKURAKO,0000,0000,0000,,To be honest, I dunno how \Nold that chocolate is.
+Dialogue: 0,0:06:56.53,0:06:59.49,Default,HIMAWARI,0000,0000,0000,,Hey! Why would you give this to someone?
+Dialogue: 0,0:06:59.49,0:07:00.89,Default,HIMAWARI,0000,0000,0000,,If I had eaten this and gotten sick...
+Dialogue: 0,0:07:02.32,0:07:03.92,Default,HIMAWARI,0000,0000,0000,,Is that what it means to win?
+Dialogue: 0,0:07:04.56,0:07:06.57,Default,SAKURAKO,0000,0000,0000,,I'm next.
+Dialogue: 0,0:07:08.38,0:07:10.22,Default,AKARI,0000,0000,0000,,A story about seasons?
+Dialogue: 0,0:07:11.25,0:07:13.98,Default,SAKURAKO,0000,0000,0000,,Isn't it almost Valentine's Day?
+Dialogue: 0,0:07:13.98,0:07:15.19,Default,AKARI,0000,0000,0000,,A question?
+Dialogue: 0,0:07:15.67,0:07:17.16,Default,HIMAWARI,0000,0000,0000,,That's not a story.
+Dialogue: 0,0:07:17.69,0:07:19.87,Default,SAKURAKO,0000,0000,0000,,Who's planning to give \Nsomeone chocolate?
+Dialogue: 0,0:07:21.59,0:07:23.61,Default,AKARI,0000,0000,0000,,Chinatsu-chan, you're giving \NYui-chan chocolate, aren't you?
+Dialogue: 0,0:07:23.61,0:07:25.39,Default,CHINATSU,0000,0000,0000,,Is it that obvious?
+Dialogue: 0,0:07:25.76,0:07:28.82,Default,CHINATSU,0000,0000,0000,,How embarrassing!
+Dialogue: 0,0:07:28.82,0:07:29.67,Default,SAKURAKO,0000,0000,0000,,What about you, Akari-chan?
+Dialogue: 0,0:07:29.67,0:07:32.73,Default,AKARI,0000,0000,0000,,I'm going to buy lots and \Ngive some to everyone.
+Dialogue: 0,0:07:33.20,0:07:34.57,Default,AKARI,0000,0000,0000,,What about you, Himawari-chan?
+Dialogue: 0,0:07:35.15,0:07:38.08,Default,HIMAWARI,0000,0000,0000,,Huh? I don't have any plans.
+Dialogue: 0,0:07:38.72,0:07:40.12,Default,AKARI,0000,0000,0000,,What about you, Sakurako-chan?
+Dialogue: 0,0:07:41.44,0:07:44.81,Default,SAKURAKO,0000,0000,0000,,I buy some every year,
+Dialogue: 0,0:07:44.81,0:07:47.86,Default,,0000,0000,0000,,but I always end up eating it myself.
+Dialogue: 0,0:07:48.10,0:07:50.11,Default,HIMAWARI,0000,0000,0000,,How very like you.
+Dialogue: 0,0:07:50.64,0:07:52.58,Default,SAKURAKO,0000,0000,0000,,Are you calling me a fatty?
+Dialogue: 0,0:07:52.58,0:07:53.57,Default,AKARI,0000,0000,0000,,Thanks for the food.
+Dialogue: 0,0:07:53.57,0:07:54.61,Default,CHINATSU,0000,0000,0000,,Me too.
+Dialogue: 0,0:07:54.61,0:07:55.99,Default,SAKURAKO,0000,0000,0000,,That was quick!
+Dialogue: 0,0:07:55.99,0:07:58.53,Default,SAKURAKO,0000,0000,0000,,I still haven't finished \N my Isobe fries!
+Dialogue: 0,0:07:58.53,0:08:00.22,Default,HIMAWARI,0000,0000,0000,,You're just slow.
+Dialogue: 0,0:08:00.22,0:08:02.31,Default,AKARI,0000,0000,0000,,Fifth period is P.E.
+Dialogue: 0,0:08:02.31,0:08:05.28,Default,HIMAWARI,0000,0000,0000,,Then let's get to the gym a \Nlittle early and play.
+Dialogue: 0,0:08:05.93,0:08:07.64,Default,SAKURAKO,0000,0000,0000,,Hey, wait.
+Dialogue: 0,0:08:07.64,0:08:10.42,Default,SAKURAKO,0000,0000,0000,,Don't you know what will happen \Nif you leave without me?
+Dialogue: 0,0:08:12.14,0:08:13.38,Default,HIMAWARI,0000,0000,0000,,What?
+Dialogue: 0,0:08:15.77,0:08:18.94,Default,SAKURAKO,0000,0000,0000,,Chop! Chop! Chopstick!
+Dialogue: 0,0:08:18.94,0:08:20.67,Default,HIMAWARI,0000,0000,0000,,Just hurry up and eat.
+Dialogue: 0,0:08:41.73,0:08:43.16,Default,HIMAWARI,0000,0000,0000,,A scarf?
+Dialogue: 0,0:08:43.54,0:08:47.16,Default,CHINATSU,0000,0000,0000,,Yeah! I thought you might \Nknow how to knit one.
+Dialogue: 0,0:08:47.58,0:08:49.22,Default,HIMAWARI,0000,0000,0000,,Well, I do...
+Dialogue: 0,0:08:49.22,0:08:50.46,Default,CHINATSU,0000,0000,0000,,Really?
+Dialogue: 0,0:08:50.46,0:08:52.17,Default,,0000,0000,0000,,I want to give Yui-senpai a scarf
+Dialogue: 0,0:08:52.17,0:08:53.89,Default,,0000,0000,0000,,and chocolate for Valentine's Day!
+Dialogue: 0,0:08:53.89,0:08:56.02,Default,CHINATSU,0000,0000,0000,,Could you teach me how to make one?
+Dialogue: 0,0:08:56.02,0:08:57.05,Default,HIMAWARI,0000,0000,0000,,Sure.
+Dialogue: 0,0:08:57.29,0:09:00.90,Default,CHINATSU,0000,0000,0000,,Hooray! Are you free this weekend?
+Dialogue: 0,0:09:00.90,0:09:01.59,Default,HIMAWARI,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:02.03,0:09:03.93,Default,SAKURAKO,0000,0000,0000,,Himawari!
+Dialogue: 0,0:09:04.34,0:09:07.92,Default,SAKURAKO,0000,0000,0000,,I got an extra assignment \Nbecause I forgot my homework.
+Dialogue: 0,0:09:07.92,0:09:09.92,Default,SAKURAKO,0000,0000,0000,,It's due next Monday.
+Dialogue: 0,0:09:09.92,0:09:11.95,Default,SAKURAKO,0000,0000,0000,,Could you help me with it this weekend?
+Dialogue: 0,0:09:11.95,0:09:13.58,Default,HIMAWARI,0000,0000,0000,,Unfortunately, I just agreed
+Dialogue: 0,0:09:13.58,0:09:16.83,Default,,0000,0000,0000,,to help Yoshikawa-san this weekend.
+Dialogue: 0,0:09:16.83,0:09:18.40,Default,SAKURAKO,0000,0000,0000,,What? Really?
+Dialogue: 0,0:09:18.40,0:09:21.32,Default,CHINATSU,0000,0000,0000,,Sorry, can I borrow \NHimawari-chan for a bit?
+Dialogue: 0,0:09:22.91,0:09:24.88,Default,SAKURAKO,0000,0000,0000,,I don't need Himawari.
+Dialogue: 0,0:09:24.88,0:09:26.10,Default,SAKURAKO,0000,0000,0000,,You can take her.
+Dialogue: 0,0:09:26.10,0:09:27.54,Default,HIMAWARI,0000,0000,0000,,That's no way to talk about someone.
+Dialogue: 0,0:09:28.25,0:09:30.06,Default,CHINATSU,0000,0000,0000,,Could you help me shop for yarn
+Dialogue: 0,0:09:30.06,0:09:31.92,Default,,0000,0000,0000,,on the way home from school today?
+Dialogue: 0,0:09:32.15,0:09:33.46,Default,HIMAWARI,0000,0000,0000,,Yes, of course.
+Dialogue: 0,0:09:39.02,0:09:41.26,Default,AKARI,0000,0000,0000,,Sakurako-chan, you're all by yourself?
+Dialogue: 0,0:09:41.26,0:09:42.55,Default,AKARI,0000,0000,0000,,Where's Himawari-chan?
+Dialogue: 0,0:09:42.55,0:09:44.60,Default,SAKURAKO,0000,0000,0000,,She went shopping for \Nyarn with Chinatsu-chan.
+Dialogue: 0,0:09:44.60,0:09:45.71,Default,AKARI,0000,0000,0000,,I see.
+Dialogue: 0,0:09:45.71,0:09:47.93,Default,,0000,0000,0000,,You must be lonely without Himawari-chan.
+Dialogue: 0,0:09:47.93,0:09:50.62,Default,SAKURAKO,0000,0000,0000,,No, I'm not lonely.
+Dialogue: 0,0:09:50.62,0:09:51.87,Default,AKARI,0000,0000,0000,,Really?
+Dialogue: 0,0:09:51.87,0:09:54.57,Default,SAKURAKO,0000,0000,0000,,I was just gonna have her help \Nme with my assignment.
+Dialogue: 0,0:09:54.57,0:09:56.07,Default,SAKURAKO,0000,0000,0000,,What am I gonna do?
+Dialogue: 0,0:09:56.07,0:09:57.36,Default,AKARI,0000,0000,0000,,Do you want me to help you?
+Dialogue: 0,0:09:57.85,0:09:59.20,Default,SAKURAKO,0000,0000,0000,,Really?
+Dialogue: 0,0:09:59.20,0:10:00.62,Default,AKARI,0000,0000,0000,,Yeah, sure.
+Dialogue: 0,0:10:00.92,0:10:04.37,Default,SAKURAKO,0000,0000,0000,,Okay, then let's go to my house!
+Dialogue: 0,0:10:09.72,0:10:12.32,Default,SAKURAKO,0000,0000,0000,,Himawari, I'm thirsty...
+Dialogue: 0,0:10:13.06,0:10:15.56,Default,SAKURAKO,0000,0000,0000,,Oh, sorry. It's a habit.
+Dialogue: 0,0:10:16.24,0:10:17.80,Default,AKARI,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:10:25.53,0:10:27.19,Default,SAKURAKO,0000,0000,0000,,I don't get this!
+Dialogue: 0,0:10:27.19,0:10:29.07,Default,SAKURAKO,0000,0000,0000,,Boobs!
+Dialogue: 0,0:10:31.26,0:10:33.36,Default,SAKURAKO,0000,0000,0000,,Oh, sorry! It's a habit!
+Dialogue: 0,0:10:33.36,0:10:36.34,Default,AKARI,0000,0000,0000,,Huh? It's fine.
+Dialogue: 0,0:10:36.70,0:10:38.36,Default,AKARI,0000,0000,0000,,Do you need me to explain anything?
+Dialogue: 0,0:10:38.66,0:10:40.54,Default,SAKURAKO,0000,0000,0000,,Yeah, this part...
+Dialogue: 0,0:10:41.27,0:10:44.95,Default,AKARI,0000,0000,0000,,Oh, you do this like this...
+Dialogue: 0,0:10:44.95,0:10:46.21,Default,AKARI,0000,0000,0000,,Like this...
+Dialogue: 0,0:10:47.14,0:10:48.53,Default,AKARI,0000,0000,0000,,And you get this.
+Dialogue: 0,0:10:51.71,0:10:55.73,Default,HIMAWARI,0000,0000,0000,,Sakurako, you always make \Nthis kind of mistake here.
+Dialogue: 0,0:10:56.18,0:10:58.26,Default,HIMAWARI,0000,0000,0000,,First, you need to stop doing that.
+Dialogue: 0,0:10:58.60,0:11:02.05,Default,HIMAWARI,0000,0000,0000,,Also, I've made a list of \Nthe words you always get wrong.
+Dialogue: 0,0:11:02.73,0:11:04.30,Default,HIMAWARI,0000,0000,0000,,You should review these.
+Dialogue: 0,0:11:05.01,0:11:09.01,Default,SAKURAKO,0000,0000,0000,,{\i1}Of course. Himawari's \Ngood at teaching me...{\i0}
+Dialogue: 0,0:11:09.01,0:11:11.05,Default,AKARI,0000,0000,0000,,Like that. Do you get it?
+Dialogue: 0,0:11:12.14,0:11:15.77,Default,SAKURAKO,0000,0000,0000,,Sorry, I wasn't listening.
+Dialogue: 0,0:11:15.77,0:11:16.82,Default,AKARI,0000,0000,0000,,Listen to me...
+Dialogue: 0,0:11:16.82,0:11:19.28,1 week later,TEXT,0000,0000,0000,,The Next Day
+Dialogue: 0,0:11:20.02,0:11:23.63,Default,SAKURAKO,0000,0000,0000,,Himawari! You're my personal tutor!
+Dialogue: 0,0:11:23.63,0:11:25.21,Default,HIMAWARI,0000,0000,0000,,Where did that come from?
+Dialogue: 0,0:11:25.21,0:11:29.03,Default,SAKURAKO,0000,0000,0000,,You should be happy I chose you.
+Dialogue: 0,0:11:29.03,0:11:31.10,Default,SAKURAKO,0000,0000,0000,,So, next Saturday...
+Dialogue: 0,0:11:31.10,0:11:32.46,Default,HIMAWARI,0000,0000,0000,,Unfortunately, I have plans
+Dialogue: 0,0:11:32.46,0:11:35.13,Default,,0000,0000,0000,,with Yoshikawa-san next Saturday as well.
+Dialogue: 0,0:11:35.13,0:11:36.25,Default,SAKURAKO,0000,0000,0000,,Again?
+Dialogue: 0,0:11:36.46,0:11:39.83,Default,HIMAWARI,0000,0000,0000,,It takes quite a while to make a scarf.
+Dialogue: 0,0:11:40.22,0:11:43.64,Default,HIMAWARI,0000,0000,0000,,I'll be meeting with Yoshikawa-san \Nafter school for some time.
+Dialogue: 0,0:11:43.90,0:11:45.59,Default,SAKURAKO,0000,0000,0000,,After school, too?
+Dialogue: 0,0:11:48.36,0:11:50.42,Default,AKARI,0000,0000,0000,,Now, now, Sakurako-chan.
+Dialogue: 0,0:11:50.42,0:11:54.11,Default,AKARI,0000,0000,0000,,Himawari-chan will come \Nback in a few days.
+Dialogue: 0,0:11:54.11,0:11:55.13,Default,AKARI,0000,0000,0000,,Cheer up...
+Dialogue: 0,0:11:55.13,0:11:56.27,Default,SAKURAKO,0000,0000,0000,,I'm cheerful!
+Dialogue: 0,0:11:56.74,0:11:59.65,Default,AKARI,0000,0000,0000,,Really? Well, that's good...
+Dialogue: 0,0:12:03.03,0:12:05.86,Default,CHINATSU,0000,0000,0000,,So, when I try to add more yarn,
+Dialogue: 0,0:12:05.86,0:12:08.44,Default,,0000,0000,0000,,it gets all messed up if I just tie it normally.
+Dialogue: 0,0:12:08.44,0:12:11.62,Default,HIMAWARI,0000,0000,0000,,You should add yarn at \Nthe start of a new layer.
+Dialogue: 0,0:12:11.84,0:12:13.59,Default,CHINATSU,0000,0000,0000,,Is that right?
+Dialogue: 0,0:12:13.59,0:12:16.06,Default,CHINATSU,0000,0000,0000,,I'll have to untie it and do it again.
+Dialogue: 0,0:12:16.06,0:12:17.25,Default,CHINATSU,0000,0000,0000,,I hope I'll finish in time...
+Dialogue: 0,0:12:17.71,0:12:19.09,Default,HIMAWARI,0000,0000,0000,,You will.
+Dialogue: 0,0:12:19.09,0:12:21.17,Default,HIMAWARI,0000,0000,0000,,You're learning quickly, Yoshikawa-san.
+Dialogue: 0,0:12:21.85,0:12:22.73,Default,CHINATSU,0000,0000,0000,,Really?
+Dialogue: 0,0:12:22.73,0:12:24.35,Default,CHINATSU,0000,0000,0000,,Okay, I can do this!
+Dialogue: 0,0:12:25.97,0:12:29.77,Default,AKARI,0000,0000,0000,,Sakurako-chan, isn't this \Nboiled pumpkin good?
+Dialogue: 0,0:12:30.00,0:12:32.19,Default,SAKURAKO,0000,0000,0000,,I hate pumpkin.
+Dialogue: 0,0:12:32.19,0:12:35.94,Default,HIMAWARI,0000,0000,0000,,Being a picky eater stunts your growth.
+Dialogue: 0,0:12:35.94,0:12:37.06,Default,SAKURAKO,0000,0000,0000,,Shut up!
+Dialogue: 0,0:12:37.06,0:12:39.49,Default,SAKURAKO,0000,0000,0000,,You don't like peppers, Himawari!
+Dialogue: 0,0:12:40.71,0:12:44.76,Default,AKARI,0000,0000,0000,,Sakurako-chan, I don't like celery.
+Dialogue: 0,0:12:44.76,0:12:46.23,Default,AKARI,0000,0000,0000,,It's okay.
+Dialogue: 0,0:12:48.32,0:12:49.20,Default,SAKURAKO,0000,0000,0000,,I'm going to the bathroom.
+Dialogue: 0,0:12:50.10,0:12:51.45,Default,HIMAWARI,0000,0000,0000,,What's wrong with her?
+Dialogue: 0,0:12:57.13,0:13:00.42,YY-Sign-top,SIGN,0000,0000,0000,,Valentine's Sale
+Dialogue: 0,0:12:59.25,0:13:01.22,Default,KYOKO,0000,0000,0000,,It's a Valentine's sale!
+Dialogue: 0,0:13:01.22,0:13:02.59,Default,YUI,0000,0000,0000,,Mind if we stop in?
+Dialogue: 0,0:13:02.59,0:13:03.55,Default,KYOKO,0000,0000,0000,,Sure.
+Dialogue: 0,0:13:06.12,0:13:07.39,Default,STORE A,0000,0000,0000,,Welcome.
+Dialogue: 0,0:13:08.01,0:13:09.45,Default,KYOKO,0000,0000,0000,,Hey.
+Dialogue: 0,0:13:09.45,0:13:10.32,Default,YUI,0000,0000,0000,,What?
+Dialogue: 0,0:13:10.32,0:13:11.91,Default,KYOKO,0000,0000,0000,,Am I gonna get something from you this year, too?
+Dialogue: 0,0:13:11.91,0:13:13.62,Default,YUI,0000,0000,0000,,I guess.
+Dialogue: 0,0:13:13.62,0:13:15.51,Default,KYOKO,0000,0000,0000,,Then I want this.
+Dialogue: 0,0:13:16.38,0:13:18.68,Default,YUI,0000,0000,0000,,That's not how this holiday works.
+Dialogue: 0,0:13:18.68,0:13:19.82,Default,KYOKO,0000,0000,0000,,Really?
+Dialogue: 0,0:13:20.80,0:13:22.32,Default,KYOKO,0000,0000,0000,,Hey.
+Dialogue: 0,0:13:22.32,0:13:23.59,Default,YUI,0000,0000,0000,,What?
+Dialogue: 0,0:13:23.59,0:13:25.79,Default,KYOKO,0000,0000,0000,,If you're giving me \Nsomething, I want this.
+Dialogue: 0,0:13:25.79,0:13:28.07,Default,YUI,0000,0000,0000,,I told you, it's not the same \Nif you make a request...
+Dialogue: 0,0:13:30.14,0:13:33.61,Default,YUI,0000,0000,0000,,That doesn't even have anything \Nto do with Valentine's Day.
+Dialogue: 0,0:13:42.15,0:13:45.45,Default,AYANO,0000,0000,0000,,This one... Or maybe this one...
+Dialogue: 0,0:13:45.45,0:13:47.43,Default,AYANO,0000,0000,0000,,Actually, give me this one!
+Dialogue: 0,0:13:48.11,0:13:50.43,Default,CHITOSE,0000,0000,0000,,You're really fired up.
+Dialogue: 0,0:13:51.40,0:13:53.48,Default,AYANO,0000,0000,0000,,Don't get the wrong idea.
+Dialogue: 0,0:13:53.48,0:13:55.33,Default,AYANO,0000,0000,0000,,I'm going to eat it myself.
+Dialogue: 0,0:13:55.33,0:13:56.35,Default,CHITOSE,0000,0000,0000,,Really?
+Dialogue: 0,0:13:57.00,0:13:57.81,Default,AYANO,0000,0000,0000,,Yes!
+Dialogue: 0,0:14:01.19,0:14:02.63,Default,,0000,0000,0000,,Um...
+Dialogue: 0,0:14:02.96,0:14:04.60,Default,AKARI,0000,0000,0000,,This one's nice.
+Dialogue: 0,0:14:04.60,0:14:05.90,Default,AKARI,0000,0000,0000,,Maybe I'll get this.
+Dialogue: 0,0:14:05.90,0:14:07.78,Default,GIRL A,0000,0000,0000,,Excuse me, could I have this one?
+Dialogue: 0,0:14:08.87,0:14:10.24,Default,STORE B,0000,0000,0000,,Certainly.
+Dialogue: 0,0:14:13.14,0:14:16.87,YY-Sign-top,SIGN,0000,0000,0000,,Sold Out
+Dialogue: 0,0:14:14.55,0:14:17.15,Default,AKARI,0000,0000,0000,,What? That was the last one?
+Dialogue: 0,0:14:17.15,0:14:20.33,Default,AKARI,0000,0000,0000,,Then I guess I'll get \Nthis one or this one...
+Dialogue: 0,0:14:20.98,0:14:21.94,Default,GIRL B,0000,0000,0000,,This one, please!
+Dialogue: 0,0:14:21.94,0:14:22.85,Default,AKARI,0000,0000,0000,,What?
+Dialogue: 0,0:14:22.85,0:14:24.07,Default,GIRL C,0000,0000,0000,,This one for me!
+Dialogue: 0,0:14:24.07,0:14:24.76,Default,AKARI,0000,0000,0000,,What?
+Dialogue: 0,0:14:24.90,0:14:26.32,Default,STORE B,0000,0000,0000,,Certainly.
+Dialogue: 0,0:14:28.09,0:14:29.80,YY-Sign-top,SIGNS,0000,0000,0000,,Sold Out
+Dialogue: 0,0:14:29.80,0:14:31.93,Default,AKARI,0000,0000,0000,,You're kidding!
+Dialogue: 0,0:14:33.83,0:14:35.69,Default,SAKURAKO,0000,0000,0000,,Let's see...
+Dialogue: 0,0:14:42.31,0:14:43.65,Default,SAKURAKO,0000,0000,0000,,Um, this is...
+Dialogue: 0,0:14:46.06,0:14:48.00,Default,SAKURAKO,0000,0000,0000,,Sheesh!
+Dialogue: 0,0:14:51.56,0:14:54.38,Default,SAKURAKO,0000,0000,0000,,Shoot! How come Himawari's having all the fun?
+Dialogue: 0,0:14:54.38,0:14:55.70,Default,SAKURAKO,0000,0000,0000,,I can have fun, too!
+Dialogue: 0,0:14:55.97,0:14:57.90,Default,SAKURAKO,0000,0000,0000,,Okay, go!
+Dialogue: 0,0:15:00.20,0:15:02.66,Default,HIMAWARI,0000,0000,0000,,{\i1}If you only use your special attacks,{\i0}
+Dialogue: 0,0:15:02.66,0:15:04.71,Default,,0000,0000,0000,,{\i1}you'll have trouble when you get to the boss.{\i0}
+Dialogue: 0,0:15:04.71,0:15:06.01,Default,SAKURAKO,0000,0000,0000,,Shut up!
+Dialogue: 0,0:15:09.65,0:15:14.10,Default,HIMAWARI,0000,0000,0000,,{\i1}I'll make you dinner, so \Nstop eating so many snacks.{\i0}
+Dialogue: 0,0:15:14.43,0:15:16.27,Default,SAKURAKO,0000,0000,0000,,Shut up, shut up!
+Dialogue: 0,0:15:19.36,0:15:20.00,Default,,0000,0000,0000,,Ow!
+Dialogue: 0,0:15:22.07,0:15:26.78,Default,SAKURAKO,0000,0000,0000,,No fun, no fun, no fun!
+Dialogue: 0,0:15:27.31,0:15:29.36,Default,SAKURAKO,0000,0000,0000,,Why do I feel so sick?
+Dialogue: 0,0:15:29.80,0:15:33.30,Default,SAKURAKO,0000,0000,0000,,Chinatsu-chan... I mean, Himawari!
+Dialogue: 0,0:15:33.30,0:15:36.41,Default,SAKURAKO,0000,0000,0000,,It's fine if you wanna teach \NChinatsu-chan to knit a scarf,
+Dialogue: 0,0:15:36.41,0:15:40.12,Default,,0000,0000,0000,,but it's still your responsibility \Nto help me with my homework!
+Dialogue: 0,0:15:40.52,0:15:41.24,Default,,0000,0000,0000,,Argh!
+Dialogue: 0,0:15:41.24,0:15:44.38,Default,SAKURAKO,0000,0000,0000,,I hate scarves!
+Dialogue: 0,0:15:44.38,0:15:46.59,YY-Sign-top,SIGN,0000,0000,0000,,Class 2-5
+Dialogue: 0,0:15:55.69,0:15:57.80,Default,CHITOSE,0000,0000,0000,,Why don't you just give it to her?
+Dialogue: 0,0:15:57.80,0:15:58.65,Default,AYANO,0000,0000,0000,,What?
+Dialogue: 0,0:15:58.65,0:16:00.94,Default,AYANO,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:16:00.94,0:16:04.10,Default,AYANO,0000,0000,0000,,Chitose, you've got the wrong idea!
+Dialogue: 0,0:16:05.01,0:16:05.94,Default,CHITOSE,0000,0000,0000,,Really?
+Dialogue: 0,0:16:05.94,0:16:07.54,Default,AYANO,0000,0000,0000,,That's right!
+Dialogue: 0,0:16:09.39,0:16:10.86,Default,YUI,0000,0000,0000,,Here's your chocolate.
+Dialogue: 0,0:16:11.76,0:16:15.23,Default,KYOKO,0000,0000,0000,,Thanks. I have some for you, too!
+Dialogue: 0,0:16:15.90,0:16:18.37,Default,YUI,0000,0000,0000,,It's just a bar of chocolate.
+Dialogue: 0,0:16:22.10,0:16:24.29,Default,KYOKO,0000,0000,0000,,Huh? Is that chocolate?
+Dialogue: 0,0:16:24.29,0:16:26.25,Default,KYOKO,0000,0000,0000,,Is that for me?
+Dialogue: 0,0:16:26.25,0:16:27.23,Default,AYANO,0000,0000,0000,,What?
+Dialogue: 0,0:16:27.23,0:16:29.67,Default,YUI,0000,0000,0000,,Hey, don't be so greedy.
+Dialogue: 0,0:16:29.90,0:16:31.59,Default,CHITOSE,0000,0000,0000,,Oh, yes!
+Dialogue: 0,0:16:31.59,0:16:34.28,Default,CHITOSE,0000,0000,0000,,Ayano-chan accidentally bought too much,
+Dialogue: 0,0:16:34.28,0:16:36.17,Default,,0000,0000,0000,,so she has some left over.
+Dialogue: 0,0:16:36.17,0:16:36.95,Default,CHITOSE,0000,0000,0000,,Right?
+Dialogue: 0,0:16:36.95,0:16:37.60,Default,AYANO,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:37.94,0:16:40.30,Default,KYOKO,0000,0000,0000,,If you've got extras, I'll take them!
+Dialogue: 0,0:16:40.30,0:16:42.31,Default,KYOKO,0000,0000,0000,,Welcome, welcome!
+Dialogue: 0,0:16:42.79,0:16:44.85,Default,AYANO,0000,0000,0000,,I suppose I have no choice!
+Dialogue: 0,0:16:44.85,0:16:48.82,Default,AYANO,0000,0000,0000,,If you want it that badly, you \Ncan have it, Toshino Kyoko!
+Dialogue: 0,0:16:49.16,0:16:50.29,Default,KYOKO,0000,0000,0000,,Thanks.
+Dialogue: 0,0:16:50.70,0:16:53.82,Default,KYOKO,0000,0000,0000,,Hey Yui, give me half of the \Nchocolate I just gave you.
+Dialogue: 0,0:16:54.17,0:16:56.55,Default,YUI,0000,0000,0000,,I thought you might say that.
+Dialogue: 0,0:16:57.63,0:16:59.58,Default,AYANO,0000,0000,0000,,I don't want it!
+Dialogue: 0,0:16:59.58,0:17:01.52,Default,KYOKO,0000,0000,0000,,Just take it.
+Dialogue: 0,0:17:02.17,0:17:04.04,Default,KYOKO,0000,0000,0000,,See you later.
+Dialogue: 0,0:17:04.97,0:17:07.67,Default,CHITOSE,0000,0000,0000,,Aren't you glad you gave \Nit to her, Ayano-chan?
+Dialogue: 0,0:17:07.67,0:17:09.95,Default,AYANO,0000,0000,0000,,I told you, that's not it!
+Dialogue: 0,0:17:09.95,0:17:11.86,Default,AYANO,0000,0000,0000,,Anyway, here.
+Dialogue: 0,0:17:11.86,0:17:12.68,Default,CHITOSE,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:13.48,0:17:16.51,Default,AYANO,0000,0000,0000,,This is to thank you for \Neverything you do for me.
+Dialogue: 0,0:17:17.05,0:17:19.72,Default,CHITOSE,0000,0000,0000,,Ayano-chan, you're so nice...
+Dialogue: 0,0:17:20.26,0:17:23.39,Default,AYANO,0000,0000,0000,,But make sure you eat \Nit at home by yourself!
+Dialogue: 0,0:17:23.98,0:17:25.85,Default,CHITOSE,0000,0000,0000,,Huh? Why?
+Dialogue: 0,0:17:26.43,0:17:28.11,Default,CHINATSU,0000,0000,0000,,Yui-senpai!
+Dialogue: 0,0:17:28.57,0:17:29.68,Default,YUI,0000,0000,0000,,Chinatsu-chan.
+Dialogue: 0,0:17:29.68,0:17:32.47,Default,CHINATSU,0000,0000,0000,,I made you some Valentine's \NDay chocolates and this scarf!
+Dialogue: 0,0:17:32.47,0:17:34.01,Default,CHINATSU,0000,0000,0000,,Please accept them!
+Dialogue: 0,0:17:36.53,0:17:38.31,Default,YUI,0000,0000,0000,,Is this a scarf?
+Dialogue: 0,0:17:38.31,0:17:39.98,Default,CHINATSU,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:17:39.98,0:17:42.40,Default,CHINATSU,0000,0000,0000,,Of course it's a scarf.
+Dialogue: 0,0:17:42.40,0:17:44.48,Default,YUI,0000,0000,0000,,Did you make this chocolate, too?
+Dialogue: 0,0:17:44.48,0:17:45.91,Default,CHINATSU,0000,0000,0000,,I did!
+Dialogue: 0,0:17:46.50,0:17:48.27,Default,,0000,0000,0000,,Open it!
+Dialogue: 0,0:17:48.27,0:17:50.21,Default,YUI,0000,0000,0000,,Okay...
+Dialogue: 0,0:17:50.75,0:17:53.35,Default,KYOKO,0000,0000,0000,,Chinatsu-chan, where's my chocolate?
+Dialogue: 0,0:17:53.35,0:17:55.04,Default,CHINATSU,0000,0000,0000,,I thought you might say that,
+Dialogue: 0,0:17:55.04,0:17:58.14,Default,,0000,0000,0000,,so I brought you my test chocolates.
+Dialogue: 0,0:17:58.14,0:17:59.03,Default,CHINATSU,0000,0000,0000,,Here.
+Dialogue: 0,0:17:59.03,0:18:00.97,Default,KYOKO,0000,0000,0000,,Hooray!
+Dialogue: 0,0:18:09.72,0:18:11.10,Default,KYOKO,0000,0000,0000,,They're pretty good!
+Dialogue: 0,0:18:11.10,0:18:13.73,Default,CHINATSU,0000,0000,0000,,What do you mean, "pretty good"?
+Dialogue: 0,0:18:13.73,0:18:16.74,Default,CHINATSU,0000,0000,0000,,Well, I wasn't trying very \Nhard when I made those...
+Dialogue: 0,0:18:17.12,0:18:19.57,Default,YUI,0000,0000,0000,,{\i1}The chocolate is okay...{\i0}
+Dialogue: 0,0:18:23.94,0:18:26.96,Default,CHINATSU,0000,0000,0000,,I put a lot of effort into making \Nyour chocolate, Yui-senpai.
+Dialogue: 0,0:18:27.26,0:18:30.21,Default,YUI,0000,0000,0000,,{\i1}How does this happen \Nwhen she tries harder?{\i0}
+Dialogue: 0,0:18:40.65,0:18:42.37,Default,YUI,0000,0000,0000,,Himawari-chan!
+Dialogue: 0,0:18:42.76,0:18:44.10,Default,HIMAWARI,0000,0000,0000,,Yoshikawa-san.
+Dialogue: 0,0:18:45.58,0:18:48.09,Default,CHINATSU,0000,0000,0000,,I gave Yui-senpai the scarf!
+Dialogue: 0,0:18:48.09,0:18:50.35,Default,CHINATSU,0000,0000,0000,,She was really happy!
+Dialogue: 0,0:18:50.35,0:18:52.27,Default,HIMAWARI,0000,0000,0000,,Really? That's great.
+Dialogue: 0,0:18:52.27,0:18:54.44,Default,CHINATSU,0000,0000,0000,,Thank you so much!
+Dialogue: 0,0:18:54.44,0:18:55.48,Default,HIMAWARI,0000,0000,0000,,It was nothing.
+Dialogue: 0,0:19:03.66,0:19:04.62,Default,SAKURAKO,0000,0000,0000,,I've had enough.
+Dialogue: 0,0:19:05.85,0:19:06.83,Default,HIMAWARI,0000,0000,0000,,Sakurako?
+Dialogue: 0,0:19:09.86,0:19:11.69,Default,SAKURAKO,0000,0000,0000,,I've had enough!
+Dialogue: 0,0:19:11.69,0:19:13.88,Default,SAKURAKO,0000,0000,0000,,Why? Why?
+Dialogue: 0,0:19:14.27,0:19:17.08,Default,SAKURAKO,0000,0000,0000,,Why are you spending all of your \Ntime with Chinatsu-chan?
+Dialogue: 0,0:19:17.55,0:19:20.51,Default,SAKURAKO,0000,0000,0000,,Have you forgotten it's your \Njob to check my homework?
+Dialogue: 0,0:19:21.27,0:19:22.67,Default,HIMAWARI,0000,0000,0000,,Why are you angry?
+Dialogue: 0,0:19:23.23,0:19:24.46,Default,,0000,0000,0000,,Why are you crying?
+Dialogue: 0,0:19:24.46,0:19:25.89,Default,SAKURAKO,0000,0000,0000,,I don't know!
+Dialogue: 0,0:19:25.89,0:19:28.55,Default,SAKURAKO,0000,0000,0000,,I don't know why, but I feel so sick!
+Dialogue: 0,0:19:28.55,0:19:31.30,Default,SAKURAKO,0000,0000,0000,,Lately, when I see you and \NChinatsu-chan together,
+Dialogue: 0,0:19:31.30,0:19:33.44,Default,,0000,0000,0000,,I want to hit you!
+Dialogue: 0,0:19:33.80,0:19:35.35,Default,HIMAWARI,0000,0000,0000,,Hit me?
+Dialogue: 0,0:19:35.35,0:19:36.86,Default,,0000,0000,0000,,I don't know what you're...
+Dialogue: 0,0:19:37.68,0:19:39.03,Default,HIMAWARI,0000,0000,0000,,{\i1}Could she be...{\i0}
+Dialogue: 0,0:19:39.53,0:19:40.57,Default,HIMAWARI,0000,0000,0000,,Are you jealous?
+Dialogue: 0,0:19:41.12,0:19:43.42,Default,SAKURAKO,0000,0000,0000,,I'm not talking about food!
+Dialogue: 0,0:19:46.51,0:19:47.83,Default,HIMAWARI,0000,0000,0000,,You can have this.
+Dialogue: 0,0:19:47.83,0:19:48.58,Default,SAKURAKO,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:50.76,0:19:55.39,Default,HIMAWARI,0000,0000,0000,,I made this scarf while \Nteaching Yoshikawa-san.
+Dialogue: 0,0:19:55.84,0:19:59.31,Default,HIMAWARI,0000,0000,0000,,Now that I'm done with \Nit, you can have it.
+Dialogue: 0,0:19:59.99,0:20:01.43,Default,HIMAWARI,0000,0000,0000,,The chocolate's a bonus.
+Dialogue: 0,0:20:02.50,0:20:06.72,Default,,0000,0000,0000,,Can we start walking home and \Ndoing homework together again?
+Dialogue: 0,0:20:07.46,0:20:09.26,Default,HIMAWARI,0000,0000,0000,,I suppose I have no choice.
+Dialogue: 0,0:20:11.30,0:20:14.52,Default,SAKURAKO,0000,0000,0000,,That's my servant! I'll work you hard!
+Dialogue: 0,0:20:14.76,0:20:16.41,Default,HIMAWARI,0000,0000,0000,,Who are you calling your servant?
+Dialogue: 0,0:20:19.56,0:20:20.96,Default,SAKURAKO,0000,0000,0000,,Hey, Himawari.
+Dialogue: 0,0:20:20.96,0:20:22.07,Default,HIMAWARI,0000,0000,0000,,What?
+Dialogue: 0,0:20:22.07,0:20:23.54,Default,SAKURAKO,0000,0000,0000,,Check my homework today.
+Dialogue: 0,0:20:23.54,0:20:25.15,Default,HIMAWARI,0000,0000,0000,,Already?
+Dialogue: 0,0:20:25.15,0:20:28.83,Default,SAKURAKO,0000,0000,0000,,It's been building up since you were gone.
+Dialogue: 0,0:20:29.16,0:20:31.62,Default,HIMAWARI,0000,0000,0000,,Have you ever thought \Nabout doing it yourself?
+Dialogue: 0,0:20:31.84,0:20:33.87,Default,SAKURAKO,0000,0000,0000,,I tried, but I can't do it.
+Dialogue: 0,0:20:33.87,0:20:37.00,Default,SAKURAKO,0000,0000,0000,,It's way faster when you \Nshow me how to do it.
+Dialogue: 0,0:20:37.41,0:20:39.04,Default,HIMAWARI,0000,0000,0000,,Faster?
+Dialogue: 0,0:20:39.96,0:20:41.17,Default,HIMAWARI,0000,0000,0000,,Well, fine.
+Dialogue: 0,0:20:41.48,0:20:42.95,Default,SAKURAKO,0000,0000,0000,,Hooray!
+Dialogue: 0,0:20:47.53,0:20:49.72,Default,HIMAWARI,0000,0000,0000,,You're opening that here?
+Dialogue: 0,0:20:49.98,0:20:52.17,Default,SAKURAKO,0000,0000,0000,,I'm hungry.
+Dialogue: 0,0:20:55.26,0:20:56.22,Default,HIMAWARI,0000,0000,0000,,Sheesh.
+Dialogue: 0,0:20:57.04,0:21:00.70,Default,SAKURAKO,0000,0000,0000,,Oh, I didn't give you any chocolate...
+Dialogue: 0,0:21:00.70,0:21:02.66,Default,SAKURAKO,0000,0000,0000,,Should I give you \Nsomething on White Day?
+Dialogue: 0,0:21:02.66,0:21:04.82,Default,HIMAWARI,0000,0000,0000,,You don't need to give me anything.
+Dialogue: 0,0:21:05.20,0:21:07.49,Default,SAKURAKO,0000,0000,0000,,Really? Lucky me!
+Dialogue: 0,0:21:08.06,0:21:10.18,Default,HIMAWARI,0000,0000,0000,,Your mouth is covered in chocolate.
+Dialogue: 0,0:21:14.74,0:21:15.79,Default,SAKURAKO,0000,0000,0000,,Here you go.
+Dialogue: 0,0:21:17.03,0:21:19.90,Default,HIMAWARI,0000,0000,0000,,{\i1}That's right. You've already given me something.{\i0}
+Dialogue: 0,0:21:19.90,0:21:21.27,Default,SAKURAKO,0000,0000,0000,,Um...
+Dialogue: 0,0:21:22.01,0:21:24.46,Default,SAKURAKO,0000,0000,0000,,This scarf makes my neck itch.
+Dialogue: 0,0:21:31.67,0:21:34.73,Default,CHITOSE,0000,0000,0000,,Ayano-chan, thanks for the chocolate.
+Dialogue: 0,0:21:37.75,0:21:39.98,Default,CHIZURU,0000,0000,0000,,Nee-san, the bath's ready.
+Dialogue: 0,0:21:41.14,0:21:42.78,Default,CHITOSE,0000,0000,0000,,Chizuru!
+Dialogue: 0,0:21:43.50,0:21:45.57,Default,CHITOSE,0000,0000,0000,,Chizuru.
+Dialogue: 0,0:21:51.16,0:21:52.83,Default,CHIZURU,0000,0000,0000,,{\i1}The demon is back...{\i0}
+Dialogue: 0,0:21:52.83,0:21:54.33,Default,CHIZURU,0000,0000,0000,,{\i1}Well, whatever...{\i0}
+Dialogue: 0,0:21:59.44,0:22:03.77,Default,AKARI,0000,0000,0000,,I gave out lots of chocolate, \Nbut I didn't receive any.
+Dialogue: 0,0:23:40.63,0:23:42.94,Default,SAKURAKO,0000,0000,0000,,Your lunchtime protagonist is the
+Dialogue: 0,0:23:42.94,0:23:44.96,Default,,0000,0000,0000,,Isobe-fried Omuro Sakurako!
+Dialogue: 0,0:23:45.77,0:23:47.94,Default,SAKURAKO,0000,0000,0000,,What should I give \NHimawari on White Day?
+Dialogue: 0,0:23:48.23,0:23:49.67,Default,SAKURAKO,0000,0000,0000,,You're supposed to give people
+Dialogue: 0,0:23:49.67,0:23:51.44,Default,,0000,0000,0000,,something you'd like to receive, right?
+Dialogue: 0,0:23:51.44,0:23:52.04,Default,SAKURAKO,0000,0000,0000,,I know!
+Dialogue: 0,0:23:52.04,0:23:54.00,Default,SAKURAKO,0000,0000,0000,,I'll give her lots of fish cakes!
+Dialogue: 0,0:23:54.00,0:23:56.00,Default,,0000,0000,0000,,

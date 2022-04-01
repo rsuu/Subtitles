@@ -1,0 +1,479 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,72,&H00FFFFFF,&H0000FFFF,&H002E2E2E,&H80000000,-1,0,0,0,100,100,0,0,0,2,0,2,20,20,20,134
+Style: DefaultZHU,Microsoft YaHei,45,&H00FFFFFF,&H000000FF,&H00B51821,&H00000000,-1,0,0,0,100,100,0,0,1,3,2,2,10,10,10,1
+Style: 01,SimHei,25,&H00FFFFFF,&H000000FF,&H0082161F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: biaoti,方正兰亭中黑_GBK,40,&H00FFFFFF,&H000000FF,&H00000000,&H0092979B,0,0,0,0,100,100,0,0,1,0,4,2,10,10,10,1
+Style: opj,华康华综体Full- Yolan,55,&H00FFFFFF,&H000000FF,&H00AD6827,&H00000000,-1,0,0,0,100,100,0,0,1,4,1,8,10,10,10,1
+Style: opc,华康华综体Full- Yolan,55,&H00FFFFFF,&H000000FF,&H00AD6827,&H00000000,-1,0,0,0,100,100,0,0,1,4,1,2,10,10,10,1
+Style: charu,华康华综体Full- Yolan,45,&H00FFFFFF,&H000000FF,&H00BC564A,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: opj - AN7,华康华综体Full- Yolan,55,&H00FFFFFF,&H000000FF,&H00AD6827,&H00000000,-1,0,0,0,100,100,0,0,1,4,1,7,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.95,0:00:04.79,01,NTP,0,0,0,,{\fad(200,200)}本字幕由極影字幕社（ktxp）製作,請勿用於商業用途。若您喜歡本作品，請購買正版
+Dialogue: 0,0:00:04.79,0:00:08.05,01,NTP,0,0,0,,{\fad(200,200)}翻譯：LL組的臥底 cute卯月&かな子的誓言 澀谷凜Sliencer  校對：星梨花親女兒·理性  歌姬：cute卯月&かな子的誓言 後期&監督:最愛春香和老婆大人sfree 繁化：萌えリリ
+Dialogue: 0,0:00:11.96,0:00:14.41,DefaultZHU,NTP,0,0,0,,我們竟然馬上就能站上舞台了
+Dialogue: 0,0:00:14.77,0:00:18.72,DefaultZHU,NTP,0,0,0,,剛做偶像就能選上我 真是無法預測會發生什麼
+Dialogue: 0,0:00:19.09,0:00:21.76,DefaultZHU,NTP,0,0,0,,做偶像真的很開心呢
+Dialogue: 0,0:00:22.06,0:00:22.66,DefaultZHU,NTP,0,0,0,,就是
+Dialogue: 0,0:00:24.35,0:00:25.70,DefaultZHU,NTP,0,0,0,,凜你覺得呢
+Dialogue: 0,0:00:28.26,0:00:30.17,DefaultZHU,NTP,0,0,0,,還沒什麼實感
+Dialogue: 0,0:00:30.96,0:00:34.00,DefaultZHU,NTP,0,0,0,,也無法想像站在舞台上的自己
+Dialogue: 0,0:00:36.87,0:00:41.06,DefaultZHU,NTP,0,0,0,,偶像的工作 是這麼輕率就能決定的東西嗎
+Dialogue: 0,0:00:44.07,0:00:46.49,DefaultZHU,NTP,0,0,0,,這個嘛…雖然不是很清楚
+Dialogue: 0,0:00:47.85,0:00:49.59,DefaultZHU,NTP,0,0,0,,不試試看的話怎麼知道結果嘛
+Dialogue: 0,0:00:51.68,0:00:52.58,DefaultZHU,NTP,0,0,0,,很痛哎
+Dialogue: 0,0:00:54.30,0:00:56.15,DefaultZHU,NTP,0,0,0,,早上好！
+Dialogue: 0,0:00:59.48,0:01:03.38,DefaultZHU,NTP,0,0,0,,我絕不接受後加入的新人能先我們一步站上舞台喵
+Dialogue: 0,0:01:03.90,0:01:06.01,DefaultZHU,NTP,0,0,0,,你們與MIKU到底誰更適合這個位置
+Dialogue: 0,0:01:06.77,0:01:07.82,DefaultZHU,NTP,0,0,0,,來決一勝負喵！
+Dialogue: 0,0:01:08.05,0:01:10.23,opj,NTP,0,0,0,,{\fade(200,200)}精一杯　輝く
+Dialogue: 0,0:01:08.05,0:01:10.23,opc,NTP,0,0,0,,{\fade(200,200)}卯足全力 綻放光彩
+Dialogue: 0,0:01:10.65,0:01:13.97,opj,NTP,0,0,0,,{\fade(200,200)}輝く星になれ
+Dialogue: 0,0:01:10.65,0:01:13.97,opc,NTP,0,0,0,,{\fade(200,200)}化作閃耀的繁星
+Dialogue: 0,0:01:14.12,0:01:16.46,opj,NTP,0,0,0,,{\fade(200,200)}運命のドア開けよ
+Dialogue: 0,0:01:14.12,0:01:16.46,opc,NTP,0,0,0,,{\fade(200,200)}在此打開命運之門
+Dialogue: 0,0:01:16.60,0:01:22.41,opj,NTP,0,0,0,,{\fade(200,1000)}今　未来だけ見上げて
+Dialogue: 0,0:01:16.60,0:01:22.41,opc,NTP,0,0,0,,{\fade(200,1000)}而今 眼眸中閃爍的只有未來
+Dialogue: 0,0:01:36.06,0:01:40.98,opj,NTP,0,0,0,,{\fade(200,200)}そっと　鏡を覗いたの（覗いたの）
+Dialogue: 0,0:01:36.06,0:01:40.98,opc,NTP,0,0,0,,{\fade(200,200)}悄悄地 窺視鏡面（窺視鏡面）
+Dialogue: 0,0:01:41.61,0:01:46.42,opj,NTP,0,0,0,,{\fade(200,200)}ちょっと　おまじない　自分にエール
+Dialogue: 0,0:01:41.61,0:01:46.42,opc,NTP,0,0,0,,{\fade(200,200)}稍稍念動咒語 為自己加油鼓勁
+Dialogue: 0,0:01:46.81,0:01:51.11,opj,NTP,0,0,0,,{\fade(200,200)}だって　リハーサルギコッチないわたし
+Dialogue: 0,0:01:46.81,0:01:51.11,opc,NTP,0,0,0,,{\fade(200,200)}因為 在排練時略顯生澀的我
+Dialogue: 0,0:01:51.22,0:01:54.26,opj,NTP,0,0,0,,{\fade(200,200)}鼓動だけが　ドキュンドキュン
+Dialogue: 0,0:01:51.22,0:01:54.26,opc,NTP,0,0,0,,{\fade(200,200)}唯有心兒 撲通直跳
+Dialogue: 0,0:01:54.38,0:01:56.87,opj,NTP,0,0,0,,{\fade(200,200)}ファンファーレみたいに
+Dialogue: 0,0:01:54.38,0:01:56.87,opc,NTP,0,0,0,,{\fade(200,200)}宛如號聲響起
+Dialogue: 0,0:01:57.62,0:02:02.29,opj,NTP,0,0,0,,{\fade(200,200)}慣れないこのピンヒール　10センチの背伸びを
+Dialogue: 0,0:01:57.62,0:02:02.29,opc,NTP,0,0,0,,{\fade(200,200)}難以適應的高跟鞋 再多長高10公分吧
+Dialogue: 0,0:02:02.41,0:02:07.01,opj,NTP,0,0,0,,{\fade(200,200)}誰か魔法で　変えてください
+Dialogue: 0,0:02:02.41,0:02:07.01,opc,NTP,0,0,0,,{\fade(200,200)}誰來施展魔法 賜予我
+Dialogue: 0,0:02:07.58,0:02:09.96,opj,NTP,0,0,0,,{\fade(200,200)}ガラスの靴に
+Dialogue: 0,0:02:07.58,0:02:09.96,opc,NTP,0,0,0,,{\fade(200,200)}玻璃之靴
+Dialogue: 0,0:02:10.09,0:02:12.15,opj,NTP,0,0,0,,{\fade(200,200)}精一杯　輝く
+Dialogue: 0,0:02:10.09,0:02:12.15,opc,NTP,0,0,0,,{\fade(200,200)}卯足全力 綻放光彩
+Dialogue: 0,0:02:12.69,0:02:15.98,opj,NTP,0,0,0,,{\fade(200,200)}輝くスーパースターに
+Dialogue: 0,0:02:12.69,0:02:15.98,opc,NTP,0,0,0,,{\fade(200,200)}猶如光芒萬丈的超級明星
+Dialogue: 0,0:02:16.10,0:02:20.76,opj,NTP,0,0,0,,{\fade(200,200)}小さな一歩だけの　キミがいるから
+Dialogue: 0,0:02:16.10,0:02:20.76,opc,NTP,0,0,0,,{\fade(200,200)}哪怕咫尺一步 也因你而精彩
+Dialogue: 0,0:02:20.87,0:02:23.52,opj,NTP,0,0,0,,{\fade(200,200)}精一杯　輝く
+Dialogue: 0,0:02:20.87,0:02:23.52,opc,NTP,0,0,0,,{\fade(200,200)}卯足全力 綻放光彩
+Dialogue: 0,0:02:23.62,0:02:26.68,opj,NTP,0,0,0,,{\fade(200,200)}輝く星になれ
+Dialogue: 0,0:02:23.62,0:02:26.68,opc,NTP,0,0,0,,{\fade(200,200)}化作閃耀的繁星
+Dialogue: 0,0:02:26.93,0:02:29.03,opj,NTP,0,0,0,,{\fade(200,200)}運命のドア開けよ
+Dialogue: 0,0:02:26.93,0:02:29.03,opc,NTP,0,0,0,,{\fade(200,200)}在此打開命運之門
+Dialogue: 0,0:02:29.27,0:02:35.07,opj,NTP,0,0,0,,{\fade(200,1000)}今　未来だけ見上げて
+Dialogue: 0,0:02:29.27,0:02:35.07,opc,NTP,0,0,0,,{\fade(200,1000)}而今 眼眸中閃爍的只有未來
+Dialogue: 0,0:02:37.96,0:02:41.96,biaoti,NTP,0,0,0,,{\be1\fad(0,1000)\pos(640,645)}-一場華麗的舞會 充斥著歡樂 和…-
+Dialogue: 0,0:02:51.26,0:02:53.28,DefaultZHU,NTP,0,0,0,,真是一場壯絕的戰鬥
+Dialogue: 0,0:02:55.85,0:02:57.75,DefaultZHU,NTP,0,0,0,,我只是貪心了一下
+Dialogue: 0,0:02:57.91,0:03:00.65,DefaultZHU,NTP,0,0,0,,MIKU才沒有輸 喵
+Dialogue: 0,0:03:01.16,0:03:03.54,DefaultZHU,NTP,0,0,0,,這和做偶像有關係嗎…
+Dialogue: 0,0:03:09.42,0:03:11.07,DefaultZHU,NTP,0,0,0,,未來 不要緊吧
+Dialogue: 0,0:03:13.00,0:03:13.62,DefaultZHU,NTP,0,0,0,,那個
+Dialogue: 0,0:03:14.50,0:03:19.16,DefaultZHU,NTP,0,0,0,,為了慶祝大家登上舞台 我做了一些點心
+Dialogue: 0,0:03:22.61,0:03:23.81,DefaultZHU,NTP,0,0,0,,非常感謝
+Dialogue: 0,0:03:24.23,0:03:24.90,DefaultZHU,NTP,0,0,0,,請用
+Dialogue: 0,0:03:31.24,0:03:32.39,DefaultZHU,NTP,0,0,0,,好吃！
+Dialogue: 0,0:03:32.68,0:03:34.48,DefaultZHU,NTP,0,0,0,,這個竟然是親手做的 真是太厲害了
+Dialogue: 0,0:03:37.09,0:03:38.43,DefaultZHU,NTP,0,0,0,,來 請吧
+Dialogue: 0,0:03:40.17,0:03:41.25,DefaultZHU,NTP,0,0,0,,謝謝
+Dialogue: 0,0:03:46.15,0:03:47.08,DefaultZHU,NTP,0,0,0,,好吃
+Dialogue: 0,0:03:48.28,0:03:49.59,DefaultZHU,NTP,0,0,0,,請多吃點吧
+Dialogue: 0,0:03:49.99,0:03:51.20,DefaultZHU,NTP,0,0,0,,還有很多呢
+Dialogue: 0,0:03:51.68,0:03:52.37,DefaultZHU,NTP,0,0,0,,真的可以嗎？
+Dialogue: 0,0:03:52.37,0:03:52.90,DefaultZHU,NTP,0,0,0,,那個…
+Dialogue: 0,0:03:53.76,0:03:54.98,DefaultZHU,NTP,0,0,0,,非常感謝
+Dialogue: 0,0:03:55.77,0:03:58.82,DefaultZHU,NTP,0,0,0,,那我也吃一個…啊
+Dialogue: 0,0:03:58.82,0:04:00.24,DefaultZHU,NTP,0,0,0,,喂 三村
+Dialogue: 0,0:04:01.24,0:04:05.15,DefaultZHU,NTP,0,0,0,,你也是個偶像 也稍微注意下體型吧
+Dialogue: 0,0:04:06.61,0:04:07.39,DefaultZHU,NTP,0,0,0,,非常抱歉…
+Dialogue: 0,0:04:08.17,0:04:09.08,DefaultZHU,NTP,0,0,0,,真是的
+Dialogue: 0,0:04:09.86,0:04:11.38,DefaultZHU,NTP,0,0,0,,說回來 城崎還沒來嗎
+Dialogue: 0,0:04:13.37,0:04:14.21,DefaultZHU,NTP,0,0,0,,早上好
+Dialogue: 0,0:04:14.99,0:04:16.15,DefaultZHU,NTP,0,0,0,,城崎美嘉
+Dialogue: 0,0:04:17.58,0:04:18.21,DefaultZHU,NTP,0,0,0,,…小姐
+Dialogue: 0,0:04:18.76,0:04:20.01,DefaultZHU,NTP,0,0,0,,早上好
+Dialogue: 0,0:04:20.42,0:04:23.02,DefaultZHU,NTP,0,0,0,,抱歉抱歉 突然安排去接受採訪
+Dialogue: 0,0:04:23.18,0:04:25.09,DefaultZHU,NTP,0,0,0,,好了快去換衣服吧
+Dialogue: 0,0:04:25.49,0:04:26.07,DefaultZHU,NTP,0,0,0,,好～
+Dialogue: 0,0:04:29.65,0:04:33.04,DefaultZHU,NTP,0,0,0,,竟然能和那個城崎美嘉一起上課
+Dialogue: 0,0:04:35.03,0:04:36.50,DefaultZHU,NTP,0,0,0,,首先由你來指導
+Dialogue: 0,0:04:37.02,0:04:38.55,DefaultZHU,NTP,0,0,0,,有點樣子了我再來看看
+Dialogue: 0,0:04:38.92,0:04:39.44,DefaultZHU,NTP,0,0,0,,好
+Dialogue: 0,0:04:40.39,0:04:42.13,DefaultZHU,NTP,0,0,0,,你們跳舞的經驗是？
+Dialogue: 0,0:04:42.56,0:04:44.79,DefaultZHU,NTP,0,0,0,,經常和學校的朋友一起跳舞
+Dialogue: 0,0:04:45.58,0:04:47.05,DefaultZHU,NTP,0,0,0,,我在育成校學過…
+Dialogue: 0,0:04:47.60,0:04:48.75,DefaultZHU,NTP,0,0,0,,幾乎沒有…吧
+Dialogue: 0,0:04:49.65,0:04:52.17,DefaultZHU,NTP,0,0,0,,這次的倒是看DVD記下來了
+Dialogue: 0,0:04:54.31,0:04:56.50,DefaultZHU,NTP,0,0,0,,嘛 不跳了試試也是不知道的
+Dialogue: 0,0:04:57.27,0:04:59.98,DefaultZHU,NTP,0,0,0,,這裡就全交給我吧
+Dialogue: 0,0:05:01.36,0:05:02.07,DefaultZHU,NTP,0,0,0,,美嘉…
+Dialogue: 0,0:05:02.07,0:05:04.24,DefaultZHU,NTP,0,0,0,,從今天開始請讓我叫您美嘉姐
+Dialogue: 0,0:05:04.82,0:05:05.87,DefaultZHU,NTP,0,0,0,,美…美嘉姐…
+Dialogue: 0,0:05:06.24,0:05:09.22,DefaultZHU,NTP,0,0,0,,一二三四 五六七八
+Dialogue: 0,0:05:10.17,0:05:12.72,DefaultZHU,NTP,0,0,0,,這個拍子好好站穩的話會很帥哦
+Dialogue: 0,0:05:15.45,0:05:16.43,DefaultZHU,NTP,0,0,0,,好嚴格
+Dialogue: 0,0:05:18.32,0:05:21.30,DefaultZHU,NTP,0,0,0,,那個…我有點不懂的地方
+Dialogue: 0,0:05:21.72,0:05:22.37,DefaultZHU,NTP,0,0,0,,哪裡？
+Dialogue: 0,0:05:23.13,0:05:23.94,DefaultZHU,NTP,0,0,0,,那個
+Dialogue: 0,0:05:26.09,0:05:29.40,DefaultZHU,NTP,0,0,0,,「無論何處 心跳不斷加速」
+Dialogue: 0,0:05:26.09,0:05:29.40,DefaultZHU,NTP,0,0,0,,「TOKIMEKIどこまでも エスカレート」
+Dialogue: 0,0:05:29.69,0:05:33.14,DefaultZHU,NTP,0,0,0,,「宛如迸發而出的氣泡般的戀愛模式」這個部分
+Dialogue: 0,0:05:29.69,0:05:33.14,DefaultZHU,NTP,0,0,0,,「サイダーみたいにはじける恋モード」
+Dialogue: 0,0:05:35.63,0:05:37.00,DefaultZHU,NTP,0,0,0,,你唱歌也不錯嘛
+Dialogue: 0,0:05:37.17,0:05:38.07,DefaultZHU,NTP,0,0,0,,澀凜凜 挺厲害啊
+Dialogue: 0,0:05:38.24,0:05:39.04,DefaultZHU,NTP,0,0,0,,凜好帥
+Dialogue: 0,0:05:40.27,0:05:41.90,DefaultZHU,NTP,0,0,0,,和這個沒關係啦
+Dialogue: 0,0:05:42.33,0:05:44.02,charu,NTP,0,0,0,,哦呀 澀凜凜害羞了嗎
+Dialogue: 0,0:05:43.45,0:05:46.79,DefaultZHU,NTP,0,0,0,,大家 正式上台時會穿什麼樣的衣服呢
+Dialogue: 0,0:05:47.16,0:05:51.16,DefaultZHU,NTP,0,0,0,,正式上台…光想像一下都會覺得緊張
+Dialogue: 0,0:05:54.27,0:05:56.23,DefaultZHU,NTP,0,0,0,,給我等等喵
+Dialogue: 0,0:05:57.12,0:05:59.32,DefaultZHU,NTP,0,0,0,,剛才只是出了點小岔子
+Dialogue: 0,0:05:59.70,0:06:01.52,DefaultZHU,NTP,0,0,0,,再來和MIKU一決高低…
+Dialogue: 0,0:06:02.18,0:06:04.78,DefaultZHU,NTP,0,0,0,,你還有你該幹的事情
+Dialogue: 0,0:06:10.30,0:06:11.69,DefaultZHU,NTP,0,0,0,,多謝指教
+Dialogue: 0,0:06:12.70,0:06:13.85,DefaultZHU,NTP,0,0,0,,再見啦
+Dialogue: 0,0:06:27.73,0:06:29.54,DefaultZHU,NTP,0,0,0,,你有什麼在意的地方嗎
+Dialogue: 0,0:06:31.39,0:06:32.57,DefaultZHU,NTP,0,0,0,,啊 沒什麼
+Dialogue: 0,0:06:34.40,0:06:36.86,DefaultZHU,NTP,0,0,0,,是她們做伴舞的事嗎
+Dialogue: 0,0:06:39.36,0:06:40.10,DefaultZHU,NTP,0,0,0,,是的
+Dialogue: 0,0:06:40.90,0:06:43.82,DefaultZHU,NTP,0,0,0,,當然 我覺得大家都很有資質
+Dialogue: 0,0:06:45.18,0:06:48.11,DefaultZHU,NTP,0,0,0,,但說實話 我覺得還是快了點…
+Dialogue: 0,0:06:48.74,0:06:50.68,DefaultZHU,NTP,0,0,0,,確實可能是這樣沒錯
+Dialogue: 0,0:06:52.20,0:06:54.50,DefaultZHU,NTP,0,0,0,,但是 不管怎麼說
+Dialogue: 0,0:06:54.80,0:06:58.40,DefaultZHU,NTP,0,0,0,,這對她們來說也會成為一次不錯的經驗吧
+Dialogue: 0,0:07:07.55,0:07:08.99,DefaultZHU,NTP,0,0,0,,是新款衣服啊
+Dialogue: 0,0:07:10.84,0:07:12.55,DefaultZHU,NTP,0,0,0,,這是冬季Live的那件
+Dialogue: 0,0:07:14.50,0:07:16.42,DefaultZHU,NTP,0,0,0,,吶吶島村村 你看這個
+Dialogue: 0,0:07:19.06,0:07:21.49,DefaultZHU,NTP,0,0,0,,啊 不能隨便碰啦
+Dialogue: 0,0:07:21.73,0:07:23.12,DefaultZHU,NTP,0,0,0,,誒 沒什麼的啦
+Dialogue: 0,0:07:28.82,0:07:30.73,DefaultZHU,NTP,0,0,0,,指導員…小姐？
+Dialogue: 0,0:07:32.40,0:07:33.72,DefaultZHU,NTP,0,0,0,,我是她妹妹
+Dialogue: 0,0:07:33.85,0:07:35.46,DefaultZHU,NTP,0,0,0,,誒 長的一模一樣啊
+Dialogue: 0,0:07:35.63,0:07:37.25,DefaultZHU,NTP,0,0,0,,常被人這麼說
+Dialogue: 0,0:07:40.10,0:07:42.72,DefaultZHU,NTP,0,0,0,,雖然本職和姐姐一樣都是指導員
+Dialogue: 0,0:07:42.99,0:07:44.08,DefaultZHU,NTP,0,0,0,,但還是新人
+Dialogue: 0,0:07:44.41,0:07:47.11,DefaultZHU,NTP,0,0,0,,就是說和我們一樣都是菜鳥囉
+Dialogue: 0,0:07:48.05,0:07:48.99,DefaultZHU,NTP,0,0,0,,菜鳥…
+Dialogue: 0,0:07:50.14,0:07:51.90,DefaultZHU,NTP,0,0,0,,那麼 就叫你rookie醬了
+Dialogue: 0,0:07:53.01,0:07:54.10,DefaultZHU,NTP,0,0,0,,rookie醬…
+Dialogue: 0,0:08:00.45,0:08:01.88,DefaultZHU,NTP,0,0,0,,出乎意料的性感
+Dialogue: 0,0:08:04.81,0:08:06.57,DefaultZHU,NTP,0,0,0,,很配兩位哦
+Dialogue: 0,0:08:06.82,0:08:09.97,DefaultZHU,NTP,0,0,0,,島村村也是 一下子就有偶像的感覺了
+Dialogue: 0,0:08:10.14,0:08:10.94,DefaultZHU,NTP,0,0,0,,真的嗎
+Dialogue: 0,0:08:11.23,0:08:13.44,DefaultZHU,NTP,0,0,0,,請確認下尺寸是否合適
+Dialogue: 0,0:08:13.70,0:08:14.25,DefaultZHU,NTP,0,0,0,,好
+Dialogue: 0,0:08:15.71,0:08:16.37,DefaultZHU,NTP,0,0,0,,啊 那個
+Dialogue: 0,0:08:16.97,0:08:18.25,DefaultZHU,NTP,0,0,0,,屁股稍微有點…
+Dialogue: 0,0:08:18.97,0:08:20.66,DefaultZHU,NTP,0,0,0,,啊 已經開始試穿了
+Dialogue: 0,0:08:20.76,0:08:21.93,DefaultZHU,NTP,0,0,0,,這就是舞台裝？
+Dialogue: 0,0:08:22.06,0:08:23.21,DefaultZHU,NTP,0,0,0,,真不錯真不錯
+Dialogue: 0,0:08:23.41,0:08:28.39,DefaultZHU,NTP,0,0,0,,但是 肚子附近乾脆點全露出來不是更性感
+Dialogue: 0,0:08:30.38,0:08:32.84,DefaultZHU,NTP,0,0,0,,賭上這身衣服 來決一高低喵！
+Dialogue: 0,0:08:33.61,0:08:36.22,DefaultZHU,NTP,0,0,0,,石頭剪刀布 面朝那裡…看
+Dialogue: 0,0:08:37.35,0:08:38.31,DefaultZHU,NTP,0,0,0,,贏啦
+Dialogue: 0,0:08:38.50,0:08:39.82,DefaultZHU,NTP,0,0,0,,未央好強
+Dialogue: 0,0:08:40.01,0:08:41.30,DefaultZHU,NTP,0,0,0,,這樣的不算喵
+Dialogue: 0,0:08:42.06,0:08:44.71,DefaultZHU,NTP,0,0,0,,運氣也是實力的一部分 沒錯吧
+Dialogue: 0,0:08:45.60,0:08:46.61,charu,NTP,0,0,0,,五六七八
+Dialogue: 0,0:08:46.82,0:08:49.68,charu,NTP,0,0,0,,一二三四 五六七八…
+Dialogue: 0,0:08:47.40,0:08:48.31,DefaultZHU,NTP,0,0,0,,好 休息
+Dialogue: 0,0:08:49.86,0:08:52.88,charu,NTP,0,0,0,,一二三四 五六七八…
+Dialogue: 0,0:08:50.67,0:08:52.07,DefaultZHU,NTP,0,0,0,,接下來了是你們了
+Dialogue: 0,0:08:52.32,0:08:53.44,DefaultZHU,NTP,0,0,0,,喂 前川
+Dialogue: 0,0:08:53.50,0:08:54.86,charu,NTP,0,0,0,,一 OK
+Dialogue: 0,0:08:53.64,0:08:54.73,DefaultZHU,NTP,0,0,0,,你要生氣到什麼時候
+Dialogue: 0,0:08:55.12,0:08:57.49,charu,NTP,0,0,0,,二三四 五六七八…
+Dialogue: 0,0:08:55.29,0:08:56.05,DefaultZHU,NTP,0,0,0,,是
+Dialogue: 0,0:08:57.66,0:09:00.49,charu,NTP,0,0,0,,一二三四 五六七八…
+Dialogue: 0,0:09:00.69,0:09:03.64,charu,NTP,0,0,0,,一二三四 五六七八…
+Dialogue: 0,0:09:03.79,0:09:04.78,charu,NTP,0,0,0,,一…
+Dialogue: 0,0:09:04.82,0:09:05.94,DefaultZHU,NTP,0,0,0,,阿妮婭 給你
+Dialogue: 0,0:09:08.92,0:09:10.11,DefaultZHU,NTP,0,0,0,,Спасибо
+Dialogue: 0,0:09:12.07,0:09:14.69,DefaultZHU,NTP,0,0,0,,啊 謝謝 美波
+Dialogue: 0,0:09:17.17,0:09:21.59,DefaultZHU,NTP,0,0,0,,美波 她們 工作過度 沒事嗎
+Dialogue: 0,0:09:22.52,0:09:25.40,DefaultZHU,NTP,0,0,0,,因為離上台時間很近了 所以大家在努力
+Dialogue: 0,0:09:51.01,0:09:52.33,DefaultZHU,NTP,0,0,0,,一 二 三 四
+Dialogue: 0,0:09:52.49,0:09:55.10,DefaultZHU,NTP,0,0,0,,膝蓋別那麼僵硬 手放開點
+Dialogue: 0,0:10:00.80,0:10:04.72,DefaultZHU,NTP,0,0,0,,卯月她們非常努力呢
+Dialogue: 0,0:10:08.09,0:10:09.24,DefaultZHU,NTP,0,0,0,,你剛才說什麼了嗎
+Dialogue: 0,0:10:09.76,0:10:13.81,DefaultZHU,NTP,0,0,0,,李衣菜也想和美嘉一起上台嗎
+Dialogue: 0,0:10:15.49,0:10:19.02,DefaultZHU,NTP,0,0,0,,當偶像的伴舞可一點也不搖滾
+Dialogue: 0,0:10:19.71,0:10:21.87,DefaultZHU,NTP,0,0,0,,嗚 是這樣嗎
+Dialogue: 0,0:10:23.38,0:10:26.02,DefaultZHU,NTP,0,0,0,,受人慧眼垂青之少女
+Dialogue: 0,0:10:26.50,0:10:28.75,DefaultZHU,NTP,0,0,0,,揮舞以生命之水滴
+Dialogue: 0,0:10:28.89,0:10:30.69,DefaultZHU,NTP,0,0,0,,盛宴虛位以待
+Dialogue: 0,0:10:33.60,0:10:39.20,DefaultZHU,NTP,0,0,0,,為迎天注之日 吾且暫隱漆黑之羽翼
+Dialogue: 0,0:10:44.47,0:10:48.00,DefaultZHU,NTP,0,0,0,,咦 話說杏去哪裡了
+Dialogue: 0,0:10:49.49,0:10:51.29,DefaultZHU,NTP,0,0,0,,在視線範圍內才奇怪吧
+Dialogue: 0,0:11:06.76,0:11:09.82,DefaultZHU,NTP,0,0,0,,嘛 勉強及格了
+Dialogue: 0,0:11:10.98,0:11:11.69,DefaultZHU,NTP,0,0,0,,做到了
+Dialogue: 0,0:11:11.90,0:11:12.43,DefaultZHU,NTP,0,0,0,,嗯
+Dialogue: 0,0:11:14.82,0:11:16.96,DefaultZHU,NTP,0,0,0,,雖然有幾個地方還有問題呢
+Dialogue: 0,0:11:17.58,0:11:18.53,DefaultZHU,NTP,0,0,0,,大家辛苦了
+Dialogue: 0,0:11:19.71,0:11:20.37,DefaultZHU,NTP,0,0,0,,阿妮婭
+Dialogue: 0,0:11:25.14,0:11:26.03,DefaultZHU,NTP,0,0,0,,請
+Dialogue: 0,0:11:25.14,0:11:26.03,DefaultZHU,NTP,0,0,0,,пожалуйста
+Dialogue: 0,0:11:29.16,0:11:29.79,DefaultZHU,NTP,0,0,0,,謝謝
+Dialogue: 0,0:11:30.01,0:11:34.24,DefaultZHU,NTP,0,0,0,,Thank you 不對 謝謝用俄語怎麼說來著
+Dialogue: 0,0:11:34.95,0:11:36.34,DefaultZHU,NTP,0,0,0,,那…那個
+Dialogue: 0,0:11:44.43,0:11:45.58,DefaultZHU,NTP,0,0,0,,恭喜…
+Dialogue: 0,0:11:44.43,0:11:45.58,DefaultZHU,NTP,0,0,0,,Поздравляю…
+Dialogue: 0,0:11:47.96,0:11:51.57,DefaultZHU,NTP,0,0,0,,恭喜大家 你們很努力
+Dialogue: 0,0:11:52.02,0:11:55.16,DefaultZHU,NTP,0,0,0,,明天舞台上 你們一定會大放光彩的
+Dialogue: 0,0:11:56.94,0:11:59.20,DefaultZHU,NTP,0,0,0,,用日語說沒說錯吧
+Dialogue: 0,0:12:01.13,0:12:01.53,DefaultZHU,NTP,0,0,0,,沒錯
+Dialogue: 0,0:12:02.06,0:12:03.08,DefaultZHU,NTP,0,0,0,,嗯 嗯
+Dialogue: 0,0:12:05.77,0:12:06.52,DefaultZHU,NTP,0,0,0,,謝謝
+Dialogue: 0,0:12:07.93,0:12:08.64,DefaultZHU,NTP,0,0,0,,我會努力的
+Dialogue: 0,0:12:09.14,0:12:10.43,DefaultZHU,NTP,0,0,0,,這個可以收下嗎
+Dialogue: 0,0:12:10.77,0:12:11.89,DefaultZHU,NTP,0,0,0,,沒關係 請
+Dialogue: 0,0:12:13.04,0:12:14.10,DefaultZHU,NTP,0,0,0,,十分感謝
+Dialogue: 0,0:12:17.87,0:12:20.24,DefaultZHU,NTP,0,0,0,,從前輩們那裡多學著點
+Dialogue: 0,0:12:20.90,0:12:24.69,DefaultZHU,NTP,0,0,0,,今天你們所經歷的 都會成為你們重要的經驗
+Dialogue: 0,0:12:25.10,0:12:25.63,DefaultZHU,NTP,0,0,0,,是
+Dialogue: 0,0:12:28.57,0:12:29.97,DefaultZHU,NTP,0,0,0,,雖然我還是無法接受
+Dialogue: 0,0:12:30.42,0:12:33.02,DefaultZHU,NTP,0,0,0,,今天就交給打敗了MIKU的各位了喵
+Dialogue: 0,0:12:34.02,0:12:35.66,DefaultZHU,NTP,0,0,0,,Live 加油啊
+Dialogue: 0,0:12:36.24,0:12:38.67,DefaultZHU,NTP,0,0,0,,大家都會看著你們
+Dialogue: 0,0:12:39.21,0:12:41.16,DefaultZHU,NTP,0,0,0,,是 十分感謝
+Dialogue: 0,0:12:44.69,0:12:45.82,DefaultZHU,NTP,0,0,0,,請多指教！
+Dialogue: 0,0:12:47.12,0:12:48.43,DefaultZHU,NTP,0,0,0,,請多指教
+Dialogue: 0,0:12:50.19,0:12:52.93,DefaultZHU,NTP,0,0,0,,Live開始前的後台是這個樣子啊
+Dialogue: 0,0:12:53.14,0:12:54.90,DefaultZHU,NTP,0,0,0,,最開始還挺震驚呢
+Dialogue: 0,0:12:55.32,0:12:57.74,DefaultZHU,NTP,0,0,0,,我之前只讓幫忙去賣周邊產品
+Dialogue: 0,0:12:57.74,0:12:58.75,DefaultZHU,NTP,0,0,0,,大家 請來這邊
+Dialogue: 0,0:13:04.70,0:13:07.20,DefaultZHU,NTP,0,0,0,,向出演的大家問好
+Dialogue: 0,0:13:08.38,0:13:13.71,DefaultZHU,NTP,0,0,0,,我是本次出任伴舞的島村卯月
+Dialogue: 0,0:13:14.05,0:13:16.91,DefaultZHU,NTP,0,0,0,,本田未央 今天請多指教
+Dialogue: 0,0:13:17.44,0:13:19.89,DefaultZHU,NTP,0,0,0,,澀谷凜 請多指教
+Dialogue: 0,0:13:20.49,0:13:22.06,DefaultZHU,NTP,0,0,0,,請多多指教
+Dialogue: 0,0:13:23.53,0:13:25.37,DefaultZHU,NTP,0,0,0,,今天是第一次登台嗎？
+Dialogue: 0,0:13:25.74,0:13:26.64,DefaultZHU,NTP,0,0,0,,是 是的
+Dialogue: 0,0:13:27.66,0:13:28.72,DefaultZHU,NTP,0,0,0,,很緊張吧
+Dialogue: 0,0:13:29.44,0:13:32.00,DefaultZHU,NTP,0,0,0,,我從早上開始也是忐忑不安的
+Dialogue: 0,0:13:33.38,0:13:37.76,DefaultZHU,NTP,0,0,0,,初次見面 今天的Live讓我們盡情地燃起來吧！
+Dialogue: 0,0:13:38.33,0:13:41.56,DefaultZHU,NTP,0,0,0,,初次登台嗎 很厲害呢
+Dialogue: 0,0:13:42.38,0:13:45.70,DefaultZHU,NTP,0,0,0,,有什麼不懂的可以問我
+Dialogue: 0,0:13:47.22,0:13:50.22,DefaultZHU,NTP,0,0,0,,啊呀 你是之前遇見到的女孩
+Dialogue: 0,0:13:50.22,0:13:52.32,DefaultZHU,NTP,0,0,0,,是 是的
+Dialogue: 0,0:13:52.62,0:13:53.77,DefaultZHU,NTP,0,0,0,,今天請多指教了
+Dialogue: 0,0:13:54.34,0:13:55.32,DefaultZHU,NTP,0,0,0,,早上好
+Dialogue: 0,0:13:55.84,0:13:56.55,DefaultZHU,NTP,0,0,0,,早上好
+Dialogue: 0,0:13:58.51,0:13:59.73,DefaultZHU,NTP,0,0,0,,今天一起加油吧
+Dialogue: 0,0:14:00.10,0:14:00.72,DefaultZHU,NTP,0,0,0,,當然了
+Dialogue: 0,0:14:05.57,0:14:09.07,DefaultZHU,NTP,0,0,0,,早上好 今天請多指教了
+Dialogue: 0,0:14:11.34,0:14:12.86,DefaultZHU,NTP,0,0,0,,請多多指教
+Dialogue: 0,0:14:23.31,0:14:25.20,DefaultZHU,NTP,0,0,0,,那個 舞台右側是…
+Dialogue: 0,0:14:25.51,0:14:28.37,DefaultZHU,NTP,0,0,0,,從舞台方向看的左邊 舞台左側是右邊
+Dialogue: 0,0:14:28.76,0:14:31.66,DefaultZHU,NTP,0,0,0,,那個…右手邊是舞台右側
+Dialogue: 0,0:14:31.88,0:14:33.59,DefaultZHU,NTP,0,0,0,,左手邊是舞台左側
+Dialogue: 0,0:14:42.61,0:14:43.84,DefaultZHU,NTP,0,0,0,,聲音真大
+Dialogue: 0,0:14:44.32,0:14:45.72,DefaultZHU,NTP,0,0,0,,嚇我一跳
+Dialogue: 0,0:14:45.80,0:14:47.22,DefaultZHU,NTP,0,0,0,,請開始測試麥克風
+Dialogue: 0,0:14:48.17,0:14:49.74,DefaultZHU,NTP,0,0,0,,好的 我是城崎美嘉
+Dialogue: 0,0:14:50.03,0:14:51.01,DefaultZHU,NTP,0,0,0,,請多指教
+Dialogue: 0,0:14:51.91,0:14:53.39,DefaultZHU,NTP,0,0,0,,好 謝謝
+Dialogue: 0,0:14:53.74,0:14:55.97,DefaultZHU,NTP,0,0,0,,試音結束後請到舞台左側
+Dialogue: 0,0:14:59.02,0:15:01.78,DefaultZHU,NTP,0,0,0,,和平日穿的鞋子不太一樣呢
+Dialogue: 0,0:15:01.97,0:15:03.72,DefaultZHU,NTP,0,0,0,,不適應的話很麻煩呢
+Dialogue: 0,0:15:03.72,0:15:04.76,DefaultZHU,NTP,0,0,0,,請開始準備 要開始綵排了
+Dialogue: 0,0:15:04.90,0:15:05.72,DefaultZHU,NTP,0,0,0,,是
+Dialogue: 0,0:15:06.74,0:15:07.61,DefaultZHU,NTP,0,0,0,,請注意頭部
+Dialogue: 0,0:15:09.40,0:15:12.48,DefaultZHU,NTP,0,0,0,,力度很大 升上去的時候請注意下
+Dialogue: 0,0:15:13.34,0:15:13.98,DefaultZHU,NTP,0,0,0,,是
+Dialogue: 0,0:15:14.72,0:15:17.19,DefaultZHU,NTP,0,0,0,,三 二 一
+Dialogue: 0,0:15:27.27,0:15:28.34,DefaultZHU,NTP,0,0,0,,暫停一下
+Dialogue: 0,0:15:31.89,0:15:33.30,DefaultZHU,NTP,0,0,0,,再來一次吧
+Dialogue: 0,0:15:33.72,0:15:34.56,DefaultZHU,NTP,0,0,0,,好
+Dialogue: 0,0:15:36.97,0:15:39.11,DefaultZHU,NTP,0,0,0,,那個 可以再來一次嗎
+Dialogue: 0,0:15:39.45,0:15:40.86,DefaultZHU,NTP,0,0,0,,時間上不允許了
+Dialogue: 0,0:15:42.72,0:15:44.54,DefaultZHU,NTP,0,0,0,,怎麼辦 凜
+Dialogue: 0,0:15:44.98,0:15:49.61,DefaultZHU,NTP,0,0,0,,我也不知道怎麼辦 至少讓舞蹈能夠跟上吧
+Dialogue: 0,0:15:57.34,0:16:00.51,DefaultZHU,NTP,0,0,0,,抱歉 可以準備收工了
+Dialogue: 0,0:16:05.12,0:16:07.94,DefaultZHU,NTP,0,0,0,,完全吃不下啊
+Dialogue: 0,0:16:08.62,0:16:09.18,DefaultZHU,NTP,0,0,0,,嗯
+Dialogue: 0,0:16:19.29,0:16:20.47,DefaultZHU,NTP,0,0,0,,啊 是這裡
+Dialogue: 0,0:16:20.61,0:16:22.07,DefaultZHU,NTP,0,0,0,,這裡？
+Dialogue: 0,0:16:22.30,0:16:24.09,DefaultZHU,NTP,0,0,0,,再近點就好了
+Dialogue: 0,0:16:24.34,0:16:28.35,DefaultZHU,NTP,0,0,0,,但是呢 從這裡也可以看得很遠呢
+Dialogue: 0,0:16:28.81,0:16:29.39,DefaultZHU,NTP,0,0,0,,是吧
+Dialogue: 0,0:16:35.42,0:16:37.45,DefaultZHU,NTP,0,0,0,,一會可就全是人了
+Dialogue: 0,0:16:43.05,0:16:45.39,DefaultZHU,NTP,0,0,0,,讓我見識下你們的能耐喵
+Dialogue: 0,0:16:46.10,0:16:47.40,DefaultZHU,NTP,0,0,0,,心跳得好快…
+Dialogue: 0,0:16:46.10,0:16:47.40,DefaultZHU,NTP,0,0,0,,в животе…
+Dialogue: 0,0:16:57.87,0:16:58.94,DefaultZHU,NTP,0,0,0,,要上了哦
+Dialogue: 0,0:16:59.55,0:17:00.42,DefaultZHU,NTP,0,0,0,,哦——
+Dialogue: 0,0:17:05.58,0:17:06.77,DefaultZHU,NTP,0,0,0,,好緊張
+Dialogue: 0,0:17:07.32,0:17:08.19,DefaultZHU,NTP,0,0,0,,要開始了！
+Dialogue: 0,0:17:08.35,0:17:10.73,DefaultZHU,NTP,0,0,0,,終於要拉開舞會的帷幕了嗎
+Dialogue: 0,0:17:31.38,0:17:33.46,DefaultZHU,NTP,0,0,0,,已經開始了呢 未央
+Dialogue: 0,0:17:36.75,0:17:37.64,DefaultZHU,NTP,0,0,0,,未央？
+Dialogue: 0,0:17:38.36,0:17:38.91,DefaultZHU,NTP,0,0,0,,未央
+Dialogue: 0,0:17:39.24,0:17:41.12,opj,NTP,0,0,0,,{\an7\fade(200,200)}お願い！　シンデレラ
+Dialogue: 0,0:17:39.24,0:17:41.12,opj,NTP,0,0,0,,{\an7\fade(200,200)}拜託了 灰姑娘
+Dialogue: 0,0:17:41.36,0:17:44.07,opj,NTP,0,0,0,,{\an7\fade(200,200)}夢は夢で終われない
+Dialogue: 0,0:17:41.36,0:17:44.07,opj,NTP,0,0,0,,{\an7\fade(200,200)}夢想不要止於夢境
+Dialogue: 0,0:17:41.64,0:17:44.47,DefaultZHU,NTP,0,0,0,,從剛才你就一直沒說話 沒事吧
+Dialogue: 0,0:17:44.40,0:17:47.02,opj,NTP,0,0,0,,{\an7\fade(200,200)}動き始めてる
+Dialogue: 0,0:17:44.40,0:17:47.02,opj,NTP,0,0,0,,{\an7\fade(200,200)}躍躍欲試 馬上行動
+Dialogue: 0,0:17:45.39,0:17:47.40,DefaultZHU,NTP,0,0,0,,是嗎 啊哈哈
+Dialogue: 0,0:17:51.51,0:17:52.72,DefaultZHU,NTP,0,0,0,,請開始準備
+Dialogue: 0,0:17:52.79,0:17:54.62,DefaultZHU,NTP,0,0,0,,誒 已經到我們了嗎
+Dialogue: 0,0:17:54.99,0:17:56.10,DefaultZHU,NTP,0,0,0,,是的 拜託了
+Dialogue: 0,0:18:07.55,0:18:08.17,DefaultZHU,NTP,0,0,0,,上囉
+Dialogue: 0,0:18:10.01,0:18:11.18,DefaultZHU,NTP,0,0,0,,嗯…嗯
+Dialogue: 0,0:18:11.95,0:18:12.81,DefaultZHU,NTP,0,0,0,,卯月也要上囉
+Dialogue: 0,0:18:13.09,0:18:14.77,DefaultZHU,NTP,0,0,0,,是…是
+Dialogue: 0,0:18:17.44,0:18:19.56,DefaultZHU,NTP,0,0,0,,沒事的 正是上場會順利的
+Dialogue: 0,0:18:19.98,0:18:20.39,DefaultZHU,NTP,0,0,0,,是
+Dialogue: 0,0:18:20.67,0:18:21.02,DefaultZHU,NTP,0,0,0,,嗯
+Dialogue: 0,0:18:24.44,0:18:25.99,DefaultZHU,NTP,0,0,0,,好 那麼走吧
+Dialogue: 0,0:18:26.30,0:18:26.80,DefaultZHU,NTP,0,0,0,,是
+Dialogue: 0,0:18:27.22,0:18:31.09,DefaultZHU,NTP,0,0,0,,各位 如何 有信心不
+Dialogue: 0,0:18:31.57,0:18:33.68,DefaultZHU,NTP,0,0,0,,出場時候的口號決定好了嗎
+Dialogue: 0,0:18:34.12,0:18:36.04,DefaultZHU,NTP,0,0,0,,口…口號嗎？
+Dialogue: 0,0:18:36.45,0:18:37.60,DefaultZHU,NTP,0,0,0,,有一個比較好哦
+Dialogue: 0,0:18:38.16,0:18:39.83,DefaultZHU,NTP,0,0,0,,比如選喜歡的食物如何
+Dialogue: 0,0:18:40.18,0:18:43.29,DefaultZHU,NTP,0,0,0,,我的話就是"熱騰騰的米飯"
+Dialogue: 0,0:18:47.43,0:18:49.23,DefaultZHU,NTP,0,0,0,,巧…巧克力！
+Dialogue: 0,0:18:50.74,0:18:51.83,DefaultZHU,NTP,0,0,0,,生醃火腿蜜瓜！
+Dialogue: 0,0:18:51.94,0:18:52.60,DefaultZHU,NTP,0,0,0,,炸雞塊！
+Dialogue: 0,0:18:55.48,0:18:56.49,DefaultZHU,NTP,0,0,0,,剪刀石頭布
+Dialogue: 0,0:18:59.31,0:19:03.13,DefaultZHU,NTP,0,0,0,,OK 那麼要盡興地演出哦
+Dialogue: 0,0:19:04.60,0:19:05.87,DefaultZHU,NTP,0,0,0,,全員準備就緒
+Dialogue: 0,0:19:10.02,0:19:10.67,DefaultZHU,NTP,0,0,0,,上了
+Dialogue: 0,0:19:12.36,0:19:14.37,DefaultZHU,NTP,0,0,0,,開始前5秒 4 3
+Dialogue: 0,0:19:15.35,0:19:17.94,DefaultZHU,NTP,0,0,0,,炸…雞塊！
+Dialogue: 0,0:19:35.90,0:19:38.90,opj,NTP,0,0,0,,{\fade(200,200)}TOKIMEKIどこまでも エスカレート
+Dialogue: 0,0:19:35.90,0:19:38.90,opj,NTP,0,0,0,,{\fade(200,200)}無論何處 心跳（TOKIMEKI）不斷加速
+Dialogue: 0,0:19:39.15,0:19:42.30,opj,NTP,0,0,0,,{\fade(200,200)}サイダーみたいにはじける恋モード
+Dialogue: 0,0:19:39.15,0:19:42.30,opj,NTP,0,0,0,,{\fade(200,200)}宛如迸發而出的氣泡般的戀愛模式
+Dialogue: 0,0:19:42.65,0:19:45.64,opj,NTP,0,0,0,,{\fade(200,200)}ハートはデコらず伝えるの
+Dialogue: 0,0:19:42.65,0:19:45.64,opj,NTP,0,0,0,,{\fade(200,200)}想將這份心意不加修飾傳達給你
+Dialogue: 0,0:19:45.92,0:19:51.68,opj,NTP,0,0,0,,{\fade(200,800)}本当の私を見てね
+Dialogue: 0,0:19:45.92,0:19:51.68,opj,NTP,0,0,0,,{\fade(200,800)}請注視著真實的我
+Dialogue: 0,0:19:56.77,0:20:00.08,opj,NTP,0,0,0,,{\fade(200,200)}強がり 大人っぽいふり
+Dialogue: 0,0:19:56.77,0:20:00.08,opj,NTP,0,0,0,,{\fade(200,200)}愛逞強 喜愛成熟姿態
+Dialogue: 0,0:20:00.25,0:20:03.30,opj,NTP,0,0,0,,{\fade(200,200)}時々 置いていたい
+Dialogue: 0,0:20:00.25,0:20:03.30,opj,NTP,0,0,0,,{\fade(200,200)}偶爾也想要獨自休憩
+Dialogue: 0,0:20:03.62,0:20:06.87,opj,NTP,0,0,0,,{\fade(200,200)}あなたに 甘えたりして
+Dialogue: 0,0:20:03.62,0:20:06.87,opj,NTP,0,0,0,,{\fade(200,200)}不時地對你撒嬌
+Dialogue: 0,0:20:06.99,0:20:09.82,opj,NTP,0,0,0,,{\fade(200,200)}初めてだらけしたい
+Dialogue: 0,0:20:06.99,0:20:09.82,opj,NTP,0,0,0,,{\fade(200,200)}總有數不盡的事想要嘗試
+Dialogue: 0,0:20:09.93,0:20:13.07,opj,NTP,0,0,0,,{\fade(200,200)}暗い空 独りきり
+Dialogue: 0,0:20:09.93,0:20:13.07,opj,NTP,0,0,0,,{\fade(200,200)}昏暗的天空 孤身一人
+Dialogue: 0,0:20:13.22,0:20:16.23,opj,NTP,0,0,0,,{\fade(200,200)}頑張る時も
+Dialogue: 0,0:20:13.22,0:20:16.23,opj,NTP,0,0,0,,{\fade(200,200)}就算是努力拼搏之時
+Dialogue: 0,0:20:16.76,0:20:23.55,opj,NTP,0,0,0,,{\fade(200,200)}あなたは心に光る一番星
+Dialogue: 0,0:20:16.76,0:20:23.55,opj,NTP,0,0,0,,{\fade(200,200)}你也是我心中最閃耀的星
+Dialogue: 0,0:20:23.82,0:20:27.06,opj,NTP,0,0,0,,{\fade(200,200)}DOKIDOKIはいつでもストレート
+Dialogue: 0,0:20:23.82,0:20:27.06,opj,NTP,0,0,0,,{\fade(200,200)}無論何時 心跳（DOKIDOKI）不斷加速
+Dialogue: 0,0:20:27.19,0:20:30.32,opj,NTP,0,0,0,,{\fade(200,200)}迷路みたいに感じる恋ロード
+Dialogue: 0,0:20:27.19,0:20:30.32,opj,NTP,0,0,0,,{\fade(200,200)}仿若迷失於荒原般的戀愛進度
+Dialogue: 0,0:20:30.61,0:20:33.91,opj,NTP,0,0,0,,{\fade(200,200)}ハートはデコらず伝えるの
+Dialogue: 0,0:20:30.61,0:20:33.91,opj,NTP,0,0,0,,{\fade(200,200)}想將這份心意不加修飾傳達給你
+Dialogue: 0,0:20:34.05,0:20:43.68,opj,NTP,0,0,0,,{\fade(200,400)}本当の私を見てね 見てて
+Dialogue: 0,0:20:34.05,0:20:43.68,opj,NTP,0,0,0,,{\fade(200,400)}請注視著真實的我 不要移開視線
+Dialogue: 0,0:20:44.57,0:20:51.37,DefaultZHU,NTP,0,0,0,,T O K TOKIMEKI
+Dialogue: 0,0:20:51.49,0:20:58.17,DefaultZHU,NTP,0,0,0,,M E K TOKIMEKI
+Dialogue: 0,0:21:06.45,0:21:08.90,DefaultZHU,NTP,0,0,0,,大家 謝謝你們了
+Dialogue: 0,0:21:11.13,0:21:15.94,DefaultZHU,NTP,0,0,0,,話說今天伴舞的這幾位 雖然還只是新人
+Dialogue: 0,0:21:16.29,0:21:19.44,DefaultZHU,NTP,0,0,0,,不過我邀請她們登上了這個舞台
+Dialogue: 0,0:21:21.55,0:21:24.09,DefaultZHU,NTP,0,0,0,,那麼 來聽聽她們的感想吧
+Dialogue: 0,0:21:25.50,0:21:26.07,DefaultZHU,NTP,0,0,0,,如何
+Dialogue: 0,0:21:28.61,0:21:29.54,DefaultZHU,NTP,0,0,0,,誒 那個…
+Dialogue: 0,0:21:37.71,0:21:39.44,DefaultZHU,NTP,0,0,0,,超級棒！
+Dialogue: 0,0:21:48.10,0:21:49.50,DefaultZHU,NTP,0,0,0,,全部流程到此結束
+Dialogue: 0,0:21:49.76,0:21:51.48,DefaultZHU,NTP,0,0,0,,辛苦了！
+Dialogue: 0,0:21:58.52,0:21:59.42,DefaultZHU,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:22:00.20,0:22:01.86,DefaultZHU,NTP,0,0,0,,第一次登台幹得不錯啊
+Dialogue: 0,0:22:02.21,0:22:04.16,DefaultZHU,NTP,0,0,0,,不愧是我相中的
+Dialogue: 0,0:22:03.27,0:22:08.30,opj - AN7,NTP,0,0,0,,{\an7\fade(200,200)}夢みたい綺麗で泣けちゃうな
+Dialogue: 0,0:22:03.27,0:22:08.30,opj - AN7,NTP,0,0,0,,{\an7\fade(200,200)}夢境般絢麗的啜泣之姿
+Dialogue: 0,0:22:04.50,0:22:05.68,DefaultZHU,NTP,0,0,0,,非常感謝
+Dialogue: 0,0:22:05.93,0:22:07.30,DefaultZHU,NTP,0,0,0,,謝謝你 美嘉姐
+Dialogue: 0,0:22:07.65,0:22:08.69,DefaultZHU,NTP,0,0,0,,謝謝
+Dialogue: 0,0:22:09.10,0:22:15.08,opj - AN7,NTP,0,0,0,,{\an7\fade(200,200)}明るい空　見つけた一筋の流れ星
+Dialogue: 0,0:22:09.10,0:22:15.08,opj - AN7,NTP,0,0,0,,{\an7\fade(200,200)}明亮星空下 劃過一道流星
+Dialogue: 0,0:22:11.51,0:22:12.81,DefaultZHU,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:22:13.24,0:22:15.60,DefaultZHU,NTP,0,0,0,,會場裡的氣氛相當高漲呢
+Dialogue: 0,0:22:16.27,0:22:19.19,DefaultZHU,NTP,0,0,0,,是一次帥氣的首次登台
+Dialogue: 0,0:22:19.55,0:22:22.48,DefaultZHU,NTP,0,0,0,,下次的演出也能一起登台就好了
+Dialogue: 0,0:22:20.22,0:22:24.56,opj - AN7,NTP,0,0,0,,{\fade(200,200)}黄昏に染まる世界が好き
+Dialogue: 0,0:22:20.22,0:22:24.56,opj - AN7,NTP,0,0,0,,{\fade(200,200)}戀上這個被黃昏渲染的世界
+Dialogue: 0,0:22:24.70,0:22:30.25,opj - AN7,NTP,0,0,0,,{\fade(200,200)}素敵な出来事を集めるのが好き
+Dialogue: 0,0:22:24.70,0:22:30.25,opj - AN7,NTP,0,0,0,,{\fade(200,200)}喜歡身邊堆積起來的美好事物
+Dialogue: 0,0:22:26.82,0:22:27.90,DefaultZHU,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:22:30.13,0:22:31.18,DefaultZHU,NTP,0,0,0,,製作人
+Dialogue: 0,0:22:30.93,0:22:35.60,opj - AN7,NTP,0,0,0,,{\fade(200,200)}誰にでも　一つな物語
+Dialogue: 0,0:22:30.93,0:22:35.60,opj - AN7,NTP,0,0,0,,{\fade(200,200)}任誰都有 屬於自己的故事
+Dialogue: 0,0:22:31.83,0:22:39.09,DefaultZHU,NTP,0,0,0,,那個… 今天…非常感謝您讓我們登台
+Dialogue: 0,0:22:35.73,0:22:42.57,opj - AN7,NTP,0,0,0,,{\fade(200,200)}自分らしく歩くの　いつでも始められるよ
+Dialogue: 0,0:22:35.73,0:22:42.57,opj - AN7,NTP,0,0,0,,{\fade(200,200)}走自己的路 何時都能開始
+Dialogue: 0,0:22:41.34,0:22:42.45,DefaultZHU,NTP,0,0,0,,非常棒的舞台表演
+Dialogue: 0,0:22:42.66,0:22:49.35,opj - AN7,NTP,0,0,0,,{\fade(200,200)}ほら　溢れる夕焼けは優しい
+Dialogue: 0,0:22:42.66,0:22:49.35,opj - AN7,NTP,0,0,0,,{\fade(200,200)}看吧 夕陽染紅的雲彩是多麼的柔和
+Dialogue: 0,0:22:45.79,0:22:49.69,DefaultZHU,NTP,0,0,0,,未央 凜
+Dialogue: 0,0:22:49.43,0:22:53.28,opj - AN7,NTP,0,0,0,,{\fade(200,200)}光のプレゼント
+Dialogue: 0,0:22:49.43,0:22:53.28,opj - AN7,NTP,0,0,0,,{\fade(200,200)}光的贈禮
+Dialogue: 0,0:22:50.49,0:22:53.86,DefaultZHU,NTP,0,0,0,,島村村 澀凜凜
+Dialogue: 0,0:22:54.15,0:22:59.32,opj - AN7,NTP,0,0,0,,{\fade(200,200)}夢みたい綺麗で泣けちゃうな
+Dialogue: 0,0:22:54.15,0:22:59.32,opj - AN7,NTP,0,0,0,,{\fade(200,200)}夢境般絢麗的啜泣之姿
+Dialogue: 0,0:22:54.26,0:22:58.39,DefaultZHU,NTP,0,0,0,,辦到了 我們的初次登台成功了呢
+Dialogue: 0,0:22:58.39,0:23:02.95,DefaultZHU,NTP,0,0,0,,感覺全身都閃閃發光 偶像最棒了！
+Dialogue: 0,0:22:59.68,0:23:05.03,opj - AN7,NTP,0,0,0,,{\fade(200,200)}これからたくさんいいことあるよ
+Dialogue: 0,0:22:59.68,0:23:05.03,opj - AN7,NTP,0,0,0,,{\fade(200,200)}從今以後會有許多美好的經歷
+Dialogue: 0,0:23:02.95,0:23:06.16,DefaultZHU,NTP,0,0,0,,是吧 是吧 凜
+Dialogue: 0,0:23:05.25,0:23:09.89,opj - AN7,NTP,0,0,0,,{\fade(200,200)}もし手を伸ばしたら届くかな
+Dialogue: 0,0:23:05.25,0:23:09.89,opj - AN7,NTP,0,0,0,,{\fade(200,200)}若是伸出雙手或許就能傳達到
+Dialogue: 0,0:23:07.09,0:23:07.66,DefaultZHU,NTP,0,0,0,,嗯
+Dialogue: 0,0:23:10.68,0:23:16.91,opj - AN7,NTP,0,0,0,,{\fade(200,200)}明るい空　見つけた一筋の流れ星
+Dialogue: 0,0:23:10.68,0:23:16.91,opj - AN7,NTP,0,0,0,,{\fade(200,200)}明亮星空下 劃過一道流星
+Dialogue: 0,0:23:11.16,0:23:12.87,DefaultZHU,NTP,0,0,0,,今天辛苦大家了
+Dialogue: 0,0:23:13.80,0:23:17.01,DefaultZHU,NTP,0,0,0,,請好好記住今天的體驗
+Dialogue: 0,0:23:16.98,0:23:21.45,opj - AN7,NTP,0,0,0,,{\fade(200,200)}もし手を伸ばしたら触れるかな
+Dialogue: 0,0:23:16.98,0:23:21.45,opj - AN7,NTP,0,0,0,,{\fade(200,200)}若是伸出雙手或許就能觸碰到
+Dialogue: 0,0:23:17.86,0:23:18.48,DefaultZHU,NTP,0,0,0,,是的！
+Dialogue: 0,0:23:19.14,0:23:21.16,DefaultZHU,NTP,0,0,0,,真是非常出色的演出
+Dialogue: 0,0:23:21.64,0:23:27.28,opj - AN7,NTP,0,0,0,,{\fade(200,200)}空に舞いて零れた幸せの花びら
+Dialogue: 0,0:23:21.64,0:23:27.28,opj - AN7,NTP,0,0,0,,{\fade(200,200)}飛舞空中四散飄零的花瓣們
+Dialogue: 0,0:23:21.67,0:23:23.78,DefaultZHU,NTP,0,0,0,,全體工作人員還有在場的各位
+Dialogue: 0,0:23:24.34,0:23:28.70,DefaultZHU,NTP,0,0,0,,把今天的成功牢記在心 向著下一次演出進發吧
+Dialogue: 0,0:23:27.38,0:23:30.46,opj - AN7,NTP,0,0,0,,{\fade(200,200)}夢吹色
+Dialogue: 0,0:23:27.38,0:23:30.46,opj - AN7,NTP,0,0,0,,{\fade(200,200)}吹來夢的氣息
+Dialogue: 0,0:23:29.20,0:23:31.32,DefaultZHU,NTP,0,0,0,,嘛 今天就算了…
+Dialogue: 0,0:23:31.48,0:23:32.97,DefaultZHU,NTP,0,0,0,,非常的閃耀啊
+Dialogue: 0,0:23:33.15,0:23:34.64,DefaultZHU,NTP,0,0,0,,下次的演唱會能出場嗎？
+Dialogue: 0,0:23:34.82,0:23:36.13,DefaultZHU,NTP,0,0,0,,下次讓我登台吧
+Dialogue: 0,0:23:36.29,0:23:39.13,DefaultZHU,NTP,0,0,0,,MIKU也想上台喵！
+Dialogue: 0,0:23:45.48,0:23:48.14,DefaultZHU,NTP,0,0,0,,這是現實嗎
+Dialogue: 0,0:23:49.78,0:23:51.47,DefaultZHU,NTP,0,0,0,,簡直就像在做夢
+Dialogue: 0,0:23:52.75,0:23:53.31,DefaultZHU,NTP,0,0,0,,嗯
+Dialogue: 0,0:23:53.86,0:23:54.14,Default,NTP,0,0,0,,
+Dialogue: 0,0:23:54.33,0:23:54.61,Default,NTP,0,0,0,,
+Dialogue: 0,0:23:57.99,0:24:00.95,Default,NTP,0,0,0,,{\be1\fad(0,0)\pos(640,645)}-每一天 都充斥著歡笑！-
+

@@ -1,0 +1,393 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: YY-main,Amira,25,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-overlap,Amira,25,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-note,Amira,22,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,1,0,0,100,100,0,0,1,2,1,7,0280,0020,0130,0
+Style: YY-note-big,Amira,35,&H00000000,&H000000FF,&H00EEF2ED,&H00FFFFFF,0,0,0,0,100,100,0,0,1,3,0,8,0020,0020,0060,0
+Style: YY-Sign-top,Amira,30,&H00FCFEFF,&H000000FF,&H0000082A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0090,0090,0020,0
+Style: YY-title,Amira,50,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,110,100,0,0,1,0,3,8,0020,0020,0020,0
+Style: YY-ep-title-top,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0100,0
+Style: YY-ep-title-bottom,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0100,0
+Style: YY-eyecatch,Amira,40,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,100,100,0,0,1,4,2,8,0020,0020,0020,0
+Style: Next Episode,Amira,25,&H00000000,&H000000FF,&H00FFFFFF,&H005E6E5A,0,0,0,0,100,100,0,0,1,2,1,8,0020,0050,0070,0
+Style: Next ep title,Amira,40,&H00001627,&H000000FF,&H0095C296,&H008CA695,0,0,0,0,100,100,0,0,1,0,2,1,0052,0020,0090,0
+Style: Natsume-end-title,Amira,30,&H00AC751D,&H000000FF,&H008ABEE8,&H00273821,1,0,0,0,100,100,0,0,1,0,2,9,0020,0020,0020,0
+Style: Class,Amira,33,&H00000000,&H000000FF,&H00D1C9B6,&H00000000,1,1,0,0,110,100,0,0,1,2,2,8,0010,0010,0015,0
+Style: Council,Amira,25,&H00FFFBF6,&H000000FF,&H00000000,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0010,0010,0010,0
+Style: 1 week later,Amira,27,&H00FFFFFF,&H000000FF,&H0025281E,&H003A3D33,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0090,0
+Style: ayano,Amira,20,&H000000D8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,3,8,0010,0010,0010,1
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H007D4E07,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: anemic,Amira,45,&H00360BC4,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0060,0020,0020,1
+Style: missed,Amira,42,&H005947EE,&H000000FF,&H00EBEFFD,&H00000000,0,0,0,0,100,100,0,0,1,2,3,8,0200,0010,0020,1
+Style: unfortunately,Amira,45,&H00360BC4,&H000000FF,&H00FFFFFF,&H003A3D33,0,0,0,0,100,100,0,0,1,2,1,9,0020,0020,0080,0
+Style: Ding Dong,Amira,35,&H007AF0FD,&H000000FF,&H005F54B8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0090,1
+Style: punkin,Amira,35,&H00FFFFFF,&H000000FF,&H00FF00FF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0135,1
+Style: Map- Chinatsu,Amira,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,7,0190,0190,0062,1
+Style: Map- Store,Amira,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0010,0060,0050,1
+Style: Map- Yui,Amira,42,&H005947FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,3,5,0010,0010,0010,1
+Style: Map- Kyoko,Amira,42,&H005947EE,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,3,3,0050,0080,0060,1
+Style: Map- Street View,Amira,30,&H00000000,&H000000FF,&H00D1D011,&H00000000,0,1,0,0,100,100,0,0,1,2,2,8,0130,0050,0100,1
+Style: AA Battery,Amira,35,&H00FF00FF,&H00FFFFFF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0006,0061,0050,1
+Style: AAA Batteries,Amira,40,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,6,0045,0060,0021,1
+Style: New enemy,Amira,30,&H000000D8,&H00A03C02,&H0000FFFF,&H00000000,0,1,0,0,100,100,0,0,1,1,2,2,0150,0010,0070,1
+Style: Video Game- Yui,Amira,40,&H00FF00FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: Video Game- Kyoko,Amira,40,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0010,0010,0010,1
+Style: Video Game- Akari,Amira,40,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0180,0010,0140,1
+Style: Video Game- Chinatsu,Amira,40,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,3,0010,0010,0010,1
+Style: Revive,Amira,40,&H00FFFF00,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0081,1
+Style: No Boobs Allowed,Amira,40,&H00360BC4,&H0000FFFF,&H00FFFFFF,&H00142C68,0,0,0,0,100,100,0,0,1,2,2,7,0010,0010,0010,1
+Style: Pool,Amira,40,&H00FF00FF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,0,8,0180,0010,0010,1
+Style: Incoming message,Amira,35,&H00FF00FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0020,0006,0100,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.98,0:00:02.85,Default,ALL,0000,0000,0000,,Aka...
+Dialogue: 0,0:00:03.92,0:00:05.57,Default,AKARI,0000,0000,0000,,It's the final episode,
+Dialogue: 0,0:00:05.57,0:00:08.02,Default,,0000,0000,0000,,and you cut the title call\N {\i1}and{\i0} my name?!
+Dialogue: 0,0:01:37.99,0:01:42.95,YY-ep-title-top,EPTITLE,0000,0000,0000,,Episode 12
+Dialogue: 0,0:01:37.99,0:01:42.95,YY-ep-title-bottom,EPTITLE,0000,0000,0000,,Good Bye Protagonist, Until We Meet Again
+Dialogue: 0,0:01:51.11,0:01:52.65,Default,YUI,0000,0000,0000,,Wait, it's just a toy?
+Dialogue: 0,0:01:53.83,0:01:55.29,Default,KYOKO,0000,0000,0000,,I gotcha, Yui!
+Dialogue: 0,0:01:55.29,0:01:58.05,Default,YUI,0000,0000,0000,,Yeah, yeah. Happy, now?
+Dialogue: 0,0:01:58.05,0:01:59.75,Default,KYOKO,0000,0000,0000,,Well...
+Dialogue: 0,0:02:02.28,0:02:05.18,Default,KYOKO,0000,0000,0000,,I was hoping for \Na reaction more like...
+Dialogue: 0,0:02:09.83,0:02:11.93,Default,YUI,0000,0000,0000,,Your expectations are too high.
+Dialogue: 0,0:02:11.93,0:02:13.48,Default,KYOKO,0000,0000,0000,,I'm sure Chinatsu-chan would...
+Dialogue: 0,0:02:15.36,0:02:17.32,Default,CHINATSU,0000,0000,0000,,Yui-senpai!
+Dialogue: 0,0:02:17.32,0:02:18.78,Default,KYOKO,0000,0000,0000,,And Akari...
+Dialogue: 0,0:02:19.17,0:02:22.32,Default,AKARI,0000,0000,0000,,I was so surprised!
+Dialogue: 0,0:02:23.43,0:02:24.73,Default,YUI,0000,0000,0000,,Those sound normal.
+Dialogue: 0,0:02:24.73,0:02:27.08,Default,,0000,0000,0000,,Why am I the only one \Nstuck in the ceiling?
+Dialogue: 0,0:02:27.90,0:02:29.42,Default,CHINATSU,0000,0000,0000,,Hello.
+Dialogue: 0,0:02:36.52,0:02:40.07,Default,CHINATSU,0000,0000,0000,,Yui-senpai, the snake is so scary!
+Dialogue: 0,0:02:40.07,0:02:41.03,Default,YUI,0000,0000,0000,,What?
+Dialogue: 0,0:02:41.03,0:02:42.97,Default,KYOKO,0000,0000,0000,,You knew it was a toy, didn't you?
+Dialogue: 0,0:02:42.97,0:02:44.78,Default,KYOKO,0000,0000,0000,,It's unfair to just hug Yui!
+Dialogue: 0,0:02:44.78,0:02:45.58,Default,,0000,0000,0000,,Hug me, too!
+Dialogue: 0,0:02:45.58,0:02:46.68,Default,CHINATSU,0000,0000,0000,,What?
+Dialogue: 0,0:02:46.92,0:02:51.06,Default,KYOKO,0000,0000,0000,,Just once! Just do it one time!
+Dialogue: 0,0:02:51.06,0:02:52.72,Default,YUI,0000,0000,0000,,She's hopeless.
+Dialogue: 0,0:02:51.06,0:02:53.25,YY-overlap,,0000,0000,0000,,{\a6}I'm not going home until you do!
+Dialogue: 0,0:02:52.72,0:02:55.80,Default,YUI,0000,0000,0000,,Chinatsu-chan, hug \Nher for a little bit.
+Dialogue: 0,0:02:53.25,0:02:56.56,YY-overlap,,0000,0000,0000,,{\a6}Come on, Chinatsu-chan!
+Dialogue: 0,0:02:56.23,0:02:58.32,Default,CHINATSU,0000,0000,0000,,If you insist...
+Dialogue: 0,0:02:56.56,0:02:58.32,YY-overlap,,0000,0000,0000,,{\a6}Come on, just onc—
+Dialogue: 0,0:02:58.32,0:02:59.57,Default,KYOKO,0000,0000,0000,,Seriously?
+Dialogue: 0,0:03:00.06,0:03:02.70,Default,CHINATSU,0000,0000,0000,,I'm going to hug you, Kyoko-senpai.
+Dialogue: 0,0:03:03.51,0:03:05.20,Default,CHINATSU,0000,0000,0000,,Please grit your teeth.
+Dialogue: 0,0:03:05.45,0:03:06.86,Default,KYOKO,0000,0000,0000,,What's with the stance?
+Dialogue: 0,0:03:06.86,0:03:08.12,Default,KYOKO,0000,0000,0000,,That's not what I—
+Dialogue: 0,0:03:12.66,0:03:16.91,Default,CHINATSU,0000,0000,0000,,Jeez, Kyoko-senpai, you really \Nlove playing childish pranks.
+Dialogue: 0,0:03:16.91,0:03:19.76,Default,CHINATSU,0000,0000,0000,,So, how did Yui-senpai react?
+Dialogue: 0,0:03:20.19,0:03:22.67,Default,KYOKO,0000,0000,0000,,She was so surprised, she \Njumped through the ceiling.
+Dialogue: 0,0:03:22.67,0:03:24.30,Default,YUI,0000,0000,0000,,No, I didn't.
+Dialogue: 0,0:03:25.71,0:03:28.43,Default,AKARI,0000,0000,0000,,Sorry I'm late.
+Dialogue: 0,0:03:35.92,0:03:37.69,Default,ALL,0000,0000,0000,,{\i1}She's crying!{\i0}
+Dialogue: 0,0:03:39.96,0:03:40.83,Default,KYOKO,0000,0000,0000,,W-Wait, Akari!
+Dialogue: 0,0:03:40.83,0:03:42.46,Default,KYOKO,0000,0000,0000,,It's a toy! Just a toy!
+Dialogue: 0,0:03:42.46,0:03:44.34,Default,CHINATSU,0000,0000,0000,,It's just one of Kyoko-senpai's pranks!
+Dialogue: 0,0:03:44.34,0:03:45.66,Default,YUI,0000,0000,0000,,So don't cry!
+Dialogue: 0,0:03:45.98,0:03:48.12,Default,AKARI,0000,0000,0000,,Huh? It's just a toy?
+Dialogue: 0,0:03:49.44,0:03:51.01,Default,AKARI,0000,0000,0000,,Thank goodness!
+Dialogue: 0,0:03:51.01,0:03:52.73,Default,AKARI,0000,0000,0000,,I thought Mr. Snake was
+Dialogue: 0,0:03:52.73,0:03:55.63,Default,,0000,0000,0000,,in lots of pain because I stepped on it.
+Dialogue: 0,0:03:56.37,0:03:58.78,Default,AKARI,0000,0000,0000,,I'm glad it wasn't a real snake.
+Dialogue: 0,0:03:59.80,0:04:01.55,Default,KYOKO,0000,0000,0000,,She's so righteous she has a halo!
+Dialogue: 0,0:04:02.17,0:04:04.04,Default,CHINATSU,0000,0000,0000,,Akari-chan, you're blinding!
+Dialogue: 0,0:04:06.56,0:04:07.98,Default,AKARI,0000,0000,0000,,These bring back memories.
+Dialogue: 0,0:04:07.98,0:04:09.93,Default,KYOKO,0000,0000,0000,,I found 'em in my room and\N took 'em with me.
+Dialogue: 0,0:04:11.15,0:04:12.56,Default,YUI,0000,0000,0000,,I had these, too.
+Dialogue: 0,0:04:14.67,0:04:17.17,Default,AKARI,0000,0000,0000,,I used to stick them \Nto myself like this.
+Dialogue: 0,0:04:17.17,0:04:19.88,Default,CHINATSU,0000,0000,0000,,Do these have a proper name?
+Dialogue: 0,0:04:19.88,0:04:21.62,Default,YUI,0000,0000,0000,,Huh? "Snaps," isn't it?
+Dialogue: 0,0:04:21.62,0:04:23.95,Default,AKARI,0000,0000,0000,,No, they're called "Popping Eyes."
+Dialogue: 0,0:04:27.02,0:04:29.21,Default,KYOKO,0000,0000,0000,,A new record.
+Dialogue: 0,0:04:29.76,0:04:31.83,Default,KYOKO,0000,0000,0000,,Next time, it'll reach the ceiling.
+Dialogue: 0,0:04:32.11,0:04:35.83,Default,CHINATSU,0000,0000,0000,,Kyoko-senpai, this one \Nwon't pop. Is it torn?
+Dialogue: 0,0:04:35.83,0:04:37.43,Default,KYOKO,0000,0000,0000,,Huh? Let me see.
+Dialogue: 0,0:04:46.83,0:04:50.06,Default,KYOKO,0000,0000,0000,,There, there, there, there!
+Dialogue: 0,0:04:50.37,0:04:52.29,Default,CHINATSU,0000,0000,0000,,Stop that!
+Dialogue: 0,0:04:52.29,0:04:53.73,Default,CHINATSU,0000,0000,0000,,What're you doing?
+Dialogue: 0,0:04:54.25,0:04:56.49,Default,YUI,0000,0000,0000,,{\i1}Is her hair connected to \Nthe fourth dimension?{\i0}
+Dialogue: 0,0:04:56.49,0:04:57.73,Default,AKARI,0000,0000,0000,,Ouch...
+Dialogue: 0,0:04:59.92,0:05:01.44,Default,AKARI,0000,0000,0000,,I finally got it off.
+Dialogue: 0,0:05:04.05,0:05:05.57,Default,AKARI,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:05:05.57,0:05:07.32,Default,YUI,0000,0000,0000,,Akari, here...
+Dialogue: 0,0:05:09.47,0:05:11.20,Default,AKARI,0000,0000,0000,,My forehead!
+Dialogue: 0,0:05:11.67,0:05:14.31,Default,CHINATSU,0000,0000,0000,,But it's kinda cute, Akari-chan.
+Dialogue: 0,0:05:14.31,0:05:16.25,Default,KYOKO,0000,0000,0000,,Yeah, it's kinda cute.
+Dialogue: 0,0:05:16.25,0:05:18.17,Default,YUI,0000,0000,0000,,Yeah, it's kinda cute.
+Dialogue: 0,0:05:18.71,0:05:20.84,Default,AKARI,0000,0000,0000,,I don't know how \NI'm supposed to feel.
+Dialogue: 0,0:05:21.56,0:05:23.95,Default,AKARI,0000,0000,0000,,Maybe it'll be gone by tomorrow?
+Dialogue: 0,0:05:23.95,0:05:26.55,Default,AKARI,0000,0000,0000,,Sakurako-chan and Himawari-chan \Nwill laugh at me.
+Dialogue: 0,0:05:26.81,0:05:29.18,Default,CHINATSU,0000,0000,0000,,It's okay. No one will notice.
+Dialogue: 0,0:05:29.18,0:05:30.35,Default,AKARI,0000,0000,0000,,What?
+Dialogue: 0,0:05:32.83,0:05:34.85,Default,KYOKO,0000,0000,0000,,Yui, here I go.
+Dialogue: 0,0:05:35.15,0:05:36.85,Default,YUI,0000,0000,0000,,Don't throw it too hard.
+Dialogue: 0,0:05:36.85,0:05:38.19,Default,KYOKO,0000,0000,0000,,I know.
+Dialogue: 0,0:05:38.19,0:05:39.06,Default,KYOKO,0000,0000,0000,,There!
+Dialogue: 0,0:05:39.44,0:05:40.54,Default,YUI,0000,0000,0000,,Got it.
+Dialogue: 0,0:05:41.26,0:05:42.73,Default,CHINATSU,0000,0000,0000,,Yui-senpai!
+Dialogue: 0,0:05:43.40,0:05:44.66,Default,KYOKO,0000,0000,0000,,I'll catch one, too!
+Dialogue: 0,0:05:44.66,0:05:45.61,Default,KYOKO,0000,0000,0000,,Don't hold back!
+Dialogue: 0,0:05:45.84,0:05:47.52,Default,YUI,0000,0000,0000,,Huh? Okay.
+Dialogue: 0,0:05:47.52,0:05:48.07,Default,YUI,0000,0000,0000,,There!
+Dialogue: 0,0:06:00.53,0:06:03.12,Default,KYOKO,0000,0000,0000,,Look, it's so slimy and gooey.
+Dialogue: 0,0:06:03.12,0:06:05.40,Default,YUI,0000,0000,0000,,I've never touched it before.
+Dialogue: 0,0:06:05.40,0:06:06.63,Default,CHINATSU,0000,0000,0000,,Neither have I.
+Dialogue: 0,0:06:08.17,0:06:09.23,Default,KYOKO,0000,0000,0000,,Here.
+Dialogue: 0,0:06:09.23,0:06:10.72,Default,KYOKO,0000,0000,0000,,Here.
+Dialogue: 0,0:06:16.22,0:06:19.38,Default,KYOKO,0000,0000,0000,,Chinatsu-chan, Yui, \Njust try touching it!
+Dialogue: 0,0:06:19.38,0:06:20.85,Default,AKARI,0000,0000,0000,,What? She ignored me?
+Dialogue: 0,0:06:24.63,0:06:26.90,Default,AKARI,0000,0000,0000,,Hooray, it's so gooey!
+Dialogue: 0,0:06:28.18,0:06:30.53,Default,KYOKO,0000,0000,0000,,We still have fun playing with these.
+Dialogue: 0,0:06:30.94,0:06:32.78,Default,YUI,0000,0000,0000,,Did you bring anything else?
+Dialogue: 0,0:06:33.15,0:06:38.54,Default,KYOKO,0000,0000,0000,,Yeah. Some string, kendama, \Ntops, chips, and pogs.
+Dialogue: 0,0:06:38.80,0:06:41.79,Default,YUI,0000,0000,0000,,What're you coming \Nto school for, exactly?
+Dialogue: 0,0:06:42.26,0:06:43.96,Default,KYOKO,0000,0000,0000,,I also have a bamboo copter...
+Dialogue: 0,0:06:48.92,0:06:51.29,Default,KYOKO,0000,0000,0000,,H-How dare you surprise me!
+Dialogue: 0,0:06:52.55,0:06:54.85,Default,YUI,0000,0000,0000,,You're the most scared\N out of everyone.
+Dialogue: 0,0:07:14.91,0:07:18.35,Default,SIGN,0000,0000,0000,,{\a6}Nanamori Private Middle School\N2012 Cultural Festival
+Dialogue: 0,0:07:35.62,0:07:39.66,Default,SIGN,0000,0000,0000,,{\a6}The Student Council and \NAmusement Club Present: Snow White
+Dialogue: 0,0:07:51.85,0:07:53.75,Default,CHITOSE,0000,0000,0000,,{\i1}Once upon a time,{\i0}
+Dialogue: 0,0:07:53.75,0:07:56.62,Default,,0000,0000,0000,,{\i1}there was a very beautiful \Nprincess named Snow White.{\i0}
+Dialogue: 0,0:07:56.62,0:08:00.72,Default,,0000,0000,0000,,{\i1}She was loved by everyone.{\i0}
+Dialogue: 0,0:08:01.53,0:08:03.00,Default,KYOKO,0000,0000,0000,,I found some edible flowers.
+Dialogue: 0,0:08:04.89,0:08:05.97,Default,KYOKO,0000,0000,0000,,There!
+Dialogue: 0,0:08:09.88,0:08:11.05,Default,KYOKO,0000,0000,0000,,Gross!
+Dialogue: 0,0:08:12.23,0:08:15.18,Default,KAEDE,0000,0000,0000,,Don't eat the poor flowers...
+Dialogue: 0,0:08:15.18,0:08:17.52,Default,NADESHIKO,0000,0000,0000,,Kaede, you're such a good girl.
+Dialogue: 0,0:08:17.52,0:08:19.70,Default,NADESHIKO,0000,0000,0000,,Starting today, you can \Nbe our little sister.
+Dialogue: 0,0:08:19.70,0:08:22.30,Default,HANAKO,0000,0000,0000,,Yeah, we'll trade you for Sakurako.
+Dialogue: 0,0:08:24.12,0:08:25.40,Default,NISHIGAKI,0000,0000,0000,,Tell me, mirror...
+Dialogue: 0,0:08:25.81,0:08:29.23,Default,NISHIGAKI,0000,0000,0000,,Who is the fairest of them all?
+Dialogue: 0,0:08:31.73,0:08:33.36,Default,NISHIGAKI,0000,0000,0000,,Who, me?
+Dialogue: 0,0:08:33.80,0:08:35.93,Default,NISHIGAKI,0000,0000,0000,,I see. I knew it.
+Dialogue: 0,0:08:35.93,0:08:38.45,Default,NISHIGAKI,0000,0000,0000,,I'd thought that might be the case!
+Dialogue: 0,0:08:41.89,0:08:43.50,Default,NISHIGAKI,0000,0000,0000,,There's no need to flatter me!
+Dialogue: 0,0:08:46.61,0:08:50.15,Default,NISHIGAKI,0000,0000,0000,,I'm kidding, mirror. I know, I know.
+Dialogue: 0,0:08:50.15,0:08:52.67,Default,NISHIGAKI,0000,0000,0000,,It's her, isn't it? Her.
+Dialogue: 0,0:08:53.72,0:08:56.68,Default,MARI,0000,0000,0000,,I can't hear the mirror's voice at all.
+Dialogue: 0,0:08:57.24,0:09:00.63,Default,CHITOSE,0000,0000,0000,,{\i1}The angry queen instructed\N the forest's hunter{\i0}
+Dialogue: 0,0:09:00.63,0:09:03.56,Default,,0000,0000,0000,,{\i1}to kill off Snow White.{\i0}
+Dialogue: 0,0:09:03.96,0:09:06.78,Default,CHITOSE,0000,0000,0000,,{\i1}Thanks for helping out, Chizuru.{\i0}
+Dialogue: 0,0:09:06.78,0:09:08.48,Default,CHIZURU,0000,0000,0000,,Leave it to me.
+Dialogue: 0,0:09:10.12,0:09:12.23,Default,KYOKO,0000,0000,0000,,Hunter, no!
+Dialogue: 0,0:09:12.76,0:09:13.69,Default,KYOKO,0000,0000,0000,,Sniffle.
+Dialogue: 0,0:09:19.38,0:09:20.08,Default,KYOKO,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:42.28,0:09:46.87,Default,CHITOSE,0000,0000,0000,,{\i1}However, the kind hunter was \Nunable to kill Snow White.{\i0}
+Dialogue: 0,0:09:46.87,0:09:48.46,Default,,0000,0000,0000,,{\i1}Instead, she allowed her to{\i0}
+Dialogue: 0,0:09:48.46,0:09:50.45,Default,,0000,0000,0000,,{\i1}escape into the forest and hide, \Npretending to be dead{\i0}
+Dialogue: 0,0:09:52.10,0:09:56.26,Default,CHIZURU,0000,0000,0000,,It is no use. \NI cannot kill Snow White.
+Dialogue: 0,0:09:56.26,0:09:58.38,Default,KYOKO,0000,0000,0000,,No, you were {\i1}definitely{\i0} \Ntrying to kill me!
+Dialogue: 0,0:09:58.38,0:10:01.04,Default,KYOKO,0000,0000,0000,,Those weren't guns a hunter uses,
+Dialogue: 0,0:10:01.04,0:10:02.83,Default,,0000,0000,0000,,and you sound disappointed!
+Dialogue: 0,0:10:05.34,0:10:07.50,Default,KYOKO,0000,0000,0000,,Wait, Chizurun!
+Dialogue: 0,0:10:07.50,0:10:08.42,Default,CHIZURU,0000,0000,0000,,Get away from me!
+Dialogue: 0,0:10:09.82,0:10:16.18,Default,CHITOSE,0000,0000,0000,,{\i1}Alone in the forest, what \Nwill happen to Snow White?{\i0}
+Dialogue: 0,0:10:16.18,0:10:17.86,Default,CHITOSE,0000,0000,0000,,{\i1}It's my turn to go on,{\i0}
+Dialogue: 0,0:10:17.86,0:10:20.53,Default,,0000,0000,0000,,{\i1}so Nishigaki-sensei, please \Ntake over the narration.{\i0}
+Dialogue: 0,0:10:20.53,0:10:21.55,Default,NISHIGAKI,0000,0000,0000,,{\i1}Got it.{\i0}
+Dialogue: 0,0:10:21.55,0:10:24.68,Default,NISHIGAKI,0000,0000,0000,,{\i1}Testing, testing.{\i0}
+Dialogue: 0,0:10:25.70,0:10:27.81,Default,MARI,0000,0000,0000,,The story's turning sour...
+Dialogue: 0,0:10:27.81,0:10:32.06,Default,DWARVES,0000,0000,0000,,Heigh-ho, heigh-ho, we are...
+Dialogue: 0,0:10:32.06,0:10:35.82,Default,DWARVES,0000,0000,0000,,Heigh-ho, heigh-ho, elves!
+Dialogue: 0,0:10:37.11,0:10:40.30,Default,NISHIGAKI,0000,0000,0000,,{\i1}Seven elves lived in the woods.{\i0}
+Dialogue: 0,0:10:40.30,0:10:42.68,Default,NISHIGAKI,0000,0000,0000,,{\i1}Their names were: Tsundere Elf.{\i0}
+Dialogue: 0,0:10:42.68,0:10:44.36,Default,AYANO,0000,0000,0000,,Who're you calling a tsundere?
+Dialogue: 0,0:10:44.36,0:10:45.56,Default,NISHIGAKI,0000,0000,0000,,{\i1}Glasses Elf.{\i0}
+Dialogue: 0,0:10:45.56,0:10:47.55,Default,CHITOSE,0000,0000,0000,,What a literal name.
+Dialogue: 0,0:10:47.55,0:10:48.88,Default,NISHIGAKI,0000,0000,0000,,{\i1}Retorting Elf.{\i0}
+Dialogue: 0,0:10:48.88,0:10:51.41,Default,YUI,0000,0000,0000,,What? Do I really do it that much?
+Dialogue: 0,0:10:51.41,0:10:52.86,Default,NISHIGAKI,0000,0000,0000,,{\i1}Evil Elf.{\i0}
+Dialogue: 0,0:10:52.86,0:10:55.69,Default,CHINATSU,0000,0000,0000,,Hey, who wrote this script?
+Dialogue: 0,0:10:55.69,0:10:56.84,Default,NISHIGAKI,0000,0000,0000,,{\i1}Boob Elf.{\i0}
+Dialogue: 0,0:10:56.84,0:10:58.71,Default,SAKURAKO,0000,0000,0000,,Don't get ahead of yourself, dammit!
+Dialogue: 0,0:10:58.71,0:11:01.20,Default,HIMAWARI,0000,0000,0000,,I didn't write the script!
+Dialogue: 0,0:11:01.20,0:11:02.68,Default,NISHIGAKI,0000,0000,0000,,{\i1}Stupid Elf.{\i0}
+Dialogue: 0,0:11:02.68,0:11:06.27,Default,SAKURAKO,0000,0000,0000,,She said stupid! I wonder \Nwho she's talking about.
+Dialogue: 0,0:11:07.70,0:11:10.10,Default,NISHIGAKI,0000,0000,0000,,{\i1}The Remarkably Unremarkable Elf.{\i0}
+Dialogue: 0,0:11:10.10,0:11:11.17,Default,AKARI,0000,0000,0000,,That's terrible!
+Dialogue: 0,0:11:11.17,0:11:13.69,Default,AKARI,0000,0000,0000,,Why is my name so long?
+Dialogue: 0,0:11:13.69,0:11:16.22,Default,YUI,0000,0000,0000,,Would it be better\N if it were shorter?
+Dialogue: 0,0:11:16.22,0:11:19.45,Default,CHITOSE,0000,0000,0000,,You're living up to your \Nname, Retorting Elf.
+Dialogue: 0,0:11:20.11,0:11:23.27,Default,NISHIGAKI,0000,0000,0000,,{\i1}One day, after the elves \Nhad finished their work,{\i0}
+Dialogue: 0,0:11:23.27,0:11:25.95,Default,,0000,0000,0000,,{\i1}they returned to their \Ncottage to find...{\i0}
+Dialogue: 0,0:11:26.58,0:11:27.24,Default,KYOKO,0000,0000,0000,,Welcome home.
+Dialogue: 0,0:11:27.24,0:11:28.66,Default,AYANO,0000,0000,0000,,Who're you?!
+Dialogue: 0,0:11:29.37,0:11:30.64,Default,KYOKO,0000,0000,0000,,I'm Snow White.
+Dialogue: 0,0:11:31.35,0:11:33.98,Default,KYOKO,0000,0000,0000,,Huh? Which part's my last name,
+Dialogue: 0,0:11:33.98,0:11:35.17,Default,,0000,0000,0000,,and which part's my first?
+Dialogue: 0,0:11:35.46,0:11:36.60,Default,YUI,0000,0000,0000,,Dunno.
+Dialogue: 0,0:11:37.44,0:11:39.46,Default,AYANO,0000,0000,0000,,That's my pudding!
+Dialogue: 0,0:11:39.46,0:11:41.63,Default,KYOKO,0000,0000,0000,,Huh? Oh, sorry.
+Dialogue: 0,0:11:41.91,0:11:44.46,Default,KYOKO,0000,0000,0000,,Here, you can have the last bite!
+Dialogue: 0,0:11:44.46,0:11:45.55,Default,KYOKO,0000,0000,0000,,Say, "ah~"
+Dialogue: 0,0:11:45.84,0:11:50.75,Default,AYANO,0000,0000,0000,,Th-This... Th-This is \Nan i-indirect k-kiss...
+Dialogue: 0,0:11:50.75,0:11:52.81,Default,KYOKO,0000,0000,0000,,Come on. Say, "ah!"
+Dialogue: 0,0:11:53.94,0:11:56.59,Default,AYANO,0000,0000,0000,,I s-suppose I have no choice.
+Dialogue: 0,0:12:00.97,0:12:02.24,Default,SAKURAKO,0000,0000,0000,,Delicious!
+Dialogue: 0,0:12:04.56,0:12:07.24,Default,HIMAWARI,0000,0000,0000,,What in the world are you doing?!
+Dialogue: 0,0:12:07.56,0:12:10.43,Default,SAKURAKO,0000,0000,0000,,What? Why are you mad?
+Dialogue: 0,0:12:10.43,0:12:12.27,Default,HIMAWARI,0000,0000,0000,,I'm not mad at all!
+Dialogue: 0,0:12:12.27,0:12:16.00,Default,HIMAWARI,0000,0000,0000,,You just can't take a hint!
+Dialogue: 0,0:12:16.00,0:12:16.75,Default,SAKURAKO,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:17.12,0:12:20.48,Default,KAEDE,0000,0000,0000,,Don't fight, you two.
+Dialogue: 0,0:12:20.48,0:12:23.23,Default,NADESHIKO,0000,0000,0000,,Don't worry. They're not fighting.
+Dialogue: 0,0:12:23.23,0:12:26.43,Default,HANAKO,0000,0000,0000,,Sakurako's stupidity gives \NHima-nee a lot of grief, too.
+Dialogue: 0,0:12:26.75,0:12:28.92,Default,YUI,0000,0000,0000,,What are we doing...
+Dialogue: 0,0:12:32.39,0:12:34.19,Default,CHINATSU,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:12:34.75,0:12:36.44,Default,CHITOSE,0000,0000,0000,,"If you don't want \Nit indirectly,
+Dialogue: 0,0:12:36.44,0:12:39.22,Default,,0000,0000,0000,,I'll feed it to you\N directly, Ayano!"
+Dialogue: 0,0:12:40.37,0:12:42.11,Default,CHITOSE,0000,0000,0000,,"It's sweeter than pudding..."
+Dialogue: 0,0:12:42.11,0:12:44.15,Default,CHITOSE,0000,0000,0000,,Just like that...
+Dialogue: 0,0:12:46.46,0:12:47.93,Default,YUI,0000,0000,0000,,Keep it together!
+Dialogue: 0,0:12:47.93,0:12:50.37,Default,YUI,0000,0000,0000,,Don't take off your glasses \Nand fantasize now!
+Dialogue: 0,0:12:53.21,0:12:57.48,Default,CHITOSE,0000,0000,0000,,I have no regrets...
+Dialogue: 0,0:12:59.16,0:13:00.50,Default,YUI,0000,0000,0000,,Glasses Elf!
+Dialogue: 0,0:13:00.50,0:13:01.76,Default,CHINATSU,0000,0000,0000,,Don't die!
+Dialogue: 0,0:13:02.03,0:13:05.61,Default,KYOKO,0000,0000,0000,,So anyway, that's why I'll be \Nstaying here from now on.
+Dialogue: 0,0:13:05.61,0:13:07.01,Default,AYANO,0000,0000,0000,,Because {\i1}why{\i0}?
+Dialogue: 0,0:13:07.65,0:13:10.12,Default,AKARI,0000,0000,0000,,Hooray, we have a new friend!
+Dialogue: 0,0:13:10.12,0:13:12.18,Default,AKARI,0000,0000,0000,,Nice to meet you, Snow White!
+Dialogue: 0,0:13:12.18,0:13:14.66,Default,NISHIGAKI,0000,0000,0000,,{\i1}And so, without\N further discussion,{\i0}
+Dialogue: 0,0:13:14.66,0:13:19.02,Default,,0000,0000,0000,,{\i1}Snow White came to\Nlive with the elves.{\i0}
+Dialogue: 0,0:13:19.48,0:13:21.15,Default,AKANE,0000,0000,0000,,It's okay, Akari.
+Dialogue: 0,0:13:21.63,0:13:24.50,Default,AKANE,0000,0000,0000,,No matter how much you're\Ncut from each frame,
+Dialogue: 0,0:13:24.50,0:13:27.01,Default,,0000,0000,0000,,I'll be watching over \Nyou from every angle.
+Dialogue: 0,0:13:27.01,0:13:29.08,Default,TOMOKO,0000,0000,0000,,You're always so well \Nprepared, Akane-chan.
+Dialogue: 0,0:13:29.08,0:13:30.16,Default,,0000,0000,0000,,It's wonderful.
+Dialogue: 0,0:13:32.20,0:13:33.79,Default,KYOKO,0000,0000,0000,,Is dinner ready?
+Dialogue: 0,0:13:33.79,0:13:34.94,Default,SAKURAKO,0000,0000,0000,,Is it ready yet?
+Dialogue: 0,0:13:34.94,0:13:38.17,Default,CHINATSU,0000,0000,0000,,Why don't you two do some work?
+Dialogue: 0,0:13:38.56,0:13:41.88,Default,AKARI,0000,0000,0000,,Snow White, Sakurako-chan, \Nhelp with the chores.
+Dialogue: 0,0:13:41.88,0:13:42.90,Default,BOTH,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:43.64,0:13:47.38,Default,HIMAWARI,0000,0000,0000,,Why do you two look so surprised?
+Dialogue: 0,0:13:48.14,0:13:51.45,Default,NISHIGAKI,0000,0000,0000,,{\i1}And so the kind elves and Snow White{\i0}
+Dialogue: 0,0:13:51.45,0:13:54.89,Default,,0000,0000,0000,,{\i1}lived happily together. \NBut in the castle...{\i0}
+Dialogue: 0,0:13:55.33,0:13:58.76,Default,NISHIGAKI,0000,0000,0000,,Mirror, now that Snow White is dead,
+Dialogue: 0,0:13:58.76,0:14:02.27,Default,,0000,0000,0000,,surely I am the fairest of them all, yes?
+Dialogue: 0,0:14:05.50,0:14:08.87,Default,NISHIGAKI,0000,0000,0000,,What? Snow White is still alive?
+Dialogue: 0,0:14:08.87,0:14:12.67,Default,NISHIGAKI,0000,0000,0000,,Fine, then. I will kill her myself.
+Dialogue: 0,0:14:12.67,0:14:15.80,Default,NISHIGAKI,0000,0000,0000,,After that, I'll start \Na new experiment.
+Dialogue: 0,0:14:20.41,0:14:21.61,Default,KYOKO,0000,0000,0000,,Gross!
+Dialogue: 0,0:14:21.61,0:14:25.01,Default,NISHIGAKI,0000,0000,0000,,What a beautiful girl.
+Dialogue: 0,0:14:25.54,0:14:27.74,Default,NISHIGAKI,0000,0000,0000,,How would you like a freshly picked
+Dialogue: 0,0:14:27.74,0:14:30.64,Default,,0000,0000,0000,,tomato for your beauty and health?
+Dialogue: 0,0:14:30.64,0:14:32.57,Default,KYOKO,0000,0000,0000,,Thank you!
+Dialogue: 0,0:14:35.26,0:14:37.73,Default,KYOKO,0000,0000,0000,,This freshly picked tomato is delicious!
+Dialogue: 0,0:14:41.88,0:14:43.56,Default,NISHIGAKI,0000,0000,0000,,That wasn't a fresh tomato.
+Dialogue: 0,0:14:43.56,0:14:47.28,Default,,0000,0000,0000,,It was a tomato from \Nthe defective section
+Dialogue: 0,0:14:47.28,0:14:49.00,Default,,0000,0000,0000,,of the supermarket that I poisoned!
+Dialogue: 0,0:14:49.00,0:14:52.41,Default,,0000,0000,0000,,Snow White is done for!
+Dialogue: 0,0:14:53.18,0:14:56.33,Default,CHITOSE,0000,0000,0000,,{\i1}Having eaten the poisoned \Ntomato given to her{\i0}
+Dialogue: 0,0:14:56.33,0:14:58.68,Default,,0000,0000,0000,,{\i1}by the disguised queen,{\i0}
+Dialogue: 0,0:14:58.68,0:15:01.41,Default,,0000,0000,0000,,{\i1}Snow White really died.{\i0}
+Dialogue: 0,0:15:02.95,0:15:04.20,Default,HANAKO,0000,0000,0000,,Tomato?
+Dialogue: 0,0:15:04.72,0:15:06.42,Default,NADESHIKO,0000,0000,0000,,Defective section?
+Dialogue: 0,0:15:08.31,0:15:11.73,Default,AYANO,0000,0000,0000,,Snow White, why did you have to die?!
+Dialogue: 0,0:15:11.73,0:15:16.84,Default,AYANO,0000,0000,0000,,I told you not to take \Nfood from strangers!
+Dialogue: 0,0:15:16.84,0:15:19.25,Default,AYANO,0000,0000,0000,,Why... why...
+Dialogue: 0,0:15:20.31,0:15:22.80,Default,HIMAWARI,0000,0000,0000,,Wh-What amazing acting.
+Dialogue: 0,0:15:24.11,0:15:26.12,Default,CHITOSE,0000,0000,0000,,I wonder if that's really acting.
+Dialogue: 0,0:15:26.12,0:15:28.89,Default,CHINATSU,0000,0000,0000,,Kyoko-sen... I mean, Snow White.
+Dialogue: 0,0:15:28.89,0:15:31.67,Default,CHINATSU,0000,0000,0000,,Leave everything to me \Nand rest in peace...
+Dialogue: 0,0:15:33.22,0:15:35.91,Default,SAKURAKO,0000,0000,0000,,Huh? Isn't one of us missing?
+Dialogue: 0,0:15:35.91,0:15:38.87,Default,SAKURAKO,0000,0000,0000,,The Remarkably \NUnremarkable Elf, wasn't it?
+Dialogue: 0,0:15:39.40,0:15:41.04,Default,AKARI,0000,0000,0000,,I'm right here, okay?!
+Dialogue: 0,0:15:41.04,0:15:43.88,Default,AKARI,0000,0000,0000,,It's one of the {\i1}other{\i0} \Nelves that isn't here!
+Dialogue: 0,0:15:47.06,0:15:51.43,Default,CHINATSU,0000,0000,0000,,Snow White will depart \Nfor heaven from this church.
+Dialogue: 0,0:15:52.68,0:15:54.47,Default,ALL,0000,0000,0000,,Huh? Church?
+Dialogue: 0,0:15:54.91,0:15:56.97,Default,HIMAWARI,0000,0000,0000,,{\i1}I thought it was a graveyard...{\i0}
+Dialogue: 0,0:15:58.41,0:16:00.74,Default,YUI,0000,0000,0000,,I'm a prince from the \Nneighboring kingdom.
+Dialogue: 0,0:16:00.74,0:16:02.79,Default,YUI,0000,0000,0000,,I got lost and ended up he—
+Dialogue: 0,0:16:03.48,0:16:04.76,Default,YUI,0000,0000,0000,,What the heck?!
+Dialogue: 0,0:16:04.76,0:16:08.31,Default,TOMOKO,0000,0000,0000,,Staying up late every night \Nreally paid off, Chinatsu.
+Dialogue: 0,0:16:08.85,0:16:12.57,Default,TOMOKO,0000,0000,0000,,What a beautiful drawing. \NNothing less from my little sister.
+Dialogue: 0,0:16:12.79,0:16:16.67,Default,YUI,0000,0000,0000,,So this is the Snow White\N I've heard so much about.
+Dialogue: 0,0:16:16.67,0:16:18.41,Default,,0000,0000,0000,,How beautiful.
+Dialogue: 0,0:16:18.84,0:16:22.83,Default,YUI,0000,0000,0000,,I cannot believe she is dead...
+Dialogue: 0,0:16:23.25,0:16:25.00,Default,KYOKO,0000,0000,0000,,Stop laughing.
+Dialogue: 0,0:16:25.34,0:16:30.64,Default,CHITOSE,0000,0000,0000,,Snow White ate a poisoned\Ntomato and died.
+Dialogue: 0,0:16:30.64,0:16:33.36,Default,SAKURAKO,0000,0000,0000,,She ate it all by herself? Unfair!
+Dialogue: 0,0:16:33.36,0:16:34.84,Default,HIMAWRAI,0000,0000,0000,,It was {\i1}poisoned{\i0}.
+Dialogue: 0,0:16:35.85,0:16:37.34,Default,YUI,0000,0000,0000,,Snow White,
+Dialogue: 0,0:16:37.34,0:16:39.68,Default,,0000,0000,0000,,I wish we could've met \Nwhile you were alive.
+Dialogue: 0,0:16:40.38,0:16:42.71,Default,YUI,0000,0000,0000,,At least let me \Ngive you a parting kiss.
+Dialogue: 0,0:16:42.71,0:16:43.44,Default,BOTH,0000,0000,0000,,What?!
+Dialogue: 0,0:16:46.63,0:16:49.65,Default,CHINATSU,0000,0000,0000,,Wait, what're you doing, Prince?!
+Dialogue: 0,0:16:52.59,0:16:54.48,Default,YUI,0000,0000,0000,,Well, that should be enough.
+Dialogue: 0,0:16:55.68,0:16:56.66,Default,YUI,0000,0000,0000,,I'll hit you.
+Dialogue: 0,0:16:56.66,0:16:58.70,Default,CHINATSU,0000,0000,0000,,No!
+Dialogue: 0,0:17:03.58,0:17:05.75,Default,CHINATSU,0000,0000,0000,,No!
+Dialogue: 0,0:17:10.08,0:17:12.00,Default,KYOKO,0000,0000,0000,,Snow White is {\i1}alive{\i0}!
+Dialogue: 0,0:17:13.25,0:17:14.17,Default,YUI,0000,0000,0000,,Good grief.
+Dialogue: 0,0:17:15.57,0:17:18.00,Default,AKARI,0000,0000,0000,,You're so mean, Chinatsu-chan.
+Dialogue: 0,0:17:19.19,0:17:23.14,Default,NISHIGAKI,0000,0000,0000,,Like a zombie, \NSnow White has risen again.
+Dialogue: 0,0:17:23.51,0:17:25.90,Default,NISHIGAKI,0000,0000,0000,,This calls for something drastic.
+Dialogue: 0,0:17:25.90,0:17:29.97,Default,NISHIGAKI,0000,0000,0000,,Yes. I don't actually want to do this,
+Dialogue: 0,0:17:29.97,0:17:32.22,Default,,0000,0000,0000,,but you leave me no choice. Yes.
+Dialogue: 0,0:17:32.22,0:17:34.99,Default,AYANO,0000,0000,0000,,Your expression isn't\N convincing me of that.
+Dialogue: 0,0:17:35.48,0:17:36.99,Default,NISHIGAKI,0000,0000,0000,,Backdrop change!
+Dialogue: 0,0:17:49.09,0:17:51.62,Default,NISHIGAKI,0000,0000,0000,,I thought this might happen,
+Dialogue: 0,0:17:51.62,0:17:54.05,Default,,0000,0000,0000,,so I made an Anti-Snow White Robot!
+Dialogue: 0,0:17:55.57,0:17:57.59,Default,NISHIGAKI,0000,0000,0000,,Well? Are you surprised?
+Dialogue: 0,0:17:59.50,0:18:01.12,Default,KYOKO,0000,0000,0000,,That's amazing!
+Dialogue: 0,0:18:01.12,0:18:03.06,Default,YUI,0000,0000,0000,,A robot? That's ridiculous.
+Dialogue: 0,0:18:03.06,0:18:07.17,Default,SAKURAKO,0000,0000,0000,,Huh? I don't think that face \Nwas on the original backdrop.
+Dialogue: 0,0:18:07.17,0:18:09.31,Default,HIMAWARI,0000,0000,0000,,Quiet! Sakurako, quiet!
+Dialogue: 0,0:18:11.63,0:18:14.67,Default,AKARI,0000,0000,0000,,It looked this way! It's terrifying!
+Dialogue: 0,0:18:14.67,0:18:17.07,Default,CHINATSU,0000,0000,0000,,What? But it's so cute.
+Dialogue: 0,0:18:17.28,0:18:20.57,Default,AYANO,0000,0000,0000,,President, please stop this craziness!
+Dialogue: 0,0:18:24.10,0:18:27.99,Default,CHITOSE,0000,0000,0000,,Even I know what the \Npresident just said.
+Dialogue: 0,0:18:27.99,0:18:31.05,Default,CHITOSE,0000,0000,0000,,So, Ayano-chan, shall we give up?
+Dialogue: 0,0:18:31.05,0:18:32.67,Default,AYANO,0000,0000,0000,,You give up too easily!
+Dialogue: 0,0:18:33.04,0:18:36.24,Default,SAKURAKO,0000,0000,0000,,In that case, fire! Boob missiles!
+Dialogue: 0,0:18:36.24,0:18:37.72,Default,HIMAWARI,0000,0000,0000,,I can't do that!
+Dialogue: 0,0:18:37.72,0:18:39.79,Default,NISHIGAKI,0000,0000,0000,,Go, backdrop robot!
+Dialogue: 0,0:18:39.79,0:18:41.72,Default,NISHIGAKI,0000,0000,0000,,You must defeat Snow White!
+Dialogue: 0,0:18:49.28,0:18:52.24,Default,KYOKO,0000,0000,0000,,Why are you running with us, Queen?
+Dialogue: 0,0:18:53.13,0:18:54.86,Default,NISHIGAKI,0000,0000,0000,,I made it in a hurry,
+Dialogue: 0,0:18:54.86,0:18:56.97,Default,,0000,0000,0000,,so it can't tell the difference
+Dialogue: 0,0:18:56.97,0:18:58.47,Default,,0000,0000,0000,,between enemies and allies.
+Dialogue: 0,0:18:58.47,0:19:00.45,Default,AYANO,0000,0000,0000,,Please don't make robots like that!
+Dialogue: 0,0:19:00.91,0:19:01.95,Default,NADESHIKO,0000,0000,0000,,Honestly.
+Dialogue: 0,0:19:03.98,0:19:05.49,Default,CHINATSU,0000,0000,0000,,A-Akari-chan?
+Dialogue: 0,0:19:06.16,0:19:07.12,Default,AKARI,0000,0000,0000,,Mr. Robot!
+Dialogue: 0,0:19:08.00,0:19:09.58,Default,AKARI,0000,0000,0000,,Please don't do this anymore!
+Dialogue: 0,0:19:13.54,0:19:14.96,Default,YUI,0000,0000,0000,,It's too dangerous, Akari!
+Dialogue: 0,0:19:14.96,0:19:15.96,Default,YUI,0000,0000,0000,,Run!
+Dialogue: 0,0:19:16.38,0:19:17.41,Default,AKARI,0000,0000,0000,,It's okay!
+Dialogue: 0,0:19:17.41,0:19:18.91,Default,,0000,0000,0000,,I'm sure even Mr. Robot
+Dialogue: 0,0:19:18.91,0:19:21.47,Default,,0000,0000,0000,,will understand if he opens his heart!
+Dialogue: 0,0:19:22.31,0:19:23.97,Default,AKARI,0000,0000,0000,,Please, Mr. Robot!
+Dialogue: 0,0:19:30.06,0:19:31.66,Default,YUI,0000,0000,0000,,She lost.
+Dialogue: 0,0:19:31.66,0:19:33.77,Default,YUI,0000,0000,0000,,I think she fainted.
+Dialogue: 0,0:19:39.25,0:19:41.08,Default,AYANO,0000,0000,0000,,It... It stopped?
+Dialogue: 0,0:19:41.08,0:19:44.01,Default,CHITOSE,0000,0000,0000,,Did Akaza-san get through to it?
+Dialogue: 0,0:19:44.01,0:19:46.18,Default,NISHIGAKI,0000,0000,0000,,No, it's out of batteries.
+Dialogue: 0,0:19:46.18,0:19:48.78,Default,,0000,0000,0000,,It seems AA batteries weren't enough.
+Dialogue: 0,0:19:48.78,0:19:50.55,Default,YUI,0000,0000,0000,,It was running on batteries?
+Dialogue: 0,0:19:50.96,0:19:54.71,Default,CHITOSE,0000,0000,0000,,Sensei, maybe you should \Nmake it a hybrid next time.
+Dialogue: 0,0:19:56.59,0:20:00.80,Default,AKARI,0000,0000,0000,,Mr. Robot! You understood how I felt!
+Dialogue: 0,0:20:02.33,0:20:03.08,Default,AKARI,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:20.38,0:20:25.18,Default,KYOKO,0000,0000,0000,,Akari taught us the \Npointlessness of fighting...
+Dialogue: 0,0:20:25.90,0:20:29.62,Default,NISHIGAKI,0000,0000,0000,,It seems I've lost, Snow White.
+Dialogue: 0,0:20:29.92,0:20:32.48,Default,NISHIGAKI,0000,0000,0000,,Let's all live in \Npeace from now on.
+Dialogue: 0,0:20:32.48,0:20:33.44,Default,KYOKO,0000,0000,0000,,Yeah!
+Dialogue: 0,0:20:37.50,0:20:39.29,Default,KYOKO,0000,0000,0000,,Thanks, Akari...
+Dialogue: 0,0:20:39.29,0:20:43.29,Default,KYOKO,0000,0000,0000,,You'll live on forever\N in our hearts.
+Dialogue: 0,0:20:47.18,0:20:49.21,Default,AKARI,0000,0000,0000,,I'm not dea—
+Dialogue: 0,0:20:52.44,0:20:55.44,Default,AKANE,0000,0000,0000,,You're brilliant, Akari!
+Dialogue: 0,0:20:55.78,0:21:05.41,Default,AUDIENCE,0000,0000,0000,,Encore! Encore! Encore!
+Dialogue: 0,0:22:04.17,0:22:06.93,Default,SISTERS,0000,0000,0000,,Behind you, behind you!
+Dialogue: 0,0:22:07.29,0:22:08.14,Default,ALL,0000,0000,0000,,Huh?

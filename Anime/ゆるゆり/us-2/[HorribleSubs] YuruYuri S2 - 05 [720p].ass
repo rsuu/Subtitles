@@ -1,0 +1,415 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: YY-main,Amira,25,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-overlap,Amira,25,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-note,Amira,22,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: YY-note-big,Amira,27,&H00000000,&H000000FF,&H00EEF2ED,&H00FFFFFF,0,0,0,0,100,100,0,0,1,3,0,8,0020,0020,0015,0
+Style: YY-Sign-top,Amira,30,&H00FCFEFF,&H000000FF,&H0000082A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0090,0090,0020,0
+Style: YY-title,Amira,50,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,110,100,0,0,1,0,3,8,0020,0020,0020,0
+Style: YY-ep-title-top,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0100,0
+Style: YY-ep-title-bottom,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0100,0
+Style: YY-eyecatch,Amira,30,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,100,100,0,0,1,4,2,4,0020,0020,0020,0
+Style: Next Episode,Amira,45,&H000000A7,&H000000FF,&H00FFFFFF,&H005E6E5A,1,0,0,0,100,100,0,0,1,2,1,3,0020,0050,0080,0
+Style: Next ep title,Amira,40,&H00001627,&H000000FF,&H0095C296,&H008CA695,0,0,0,0,100,100,0,0,1,0,2,1,0052,0020,0090,0
+Style: Natsume-end-title,Amira,30,&H00AC751D,&H000000FF,&H008ABEE8,&H00273821,1,0,0,0,100,100,0,0,1,0,2,9,0020,0020,0020,0
+Style: Class,Amira,25,&H0045432D,&H000000FF,&H00D1C9B6,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0010,0010,0015,0
+Style: Council,Amira,25,&H00FFFBF6,&H000000FF,&H00474C45,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0020,0020,0020,0
+Style: 1 week later,Amira,27,&H00FFFFFF,&H000000FF,&H0025281E,&H003A3D33,0,0,0,0,100,100,0,0,1,3,2,2,0020,0020,0020,0
+Style: ayano,Amira,32,&H001333E8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H007D4E07,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,7,7,13,1
+Style: anemic,Amira,45,&H00F8FBFF,&H000000FF,&H00020076,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,0060,0020,0020,1
+Style: missed,Amira,30,&H005947EE,&H000000FF,&H00EBEFFD,&H00000000,0,0,0,0,100,100,0,0,1,2,3,8,0020,0020,0020,1
+Style: unfortunately,Amira,35,&H00FFFFFF,&H000000FF,&H0025281E,&H003A3D33,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0080,0
+Style: Ding Dong,Amira,40,&H007AF0FD,&H000000FF,&H005F54B8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: punkin,Amira,40,&H00362B3D,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.07,0:00:04.15,Default,BOTH,0000,0000,0000,,Akarin!
+Dialogue: 0,0:00:04.15,0:00:06.17,Default,YUI,0000,0000,0000,,H-Hey...
+Dialogue: 0,0:00:06.69,0:00:09.04,Default,AKARI,0000,0000,0000,,Yui-chan! Why?
+Dialogue: 0,0:00:09.04,0:00:09.94,Default,YUI,0000,0000,0000,,Sorry...
+Dialogue: 0,0:00:09.94,0:00:12.45,Default,YUI,0000,0000,0000,,Kyoko told me to wear this \Nand do the intro...
+Dialogue: 0,0:00:12.45,0:00:13.75,Default,AKARI,0000,0000,0000,,Kyoko-chan!
+Dialogue: 0,0:00:13.75,0:00:15.14,Default,KYOKO,0000,0000,0000,,Just this once!
+Dialogue: 0,0:00:15.14,0:00:16.91,Default,AKARI,0000,0000,0000,,Sheesh!
+Dialogue: 0,0:00:16.91,0:00:18.44,Default,KYOKO,0000,0000,0000,,Keep going, Yui.
+Dialogue: 0,0:00:19.91,0:00:24.74,Default,YUI,0000,0000,0000,,Yuru Yuri's... start... start...
+Dialogue: 0,0:00:24.74,0:00:27.25,Default,YUI,0000,0000,0000,,I can't do something this embarrassing!
+Dialogue: 0,0:00:27.25,0:00:29.00,Default,AKARI,0000,0000,0000,,You think it's embarrassing?
+Dialogue: 0,0:01:59.01,0:02:03.93,YY-ep-title-top,EPTITLE,0000,0000,0000,,Lazy, Japanese Summer
+Dialogue: 0,0:02:07.01,0:02:08.44,Default,KYOKO,0000,0000,0000,,So hot...
+Dialogue: 0,0:02:08.91,0:02:12.74,Default,KYOKO,0000,0000,0000,,I haven't used the AC yet this summer...
+Dialogue: 0,0:02:13.84,0:02:15.44,Default,KYOKO,0000,0000,0000,,But today is brutal...
+Dialogue: 0,0:02:16.06,0:02:17.36,Default,KYOKO,0000,0000,0000,,I can't take it...
+Dialogue: 0,0:02:17.91,0:02:19.14,Default,KYOKO,0000,0000,0000,,I give up...
+Dialogue: 0,0:02:19.57,0:02:20.11,Default,KYOKO,0000,0000,0000,,No!
+Dialogue: 0,0:02:20.11,0:02:21.12,Default,KYOKO,0000,0000,0000,,Not yet!
+Dialogue: 0,0:02:21.48,0:02:24.57,Default,KYOKO,0000,0000,0000,,I'll bear with it until I think I might pass out.
+Dialogue: 0,0:02:24.57,0:02:26.74,Default,,0000,0000,0000,,Then, once I'm soaked in sweat...
+Dialogue: 0,0:02:26.74,0:02:30.08,Default,KYOKO,0000,0000,0000,,I'll freshen up with a shower \Nbefore turning on the AC!
+Dialogue: 0,0:02:30.08,0:02:32.58,Default,KYOKO,0000,0000,0000,,That way, the AC \Nwill feel even more...
+Dialogue: 0,0:02:33.35,0:02:34.84,Default,KYOKO,0000,0000,0000,,Even more...
+Dialogue: 0,0:02:35.26,0:02:36.48,Default,KYOKO,0000,0000,0000,,That's it.
+Dialogue: 0,0:02:37.58,0:02:39.65,Default,KYOKO,0000,0000,0000,,Shower, shower.
+Dialogue: 0,0:02:42.49,0:02:44.30,Default,KYOKO,0000,0000,0000,,I feel refreshed.
+Dialogue: 0,0:02:45.16,0:02:48.02,Default,KYOKO,0000,0000,0000,,Time for this year's first use of the AC.
+Dialogue: 0,0:02:58.25,0:02:59.53,Default,KYOKO,0000,0000,0000,,{\i1}What?{\i0}
+Dialogue: 0,0:03:05.22,0:03:06.62,Default,KYOKO,0000,0000,0000,,So cool.
+Dialogue: 0,0:03:07.21,0:03:09.11,Default,MOM,0000,0000,0000,,What're you doing?
+Dialogue: 0,0:03:10.76,0:03:12.94,Default,KYOKO,0000,0000,0000,,There are no batteries in the remote,
+Dialogue: 0,0:03:12.94,0:03:15.58,Default,,0000,0000,0000,,so I can't turn the AC on!
+Dialogue: 0,0:03:15.58,0:03:17.63,Default,MOMO,0000,0000,0000,,Didn't you remove\N the remote's batteries
+Dialogue: 0,0:03:17.63,0:03:20.13,Default,,0000,0000,0000,,because the ones \Nin your clock died?
+Dialogue: 0,0:03:24.41,0:03:27.40,Default,KYOKO,0000,0000,0000,,Guess I'll have to go buy some.
+Dialogue: 0,0:03:32.94,0:03:35.94,Default,YUI,0000,0000,0000,,How did you wind up \Nin front of my AC?
+Dialogue: 0,0:03:36.93,0:03:38.48,Default,KYOKO,0000,0000,0000,,What're you making?
+Dialogue: 0,0:03:38.92,0:03:40.28,Default,YUI,0000,0000,0000,,Curry.
+Dialogue: 0,0:03:40.28,0:03:44.83,Default,KYOKO,0000,0000,0000,,What? I just had curry yesterday.
+Dialogue: 0,0:03:44.83,0:03:46.34,Default,YUI,0000,0000,0000,,You're just assuming you'll get some?!
+Dialogue: 0,0:03:47.34,0:03:48.04,Default,KYOKO,0000,0000,0000,,It's delicious!
+Dialogue: 0,0:03:48.52,0:03:51.33,Default,KYOKO,0000,0000,0000,,You put sausage in your \Ncurry instead of meat, huh?
+Dialogue: 0,0:03:51.33,0:03:54.42,Default,YUI,0000,0000,0000,,Sausage is cheaper \Nand keeps longer.
+Dialogue: 0,0:03:54.84,0:03:57.32,Default,KYOKO,0000,0000,0000,,I think I might like this \Nmore than beef curry.
+Dialogue: 0,0:03:57.79,0:03:58.64,Default,YUI,0000,0000,0000,,Really?
+Dialogue: 0,0:03:58.99,0:04:02.68,Default,KYOKO,0000,0000,0000,,Yui-san, I want to eat \Nyour curry everyday.
+Dialogue: 0,0:04:03.06,0:04:05.68,Default,CM,0000,0000,0000,,{\i1}Namo Quest II, coming soon!{\i0}
+Dialogue: 0,0:04:03.82,0:04:05.68,Ding Dong,TEXT,0000,0000,0000,,Coming soon!
+Dialogue: 0,0:04:06.23,0:04:08.43,Default,YUI,0000,0000,0000,,They're making a sequel.
+Dialogue: 0,0:04:09.18,0:04:10.14,Default,KYOKO,0000,0000,0000,,All right!
+Dialogue: 0,0:04:10.14,0:04:13.36,Default,KYOKO,0000,0000,0000,,Now that I'm full, it's time \Nto buy some batteries!
+Dialogue: 0,0:04:13.36,0:04:15.29,Default,YUI,0000,0000,0000,,Why did you come here?
+Dialogue: 0,0:04:22.19,0:04:24.61,Default,KYOKO,0000,0000,0000,,Fans are great, too.
+Dialogue: 0,0:04:24.61,0:04:26.81,Default,CHINATSU,0000,0000,0000,,What are you doing in my house?
+Dialogue: 0,0:04:27.41,0:04:30.07,Default,KYOKO,0000,0000,0000,,I was on my way to the \Nstore to buy batteries,
+Dialogue: 0,0:04:30.07,0:04:32.45,Default,,0000,0000,0000,,but I stopped by Yui's \Nplace to eat curry.
+Dialogue: 0,0:04:31.79,0:04:32.45,YY-overlap,CHINATSU,0000,0000,0000,,What?
+Dialogue: 0,0:04:32.45,0:04:34.40,Default,KYOKO,0000,0000,0000,,Since I was around, I \Nthought I'd drop by.
+Dialogue: 0,0:04:34.40,0:04:36.95,Default,CHINATSU,0000,0000,0000,,You went to Yui-senpai's house?
+Dialogue: 0,0:04:39.70,0:04:42.89,Default,CHINATSU,0000,0000,0000,,You should have invited me.
+Dialogue: 0,0:04:43.68,0:04:46.96,Default,CHINATSU,0000,0000,0000,,Wait, you'd have to have walked right past
+Dialogue: 0,0:04:46.96,0:04:50.42,Default,,0000,0000,0000,,the store to get here \Nfrom Yui-senpai's home...
+Dialogue: 0,0:04:50.42,0:04:51.47,Default,KYOKO,0000,0000,0000,,Now, now...
+Dialogue: 0,0:05:02.09,0:05:04.37,Default,KYOKO,0000,0000,0000,,I'm off to buy batteries!
+Dialogue: 0,0:05:04.37,0:05:07.24,Default,CHINATSU,0000,0000,0000,,Senpai, why did you come here?
+Dialogue: 0,0:05:11.12,0:05:12.96,Default,KYOKO,0000,0000,0000,,So cool.
+Dialogue: 0,0:05:12.96,0:05:14.75,Default,AKARI,0000,0000,0000,,Kyoko-chan, thanks for waiting.
+Dialogue: 0,0:05:20.84,0:05:23.09,Default,KYOKO,0000,0000,0000,,This warabi mochi is tasty!
+Dialogue: 0,0:05:23.39,0:05:27.59,Default,KYOKO,0000,0000,0000,,You really know how to make \Nsomeone feel at home, Akari.
+Dialogue: 0,0:05:28.39,0:05:29.98,Default,AKARI,0000,0000,0000,,You think so?
+Dialogue: 0,0:05:29.98,0:05:32.29,Default,KYOKO,0000,0000,0000,,Akari, how much of your \Nhomework have you got done?
+Dialogue: 0,0:05:32.29,0:05:35.71,Default,AKARI,0000,0000,0000,,A little more than half, I think?
+Dialogue: 0,0:05:35.71,0:05:37.03,Default,AKARI,0000,0000,0000,,What about you, Kyoko-chan?
+Dialogue: 0,0:05:37.03,0:05:39.48,Default,KYOKO,0000,0000,0000,,You sure you want the answer?
+Dialogue: 0,0:05:39.48,0:05:41.68,Default,AKARI,0000,0000,0000,,That's not good.
+Dialogue: 0,0:05:41.68,0:05:43.59,Default,,0000,0000,0000,,You have to do it.
+Dialogue: 0,0:05:44.09,0:05:45.74,Default,KYOKO,0000,0000,0000,,Well, the thing is...
+Dialogue: 0,0:05:46.22,0:05:49.01,Default,KYOKO,0000,0000,0000,,I forgot my homework at \Nschool, so I can't do it.
+Dialogue: 0,0:05:49.01,0:05:51.10,Default,AKARI,0000,0000,0000,,Why don't you just go get it?
+Dialogue: 0,0:05:54.84,0:05:56.54,Default,AKARI,0000,0000,0000,,I'm gonna air out \Nthe room, okay?
+Dialogue: 0,0:05:56.54,0:05:57.38,Default,KYOKO,0000,0000,0000,,Sure.
+Dialogue: 0,0:05:57.38,0:06:00.11,Default,AKARI,0000,0000,0000,,It might get a little warm in here...
+Dialogue: 0,0:06:03.31,0:06:04.59,Default,AKARI,0000,0000,0000,,What?
+Dialogue: 0,0:06:04.59,0:06:05.38,Default,KYOKO,0000,0000,0000,,A cicada!
+Dialogue: 0,0:06:10.09,0:06:12.73,Default,AKARI,0000,0000,0000,,Kyoko-chan, do something.
+Dialogue: 0,0:06:12.73,0:06:15.31,Default,AKARI,0000,0000,0000,,I can't touch cicadas.
+Dialogue: 0,0:06:15.57,0:06:16.39,Default,KYOKO,0000,0000,0000,,Okay!
+Dialogue: 0,0:06:16.39,0:06:17.52,Default,KYOKO,0000,0000,0000,,Leave it to me!
+Dialogue: 0,0:06:18.48,0:06:20.91,Default,AKARI,0000,0000,0000,,What? Wait!
+Dialogue: 0,0:06:20.91,0:06:23.15,Default,AKARI,0000,0000,0000,,Anything but that!
+Dialogue: 0,0:06:33.03,0:06:33.98,Default,AKARI,0000,0000,0000,,Help!
+Dialogue: 0,0:06:33.98,0:06:35.05,Default,KYOKO,0000,0000,0000,,Well done, Akari!
+Dialogue: 0,0:06:35.05,0:06:35.91,Default,KYOKO,0000,0000,0000,,Hold still!
+Dialogue: 0,0:06:40.13,0:06:41.79,Default,KYOKO,0000,0000,0000,,Take care!
+Dialogue: 0,0:06:46.79,0:06:48.59,Default,KYOKO,0000,0000,0000,,What a walk.
+Dialogue: 0,0:06:49.29,0:06:51.40,Default,KYOKO,0000,0000,0000,,It's so hot out.
+Dialogue: 0,0:06:51.86,0:06:54.61,Default,KYOKO,0000,0000,0000,,I'll have to shower \Nagain when I get home.
+Dialogue: 0,0:06:58.97,0:06:59.85,Default,KYOKO,0000,0000,0000,,Okay!
+Dialogue: 0,0:07:00.26,0:07:01.35,Default,KYOKO,0000,0000,0000,,Remote!
+Dialogue: 0,0:07:01.35,0:07:02.60,Default,KYOKO,0000,0000,0000,,Batteries!
+Dialogue: 0,0:07:02.89,0:07:05.12,Default,KYOKO,0000,0000,0000,,All right, set up!
+Dialogue: 0,0:07:09.09,0:07:10.30,YY-Sign-top,TEXT,0000,0000,0000,,Requires AAA                     AA
+Dialogue: 0,0:07:14.43,0:07:15.35,Default,AKARI,0000,0000,0000,,What?
+Dialogue: 0,0:07:15.35,0:07:16.99,Default,,0000,0000,0000,,You needed AAA batteries so
+Dialogue: 0,0:07:16.99,0:07:18.08,Default,,0000,0000,0000,,tomorrow we're going to the pool?
+Dialogue: 0,0:07:26.10,0:07:28.05,Default,AKARI,0000,0000,0000,,It's so hot.
+Dialogue: 0,0:07:28.05,0:07:30.27,Default,,0000,0000,0000,,And so humid, too.
+Dialogue: 0,0:07:30.27,0:07:32.74,Default,AKARI,0000,0000,0000,,I can't believe I missed the train...
+Dialogue: 0,0:07:36.02,0:07:37.46,Default,YUI,0000,0000,0000,,Akari, hurry!
+Dialogue: 0,0:07:41.57,0:07:42.40,Default,AKARI,0000,0000,0000,,What?
+Dialogue: 0,0:07:43.11,0:07:44.53,Default,AKARI,0000,0000,0000,,Wait!
+Dialogue: 0,0:07:45.43,0:07:48.86,Default,AKARI,0000,0000,0000,,Wait, everyone!
+Dialogue: 0,0:07:49.36,0:07:51.54,Default,AKARI,0000,0000,0000,,Kyoko-chan!
+Dialogue: 0,0:07:54.96,0:07:57.41,Default,AKARI,0000,0000,0000,,Kyoko-chan!
+Dialogue: 0,0:08:00.28,0:08:03.35,Default,AKARI,0000,0000,0000,,Kyoko-chan!
+Dialogue: 0,0:08:16.45,0:08:19.22,Default,AKARI,0000,0000,0000,,I was looking forward to \Nswimming with everyone...
+Dialogue: 0,0:08:19.91,0:08:21.41,Default,AKARI,0000,0000,0000,,Let's see...
+Dialogue: 0,0:08:22.29,0:08:25.50,Default,AKARI,0000,0000,0000,,The next train is at...
+Dialogue: 0,0:08:27.00,0:08:29.11,Default,AKARI,0000,0000,0000,,That's a long wait.
+Dialogue: 0,0:08:29.87,0:08:32.06,Default,AKARI,0000,0000,0000,,I guess it can't be helped...
+Dialogue: 0,0:08:32.06,0:08:33.87,Default,AKARI,0000,0000,0000,,What should I do while I wait?
+Dialogue: 0,0:08:36.46,0:08:38.24,Default,AKARI,0000,0000,0000,,It's from Chinatsu-chan.
+Dialogue: 0,0:08:38.24,0:08:40.74,missed,TEXT,0000,0000,0000,,Get over here already!\NWe're waiting!
+Dialogue: 0,0:08:38.44,0:08:40.36,Default,AKARI,0000,0000,0000,,They look like they're having fun.
+Dialogue: 0,0:08:41.04,0:08:44.44,Default,AKARI,0000,0000,0000,,If the wind hadn't blown \Naway my pool coupon,
+Dialogue: 0,0:08:44.44,0:08:46.97,Default,,0000,0000,0000,,I would've made it on time...
+Dialogue: 0,0:08:46.97,0:08:51.00,Default,AKARI,0000,0000,0000,,The wind is so naughty sometimes.
+Dialogue: 0,0:08:52.06,0:08:53.90,Default,AKARI,0000,0000,0000,,I should send a reply.
+Dialogue: 0,0:08:57.34,0:08:59.97,Default,AKARI,0000,0000,0000,,Huh? Not quite...
+Dialogue: 0,0:09:05.54,0:09:07.20,Default,AKARI,0000,0000,0000,,Maybe this?
+Dialogue: 0,0:09:08.40,0:09:11.08,Default,AKARI,0000,0000,0000,,Yay! That's a good one!
+Dialogue: 0,0:09:11.08,0:09:14.94,Default,AKARI,0000,0000,0000,,Let's see... "I'll catch up later."
+Dialogue: 0,0:09:14.94,0:09:16.36,Default,AKARI,0000,0000,0000,,"Wait for me."
+Dialogue: 0,0:09:16.36,0:09:17.07,Default,AKARI,0000,0000,0000,,There!
+Dialogue: 0,0:09:19.15,0:09:22.08,Default,AKARI,0000,0000,0000,,I'm so thirsty...
+Dialogue: 0,0:09:22.69,0:09:24.08,Default,AKARI,0000,0000,0000,,Let's see...
+Dialogue: 0,0:09:24.96,0:09:27.21,Council,TEXT,0000,0000,0000,,Super Bitter
+Dialogue: 0,0:09:27.78,0:09:30.20,Default,AKARI,0000,0000,0000,,I'm too young for that.
+Dialogue: 0,0:09:31.65,0:09:34.71,Default,AKARI,0000,0000,0000,,I'll just get a Fanti Orange.
+Dialogue: 0,0:09:38.60,0:09:39.68,Default,AKARI,0000,0000,0000,,What?
+Dialogue: 0,0:09:39.70,0:09:41.41,Council,TEXT,0000,0000,0000,,Super Bitter
+Dialogue: 0,0:09:39.97,0:09:41.43,Default,AKARI,0000,0000,0000,,Why?
+Dialogue: 0,0:09:41.73,0:09:43.98,Default,AKARI,0000,0000,0000,,Whoever manages this vending machine,
+Dialogue: 0,0:09:43.98,0:09:46.69,Default,,0000,0000,0000,,you put this in the wrong place!
+Dialogue: 0,0:09:47.76,0:09:49.16,Default,AKARI,0000,0000,0000,,What am I gonna do?
+Dialogue: 0,0:09:49.16,0:09:51.60,Default,AKARI,0000,0000,0000,,Maybe I'll have Yui-chan drink it...
+Dialogue: 0,0:09:51.60,0:09:53.27,Default,AKARI,0000,0000,0000,,Yui-chan's lucky.
+Dialogue: 0,0:09:53.27,0:09:56.28,Default,AKARI,0000,0000,0000,,Drinking black coffee? \NShe's so mature...
+Dialogue: 0,0:09:57.09,0:09:58.87,Default,AKARI,0000,0000,0000,,Maybe some day, I'll be able to...
+Dialogue: 0,0:10:00.88,0:10:04.05,Default,AKARI,0000,0000,0000,,{\i1}This always wakes me up.{\i0}
+Dialogue: 0,0:10:04.05,0:10:07.92,Default,AKARI,0000,0000,0000,,I hope I'll say that while \Nstudying for exams someday.
+Dialogue: 0,0:10:12.89,0:10:14.92,Default,AKARI,0000,0000,0000,,Fanti Orange is delicious.
+Dialogue: 0,0:10:18.66,0:10:19.26,Default,,0000,0000,0000,,A mosquito!
+Dialogue: 0,0:10:19.26,0:10:21.02,Default,AKARI,0000,0000,0000,,Kyoko-chan, a mosquito!
+Dialogue: 0,0:10:21.02,0:10:22.24,Default,AKARI,0000,0000,0000,,Oh, she's not here!
+Dialogue: 0,0:10:23.33,0:10:25.14,Default,AKARI,0000,0000,0000,,Help me!
+Dialogue: 0,0:10:29.62,0:10:31.60,Default,AKARI,0000,0000,0000,,I guess it left...
+Dialogue: 0,0:10:33.49,0:10:36.28,Default,AKARI,0000,0000,0000,,That mosquito scared me.
+Dialogue: 0,0:10:36.69,0:10:40.16,Default,AKARI,0000,0000,0000,,Maybe I'll close the windows \Nso it can't come back in.
+Dialogue: 0,0:10:40.63,0:10:43.28,Default,AKARI,0000,0000,0000,,But it'll get hot if I close them...
+Dialogue: 0,0:10:43.59,0:10:47.56,Default,AKARI,0000,0000,0000,,Jumping around like that \Nmade me sweaty.
+Dialogue: 0,0:10:47.56,0:10:51.44,Default,AKARI,0000,0000,0000,,I feel even hotter since I'm \Nwearing my swimsuit under this...
+Dialogue: 0,0:10:52.81,0:10:56.81,Default,AKARI,0000,0000,0000,,If I'd known this would happen, \NI'd have worn underwear instead...
+Dialogue: 0,0:11:00.04,0:11:04.32,Default,AKARI,0000,0000,0000,,But I bet it'll feel even better \Nwhen I'm finally in the pool.
+Dialogue: 0,0:11:04.32,0:11:06.38,Default,AKARI,0000,0000,0000,,It'll feel so cool.
+Dialogue: 0,0:11:06.38,0:11:08.03,Default,AKARI,0000,0000,0000,,I'm so excited.
+Dialogue: 0,0:11:09.46,0:11:11.06,Default,AKARI,0000,0000,0000,,It's Kyoko-chan.
+Dialogue: 0,0:11:12.62,0:11:15.03,Default,AKARI,0000,0000,0000,,Kyoko-chan, you're so funny.
+Dialogue: 0,0:11:15.03,0:11:17.09,Default,AKARI,0000,0000,0000,,What should I do?
+Dialogue: 0,0:11:17.82,0:11:18.98,Default,AKARI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:20.11,0:11:22.95,Default,AKARI,0000,0000,0000,,It doesn't have enough impact...
+Dialogue: 0,0:11:23.39,0:11:25.19,Default,AKARI,0000,0000,0000,,How about this?
+Dialogue: 0,0:11:26.75,0:11:29.20,Default,AKARI,0000,0000,0000,,Not quite...
+Dialogue: 0,0:11:29.55,0:11:31.62,Default,AKARI,0000,0000,0000,,I guess this will do.
+Dialogue: 0,0:11:31.62,0:11:34.29,Default,AKARI,0000,0000,0000,,"I won't lose to you!"
+Dialogue: 0,0:11:36.71,0:11:38.17,Default,AKARI,0000,0000,0000,,Don't suck my blood!
+Dialogue: 0,0:11:38.17,0:11:40.49,Default,AKARI,0000,0000,0000,,My blood doesn't even taste good!
+Dialogue: 0,0:11:40.49,0:11:44.34,Default,AKARI,0000,0000,0000,,Well, you can suck my blood, \Nbut don't make me itchy!
+Dialogue: 0,0:11:44.34,0:11:47.47,Default,AKARI,0000,0000,0000,,Oh, I have some bug spray!
+Dialogue: 0,0:11:49.21,0:11:52.52,Default,AKARI,0000,0000,0000,,I'm glad I borrowed \Nsome from my sister.
+Dialogue: 0,0:11:53.14,0:11:55.58,Default,AKARI,0000,0000,0000,,Now I'm invincible.
+Dialogue: 0,0:11:58.82,0:12:00.48,Default,AKARI,0000,0000,0000,,I'm hungry...
+Dialogue: 0,0:12:00.48,0:12:03.28,Default,AKARI,0000,0000,0000,,I overslept, so I didn't \Nhave much to eat.
+Dialogue: 0,0:12:03.74,0:12:06.24,Default,AKARI,0000,0000,0000,,Hooray, chocolate.
+Dialogue: 0,0:12:09.24,0:12:11.50,Default,AKARI,0000,0000,0000,,Maybe I'll have some potato chips.
+Dialogue: 0,0:12:11.50,0:12:16.09,missed,TEXT,0000,0000,0000,,Lightly Salted Potato Chips
+Dialogue: 0,0:12:12.00,0:12:16.09,Default,AKARI,0000,0000,0000,,Lightly salted.\NI love lightly salted chips!
+Dialogue: 0,0:12:17.43,0:12:18.64,Default,AKARI,0000,0000,0000,,They're so good.
+Dialogue: 0,0:12:19.98,0:12:21.11,missed,,0000,0000,0000,,I made some for everyone,\N so have some later.
+Dialogue: 0,0:12:21.06,0:12:22.30,Default,AKARI,0000,0000,0000,,It's Yui-chan.
+Dialogue: 0,0:12:22.82,0:12:24.71,Default,AKARI,0000,0000,0000,,That looks delicious.
+Dialogue: 0,0:12:24.71,0:12:27.84,Default,AKARI,0000,0000,0000,,Yui-chan made lunch for everyone.
+Dialogue: 0,0:12:29.66,0:12:32.85,Default,AKARI,0000,0000,0000,,Yui-chan's such a good cook. \NI can't wait to have some!
+Dialogue: 0,0:12:34.13,0:12:36.80,Default,AKARI,0000,0000,0000,,But I didn't bring anything...
+Dialogue: 0,0:12:36.80,0:12:39.11,Default,AKARI,0000,0000,0000,,Um, let's see...
+Dialogue: 0,0:12:39.11,0:12:39.90,Default,AKARI,0000,0000,0000,,I know!
+Dialogue: 0,0:12:41.39,0:12:45.19,Default,AKARI,0000,0000,0000,,I ate a few, but \NI'll bring these snacks.
+Dialogue: 0,0:12:46.35,0:12:47.55,Default,AKARI,0000,0000,0000,,And this coffee!
+Dialogue: 0,0:12:49.14,0:12:54.83,missed,SIGN,0000,0000,0000,,Everyone's waiting for you, Akaza-san!
+Dialogue: 0,0:12:49.80,0:12:51.21,Default,AKARI,0000,0000,0000,,It's Himawari-chan.
+Dialogue: 0,0:12:51.78,0:12:54.83,Default,AKARI,0000,0000,0000,,Everyone's already at the pool!
+Dialogue: 0,0:12:55.32,0:12:59.61,Default,AKARI,0000,0000,0000,,If I had super powers, I'd \Nwarp and catch up with them.
+Dialogue: 0,0:13:01.30,0:13:03.30,Default,AKARI,0000,0000,0000,,Warp! Warp!
+Dialogue: 0,0:13:03.30,0:13:04.51,Default,AKARI,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:13:06.11,0:13:08.64,Default,AKARI,0000,0000,0000,,I wanna go on the water slide.
+Dialogue: 0,0:13:08.64,0:13:10.71,Default,AKARI,0000,0000,0000,,I always go with my sister...
+Dialogue: 0,0:13:10.71,0:13:14.14,Default,,0000,0000,0000,,...because she says it's scary to go down alone.
+Dialogue: 0,0:13:14.14,0:13:16.60,Default,AKARI,0000,0000,0000,,It'll be my first time \Ngoing by myself.
+Dialogue: 0,0:13:17.18,0:13:18.91,Default,AKARI,0000,0000,0000,,I'm so nervous.
+Dialogue: 0,0:13:18.91,0:13:21.95,Default,AKARI,0000,0000,0000,,If I get scared, I'll have \Nsomeone go with me.
+Dialogue: 0,0:13:21.95,0:13:24.71,Default,AKARI,0000,0000,0000,,Don't they have a lazy river, too?
+Dialogue: 0,0:13:24.71,0:13:26.86,Default,AKARI,0000,0000,0000,,I wanna just float away.
+Dialogue: 0,0:13:29.48,0:13:30.76,Default,AKARI,0000,0000,0000,,It's Kyoko-chan!
+Dialogue: 0,0:13:32.04,0:13:33.66,Default,AKARI,0000,0000,0000,,Ikeda-senpai's nose is bleeding!
+Dialogue: 0,0:13:33.66,0:13:36.00,Default,AKARI,0000,0000,0000,,Is she okay? Is she okay?
+Dialogue: 0,0:13:36.00,0:13:37.91,Default,AKARI,0000,0000,0000,,Someone has tissues, right?
+Dialogue: 0,0:13:39.92,0:13:41.65,Default,AKARI,0000,0000,0000,,It's not stopping!
+Dialogue: 0,0:13:41.57,0:13:43.15,1 week later,TEXT,0000,0000,0000,,{\a6}Incoming Message
+Dialogue: 0,0:13:42.70,0:13:44.00,Default,AKARI,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:13:44.83,0:13:46.10,Default,AKARI,0000,0000,0000,,Kyoko-chan!
+Dialogue: 0,0:13:46.10,0:13:48.95,Default,AKARI,0000,0000,0000,,I don't need the play-by-play! \NSomeone help her!
+Dialogue: 0,0:14:13.72,0:14:16.46,Default,YUI,0000,0000,0000,,Yeah, I'm okay. I'm resting.
+Dialogue: 0,0:14:17.40,0:14:19.06,Default,YUI,0000,0000,0000,,Thanks, Mom.
+Dialogue: 0,0:14:19.82,0:14:20.74,Default,YUI,0000,0000,0000,,Bye.
+Dialogue: 0,0:14:25.73,0:14:28.04,Default,YUI,0000,0000,0000,,I feel all right, though...
+Dialogue: 0,0:14:28.04,0:14:29.76,Default,YUI,0000,0000,0000,,I've just got a slight fever...
+Dialogue: 0,0:14:30.83,0:14:32.01,Default,YUI,0000,0000,0000,,I'll just sleep.
+Dialogue: 0,0:14:33.35,0:14:36.02,Default,YUI,0000,0000,0000,,{\i1}What level did I get to yesterday?{\i0}
+Dialogue: 0,0:14:36.02,0:14:39.41,Default,YUI,0000,0000,0000,,{\i1}I wanna get everyone in my \Nparty up three levels.{\i0}
+Dialogue: 0,0:14:39.96,0:14:43.81,Default,YUI,0000,0000,0000,,{\i1}I need to get the best equipment \Nat the weapon shop, too.{\i0}
+Dialogue: 0,0:14:46.69,0:14:48.88,Class,TEXT,0000,0000,0000,,{\pos(317,134)}An enemy has appeared!
+Dialogue: 0,0:14:54.16,0:14:58.62,YY-note-big,TEXT,0000,0000,0000,,{\a6}Gunner Yui
+Dialogue: 0,0:15:00.91,0:15:02.37,Default,YUI,0000,0000,0000,,Kyoko, finish him!
+Dialogue: 0,0:15:02.37,0:15:03.04,Default,KYOKO,0000,0000,0000,,Got it!
+Dialogue: 0,0:15:02.88,0:15:05.80,YY-note-big,TEXT,0000,0000,0000,,{\a6}Swordsman Kyoko
+Dialogue: 0,0:15:03.52,0:15:05.80,Default,KYOKO,0000,0000,0000,,There!
+Dialogue: 0,0:15:07.84,0:15:08.82,Default,SLIME,0000,0000,0000,,{\i1}Yuri?{\i0}
+Dialogue: 0,0:15:08.34,0:15:11.72,Class,TEXT,0000,0000,0000,,{\a6}Non-lethal Blow
+Dialogue: 0,0:15:08.82,0:15:10.88,Default,KYOKO,0000,0000,0000,,Don't worry, I used the back of my sword.
+Dialogue: 0,0:15:10.88,0:15:11.72,Default,YUI,0000,0000,0000,,Just kill it!
+Dialogue: 0,0:15:12.99,0:15:15.26,Default,YUI,0000,0000,0000,,He's attacking! Be careful!
+Dialogue: 0,0:15:15.68,0:15:21.90,YY-note-big,TEXT,0000,0000,0000,,{\a6}White Mage Akari
+Dialogue: 0,0:15:16.14,0:15:17.71,Default,AKARI,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:15:18.33,0:15:19.54,YY-note,TEXT,0000,0000,0000,,{\a6}Akarin!
+Dialogue: 0,0:15:18.62,0:15:19.89,Default,AKARI,0000,0000,0000,,Akarin!
+Dialogue: 0,0:15:20.05,0:15:21.98,Default,SLIME,0000,0000,0000,,{\i1}Huh? What's going on?{\i0}
+Dialogue: 0,0:15:21.98,0:15:28.36,YY-note-big,TEXT,0000,0000,0000,,{\a6}Black Mage Chinatsu
+Dialogue: 0,0:15:22.45,0:15:24.58,Default,CHINATSU,0000,0000,0000,,I'll finish it!
+Dialogue: 0,0:15:24.58,0:15:27.69,Default,CHINATSU,0000,0000,0000,,Black thunder!
+Dialogue: 0,0:15:28.85,0:15:29.55,Default,SLIME,0000,0000,0000,,{\i1}Yuri!{\i0}
+Dialogue: 0,0:15:30.08,0:15:31.70,Default,YUI,0000,0000,0000,,You got him! There's only one left!
+Dialogue: 0,0:15:31.70,0:15:36.45,Class,TEXT,0000,0000,0000,,{\a6}Akari used Revive.
+Dialogue: 0,0:15:32.08,0:15:36.45,Default,AKARI,0000,0000,0000,,Stop, everyone! I feel \Nbad for our enemies!
+Dialogue: 0,0:15:40.40,0:15:41.62,Default,YUI,0000,0000,0000,,What're you doing?
+Dialogue: 0,0:15:46.19,0:15:47.59,Default,AKARI,0000,0000,0000,,Akarin!
+Dialogue: 0,0:15:47.59,0:15:49.14,Default,KYOKO,0000,0000,0000,,Kyokorin!
+Dialogue: 0,0:15:54.22,0:15:55.80,Default,YUI,0000,0000,0000,,Darn it, Kyoko...
+Dialogue: 0,0:16:03.57,0:16:05.31,Default,YUI,0000,0000,0000,,My fever's gone down...
+Dialogue: 0,0:16:09.90,0:16:11.78,Default,YUI,0000,0000,0000,,Oh. It's just Kyoko.
+Dialogue: 0,0:16:12.04,0:16:13.63,Default,KYOKO,0000,0000,0000,,How's your cold?
+Dialogue: 0,0:16:13.63,0:16:15.29,Default,YUI,0000,0000,0000,,My fever's gone down.
+Dialogue: 0,0:16:15.29,0:16:17.74,Default,YUI,0000,0000,0000,,Wait, how did you know?
+Dialogue: 0,0:16:18.70,0:16:22.63,Default,KYOKO,0000,0000,0000,,Our moms were talking \Non the phone this morning.
+Dialogue: 0,0:16:22.63,0:16:26.10,Default,KYOKO,0000,0000,0000,,I thought you might be lonely since \Nyou're sick and all alone...
+Dialogue: 0,0:16:26.10,0:16:27.42,Default,KYOKO,0000,0000,0000,,Want some udon?
+Dialogue: 0,0:16:27.42,0:16:31.47,Default,YUI,0000,0000,0000,,Sure...but take that mask off.
+Dialogue: 0,0:16:32.39,0:16:35.22,Default,YUI,0000,0000,0000,,Once in a blue moon, \Nyou're actually considerate, Kyoko.
+Dialogue: 0,0:16:35.22,0:16:37.51,Default,KYOKO,0000,0000,0000,,Say what you want, but I've got pajamas!
+Dialogue: 0,0:16:37.51,0:16:38.84,Default,YUI,0000,0000,0000,,You're sleeping over?
+Dialogue: 0,0:16:38.84,0:16:40.43,Default,YUI,0000,0000,0000,,You might get sick, too.
+Dialogue: 0,0:16:40.43,0:16:42.00,Default,,0000,0000,0000,,You shouldn't stay tonight.
+Dialogue: 0,0:16:42.00,0:16:44.23,Default,KYOKO,0000,0000,0000,,What? Who cares?
+Dialogue: 0,0:16:44.65,0:16:46.98,Default,KYOKO,0000,0000,0000,,I know you were lonely...
+Dialogue: 0,0:16:47.74,0:16:49.02,Default,YUI,0000,0000,0000,,No, I wasn't...
+Dialogue: 0,0:16:49.41,0:16:51.74,Default,KYOKO,0000,0000,0000,,So, when do you want the udon?
+Dialogue: 0,0:16:51.74,0:16:52.53,Default,,0000,0000,0000,,Now?
+Dialogue: 0,0:16:53.51,0:16:55.27,Default,YUI,0000,0000,0000,,Maybe a little later...
+Dialogue: 0,0:16:56.73,0:16:57.81,Default,YUI,0000,0000,0000,,Fine. Now.
+Dialogue: 0,0:16:59.72,0:17:01.04,Default,YUI,0000,0000,0000,,It's good.
+Dialogue: 0,0:17:01.04,0:17:03.07,Default,KYOKO,0000,0000,0000,,How many stars?
+Dialogue: 0,0:17:03.75,0:17:05.08,Default,YUI,0000,0000,0000,,Two, I guess.
+Dialogue: 0,0:17:05.08,0:17:07.79,Default,YUI,0000,0000,0000,,Minus one because you're noisy.
+Dialogue: 0,0:17:07.79,0:17:09.77,Default,KYOKO,0000,0000,0000,,You're so harsh.
+Dialogue: 0,0:17:11.78,0:17:12.87,Default,YUI,0000,0000,0000,,Kyoko...
+Dialogue: 0,0:17:14.55,0:17:16.89,Default,YUI,0000,0000,0000,,There's some rum raisin \Nin the fridge...
+Dialogue: 0,0:17:18.30,0:17:19.39,Default,YUI,0000,0000,0000,,Thanks.
+Dialogue: 0,0:17:23.29,0:17:26.25,Default,KYOKO,0000,0000,0000,,If there's anything you want, just ask.
+Dialogue: 0,0:17:26.25,0:17:28.23,Default,YUI,0000,0000,0000,,You're so thoughtful.
+Dialogue: 0,0:17:30.14,0:17:33.24,Default,KYOKO,0000,0000,0000,,Mind if I keep playing \Nthat game from the other day?
+Dialogue: 0,0:17:33.24,0:17:34.87,Default,,0000,0000,0000,,I'll turn the volume down.
+Dialogue: 0,0:17:34.87,0:17:37.24,Default,YUI,0000,0000,0000,,No, don't worry about me.
+Dialogue: 0,0:17:37.47,0:17:39.03,Default,YUI,0000,0000,0000,,They're still low level, though.
+Dialogue: 0,0:17:39.03,0:17:40.31,Default,KYOKO,0000,0000,0000,,I got it!
+Dialogue: 0,0:17:40.31,0:17:41.93,Default,KYOKO,0000,0000,0000,,You just rest!
+Dialogue: 0,0:17:45.07,0:17:47.01,Default,YUI,0000,0000,0000,,{\i1}Their levels really are low...{\i0}
+Dialogue: 0,0:17:47.01,0:17:48.73,Default,YUI,0000,0000,0000,,{\i1}She'll have to wander \Naround this area{\i0}
+Dialogue: 0,0:17:48.73,0:17:50.38,Default,,0000,0000,0000,,{\i1}for about an hour and gain experience...{\i0}
+Dialogue: 0,0:17:50.98,0:17:52.27,Default,YUI,0000,0000,0000,,You're going to fight the boss already?
+Dialogue: 0,0:17:52.27,0:17:55.08,Default,KYOKO,0000,0000,0000,,At this level, I should \Nbe able to scrape by!
+Dialogue: 0,0:18:00.94,0:18:01.89,Default,KYOKO,0000,0000,0000,,I died!
+Dialogue: 0,0:18:03.63,0:18:05.11,Default,YUI,0000,0000,0000,,Give me that!
+Dialogue: 0,0:18:05.11,0:18:06.64,Default,KYOKO,0000,0000,0000,,You're an energetic sick person.
+Dialogue: 0,0:18:07.42,0:18:09.90,Default,SAKURAKO,0000,0000,0000,,Himawari!
+Dialogue: 0,0:18:09.90,0:18:12.75,Default,SAKURAKO,0000,0000,0000,,Play with me!
+Dialogue: 0,0:18:15.24,0:18:17.74,Default,SAKURAKO,0000,0000,0000,,Himawari, you're here, right?
+Dialogue: 0,0:18:17.74,0:18:20.32,Default,SAKURAKO,0000,0000,0000,,Sakurako-sama is willing \Nto play with you!
+Dialogue: 0,0:18:20.32,0:18:21.78,Default,SAKURAKO,0000,0000,0000,,Hey!
+Dialogue: 0,0:18:21.78,0:18:25.26,Default,SAKURAKO,0000,0000,0000,,I hope your boobs explode, you booby monster!
+Dialogue: 0,0:18:28.06,0:18:29.53,Default,SAKURAKO,0000,0000,0000,,She's not answering.
+Dialogue: 0,0:18:29.53,0:18:31.73,Default,SAKURAKO,0000,0000,0000,,I guess she really isn't home...
+Dialogue: 0,0:18:31.73,0:18:33.80,Default,KAEDE,0000,0000,0000,,Sakurako onee-chan?
+Dialogue: 0,0:18:34.35,0:18:35.66,Default,SAKURAKO,0000,0000,0000,,Oh, Kaede...
+Dialogue: 0,0:18:36.39,0:18:39.19,Default,KAEDE,0000,0000,0000,,My sister's out shopping.
+Dialogue: 0,0:18:39.19,0:18:41.43,Default,,0000,0000,0000,,She should be back soon.
+Dialogue: 0,0:18:41.43,0:18:42.51,Default,SAKURAKO,0000,0000,0000,,What?
+Dialogue: 0,0:18:43.13,0:18:46.31,Default,KAEDE,0000,0000,0000,,Do you hate boobs, Sakurako onee-chan?
+Dialogue: 0,0:18:47.11,0:18:48.56,Default,SAKURAKO,0000,0000,0000,,No... Not really...
+Dialogue: 0,0:18:53.70,0:18:56.90,Default,KAEDE,0000,0000,0000,,Oh, right. You still don't—
+Dialogue: 0,0:18:56.90,0:18:58.09,Default,SAKURAKO,0000,0000,0000,,What?
+Dialogue: 0,0:18:58.09,0:19:01.82,Default,SAKURAKO,0000,0000,0000,,I mean, I "still don't" what?
+Dialogue: 0,0:19:02.28,0:19:05.83,Default,KAEDE,0000,0000,0000,,Your big sister doesn't \Nhave boobs, either...
+Dialogue: 0,0:19:05.83,0:19:09.58,Default,KAEDE,0000,0000,0000,,so you'll probably stay the same.
+Dialogue: 0,0:19:10.46,0:19:15.28,Default,KAEDE,0000,0000,0000,,But when I grow up, I'll \Nshare my boobs with you.
+Dialogue: 0,0:19:15.28,0:19:16.77,Default,KAEDE,0000,0000,0000,,So cheer up.
+Dialogue: 0,0:19:16.77,0:19:17.97,Default,SAKURAKO,0000,0000,0000,,Thanks.
+Dialogue: 0,0:19:23.14,0:19:24.89,Default,SAKURAKO,0000,0000,0000,,You're a good girl.
+Dialogue: 0,0:19:25.41,0:19:26.77,Default,HIMAWARI,0000,0000,0000,,Sakurako.
+Dialogue: 0,0:19:27.43,0:19:28.68,Default,SAKURAKO,0000,0000,0000,,Himawari, you're late!
+Dialogue: 0,0:19:28.68,0:19:30.27,Default,SAKURAKO,0000,0000,0000,,Your boobs weigh ya down! \NCut 'em off!
+Dialogue: 0,0:19:30.27,0:19:31.27,Default,HIMAWARI,0000,0000,0000,,What?
+Dialogue: 0,0:19:32.62,0:19:34.44,Default,HIMAWARI,0000,0000,0000,,So where are we going?
+Dialogue: 0,0:19:34.44,0:19:35.90,Default,SAKURAKO,0000,0000,0000,,Good question!
+Dialogue: 0,0:19:36.41,0:19:38.69,Default,HIMAWARI,0000,0000,0000,,You didn't even plan that far ahead...
+Dialogue: 0,0:19:38.69,0:19:40.36,Default,SAKURAKO,0000,0000,0000,,I was bored!
+Dialogue: 0,0:19:42.12,0:19:43.62,Default,SAKURAKO,0000,0000,0000,,It's Akari-chan.
+Dialogue: 0,0:19:44.24,0:19:45.85,Default,SAKURAKO,0000,0000,0000,,Okay, let's follow her!
+Dialogue: 0,0:19:45.85,0:19:46.74,Default,HIMAWARI,0000,0000,0000,,What?
+Dialogue: 0,0:19:50.98,0:19:52.50,Default,SAKURAKO,0000,0000,0000,,She's buying something.
+Dialogue: 0,0:19:54.32,0:19:55.44,Default,HIMAWARI,0000,0000,0000,,{\i1}Black coffee!{\i0}
+Dialogue: 0,0:19:55.44,0:19:56.50,Default,SAKURAKO,0000,0000,0000,,{\i1}Akari-chan likes that?{\i0}
+Dialogue: 0,0:20:00.38,0:20:01.65,Default,AKARI,0000,0000,0000,,It's so bitter...
+Dialogue: 0,0:20:01.65,0:20:03.34,Default,SAKURAKO,0000,0000,0000,,{\i1}Don't force yourself.{\i0}
+Dialogue: 0,0:20:10.04,0:20:11.10,Default,AKARI,0000,0000,0000,,Yay!
+Dialogue: 0,0:20:23.03,0:20:24.21,Default,AKARI,0000,0000,0000,,Oh, a pigeon.
+Dialogue: 0,0:20:24.21,0:20:27.24,Default,AKARI,0000,0000,0000,,Here you go. Eat up.
+Dialogue: 0,0:20:42.52,0:20:44.48,Default,HIMAWARI,0000,0000,0000,,What're you doing?
+Dialogue: 0,0:20:44.48,0:20:46.39,Default,SAKURAKO,0000,0000,0000,,Sorry, I couldn't help it...
+Dialogue: 0,0:20:54.29,0:20:56.86,Default,HIMAWARI,0000,0000,0000,,Akaza-san is still sleeping...
+Dialogue: 0,0:20:56.86,0:20:58.14,Default,SAKURAKO,0000,0000,0000,,This is bad!
+Dialogue: 0,0:20:58.14,0:21:00.40,Default,,0000,0000,0000,,Some pervert might do something to her!
+Dialogue: 0,0:21:00.40,0:21:01.59,Default,SAKURAKO,0000,0000,0000,,I'll save her!
+Dialogue: 0,0:21:17.25,0:21:19.38,Default,HIMAWARI,0000,0000,0000,,You better apologize to her tomorrow!
+Dialogue: 0,0:21:19.76,0:21:21.26,Default,SAKURAKO,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:21.26,0:21:23.36,Default,SAKURAKO,0000,0000,0000,,I'm tired.
+Dialogue: 0,0:21:23.36,0:21:26.89,Default,SAKURAKO,0000,0000,0000,,I'm sleeping over. \NI want Wagyu steak for dinner.
+Dialogue: 0,0:21:26.89,0:21:28.64,Default,HIMAWARI,0000,0000,0000,,You live next door. Go home!
+Dialogue: 0,0:21:29.10,0:21:30.25,Default,SAKURAKO,0000,0000,0000,,Sushi's fine too!
+Dialogue: 0,0:21:30.25,0:21:31.14,Default,HIMAWARI,0000,0000,0000,,Go home!
+Dialogue: 0,0:21:31.55,0:21:32.79,Default,KAEDE,0000,0000,0000,,Onee-chan...
+Dialogue: 0,0:21:33.69,0:21:35.14,Default,KAEDE,0000,0000,0000,,I made some tea.
+Dialogue: 0,0:21:35.41,0:21:37.33,Default,HIMAWARI,0000,0000,0000,,Thank you, Kaede.
+Dialogue: 0,0:21:37.33,0:21:39.15,Default,SAKURAKO,0000,0000,0000,,You're such a good girl, Kaede.
+Dialogue: 0,0:21:39.15,0:21:40.89,Default,SAKURAKO,0000,0000,0000,,Not like my little sister...
+Dialogue: 0,0:21:40.89,0:21:43.80,Default,KAEDE,0000,0000,0000,,I brought milk for you, \NSakurako onee-chan.
+Dialogue: 0,0:21:43.80,0:21:44.45,Default,SAKURAKO,0000,0000,0000,,What?
+Dialogue: 0,0:21:45.61,0:21:49.89,Default,KAEDE,0000,0000,0000,,I thought it might make \Nyour boobs bigger.
+Dialogue: 0,0:21:49.89,0:21:53.78,Default,KAEDE,0000,0000,0000,,You want your boobs to \Nget bigger, don't you?
+Dialogue: 0,0:21:56.51,0:21:58.54,Default,SAKURAKO,0000,0000,0000,,What a nice little sister...
+Dialogue: 0,0:21:58.54,0:21:59.42,Default,HIMAWARI,0000,0000,0000,,Thank you.
+Dialogue: 0,0:22:03.37,0:22:05.97,Default,AKARI,0000,0000,0000,,Why?
+Dialogue: 0,0:22:05.97,0:22:09.97,Default,AKARI,0000,0000,0000,,I don't taste good!
+Dialogue: 0,0:23:40.78,0:23:43.48,Default,YUI,0000,0000,0000,,I'm your mind-over-matter protagonist, Funami Yui.
+Dialogue: 0,0:23:43.48,0:23:45.86,Default,YUI,0000,0000,0000,,This preview protagonist series is
+Dialogue: 0,0:23:45.86,0:23:48.40,Default,,0000,0000,0000,,getting tough, since we're \Nrunning out of ideas.
+Dialogue: 0,0:23:48.40,0:23:51.03,Default,YUI,0000,0000,0000,,Next, we'll be going to Tokyo \Nfor the first time in a year.
+Dialogue: 0,0:23:51.67,0:23:55.10,Default,YUI,0000,0000,0000,,I never know what \Nsouvenirs to get in Tokyo.
+Dialogue: 0,0:23:55.10,0:23:57.10,Default,,0000,0000,0000,,

@@ -1,0 +1,335 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.50,0:00:04.21,Default,,0,0,0,,According to the materials from\Nthe blank calendar times,
+Dialogue: 0,0:00:04.38,0:00:07.09,Default,,0,0,0,,which was blank of years ago...
+Dialogue: 0,0:00:07.25,0:00:12.55,Default,,0,0,0,,when you wanted to be friends forever,\Napparently people used to say, "BFF."
+Dialogue: 0,0:00:12.80,0:00:16.35,Default,,0,0,0,,I liked it because it was kind of an interesting word.
+Dialogue: 0,0:00:16.97,0:00:20.47,Default,,0,0,0,,Three of us are friends forever.
+Dialogue: 0,0:00:21.18,0:00:22.89,Default,,0,0,0,,Even now,
+Dialogue: 0,0:00:23.06,0:00:25.60,Default,,0,0,0,,I feel like they're close by.
+Dialogue: 0,0:00:34.20,0:00:37.99,Default,,0,0,0,,Thanks for helping me\Nwith the blackboard monitor job.
+Dialogue: 0,0:00:38.45,0:00:39.49,Default,,0,0,0,,No problem.
+Dialogue: 0,0:00:39.66,0:00:42.04,Default,,0,0,0,,I usually have it easy as\Nthe health care staff of the classroom.
+Dialogue: 0,0:00:42.20,0:00:45.04,Default,,0,0,0,,Sumi makes people get in line relentlessly, though.
+Dialogue: 0,0:00:45.25,0:00:46.88,Default,,0,0,0,,We'll head to the morning assembly,
+Dialogue: 0,0:00:47.04,0:00:49.75,Default,,0,0,0,,but anyone who talks would be\Npunished with moxibustion.
+Dialogue: 0,0:00:50.21,0:00:53.34,Default,,0,0,0,,You rarely ever hear the word,\Nmoxibustion, right?
+Dialogue: 0,0:00:53.84,0:00:56.30,Default,,0,0,0,,We should always do our job with everything we got.
+Dialogue: 0,0:00:56.72,0:00:58.14,Default,,0,0,0,,Speaking of jobs,
+Dialogue: 0,0:00:58.30,0:01:00.81,Default,,0,0,0,,the fourth Vertex hasn't come yet.
+Dialogue: 0,0:01:00.97,0:01:03.14,Default,,0,0,0,,We do have the class trip coming up soon.
+Dialogue: 0,0:01:03.31,0:01:05.14,Default,,0,0,0,,I hope it doesn't come at the same time.
+Dialogue: 0,0:01:05.31,0:01:06.81,Default,,0,0,0,,About that class trip...
+Dialogue: 0,0:01:06.98,0:01:09.69,Default,,0,0,0,,I wonder if it's okay that we're leaving town?
+Dialogue: 0,0:01:09.86,0:01:14.20,Default,,0,0,0,,Once we turn into heroes, we can get\Nto the Long-Bridge right away, so it'll be fine.
+Dialogue: 0,0:01:14.36,0:01:15.91,Default,,0,0,0,,I don't want it to come though.
+Dialogue: 0,0:01:16.24,0:01:19.33,Default,,0,0,0,,We won't be able to do anything\Nif we overthink about everything.
+Dialogue: 0,0:01:19.49,0:01:20.62,Default,,0,0,0,,You have a good point.
+Dialogue: 0,0:01:20.83,0:01:24.46,Default,,0,0,0,,Well, even if something happens,\Nthis hero would take care of it.
+Dialogue: 0,0:01:24.62,0:01:27.33,Default,,0,0,0,,Wow! You're so cool, Mino-san.
+Dialogue: 0,0:01:27.50,0:01:30.88,Default,,0,0,0,,You guys are right.\NIt'll be ok if it's the three of us.
+Dialogue: 0,0:01:31.46,0:01:32.51,Default,,0,0,0,,Okay.
+Dialogue: 0,0:01:32.76,0:01:34.59,Default,,0,0,0,,Thanks.
+Dialogue: 0,0:01:35.09,0:01:40.22,Default,,0,0,0,,I'll take you and start running\NTo a place where no one can catch up
+Dialogue: 0,0:01:40.39,0:01:45.68,Default,,0,0,0,,Now is the time to fulfill it\NThe promise from that day
+Dialogue: 0,0:01:48.56,0:01:50.90,Default,,0,0,0,,Yuki Yuna is A Hero
+Dialogue: 0,0:01:55.74,0:02:00.45,Default,,0,0,0,,A bud of happiness in the corner
+Dialogue: 0,0:02:00.66,0:02:06.58,Default,,0,0,0,,It had a silver glow\NI'll show it to you when it blossoms
+Dialogue: 0,0:02:06.79,0:02:11.34,Default,,0,0,0,,In the album that I looked back on
+Dialogue: 0,0:02:11.54,0:02:16.55,Default,,0,0,0,,It was like that back then, and it still is now\NWe're laughing together
+Dialogue: 0,0:02:17.59,0:02:22.01,Default,,0,0,0,,The season which gets colored from the south
+Dialogue: 0,0:02:22.64,0:02:28.14,Default,,0,0,0,,Please say, "I'm back."\NI'll definitely come to welcome you straight away
+Dialogue: 0,0:02:28.35,0:02:33.57,Default,,0,0,0,,I'll take you and start running\NTo a place where no one can catch up
+Dialogue: 0,0:02:33.77,0:02:38.74,Default,,0,0,0,,Now is the time to fulfill it\NThe promise from that day
+Dialogue: 0,0:02:38.90,0:02:44.12,Default,,0,0,0,,I was waiting for you patiently for so long
+Dialogue: 0,0:02:44.29,0:02:50.21,Default,,0,0,0,,Welcome back\NPlease don't ever leave me again
+Dialogue: 0,0:03:05.56,0:03:07.89,Default,,0,0,0,,EPISODE 4 SOUL
+Dialogue: 0,0:03:10.10,0:03:13.48,Default,,0,0,0,,The blisters on my hands stings and hurts.
+Dialogue: 0,0:03:13.65,0:03:16.23,Default,,0,0,0,,Today's training would be tough.
+Dialogue: 0,0:03:16.44,0:03:18.82,Default,,0,0,0,,Maybe you should change how you hold your spear.
+Dialogue: 0,0:03:18.99,0:03:22.45,Default,,0,0,0,,The teacher said it won't get better even if I change it.
+Dialogue: 0,0:03:22.62,0:03:23.78,Default,,0,0,0,,There, there.
+Dialogue: 0,0:03:23.95,0:03:25.53,Default,,0,0,0,,Pain, pain, go away!
+Dialogue: 0,0:03:27.70,0:03:28.75,Default,,0,0,0,,TRAVEL GUIDEBOOK
+Dialogue: 0,0:03:28.91,0:03:30.50,Default,,0,0,0,,These are for you two.
+Dialogue: 0,0:03:30.71,0:03:32.92,Default,,0,0,0,,Su-- Sumi-san, what is this?
+Dialogue: 0,0:03:33.08,0:03:38.34,Default,,0,0,0,,As you can see, it's a guidebook for the class trip.\NI sent the data version of it to your handsets as well.
+Dialogue: 0,0:03:38.51,0:03:41.22,Default,,0,0,0,,Wow! You took the trouble to make these?
+Dialogue: 0,0:03:41.43,0:03:46.18,Default,,0,0,0,,I got enthusiastic, and stayed up till late,\Nso it got a lot thicker than I planned.
+Dialogue: 0,0:03:46.47,0:03:51.19,Default,,0,0,0,,Wasshi, you're a perfectionist,\Nand you're the type who gets devoted to this.
+Dialogue: 0,0:03:51.35,0:03:55.69,Default,,0,0,0,,Your future husband would be a happy man,\Nbut also might have a hard time in a lot of ways.
+Dialogue: 0,0:03:55.94,0:03:57.98,Default,,0,0,0,,Why would it lead to that?
+Dialogue: 0,0:03:58.15,0:04:01.11,Default,,0,0,0,,If only there was a guy like me.
+Dialogue: 0,0:04:01.61,0:04:03.82,Default,,0,0,0,,You guys would be great together.
+Dialogue: 0,0:04:04.28,0:04:05.32,Default,,0,0,0,,At any rate,
+Dialogue: 0,0:04:05.49,0:04:09.24,Default,,0,0,0,,let's use this travel guide, and finish\Nour preparation for the class trip.
+Dialogue: 0,0:04:09.62,0:04:11.46,Default,,0,0,0,,I'll perform moxibustion on you if you're late.
+Dialogue: 0,0:04:11.75,0:04:13.75,Default,,0,0,0,,Where do you even buy that?
+Dialogue: 0,0:04:13.92,0:04:17.42,Default,,0,0,0,,-Ines.\N-Ines. Nice! Yay!
+Dialogue: 0,0:04:17.59,0:04:20.34,Default,,0,0,0,,-Y-- Yay?\N-Yeah!
+Dialogue: 0,0:04:23.05,0:04:24.72,Default,,0,0,0,,I'm ready now.
+Dialogue: 0,0:04:24.93,0:04:27.39,Default,,0,0,0,,Whoosh. Bang!
+Dialogue: 0,0:04:27.55,0:04:28.68,Default,,0,0,0,,Roar!
+Dialogue: 0,0:04:28.85,0:04:29.97,Default,,0,0,0,,Ahh, run!
+Dialogue: 0,0:04:31.02,0:04:32.43,Default,,0,0,0,,I should let Sumi know.
+Dialogue: 0,0:04:32.64,0:04:36.23,Default,,0,0,0,,I FINISHED GETTING READY FOR THE CLASS TRIP
+Dialogue: 0,0:04:36.40,0:04:38.36,Default,,0,0,0,,SONOKO : OH, MADAM, ME TOO.
+Dialogue: 0,0:04:38.52,0:04:39.86,Default,,0,0,0,,SUMI : YOU'LL NEED A PLASTIC BAG TOO
+Dialogue: 0,0:04:40.03,0:04:43.61,Default,,0,0,0,,Oh, I guess to put dirty things in.
+Dialogue: 0,0:04:43.78,0:04:45.53,Default,,0,0,0,,Plastic bags.
+Dialogue: 0,0:04:48.78,0:04:52.29,Default,,0,0,0,,-He's cute no matter how many times you look at him.\N-Your guard's down!
+Dialogue: 0,0:04:53.00,0:04:54.08,Default,,0,0,0,,Come here, you!
+Dialogue: 0,0:04:54.29,0:04:57.46,Default,,0,0,0,,You can't beat a hero with an attack like that!
+Dialogue: 0,0:04:57.67,0:05:00.17,Default,,0,0,0,,Hey, sis, can you bring back some souvenirs?
+Dialogue: 0,0:05:00.34,0:05:02.88,Default,,0,0,0,,You're just so spoiled, aren't you?
+Dialogue: 0,0:05:03.05,0:05:04.93,Default,,0,0,0,,-All right.\N-Woo-hoo!
+Dialogue: 0,0:05:05.68,0:05:09.30,Default,,0,0,0,,-But in return, look after Kintaro properly, okay?\N-Yup!
+Dialogue: 0,0:05:09.72,0:05:12.06,Default,,0,0,0,,I wonder if he'll start crawling soon.
+Dialogue: 0,0:05:12.52,0:05:14.98,Default,,0,0,0,,Yeah. I'm looking forward to it.
+Dialogue: 0,0:05:31.83,0:05:32.91,Default,,0,0,0,,Follow me!
+Dialogue: 0,0:05:36.58,0:05:40.17,Default,,0,0,0,,As a hero, we have to play at the athletic course.
+Dialogue: 0,0:05:40.88,0:05:43.88,Default,,0,0,0,,This sort of thing is also fun.
+Dialogue: 0,0:05:44.05,0:05:47.59,Default,,0,0,0,,Both of you are fast. Wait for me.
+Dialogue: 0,0:05:48.22,0:05:49.34,Default,,0,0,0,,Oh, it swings!
+Dialogue: 0,0:05:49.51,0:05:53.02,Default,,0,0,0,,-Nogi-san, you don't need to be that scared.\N-It swings. Aah! It's swings.
+Dialogue: 0,0:05:53.18,0:05:55.73,Default,,0,0,0,,When I think it's a bottomless pit when I fall,
+Dialogue: 0,0:05:55.89,0:05:58.56,Default,,0,0,0,,it's actually pretty thrilling.
+Dialogue: 0,0:05:58.73,0:06:00.86,Default,,0,0,0,,You-- You have great imagination.
+Dialogue: 0,0:06:01.02,0:06:04.57,Default,,0,0,0,,You must never step on the fifth tire.
+Dialogue: 0,0:06:04.78,0:06:07.11,Default,,0,0,0,,-What?!\N-It's the end if you touch it.
+Dialogue: 0,0:06:07.28,0:06:10.95,Default,,0,0,0,,The ghost of a fleeing soldier would\Nstand by your pillow every night
+Dialogue: 0,0:06:11.12,0:06:13.54,Default,,0,0,0,,and tell you to give him back his rice field.
+Dialogue: 0,0:06:15.16,0:06:16.87,Default,,0,0,0,,What's the point in scaring her?
+Dialogue: 0,0:06:17.04,0:06:20.13,Default,,0,0,0,,She wanted some thrill,\Nso I thought I would give that to her.
+Dialogue: 0,0:06:20.29,0:06:23.21,Default,,0,0,0,,You're almost here.\NHeroes possess courage and determination.
+Dialogue: 0,0:06:23.92,0:06:27.38,Default,,0,0,0,,Heroes possess courage and determination.
+Dialogue: 0,0:06:28.01,0:06:29.01,Default,,0,0,0,,Gotcha.
+Dialogue: 0,0:06:29.59,0:06:32.14,Default,,0,0,0,,There, there. Great job.
+Dialogue: 0,0:06:32.30,0:06:36.35,Default,,0,0,0,,Now that I got used to it,\NI can do it more smoothly next time.
+Dialogue: 0,0:06:37.81,0:06:39.06,Default,,0,0,0,,What are you doing, Sumi?
+Dialogue: 0,0:06:39.23,0:06:41.65,Default,,0,0,0,,I wanted to get in because you guys were having fun.
+Dialogue: 0,0:06:41.86,0:06:43.23,Default,,0,0,0,,You're like a puppy.
+Dialogue: 0,0:06:43.40,0:06:47.07,Default,,0,0,0,,Wasshi probably wanted to get her\Nhead patted by you, Mino-san.
+Dialogue: 0,0:06:47.24,0:06:49.03,Default,,0,0,0,,You are good at it, Mino-san.
+Dialogue: 0,0:06:49.20,0:06:51.12,Default,,0,0,0,,You just want to be spoiled, don't you?
+Dialogue: 0,0:06:51.28,0:06:53.28,Default,,0,0,0,,There, there.
+Dialogue: 0,0:06:53.49,0:06:55.87,Default,,0,0,0,,Gin-chan, catch us too.
+Dialogue: 0,0:06:56.04,0:06:57.87,Default,,0,0,0,,All right, come on then!
+Dialogue: 0,0:06:58.21,0:06:59.58,Default,,0,0,0,,Gin's popular.
+Dialogue: 0,0:06:59.75,0:07:02.25,Default,,0,0,0,,She's always been popular.
+Dialogue: 0,0:07:03.88,0:07:06.21,Default,,0,0,0,,-Hey, Gin-chan.\N-What's up?
+Dialogue: 0,0:07:06.38,0:07:09.93,Default,,0,0,0,,The thing is, my sister asked me to get your autograph.
+Dialogue: 0,0:07:10.09,0:07:10.80,Default,,0,0,0,,What?
+Dialogue: 0,0:07:11.01,0:07:14.93,Default,,0,0,0,,I think she looks up to you, because\Nshe heard about your important job.
+Dialogue: 0,0:07:15.10,0:07:16.43,Default,,0,0,0,,Oh, I see!
+Dialogue: 0,0:07:16.77,0:07:20.94,Default,,0,0,0,,I guess I'm now the person who writes autographs!
+Dialogue: 0,0:07:28.61,0:07:31.03,Default,,0,0,0,,It'll be lunch time after we climb this.
+Dialogue: 0,0:07:31.20,0:07:32.24,Default,,0,0,0,,All right!
+Dialogue: 0,0:07:32.53,0:07:34.45,Default,,0,0,0,,Here we go.
+Dialogue: 0,0:07:34.62,0:07:35.99,Default,,0,0,0,,Heave ho!
+Dialogue: 0,0:07:36.16,0:07:38.25,Default,,0,0,0,,Well, this is too easy.
+Dialogue: 0,0:07:38.41,0:07:40.12,Default,,0,0,0,,I can climb with one arm.
+Dialogue: 0,0:07:40.29,0:07:42.12,Default,,0,0,0,,Hey, Gin. Stop fooling around.
+Dialogue: 0,0:07:42.29,0:07:43.92,Default,,0,0,0,,It's totally fine.
+Dialogue: 0,0:07:44.42,0:07:47.09,Default,,0,0,0,,My blisters. Watch out!
+Dialogue: 0,0:07:47.67,0:07:49.51,Default,,0,0,0,,Are you okay, Mino-san?
+Dialogue: 0,0:07:49.67,0:07:51.59,Default,,0,0,0,,Yeah, that scared me.
+Dialogue: 0,0:07:51.80,0:07:55.89,Default,,0,0,0,,Gin, I know you're having fun, but\Nyou're probably being too frivolous.
+Dialogue: 0,0:07:56.05,0:07:59.93,Default,,0,0,0,,You should think about the importance of our roles.
+Dialogue: 0,0:08:00.77,0:08:02.02,Default,,0,0,0,,I'll repay my debts.
+Dialogue: 0,0:08:02.19,0:08:04.48,Default,,0,0,0,,And I'll reflect on myself.
+Dialogue: 0,0:08:04.65,0:08:06.44,Default,,0,0,0,,I'll speak less.
+Dialogue: 0,0:08:12.40,0:08:15.32,Default,,0,0,0,,That's great. You're good at this, Minowa-san.
+Dialogue: 0,0:08:15.49,0:08:17.28,Default,,0,0,0,,I help out at home sometimes.
+Dialogue: 0,0:08:17.45,0:08:19.75,Default,,0,0,0,,Nevertheless, it smells so good!
+Dialogue: 0,0:08:19.91,0:08:22.75,Default,,0,0,0,,This would definitely be delicious!\NAfter all, I did make it.
+Dialogue: 0,0:08:22.92,0:08:25.29,Default,,0,0,0,,Gin, weren't you saying that\Nyou were going to speak less?
+Dialogue: 0,0:08:25.58,0:08:27.42,Default,,0,0,0,,You're such a tomboy.
+Dialogue: 0,0:08:27.59,0:08:30.46,Default,,0,0,0,,I think you're pretty much a tomboy too, Sonocchi.
+Dialogue: 0,0:08:30.63,0:08:33.13,Default,,0,0,0,,I forgot you didn't like bugs, Wasshi.
+Dialogue: 0,0:08:34.26,0:08:37.10,Default,,0,0,0,,It's all right. I'm sure you'll come to like them.
+Dialogue: 0,0:08:37.26,0:08:38.31,Default,,0,0,0,,You-- You think so?
+Dialogue: 0,0:08:40.18,0:08:43.98,Default,,0,0,0,,It just looks like cockroaches to me!
+Dialogue: 0,0:08:47.06,0:08:49.90,Default,,0,0,0,,It's delicious! It tastes like beetles.
+Dialogue: 0,0:08:50.07,0:08:51.40,Default,,0,0,0,,We didn't cook it!
+Dialogue: 0,0:08:51.57,0:08:52.95,Default,,0,0,0,,It tastes good.
+Dialogue: 0,0:08:53.11,0:08:56.24,Default,,0,0,0,,Aren't you used to eating\Nbetter meat than this, Sonoko?
+Dialogue: 0,0:08:56.41,0:08:58.58,Default,,0,0,0,,This meat tastes better.
+Dialogue: 0,0:08:58.74,0:09:01.75,Default,,0,0,0,,-It's probably because we're eating it together.\N-Oh.
+Dialogue: 0,0:09:02.12,0:09:04.16,Default,,0,0,0,,Sonoko, you have some around your mouth.
+Dialogue: 0,0:09:04.33,0:09:06.08,Default,,0,0,0,,Thanks.
+Dialogue: 0,0:09:07.83,0:09:09.75,Default,,0,0,0,,Your energy level changes a lot.
+Dialogue: 0,0:09:09.92,0:09:14.34,Default,,0,0,0,,Both of you guys can cook, but I can't,
+Dialogue: 0,0:09:14.51,0:09:17.51,Default,,0,0,0,,so I suddenly felt ashamed of myself.
+Dialogue: 0,0:09:17.68,0:09:20.06,Default,,0,0,0,,I'm sure you can make things like yakisoba, Sonoko.
+Dialogue: 0,0:09:20.22,0:09:22.89,Default,,0,0,0,,Then, can you and Wasshi teach me next Sunday?
+Dialogue: 0,0:09:23.48,0:09:24.69,Default,,0,0,0,,-Sure.\N-Sure.
+Dialogue: 0,0:09:24.85,0:09:27.10,Default,,0,0,0,,Oh! Jinx.
+Dialogue: 0,0:09:29.94,0:09:30.98,Default,,0,0,0,,By the way,
+Dialogue: 0,0:09:31.19,0:09:33.78,Default,,0,0,0,,teacher, you're leaving the peppers, aren't you?
+Dialogue: 0,0:09:33.94,0:09:36.61,Default,,0,0,0,,I don't really like them, but I am going to eat them!
+Dialogue: 0,0:09:36.82,0:09:41.29,Default,,0,0,0,,-I wonder if something happened in her previous life.\N-At times like this, it'll be fun if you
+Dialogue: 0,0:09:41.45,0:09:45.29,Default,,0,0,0,,imagine that the pepper fairy would\Ncome to see you in the middle of the night if you eat it.
+Dialogue: 0,0:09:45.62,0:09:48.71,Default,,0,0,0,,Th-- That's unique. Thanks.
+Dialogue: 0,0:09:48.88,0:09:51.04,Default,,0,0,0,,I should be able to eat it smoothly.
+Dialogue: 0,0:09:51.25,0:09:53.09,Default,,0,0,0,,You got complimented by the teacher.
+Dialogue: 0,0:09:53.26,0:09:55.59,Default,,0,0,0,,As a reward, you should ring the bell, Sonoko.
+Dialogue: 0,0:09:55.76,0:09:57.01,Default,,0,0,0,,The bell?
+Dialogue: 0,0:09:57.59,0:10:01.10,Default,,0,0,0,,We cleared the entire athletic course!
+Dialogue: 0,0:10:01.26,0:10:02.89,Default,,0,0,0,,We did it.
+Dialogue: 0,0:10:10.31,0:10:12.69,Default,,0,0,0,,Oh, Sumi. Is our town over there?
+Dialogue: 0,0:10:12.86,0:10:14.48,Default,,0,0,0,,Yes, you're right.
+Dialogue: 0,0:10:14.65,0:10:17.65,Default,,0,0,0,,Just as I thought, you can't see\Nthe Long-Bridge, nor Ines.
+Dialogue: 0,0:10:17.82,0:10:20.57,Default,,0,0,0,,You really like Ines, don't you, Mino-san?
+Dialogue: 0,0:10:20.74,0:10:23.12,Default,,0,0,0,,Ines is great. After all,
+Dialogue: 0,0:10:23.33,0:10:25.41,Default,,0,0,0,,there's a community center in there.
+Dialogue: 0,0:10:25.58,0:10:26.79,Default,,0,0,0,,Correct!
+Dialogue: 0,0:10:26.96,0:10:28.79,Default,,0,0,0,,I knew that too.
+Dialogue: 0,0:10:28.96,0:10:30.96,Default,,0,0,0,,You guys can read my mind already, huh?
+Dialogue: 0,0:10:31.13,0:10:32.71,Default,,0,0,0,,Can you read my mind?
+Dialogue: 0,0:10:32.88,0:10:34.34,Default,,0,0,0,,In your case, I can't.
+Dialogue: 0,0:10:34.67,0:10:36.51,Default,,0,0,0,,We'll probably never be able to do that.
+Dialogue: 0,0:10:36.67,0:10:39.18,Default,,0,0,0,,That's kind of sad.
+Dialogue: 0,0:10:39.38,0:10:43.06,Default,,0,0,0,,Don't worry. I could guess that you would react like that.
+Dialogue: 0,0:10:43.22,0:10:46.14,Default,,0,0,0,,Really? Yes! Woohoo!
+Dialogue: 0,0:10:46.56,0:10:49.19,Default,,0,0,0,,How hyper she was going to get\Nwas unpredictable, though.
+Dialogue: 0,0:10:49.35,0:10:51.86,Default,,0,0,0,,-Just as you'd expect from Sonocchi.\N-By the way,
+Dialogue: 0,0:10:52.02,0:10:55.90,Default,,0,0,0,,I have enough knowledge about you\Nthat I can even write an instruction manual.
+Dialogue: 0,0:10:56.07,0:10:59.36,Default,,0,0,0,,Oh, I wonder what it would say on the first page.
+Dialogue: 0,0:10:59.53,0:11:03.99,Default,,0,0,0,,It's a pretty difficult product, so please be careful.
+Dialogue: 0,0:11:04.16,0:11:07.33,Default,,0,0,0,,It-- It's as if I'm someone annoying.
+Dialogue: 0,0:11:07.50,0:11:09.50,Default,,0,0,0,,But I fully understand why.
+Dialogue: 0,0:11:09.71,0:11:11.96,Default,,0,0,0,,I think it's good to be complicated.
+Dialogue: 0,0:11:12.13,0:11:15.38,Default,,0,0,0,,Mine would probably be as thin\Nas a flyer in the newspaper.
+Dialogue: 0,0:11:15.55,0:11:17.05,Default,,0,0,0,,That's not true.
+Dialogue: 0,0:11:17.21,0:11:20.88,Default,,0,0,0,,You're easy to read,\Nbut there's a lot to write about you.
+Dialogue: 0,0:11:21.13,0:11:22.59,Default,,0,0,0,,You-- You think so?
+Dialogue: 0,0:11:22.80,0:11:26.22,Default,,0,0,0,,I want to keep on uncovering\Nall different sides of you from now on too.
+Dialogue: 0,0:11:26.39,0:11:29.18,Default,,0,0,0,,Uh, don't be too hard on me please.
+Dialogue: 0,0:11:29.35,0:11:32.94,Default,,0,0,0,,To tell you the truth, I thought we\Nwouldn't get along at first, Mino-san.
+Dialogue: 0,0:11:33.19,0:11:34.86,Default,,0,0,0,,What is it all of the sudden?
+Dialogue: 0,0:11:35.02,0:11:37.19,Default,,0,0,0,,-I felt the same way.\N-What?
+Dialogue: 0,0:11:37.36,0:11:39.99,Default,,0,0,0,,Well, you were cheery, and good at sports,
+Dialogue: 0,0:11:40.15,0:11:42.95,Default,,0,0,0,,so I felt like we were from different lines.
+Dialogue: 0,0:11:43.12,0:11:46.33,Default,,0,0,0,,But I knew you were really nice once I talked to you.
+Dialogue: 0,0:11:46.49,0:11:49.20,Default,,0,0,0,,-Wasshi's character is a good one too.\N-I'm a character?
+Dialogue: 0,0:11:50.79,0:11:56.34,Default,,0,0,0,,I see. It's true that you can't\Ntell these things till you talk.
+Dialogue: 0,0:11:56.50,0:11:59.05,Default,,0,0,0,,I'm glad you liked me.
+Dialogue: 0,0:11:59.63,0:12:02.22,Default,,0,0,0,,I'll be counting on you from now on too, friend.
+Dialogue: 0,0:12:02.38,0:12:04.93,Default,,0,0,0,,-Likewise.\N-Yup!
+Dialogue: 0,0:12:34.50,0:12:37.88,Default,,0,0,0,,Yuki Yuna is A Hero
+Dialogue: 0,0:12:45.51,0:12:47.26,Default,,0,0,0,,It was so much fun.
+Dialogue: 0,0:12:47.43,0:12:49.39,Default,,0,0,0,,You're going to trip, Sonocchi.
+Dialogue: 0,0:12:49.60,0:12:51.93,Default,,0,0,0,,I wish everyday was a class trip.
+Dialogue: 0,0:12:52.14,0:12:54.69,Default,,0,0,0,,I agree with that.
+Dialogue: 0,0:12:57.36,0:12:58.82,Default,,0,0,0,,This must be....
+Dialogue: 0,0:13:07.16,0:13:08.20,Default,,0,0,0,,It's the enemy!
+Dialogue: 0,0:13:08.37,0:13:12.66,Default,,0,0,0,,Geez, we just had a fun class trip.
+Dialogue: 0,0:13:14.46,0:13:18.59,Default,,0,0,0,,It's not nice that this would happen right at the end.
+Dialogue: 0,0:13:18.75,0:13:21.88,Default,,0,0,0,,It's not the worst since\Nit came after the class trip.
+Dialogue: 0,0:13:22.05,0:13:24.88,Default,,0,0,0,,It's the class trip till you get home, Gin.
+Dialogue: 0,0:13:25.09,0:13:27.14,Default,,0,0,0,,You sound like a teacher!
+Dialogue: 0,0:13:27.34,0:13:31.85,Default,,0,0,0,,Let's finish this quickly,\Nso I can take the souvenirs home!
+Dialogue: 0,0:14:26.99,0:14:30.32,Default,,0,0,0,,I'm getting used to seeing this scenery.
+Dialogue: 0,0:14:30.49,0:14:32.87,Default,,0,0,0,,Be careful, Gin. Times like that--
+Dialogue: 0,0:14:33.12,0:14:35.66,Default,,0,0,0,,Could be the most dangerous, right?
+Dialogue: 0,0:14:35.83,0:14:36.91,Default,,0,0,0,,It'll be all right.
+Dialogue: 0,0:14:37.08,0:14:40.21,Default,,0,0,0,,My clothes are strongly made for close combat.
+Dialogue: 0,0:14:40.42,0:14:45.76,Default,,0,0,0,,That doesn't mean you should let your guard down.\NYou did almost get injured at the athletic course.
+Dialogue: 0,0:14:45.92,0:14:49.22,Default,,0,0,0,,Mino-san, it's as if you're\Nsaying things on purpose recently
+Dialogue: 0,0:14:49.38,0:14:51.64,Default,,0,0,0,,so that you would get told off by Wasshi.
+Dialogue: 0,0:14:51.97,0:14:55.18,Default,,0,0,0,,I got into the habit of getting told off by Sumi.
+Dialogue: 0,0:14:55.39,0:14:58.02,Default,,0,0,0,,Give me a break.
+Dialogue: 0,0:14:58.31,0:15:00.10,Default,,0,0,0,,It's here.
+Dialogue: 0,0:15:02.81,0:15:04.44,Default,,0,0,0,,What? Two of them?
+Dialogue: 0,0:15:05.36,0:15:07.03,Default,,0,0,0,,I didn't see that coming.
+Dialogue: 0,0:15:07.36,0:15:10.36,Default,,0,0,0,,Even if there are two of them,\Nit'll be okay if we work together!
+Dialogue: 0,0:15:10.53,0:15:11.91,Default,,0,0,0,,True!
+Dialogue: 0,0:15:12.74,0:15:17.62,Default,,0,0,0,,Mino-san and I'll deal with one of them each,\Nso back us up with a raid!
+Dialogue: 0,0:15:17.83,0:15:19.29,Default,,0,0,0,,You can count on me, Sonocchi!
+Dialogue: 0,0:15:19.46,0:15:21.21,Default,,0,0,0,,Let's go!
+Dialogue: 0,0:15:31.09,0:15:33.35,Default,,0,0,0,,I'll fight with the gross looking one!
+Dialogue: 0,0:15:33.51,0:15:36.14,Default,,0,0,0,,They both look gross.
+Dialogue: 0,0:15:36.43,0:15:38.48,Default,,0,0,0,,Oops! Take that!
+Dialogue: 0,0:15:40.31,0:15:42.52,Default,,0,0,0,,You're easy to read! That's perfect for me!
+Dialogue: 0,0:15:46.86,0:15:48.19,Default,,0,0,0,,Nice!
+Dialogue: 0,0:15:52.91,0:15:55.41,Default,,0,0,0,,Looks like it'll hurt if I get hit by it.
+Dialogue: 0,0:16:01.29,0:16:02.46,Default,,0,0,0,,There!
+Dialogue: 0,0:16:05.71,0:16:08.71,Default,,0,0,0,,We have the upper hand.\NWe'll keep fighting though like this.
+Dialogue: 0,0:16:10.38,0:16:11.51,Default,,0,0,0,,-Crap!\N-Uh-oh!
+Dialogue: 0,0:16:11.72,0:16:13.01,Default,,0,0,0,,You two! Over here!
+Dialogue: 0,0:16:16.43,0:16:17.81,Default,,0,0,0,,What is this?
+Dialogue: 0,0:16:28.48,0:16:30.74,Default,,0,0,0,,Sumi! Sonoko!
+Dialogue: 0,0:16:30.90,0:16:34.86,Default,,0,0,0,,Are you okay? Sonoko! Sumi!
+Dialogue: 0,0:16:35.95,0:16:37.70,Default,,0,0,0,,He shot an arrow.
+Dialogue: 0,0:16:59.68,0:17:00.97,Default,,0,0,0,,Gin...?
+Dialogue: 0,0:17:02.14,0:17:04.10,Default,,0,0,0,,I'm the only one who can move.
+Dialogue: 0,0:17:05.60,0:17:09.19,Default,,0,0,0,,It's crunch time, even if it is scary.
+Dialogue: 0,0:17:09.82,0:17:12.94,Default,,0,0,0,,Leave it up to me, and you guys rest.
+Dialogue: 0,0:17:14.49,0:17:16.16,Default,,0,0,0,,See you!
+Dialogue: 0,0:17:18.91,0:17:19.95,Default,,0,0,0,,Gin.
+Dialogue: 0,0:17:20.12,0:17:21.79,Default,,0,0,0,,Gi--
+Dialogue: 0,0:17:27.79,0:17:29.46,Default,,0,0,0,,Those bastards!
+Dialogue: 0,0:17:39.26,0:17:43.06,Default,,0,0,0,,You got a lot closer.
+Dialogue: 0,0:17:45.19,0:17:46.44,Default,,0,0,0,,But I won't let you go...
+Dialogue: 0,0:17:47.60,0:17:48.81,Default,,0,0,0,,any further than this!
+Dialogue: 0,0:17:54.03,0:17:56.61,Default,,0,0,0,,I know how you're going to attack!
+Dialogue: 0,0:17:57.61,0:17:59.74,Default,,0,0,0,,I knew you would do that!
+Dialogue: 0,0:17:59.95,0:18:01.03,Default,,0,0,0,,I saw it before!
+Dialogue: 0,0:18:10.25,0:18:12.38,Default,,0,0,0,,Don't look down on me!
+Dialogue: 0,0:18:23.06,0:18:25.85,Default,,0,0,0,,N-- Now you've done it!
+Dialogue: 0,0:18:27.77,0:18:28.98,Default,,0,0,0,,That hurt!
+Dialogue: 0,0:18:29.48,0:18:33.15,Default,,0,0,0,,Try taking it yourselves!
+Dialogue: 0,0:18:33.90,0:18:36.28,Default,,0,0,0,,You guys should...
+Dialogue: 0,0:18:36.49,0:18:39.49,Default,,0,0,0,,get out of here!
+Dialogue: 0,0:19:03.68,0:19:08.02,Default,,0,0,0,,If they kill Shinjyu-sama....
+Dialogue: 0,0:19:20.70,0:19:23.03,Default,,0,0,0,,I won't let them do that.
+Dialogue: 0,0:19:23.49,0:19:24.99,Default,,0,0,0,,Never!
+Dialogue: 0,0:19:26.62,0:19:28.91,Default,,0,0,0,,I won't let them.
+Dialogue: 0,0:19:29.54,0:19:31.58,Default,,0,0,0,,Never!
+Dialogue: 0,0:19:36.75,0:19:38.84,Default,,0,0,0,,I'm going home!
+Dialogue: 0,0:19:39.01,0:19:41.05,Default,,0,0,0,,I'm going to protect it!
+Dialogue: 0,0:19:43.18,0:19:46.51,Default,,0,0,0,,Monsters like you won't understand this power!
+Dialogue: 0,0:19:51.85,0:19:54.48,Default,,0,0,0,,This is the human's...
+Dialogue: 0,0:19:56.69,0:19:58.40,Default,,0,0,0,,courage!
+Dialogue: 0,0:20:03.36,0:20:04.99,Default,,0,0,0,,Determination...
+Dialogue: 0,0:20:10.41,0:20:16.75,Default,,0,0,0,,and soul!
+Dialogue: 0,0:20:37.44,0:20:39.53,Default,,0,0,0,,Where's the enemy?
+Dialogue: 0,0:20:41.24,0:20:43.70,Default,,0,0,0,,Wasshi! Over there!
+Dialogue: 0,0:20:46.32,0:20:47.62,Default,,0,0,0,,Gin.
+Dialogue: 0,0:20:47.78,0:20:50.41,Default,,0,0,0,,We'll be there right away.
+Dialogue: 0,0:21:01.80,0:21:02.92,Default,,0,0,0,,Gin!
+Dialogue: 0,0:21:03.09,0:21:04.30,Default,,0,0,0,,Mino-san!
+Dialogue: 0,0:21:04.84,0:21:07.47,Default,,0,0,0,,You chased them back, didn't you, Mino-san!
+Dialogue: 0,0:21:07.64,0:21:09.35,Default,,0,0,0,,That's amazing, Gin!
+Dialogue: 0,0:21:09.72,0:21:11.98,Default,,0,0,0,,Seriously.
+Dialogue: 0,0:21:18.06,0:21:19.77,Default,,0,0,0,,G-- Gin.
+Dialogue: 0,0:21:19.94,0:21:22.49,Default,,0,0,0,,The world of trees would unravel soon.
+Dialogue: 0,0:21:22.65,0:21:26.61,Default,,0,0,0,,Let's go to the hospital after that, okay?
+Dialogue: 0,0:21:26.82,0:21:29.37,Default,,0,0,0,,S-- She's right!
+Dialogue: 0,0:21:30.20,0:21:33.75,Default,,0,0,0,,You have to give the souvenirs to your little brother.
+Dialogue: 0,0:22:07.66,0:22:08.95,Default,,0,0,0,,I...
+Dialogue: 0,0:22:09.12,0:22:12.49,Default,,0,0,0,,was supposed to learn how to cook from you.
+Dialogue: 0,0:22:13.62,0:22:15.37,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:22:15.54,0:22:19.13,Default,,0,0,0,,Three of us were going to do that next Sunday.
+Dialogue: 0,0:22:19.29,0:22:22.34,Default,,0,0,0,,Hey, Gin.
+Dialogue: 0,0:22:22.96,0:22:25.01,Default,,0,0,0,,Gin.
+Dialogue: 0,0:24:12.28,0:24:13.32,Default,,0,0,0,,ON THE NEXT EPISODE
+Dialogue: 0,0:24:13.49,0:24:15.24,Default,,0,0,0,,-We need to get stronger.\N-Let's fight for Mino-san.
+Dialogue: 0,0:24:15.41,0:24:18.29,Default,,0,0,0,,-This is Gin-trained determination!\N-Mino-san would...
+Dialogue: 0,0:24:18.45,0:24:21.66,Default,,0,0,0,,-Gin would!\N-Please don't forget about Mino-san.
+Dialogue: 0,0:24:21.87,0:24:25.75,Default,,0,0,0,,Not just two of us, all three of us are heroes.
+Dialogue: 0,0:24:25.92,0:24:26.96,Default,,0,0,0,,NEXT EPISODE\NGOOD BYE

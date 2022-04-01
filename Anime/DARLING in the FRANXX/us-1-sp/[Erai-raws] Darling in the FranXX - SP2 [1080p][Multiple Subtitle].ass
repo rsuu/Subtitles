@@ -1,0 +1,393 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 640
+PlayResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: sign_33134_360_Episode_1,Times New Roman,12,&H00797A77,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0070,1
+Style: sign_33134_361_Alone_and_Loneso,Verdana,14,&H00DAD9DA,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0200,1
+Style: songstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H007B4D0D,&H00764504,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: sign_2558_24_DARLING_in_the_F,Arial,20,&H00DBDCD9,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0090,1
+Style: sign_465_4_Q__What_s_the_cu,Arial,12,&H0044403B,&H000000FF,&H00E5EBE7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0090,0030,0020,1
+Style: sign_524_5_Director___Serie,Arial,12,&H00FDEECC,&H000000FF,&H00D4AC11,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0390,0030,0115,1
+Style: sign_1222_12_Narration___Kats,Arial,12,&H00FFFFFF,&H000000FF,&H0045403E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0505,0010,0058,1
+Style: sign_1714_16_Voice_of_Zero_Tw,Arial,12,&H00000052,&H000000FF,&H000C18EC,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0375,0100,1
+Style: sign_1815_18_Voice_of_Hiro,Arial,12,&H004F2700,&H000000FF,&H00F5BD0F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0375,0030,0100,1
+Style: sign_1909_19_Series_Compositi,Arial,12,&H00FDEECC,&H000000FF,&H00D4AC11,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0020,0318,0100,1
+Style: sign_2919_28_Director___Serie,Arial,12,&H00FDEECC,&H000000FF,&H00D4AC11,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0010,0378,0074,1
+Style: sign_3485_36_Interview_footag,Times New Roman,12,&H00CDDCDF,&H000000FF,&H000B0E12,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0040,0030,0065,1
+Style: sign_3654_38_Q__What_led_you_,Arial,12,&H0044403B,&H000000FF,&H00E5EBE7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0085,0100,1
+Style: sign_3725_39_After_joining_GA,Arial,12,&H00EEF6F4,&H000000FF,&H00212121,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0000,0000,0050,1
+Style: sign_4730_48_Q__When_did_you_,Arial,12,&H0044403B,&H000000FF,&H00E5EBE7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0085,0020,1
+Style: sign_8522_78_Episode_1___Alon,Times New Roman,12,&H00F0F4EF,&H000000FF,&H00282924,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0075,0030,0055,1
+Style: sign_10577_98_Voice_of_Zero_Tw,Arial,12,&H00000052,&H000000FF,&H00202EEC,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0100,1
+Style: sign_15158_131_Voice_of_Hiro,Arial,12,&H004F2700,&H000000FF,&H00F5BD0F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0420,0100,1
+Style: sign_20657_166_Episode_6___DARL,Times New Roman,12,&H00F0F4EF,&H000000FF,&H00201D1C,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0055,0030,0055,1
+Style: sign_21398_173_Episode_7___Shoo,Times New Roman,12,&H00F0F4EF,&H000000FF,&H005F472E,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0060,0030,0055,1
+Style: sign_22184_178_Episode_14___Pun,Times New Roman,12,&H00DEDFE1,&H000000FF,&H000E0C0E,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0050,0055,1
+Style: sign_24676_206_Series_Compositi,Arial,12,&H00FDEECC,&H000000FF,&H00D4AC11,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0395,0140,1
+Style: sign_24690_207_Q__What_did_you_,Arial,12,&H0044403B,&H000000FF,&H00E5EBE7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0300,0085,0100,1
+Style: sign_29425_235_Episode_18___Whe,Times New Roman,12,&H00F0F4EF,&H000000FF,&H0017160D,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0060,0030,0045,1
+Style: sign_19607_150_So_much_warmth,Times New Roman,16,&H00CBBDB2,&H000000FF,&H0043343B,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0055,1
+Style: sign_19679_152_So__so_beautiful,Times New Roman,16,&H00484248,&H000000FF,&H00B2ACB7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0055,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.67,0:00:05.56,italics,N,0000,0000,0000,,We are here at {\i0}DARLING in \Nthe FRANXX{\i1}'s audio studio,
+Dialogue: 0,0:00:05.56,0:00:09.55,italics,N,0000,0000,0000,,where the final episode, \Nepisode 24, is being dubbed.
+Dialogue: 0,0:00:10.37,0:00:14.46,italics,N,0000,0000,0000,,Production has entered its last spurt.
+Dialogue: 0,0:00:15.36,0:00:17.94,main,AN,0000,0000,0000,,As you get closer to the end,
+Dialogue: 0,0:00:15.39,0:00:26.24,sign_465_4_Q__What_s_the_cu,Sign,0000,0000,0000,,{\fad(492,482)}What's the current mood in the studio like?
+Dialogue: 0,0:00:17.43,0:00:26.24,sign_524_5_Director___Serie,Sign,0000,0000,0000,,{\fad(353,482)}Director & Series Composition
+Dialogue: 0,0:00:17.94,0:00:23.04,main,AN,0000,0000,0000,,you have to choose between things that \Nyou want to do and things you need to do.
+Dialogue: 0,0:00:23.04,0:00:26.24,main,AN,0000,0000,0000,,You need to strike the right \Ncompromises on quality.
+Dialogue: 0,0:00:26.79,0:00:32.37,main,AN,0000,0000,0000,,You go, "Please let me do this," or \N"Give me some more time for this bit,"
+Dialogue: 0,0:00:32.87,0:00:35.11,main,AN,0000,0000,0000,,and you go back and forth negotiating.
+Dialogue: 0,0:00:36.97,0:00:39.78,main,AN,0000,0000,0000,,So yeah, things have gotten quite tense.
+Dialogue: 0,0:00:40.57,0:00:44.30,italicstop,N,0000,0000,0000,,The TV series started airing \Nin January 2018, and now,
+Dialogue: 0,0:00:40.75,0:00:46.26,sign_1222_12_Narration___Kats,Sign,0000,0000,0000,,{\fad(656,650)}Narration:\NKatsuyuki Konishi
+Dialogue: 0,0:00:44.30,0:00:45.59,italicstop,N,0000,0000,0000,,only five episodes remain.
+Dialogue: 0,0:00:46.77,0:00:50.59,italics,N,0000,0000,0000,,Tonight, we look back on the road \N{\i0}DARLING in the FRANXX{\i1} has taken.
+Dialogue: 0,0:00:57.10,0:00:59.37,sign_1714_16_Voice_of_Zero_Tw,Sign,0000,0000,0000,,{\fad(755,1)}Voice of Zero Two
+Dialogue: 0,0:00:57.51,0:01:01.94,italicstop,N,0000,0000,0000,,What helped the voice actors get \Ncloser to their characters?
+Dialogue: 0,0:01:00.50,0:01:02.44,sign_1815_18_Voice_of_Hiro,Sign,0000,0000,0000,,{\fad(725,1)}Voice of Hiro
+Dialogue: 0,0:01:02.90,0:01:06.34,italicstop,N,0000,0000,0000,,What goals was the story written to achieve?
+Dialogue: 0,0:01:03.67,0:01:06.34,sign_1909_19_Series_Compositi,Sign,0000,0000,0000,,{\fad(325,1)}Series Composition & Scripts
+Dialogue: 0,0:01:06.34,0:01:09.08,italics,N,0000,0000,0000,,And, as the climax draws ever closer,
+Dialogue: 0,0:01:09.08,0:01:11.64,italics,N,0000,0000,0000,,what's going through the director's mind?
+Dialogue: 0,0:01:13.83,0:01:17.43,italics,N,0000,0000,0000,,Don't miss the important scenes \Nfrom the story, either!
+Dialogue: 0,0:01:25.53,0:01:31.12,sign_2558_24_DARLING_in_the_F,Sign,0000,0000,0000,,{\fad(1854,1435)}DARLING in the FRANXX Playback Special II
+Dialogue: 0,0:01:25.81,0:01:29.72,italics,N,0000,0000,0000,,{\i0}DARLING in the FRANXX{\i1} Playback Special II!
+Dialogue: 0,0:01:33.89,0:01:37.65,italicstop,N,0000,0000,0000,,In charge of {\i0}DARLING in the FRANXX{\i1}'s\Ndirection and series composition
+Dialogue: 0,0:01:37.31,0:01:42.61,sign_2919_28_Director___Serie,Sign,0000,0000,0000,,{\fad(350,479)}Director & Series Composition
+Dialogue: 0,0:01:37.65,0:01:38.98,italicstop,N,0000,0000,0000,,is Atsushi Nishigori.
+Dialogue: 0,0:01:39.49,0:01:42.15,italicstop,N,0000,0000,0000,,He is the one who created \Nthis show from scratch.
+Dialogue: 0,0:01:43.11,0:01:47.85,italics,N,0000,0000,0000,,Three years since the project kicked \Noff and right before it was set to air,
+Dialogue: 0,0:01:48.23,0:01:51.28,italics,N,0000,0000,0000,,he laid his feelings bare for the \Nfirst time in front of a camera.
+Dialogue: 0,0:01:51.28,0:01:52.57,main,G,0000,0000,0000,,Hey.
+Dialogue: 0,0:01:51.83,0:01:52.81,main,AN,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:01:52.81,0:01:53.61,main,AN,0000,0000,0000,,Let's do this.
+Dialogue: 0,0:01:53.61,0:01:54.61,main,W,0000,0000,0000,,Thank you.
+Dialogue: 0,0:01:55.12,0:02:00.81,italicstop,Nar,0000,0000,0000,,We'll now show you previously unreleased \Nfootage from that interview.
+Dialogue: 0,0:01:56.26,0:02:03.80,sign_3485_36_Interview_footag,Sign,0000,0000,0000,,{\fad(419,481)}Interview footage Filmed on November 21st, 2017\Nfor the Pre-Air Special
+Dialogue: 0,0:02:01.83,0:02:12.14,sign_3654_38_Q__What_led_you_,Sign,0000,0000,0000,,{\fad(454,1)}What led you to \Ncreate DarliFra?
+Dialogue: 0,0:02:04.13,0:02:10.75,top,AN,0000,0000,0000,,In my mind, I thought it was the right \Ntime and the right people to work with.
+Dialogue: 0,0:02:04.27,0:02:34.06,sign_3725_39_After_joining_GA,ScrollingDesc,0000,0000,0000,,{\fad(1000,1000)}After joining GAINAX at the young age of 20, he shone as a promising young key animator.\NHe experienced acting as character designer and chief animation director on {\i1}Gurren Lagann,{\i0}\Nand directed his first show in 2011, A-1 Pictures' {\i1}THE IDOLM@STER.{\i0} He is well regarded as an\Nanimator and has handled key animation on several shows, even after his directorial debut.
+Dialogue: 0,0:02:10.75,0:02:13.21,top,AN,0000,0000,0000,,That may have the biggest reason.
+Dialogue: 0,0:02:13.21,0:02:15.29,top,AN,0000,0000,0000,,With {\i1}Gurren Lagann{\i0},
+Dialogue: 0,0:02:15.29,0:02:22.67,top,AN,0000,0000,0000,,I experienced creating an original anime \Nwith young and like-minded people.
+Dialogue: 0,0:02:22.67,0:02:27.57,top,AN,0000,0000,0000,,Then, I got the chance to be director \Nfor the first time, with {\i1}THE iDOLM@STER{\i0}.
+Dialogue: 0,0:02:27.57,0:02:33.00,top,AN,0000,0000,0000,,I began wanting to pour my experiences and \Nthe things I wanted to try into a show,
+Dialogue: 0,0:02:33.62,0:02:35.40,top,AN,0000,0000,0000,,and decided to give it a shot.
+Dialogue: 0,0:02:35.40,0:02:37.23,main,AN,0000,0000,0000,,Something like that.
+Dialogue: 0,0:02:37.80,0:02:53.28,sign_4730_48_Q__When_did_you_,Sign,0000,0000,0000,,{\fad(419,480)}When did you first start feeling like your work was paying off?
+Dialogue: 0,0:02:39.47,0:02:41.71,main,AN,0000,0000,0000,,At the dubbing studio, I guess?
+Dialogue: 0,0:02:41.71,0:02:47.47,main,AN,0000,0000,0000,,When they added sounds to episode 1,\NI thought, "Oh, hey, it's an anime now."
+Dialogue: 0,0:02:47.81,0:02:53.52,main,AN,0000,0000,0000,,At the point when everything up to the music \Nis in, you start to see the final form.
+Dialogue: 0,0:02:53.52,0:02:56.73,main,AN,0000,0000,0000,,Not everything was colored \Nand all that stuff yet,
+Dialogue: 0,0:02:57.80,0:03:02.49,main,AN,0000,0000,0000,,but it was more or less an anime,\Na moving picture.
+Dialogue: 0,0:03:03.97,0:03:06.61,main,AN,0000,0000,0000,,It made me really happy to see it take shape.
+Dialogue: 0,0:03:06.61,0:03:09.58,main,AN,0000,0000,0000,,After starting this project from scratch
+Dialogue: 0,0:03:09.58,0:03:15.04,main,AN,0000,0000,0000,,and asking people to work with me...
+Dialogue: 0,0:03:15.04,0:03:17.50,main,AN,0000,0000,0000,,We hadn't gotten past the first hurdle yet,
+Dialogue: 0,0:03:17.50,0:03:24.28,main,AN,0000,0000,0000,,but something we shared, something we \Nall worked on, was nearing completion.
+Dialogue: 0,0:03:24.28,0:03:28.76,main,AN,0000,0000,0000,,That part is one of the greatest \Nthings about making anime,
+Dialogue: 0,0:03:28.76,0:03:31.55,main,AN,0000,0000,0000,,and I realized that all over again.
+Dialogue: 0,0:03:31.72,0:03:46.76,sign_4730_48_Q__When_did_you_,Sign,0000,0000,0000,,{\fad(284,1)}What are your goals as you dive headlong into the process?
+Dialogue: 0,0:03:32.61,0:03:35.99,main,AN,0000,0000,0000,,I want to have fun working with \Nthese people, in this moment.
+Dialogue: 0,0:03:35.99,0:03:40.38,main,AN,0000,0000,0000,,Well, I don't know if it'll be fun, \Nbut I hope we can do our best.
+Dialogue: 0,0:03:40.38,0:03:46.76,main,AN,0000,0000,0000,,Later in life, I want to look back and think \NI could've only done this at this age.
+Dialogue: 0,0:03:47.97,0:03:53.00,main,AN,0000,0000,0000,,And I hope to make it out alive and get \Nto drink some good booze with everyone.
+Dialogue: 0,0:03:53.00,0:03:56.09,main,AN,0000,0000,0000,,That's all I can really ask for, \NI guess? I don't know anymore.
+Dialogue: 0,0:03:56.09,0:03:58.01,main,AN,0000,0000,0000,,For starters, I want to give it my all,
+Dialogue: 0,0:03:58.01,0:04:02.45,main,AN,0000,0000,0000,,and I believe this is a project \Nwhere I can give it my all.
+Dialogue: 0,0:04:03.93,0:04:04.68,main,AN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:05.49,0:04:07.85,italics,N,0000,0000,0000,,Six months have already passed \Nsince that statement.
+Dialogue: 0,0:04:07.85,0:04:09.42,main,AN,0000,0000,0000,,Thank you.
+Dialogue: 0,0:04:09.42,0:04:13.16,italics,N,0000,0000,0000,,How many of the director's \Nhopes have been fulfilled?
+Dialogue: 0,0:04:14.06,0:04:18.13,italics,N,0000,0000,0000,,After this, we will look back on the story.
+Dialogue: 0,0:04:22.60,0:04:27.73,italics,N,0000,0000,0000,,{\i0}DARLING in the FRANXX{\i1} is a story of boys \Nand girls living in the distant future.
+Dialogue: 0,0:04:28.64,0:04:32.11,italics,N,0000,0000,0000,,Hiro and Zero Two's meeting \Nset everything in motion.
+Dialogue: 0,0:04:32.65,0:04:35.58,italics,N,0000,0000,0000,,Let's start by looking back on episode 1.
+Dialogue: 0,0:04:35.58,0:04:37.59,main,Z2,0000,0000,0000,,Oh, found one.
+Dialogue: 0,0:04:44.32,0:04:52.66,sign_8522_78_Episode_1___Alon,Sign,0000,0000,0000,,{\fad(154,412)}Episode 1: Alone and Lonesome
+Dialogue: 0,0:04:45.41,0:04:49.83,italicstop,N,0000,0000,0000,,Hiro and Zero Two first met \Ndeep in the Mistilteinn woods.
+Dialogue: 0,0:04:50.57,0:04:52.76,italicstop,N,0000,0000,0000,,This scene is where their story began.
+Dialogue: 0,0:04:54.81,0:04:55.63,main,16,0000,0000,0000,,No way!
+Dialogue: 0,0:04:55.63,0:04:56.68,main,16,0000,0000,0000,,Is she drowning?!
+Dialogue: 0,0:04:57.75,0:04:58.90,main,16,0000,0000,0000,,I've gotta help her!
+Dialogue: 0,0:05:03.13,0:05:05.81,italics,16,0000,0000,0000,,It was like I'd been put under a spell.
+Dialogue: 0,0:05:06.28,0:05:08.81,italics,16,0000,0000,0000,,Her two alluring horns
+Dialogue: 0,0:05:08.81,0:05:11.58,italics,16,0000,0000,0000,,and my first-ever look \Nat a naked female body
+Dialogue: 0,0:05:11.58,0:05:14.85,italics,16,0000,0000,0000,,left me transfixed, unable \Nto take my eyes off her.
+Dialogue: 0,0:05:19.95,0:05:22.96,main,Z2,0000,0000,0000,,Wow, your taste makes my heart race.
+Dialogue: 0,0:05:22.96,0:05:25.96,main,Z2,0000,0000,0000,,It bites and lingers...
+Dialogue: 0,0:05:26.51,0:05:27.83,main,Z2,0000,0000,0000,,The taste of danger.
+Dialogue: 0,0:05:27.83,0:05:29.17,main,16,0000,0000,0000,,Wh-What are you...
+Dialogue: 0,0:05:29.17,0:05:30.70,main,Z2,0000,0000,0000,,Would you have preferred a kiss?
+Dialogue: 0,0:05:31.30,0:05:32.35,main,16,0000,0000,0000,,A kiss?
+Dialogue: 0,0:05:32.35,0:05:34.70,main,Z2,0000,0000,0000,,Oh, you guys don't know, huh?
+Dialogue: 0,0:05:35.64,0:05:37.67,main,Z2,0000,0000,0000,,It's a very special thing.
+Dialogue: 0,0:05:38.49,0:05:40.79,main,Z2,0000,0000,0000,,I think I've taken a liking to you.
+Dialogue: 0,0:05:41.30,0:05:43.17,main,Z2,0000,0000,0000,,Won't you be my darling?
+Dialogue: 0,0:05:50.48,0:06:09.84,sign_465_4_Q__What_s_the_cu,Sign,0000,0000,0000,,{\fad(425,484)}Was Zero Two a particularly difficult role?
+Dialogue: 0,0:05:51.64,0:05:56.30,main,HT,0000,0000,0000,,Totally. It was much more difficult \Nthan I expected at first.
+Dialogue: 0,0:05:52.89,0:06:09.67,sign_10577_98_Voice_of_Zero_Tw,Sign,0000,0000,0000,,{\fad(718,314)}Voice of Zero Two
+Dialogue: 0,0:05:56.30,0:06:01.46,main,HT,0000,0000,0000,,Especially between episodes 1 and 6, \Nwhen the director told me
+Dialogue: 0,0:06:01.46,0:06:04.30,main,HT,0000,0000,0000,,that he wanted me to voice her
+Dialogue: 0,0:06:04.30,0:06:10.30,main,HT,0000,0000,0000,,while keeping her friend-or-foe\Nstatus in a gray zone.
+Dialogue: 0,0:06:10.30,0:06:13.57,main,HT,0000,0000,0000,,So when she makes passes at Hiro,
+Dialogue: 0,0:06:13.57,0:06:19.72,main,HT,0000,0000,0000,,you wonder if she's approaching \Nhim out of pure goodwill,
+Dialogue: 0,0:06:19.72,0:06:24.01,main,HT,0000,0000,0000,,or if she has ulterior \Nmotives for doing so.
+Dialogue: 0,0:06:24.01,0:06:29.08,main,HT,0000,0000,0000,,That remains unclear for a while,
+Dialogue: 0,0:06:29.08,0:06:31.76,main,HT,0000,0000,0000,,and portraying that \Nambiguity was a challenge.
+Dialogue: 0,0:06:31.76,0:06:35.24,main,HT,0000,0000,0000,,There are scenes when she acts innocently,
+Dialogue: 0,0:06:35.24,0:06:37.87,main,HT,0000,0000,0000,,like in episode 1 when she \Nleaps out, fish in mouth.
+Dialogue: 0,0:06:37.87,0:06:43.20,main,HT,0000,0000,0000,,I took a straightforward approach \Nto those cutesy scenes.
+Dialogue: 0,0:06:43.20,0:06:48.37,main,HT,0000,0000,0000,,If I overthought everything, she'd really \Ncome across as cold and calculating,
+Dialogue: 0,0:06:48.37,0:06:51.85,main,HT,0000,0000,0000,,but if I did everything straightforward,
+Dialogue: 0,0:06:51.85,0:06:55.25,main,HT,0000,0000,0000,,she'd come across as just \Na cute, innocent girl.
+Dialogue: 0,0:06:55.25,0:06:59.98,main,HT,0000,0000,0000,,Striking a balance was really difficult.
+Dialogue: 0,0:06:59.98,0:07:04.63,main,HT,0000,0000,0000,,There were plenty of scenes \Nwhere the director would go,
+Dialogue: 0,0:07:04.63,0:07:08.86,main,HT,0000,0000,0000,,"Make her seem more mysterious here,"
+Dialogue: 0,0:07:08.86,0:07:10.80,main,HT,0000,0000,0000,,or "A bit more innocent would be fine,"
+Dialogue: 0,0:07:10.80,0:07:15.46,main,HT,0000,0000,0000,,and striking the perfect balance \Nwas difficult in the first half.
+Dialogue: 0,0:07:18.50,0:07:37.45,sign_465_4_Q__What_s_the_cu,Sign,0000,0000,0000,,{\fad(423,476)}Was there anything you focused on with your portrayal?
+Dialogue: 0,0:07:19.70,0:07:25.00,main,HT,0000,0000,0000,,When you go, "Zero Two is this kind of girl,"
+Dialogue: 0,0:07:25.00,0:07:29.21,main,HT,0000,0000,0000,,and this is just my opinion,
+Dialogue: 0,0:07:29.21,0:07:33.26,main,HT,0000,0000,0000,,but if you voice characters based \Non your preconceived notions,
+Dialogue: 0,0:07:33.26,0:07:39.50,main,HT,0000,0000,0000,,they tend to feel really cliched \Nand come across as cheap,
+Dialogue: 0,0:07:39.50,0:07:41.76,main,HT,0000,0000,0000,,and that was something \NI really wanted to avoid.
+Dialogue: 0,0:07:41.76,0:07:45.13,main,HT,0000,0000,0000,,You know how you can't really
+Dialogue: 0,0:07:45.13,0:07:50.09,main,HT,0000,0000,0000,,compartmentalize human emotions?
+Dialogue: 0,0:07:50.09,0:07:56.47,main,HT,0000,0000,0000,,And Zero Two is, right from her body,
+Dialogue: 0,0:07:56.47,0:08:01.06,main,HT,0000,0000,0000,,a half-klaxosaur who wants to be human.
+Dialogue: 0,0:08:01.06,0:08:06.16,main,HT,0000,0000,0000,,Plus, she's had a really unique,\Nharsh upbringing,
+Dialogue: 0,0:08:06.16,0:08:12.45,main,HT,0000,0000,0000,,and has a really complicated \Nbackground in general,
+Dialogue: 0,0:08:12.45,0:08:16.68,main,HT,0000,0000,0000,,so understanding her as I went was hard,
+Dialogue: 0,0:08:16.68,0:08:22.33,main,HT,0000,0000,0000,,and yet, there were several moments \Nwhere I found it extremely fun.
+Dialogue: 0,0:08:23.43,0:08:39.35,sign_4730_48_Q__When_did_you_,Sign,0000,0000,0000,,{\fad(423,483)}How do you feel about Tomatsu-san's presence in the project, voicing Zero Two?
+Dialogue: 0,0:08:24.58,0:08:30.77,main,YU,0000,0000,0000,,I feel her portrayal of Zero Two \Nis truly unique.
+Dialogue: 0,0:08:25.73,0:08:39.31,sign_15158_131_Voice_of_Hiro,Sign,0000,0000,0000,,{\fad(759,443)}Voice of Hiro
+Dialogue: 0,0:08:31.30,0:08:32.68,main,YU,0000,0000,0000,,Something only she could do.
+Dialogue: 0,0:08:33.16,0:08:39.62,main,YU,0000,0000,0000,,She herself is really unique as a person,
+Dialogue: 0,0:08:40.33,0:08:47.45,main,YU,0000,0000,0000,,and just her presence in the \Nstudio brightens the mood.
+Dialogue: 0,0:08:47.45,0:08:51.11,main,YU,0000,0000,0000,,It's really obvious, like everything\N is just more cheery.
+Dialogue: 0,0:08:51.11,0:08:57.07,main,YU,0000,0000,0000,,In that sense, she's kind of \Nspecial among all the children.
+Dialogue: 0,0:08:57.07,0:09:00.26,main,YU,0000,0000,0000,,And as she's coaxed better \Nperformances out of me,
+Dialogue: 0,0:09:00.26,0:09:06.10,main,YU,0000,0000,0000,,I have, just like Hiro in a way,\Ngrown more cheery myself.
+Dialogue: 0,0:09:06.10,0:09:09.17,main,YU,0000,0000,0000,,I wasn't exactly gloomy or anything,
+Dialogue: 0,0:09:09.17,0:09:16.28,main,YU,0000,0000,0000,,but I think I've grown more zealous regarding \Nmy acting and had more fun doing it.
+Dialogue: 0,0:09:16.73,0:09:24.69,main,YU,0000,0000,0000,,So I truly respect her and \Nam thankful for her presence
+Dialogue: 0,0:09:24.69,0:09:27.39,main,YU,0000,0000,0000,,as I've grown into the role of Hiro.
+Dialogue: 0,0:09:27.89,0:09:39.00,sign_4730_48_Q__When_did_you_,Sign,0000,0000,0000,,{\fad(425,475)}Was there anything you focused on with your portrayal of Hiro?
+Dialogue: 0,0:09:30.02,0:09:34.92,main,YU,0000,0000,0000,,Well... The director told me
+Dialogue: 0,0:09:34.92,0:09:38.37,main,YU,0000,0000,0000,,that I was chosen to play Hiro
+Dialogue: 0,0:09:38.37,0:09:44.91,main,YU,0000,0000,0000,,due to the airy nature of my voice.
+Dialogue: 0,0:09:44.91,0:09:48.02,main,YU,0000,0000,0000,,And as the episodes rolled on,
+Dialogue: 0,0:09:48.02,0:09:51.97,main,YU,0000,0000,0000,,he said, "Hiro now belongs to you,
+Dialogue: 0,0:09:51.97,0:09:55.80,main,YU,0000,0000,0000,,so voice him as you see fit.
+Dialogue: 0,0:09:55.80,0:10:03.15,main,YU,0000,0000,0000,,And if there's anything specific \NI want, I'll tell you."
+Dialogue: 0,0:10:03.15,0:10:07.00,main,YU,0000,0000,0000,,He was kind enough to say that to me,
+Dialogue: 0,0:10:07.59,0:10:12.84,main,YU,0000,0000,0000,,so I let myself go and decided \Nto perform as I saw fit.
+Dialogue: 0,0:10:13.60,0:10:19.94,main,YU,0000,0000,0000,,How do I say this? I never felt \Nany misgivings toward Hiro at all,
+Dialogue: 0,0:10:19.94,0:10:23.67,main,YU,0000,0000,0000,,so I think my portrayal of \Nhim is very close to natural.
+Dialogue: 0,0:10:23.67,0:10:25.86,main,YU,0000,0000,0000,,But rather than feeling \Nan affinity toward Hiro,
+Dialogue: 0,0:10:25.86,0:10:30.99,main,YU,0000,0000,0000,,I think it was more the whole partner \Ndynamic with Zero Two and Tomatsu-san.
+Dialogue: 0,0:10:30.99,0:10:38.16,main,YU,0000,0000,0000,,The back-and-forth in the studio,\Nand the rapport of sorts that it created,
+Dialogue: 0,0:10:38.16,0:10:40.88,main,YU,0000,0000,0000,,syncs up with the duo,
+Dialogue: 0,0:10:40.88,0:10:46.32,main,YU,0000,0000,0000,,and I feel that helped me\Nvoice a more natural Hiro.
+Dialogue: 0,0:10:46.32,0:10:50.53,main,YU,0000,0000,0000,,For example, when I'm \Npracticing at home and stuff,
+Dialogue: 0,0:10:51.00,0:10:54.98,main,YU,0000,0000,0000,,I think a lot about how \NI should do certain things.
+Dialogue: 0,0:10:54.98,0:11:00.41,main,YU,0000,0000,0000,,But when I get to the studio, \NI hear how the previous line is voiced.
+Dialogue: 0,0:11:00.41,0:11:05.99,main,YU,0000,0000,0000,,I see how they're passing me the ball, \Nand I think about how to return the pass.
+Dialogue: 0,0:11:05.99,0:11:08.87,main,YU,0000,0000,0000,,It's a whole different thought process.
+Dialogue: 0,0:11:08.87,0:11:13.74,main,YU,0000,0000,0000,,That experience always feels new and unique,
+Dialogue: 0,0:11:13.74,0:11:18.47,main,YU,0000,0000,0000,,and I believe that what we create within \Nthat studio atmosphere is really valuable.
+Dialogue: 0,0:11:19.03,0:11:22.64,main,YU,0000,0000,0000,,As a voice actor,
+Dialogue: 0,0:11:22.64,0:11:27.88,main,YU,0000,0000,0000,,that strikes me as one of the\Nbest things about this project.
+Dialogue: 0,0:11:29.21,0:11:35.05,sign_20657_166_Episode_6___DARL,Sign,0000,0000,0000,,{\fad(189,480)}Episode 6: "DARLING in the FRANXX"
+Dialogue: 0,0:11:32.12,0:11:33.11,top,Z2,0000,0000,0000,,Let's fly!
+Dialogue: 0,0:11:33.11,0:11:34.05,top,16,0000,0000,0000,,Yeah!
+Dialogue: 0,0:11:34.05,0:11:35.83,top,Z2,0000,0000,0000,,With our wings!
+Dialogue: 0,0:11:38.19,0:11:40.69,main,16,0000,0000,0000,,With our wings!
+Dialogue: 0,0:11:44.06,0:11:47.46,italics,N,0000,0000,0000,,This is {\i0}DARLING in the FRANXX\NPlayback Special II{\i1},
+Dialogue: 0,0:11:47.46,0:11:51.56,italics,N,0000,0000,0000,,and we'll shortly learn about the thoughts \Nbehind the scriptwriting process.
+Dialogue: 0,0:11:53.93,0:12:04.04,sign_21398_173_Episode_7___Shoo,Sign,0000,0000,0000,,{\fad(1,442)}Episode 7: Shooting Star Moratorium
+Dialogue: 0,0:11:55.67,0:12:00.42,italicstop,N,0000,0000,0000,,The protagonists of {\i1}DARLING in the FRANXX {\i0}\Nare boys and girls still in their teens.
+Dialogue: 0,0:12:00.97,0:12:05.31,italicstop,N,0000,0000,0000,,The early stages also featured bright, \Ncheery interludes such as this one.
+Dialogue: 0,0:12:05.85,0:12:08.42,italics,N,0000,0000,0000,,The squadmates were slowly \Nbut surely growing closer.
+Dialogue: 0,0:12:09.06,0:12:14.15,italics,N,0000,0000,0000,,But the story would soon put \Nthem through a trial by fire.
+Dialogue: 0,0:12:20.16,0:12:27.93,sign_22184_178_Episode_14___Pun,Sign,0000,0000,0000,,{\fad(121,1)}Episode 14: Punishment and Confession
+Dialogue: 0,0:12:20.79,0:12:21.99,main,Z2,0000,0000,0000,,You tricked me.
+Dialogue: 0,0:12:24.49,0:12:26.87,main,Z2,0000,0000,0000,,You lied to me.
+Dialogue: 0,0:12:28.13,0:12:31.24,main,56,0000,0000,0000,,N-No, Zero Two! We didn't mean to!
+Dialogue: 0,0:12:31.24,0:12:34.06,main,56,0000,0000,0000,,Hiro must've... I know!\NHe must've gone to see you!
+Dialogue: 0,0:12:34.06,0:12:34.98,main,Z2,0000,0000,0000,,Shut your mouth!
+Dialogue: 0,0:12:45.00,0:12:47.79,main,Z2,0000,0000,0000,,Humans are so weak!
+Dialogue: 0,0:12:47.79,0:12:51.68,main,Z2,0000,0000,0000,,Get it now? Never stand in my way—
+Dialogue: 0,0:12:51.68,0:12:52.61,main,16,0000,0000,0000,,Zero Two!
+Dialogue: 0,0:12:55.01,0:12:56.46,main,Z2,0000,0000,0000,,Darling.
+Dialogue: 0,0:12:56.46,0:12:58.36,main,16,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:12:58.36,0:13:01.13,main,Z2,0000,0000,0000,,I finally got to see you, darling.
+Dialogue: 0,0:13:01.45,0:13:04.19,main,Z2,0000,0000,0000,,There's something I want \Nto talk to you about.
+Dialogue: 0,0:13:04.19,0:13:04.94,main,16,0000,0000,0000,,Ichigo!
+Dialogue: 0,0:13:04.94,0:13:06.16,main,16,0000,0000,0000,,You okay?
+Dialogue: 0,0:13:06.16,0:13:08.20,main,16,0000,0000,0000,,Ichigo? Ichigo!
+Dialogue: 0,0:13:08.97,0:13:10.14,main,15,0000,0000,0000,,Hiro...
+Dialogue: 0,0:13:10.66,0:13:11.64,main,15,0000,0000,0000,,Run away.
+Dialogue: 0,0:13:13.80,0:13:15.38,main,16,0000,0000,0000,,Why would you do this?!
+Dialogue: 0,0:13:15.86,0:13:17.12,main,Z2,0000,0000,0000,,"Why"?
+Dialogue: 0,0:13:17.56,0:13:21.21,main,Z2,0000,0000,0000,,You asked me to speak my \Nmind with you, remember?
+Dialogue: 0,0:13:21.83,0:13:24.60,main,Z2,0000,0000,0000,,But these guys just wouldn't let me.
+Dialogue: 0,0:13:25.12,0:13:26.62,main,Z2,0000,0000,0000,,So I...
+Dialogue: 0,0:13:26.62,0:13:28.20,main,16,0000,0000,0000,,No...
+Dialogue: 0,0:13:28.20,0:13:31.50,main,Z2,0000,0000,0000,,Let's talk lots and lots, okay?
+Dialogue: 0,0:13:31.50,0:13:33.61,main,Z2,0000,0000,0000,,It's not too late. We can \Nstill take it back...
+Dialogue: 0,0:13:33.61,0:13:34.50,main,16,0000,0000,0000,,Zero Two...
+Dialogue: 0,0:13:35.48,0:13:37.41,main,16,0000,0000,0000,,At this moment, you truly are a monster.
+Dialogue: 0,0:13:43.31,0:13:58.52,sign_24676_206_Series_Compositi,Sign,0000,0000,0000,,{\fad(352,478)}Series Composition & Scripting
+Dialogue: 0,0:13:43.79,0:13:58.49,sign_24690_207_Q__What_did_you_,Sign,0000,0000,0000,,{\fad(405,448)}What did you prioritize most\N as you wrote the story?
+Dialogue: 0,0:13:46.13,0:14:15.92,sign_3725_39_After_joining_GA,ScrollingDesc,0000,0000,0000,,{\fad(1000,1000)}A scenario writer mainly involved in games, he shot to fame with his work on the SciADV series,\Nincluding titles such as {\i1}CHAOS;HEAD{\i0} and {\i1}STEINS;GATE,{\i0}. In this series, he is jointly credited for\Nseries composition alongside Director Nishigori. Through dozens upon dozens of story meetings,\Nhe reorganized the original concept that existed in the director's mind into a structured story.
+Dialogue: 0,0:13:46.33,0:13:53.52,top,NH,0000,0000,0000,,I took great care in expressing
+Dialogue: 0,0:13:53.52,0:13:58.73,top,NH,0000,0000,0000,,interpersonal communication\Nthrough character drama.
+Dialogue: 0,0:13:59.83,0:14:06.70,top,NH,0000,0000,0000,,When I'm talking about\NDarliFra's overall structure,
+Dialogue: 0,0:14:06.70,0:14:09.13,top,NH,0000,0000,0000,,I often call it a story told in four acts.
+Dialogue: 0,0:14:10.20,0:14:14.66,top,NH,0000,0000,0000,,In each act, the people the \Ncharacters are communicating with
+Dialogue: 0,0:14:14.66,0:14:19.11,top,NH,0000,0000,0000,,and the things they're facing change.
+Dialogue: 0,0:14:19.53,0:14:22.10,main,NH,0000,0000,0000,,Let's say we start with Hiro here.
+Dialogue: 0,0:14:22.10,0:14:25.78,main,NH,0000,0000,0000,,Until episode 6, he's mostly \Ncommunicating with Zero Two alone.
+Dialogue: 0,0:14:25.78,0:14:29.96,main,NH,0000,0000,0000,,It's basically a story of the \Ncommunication between them.
+Dialogue: 0,0:14:29.96,0:14:31.82,main,NH,0000,0000,0000,,And in episode 6,
+Dialogue: 0,0:14:31.82,0:14:37.96,main,NH,0000,0000,0000,,the relationship between the\Ntwo becomes more settled.
+Dialogue: 0,0:14:37.96,0:14:40.36,main,NH,0000,0000,0000,,After that, from episode 7 on,
+Dialogue: 0,0:14:40.36,0:14:45.97,main,NH,0000,0000,0000,,it's a story of how Hiro and Zero Two \Ncommunicate with their squadmates.
+Dialogue: 0,0:14:45.97,0:14:48.98,main,NH,0000,0000,0000,,The world expands a little.
+Dialogue: 0,0:14:49.53,0:14:52.67,main,NH,0000,0000,0000,,And after episode 15,
+Dialogue: 0,0:14:52.67,0:14:56.31,main,NH,0000,0000,0000,,it becomes about Squad 13, Hiro and\NZero Two and their squadmates,
+Dialogue: 0,0:14:57.38,0:15:03.32,main,NH,0000,0000,0000,,and how they communicate with \Nthe world, including the adults.
+Dialogue: 0,0:15:03.78,0:15:07.72,main,NH,0000,0000,0000,,So the people they're communicating \Nwith gradually grow in number.
+Dialogue: 0,0:15:07.72,0:15:12.75,main,NH,0000,0000,0000,,That's how we're expressing the expansion \Nof the world and the setting.
+Dialogue: 0,0:15:12.75,0:15:16.97,main,NH,0000,0000,0000,,And with these changes, we see how \Nthe characters grow as people.
+Dialogue: 0,0:15:17.86,0:15:22.14,main,NH,0000,0000,0000,,Well, there are people who respond\Nto that communication,
+Dialogue: 0,0:15:22.57,0:15:26.45,main,NH,0000,0000,0000,,and others who reject it outright.
+Dialogue: 0,0:15:28.02,0:15:36.18,main,NH,0000,0000,0000,,And those differences \Ncause grief and hardships.
+Dialogue: 0,0:15:37.05,0:15:42.45,main,NH,0000,0000,0000,,The dramatic nature of this dynamic \Nis what I focused on establishing.
+Dialogue: 0,0:15:43.10,0:15:54.97,sign_4730_48_Q__When_did_you_,Sign,0000,0000,0000,,{\fad(411,415)}What have you personally poured into the "communication" keyword?
+Dialogue: 0,0:15:49.37,0:15:55.18,main,NH,0000,0000,0000,,Well, personally, what left \Na big impression on me,
+Dialogue: 0,0:15:55.18,0:16:02.98,main,NH,0000,0000,0000,,or rather, what I would propose as one of \Nmy answers to the communication problem...
+Dialogue: 0,0:16:03.62,0:16:08.97,main,NH,0000,0000,0000,,Of course, it's part of the character dialog.
+Dialogue: 0,0:16:08.97,0:16:10.65,main,NH,0000,0000,0000,,In episode 18,
+Dialogue: 0,0:16:11.75,0:16:18.44,main,NH,0000,0000,0000,,how Ichigo reacts to Ikuno's \Nconfession of her hidden feelings.
+Dialogue: 0,0:16:20.59,0:16:21.76,main,196,0000,0000,0000,,Do you want to know?
+Dialogue: 0,0:16:21.76,0:16:31.84,sign_29425_235_Episode_18___Whe,Sign,0000,0000,0000,,{\fad(221,483)}Episode 18: When the Sakura Blooms
+Dialogue: 0,0:16:22.66,0:16:25.61,top,196,0000,0000,0000,,Are you that interested in me?
+Dialogue: 0,0:16:25.61,0:16:27.03,top,15,0000,0000,0000,,Ikuno? What...
+Dialogue: 0,0:16:28.60,0:16:31.07,top,196,0000,0000,0000,,I love you, Ichigo.
+Dialogue: 0,0:16:31.82,0:16:34.61,top,196,0000,0000,0000,,I want to keep you all to myself.
+Dialogue: 0,0:16:34.93,0:16:36.47,main,196,0000,0000,0000,,That's so selfish, right?
+Dialogue: 0,0:16:37.03,0:16:38.41,main,196,0000,0000,0000,,It's a pain, isn't it?
+Dialogue: 0,0:16:39.11,0:16:41.58,main,196,0000,0000,0000,,Why am I like this?
+Dialogue: 0,0:16:42.49,0:16:44.25,main,196,0000,0000,0000,,I hate being like this!
+Dialogue: 0,0:16:48.26,0:16:52.62,italics,15,0000,0000,0000,,Oh... She's just like I used to be.
+Dialogue: 0,0:16:56.20,0:16:57.62,main,196,0000,0000,0000,,Ichigo?
+Dialogue: 0,0:16:58.21,0:17:00.63,main,15,0000,0000,0000,,There's nothing wrong with being a pain.
+Dialogue: 0,0:17:00.63,0:17:03.88,main,15,0000,0000,0000,,I'm a pretty big one myself.
+Dialogue: 0,0:17:04.60,0:17:07.83,main,15,0000,0000,0000,,We're all complicated, difficult, and a pain.
+Dialogue: 0,0:17:07.83,0:17:12.61,main,15,0000,0000,0000,,But, y'know, I've started thinking \Nthat we're fine this way.
+Dialogue: 0,0:17:13.81,0:17:20.23,main,15,0000,0000,0000,,I get the feeling that going through \Nall of this is what life is all about.
+Dialogue: 0,0:17:21.86,0:17:25.29,main,196,0000,0000,0000,,I probably won't be able \Nto give up very easily.
+Dialogue: 0,0:17:25.97,0:17:27.89,main,196,0000,0000,0000,,I don't often take no for an answer.
+Dialogue: 0,0:17:27.89,0:17:29.85,main,15,0000,0000,0000,,Yeah, I know.
+Dialogue: 0,0:17:31.21,0:17:34.29,main,196,0000,0000,0000,,Thank you, Ichigo.
+Dialogue: 0,0:17:37.93,0:17:44.73,main,NH,0000,0000,0000,,Even if you can't understand\Neach other, it's important to try.
+Dialogue: 0,0:17:46.41,0:17:51.31,main,NH,0000,0000,0000,,And even if you can't reach an understanding,\Nyou can lean on each other.
+Dialogue: 0,0:17:52.09,0:17:56.33,main,NH,0000,0000,0000,,Having bonds with people really is valuable,
+Dialogue: 0,0:17:57.40,0:18:02.50,main,NH,0000,0000,0000,,and while having an \Nunderstanding would be best,
+Dialogue: 0,0:18:04.33,0:18:08.93,main,NH,0000,0000,0000,,you can still walk side \Nby side, even if you can't.
+Dialogue: 0,0:18:10.16,0:18:14.49,main,NH,0000,0000,0000,,I hope that gets across to the viewers,
+Dialogue: 0,0:18:15.77,0:18:23.04,main,NH,0000,0000,0000,,and if it does, I hope it \Nencourages them to look within.
+Dialogue: 0,0:18:23.04,0:18:29.09,main,NH,0000,0000,0000,,We probably haven't communicated perfectly \Nwhile making this show, either.
+Dialogue: 0,0:18:31.05,0:18:38.76,main,NH,0000,0000,0000,,Despite that, we spent years discussing \Neverything and making it a reality.
+Dialogue: 0,0:18:38.76,0:18:41.99,main,NH,0000,0000,0000,,That's one way to communicate, too.
+Dialogue: 0,0:18:44.23,0:18:50.74,main,NH,0000,0000,0000,,You do your best to lean on \Neach other, understand each other,
+Dialogue: 0,0:18:50.74,0:18:55.09,main,NH,0000,0000,0000,,and even if you can't, you can \Nstill make something like DarliFra.
+Dialogue: 0,0:18:56.68,0:19:01.81,main,NH,0000,0000,0000,,Basically, people can make something \Ngood happen if they lean on each other.
+Dialogue: 0,0:19:02.28,0:19:05.03,main,NH,0000,0000,0000,,I don't think I've ever \Ntalked about these things,
+Dialogue: 0,0:19:05.61,0:19:10.87,main,NH,0000,0000,0000,,but I feel like it's \Nalways been a part of me.
+Dialogue: 0,0:19:17.76,0:19:27.84,sign_29425_235_Episode_18___Whe,Sign,0000,0000,0000,,{\fad(491,380)}Episode 18: When the Sakura Blooms
+Dialogue: 0,0:19:19.80,0:19:23.24,top,Z2,0000,0000,0000,,You were right. They are in full bloom now.
+Dialogue: 0,0:19:23.80,0:19:27.95,top,Z2,0000,0000,0000,,Look, Kokoro lent me this \Nto wear for the wedding.
+Dialogue: 0,0:19:27.95,0:19:30.18,main,16,0000,0000,0000,,It's kinda funny to see \Nyou wearing our uniform.
+Dialogue: 0,0:19:30.92,0:19:32.24,main,Z2,0000,0000,0000,,Is that all you have to say?
+Dialogue: 0,0:19:32.95,0:19:34.25,main,16,0000,0000,0000,,You look great.
+Dialogue: 0,0:19:37.54,0:19:44.15,main,Z2,0000,0000,0000,,Do you remember that we promised \Nto marry all those years ago, too?
+Dialogue: 0,0:19:44.15,0:19:44.96,main,16,0000,0000,0000,,Of course I do.
+Dialogue: 0,0:19:45.56,0:19:50.33,main,Z2,0000,0000,0000,,A marriage is when two people who love \Neach other promise to be together forever.
+Dialogue: 0,0:19:50.92,0:19:53.16,main,Z2,0000,0000,0000,,You taught me that.
+Dialogue: 0,0:19:53.62,0:19:57.32,main,Z2,0000,0000,0000,,In that moment, you became my darling.
+Dialogue: 0,0:20:00.98,0:20:02.04,main,Z2,0000,0000,0000,,Wow!
+Dialogue: 0,0:20:04.17,0:20:05.30,main,Z2,0000,0000,0000,,This is amazing!
+Dialogue: 0,0:20:05.83,0:20:06.98,main,Z2,0000,0000,0000,,Darling!
+Dialogue: 0,0:20:18.55,0:20:24.37,italics,16,0000,0000,0000,,The time I spend laughing with you \Nis filled with so much warmth
+Dialogue: 0,0:20:22.67,0:20:25.06,sign_19607_150_So_much_warmth,Sign,0000,0000,0000,,So much warmth
+Dialogue: 0,0:20:25.68,0:20:27.96,italics,16,0000,0000,0000,,and so, so beautiful.
+Dialogue: 0,0:20:25.68,0:20:28.97,sign_19679_152_So__so_beautiful,Sign,0000,0000,0000,,So, so beautiful
+Dialogue: 0,0:20:32.23,0:20:36.02,italics,N,0000,0000,0000,,Five months since {\i0}DARLING in \Nthe FRANXX{\i1} began airing...
+Dialogue: 0,0:20:34.73,0:20:36.02,top,G,0000,0000,0000,,Okay, thank you.
+Dialogue: 0,0:20:37.43,0:20:38.18,main,G,0000,0000,0000,,Got it.
+Dialogue: 0,0:20:38.18,0:20:39.19,main,G,0000,0000,0000,,Okay.
+Dialogue: 0,0:20:40.04,0:20:40.04,main,AN,0000,0000,0000,,All right.
+Dialogue: 0,0:20:40.04,0:20:41.09,top,AN,0000,0000,0000,,Okay, thank you.
+Dialogue: 0,0:20:40.04,0:20:44.01,italics,N,0000,0000,0000,,The dubbing for all 24 \Nepisodes has finished.
+Dialogue: 0,0:20:46.90,0:20:50.59,italics,N,0000,0000,0000,,And there remains one last \Nmessage to give the cast.
+Dialogue: 0,0:20:50.59,0:20:52.09,main,G,0000,0000,0000,,Take it away, Director.
+Dialogue: 0,0:20:52.09,0:20:54.92,main,AN,0000,0000,0000,,All right. Thank you for your \Nhard work over all 24 episodes.
+Dialogue: 0,0:20:55.49,0:21:00.84,main,AN,0000,0000,0000,,Your portrayal of your characters \Nprovided me a pillar of support
+Dialogue: 0,0:21:00.84,0:21:03.04,main,AN,0000,0000,0000,,and also great encouragement.
+Dialogue: 0,0:21:03.04,0:21:08.31,main,AN,0000,0000,0000,,I really felt that you were fighting \Nwith me, creating this show with me.
+Dialogue: 0,0:21:08.31,0:21:12.98,main,AN,0000,0000,0000,,You all clearly put a lot of \Nthought into your characters,
+Dialogue: 0,0:21:12.98,0:21:15.64,main,AN,0000,0000,0000,,and if you didn't understand something, \Nyou weren't afraid to ask.
+Dialogue: 0,0:21:15.64,0:21:21.48,main,AN,0000,0000,0000,,We racked our brains and fought \Nthrough obstacles together,
+Dialogue: 0,0:21:21.48,0:21:24.31,main,AN,0000,0000,0000,,and it truly made me feel I wasn't alone.
+Dialogue: 0,0:21:24.31,0:21:26.52,main,AN,0000,0000,0000,,That may sound cliched, but it is what it is.
+Dialogue: 0,0:21:26.52,0:21:29.67,main,AN,0000,0000,0000,,When you're working on an \Noriginal story yourself,
+Dialogue: 0,0:21:29.67,0:21:31.55,main,AN,0000,0000,0000,,you start to feel more and more alone.
+Dialogue: 0,0:21:31.55,0:21:34.78,main,AN,0000,0000,0000,,At times like that, realizing that \Nthe cast understands their roles,
+Dialogue: 0,0:21:34.78,0:21:40.50,main,AN,0000,0000,0000,,and that you're sharing my \Nresponsibilities, my burdens,
+Dialogue: 0,0:21:40.50,0:21:43.64,main,AN,0000,0000,0000,,really helps, and you all did that for me.
+Dialogue: 0,0:21:43.64,0:21:49.25,main,AN,0000,0000,0000,,I thank you from the bottom of my heart,
+Dialogue: 0,0:21:50.26,0:21:55.16,main,AN,0000,0000,0000,,and I'm truly grateful that I have \Ngained these bonds with you all.
+Dialogue: 0,0:21:55.16,0:21:56.45,main,AN,0000,0000,0000,,Thank you so very much.
+Dialogue: 0,0:22:01.02,0:22:06.02,italics,N,0000,0000,0000,,And so, the voice cast left \Nthe DarliFra studio behind.
+Dialogue: 0,0:22:06.52,0:22:11.36,italics,N,0000,0000,0000,,However, the staff will have to keep working \Non the animation until the last second.
+Dialogue: 0,0:22:12.50,0:22:15.80,italics,N,0000,0000,0000,,Production has reached its \Nlast spurt toward the finale.
+Dialogue: 0,0:22:17.40,0:22:34.15,sign_4730_48_Q__When_did_you_,Sign,0000,0000,0000,,{\fad(391,376)}One last spurt to go... How do you feel right now?
+Dialogue: 0,0:22:18.50,0:22:25.08,main,AN,0000,0000,0000,,Well, first, it's starting to get \Nreally rough, physically speaking.
+Dialogue: 0,0:22:25.08,0:22:29.70,main,AN,0000,0000,0000,,And many at the studio are \Nrunning on fumes, too.
+Dialogue: 0,0:22:30.20,0:22:34.12,main,AN,0000,0000,0000,,But we still must complete our story.
+Dialogue: 0,0:22:34.12,0:22:41.86,main,AN,0000,0000,0000,,I'm racking my brain until the very end, \Nwondering if this is good enough or not.
+Dialogue: 0,0:22:43.38,0:22:48.44,main,AN,0000,0000,0000,,But ultimately, I'll need to \Ngo with what I believe in.
+Dialogue: 0,0:22:49.13,0:22:55.51,main,AN,0000,0000,0000,,If my beliefs are mistaken,\Nthat might show, but I think that's fine.
+Dialogue: 0,0:22:55.51,0:23:00.61,main,AN,0000,0000,0000,,Forcing myself to go with what other \Npeople believe in would just seem fake.
+Dialogue: 0,0:23:01.45,0:23:08.32,main,AN,0000,0000,0000,,I feel like I must believe that the answer \NI've strived to reach is the right one.
+Dialogue: 0,0:23:09.45,0:23:15.05,main,AN,0000,0000,0000,,At this point, I'll just have to \Ngive it my heart and soul, really.
+Dialogue: 0,0:23:15.05,0:23:20.89,main,AN,0000,0000,0000,,Rather than using my \Nbrain to plan everything,
+Dialogue: 0,0:23:22.17,0:23:27.00,main,AN,0000,0000,0000,,I'll move my hands and do everything I can.
+Dialogue: 0,0:23:27.43,0:23:34.51,top,AN,0000,0000,0000,,I'm not a guy who can irresponsibly say, \N"I can do this," or "This will be amazing."
+Dialogue: 0,0:23:35.45,0:23:40.42,top,AN,0000,0000,0000,,But if possible, I'd love to cross \Nthe finish line with my best shot.
+Dialogue: 0,0:23:41.14,0:23:44.31,top,AN,0000,0000,0000,,I hope everyone looks forward to it.

@@ -1,0 +1,346 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montara  Gothic,18,&H00787F75,&H00FFFFFF,&H00D4D3CA,&H64400040,-1,0,0,0,100,100,0,0,1,1,3,2,30,30,10,0
+Style: Song,Arial,18,&H00E6E0B0,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Song2,Arial,14,&H00E6E0B0,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,1
+Style: TL,Arial,12,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Background,Arial,14,&H00AAFFFF,&H0300FFFF,&H00000000,&H02000000,0,1,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.11,0:00:00.15,Song,,0,0,0,,
+Dialogue: 0,0:00:12.81,0:00:15.94,Song,,0,0,0,,Glancing up towards the sky,
+Dialogue: 0,0:00:15.94,0:00:18.98,Song,,0,0,0,,Whenever I turn my back
+Dialogue: 0,0:00:18.98,0:00:21.98,Song,,0,0,0,,Against this perfect world
+Dialogue: 0,0:00:21.98,0:00:24.12,Song,,0,0,0,,I mumble out
+Dialogue: 0,0:00:24.12,0:00:27.82,Song,,0,0,0,,"Where should I go?"
+Dialogue: 0,0:00:27.82,0:00:33.24,Song,,0,0,0,,With you, someone who shares the same thoughts I do.
+Dialogue: 0,0:00:36.97,0:00:42.77,Song,,0,0,0,,In the shadows of an alley, the hands on a clock
+Dialogue: 0,0:00:42.77,0:00:49.28,Song,,0,0,0,,Restart the time that stood still
+Dialogue: 0,0:00:50.08,0:00:53.08,Song,,0,0,0,,The arms extended out to you
+Dialogue: 0,0:00:53.08,0:00:57.00,Song,,0,0,0,,And the unfinished puzzle
+Dialogue: 0,0:00:58.85,0:01:01.63,Song,,0,0,0,,Have been left behind
+Dialogue: 0,0:01:01.63,0:01:05.93,Song,,0,0,0,,Until we met
+Dialogue: 0,0:01:06.93,0:01:10.23,Song,,0,0,0,,And realized something was missing.
+Dialogue: 0,0:01:10.23,0:01:14.11,Song,,0,0,0,,So the last piece
+Dialogue: 0,0:01:14.11,0:01:19.06,Song,,0,0,0,,Must be found
+Dialogue: 0,0:01:19.94,0:01:24.36,Song,,0,0,0,,In order to move forward.
+Dialogue: 0,0:01:32.10,0:01:34.30,Background,,0,0,0,,For some mysterious reason
+Dialogue: 0,0:01:35.10,0:01:38.50,Background,,0,0,0,,Aren't satisfied
+Dialogue: 0,0:01:38.50,0:01:41.10,Background,,0,0,0,,With only text messages.
+Dialogue: 0,0:01:41.50,0:01:43.90,Background,,0,0,0,,Inside my answering machine
+Dialogue: 0,0:01:44.90,0:01:47.50,Background,,0,0,0,,With that voice of yours
+Dialogue: 0,0:01:46.30,0:01:47.90,Default,,0,0,0,,Cold, cold, cold, cold.
+Dialogue: 0,0:01:48.10,0:01:49.10,Default,,0,0,0,,Satou-san...
+Dialogue: 0,0:01:48.10,0:01:52.50,Background,,0,0,0,,I want to feel a throb
+Dialogue: 0,0:01:49.10,0:01:50.10,Default,,0,0,0,,Huh?
+Dialogue: 0,0:01:50.10,0:01:51.10,Default,,0,0,0,,Here.
+Dialogue: 0,0:01:51.10,0:01:53.50,Default,,0,0,0,,This scene from the scenario, Satou-san...
+Dialogue: 0,0:01:53.50,0:01:56.90,Default,,0,0,0,,I think there should be more of a shy factor.
+Dialogue: 0,0:01:53.50,0:01:57.50,Background,,0,0,0,,I'm plrin, purupuru rin
+Dialogue: 0,0:01:56.90,0:01:59.10,Default,,0,0,0,,Huh? Do you think so?
+Dialogue: 0,0:01:57.50,0:02:00.70,Background,,0,0,0,,pururin puru pururin
+Dialogue: 0,0:01:59.50,0:02:04.10,Default,,0,0,0,,At the moment, I can't help but feel as if the protagonist is a jock-type.
+Dialogue: 0,0:02:00.70,0:02:04.80,Background,,0,0,0,,rinrin purupuru pururin
+Dialogue: 0,0:02:04.10,0:02:06.90,Default,,0,0,0,,It doesn't fit the character I created.
+Dialogue: 0,0:02:04.80,0:02:06.70,Background,,0,0,0,,pururu
+Dialogue: 0,0:02:07.50,0:02:09.90,Background,,0,0,0,,The magical powers
+Dialogue: 0,0:02:07.90,0:02:09.30,Default,,0,0,0,,Shy, huh?
+Dialogue: 0,0:02:09.90,0:02:11.50,Background,,0,0,0,,Are right there
+Dialogue: 0,0:02:10.10,0:02:12.50,Default,,0,0,0,,All right, I'll think about it.
+Dialogue: 0,0:02:11.50,0:02:13.90,Background,,0,0,0,,Bringing me joy
+Dialogue: 0,0:02:12.50,0:02:13.70,Default,,0,0,0,,Please do.
+Dialogue: 0,0:02:13.90,0:02:17.10,Background,,0,0,0,,To make dreams into hope
+Dialogue: 0,0:02:17.10,0:02:19.90,Background,,0,0,0,,And hopes into dreams
+Dialogue: 0,0:02:19.50,0:02:20.50,Default,,0,0,0,,Satou-san...
+Dialogue: 0,0:02:19.90,0:02:23.90,Background,,0,0,0,,Of the magical girl
+Dialogue: 0,0:02:20.50,0:02:21.10,Default,,0,0,0,,Huh?
+Dialogue: 0,0:02:21.90,0:02:25.70,Default,,0,0,0,,In any case, we've finally made it this far.
+Dialogue: 0,0:02:23.90,0:02:28.30,Background,,0,0,0,,Actually, it may be you
+Dialogue: 0,0:02:26.50,0:02:31.70,Default,,0,0,0,,Since we're clear on what tasks need to be completed,\Nwe'll probably be able to finish before the Fuyucomi.
+Dialogue: 0,0:02:32.10,0:02:33.90,Default,,0,0,0,,Really? Will we be able to make it?
+Dialogue: 0,0:02:33.90,0:02:36.70,Default,,0,0,0,,Yes, unless something serious occurs.
+Dialogue: 0,0:02:36.90,0:02:38.90,Default,,0,0,0,,I-I see.
+Dialogue: 0,0:02:38.90,0:02:41.90,Default,,0,0,0,,Great! Here goes my last spurt.
+Dialogue: 0,0:02:44.10,0:02:45.90,Default,,0,0,0,,T-Telephone?
+Dialogue: 0,0:02:50.70,0:02:54.70,Background,,0,0,0,,Fluffy like a marshmallow
+Dialogue: 0,0:02:50.90,0:02:51.90,Default,,0,0,0,,Hello?
+Dialogue: 0,0:02:54.70,0:02:56.70,Background,,0,0,0,,I'm teary-eyed
+Dialogue: 0,0:02:57.10,0:03:00.00,Background,,0,0,0,,The dreams and hope
+Dialogue: 0,0:02:58.10,0:03:01.70,Default,,0,0,0,,Although I understand your feelings, for those reasons...
+Dialogue: 0,0:03:00.20,0:03:03.30,Background,,0,0,0,,The dreams and hope
+Dialogue: 0,0:03:01.70,0:03:04.10,Default,,0,0,0,,Come back home to see your father.
+Dialogue: 0,0:03:03.30,0:03:06.50,Background,,0,0,0,,Of the magical girl
+Dialogue: 0,0:03:05.30,0:03:07.50,Default,,0,0,0,,Okay... I will.
+Dialogue: 0,0:03:06.90,0:03:11.10,Background,,0,0,0,,That's me!
+Dialogue: 0,0:03:07.90,0:03:08.70,Default,,0,0,0,,Bye.
+Dialogue: 0,0:03:13.70,0:03:15.70,Default,,0,0,0,,Is something wrong, Yamazaki?
+Dialogue: 0,0:03:17.70,0:03:21.30,Default,,0,0,0,,That "something serious" has taken place.
+Dialogue: 0,0:03:21.30,0:03:21.90,Default,,0,0,0,,Huh?
+Dialogue: 0,0:03:32.70,0:03:35.90,Default,,0,0,0,,So Yamazaki-kun went back home?
+Dialogue: 0,0:03:36.30,0:03:39.10,Default,,0,0,0,,It seems his father was hospitalized.
+Dialogue: 0,0:03:39.10,0:03:41.10,Default,,0,0,0,,He said he's going to check things out.
+Dialogue: 0,0:03:43.30,0:03:45.10,Default,,0,0,0,,Is he coming back?
+Dialogue: 0,0:03:45.10,0:03:47.10,Default,,0,0,0,,Huh? Of course he is!
+Dialogue: 0,0:03:47.10,0:03:49.10,Default,,0,0,0,,The game hasn't been completed yet...
+Dialogue: 0,0:03:49.10,0:03:50.50,Default,,0,0,0,,Besides, he still has school.
+Dialogue: 0,0:03:51.10,0:03:52.30,Default,,0,0,0,,I see.
+Dialogue: 0,0:03:52.70,0:03:53.70,Default,,0,0,0,,Of course.
+Dialogue: 0,0:03:54.90,0:03:57.10,Default,,0,0,0,,Then I'll see you tonight at the park.
+Dialogue: 0,0:04:11.30,0:04:12.50,Default,,0,0,0,,Shy, huh?
+Dialogue: 0,0:04:15.30,0:04:16.10,Default,,0,0,0,,Shy...
+Dialogue: 0,0:04:16.90,0:04:17.50,Default,,0,0,0,,Shy...
+Dialogue: 0,0:04:19.50,0:04:20.30,Default,,0,0,0,,Shy...
+Dialogue: 0,0:04:21.30,0:04:22.30,Default,,0,0,0,,Shy...
+Dialogue: 0,0:04:28.10,0:04:29.50,Default,,0,0,0,,Shy, huh?
+Dialogue: 0,0:04:30.50,0:04:31.30,Default,,0,0,0,,Shy...
+Dialogue: 0,0:04:31.70,0:04:32.50,Default,,0,0,0,,Shy...
+Dialogue: 0,0:04:35.30,0:04:36.30,Default,,0,0,0,,Shy...
+Dialogue: 0,0:04:38.70,0:04:42.50,Default,,0,0,0,,Oh! I see someone in trouble, purin!
+Dialogue: 0,0:04:42.50,0:04:46.70,Default,,0,0,0,,Suitorareeru the Third to the rescue, on the double, purin!
+Dialogue: 0,0:04:47.30,0:04:50.50,Default,,0,0,0,,Plrin-chan! Don't be so reckless!
+Dialogue: 0,0:04:52.90,0:04:55.30,Default,,0,0,0,,Purupuru pururin
+Dialogue: 0,0:04:55.30,0:04:56.50,Default,,0,0,0,,Pururin
+Dialogue: 0,0:04:56.50,0:04:57.50,Default,,0,0,0,,Purupuru puru...
+Dialogue: 0,0:05:16.90,0:05:18.50,Default,,0,0,0,,It's so quiet.
+Dialogue: 0,0:05:30.70,0:05:35.10,Default,,0,0,0,,That's right... Usually, from Yamazaki's room...
+Dialogue: 0,0:05:47.30,0:05:48.90,Default,,0,0,0,,Shy appeal, huh?
+Dialogue: 0,0:05:56.50,0:05:58.70,Default,,0,0,0,,Satou-kun, I brought your meal.
+Dialogue: 0,0:06:03.10,0:06:04.90,Default,,0,0,0,,I'll see you later tonight.
+Dialogue: 0,0:06:35.90,0:06:37.90,Default,,0,0,0,,Okay, I've finished setting it up.
+Dialogue: 0,0:06:38.30,0:06:39.70,Default,,0,0,0,,Do you want to take a look, senpai?
+Dialogue: 0,0:06:40.30,0:06:42.10,Default,,0,0,0,,Which star is it?
+Dialogue: 0,0:06:42.10,0:06:44.30,Default,,0,0,0,,Um, er... What was it...
+Dialogue: 0,0:06:45.50,0:06:47.70,Default,,0,0,0,,Who cares about the name?
+Dialogue: 0,0:06:47.90,0:06:50.10,Default,,0,0,0,,It's about the romance, you know, romance.
+Dialogue: 0,0:06:50.10,0:06:53.10,Default,,0,0,0,,The light from that star was from a hundred thousand years ago and...
+Dialogue: 0,0:06:53.10,0:06:53.90,Default,,0,0,0,,Say...
+Dialogue: 0,0:06:53.90,0:06:54.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:06:54.90,0:06:59.30,Default,,0,0,0,,What meanings do our lives hold?
+Dialogue: 0,0:07:00.10,0:07:07.10,Default,,0,0,0,,A human life will disappear in ten thousandths\Nof the time it takes for that light to reach us.
+Dialogue: 0,0:07:08.30,0:07:09.90,Default,,0,0,0,,She was right.
+Dialogue: 0,0:07:10.90,0:07:14.90,Default,,0,0,0,,By the time the light emitted from that star reaches Earth...
+Dialogue: 0,0:07:15.30,0:07:21.50,Default,,0,0,0,,No one will know about the scenario\NI wrote... much less about me at all.
+Dialogue: 0,0:07:22.90,0:07:26.70,Default,,0,0,0,,A person's life is like trash.
+Dialogue: 0,0:07:30.30,0:07:32.70,Default,,0,0,0,,Think about the meaning of life.
+Dialogue: 0,0:07:34.70,0:07:35.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:07:36.50,0:07:37.30,Default,,0,0,0,,A mountain?
+Dialogue: 0,0:07:39.50,0:07:41.90,Default,,0,0,0,,Things that take shape will fall apart one day.
+Dialogue: 0,0:07:48.10,0:07:49.50,Default,,0,0,0,,In other words, just like this.
+Dialogue: 0,0:07:52.30,0:07:55.50,Default,,0,0,0,,These moments of our lives are more worthless than trash.
+Dialogue: 0,0:07:56.50,0:08:00.50,Default,,0,0,0,,We are living in times more worthless than trash.
+Dialogue: 0,0:08:07.10,0:08:08.70,Default,,0,0,0,,Yamazaki!
+Dialogue: 0,0:08:10.10,0:08:12.70,Default,,0,0,0,,These are local specialties from my mother.
+Dialogue: 0,0:08:13.10,0:08:15.30,Default,,0,0,0,,Add them to your food supply.
+Dialogue: 0,0:08:15.30,0:08:17.90,Default,,0,0,0,,You didn't have to, but it'll help.
+Dialogue: 0,0:08:18.30,0:08:22.30,Default,,0,0,0,,In any case, it's good to know your\Nfather's illness wasn't anything serious.
+Dialogue: 0,0:08:22.90,0:08:24.70,Default,,0,0,0,,It's not good at all.
+Dialogue: 0,0:08:24.70,0:08:25.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:08:32.30,0:08:33.10,Default,,0,0,0,,Satou-kun...
+Dialogue: 0,0:08:33.10,0:08:36.10,Default,,0,0,0,,Satou-san, you're not interested in the affairs of other people, are you?
+Dialogue: 0,0:08:36.50,0:08:38.70,Default,,0,0,0,,No, that's not true.
+Dialogue: 0,0:08:38.70,0:08:46.90,Default,,0,0,0,,In that case, have you ever thought about why I'm a\Nfirst year student in a vocational school at my age?
+Dialogue: 0,0:08:46.90,0:08:49.90,Default,,0,0,0,,W-Well, I thought it would be rude of me to dig into it.
+Dialogue: 0,0:08:50.50,0:08:58.30,Default,,0,0,0,,At first, I was enrolled in the school of animal husbandry\Nat a local university, since my parents run a farm.
+Dialogue: 0,0:08:58.30,0:09:01.00,Default,,0,0,0,,{\be1}It was the natural course for a son\Nwho'd take over the business.
+Dialogue: 0,0:09:01.70,0:09:05.10,Default,,0,0,0,,Whether I liked it or not, the choice wasn't mine to begin with.
+Dialogue: 0,0:09:05.10,0:09:08.50,Default,,0,0,0,,I never even thought about the possibility of different opportunities.
+Dialogue: 0,0:09:08.50,0:09:15.20,Default,,0,0,0,,However, toward the end of my freshman year, my\Nrelatives gathered at my house and were drinking...
+Dialogue: 0,0:09:15.70,0:09:19.80,Default,,0,0,0,,There was an aunt of mine in the group\Nwho was an insurance salesperson.
+Dialogue: 0,0:09:20.30,0:09:21.30,Default,,0,0,0,,I'm home.
+Dialogue: 0,0:09:22.30,0:09:26.30,Default,,0,0,0,,Insurance on Kaoru? Isn't it too early for that?
+Dialogue: 0,0:09:27.10,0:09:30.10,Default,,0,0,0,,The sooner the better for things like this.
+Dialogue: 0,0:09:30.10,0:09:34.90,Default,,0,0,0,,He's going to inherit the farm anyway.\NI made an estimate, so take a look at it.
+Dialogue: 0,0:09:56.10,0:09:59.90,Default,,0,0,0,,My life was completely planned out.
+Dialogue: 0,0:10:02.50,0:10:07.30,Default,,0,0,0,,Age twenty-two: Graduate from the\Nuniversity, work on my family's farm.
+Dialogue: 0,0:10:07.30,0:10:09.10,Default,,0,0,0,,Age twenty-five: Marriage.
+Dialogue: 0,0:10:09.10,0:10:11.50,Default,,0,0,0,,Age twenty-seven: Birth of my first child.
+Dialogue: 0,0:10:11.50,0:10:13.90,Default,,0,0,0,,Age twenty-nine: Birth of my second child.
+Dialogue: 0,0:10:13.90,0:10:17.30,Default,,0,0,0,,Age thirty-four: First child's first day of grade school.
+Dialogue: 0,0:10:17.30,0:10:19.90,Default,,0,0,0,,Age forty-three: First child's high school entrance exams.
+Dialogue: 0,0:10:19.90,0:10:22.10,Default,,0,0,0,,Age forty-six: First child's college entrance exams.
+Dialogue: 0,0:10:22.10,0:10:23.70,Default,,0,0,0,,Age fifty: First child graduates from college.
+Dialogue: 0,0:10:23.70,0:10:25.30,Default,,0,0,0,,Age sixty-five: Retirement.
+Dialogue: 0,0:10:25.30,0:10:26.30,Default,,0,0,0,,And finally...
+Dialogue: 0,0:10:28.10,0:10:29.70,Default,,0,0,0,,Age eighty: Death.
+Dialogue: 0,0:10:30.70,0:10:35.70,Default,,0,0,0,,Even the amount of insurance money my\Nwidow-to-be was to receive was written on the estimate.
+Dialogue: 0,0:10:37.30,0:10:41.90,Default,,0,0,0,,It sent chills down my spine. I wasn't even twenty at the time.
+Dialogue: 0,0:10:41.90,0:10:45.50,Default,,0,0,0,,Those people had the nerve to decide someone's life!
+Dialogue: 0,0:10:45.50,0:10:48.70,Default,,0,0,0,,"Are you pretending to be God? Don't screw around with me!"
+Dialogue: 0,0:10:51.90,0:10:56.70,Default,,0,0,0,,I yelled at them like that and decided to move to Tokyo.
+Dialogue: 0,0:10:57.30,0:10:59.50,Default,,0,0,0,,My parents were opposed to the decision, of course.
+Dialogue: 0,0:10:59.50,0:11:06.70,Default,,0,0,0,,That's why I saved money from various\Npart-time jobs and came out here.
+Dialogue: 0,0:11:07.30,0:11:08.50,Default,,0,0,0,,So that's what it was.
+Dialogue: 0,0:11:09.30,0:11:11.70,Default,,0,0,0,,Then... What about your allowance?
+Dialogue: 0,0:11:11.70,0:11:13.50,Default,,0,0,0,,I'm not receiving any, of course.
+Dialogue: 0,0:11:13.50,0:11:16.30,Default,,0,0,0,,Didn't you know I was working part-time jobs?
+Dialogue: 0,0:11:17.50,0:11:20.70,Default,,0,0,0,,However, this life is to come to an end.
+Dialogue: 0,0:11:20.70,0:11:21.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:11:21.70,0:11:27.50,Default,,0,0,0,,My father was able to leave the hospital,\Nbut he can't continue to work on the farm.
+Dialogue: 0,0:11:27.90,0:11:31.50,Default,,0,0,0,,He wasn't very healthy to begin with.
+Dialogue: 0,0:11:31.50,0:11:32.90,Default,,0,0,0,,In that case, you...
+Dialogue: 0,0:11:32.90,0:11:36.70,Default,,0,0,0,,It's come to a point where I have to tread\Non the tracks someone else laid down.
+Dialogue: 0,0:11:37.90,0:11:40.30,Default,,0,0,0,,I've been granted reprieve until the Fuyucomi.
+Dialogue: 0,0:11:40.30,0:11:45.90,Default,,0,0,0,,If our game receives acclaim, I can continue to create more.
+Dialogue: 0,0:11:45.90,0:11:46.90,Default,,0,0,0,,This is our last chance!
+Dialogue: 0,0:11:48.10,0:11:49.10,Default,,0,0,0,,Yeah!
+Dialogue: 0,0:11:49.10,0:11:54.40,Default,,0,0,0,,Until me Fuyucomi, I'm going to keep watch\Nover you twenty-four hours a day, Satou-san.
+Dialogue: 0,0:11:54.40,0:11:55.20,Default,,0,0,0,,Huh?
+Dialogue: 0,0:11:55.20,0:12:00.50,Default,,0,0,0,,Eating meals, taking naps... everything will be done in my room.
+Dialogue: 0,0:12:00.50,0:12:01.30,Default,,0,0,0,,Do you hear me?
+Dialogue: 0,0:12:01.50,0:12:02.10,Default,,0,0,0,,Huh?
+Dialogue: 0,0:12:03.10,0:12:04.30,Default,,0,0,0,,Y-Yes.
+Dialogue: 0,0:12:10.30,0:12:11.70,Default,,0,0,0,,Wrong, wrong!
+Dialogue: 0,0:12:11.90,0:12:13.50,Default,,0,0,0,,That's not right!
+Dialogue: 0,0:12:13.50,0:12:15.50,Default,,0,0,0,,That isn't shy at all!
+Dialogue: 0,0:12:15.50,0:12:16.90,Default,,0,0,0,,Even if you say so...
+Dialogue: 0,0:12:16.90,0:12:20.70,Default,,0,0,0,,Imagine how you would actually ask a girl out!
+Dialogue: 0,0:12:20.70,0:12:22.50,Default,,0,0,0,,It has to be more shy!
+Dialogue: 0,0:12:22.50,0:12:24.10,Default,,0,0,0,,I don't get it!
+Dialogue: 0,0:12:24.10,0:12:27.70,Default,,0,0,0,,I can't think of anything else, so it can't be helped!
+Dialogue: 0,0:12:30.90,0:12:33.50,Default,,0,0,0,,We need to take a break.
+Dialogue: 0,0:12:34.50,0:12:36.90,Default,,0,0,0,,Thank you very much!
+Dialogue: 0,0:12:37.50,0:12:40.10,Default,,0,0,0,,Whoa! How luxurious!
+Dialogue: 0,0:12:40.50,0:12:45.90,Default,,0,0,0,,Good food and booze are essential tools for creativity.
+Dialogue: 0,0:12:45.90,0:12:47.30,Default,,0,0,0,,So drink as much as you want!
+Dialogue: 0,0:12:47.30,0:12:50.30,Default,,0,0,0,,All right! I'm going to drink!
+Dialogue: 0,0:12:53.10,0:12:56.90,Default,,0,0,0,,I'm telling you... the important thing is...
+Dialogue: 0,0:12:57.90,0:13:00.10,Default,,0,0,0,,The shy aspect, you know! Shy!
+Dialogue: 0,0:13:00.10,0:13:03.10,Default,,0,0,0,,I know, I know!
+Dialogue: 0,0:13:03.70,0:13:05.30,Default,,0,0,0,,I know that already...
+Dialogue: 0,0:13:05.30,0:13:07.30,Default,,0,0,0,,I have to take a piss.
+Dialogue: 0,0:13:07.30,0:13:09.30,Default,,0,0,0,,Wrong, Satou-san!
+Dialogue: 0,0:13:09.50,0:13:12.10,Default,,0,0,0,,You don't know anything!
+Dialogue: 0,0:13:12.10,0:13:13.30,Default,,0,0,0,,As living proof...
+Dialogue: 0,0:13:14.70,0:13:15.70,Default,,0,0,0,,Satou-san?
+Dialogue: 0,0:13:16.30,0:13:18.30,Default,,0,0,0,,That way leads to the entrance!
+Dialogue: 0,0:13:22.30,0:13:22.90,Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:25.70,0:13:26.70,Default,,0,0,0,,Yamazaki!
+Dialogue: 0,0:13:26.70,0:13:28.90,Default,,0,0,0,,Snow! It's snowing!
+Dialogue: 0,0:13:28.90,0:13:29.90,Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:31.50,0:13:34.30,Default,,0,0,0,,Oh, you're right!
+Dialogue: 0,0:13:34.30,0:13:36.70,Default,,0,0,0,,We can't just sit here, Satou-san!
+Dialogue: 0,0:13:36.70,0:13:37.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:37.30,0:13:38.70,Default,,0,0,0,,When you mention snow...
+Dialogue: 0,0:13:39.30,0:13:40.90,Default,,0,0,0,,You have to drink sake under the snow!
+Dialogue: 0,0:13:40.90,0:13:43.90,Default,,0,0,0,,Whoa, I see!
+Dialogue: 0,0:13:50.10,0:13:52.50,Default,,0,0,0,,Elegant, isn't it?
+Dialogue: 0,0:13:52.70,0:13:54.70,Default,,0,0,0,,Really elegant.
+Dialogue: 0,0:13:56.50,0:13:58.70,Default,,0,0,0,,It's getting a little cold, though.
+Dialogue: 0,0:13:58.70,0:14:00.70,Default,,0,0,0,,Maybe I'm sobering up.
+Dialogue: 0,0:14:01.90,0:14:03.70,Default,,0,0,0,,Did you say cold?
+Dialogue: 0,0:14:04.50,0:14:08.10,Default,,0,0,0,,That reminds me... Wait here for a while.
+Dialogue: 0,0:14:08.10,0:14:08.90,Default,,0,0,0,,Huh?
+Dialogue: 0,0:14:19.70,0:14:22.30,Default,,0,0,0,,See? It's warm now.
+Dialogue: 0,0:14:23.30,0:14:25.50,Default,,0,0,0,,Yamazaki, these are...
+Dialogue: 0,0:14:25.70,0:14:28.90,Default,,0,0,0,,Yeah, they're my school textbooks.
+Dialogue: 0,0:14:29.90,0:14:32.50,Default,,0,0,0,,I don't need them anymore.
+Dialogue: 0,0:14:36.70,0:14:41.30,Default,,0,0,0,,Textbooks really burn well, just like trash!
+Dialogue: 0,0:14:45.10,0:14:49.90,Default,,0,0,0,,That's right, Satou-san. I'll show you something even more interesting.
+Dialogue: 0,0:14:49.90,0:14:51.30,Default,,0,0,0,,Something interesting?
+Dialogue: 0,0:14:54.30,0:14:59.70,Default,,0,0,0,,I'm going to invite Nanako over to my galge-infested room.
+Dialogue: 0,0:14:59.90,0:15:03.90,Default,,0,0,0,,Wow! You're a brave man, Yamazaki!
+Dialogue: 0,0:15:04.10,0:15:08.90,Default,,0,0,0,,We're in for some great entertainment, seeing her\Nreaction toward the disastrous state of my room.
+Dialogue: 0,0:15:13.90,0:15:18.70,Default,,0,0,0,,It's me... I have something important I'd\Nlike to discuss, so can you come over?
+Dialogue: 0,0:15:18.70,0:15:20.70,Default,,0,0,0,,Right, at my place.
+Dialogue: 0,0:15:21.10,0:15:23.90,Default,,0,0,0,,My address is... Oh, you already know?
+Dialogue: 0,0:15:23.90,0:15:25.30,Default,,0,0,0,,Yeah, Mita House.
+Dialogue: 0,0:15:26.10,0:15:27.30,Default,,0,0,0,,Then I'll be waiting for you.
+Dialogue: 0,0:15:29.90,0:15:31.30,Default,,0,0,0,,I called her over.
+Dialogue: 0,0:15:31.30,0:15:33.10,Default,,0,0,0,,Bravo!
+Dialogue: 0,0:15:33.50,0:15:34.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:15:34.70,0:15:38.90,Default,,0,0,0,,Just now, you weren't shy at all.
+Dialogue: 0,0:15:38.90,0:15:39.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:15:45.70,0:15:48.90,Default,,0,0,0,,Then the scenario has just been approved.
+Dialogue: 0,0:15:48.90,0:15:50.50,Default,,0,0,0,,All right!
+Dialogue: 0,0:16:12.50,0:16:13.90,Default,,0,0,0,,Mita House...
+Dialogue: 0,0:16:17.30,0:16:19.30,Default,,0,0,0,,Listen, Satou-san.
+Dialogue: 0,0:16:19.90,0:16:23.10,Default,,0,0,0,,Don't miss a moment of her reaction.
+Dialogue: 0,0:16:23.10,0:16:25.10,Default,,0,0,0,,We might be able to use it in our game.
+Dialogue: 0,0:16:25.30,0:16:26.70,Default,,0,0,0,,Y-Yeah!
+Dialogue: 0,0:16:27.90,0:16:29.70,Default,,0,0,0,,She's here! Hide!
+Dialogue: 0,0:16:34.50,0:16:36.30,Default,,0,0,0,,I've been waiting for you, Nanako-san.
+Dialogue: 0,0:16:36.30,0:16:38.10,Default,,0,0,0,,Please come in.
+Dialogue: 0,0:16:46.90,0:16:48.70,Default,,0,0,0,,Have a seat over here.
+Dialogue: 0,0:17:02.30,0:17:04.50,Default,,0,0,0,,Um, Yamazaki-kun...
+Dialogue: 0,0:17:04.50,0:17:07.50,Default,,0,0,0,,About your father's illness... is he all right?
+Dialogue: 0,0:17:07.90,0:17:09.70,Default,,0,0,0,,How did you know about that?
+Dialogue: 0,0:17:10.30,0:17:13.30,Default,,0,0,0,,Since I didn't see you at school in the past two or three days...
+Dialogue: 0,0:17:13.30,0:17:16.50,Default,,0,0,0,,I was worried and asked my friends and teachers.
+Dialogue: 0,0:17:17.70,0:17:19.30,Default,,0,0,0,,I see.
+Dialogue: 0,0:17:19.30,0:17:22.10,Default,,0,0,0,,Well, my father is fine.
+Dialogue: 0,0:17:22.10,0:17:23.10,Default,,0,0,0,,There's no need to worry.
+Dialogue: 0,0:17:23.30,0:17:25.50,Default,,0,0,0,,Really? I'm glad for you.
+Dialogue: 0,0:17:25.50,0:17:30.90,Default,,0,0,0,,Since you mentioned you had something important\Nto talk about over the phone, I first thought...
+Dialogue: 0,0:17:30.90,0:17:34.50,Default,,0,0,0,,That aside, I have something much more important to tell you.
+Dialogue: 0,0:17:34.50,0:17:35.10,Default,,0,0,0,,Huh?
+Dialogue: 0,0:17:35.90,0:17:37.50,Default,,0,0,0,,More important?
+Dialogue: 0,0:17:38.10,0:17:39.10,Default,,0,0,0,,Correct.
+Dialogue: 0,0:17:40.30,0:17:43.30,Default,,0,0,0,,Nanako-san, you've probably heard rumors...
+Dialogue: 0,0:17:44.30,0:17:46.70,Default,,0,0,0,,To tell you the truth, I'm a...
+Dialogue: 0,0:18:03.30,0:18:04.10,Default,,0,0,0,,Galge... -
+Dialogue: 0,0:18:04.10,0:18:04.90,Default,,0,0,0,,Figurines...
+Dialogue: 0,0:18:04.90,0:18:05.70,Default,,0,0,0,,Doujinshi...
+Dialogue: 0,0:18:05.90,0:18:12.90,Default,,0,0,0,,...super otaku who has to collect everything related to bishoujos!
+Dialogue: 0,0:18:14.10,0:18:15.70,Default,,0,0,0,,He said it, that guy...
+Dialogue: 0,0:18:15.70,0:18:18.30,Default,,0,0,0,,That's not all, Nanako-san.
+Dialogue: 0,0:18:18.30,0:18:21.10,Default,,0,0,0,,I'm currently creating an erotic game using you as the character model.
+Dialogue: 0,0:18:25.70,0:18:28.10,Default,,0,0,0,,You revealed that to her as well, Yamazaki?
+Dialogue: 0,0:18:28.70,0:18:32.30,Default,,0,0,0,,What kind of reaction is she going to show?
+Dialogue: 0,0:18:36.70,0:18:37.50,Default,,0,0,0,,Idiot.
+Dialogue: 0,0:18:37.70,0:18:39.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:18:40.50,0:18:45.70,Default,,0,0,0,,I mean... Stuff like ecchi games are gross, to be honest...
+Dialogue: 0,0:18:46.10,0:18:49.70,Default,,0,0,0,,But the way you approach such things \Nso seriously is, how to put it...
+Dialogue: 0,0:18:50.30,0:18:51.30,Default,,0,0,0,,How should I say it...
+Dialogue: 0,0:18:52.30,0:18:54.10,Default,,0,0,0,,I think it's manly...
+Dialogue: 0,0:18:54.30,0:18:57.10,Default,,0,0,0,,I mean... How do I say it... In other words...
+Dialogue: 0,0:18:58.30,0:19:01.50,Default,,0,0,0,,That attribute of Yamazaki-kun is what I really like.
+Dialogue: 0,0:19:07.30,0:19:10.50,Default,,0,0,0,,D-Don't tell me this mood...
+Dialogue: 0,0:19:11.70,0:19:14.70,Default,,0,0,0,,Yamazaki-kun, do as you please.
+Dialogue: 0,0:19:16.10,0:19:19.70,Default,,0,0,0,,Leads to adult entertainment...
+Dialogue: 0,0:19:24.70,0:19:25.70,Default,,0,0,0,,Nanako-san...
+Dialogue: 0,0:19:26.30,0:19:27.30,Default,,0,0,0,,Yamazaki-kun...
+Dialogue: 0,0:19:31.30,0:19:33.10,Default,,0,0,0,,Are you out of your mind?
+Dialogue: 0,0:19:33.50,0:19:34.10,Default,,0,0,0,,Huh?
+Dialogue: 0,0:19:35.70,0:19:39.10,Default,,0,0,0,,Or are you some kind of in the closet galge enthusiast?
+Dialogue: 0,0:19:39.10,0:19:40.90,Default,,0,0,0,,Ah, I got it.
+Dialogue: 0,0:19:40.90,0:19:46.10,Default,,0,0,0,,Perhaps you have a fetish for monster\Ntentacle play, just like this illustration.
+Dialogue: 0,0:19:57.10,0:19:58.90,Default,,0,0,0,,{\be1}I hope you die, you icky otaku bastard!
+Dialogue: 0,0:19:59.10,0:20:02.30,Default,,0,0,0,,People like you should vanish from this world!
+Dialogue: 0,0:20:14.10,0:20:17.30,Default,,0,0,0,,Hey! Are you okay, Yamazaki?
+Dialogue: 0,0:20:17.30,0:20:18.30,Default,,0,0,0,,I'm fine.
+Dialogue: 0,0:20:18.50,0:20:22.10,Default,,0,0,0,,More importantly, did you record everything?
+Dialogue: 0,0:20:22.70,0:20:24.90,Default,,0,0,0,,I told you it would be really entertaining.
+Dialogue: 0,0:20:25.30,0:20:30.90,Default,,0,0,0,,A young girl punching a guy with a clenched\Nfist is a sight you don't see very often.
+Dialogue: 0,0:20:32.10,0:20:35.90,Default,,0,0,0,,Is it okay? That girl... She was serious about you.
+Dialogue: 0,0:20:36.90,0:20:38.70,Default,,0,0,0,,Even if she was... so what?
+Dialogue: 0,0:20:39.10,0:20:43.50,Default,,0,0,0,,In a month, I'll be working on my family's farm.
+Dialogue: 0,0:20:43.50,0:20:45.50,Default,,0,0,0,,There's nothing I can do at this point.
+Dialogue: 0,0:20:45.50,0:20:48.70,Default,,0,0,0,,If we eventually have to break up, it's better to do so early.
+Dialogue: 0,0:20:48.70,0:20:51.70,Default,,0,0,0,,Even so, there are proper ways to break up.
+Dialogue: 0,0:20:51.70,0:20:53.90,Default,,0,0,0,,Wasn't this the best way to break up?
+Dialogue: 0,0:20:55.30,0:20:59.10,Default,,0,0,0,,A dramatic break-up that can't be surpassed.
+Dialogue: 0,0:21:03.90,0:21:06.50,Default,,0,0,0,,There was one thing I forgot about.
+Dialogue: 0,0:21:06.50,0:21:11.30,Default,,0,0,0,,When you're hit during the winter, the bruise kind of smarts.
+Dialogue: 0,0:21:12.90,0:21:15.30,Default,,0,0,0,,I'll get you some ointment.
+Dialogue: 0,0:21:21.10,0:21:27.70,Default,,0,0,0,,Oh, I was wondering about tonight's\Ncounseling since I forgot to ask you at noon.
+Dialogue: 0,0:21:29.50,0:21:32.10,Default,,0,0,0,,Why don't you take it... The counseling session, that is.
+Dialogue: 0,0:21:33.70,0:21:38.30,Default,,0,0,0,,I have to clean the room or we won't be able to continue with our work.
+Dialogue: 0,0:21:38.50,0:21:40.50,Default,,0,0,0,,Don't act so reserved and go.
+Dialogue: 0,0:21:40.50,0:21:41.50,Default,,0,0,0,,I see.
+Dialogue: 0,0:21:41.90,0:21:42.90,Default,,0,0,0,,Satou-san!
+Dialogue: 0,0:21:42.90,0:21:43.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:21:44.50,0:21:48.10,Default,,0,0,0,,Our game... Let's definitely complete it.
+Dialogue: 0,0:21:50.30,0:21:51.10,Default,,0,0,0,,Of course.
+Dialogue: 0,0:21:56.90,0:21:59.30,Default,,0,0,0,,Good-bye, Nanako-san.
+Dialogue: 0,0:23:30.70,0:23:33.30,Default,,0,0,0,,What are you saying? It's to be permanently stored.
+Dialogue: 0,0:23:33.30,0:23:34.30,Default,,0,0,0,,It's hatsumoude.
+Dialogue: 0,0:23:34.30,0:23:36.70,Default,,0,0,0,,Do you think God exists?
+Dialogue: 0,0:23:36.70,0:23:38.90,Default,,0,0,0,,Next episode, Welcome to the Reset!

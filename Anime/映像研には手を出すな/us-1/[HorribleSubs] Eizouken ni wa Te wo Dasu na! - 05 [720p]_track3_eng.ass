@@ -1,0 +1,669 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: OP_ED,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,13,13,24,0
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Keep Your Hands Off Eizouken,Open Sans Semibold,45,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_571_10_Film,Open Sans Semibold,45,&H009E9897,&H000000FF,&H005A5C5E,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,3,8,40,167,27,1
+Style: sign_5072_66_Episode_4__Hold_,Open Sans Semibold,29,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,1,120,40,327,1
+Style: sign_12911_160_Finished_In_Betw,Open Sans Semibold,15,&H00353034,&H000000FF,&H00888E90,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,167,353,1
+Style: sign_12911_161_Finished_Keyfram,Open Sans Semibold,15,&H00353034,&H000000FF,&H00888E90,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,647,40,353,1
+Style: sign_13292_162_Finished_In_Betw,Open Sans Semibold,23,&H00161C1E,&H000000FF,&H007D848A,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,547,73,1
+Style: sign_13583_173_Task,Open Sans Semibold,45,&H000A0A0A,&H000000FF,&H00F5F5F5,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_13583_174_MIZUSAKI,Open Sans Semibold,45,&H000A0A0A,&H000000FF,&H00F5F5F5,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_13583_175_KEYFRAMES,Open Sans Semibold,30,&H000A0A0A,&H000000FF,&H00F5F5F5,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_13587_177_TUESDAY,Open Sans Semibold,30,&H000A0A0A,&H000000FF,&H00F5F5F5,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,9,40,40,27,1
+Style: sign_13714_208_Finished_In_Betw,Open Sans Semibold,30,&H00353034,&H000000FF,&H00888E90,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_14344_215_Finished_In_Betw,Open Sans Semibold,15,&H00353034,&H000000FF,&H00888E90,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,647,40,353,1
+Style: sign_15488_231_Hold_That_Machet,Open Sans Semibold,38,&H00E8EBEA,&H000000FF,&H009B9898,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,8,40,80,27,1
+Style: sign_17129_245_P_C___R_O_O_M,Open Sans Semibold,45,&H001D373D,&H000000FF,&H003B8496,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,8,207,40,87,1
+Style: sign_17579_255_Film,Open Sans Semibold,27,&H0024110B,&H000000FF,&H005F4939,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,147,1
+Style: sign_17987_256_Please_set_your_,Open Sans Semibold,27,&H00B6B2AD,&H000000FF,&H0066655A,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,40,300,1
+Style: sign_21727_301_Club_Activities_,Open Sans Semibold,30,&H003C65B3,&H000000FF,&H00475979,&H00E9EBE1,1,0,0,0,100,100,0,0,1,2,3,9,40,40,107,1
+Style: sign_22401_322_Security_Club,Open Sans Semibold,30,&H00CDC9CC,&H000000FF,&H00312D30,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_22836_323_DENIED,Open Sans Semibold,45,&H00312AB8,&H000000FF,&H00D7E0E6,&H00BAE4F1,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_27372_394_Hold_That_Machet,Open Sans Semibold,38,&H00FFFEFF,&H000000FF,&H00323D29,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,8,40,67,27,1
+Style: sign_27372_395_Film,Open Sans Semibold,23,&H00FFFEFF,&H000000FF,&H00323D29,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,613,100,1
+Style: sign_31943_396_Film,Open Sans Semibold,23,&H0066635A,&H000000FF,&H00FFFEF4,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,767,93,1
+Style: sign_33712_431_APPROVED,Open Sans Semibold,45,&H005DB341,&H000000FF,&H00D7E0E6,&H00BAE4F1,1,0,0,0,100,100,0,0,1,4,0,8,320,320,27,1
+Style: sign_33669_428_Club_Activity_Bu,Open Sans Semibold,45,&H19000000,&H000000FF,&H00E1F2F5,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,40,107,1
+Style: sign_33669_429_Club_Name_,Open Sans Semibold,30,&H19000000,&H000000FF,&H00E1F2F5,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,0,40,247,1
+Style: sign_33669_431_Goals_,Open Sans Semibold,30,&H19000000,&H000000FF,&H00BDEDF2,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,0,40,60,1
+Style: sign_33669_430_Film_Study_Assoc,Open Sans Semibold,30,&H190A2A2F,&H000000FF,&H00E1F2F5,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,220,40,240,1
+Style: sign_33669_432_Study_of_film__p,Open Sans Semibold,30,&H190A2A2F,&H000000FF,&H00C6F1F3,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,213,40,120,1
+Style: sign_35868_434_Illustration_by_,Open Sans Semibold,15,&H19FFFFFF,&H000000FF,&H002A2A2D,&H00000000,1,0,0,0,100,100,0,0,1,1,0,1,120,40,60,1
+Style: sign_35868_434_Missing,Open Sans Semibold,30,&H19010701,&H000000FF,&H002A2A2D,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,363,376,435,1
+Style: sign_1610_16_Iron_Giant_Left_,Open Sans Semibold,44,&H00040400,&H000000FF,&H19403936,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,167,27,1
+Style: sign_1709_19_Missing,Open Sans Semibold,29,&H00292A26,&H000000FF,&H19040603,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,120,639,327,1
+Style: sign_2764_33_Lost_Shibahama_C,Open Sans Semibold,45,&H1966769A,&H000000FF,&H1933353C,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_2764_34_________________,Open Sans Semibold,21,&H00291E17,&H000000FF,&H19EBD7CA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,107,40,27,1
+Style: sign_2764_35__archacotechnolo,Open Sans Semibold,21,&H00291E17,&H000000FF,&H19EBD7CA,&H00000000,1,0,0,0,100,100,0,0,3,2,0,7,60,533,27,1
+Style: sign_2800_42_Joints,Open Sans Semibold,21,&H00291E17,&H000000FF,&H19EBD7CA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,40,40,27,1
+Style: sign_2935_52_Mysterious_Footp,Open Sans Semibold,33,&H19D47B82,&H000000FF,&H1933353C,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,80,27,1
+Style: sign_2935_55_Not_the_most_pra,Open Sans Semibold,21,&H00291E17,&H000000FF,&H19EBD7CA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_2935_56_Indicative__of_a,Open Sans Semibold,21,&H00291E17,&H000000FF,&H19EBD7CA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,60,708,27,1
+Style: sign_8574_166_Episode_5__An_Ir,Open Sans Semibold,29,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,1,213,40,327,1
+Style: sign_12776_200_Asakusa_s_Anti_P,Open Sans Semibold,36,&H0065E6CC,&H000000FF,&H00888E90,&H0075947D,1,0,0,0,100,100,0,-90,1,0,0,2,40,40,27,1
+Style: sign_19087_323_Dead,Open Sans Semibold,30,&H00ADB1B3,&H000000FF,&H00322724,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,8,40,133,27,1
+Style: sign_21753_367_Take_Down_the_Ei,Open Sans Semibold,30,&H00353430,&H000000FF,&H00EAE4E3,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_22324_384_Take_Down_the_Ei,Open Sans Semibold,45,&H00353430,&H000000FF,&H00EAE4E3,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,113,40,307,1
+Style: sign_22372_385_Take_Down_the_Ei,Open Sans Semibold,45,&H00353430,&H000000FF,&H00EAE4E3,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,120,67,1
+Style: sign_22837_392_Take_Down_the_Ei,Open Sans Semibold,42,&H00353430,&H000000FF,&H00EAE4E3,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,333,1
+Style: sign_22881_393_Take_Down_the_Ei,Open Sans Semibold,45,&H00353430,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,87,40,387,1
+Style: sign_25196_469_Seeing_someone_s,Open Sans Semibold,44,&H00383430,&H000000FF,&H32C2BBB6,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,33,0,41,1
+Style: sign_25808_480_Missing_Missing_,Open Sans Semibold,17,&H00FFF2F0,&H000000FF,&H0096635E,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_26187_485_Take_Down_the_Ei,Open Sans Semibold,42,&H00353430,&H000000FF,&H00EAE4E3,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,207,1
+Style: sign_28260_522_Sudden_harmony,Open Sans Semibold,42,&H00353430,&H000000FF,&H32EAE4E3,&H00000000,1,0,0,0,100,100,0,-90,1,4,0,2,295,295,207,1
+Style: sign_28224_520_Take_Down_the_Ei,Open Sans Semibold,42,&H00353430,&H000000FF,&H00EAE4E3,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,144,312,209,1
+Style: sign_35868_606_Fluffy_,Open Sans Semibold,21,&H19FFFFFF,&H000000FF,&H002A2A2D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,737,4,103,1
+Style: sign_35868_607_Gahaha_,Open Sans Semibold,30,&H19FFFFFF,&H000000FF,&H002A2A2D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,503,223,415,1
+Style: sign_35868_608_Illustration_by_,Open Sans Semibold,18,&H19000010,&H000000FF,&H002A2A2D,&H00000000,1,0,0,0,100,100,0,-1,1,0,0,7,633,40,53,1
+Style: sign_16189_250_A_Turtle_x_Crab_,Open Sans Semibold,24,&H19C0CCAA,&H000000FF,&H00282F14,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,600,40,27,1
+Style: sign_16189_251_Weight___Height_,Open Sans Semibold,18,&H006B6B6B,&H000000FF,&H00FFFFFE,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,713,40,153,1
+Style: sign_16189_253_Pistol_Crabtle__,Open Sans Semibold,18,&H006B6B6B,&H000000FF,&H00FFFFFE,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,392,113,27,1
+Style: sign_16189_260_Legs_are________,Open Sans Semibold,18,&H006B6B6B,&H000000FF,&H00FFFFFE,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,316,276,343,1
+Style: sign_16259_261_Bam_,Open Sans Semibold,45,&H0048F7AA,&H000000FF,&H00273329,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,40,387,27,1
+Style: sign_16259_262_This_part_is_fle,Open Sans Semibold,18,&H006B6B6B,&H000000FF,&H00FFFFFE,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,380,340,95,1
+Style: sign_16259_263_Missing__Missing,Open Sans Semibold,24,&H006B6B6B,&H000000FF,&H00FFFFFE,&H00000000,1,0,0,0,100,100,0,0,1,4,0,9,40,40,27,1
+Style: sign_16444_266_What_it_looks_li,Open Sans Semibold,18,&H006B6B6B,&H000000FF,&H00FFFFFE,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,232,420,85,1
+Style: sign_16530_270_Their_relatively,Open Sans Semibold,18,&H006B6B6B,&H000000FF,&H00FFFFFE,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,608,40,248,1
+Style: sign_23635_406_Missing__Missing,Open Sans Semibold,21,&H006B6B6B,&H000000FF,&H00E5EEEF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,16,779,20,1
+Style: sign_35868_582_Eito_Aika,Open Sans Semibold,18,&H19000010,&H000000FF,&H002A2A2D,&H00000000,1,0,0,0,100,100,0,-1,1,0,0,7,53,147,67,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:07.06,0:00:11.07,main,A,0000,0000,0000,,Wh-What the heck is this?!
+Dialogue: 0,0:00:13.65,0:00:15.37,main,Fan,0000,0000,0000,,Tsubame, I'm a huge fan!
+Dialogue: 0,0:00:15.37,0:00:17.04,main,M,0000,0000,0000,,Hey! Thanks for your support.
+Dialogue: 0,0:00:17.04,0:00:18.08,main,Fan,0000,0000,0000,,I'm rooting for you!
+Dialogue: 0,0:00:22.75,0:00:24.98,main,A,0000,0000,0000,,Whoa... Whoa, whoa, whoa!
+Dialogue: 0,0:00:26.79,0:00:27.99,main,M,0000,0000,0000,,Asakusa?!
+Dialogue: 0,0:00:29.61,0:00:31.34,main,A,0000,0000,0000,,I found a robot!
+Dialogue: 0,0:00:31.34,0:00:32.34,main,M,0000,0000,0000,,A robot?!
+Dialogue: 0,0:00:32.34,0:00:35.91,main,A,0000,0000,0000,,It was under a sheet, but the \Nshape was a giant robot.
+Dialogue: 0,0:00:36.46,0:00:39.01,main,A,0000,0000,0000,,I could tell where the head and shoulders were!
+Dialogue: 0,0:00:39.01,0:00:42.13,main,A,0000,0000,0000,,Something is definitely going on in this school!
+Dialogue: 0,0:00:42.13,0:00:44.21,main,M,0000,0000,0000,,Let's go! I wanna see it, too!
+Dialogue: 0,0:00:52.79,0:00:55.65,main,A,0000,0000,0000,,Mizusaki, it's a bad idea to just waltz in.
+Dialogue: 0,0:00:56.02,0:00:57.87,main,M,0000,0000,0000,,I don't see anything.
+Dialogue: 0,0:00:57.87,0:01:00.06,main,A,0000,0000,0000,,Huh... It's gone.
+Dialogue: 0,0:01:07.12,0:01:08.38,sign_1610_16_Iron_Giant_Left_,Sign,0000,0000,0000,,Iron Giant Left Side
+Dialogue: 0,0:01:07.47,0:01:08.80,main,A,0000,0000,0000,,"Iron Giant—"
+Dialogue: 0,0:01:08.80,0:01:11.26,main,M,0000,0000,0000,,There's a bunch of robot books over here!
+Dialogue: 0,0:01:11.25,0:01:12.76,sign_1709_19_Missing,Sign,0000,0000,0000,,{\pos(590,32)\frz282}Science
+Dialogue: 0,0:01:11.25,0:01:12.76,sign_1709_19_Missing,Sign,0000,0000,0000,,{\pos(590,32)\frz282}Shibahama Industrial
+Dialogue: 0,0:01:11.25,0:01:12.76,sign_1709_19_Missing,Sign,0000,0000,0000,,{\frz281\c&H0A0C07&\3c&H171F1B&\pos(423,71)}Introduction to Robotics
+Dialogue: 0,0:01:11.25,0:01:12.76,sign_1709_19_Missing,Sign,0000,0000,0000,,{\frz273\c&H070904&\3c&H1C1D1A&\pos(295,93)}Constructing Heavy Machinery
+Dialogue: 0,0:01:11.86,0:01:12.77,main,A,0000,0000,0000,,Wait.
+Dialogue: 0,0:01:12.77,0:01:15.91,main,A,0000,0000,0000,,Look at the floor. These are robot footprints!
+Dialogue: 0,0:01:17.62,0:01:19.14,main,Goto,0000,0000,0000,,Who are you two?!
+Dialogue: 0,0:01:20.14,0:01:21.47,main,A,0000,0000,0000,,Out the window we go!
+Dialogue: 0,0:01:33.53,0:01:35.49,main,A,0000,0000,0000,,Mizusaki's down...
+Dialogue: 0,0:01:35.97,0:01:38.36,main,A,0000,0000,0000,,Mysterious pursuers, a missing robot...
+Dialogue: 0,0:01:38.36,0:01:39.99,main,A,0000,0000,0000,,And Mizusaki, who has been captured!
+Dialogue: 0,0:01:40.38,0:01:42.94,main,A,0000,0000,0000,,I had thought this was going \Nto be giant robot sci-fi,
+Dialogue: 0,0:01:42.94,0:01:47.05,main,A,0000,0000,0000,,but now it's got the scent \Nof robot crime instead.
+Dialogue: 0,0:01:49.42,0:01:52.50,main,A,0000,0000,0000,,The left side of the iron giant... \NIt's bigger than I thought!
+Dialogue: 0,0:01:52.95,0:01:54.67,main,A,0000,0000,0000,,It really is giant robot sci-fi!
+Dialogue: 0,0:01:55.26,0:01:56.67,sign_2764_33_Lost_Shibahama_C,,0000,0000,0000,,{\fscx120\fscy120\move(320,20,320,-90)}Lost Shibahama Civilization
+Dialogue: 0,0:01:55.26,0:01:57.05,sign_2764_34_________________,,0000,0000,0000,,{\move(75,120,75,-20)\frz359}A unique brand of shamanism that developed into a peculiar scientific culture (maybe)
+Dialogue: 0,0:01:55.26,0:01:57.63,Default,,0000,0000,0000,,{\an7\fscx100\fscy100\p1\move(0,0,0,-190)\c&HE5CEC5&}m 361 153 l 361 188 484 186 484 154
+Dialogue: 0,0:01:55.26,0:01:57.63,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\move(365,160,365,-28)}A robot
+Dialogue: 0,0:01:55.26,0:01:58.22,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\an7\move(0,0,0,-230)\fscx100\fscy100\p1\c&HE6CDC6&}m 403 199 l 405 229 502 232 492 196
+Dialogue: 0,0:01:55.26,0:01:58.22,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\move(410,200,410,-30)}The exterior doesn't \Nlock the joints in\N a particular position
+Dialogue: 0,0:01:55.26,0:01:59.26,sign_2764_34_________________,,0000,0000,0000,,{\move(445,280,445,-30)}Drive system pipes
+Dialogue: 0,0:01:55.26,0:01:59.47,Default,,0000,0000,0000,,{\an7\fscx100\fscy100\p1\bord0\shad0\c&HEFD5CC&\move(0,0,0,-325)}m 35 150 l 36 331 112 331 168 312 185 276 227 208 227 177 169 150
+Dialogue: 0,0:01:55.26,0:01:59.47,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\move(40,155,40,-170)}"archaco technology" details the advanced ancient civilization that existed in Anadoro (present day Shibahama) which had a tradition of worshiping humanoid robots\N\N Though not designed for combat, \Nits size and strength would\N make it quite formidable. \NIt's defenses were\N extremely weak.\NThe metal is the color \Nof brass.
+Dialogue: 0,0:01:55.79,0:02:00.39,main,A,0000,0000,0000,,A lost civilization existed \Nin ancient Shibahama! Maybe.
+Dialogue: 0,0:01:56.44,0:02:00.72,sign_2764_34_________________,,0000,0000,0000,,{\move(40,315,40,-20)}Ancient Anadoro writing
+Dialogue: 0,0:01:56.78,0:02:01.47,sign_2800_42_Joints,,0000,0000,0000,,{\move(310,350,310,-15)}Joints
+Dialogue: 0,0:01:57.97,0:02:02.41,sign_2764_34_________________,,0000,0000,0000,,{\move(115,385,115,40)}This is a kind of\N pronunciation key
+Dialogue: 0,0:01:58.09,0:02:02.41,Default,,0000,0000,0000,,{\an7\move(0,340,0,0)\fscx100\fscy100\p1\bord0\shad0\c&HE9D3CB&}m 283 26 l 280 119 343 122 338 21
+Dialogue: 0,0:01:58.09,0:02:02.41,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\move(285,360,285,20)}Shaky joints\N are the fate\N of all robots\N with\N exoskeletons!
+Dialogue: 0,0:01:58.22,0:02:02.39,sign_2764_34_________________,,0000,0000,0000,,{\move(435,355,435,30)}Six fingers
+Dialogue: 0,0:01:58.86,0:02:02.41,sign_2764_34_________________,,0000,0000,0000,,{\move(15,340,15,65)}Doesn't open\N in the front
+Dialogue: 0,0:01:58.86,0:02:02.41,sign_2764_34_________________,,0000,0000,0000,,{\move(150,340,150,65)}Inuit snow goggles
+Dialogue: 0,0:01:59.34,0:02:02.39,sign_2800_42_Joints,,0000,0000,0000,,{\move(440,355,440,115)}These are heels
+Dialogue: 0,0:02:00.01,0:02:02.41,Default,,0000,0000,0000,,{\an7\move(0,180,0,-10)\fscx100\fscy100\p1\bord0\shad0\c&HEED4CA&}m 394 172 l 394 219 520 221 519 174
+Dialogue: 0,0:02:00.01,0:02:02.41,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\move(395,360,395,170)}Joints with exposed open \Nspaces on both sides make \Nit seem vaguely biological.
+Dialogue: 0,0:02:00.39,0:02:04.07,main,A,0000,0000,0000,,Do those mysterious footprints point \Nto the existence of a giant robot?!
+Dialogue: 0,0:02:01.01,0:02:02.41,sign_2800_42_Joints,,0000,0000,0000,,{\move(455,355,455,245)}Hydraulics
+Dialogue: 0,0:02:01.82,0:02:02.41,sign_2764_34_________________,,0000,0000,0000,,{\move(60,345,60,300)}Hold the drawstring
+Dialogue: 0,0:02:02.41,0:02:03.18,Default,,0000,0000,0000,,{\an7\move(0,0,0,-63)\fscx100\fscy100\p1\bord0\shad0\c&HE7CFC7&}m 444 24 l 446 63 603 65 603 26
+Dialogue: 0,0:02:02.41,0:02:03.18,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\move(450,30,450,-33)}What kind of robot would\N make sense at a school?
+Dialogue: 0,0:02:02.41,0:02:04.81,sign_2935_52_Mysterious_Footp,,0000,0000,0000,,{\move(320,20,320,-175)\fscy200}Mysterious Footprints!!\N\h\h\h\h\h\h\h\h\h{\fscx75} Does the Giant Robot Really Exist?\N{\fs12\fscx105\c&HA46EB2&} From the "Exploring Shibahama" Series
+Dialogue: 0,0:02:02.41,0:02:05.06,sign_2800_42_Joints,,0000,0000,0000,,{\move(190,190,190,-20)}Slacks type
+Dialogue: 0,0:02:02.41,0:02:05.06,sign_2800_42_Joints,,0000,0000,0000,,{\move(300,190,300,-20)}Human body type
+Dialogue: 0,0:02:02.41,0:02:05.06,sign_2800_42_Joints,,0000,0000,0000,,{\move(440,190,440,-15)}Gaiter type
+Dialogue: 0,0:02:02.41,0:02:05.14,sign_2800_42_Joints,,0000,0000,0000,,{\move(80,190,80,-25)}Mechanical type
+Dialogue: 0,0:02:02.41,0:02:05.27,sign_2935_55_Not_the_most_pra,,0000,0000,0000,,{\move(135,225,135,0)}Not the most practical
+Dialogue: 0,0:02:02.41,0:02:05.31,sign_2800_42_Joints,,0000,0000,0000,,{\move(500,210,500,-20)}Beauty of form!
+Dialogue: 0,0:02:02.41,0:02:05.77,sign_2800_42_Joints,,0000,0000,0000,,{\move(365,245,365,-15)}Kneecap armor
+Dialogue: 0,0:02:02.41,0:02:06.02,Default,,0000,0000,0000,,{\an7\move(0,0,0,-285)\fscx100\fscy100\p1\bord0\shad0\c&HF0D5CC&}m 531 228 l 531 282 620 282 619 227
+Dialogue: 0,0:02:02.41,0:02:06.02,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\move(535,225,535,-60)\fs12}Imagining the rest\N of the body based\N on the footprint\Nisn't impossible,\N but...
+Dialogue: 0,0:02:02.41,0:02:06.23,sign_2800_42_Joints,,0000,0000,0000,,{\move(365,280,365,-15)}Gaiter
+Dialogue: 0,0:02:02.41,0:02:06.77,sign_2935_56_Indicative__of_a,,0000,0000,0000,,{\move(95,290,95,-50)}Indicative\N of a\N particular\N designer
+Dialogue: 0,0:02:04.01,0:02:08.94,sign_2764_34_________________,,0000,0000,0000,,{\move(475,355,475,-35)}Speculating on the torso \Nbased on the legs.
+Dialogue: 0,0:02:04.07,0:02:05.95,main,,0000,0000,0000,,{\i1}The Asakusa Expedition Series:{\i0}
+Dialogue: 0,0:02:04.22,0:02:09.31,sign_2764_34_________________,,0000,0000,0000,,{\move(300,355,300,-45)\fs12}When the form resembles a \Nliving creature, it comes across\N as kind of monstrous and scary
+Dialogue: 0,0:02:04.22,0:02:09.48,sign_2764_34_________________,,0000,0000,0000,,{\move(40,355,40,-55)\fs12}The mechanical-type's strengths are clear\Nfrom it's speed and horsepower. Uses weapons primarily\Nin battle, but also has a force field.\N A bad fit for school!
+Dialogue: 0,0:02:05.95,0:02:09.52,main,,0000,0000,0000,,"Speculating on the Whole Body \NBased on the Footprint."
+Dialogue: 0,0:02:06.39,0:02:09.52,sign_2764_35__archacotechnolo,,0000,0000,0000,,{\move(575,355,575,115)}Trapezoid\N aperture.
+Dialogue: 0,0:02:06.56,0:02:09.52,sign_2800_42_Joints,,0000,0000,0000,,{\move(245,355,245,125)}Sword
+Dialogue: 0,0:02:07.73,0:02:09.52,Default,,0000,0000,0000,,{\an7\move(0,140,0,0)\fscx100\fscy100\p1\bord0\shad0\c&HE7CFC7&}m 476 215 l 479 342 626 342 612 212
+Dialogue: 0,0:02:07.73,0:02:09.52,sign_2764_35__archacotechnolo,,0000,0000,0000,,The slacks-type is a robot with a natural outline, and it's hard\N to predict its capabilities. \NIt's kind of scary so I \Nwouldn't want it showing up \Nat school!\N\NThere's also cases where it will purge it's armor to reveal a more biological-looking core body.
+Dialogue: 0,0:02:07.89,0:02:09.52,sign_2764_34_________________,,0000,0000,0000,,{\move(30,355,30,230)}Has lots of\N jetpacks
+Dialogue: 0,0:02:08.23,0:02:09.52,sign_2764_34_________________,,0000,0000,0000,,{\move(255,355,255,255)}Joints snap shut like a jaw.
+Dialogue: 0,0:02:18.59,0:02:19.53,main,,0000,0000,0000,,The robot!
+Dialogue: 0,0:02:20.02,0:02:23.77,main,,0000,0000,0000,,Something about how plain it looks \Nmakes it more realistic, and scary.
+Dialogue: 0,0:02:24.29,0:02:27.45,main,,0000,0000,0000,,Like, it'd barely be able to walk. It's so blocky!
+Dialogue: 0,0:02:27.88,0:02:29.30,main,,0000,0000,0000,,And it's got an action camera for an eye!
+Dialogue: 0,0:02:29.96,0:02:32.71,main,Kobayashi,0000,0000,0000,,Weapons development is behind schedule.
+Dialogue: 0,0:02:32.71,0:02:33.67,main,A,0000,0000,0000,,Kanamori?!
+Dialogue: 0,0:02:33.67,0:02:35.65,main,K,0000,0000,0000,,Would this really be able to kill them?
+Dialogue: 0,0:02:35.65,0:02:39.49,main,Kobayashi,0000,0000,0000,,We're not bloodthirsty. \NSuppression is good enough.
+Dialogue: 0,0:02:39.49,0:02:40.26,main,M,0000,0000,0000,,So...
+Dialogue: 0,0:02:41.38,0:02:42.45,main,M,0000,0000,0000,,No weapons, then?
+Dialogue: 0,0:02:42.45,0:02:43.47,main,A,0000,0000,0000,,Mizusaki!
+Dialogue: 0,0:02:44.17,0:02:47.58,main,A,0000,0000,0000,,She's been brainwashed... \NI can't believe they got her!
+Dialogue: 0,0:02:47.58,0:02:50.39,main,A,0000,0000,0000,,It's now clear that 66% \Nof the Eizouken's members
+Dialogue: 0,0:02:50.39,0:02:53.48,main,A,0000,0000,0000,,are involved with this giant robot!
+Dialogue: 0,0:02:53.48,0:02:55.59,main,A,0000,0000,0000,,But wait... the way things are going,
+Dialogue: 0,0:02:55.59,0:02:57.99,main,A,0000,0000,0000,,the two of them being bad \Nguys could be a red herring,
+Dialogue: 0,0:02:57.99,0:03:01.49,main,A,0000,0000,0000,,when in reality, I'm the real \Nbad guy! And I have amnesia!
+Dialogue: 0,0:03:01.49,0:03:03.49,main,Goto,0000,0000,0000,,It can shoot a rocket from its arm.
+Dialogue: 0,0:03:05.42,0:03:07.49,main,M,0000,0000,0000,,Nice. Can you fire it?
+Dialogue: 0,0:03:07.49,0:03:10.25,main,Goto,0000,0000,0000,,No, not here. It'd be too dangerous.
+Dialogue: 0,0:03:14.34,0:03:16.27,main,Goto,0000,0000,0000,,Hey, it hit somebody!
+Dialogue: 0,0:03:16.27,0:03:17.63,main,M,0000,0000,0000,,Wait, Asakusa?
+Dialogue: 0,0:03:18.04,0:03:19.92,main,Kobayashi,0000,0000,0000,,Aw, shoot! Someone get a towel!
+Dialogue: 0,0:03:19.92,0:03:22.70,main,K,0000,0000,0000,,As usual, she has incredible timing.
+Dialogue: 0,0:03:23.68,0:03:26.18,main,A,0000,0000,0000,,What the heck is that thing?
+Dialogue: 0,0:03:26.18,0:03:27.80,main,Kobayashi,0000,0000,0000,,This is Talos.
+Dialogue: 0,0:03:27.80,0:03:31.15,main,Kobayashi,0000,0000,0000,,A giant model robot that's been passed \Ndown through the robot club's history,
+Dialogue: 0,0:03:31.15,0:03:35.15,main,Kobayashi,0000,0000,0000,,and although it's undergone modifications,\N it dates back over 100 years!
+Dialogue: 0,0:03:35.15,0:03:38.93,main,Kobayashi,0000,0000,0000,,The robot club's roots can be \Ntraced back to the late 1800s,
+Dialogue: 0,0:03:38.93,0:03:41.82,main,Kobayashi,0000,0000,0000,,before anyone knew what a "robot" was,
+Dialogue: 0,0:03:41.82,0:03:44.10,main,Kobayashi,0000,0000,0000,,with a collection of individuals \Nwho studied French culture,
+Dialogue: 0,0:03:44.10,0:03:46.92,main,Kobayashi,0000,0000,0000,,and were fascinated with "The Future Eve."
+Dialogue: 0,0:03:46.92,0:03:52.85,main,Kobayashi,0000,0000,0000,,With the dawn of the 1900s, Japan created\N Asia's first robot, Gakutensoku,
+Dialogue: 0,0:03:52.85,0:03:55.63,main,Kobayashi,0000,0000,0000,,which led to a shift in the \Ngroup's focus to giant robots.
+Dialogue: 0,0:03:55.63,0:03:59.35,main,Kobayashi,0000,0000,0000,,And after basing their first model \Non the robot from 1952's
+Dialogue: 0,0:03:59.35,0:04:02.26,main,Kobayashi,0000,0000,0000,,{\i1}The King and the Mockingbird{\i0}, \Nit's continued to be modified...
+Dialogue: 0,0:04:02.70,0:04:04.43,main,Kobayashi,0000,0000,0000,,To this very day!
+Dialogue: 0,0:04:05.01,0:04:07.51,main,K,0000,0000,0000,,They've just been changing the head—
+Dialogue: 0,0:04:06.42,0:04:07.51,main,A,0000,0000,0000,,Don't!
+Dialogue: 0,0:04:07.91,0:04:10.10,main,A,0000,0000,0000,,What are you two doing here, anyway?
+Dialogue: 0,0:04:10.10,0:04:15.56,main,K,0000,0000,0000,,They're hiring us to make an \Nanime based on this robot.
+Dialogue: 0,0:04:15.56,0:04:18.79,main,A,0000,0000,0000,,Robot! Anime! Fun...
+Dialogue: 0,0:04:19.30,0:04:20.90,main,A,0000,0000,0000,,Wait, what's the catch?
+Dialogue: 0,0:04:20.90,0:04:23.01,main,K,0000,0000,0000,,If nothing else, we'll be getting paid.
+Dialogue: 0,0:04:23.01,0:04:24.41,main,A,0000,0000,0000,,You're such a money-grubber!
+Dialogue: 0,0:04:24.41,0:04:25.10,main,A,0000,0000,0000,,Bam!
+Dialogue: 0,0:04:25.10,0:04:28.49,main,K,0000,0000,0000,,You accept money in order to \Naccept responsibility for a job!
+Dialogue: 0,0:04:29.45,0:04:33.25,main,K,0000,0000,0000,,Pay exists to ensure a \Nquality standard for labor.
+Dialogue: 0,0:04:33.25,0:04:34.70,main,K,0000,0000,0000,,If we're accepting money for this job,
+Dialogue: 0,0:04:34.70,0:04:38.37,main,K,0000,0000,0000,,it means we have an obligation \Nto deliver to a certain standard.
+Dialogue: 0,0:04:38.37,0:04:40.33,main,,0000,0000,0000,,Which sounds more wholesome:
+Dialogue: 0,0:04:40.33,0:04:42.34,main,,0000,0000,0000,,accepting money for something \Nand being responsible for it,
+Dialogue: 0,0:04:42.34,0:04:44.31,main,,0000,0000,0000,,or not getting paid and not \Ncaring how it turns out?
+Dialogue: 0,0:04:45.01,0:04:47.36,main,M,0000,0000,0000,,Yeah, but wouldn't not \Nhaving to worry about money
+Dialogue: 0,0:04:47.36,0:04:50.02,main,M,0000,0000,0000,,and just making anime be the best?
+Dialogue: 0,0:04:50.02,0:04:51.21,main,A,0000,0000,0000,,I was thinking that!
+Dialogue: 0,0:04:51.21,0:04:52.98,main,K,0000,0000,0000,,Absolutely not!
+Dialogue: 0,0:04:53.77,0:04:55.70,main,K,0000,0000,0000,,It's 3.5 meters in height,
+Dialogue: 0,0:04:55.70,0:04:59.17,main,K,0000,0000,0000,,weighs 4.7 tons, and can\N move at up to 70 km/h...
+Dialogue: 0,0:04:59.17,0:05:01.31,main,M,0000,0000,0000,,That's fast... Wait, this thing can run?!
+Dialogue: 0,0:05:01.31,0:05:04.25,main,A,0000,0000,0000,,Nah, that ain't happening. \NIt's got no power source.
+Dialogue: 0,0:05:04.25,0:05:06.61,main,M,0000,0000,0000,,It says they want it to fight a giant monster.
+Dialogue: 0,0:05:06.61,0:05:08.45,main,A,0000,0000,0000,,I don't see how it can be {\i1}all that{\i0} giant.
+Dialogue: 0,0:05:08.45,0:05:11.39,main,Goto,0000,0000,0000,,I mean... three meters is pretty big!
+Dialogue: 0,0:05:11.39,0:05:14.50,main,Ono,0000,0000,0000,,Building-sized giant monsters are unrealistic!
+Dialogue: 0,0:05:14.50,0:05:17.93,main,A,0000,0000,0000,,I dunno about buildings, but a \Ngiraffe is taller than this thing.
+Dialogue: 0,0:05:17.93,0:05:19.36,main,A,0000,0000,0000,,If the monster is only three meters tall,
+Dialogue: 0,0:05:19.36,0:05:21.38,main,A,0000,0000,0000,,wouldn't a heavy machine gun do the job?
+Dialogue: 0,0:05:21.38,0:05:23.33,main,Ono,0000,0000,0000,,Shooting in the middle of \Nthe city is too dangerous,
+Dialogue: 0,0:05:23.33,0:05:24.76,main,Ono,0000,0000,0000,,so they need the robot to take it down!
+Dialogue: 0,0:05:25.08,0:05:27.21,main,M,0000,0000,0000,,Wouldn't ramming it with a truck be easier?
+Dialogue: 0,0:05:27.21,0:05:29.75,main,K,0000,0000,0000,,It says that the monster has a heat attack.
+Dialogue: 0,0:05:29.75,0:05:31.75,main,M,0000,0000,0000,,Okay, now {\i1}that{\i0} is unrealistic!
+Dialogue: 0,0:05:31.75,0:05:33.03,top,A,0000,0000,0000,,Maybe a fire-breathing giraffe...
+Dialogue: 0,0:05:31.75,0:05:34.77,main,K,0000,0000,0000,,I'd like to get a broad estimate on the budget,
+Dialogue: 0,0:05:33.03,0:05:35.57,top,A,0000,0000,0000,,No, it could be a rhino that threatens \Nto burn the whole city down.
+Dialogue: 0,0:05:34.77,0:05:39.27,main,K,0000,0000,0000,,so I can break down the time frame \Nand the work hours involved.
+Dialogue: 0,0:05:35.57,0:05:36.80,top,A,0000,0000,0000,,Like how the Asian bombardier beetle can
+Dialogue: 0,0:05:36.80,0:05:38.58,top,A,0000,0000,0000,,emit a gas that's over 100 degrees Celsius.
+Dialogue: 0,0:05:38.58,0:05:39.27,top,M,0000,0000,0000,,Seriously?
+Dialogue: 0,0:05:39.27,0:05:40.34,main,M,0000,0000,0000,,You'd need a machine gun for sure.
+Dialogue: 0,0:05:40.34,0:05:41.73,main,A,0000,0000,0000,,Y'know, "massive frontal profile"
+Dialogue: 0,0:05:41.73,0:05:43.78,top,K,0000,0000,0000,,It'll also help with my analysis, \Nwhich is already under way,
+Dialogue: 0,0:05:41.73,0:05:45.30,main,A,0000,0000,0000,,is basically giant humanoid \Nrobots in a nutshell.
+Dialogue: 0,0:05:43.78,0:05:46.26,top,K,0000,0000,0000,,and knowing exactly how much \Nmore I need to figure out.
+Dialogue: 0,0:05:45.30,0:05:48.21,main,M,0000,0000,0000,,Having an opening in the front \Nwould be like an exposed weakness,
+Dialogue: 0,0:05:48.21,0:05:50.33,main,M,0000,0000,0000,,so wouldn't it make more sense \Nfor the hatch to be on the back?
+Dialogue: 0,0:05:49.28,0:05:50.33,top,Robot Club,0000,0000,0000,,These...
+Dialogue: 0,0:05:50.33,0:05:51.18,main,Robot Club,0000,0000,0000,,...girls...
+Dialogue: 0,0:05:51.18,0:05:51.77,main,Robot Club,0000,0000,0000,,...are...
+Dialogue: 0,0:05:51.77,0:05:54.94,main,Robot Club,0000,0000,0000,,...annoying!
+Dialogue: 0,0:05:57.58,0:06:01.00,sign_8574_166_Episode_5__An_Ir,Eptitle sign,0000,0000,0000,,{\fad(515,515)}Episode 5       {\fscx125}An Iron Giant Appears!
+Dialogue: 0,0:06:54.22,0:06:55.37,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep
+Dialogue: 0,0:06:56.64,0:06:57.74,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Your
+Dialogue: 0,0:06:59.27,0:07:00.29,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Hands
+Dialogue: 0,0:07:01.69,0:07:02.67,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Off
+Dialogue: 0,0:07:03.00,0:07:13.66,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:07:13.66,0:07:21.87,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:07:26.79,0:07:28.02,main,K,0000,0000,0000,,Is this it?
+Dialogue: 0,0:07:28.02,0:07:29.07,main,A,0000,0000,0000,,Seems like it.
+Dialogue: 0,0:07:29.07,0:07:31.25,main,M,0000,0000,0000,,Man, it goes so far down!
+Dialogue: 0,0:07:33.13,0:07:35.73,main,A,0000,0000,0000,,This underground pit is supposed \Nto predate the school's construction.
+Dialogue: 0,0:07:35.73,0:07:36.98,main,K,0000,0000,0000,,Why, exactly?
+Dialogue: 0,0:07:36.98,0:07:40.91,main,A,0000,0000,0000,,They built it beforehand to make it easier\Nto maintain pipes and the like.
+Dialogue: 0,0:07:40.91,0:07:42.98,main,M,0000,0000,0000,,This is absolutely the kind of \Nplace a creature would pop up!
+Dialogue: 0,0:07:45.75,0:07:47.38,main,M,0000,0000,0000,,Are you scared, Asakusa?
+Dialogue: 0,0:07:48.26,0:07:52.08,main,M,0000,0000,0000,,All right, let's start scouting the location \Nfor our robot-versus-monster battle!
+Dialogue: 0,0:07:52.08,0:07:53.69,main,A,0000,0000,0000,,But I don't like being scared!
+Dialogue: 0,0:07:53.69,0:07:56.79,main,M,0000,0000,0000,,You're the one who wanted to \Nstage the battle down here.
+Dialogue: 0,0:08:01.73,0:08:03.18,main,M,0000,0000,0000,,And we're already stuck.
+Dialogue: 0,0:08:03.18,0:08:04.73,main,A,0000,0000,0000,,It's rusted shut.
+Dialogue: 0,0:08:04.73,0:08:06.63,main,A,0000,0000,0000,,I think I've got some oil...
+Dialogue: 0,0:08:10.51,0:08:11.88,main,A,0000,0000,0000,,Scared...
+Dialogue: 0,0:08:11.88,0:08:13.50,main,A,0000,0000,0000,,Well, it didn't open! Let's leave!
+Dialogue: 0,0:08:13.50,0:08:15.51,main,K,0000,0000,0000,,There's no such thing as \Na door that doesn't open.
+Dialogue: 0,0:08:15.51,0:08:18.07,main,K,0000,0000,0000,,A door's whole job is opening.
+Dialogue: 0,0:08:18.07,0:08:19.38,main,K,0000,0000,0000,,So do your damn job!
+Dialogue: 0,0:08:19.38,0:08:20.38,main,,0000,0000,0000,,
+Dialogue: 0,0:08:21.55,0:08:25.36,main,M,0000,0000,0000,,Classic Kanamori! She can even get \Ninanimate objects to fall in line.
+Dialogue: 0,0:08:25.36,0:08:28.19,main,K,0000,0000,0000,,Considering this isn't live action, \Nis location scouting really necessary?
+Dialogue: 0,0:08:28.54,0:08:30.25,main,A,0000,0000,0000,,Experience makes a difference.
+Dialogue: 0,0:08:30.25,0:08:33.34,main,K,0000,0000,0000,,For the record, I'm not here \Nto play explorer with you two.
+Dialogue: 0,0:08:33.34,0:08:34.70,main,A,0000,0000,0000,,It helps stoke...
+Dialogue: 0,0:08:36.39,0:08:38.08,main,A,0000,0000,0000,,the imagination.
+Dialogue: 0,0:08:40.95,0:08:44.17,main,M,0000,0000,0000,,Seems pretty... haunted down here, huh?
+Dialogue: 0,0:08:52.84,0:08:55.34,sign_12776_200_Asakusa_s_Anti_P,Sign,0000,0000,0000,,{\pos(145,182)}Asakusa's Anti-Poltergeist Loadout
+Dialogue: 0,0:08:57.09,0:08:59.79,main,M,0000,0000,0000,,Hey, it's those shoes for kids \Nthat light up when you walk!
+Dialogue: 0,0:08:59.79,0:09:02.81,main,A,0000,0000,0000,,We're looking for monsters, \Nnot ghosts! Get serious!
+Dialogue: 0,0:09:02.81,0:09:08.53,main,M,0000,0000,0000,,Oh, I'm sorry! What else do \Nyou have in that bag, Asakusa?
+Dialogue: 0,0:09:08.53,0:09:09.48,main,A,0000,0000,0000,,I'm not saying!
+Dialogue: 0,0:09:09.48,0:09:12.60,main,K,0000,0000,0000,,Would you two please focus on this?
+Dialogue: 0,0:09:12.60,0:09:15.86,main,K,0000,0000,0000,,We're going to have the spotlight \Nat the culture festival.
+Dialogue: 0,0:09:16.25,0:09:17.74,main,A,0000,0000,0000,,You didn't mention that!
+Dialogue: 0,0:09:17.74,0:09:21.83,main,K,0000,0000,0000,,The theme this year is robots, so the\N robot club will be the big stars.
+Dialogue: 0,0:09:21.83,0:09:26.66,main,K,0000,0000,0000,,We're doing a promotional video for them,\N which will be good for us, too.
+Dialogue: 0,0:09:26.66,0:09:28.15,main,M,0000,0000,0000,,That's a pretty big spotlight!
+Dialogue: 0,0:09:28.15,0:09:29.71,main,A,0000,0000,0000,,I'd settle for a desk lamp.
+Dialogue: 0,0:09:29.71,0:09:32.91,main,A,0000,0000,0000,,I've always preferred quiet places, \Naway from the lights.
+Dialogue: 0,0:09:32.91,0:09:34.76,main,M,0000,0000,0000,,I thought you were afraid of the dark.
+Dialogue: 0,0:09:34.76,0:09:39.65,main,K,0000,0000,0000,,If you want people to appreciate your work, \Nit needs to see the light of day.
+Dialogue: 0,0:09:39.65,0:09:42.19,main,A,0000,0000,0000,,Isn't that the exact opposite \Nof what we're doing right now?!
+Dialogue: 0,0:09:42.19,0:09:46.79,main,A,0000,0000,0000,,And for the record, dark places \Ndon't bother me. Creepy ones do!
+Dialogue: 0,0:09:50.14,0:09:52.34,main,A,0000,0000,0000,,Those boards are gonna break! \NWalk along the walls!
+Dialogue: 0,0:09:52.34,0:09:53.85,main,K,0000,0000,0000,,It'll be fine.
+Dialogue: 0,0:09:53.85,0:09:55.65,main,A,0000,0000,0000,,But they sound so dull. And soft.
+Dialogue: 0,0:09:55.65,0:09:56.89,main,A,0000,0000,0000,,They're rotten!
+Dialogue: 0,0:09:56.89,0:09:58.66,main,A,0000,0000,0000,,If there's a big hole underneath, we'll be dead!
+Dialogue: 0,0:09:59.63,0:10:02.66,main,K,0000,0000,0000,,It looks like there's more space up ahead.
+Dialogue: 0,0:10:04.45,0:10:06.82,main,M,0000,0000,0000,,Fantastic! This place is perfect!
+Dialogue: 0,0:10:06.82,0:10:08.55,main,K,0000,0000,0000,,You're taking pictures too, Mizusaki?
+Dialogue: 0,0:10:08.55,0:10:09.54,main,M,0000,0000,0000,,Of course I am!
+Dialogue: 0,0:10:09.54,0:10:11.15,main,M,0000,0000,0000,,There's background animation to consider,
+Dialogue: 0,0:10:11.15,0:10:13.71,main,M,0000,0000,0000,,and the setting influences the movement!
+Dialogue: 0,0:10:15.30,0:10:18.38,main,M,0000,0000,0000,,Like that beam that looks \Nlike it could collapse!
+Dialogue: 0,0:10:27.39,0:10:28.91,main,K,0000,0000,0000,,What exactly are you doing?
+Dialogue: 0,0:10:28.91,0:10:30.54,main,A,0000,0000,0000,,Picturing the in-frame imagery, I bet.
+Dialogue: 0,0:10:30.54,0:10:33.25,main,K,0000,0000,0000,,That looks an awful lot like screwing around.
+Dialogue: 0,0:10:33.25,0:10:34.65,main,A,0000,0000,0000,,Well, it kind of is.
+Dialogue: 0,0:10:35.01,0:10:36.74,main,A,0000,0000,0000,,We're making something fun.
+Dialogue: 0,0:10:36.74,0:10:39.61,main,A,0000,0000,0000,,It's better to get out in the world \Nthan stare at a blank sheet of paper.
+Dialogue: 0,0:10:40.09,0:10:42.63,main,A,0000,0000,0000,,Locations like this feed your imagination.
+Dialogue: 0,0:10:42.63,0:10:45.25,main,A,0000,0000,0000,,The things you experience \Npersonally lead to originality.
+Dialogue: 0,0:10:45.25,0:10:46.30,main,A,0000,0000,0000,,Do you follow?
+Dialogue: 0,0:10:47.31,0:10:50.12,main,K,0000,0000,0000,,Over your fear of the dark now?
+Dialogue: 0,0:10:54.14,0:10:56.43,main,A,0000,0000,0000,,I forgot until you reminded me.
+Dialogue: 0,0:10:56.43,0:10:57.88,main,M,0000,0000,0000,,Asakusa!
+Dialogue: 0,0:10:57.88,0:10:59.09,main,M,0000,0000,0000,,Come here for a sec!
+Dialogue: 0,0:10:59.09,0:11:00.22,main,A,0000,0000,0000,,Whatcha want?
+Dialogue: 0,0:11:00.61,0:11:03.66,main,M,0000,0000,0000,,I want the monster to blast out of here!
+Dialogue: 0,0:11:03.66,0:11:04.90,main,A,0000,0000,0000,,From water?
+Dialogue: 0,0:11:04.90,0:11:05.97,main,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:08.27,0:11:10.37,main,A,0000,0000,0000,,From out of the mist it appears...
+Dialogue: 0,0:11:10.37,0:11:12.14,main,A,0000,0000,0000,,A giant pistol crabtle!
+Dialogue: 0,0:11:12.14,0:11:13.48,main,M,0000,0000,0000,,Is that the right size?
+Dialogue: 0,0:11:13.92,0:11:16.10,main,A,0000,0000,0000,,It's a giant monster with \Nan arm like a pistol shrimp,
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_250_A_Turtle_x_Crab_,,0000,0000,0000,,{\fscy130}A Turtle x Crab\N Monster That Has\N the Claw of a\N Pistol Shrimp!
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_251_Weight___Height_,,0000,0000,0000,,{\fscy130}Weight:\N Height:\N Length:
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_251_Weight___Height_,,0000,0000,0000,,{\pos(557,211)}Has no tail
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\pos(299,14)}Pistol Crabtle:\N Combines Crab and\N "tle" from turtle"
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\pos(239,59)}The shell's thickness can change\N over time. Used defensively, \Nbut also helps with thermoregulation.
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\pos(411,162)}Crab liver
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\pos(435,193)}Crab intestines
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\pos(368,165)}Crab stomach
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\pos(480,266)}The crabtle has two arms and four legs.\N These legs are supporting a body\N that weighs over six tons.
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_251_Weight___Height_,,0000,0000,0000,,{\pos(208,104)}Crab vision:\NNot particularly\Ngood or bad
+Dialogue: 0,0:11:15.21,0:11:18.13,sign_16189_260_Legs_are________,,0000,0000,0000,,Legs are covered in scales
+Dialogue: 0,0:11:16.10,0:11:18.04,main,A,0000,0000,0000,,that resembles both a crab and a turtle.
+Dialogue: 0,0:11:18.04,0:11:21.67,main,A,0000,0000,0000,,By locking its open claw, flexing, \Nand then releasing the lock,
+Dialogue: 0,0:11:18.13,0:11:25.85,sign_16259_261_Bam_,,0000,0000,0000,,Bam!
+Dialogue: 0,0:11:18.13,0:11:25.85,sign_16259_262_This_part_is_fle,,0000,0000,0000,,{\b1}This part is flexible
+Dialogue: 0,0:11:18.13,0:11:25.85,sign_16259_263_Missing__Missing,,0000,0000,0000,,Locks it's open claw, builds up it's strength,\N and releases the lock to slam it shut,\N causing a shockwave.\N\NCan defeat an African elephant in an instant.\N\NIs more dangerous in the water.
+Dialogue: 0,0:11:21.67,0:11:25.29,main,A,0000,0000,0000,,the claws snap shut with a ton of force,\N causing a powerful shock wave!
+Dialogue: 0,0:11:25.83,0:11:28.51,main,A,0000,0000,0000,,It likes to eat Japanese alders \Nthat grow in wetlands.
+Dialogue: 0,0:11:25.85,0:11:29.43,sign_16259_262_This_part_is_fle,,0000,0000,0000,,{\pos(52,94)\b1}Likes to eat Japanese alders that grow in wetlands
+Dialogue: 0,0:11:25.85,0:11:29.43,sign_16444_266_What_it_looks_li,,0000,0000,0000,,{\b1}What it looks like when eating
+Dialogue: 0,0:11:25.85,0:11:29.43,sign_16444_266_What_it_looks_li,,0000,0000,0000,,{\pos(362,67)\b1}Closes with over one ton of force,\N but its opening strength isn't remarkable. Like a crocodile's jaws.
+Dialogue: 0,0:11:25.85,0:11:29.43,sign_16444_266_What_it_looks_li,,0000,0000,0000,,{\pos(355,141)}Omnivorous; will eat wood,\N aquatic plants, and algae.
+Dialogue: 0,0:11:25.85,0:11:29.43,sign_16259_262_This_part_is_fle,,0000,0000,0000,,{\pos(491,288)}Here it's eating water\N chestnuts. Will not eat\N them when they are \Nstill covered in spines.
+Dialogue: 0,0:11:29.43,0:11:31.37,main,A,0000,0000,0000,,They're generally pretty docile,\N and in the old days,
+Dialogue: 0,0:11:29.43,0:11:42.76,sign_16530_270_Their_relatively,,0000,0000,0000,,Their relatively docile nature meant\N that, in the old days, people who\N lived in the wetlands used them\N for trade and land development.
+Dialogue: 0,0:11:31.37,0:11:35.67,main,A,0000,0000,0000,,they helped the people of the wetlands \Nwith trade and land development!
+Dialogue: 0,0:11:36.75,0:11:39.18,main,K,0000,0000,0000,,That sounds more like livestock.
+Dialogue: 0,0:11:39.18,0:11:40.73,main,M,0000,0000,0000,,It's endearing, though.
+Dialogue: 0,0:11:42.76,0:11:47.63,main,A,0000,0000,0000,,Couldn't you turn it into roast crab \Nwith a flamethrower, even without a robot?
+Dialogue: 0,0:11:47.63,0:11:49.85,main,K,0000,0000,0000,,You're going to set the robot club off again.
+Dialogue: 0,0:11:49.85,0:11:53.89,main,M,0000,0000,0000,,Asakusa, sometimes your focus on \Nrealism can be pretty harsh on fiction.
+Dialogue: 0,0:11:53.89,0:11:56.27,main,A,0000,0000,0000,,Facing it will be our robot!
+Dialogue: 0,0:11:56.27,0:11:58.09,main,M,0000,0000,0000,,What should its weapon be?
+Dialogue: 0,0:11:58.09,0:12:00.09,main,A,0000,0000,0000,,How about fighting with a chainsaw?
+Dialogue: 0,0:12:00.61,0:12:02.33,main,M,0000,0000,0000,,Do you know how much work \Nthose teeth are to draw?!
+Dialogue: 0,0:12:02.33,0:12:04.78,main,A,0000,0000,0000,,You can't tell them apart when \Nit's spinning, so it's fine.
+Dialogue: 0,0:12:05.14,0:12:06.03,main,A,0000,0000,0000,,The handle!
+Dialogue: 0,0:12:06.03,0:12:07.53,main,A,0000,0000,0000,,A recoil starter!
+Dialogue: 0,0:12:14.55,0:12:17.54,main,A,0000,0000,0000,,The pistol crab's special attack \Nis the massive shock wave
+Dialogue: 0,0:12:17.54,0:12:22.55,main,A,0000,0000,0000,,generated when it unlocks \N its claw after flexing!
+Dialogue: 0,0:12:23.99,0:12:25.93,main,K,0000,0000,0000,,That's kind of like a forehead flick.
+Dialogue: 0,0:12:28.01,0:12:30.02,main,A,0000,0000,0000,,So the robot digs into the \Nground with the chainsaw...
+Dialogue: 0,0:12:31.27,0:12:32.68,main,A,0000,0000,0000,,And uses it to move faster!
+Dialogue: 0,0:12:35.02,0:12:37.40,main,M,0000,0000,0000,,That's really intense! It seems super strong!
+Dialogue: 0,0:12:37.91,0:12:38.96,main,A,0000,0000,0000,,Let's head back!
+Dialogue: 0,0:12:38.96,0:12:40.40,main,K,0000,0000,0000,,You're just scared, aren't you?!
+Dialogue: 0,0:12:41.03,0:12:42.61,main,M,0000,0000,0000,,Asakusa—
+Dialogue: 0,0:12:42.61,0:12:43.82,main,A,0000,0000,0000,,Hang on, don't push!
+Dialogue: 0,0:12:51.91,0:12:52.79,main,A,0000,0000,0000,,We fell!
+Dialogue: 0,0:12:52.79,0:12:54.44,main,K,0000,0000,0000,,I noticed.
+Dialogue: 0,0:12:54.44,0:12:56.65,main,A,0000,0000,0000,,This is why I said to walk along the walls!
+Dialogue: 0,0:12:56.65,0:12:59.07,main,M,0000,0000,0000,,We're lucky these leaves were here.
+Dialogue: 0,0:12:59.07,0:13:01.59,main,M,0000,0000,0000,,And it's nice and warm.
+Dialogue: 0,0:13:01.59,0:13:04.54,main,M,0000,0000,0000,,Let's calm down and call for―
+Dialogue: 0,0:13:03.42,0:13:04.54,main,K,0000,0000,0000,,No reception.
+Dialogue: 0,0:13:06.01,0:13:08.85,main,M,0000,0000,0000,,This place was used to dump leaves.
+Dialogue: 0,0:13:09.47,0:13:12.10,main,M,0000,0000,0000,,And it's warm because the \Nleaves are fermenting!
+Dialogue: 0,0:13:12.10,0:13:13.70,main,M,0000,0000,0000,,Which means there's gas everywhere...
+Dialogue: 0,0:13:13.70,0:13:16.06,main,M,0000,0000,0000,,If we stay here for too long, we'll die!
+Dialogue: 0,0:13:16.06,0:13:17.81,sign_19087_323_Dead,Halo sign,0000,0000,0000,,Dead
+Dialogue: 0,0:13:18.49,0:13:19.82,main,A,0000,0000,0000,,At times like this...
+Dialogue: 0,0:13:20.25,0:13:21.32,main,A,0000,0000,0000,,You take out your rope,
+Dialogue: 0,0:13:21.69,0:13:22.82,main,A,0000,0000,0000,,take a sock off,
+Dialogue: 0,0:13:22.82,0:13:25.32,main,A,0000,0000,0000,,put your Swiss army knife in the sock,
+Dialogue: 0,0:13:25.32,0:13:27.70,main,A,0000,0000,0000,,tie it to the rope, and throw it!
+Dialogue: 0,0:13:28.17,0:13:29.95,main,A,0000,0000,0000,,Take out your collapsible shovel,
+Dialogue: 0,0:13:29.95,0:13:32.40,main,A,0000,0000,0000,,pile up the leaves and dirt in one spot,
+Dialogue: 0,0:13:32.40,0:13:33.95,main,A,0000,0000,0000,,to get some height...
+Dialogue: 0,0:13:34.66,0:13:35.79,main,A,0000,0000,0000,,And escape!
+Dialogue: 0,0:13:35.79,0:13:36.83,main,M,0000,0000,0000,,Holy cow.
+Dialogue: 0,0:13:36.83,0:13:38.46,main,K,0000,0000,0000,,That's just who she is.
+Dialogue: 0,0:13:39.94,0:13:42.67,main,K,0000,0000,0000,,Now that we've got our \Nsuggestions for the setting,
+Dialogue: 0,0:13:42.67,0:13:45.01,main,K,0000,0000,0000,,it's time for a meeting with the robot club.
+Dialogue: 0,0:13:45.49,0:13:47.34,main,M,0000,0000,0000,,Did you get a haircut, Kanamori?
+Dialogue: 0,0:13:47.34,0:13:48.30,main,K,0000,0000,0000,,I did.
+Dialogue: 0,0:13:48.30,0:13:51.95,main,A,0000,0000,0000,,Girls, this is our first paid job!
+Dialogue: 0,0:13:51.95,0:13:53.74,main,A,0000,0000,0000,,We'll need game faces on in there!
+Dialogue: 0,0:13:53.74,0:13:57.47,main,M,0000,0000,0000,,I didn't know you could be so motivational.
+Dialogue: 0,0:13:58.01,0:13:59.53,main,K,0000,0000,0000,,She's awkward in conversations,
+Dialogue: 0,0:13:59.53,0:14:02.27,main,K,0000,0000,0000,,so she tries to sound quirky \Nas an emotional defense.
+Dialogue: 0,0:14:02.27,0:14:03.74,main,A,0000,0000,0000,,Are you trying to make me more defensive?!
+Dialogue: 0,0:14:03.74,0:14:05.87,main,K,0000,0000,0000,,The deal is basically done already,
+Dialogue: 0,0:14:05.87,0:14:08.16,main,K,0000,0000,0000,,so the presentation should \Nbe a piece of cake.
+Dialogue: 0,0:14:08.16,0:14:12.06,main,K,0000,0000,0000,,We won't try to sell them \Non our own suggestions,
+Dialogue: 0,0:14:12.06,0:14:14.41,main,K,0000,0000,0000,,but instead, choose one of \Ntheir suggestions to work on,
+Dialogue: 0,0:14:14.41,0:14:17.99,main,K,0000,0000,0000,,all while nudging things in \Nthe direction we want to take.
+Dialogue: 0,0:14:17.99,0:14:20.04,main,A,0000,0000,0000,,Do you think they'll get mad again?
+Dialogue: 0,0:14:20.04,0:14:22.91,main,K,0000,0000,0000,,It's not an actual disagreement,
+Dialogue: 0,0:14:22.91,0:14:26.80,main,K,0000,0000,0000,,so as long as they think they're in charge,\N it'll be a pretty smooth process.
+Dialogue: 0,0:14:26.80,0:14:32.43,main,K,0000,0000,0000,,But for the worst case scenario... \NIt wouldn't hurt to have an advantage.
+Dialogue: 0,0:14:32.43,0:14:34.66,main,K,0000,0000,0000,,I'll put my feelers out for blackmail bait.
+Dialogue: 0,0:14:35.31,0:14:37.17,main,Ono,0000,0000,0000,,The eizouken is bad news!
+Dialogue: 0,0:14:37.17,0:14:38.42,main,Ono,0000,0000,0000,,They're nothing but trouble!
+Dialogue: 0,0:14:38.42,0:14:42.49,main,Ono,0000,0000,0000,,I heard them mention that nonsense \Nabout frontal profiles myself!
+Dialogue: 0,0:14:42.49,0:14:43.58,main,Kobayashi,0000,0000,0000,,There goes Ono, again.
+Dialogue: 0,0:14:43.58,0:14:47.40,main,Ono,0000,0000,0000,,Those girls don't even enjoy fictional robots!
+Dialogue: 0,0:14:47.40,0:14:49.30,main,Ono,0000,0000,0000,,The entire reason we wanted this anime made
+Dialogue: 0,0:14:49.30,0:14:53.64,main,Ono,0000,0000,0000,,was to secure funding for our new giant robot!
+Dialogue: 0,0:14:53.64,0:14:55.50,main,Kobayashi,0000,0000,0000,,Yeah, but—
+Dialogue: 0,0:14:54.37,0:14:55.50,top,Ono,0000,0000,0000,,And who are we partnered with?!
+Dialogue: 0,0:14:55.50,0:14:59.07,main,Ono,0000,0000,0000,,The kind of plebs that would make an \Nanime about a robot losing to a tank!
+Dialogue: 0,0:14:59.07,0:15:02.29,main,Ono,0000,0000,0000,,Even though the entire point of giant \Nrobots is that they're a fantasy!
+Dialogue: 0,0:15:03.62,0:15:07.26,main,Ono,0000,0000,0000,,Here! This is the plan I've put together \Nto keep the eizouken under control!
+Dialogue: 0,0:15:07.26,0:15:09.06,main,Goto,0000,0000,0000,,When did you have time to make this?
+Dialogue: 0,0:15:07.26,0:15:17.14,sign_21753_367_Take_Down_the_Ei,Whiteboard sign,0000,0000,0000,,{\frz-26.57\pos(9,135)\fax0.52}Take Down the Eizouken
+Dialogue: 0,0:15:09.06,0:15:11.70,main,Ono,0000,0000,0000,,We need to think seriously \Nabout one thing!
+Dialogue: 0,0:15:11.70,0:15:14.84,main,Ono,0000,0000,0000,,Our love for robots, which the \Neizouken could never understand!
+Dialogue: 0,0:15:14.84,0:15:17.93,main,Ono,0000,0000,0000,,And the beauty of that love, and our ideology!
+Dialogue: 0,0:15:17.93,0:15:21.10,main,Ono,0000,0000,0000,,At this rate, we're going to be \Nresponsible for a reprehensible anime,
+Dialogue: 0,0:15:21.49,0:15:24.50,top,Ono,0000,0000,0000,,with the eizouken cooking up \Nsomething full of homing lasers
+Dialogue: 0,0:15:21.69,0:15:23.08,main,K,0000,0000,0000,,Excuse us...
+Dialogue: 0,0:15:23.08,0:15:24.50,main,K,0000,0000,0000,,Excuse us!
+Dialogue: 0,0:15:24.50,0:15:25.34,main,A,0000,0000,0000,,No response.
+Dialogue: 0,0:15:24.50,0:15:27.31,top,Ono,0000,0000,0000,,and sudden power ups, instead of realism!
+Dialogue: 0,0:15:25.34,0:15:26.59,main,M,0000,0000,0000,,He is being loud.
+Dialogue: 0,0:15:26.59,0:15:27.31,main,Kobayashi,0000,0000,0000,,Ono...
+Dialogue: 0,0:15:27.31,0:15:28.23,main,Kobayashi,0000,0000,0000,,Wait, Ono!
+Dialogue: 0,0:15:28.23,0:15:31.07,main,Kobayashi,0000,0000,0000,,Before you said the whole appeal \Nof giant robots is the fantasy!
+Dialogue: 0,0:15:30.23,0:15:31.07,top,K,0000,0000,0000,,Excuse us.
+Dialogue: 0,0:15:31.07,0:15:33.07,main,K,0000,0000,0000,,We're here.
+Dialogue: 0,0:15:31.07,0:15:33.07,sign_22324_384_Take_Down_the_Ei,Whiteboard sign,0000,0000,0000,,{\fscx115\fscy115\move(350,130,275,130)}Take Down the Eizouken
+Dialogue: 0,0:15:31.07,0:15:35.05,top,Ono,0000,0000,0000,,Before that unrealistic nonsense gets made,
+Dialogue: 0,0:15:33.07,0:15:39.20,sign_22372_385_Take_Down_the_Ei,Whiteboard sign,0000,0000,0000,,Take Down the Eizouken
+Dialogue: 0,0:15:35.05,0:15:38.61,main,Ono,0000,0000,0000,,we need to find some advantage \Nover the eizouken!
+Dialogue: 0,0:15:41.82,0:15:46.21,main,K,0000,0000,0000,,Well, our client certainly \Ndoesn't seem to trust us.
+Dialogue: 0,0:15:46.65,0:15:48.21,main,Ono,0000,0000,0000,,Forgive me...
+Dialogue: 0,0:15:48.21,0:15:49.82,main,K,0000,0000,0000,,Such a lack of faith.
+Dialogue: 0,0:15:49.82,0:15:52.47,main,K,0000,0000,0000,,There have been times when this sort of \Nthing could get you executed, you know?
+Dialogue: 0,0:15:52.47,0:15:54.30,sign_22837_392_Take_Down_the_Ei,Whiteboard sign,0000,0000,0000,,Take Down the Eizouken
+Dialogue: 0,0:15:52.47,0:15:56.85,main,K,0000,0000,0000,,I think I'll make a record \Nof this, for future use.
+Dialogue: 0,0:15:54.39,0:15:56.72,sign_22881_393_Take_Down_the_Ei,,0000,0000,0000,,{\fscx115\fscy115}Take Down the Eizouken
+Dialogue: 0,0:15:56.85,0:15:57.72,sign_22881_393_Take_Down_the_Ei,Whiteboard sign,0000,0000,0000,,Take Down the Eizouken
+Dialogue: 0,0:15:58.23,0:16:01.02,main,A,0000,0000,0000,,Kanamori is really good at negotiating.
+Dialogue: 0,0:16:01.02,0:16:02.98,main,M,0000,0000,0000,,I don't know if that's what I'd call it.
+Dialogue: 0,0:16:08.33,0:16:09.82,main,Seki,0000,0000,0000,,Your tea.
+Dialogue: 0,0:16:10.35,0:16:12.17,main,K,0000,0000,0000,,We've got our documents right here.
+Dialogue: 0,0:16:12.17,0:16:12.99,main,Ono,0000,0000,0000,,Right...
+Dialogue: 0,0:16:12.99,0:16:16.51,main,K,0000,0000,0000,,Asakusa, you can show them the actual proposal.
+Dialogue: 0,0:16:16.51,0:16:17.91,main,A,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:16:17.91,0:16:21.41,main,K,0000,0000,0000,,The idea is for it to take place on \Nthe Shibahama High School campus.
+Dialogue: 0,0:16:21.41,0:16:22.26,main,Kobayashi,0000,0000,0000,,All right...
+Dialogue: 0,0:16:22.26,0:16:25.75,main,K,0000,0000,0000,,Next are the details on the giant monster.
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_250_A_Turtle_x_Crab_,,0000,0000,0000,,{\fscy130\frz4.43\an1\pos(441,56)}A Turtle x Crab\N Monster That Has\N the Claw of a\N Pistol Shrimp!
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_251_Weight___Height_,,0000,0000,0000,,{\fscy130\frz4.43\pos(530,58)\3c&HE5EEEF&}Weight:\N Height:\N Length:
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_251_Weight___Height_,,0000,0000,0000,,{\3c&HE5EEEF&\frz4.43\pos(565,151)}Has no tail
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(345,-13)}Pistol Crabtle:\N Combines Crab and\N "tle" from turtle"
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(228,42)}The shell's thickness can change over time. Is used defensively, but also helps with thermoregulation.
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(416,120)}Crab liver
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(443,150)}Crab intestines
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(371,130)}Crab stomach
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_253_Pistol_Crabtle__,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(417,234)}The crabtle has two arms\N and four legs. These legs\N are supporting a body\N that weighs over six tons.
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_251_Weight___Height_,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(202,87)}Crab vision:\NNot particularly\Ngood or bad
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_260_Legs_are________,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(245,252)}Legs are covered in scales
+Dialogue: 0,0:16:25.75,0:16:40.89,sign_16189_260_Legs_are________,,0000,0000,0000,,{\3c&HE5EEEF&\frz5\pos(166,327)}View from above
+Dialogue: 0,0:16:26.51,0:16:27.35,main,Kobayashi,0000,0000,0000,,Is that a turtle?
+Dialogue: 0,0:16:27.35,0:16:29.14,main,A,0000,0000,0000,,I-It's a crabtle.
+Dialogue: 0,0:16:29.14,0:16:33.00,main,A,0000,0000,0000,,From combining crab and turtle... crabtle.
+Dialogue: 0,0:16:33.00,0:16:36.52,main,A,0000,0000,0000,,It can generate shock waves with \Nits claws, and has a heat attack.
+Dialogue: 0,0:16:36.52,0:16:39.47,main,A,0000,0000,0000,,Underwater, it can create \Ncavitation by closing its claws,
+Dialogue: 0,0:16:39.47,0:16:40.89,main,A,0000,0000,0000,,which results in sonoluminescence,
+Dialogue: 0,0:16:40.89,0:16:44.05,main,A,0000,0000,0000,,the plasma from which reaches \Na temperature of 5000 degrees Kelvin...
+Dialogue: 0,0:16:44.05,0:16:45.98,main,A,0000,0000,0000,,And a pressure of 1000 millibars.
+Dialogue: 0,0:16:45.98,0:16:48.56,main,Kobayashi,0000,0000,0000,,W-Whoa, isn't that a little extreme?
+Dialogue: 0,0:16:48.56,0:16:51.99,main,A,0000,0000,0000,,It's an ability taken from pistol shrimps,\Nwhich live in the Atlantic Ocean.
+Dialogue: 0,0:16:53.15,0:16:58.61,main,A,0000,0000,0000,,Since it's 507.3 times the size, \Nits abilities increase proportionately.
+Dialogue: 0,0:16:58.61,0:17:01.08,main,A,0000,0000,0000,,The robot sticks the chainsaw on its right arm
+Dialogue: 0,0:17:01.08,0:17:03.71,main,A,0000,0000,0000,,into the ground in order to move at high speeds.
+Dialogue: 0,0:17:03.71,0:17:05.30,main,Kobayashi,0000,0000,0000,,This is great, Ono.
+Dialogue: 0,0:17:05.30,0:17:07.15,main,Kobayashi,0000,0000,0000,,Doesn't sound like there are \Nany last minute power-ups,
+Dialogue: 0,0:17:07.15,0:17:08.37,main,Kobayashi,0000,0000,0000,,but it's just fantastical enough that—
+Dialogue: 0,0:17:08.37,0:17:09.46,main,Ono,0000,0000,0000,,This is all wrong!
+Dialogue: 0,0:17:09.46,0:17:11.99,main,Ono,0000,0000,0000,,It can't have a flashy weapon like a chainsaw!
+Dialogue: 0,0:17:11.99,0:17:13.34,main,Ono,0000,0000,0000,,And it sounds like there's too much action!
+Dialogue: 0,0:17:13.34,0:17:16.60,main,Ono,0000,0000,0000,,I thought the robot club's goal was \Npreaching the merits of down-to-earth,
+Dialogue: 0,0:17:16.60,0:17:18.34,main,Ono,0000,0000,0000,,real robot aesthetics!
+Dialogue: 0,0:17:18.34,0:17:20.54,main,M,0000,0000,0000,,But real robots are more like...
+Dialogue: 0,0:17:20.54,0:17:21.74,main,Ono,0000,0000,0000,,Not what I meant!
+Dialogue: 0,0:17:21.74,0:17:24.07,main,Ono,0000,0000,0000,,The big ones! That people pilot!
+Dialogue: 0,0:17:24.07,0:17:24.85,main,A,0000,0000,0000,,Then...
+Dialogue: 0,0:17:24.85,0:17:26.85,main,Ono,0000,0000,0000,,Not that, either!
+Dialogue: 0,0:17:27.30,0:17:29.59,main,Ono,0000,0000,0000,,It has to be humanoid and piloted by someone!
+Dialogue: 0,0:17:29.59,0:17:30.86,main,Ono,0000,0000,0000,,And it fights!
+Dialogue: 0,0:17:30.86,0:17:35.36,sign_25196_469_Seeing_someone_s,,0000,0000,0000,,{\pos(249,17)}Seeing someone stump for such a\Ntypical contradiction is disheartening.
+Dialogue: 0,0:17:31.19,0:17:35.36,main,Ono,0000,0000,0000,,It needs to be realistic! Like in \Nreal life! A real-life giant robot!
+Dialogue: 0,0:17:35.36,0:17:38.87,main,A,0000,0000,0000,,Realistically speaking, I thought it \Nwas generally accepted that humanoid robots
+Dialogue: 0,0:17:38.87,0:17:42.48,main,A,0000,0000,0000,,exceeding a certain size \Nhave really limited uses.
+Dialogue: 0,0:17:42.48,0:17:45.71,main,Kobayashi,0000,0000,0000,,It's true that human-scale \Nones could do more jobs.
+Dialogue: 0,0:17:45.71,0:17:47.67,main,Kobayashi,0000,0000,0000,,They'd be more versatile, I guess.
+Dialogue: 0,0:17:47.67,0:17:49.79,main,Goto,0000,0000,0000,,It's frustrating, really.
+Dialogue: 0,0:17:49.79,0:17:51.05,main,Goto,0000,0000,0000,,Even when tanks stop being useful,
+Dialogue: 0,0:17:51.05,0:17:53.05,main,Goto,0000,0000,0000,,it won't mean bipedal robots being deployed.
+Dialogue: 0,0:17:53.05,0:17:56.38,main,Goto,0000,0000,0000,,They'll probably just make stronger tanks.
+Dialogue: 0,0:17:56.38,0:17:58.81,main,Seki,0000,0000,0000,,Yeah, realistically speaking, \Nthey'd probably evacuate the town
+Dialogue: 0,0:17:56.38,0:18:00.85,sign_25808_480_Missing_Missing_,Sign,0000,0000,0000,,{\pos(397,202)\frz-30.07\fax0.16}Glass\NBottles\NFragile
+Dialogue: 0,0:17:58.81,0:18:00.85,main,Seki,0000,0000,0000,,and then bring out the tanks.
+Dialogue: 0,0:18:00.85,0:18:04.69,main,Seki,0000,0000,0000,,People who want to make robots \Nbecause of anime run into that fact
+Dialogue: 0,0:18:04.69,0:18:06.15,main,Seki,0000,0000,0000,,sooner or later...
+Dialogue: 0,0:18:06.15,0:18:09.87,main,Kobayashi,0000,0000,0000,,But what we're after has always been \Nthe machines we've admired in movies,
+Dialogue: 0,0:18:09.87,0:18:12.19,main,Kobayashi,0000,0000,0000,,manga, light novels, and anime.
+Dialogue: 0,0:18:12.19,0:18:15.94,sign_26187_485_Take_Down_the_Ei,Whiteboard sign,0000,0000,0000,,Take Down the Eizouken
+Dialogue: 0,0:18:12.19,0:18:15.94,main,M,0000,0000,0000,,So it's reality that doesn't \Ncare about humanoid robots.
+Dialogue: 0,0:18:16.94,0:18:20.70,main,M,0000,0000,0000,,Come to think of it, there are \Nfewer giant robot anime lately...
+Dialogue: 0,0:18:20.70,0:18:22.68,main,M,0000,0000,0000,,Should I have not brought that up?
+Dialogue: 0,0:18:22.68,0:18:23.29,main,A,0000,0000,0000,,Yep.
+Dialogue: 0,0:18:23.29,0:18:24.35,main,Ono,0000,0000,0000,,I get it.
+Dialogue: 0,0:18:25.90,0:18:28.27,main,Ono,0000,0000,0000,,I know it's actually impossible!
+Dialogue: 0,0:18:29.05,0:18:31.71,main,Ono,0000,0000,0000,,I realize that... it's probably impossible.
+Dialogue: 0,0:18:31.71,0:18:35.33,main,Ono,0000,0000,0000,,But I still want to pilot a robot, okay?!
+Dialogue: 0,0:18:35.33,0:18:37.72,main,Ono,0000,0000,0000,,So much I could die! Damn it!
+Dialogue: 0,0:18:38.08,0:18:42.99,main,Ono,0000,0000,0000,,"Anything one man can imagine, \Nanother man can make real"?!
+Dialogue: 0,0:18:42.99,0:18:44.91,main,Ono,0000,0000,0000,,Screw whoever said that!
+Dialogue: 0,0:18:44.91,0:18:47.73,main,Ono,0000,0000,0000,,Even if it's possible, if it \Ndoesn't happen during my lifetime,
+Dialogue: 0,0:18:48.21,0:18:50.99,main,Ono,0000,0000,0000,,then that Wells guy sold me a bill of goods!
+Dialogue: 0,0:18:50.02,0:18:53.48,sign_25196_469_Seeing_someone_s,Thought bubble sign,0000,0000,0000,,{\move(470,240,635,240)\fs26}What a huge\N pain in the neck.
+Dialogue: 0,0:18:50.99,0:18:52.62,main,Ono,0000,0000,0000,,I can see it right now when I close my eyes...
+Dialogue: 0,0:18:50.99,0:18:55.02,sign_25196_469_Seeing_someone_s,Thought bubble sign,0000,0000,0000,,{\move(75,20,265,20)}I wish I had blackmail material to speed this negotiation along.
+Dialogue: 0,0:18:55.02,0:18:59.09,main,Ono,0000,0000,0000,,And when I try to think about it \Nrealistically, it becomes contradictory!
+Dialogue: 0,0:18:55.02,0:19:03.53,sign_26187_485_Take_Down_the_Ei,Whiteboard sign,0000,0000,0000,,{\fs30\fscx200\fscy200\move(610,210,610,-175)\clip(m 640 1 l 638 241 368 244 459 198 474 97 470 -1)}Take Down the Eizouken
+Dialogue: 0,0:18:59.09,0:19:01.82,main,Ono,0000,0000,0000,,I hate how it puts me in this place\Nwhere all I can do is dream!
+Dialogue: 0,0:19:01.82,0:19:03.53,main,Ono,0000,0000,0000,,I hate it so damn much!
+Dialogue: 0,0:19:03.53,0:19:04.46,italics,K,0000,0000,0000,,I see now.
+Dialogue: 0,0:19:04.46,0:19:10.53,italics,K,0000,0000,0000,,He's not making sense because he\Ncan't visualize the finished product.
+Dialogue: 0,0:19:10.53,0:19:11.58,italics,K,0000,0000,0000,,That makes him so anxious,
+Dialogue: 0,0:19:11.58,0:19:15.05,italics,K,0000,0000,0000,,all he can manage is a passionate \Nplea full of incoherent ranting.
+Dialogue: 0,0:19:15.05,0:19:18.37,italics,K,0000,0000,0000,,If we present a calm response,
+Dialogue: 0,0:19:18.37,0:19:21.30,italics,K,0000,0000,0000,,it should calm him down \Nand make controlling them—
+Dialogue: 0,0:19:21.98,0:19:24.16,main,A,0000,0000,0000,,I wanna travel to the fringes of space!
+Dialogue: 0,0:19:24.16,0:19:27.43,main,A,0000,0000,0000,,I cry in the bath every night \Nabout how big the universe is!
+Dialogue: 0,0:19:27.43,0:19:31.83,main,M,0000,0000,0000,,I try to do a Hadoken every night before bed!
+Dialogue: 0,0:19:31.83,0:19:33.56,italics,K,0000,0000,0000,,You two are crying now?
+Dialogue: 0,0:19:33.56,0:19:37.15,main,Ono,0000,0000,0000,,I like to imagine I'm in a cockpit \Nwhen I'm on the toilet...
+Dialogue: 0,0:19:37.50,0:19:39.09,main,Trio,0000,0000,0000,,Comrade!
+Dialogue: 0,0:19:38.67,0:19:44.16,sign_28260_522_Sudden_harmony,Sign,0000,0000,0000,,{\pos(338,98)\fad(120,1)}Sudden harmony
+Dialogue: 0,0:19:39.62,0:19:43.53,main,K,0000,0000,0000,,I have huge problems with people who \Nsolve problems with emotional appeals.
+Dialogue: 0,0:19:44.16,0:19:47.49,main,A,0000,0000,0000,,All right, let's modify this robot together!
+Dialogue: 0,0:19:48.13,0:19:52.40,main,Goto,0000,0000,0000,,You mentioned having the hatch \Nin the front would be a weakness,
+Dialogue: 0,0:19:52.40,0:19:54.75,main,Goto,0000,0000,0000,,and moving it to the back would help, right?
+Dialogue: 0,0:19:55.20,0:19:56.51,main,A,0000,0000,0000,,In the name of high adventure,
+Dialogue: 0,0:19:56.51,0:19:59.30,main,A,0000,0000,0000,,we're going to keep it in the front, \Nlike your actual model Talos.
+Dialogue: 0,0:19:59.30,0:20:00.13,main,A,0000,0000,0000,,Plus...
+Dialogue: 0,0:20:03.11,0:20:05.14,main,A,0000,0000,0000,,You can do a shot reverse shot \Nwith the pilot and robot.
+Dialogue: 0,0:20:05.14,0:20:06.75,main,A,0000,0000,0000,,Like this...
+Dialogue: 0,0:20:07.64,0:20:11.43,main,A,0000,0000,0000,,Which makes for a really cool \Ndepiction of two pilots talking!
+Dialogue: 0,0:20:11.43,0:20:12.99,main,Kobayashi,0000,0000,0000,,I'm not so sure.
+Dialogue: 0,0:20:12.99,0:20:16.25,main,Kobayashi,0000,0000,0000,,I think having it open up \Nin front seems weaker, too.
+Dialogue: 0,0:20:16.25,0:20:19.44,main,Ono,0000,0000,0000,,But the back of a robot \Nhas to look cool, too!
+Dialogue: 0,0:20:19.44,0:20:21.12,main,A,0000,0000,0000,,Okay, then.
+Dialogue: 0,0:20:21.12,0:20:23.45,main,A,0000,0000,0000,,In that case, we'll ditch the \Nrule of cool on the hatch,
+Dialogue: 0,0:20:23.45,0:20:25.45,main,A,0000,0000,0000,,and go for a safer choice.
+Dialogue: 0,0:20:25.45,0:20:27.94,main,K,0000,0000,0000,,She's got a tendency to only enjoy working
+Dialogue: 0,0:20:27.94,0:20:31.45,main,K,0000,0000,0000,,when there's some odd line \Nof reasoning into it.
+Dialogue: 0,0:20:31.93,0:20:32.87,main,A,0000,0000,0000,,Right here.
+Dialogue: 0,0:20:32.87,0:20:34.46,main,A,0000,0000,0000,,Let's make the entrance on the top.
+Dialogue: 0,0:20:35.43,0:20:36.46,main,Kobayashi,0000,0000,0000,,That works.
+Dialogue: 0,0:20:36.79,0:20:38.46,main,A,0000,0000,0000,,Next up is the cockpit.
+Dialogue: 0,0:20:39.21,0:20:41.46,main,A,0000,0000,0000,,It's not a cockpit unless \Nit looks like this!
+Dialogue: 0,0:20:41.89,0:20:43.24,main,A,0000,0000,0000,,Analog-style instruments.
+Dialogue: 0,0:20:43.24,0:20:46.09,main,A,0000,0000,0000,,CRT monitors have good response time.
+Dialogue: 0,0:20:46.09,0:20:49.09,main,M,0000,0000,0000,,The main monitor seems to have \Na pretty wide range of vision.
+Dialogue: 0,0:20:49.09,0:20:51.85,main,M,0000,0000,0000,,Is the camera in the mono-eye \Nreally going to cut it?
+Dialogue: 0,0:20:51.85,0:20:52.94,main,Goto,0000,0000,0000,,Should we add more?
+Dialogue: 0,0:20:52.94,0:20:53.74,main,Seki,0000,0000,0000,,Cameras?
+Dialogue: 0,0:20:53.74,0:20:54.80,main,Ono,0000,0000,0000,,Let's change it.
+Dialogue: 0,0:20:54.80,0:20:56.40,main,Kobayashi,0000,0000,0000,,Let's change the model and add some.
+Dialogue: 0,0:20:56.40,0:20:58.16,main,Ono,0000,0000,0000,,We'll add more, and different, cameras!
+Dialogue: 0,0:20:58.16,0:20:59.38,main,A,0000,0000,0000,,Copy that.
+Dialogue: 0,0:20:59.38,0:21:03.91,main,Goto,0000,0000,0000,,The kind of cameras and sensors that \Nrobots use are usually along these lines.
+Dialogue: 0,0:21:04.99,0:21:07.11,main,Goto,0000,0000,0000,,So if we combine them...
+Dialogue: 0,0:21:07.11,0:21:08.19,main,A,0000,0000,0000,,Cool!
+Dialogue: 0,0:21:07.43,0:21:08.76,top,Ono,0000,0000,0000,,Lame!
+Dialogue: 0,0:21:08.76,0:21:11.37,main,A,0000,0000,0000,,Okay, how about something like this?
+Dialogue: 0,0:21:11.37,0:21:12.63,main,A,0000,0000,0000,,Ta-dah!
+Dialogue: 0,0:21:12.63,0:21:15.37,main,Goto,0000,0000,0000,,It's got kind of a classic vibe.
+Dialogue: 0,0:21:15.37,0:21:16.87,main,M,0000,0000,0000,,Time to activate!
+Dialogue: 0,0:21:25.34,0:21:28.77,main,K,0000,0000,0000,,Are all these switches \Nactually helpful as controls?
+Dialogue: 0,0:21:28.77,0:21:31.43,main,M,0000,0000,0000,,It shows that the people making robot anime
+Dialogue: 0,0:21:31.43,0:21:33.98,main,M,0000,0000,0000,,ultimately put their faith in people!
+Dialogue: 0,0:21:34.37,0:21:35.84,main,M,0000,0000,0000,,I'm disengaging the break!
+Dialogue: 0,0:21:38.14,0:21:38.98,main,M,0000,0000,0000,,Starboard clear!
+Dialogue: 0,0:21:40.27,0:21:41.23,main,M,0000,0000,0000,,Port side clear!
+Dialogue: 0,0:21:42.27,0:21:43.48,main,M,0000,0000,0000,,All clear below!
+Dialogue: 0,0:21:43.80,0:21:46.33,main,M,0000,0000,0000,,We're rising up! Please brace yourselves!
+Dialogue: 0,0:21:46.33,0:21:47.99,main,A,0000,0000,0000,,Wasn't it standing already?
+Dialogue: 0,0:21:49.85,0:21:51.34,main,M,0000,0000,0000,,Time to go for it!
+Dialogue: 0,0:21:52.37,0:21:54.02,main,A,0000,0000,0000,,All at once?!
+Dialogue: 0,0:21:54.02,0:21:55.42,main,A,0000,0000,0000,,Oh man, I forgot seat belts!
+Dialogue: 0,0:21:55.42,0:21:56.75,main,M,0000,0000,0000,,Those are important!
+Dialogue: 0,0:21:57.12,0:22:00.75,main,M,0000,0000,0000,,We'll partially engage the clutch, \N and then make our way up!
+Dialogue: 0,0:22:04.75,0:22:06.11,main,M,0000,0000,0000,,That's a lot of Gs!
+Dialogue: 0,0:22:08.26,0:22:09.89,main,M,0000,0000,0000,,Time to straighten up!
+Dialogue: 0,0:22:20.75,0:22:23.15,main,Kobayashi,0000,0000,0000,,It... It stood!
+Dialogue: 0,0:22:23.51,0:22:25.65,main,Seki,0000,0000,0000,,I want a pile bunker!
+Dialogue: 0,0:22:26.13,0:22:26.82,main,A,0000,0000,0000,,Okay!
+Dialogue: 0,0:22:26.82,0:22:28.91,main,M,0000,0000,0000,,It'd be a good idea to change \Nthe body to match the face!
+Dialogue: 0,0:22:28.91,0:22:30.98,main,A,0000,0000,0000,,A hydraulic cutter! Snip!
+Dialogue: 0,0:22:30.98,0:22:33.38,main,Kobayashi,0000,0000,0000,,We've come this far, let's go harder!
+Dialogue: 0,0:22:33.38,0:22:34.66,main,Ono,0000,0000,0000,,How about a drill?
+Dialogue: 0,0:22:35.29,0:22:37.62,main,A,0000,0000,0000,,A boom-mounted cutting head!
+Dialogue: 0,0:22:37.62,0:22:39.23,main,Goto,0000,0000,0000,,Is it a hole-digging robot now?!
+Dialogue: 0,0:22:39.23,0:22:40.04,main,A,0000,0000,0000,,This one, then!
+Dialogue: 0,0:22:41.19,0:22:42.88,main,Ono,0000,0000,0000,,Those bits are for wood!
+Dialogue: 0,0:22:42.88,0:22:44.61,main,A,0000,0000,0000,,Ah, you noticed.
+Dialogue: 0,0:22:44.61,0:22:47.87,main,Ono,0000,0000,0000,,You realize the robot club is a \Ntechnical club, right? Of course I did!
+Dialogue: 0,0:22:47.87,0:22:49.13,main,Ono,0000,0000,0000,,At least use one for metal!
+Dialogue: 0,0:22:51.06,0:22:53.90,main,Kobayashi,0000,0000,0000,,It's already got a chainsaw! \NWe're gonna need more arms.
+Dialogue: 0,0:22:54.46,0:22:57.57,main,K,0000,0000,0000,,Can you even animate something \Nwith all these add-ons?
+Dialogue: 0,0:22:57.57,0:23:00.28,main,K,0000,0000,0000,,Why not just remove the legs and make it fly?
+Dialogue: 0,0:23:00.28,0:23:02.67,main,M,0000,0000,0000,,That'd take the fun out of making it move!
+Dialogue: 0,0:23:02.67,0:23:06.34,main,M,0000,0000,0000,,But... is it okay if we cover up the joints?
+Dialogue: 0,0:23:07.61,0:23:08.61,main,A,0000,0000,0000,,It's done!
+Dialogue: 0,0:23:08.61,0:23:09.73,main,Kobayashi,0000,0000,0000,,Holy cow!
+Dialogue: 0,0:23:09.73,0:23:11.71,main,Goto,0000,0000,0000,,It looks totally different.
+Dialogue: 0,0:23:13.77,0:23:16.37,main,M,0000,0000,0000,,Isn't it kinda... elaborate?
+Dialogue: 0,0:23:16.37,0:23:18.62,main,K,0000,0000,0000,,Are you sure you can animate this thing?
+Dialogue: 0,0:23:19.91,0:23:22.27,main,A,0000,0000,0000,,We ended up with a blue-collar robot!
+Dialogue: 0,0:23:22.27,0:23:24.08,main,A,0000,0000,0000,,But what'll happen next?!
+Dialogue: 0,0:23:24.08,0:23:27.15,main,,0000,0000,0000,,
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_606_Fluffy_,M,0000,0000,0000,,Fluffy~
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_607_Gahaha_,A,0000,0000,0000,,Gahaha!
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_608_Illustration_by_,A,0000,0000,0000,,{\fscx110\fscy110}Illustration by Eito Aika
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_582_Eito_Aika,A,0000,0000,0000,,Eito Aika

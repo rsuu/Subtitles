@@ -1,0 +1,307 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montara  Gothic,18,&H00787F75,&H00FFFFFF,&H00D4D3CA,&H64400040,-1,0,0,0,100,100,0,0,1,1,3,2,30,30,10,0
+Style: Song,Arial,18,&H00E6E0B0,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Song2,Arial,14,&H00E6E0B0,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,1
+Style: TL,Arial,12,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Background,Arial,14,&H00AAFFFF,&H0300FFFF,&H00000000,&H02000000,0,1,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.21,0:00:00.25,Song,,0,0,0,,
+Dialogue: 0,0:00:12.71,0:00:15.84,Song,,0,0,0,,Glancing up towards the sky,
+Dialogue: 0,0:00:15.84,0:00:18.88,Song,,0,0,0,,Whenever I turn my back
+Dialogue: 0,0:00:18.88,0:00:21.88,Song,,0,0,0,,Against this perfect world
+Dialogue: 0,0:00:21.88,0:00:24.02,Song,,0,0,0,,I mumble out
+Dialogue: 0,0:00:24.02,0:00:27.72,Song,,0,0,0,,"Where should I go?"
+Dialogue: 0,0:00:27.72,0:00:33.14,Song,,0,0,0,,With you, someone who shares the same thoughts I do.
+Dialogue: 0,0:00:36.87,0:00:42.67,Song,,0,0,0,,In the shadows of an alley, the hands on a clock
+Dialogue: 0,0:00:42.67,0:00:49.18,Song,,0,0,0,,Restart the time that stood still
+Dialogue: 0,0:00:49.98,0:00:52.98,Song,,0,0,0,,The arms extended out to you
+Dialogue: 0,0:00:52.98,0:00:56.90,Song,,0,0,0,,And the unfinished puzzle
+Dialogue: 0,0:00:58.75,0:01:01.53,Song,,0,0,0,,Have been left behind
+Dialogue: 0,0:01:01.53,0:01:05.83,Song,,0,0,0,,Until we met
+Dialogue: 0,0:01:06.83,0:01:10.13,Song,,0,0,0,,And realized something was missing.
+Dialogue: 0,0:01:10.13,0:01:14.01,Song,,0,0,0,,So the last piece
+Dialogue: 0,0:01:14.01,0:01:18.96,Song,,0,0,0,,Must be found
+Dialogue: 0,0:01:19.84,0:01:24.26,Song,,0,0,0,,In order to move forward.
+Dialogue: 0,0:01:38.60,0:01:41.20,Default,,0,0,0,,Sa-Satou-kun...
+Dialogue: 0,0:01:56.60,0:01:58.00,Default,,0,0,0,,Let's go, Mia.
+Dialogue: 0,0:01:58.00,0:02:00.00,Default,,0,0,0,,But your acquaintance is there, right?
+Dialogue: 0,0:02:00.00,0:02:01.40,Default,,0,0,0,,Don't you have to log off?
+Dialogue: 0,0:02:01.60,0:02:05.00,Default,,0,0,0,,Ignore it, ignore it. Forget about it, and eventually...
+Dialogue: 0,0:02:05.00,0:02:07.40,Default,,0,0,0,,It'll leave on its own.
+Dialogue: 0,0:02:07.80,0:02:11.80,Default,,0,0,0,,Let's enjoy the adventure, Mia.
+Dialogue: 0,0:02:13.40,0:02:16.40,Default,,0,0,0,,How... did you become like this?
+Dialogue: 0,0:02:17.20,0:02:20.60,Default,,0,0,0,,Until now... you were plagued with problems, but...
+Dialogue: 0,0:02:21.40,0:02:25.20,Default,,0,0,0,,Basically... you were headed in the right direction.
+Dialogue: 0,0:02:30.20,0:02:32.40,Default,,0,0,0,,To think you're even worse than before...
+Dialogue: 0,0:02:34.40,0:02:36.40,Default,,0,0,0,,Sa-Satou-kun...
+Dialogue: 0,0:02:36.40,0:02:40.20,Default,,0,0,0,,Let's go outside. It'll be better for you if you do...
+Dialogue: 0,0:02:42.00,0:02:46.00,Default,,0,0,0,,See? It's a beautiful day outside. So, please...
+Dialogue: 0,0:02:51.00,0:02:52.40,Default,,0,0,0,,Satou-kun...
+Dialogue: 0,0:02:55.40,0:02:56.60,Default,,0,0,0,,SA10-kun?
+Dialogue: 0,0:02:56.60,0:02:57.20,Default,,0,0,0,,Huh?
+Dialogue: 0,0:02:59.00,0:03:01.20,Default,,0,0,0,,It's nothing. The person from the real world...
+Dialogue: 0,0:03:01.80,0:03:04.60,Default,,0,0,0,,ls really annoying...
+Dialogue: 0,0:03:09.20,0:03:13.20,Default,,0,0,0,,Could the person who's visiting you\Nright now be your girlfriend, SA10-kun?
+Dialogue: 0,0:03:13.20,0:03:14.60,Default,,0,0,0,,No way!
+Dialogue: 0,0:03:14.60,0:03:16.80,Default,,0,0,0,,Didn't I tell you she was just someone I knew.
+Dialogue: 0,0:03:20.00,0:03:21.60,Default,,0,0,0,,I'm so relieved!
+Dialogue: 0,0:03:25.40,0:03:26.80,Default,,0,0,0,,That Mia...
+Dialogue: 0,0:03:29.80,0:03:31.80,Default,,0,0,0,,D-Don't tell me...
+Dialogue: 0,0:03:34.40,0:03:37.80,Default,,0,0,0,,Satou-kun's infatuated with a girl in the world of that game?
+Dialogue: 0,0:03:38.20,0:03:43.00,Default,,0,0,0,,Not good... This is definitely not good!
+Dialogue: 0,0:03:47.60,0:03:50.00,Default,,0,0,0,,I have to do something...
+Dialogue: 0,0:03:53.00,0:03:58.20,Default,,0,0,0,,Satou-kun, I'll bring you back to the\Nreal world, even if I have to use force.
+Dialogue: 0,0:03:59.60,0:04:01.00,Default,,0,0,0,,Dragon-slaying?
+Dialogue: 0,0:04:01.80,0:04:03.00,Default,,0,0,0,,Us?
+Dialogue: 0,0:04:03.00,0:04:08.00,Default,,0,0,0,,SA10-kun, you want to perform RMT... real money trading, right?
+Dialogue: 0,0:04:08.00,0:04:08.80,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:04:08.80,0:04:12.40,Default,,0,0,0,,In that case, slaying dragons is an unavoidable path.
+Dialogue: 0,0:04:12.40,0:04:15.60,Default,,0,0,0,,Rare items are usually in the possession of dragons.
+Dialogue: 0,0:04:17.00,0:04:21.40,Default,,0,0,0,,But... won't it be difficult to defeat dragons at our current level?
+Dialogue: 0,0:04:21.80,0:04:23.40,Default,,0,0,0,,If we had a dragoon, it would be a different story, but...
+Dialogue: 0,0:04:24.00,0:04:26.40,Default,,0,0,0,,Should we ask a dragoon to join our party?
+Dialogue: 0,0:04:26.80,0:04:27.40,Default,,0,0,0,,Huh?
+Dialogue: 0,0:04:28.20,0:04:31.40,Default,,0,0,0,,Although I'd prefer if it was just the two of us...
+Dialogue: 0,0:04:31.40,0:04:34.60,Default,,0,0,0,,It's not that he'll remain a party member forever.
+Dialogue: 0,0:04:34.60,0:04:37.60,Default,,0,0,0,,We'll only ask for his assistance when we slay dragons.
+Dialogue: 0,0:04:37.80,0:04:43.20,Default,,0,0,0,,Besides, I want to obtain rare items and see SA10-kun's happy face.
+Dialogue: 0,0:04:43.80,0:04:44.60,Default,,0,0,0,,Mia...
+Dialogue: 0,0:04:46.00,0:04:49.80,Default,,0,0,0,,Then I'll ask some friends, so stay here for a while.
+Dialogue: 0,0:04:52.80,0:04:53.60,Default,,0,0,0,,Mia...
+Dialogue: 0,0:04:54.60,0:04:57.60,Default,,0,0,0,,My happy face, huh?
+Dialogue: 0,0:05:00.60,0:05:01.40,Default,,0,0,0,,Satou-kun!
+Dialogue: 0,0:05:01.40,0:05:02.00,Default,,0,0,0,,Huh?
+Dialogue: 0,0:05:10.80,0:05:11.80,Default,,0,0,0,,What?
+Dialogue: 0,0:05:21.80,0:05:25.00,Default,,0,0,0,,Please, Satou-kun. Come to your senses!
+Dialogue: 0,0:05:25.80,0:05:28.60,Default,,0,0,0,,I'll dress up like this again, so...
+Dialogue: 0,0:05:29.20,0:05:31.20,Default,,0,0,0,,Come to our counseling sessions.
+Dialogue: 0,0:05:31.80,0:05:32.80,Default,,0,0,0,,Please!
+Dialogue: 0,0:05:33.40,0:05:34.20,Default,,0,0,0,,Nya!
+Dialogue: 0,0:05:34.40,0:05:35.60,Song2,,0,0,0,,In any case, it's you...
+Dialogue: 0,0:05:34.80,0:05:37.40,Default,,0,0,0,,I don't understand a word you're saying!
+Dialogue: 0,0:05:36.40,0:05:37.80,Song2,,0,0,0,,First of all, it's you...
+Dialogue: 0,0:05:38.00,0:05:41.40,Default,,0,0,0,,What the hell are you up to, dressed like that?
+Dialogue: 0,0:05:38.40,0:05:39.80,Song2,,0,0,0,,It seems it's you...
+Dialogue: 0,0:05:40.60,0:05:41.90,Song2,,0,0,0,,You really make me crumble.
+Dialogue: 0,0:05:41.40,0:05:47.00,Default,,0,0,0,,I-It's because you looked like you were obsessed with\Na girl who looked like this in the game, Satou-kun!
+Dialogue: 0,0:05:48.20,0:05:51.20,Default,,0,0,0,,Don't make fun of Mia!
+Dialogue: 0,0:05:51.40,0:05:55.20,Default,,0,0,0,,The relationship between Mia and me isn't a superficial one!
+Dialogue: 0,0:05:55.20,0:05:59.00,Default,,0,0,0,,If you want to make fun of us, I won't\Nhold back, even if it's you, Misaki-chan!
+Dialogue: 0,0:05:59.40,0:06:03.20,Default,,0,0,0,,If you want to cosplay, go to a cospa!
+Dialogue: 0,0:06:08.40,0:06:11.60,Default,,0,0,0,,What's the commotion? How noisy.
+Dialogue: 0,0:06:15.80,0:06:17.80,Default,,0,0,0,,Shoot! No, no.
+Dialogue: 0,0:06:19.20,0:06:21.80,Default,,0,0,0,,Mia? Mia, where are you?
+Dialogue: 0,0:06:21.80,0:06:24.20,Default,,0,0,0,,SA10-kun, here! Here!
+Dialogue: 0,0:06:24.20,0:06:25.80,Default,,0,0,0,,I've brought them here.
+Dialogue: 0,0:06:26.20,0:06:28.00,Default,,0,0,0,,I heard from Mia-san.
+Dialogue: 0,0:06:28.00,0:06:30.60,Default,,0,0,0,,So this is the first time you're going on a dragon hunt?
+Dialogue: 0,0:06:30.60,0:06:32.40,Default,,0,0,0,,We'll lend you a hand.
+Dialogue: 0,0:06:32.40,0:06:34.20,Default,,0,0,0,,Let's fight together.
+Dialogue: 0,0:06:34.40,0:06:35.60,Default,,0,0,0,,You guys...
+Dialogue: 0,0:06:36.00,0:06:38.80,Default,,0,0,0,,With these members, we'll definitely defeat it!
+Dialogue: 0,0:06:39.20,0:06:41.00,Default,,0,0,0,,Thanks, Mia!
+Dialogue: 0,0:06:41.80,0:06:42.60,Default,,0,0,0,,Huh?
+Dialogue: 0,0:06:44.00,0:06:47.40,Default,,0,0,0,,So you want to RMT?
+Dialogue: 0,0:06:47.40,0:06:48.60,Default,,0,0,0,,It's really difficult, you know.
+Dialogue: 0,0:06:48.60,0:06:51.00,Default,,0,0,0,,That's what they all say, but I'll be fine.
+Dialogue: 0,0:06:51.00,0:06:53.00,Default,,0,0,0,,I have all the time in the world...
+Dialogue: 0,0:06:53.40,0:06:55.60,Default,,0,0,0,,To tell you the truth, I'm a hikikomori.
+Dialogue: 0,0:06:55.80,0:06:58.40,Default,,0,0,0,,Hm... Is that so?
+Dialogue: 0,0:06:58.60,0:07:01.00,Default,,0,0,0,,Come on, let's go, SA10-kun!
+Dialogue: 0,0:07:01.60,0:07:02.60,Default,,0,0,0,,Yeah!
+Dialogue: 0,0:07:12.80,0:07:13.60,Default,,0,0,0,,It's coming!
+Dialogue: 0,0:07:17.60,0:07:19.00,Default,,0,0,0,,It's the dragon.
+Dialogue: 0,0:07:19.00,0:07:19.80,Default,,0,0,0,,It's humongous...
+Dialogue: 0,0:07:19.80,0:07:22.80,Default,,0,0,0,,Don't worry. It's not as strong as it looks.
+Dialogue: 0,0:07:23.20,0:07:24.40,Default,,0,0,0,,No problem.
+Dialogue: 0,0:07:29.40,0:07:32.20,Default,,0,0,0,,Let these white wings protect my party!
+Dialogue: 0,0:07:34.40,0:07:36.40,Default,,0,0,0,,Regeneration!
+Dialogue: 0,0:07:38.00,0:07:38.80,Default,,0,0,0,,Here we go!
+Dialogue: 0,0:07:44.60,0:07:46.40,Default,,0,0,0,,What could have gone wrong?
+Dialogue: 0,0:07:46.80,0:07:48.60,Default,,0,0,0,,Where did I make a mistake?
+Dialogue: 0,0:07:49.60,0:07:51.00,Default,,0,0,0,,I see...
+Dialogue: 0,0:07:52.80,0:07:55.40,Default,,0,0,0,,There are different kinds of moe, huh?
+Dialogue: 0,0:08:02.80,0:08:04.20,Default,,0,0,0,,We're almost there.
+Dialogue: 0,0:08:04.20,0:08:05.00,Default,,0,0,0,,SA10-kun!
+Dialogue: 0,0:08:05.00,0:08:06.20,Default,,0,0,0,,Okay.
+Dialogue: 0,0:08:06.60,0:08:10.20,Default,,0,0,0,,Let the black winds possess my blade!
+Dialogue: 0,0:08:15.60,0:08:20.00,Default,,0,0,0,,Hurricane Blade!
+Dialogue: 0,0:08:28.40,0:08:29.80,Default,,0,0,0,,I-I did it...
+Dialogue: 0,0:08:38.80,0:08:40.60,Default,,0,0,0,,It's the Mythril Armor.
+Dialogue: 0,0:08:40.60,0:08:42.80,Default,,0,0,0,,You sure received a nice item.
+Dialogue: 0,0:08:42.80,0:08:44.40,Default,,0,0,0,,This will sell for a lot!
+Dialogue: 0,0:08:46.20,0:08:48.00,Default,,0,0,0,,Aren't you glad, SA10-kun?
+Dialogue: 0,0:08:48.20,0:08:50.00,Default,,0,0,0,,Hey, look!
+Dialogue: 0,0:09:03.40,0:09:07.20,Default,,0,0,0,,This sensation is something that can only be felt here.
+Dialogue: 0,0:09:09.40,0:09:10.60,Default,,0,0,0,,This is wonderful...
+Dialogue: 0,0:09:12.40,0:09:15.20,Default,,0,0,0,,It's a truly wonderful world.
+Dialogue: 0,0:09:17.60,0:09:21.00,Default,,0,0,0,,I have to go to my part-time job in the real world, so I'll see you later.
+Dialogue: 0,0:09:21.00,0:09:23.60,Default,,0,0,0,,Right. I have work, too.
+Dialogue: 0,0:09:24.00,0:09:27.20,Default,,0,0,0,,If there's another event like this again, make sure you give us a call.
+Dialogue: 0,0:09:27.20,0:09:29.80,Default,,0,0,0,,Thanks, guys! Thanks!
+Dialogue: 0,0:09:31.60,0:09:35.00,Default,,0,0,0,,I hope you can successfully RMT, Satou-kun.
+Dialogue: 0,0:09:36.40,0:09:38.00,Default,,0,0,0,,That is... if you're capable of doing so.
+Dialogue: 0,0:09:45.00,0:09:46.80,Default,,0,0,0,,What a naive guy.
+Dialogue: 0,0:09:47.60,0:09:50.80,Default,,0,0,0,,Does he think he can make money that easily?
+Dialogue: 0,0:09:57.00,0:09:59.80,Default,,0,0,0,,Onii-chan, I'll leave your meal outside, okay!
+Dialogue: 0,0:10:01.00,0:10:03.80,Default,,0,0,0,,First of all, what's with that character's name of his?
+Dialogue: 0,0:10:03.80,0:10:06.80,Default,,0,0,0,,SA10, it's the same as his actual name...
+Dialogue: 0,0:10:06.80,0:10:10.00,Default,,0,0,0,,Huh, Satou?
+Dialogue: 0,0:10:11.00,0:10:16.60,Default,,0,0,0,,That reminds me of someone named Satou from my high school class.
+Dialogue: 0,0:10:17.60,0:10:19.80,Default,,0,0,0,,I wonder what he's doing now?
+Dialogue: 0,0:10:22.40,0:10:23.40,Default,,0,0,0,,That's him.
+Dialogue: 0,0:10:24.20,0:10:26.20,Default,,0,0,0,,Satou Tatsuhiro.
+Dialogue: 0,0:10:40.40,0:10:42.80,Default,,0,0,0,,Weren't we lucky there was a shack nearby?
+Dialogue: 0,0:10:42.80,0:10:45.80,Default,,0,0,0,,I didn't expect it to rain so suddenly.
+Dialogue: 0,0:10:46.40,0:10:47.00,Default,,0,0,0,,Huh?
+Dialogue: 0,0:10:47.00,0:10:49.20,Default,,0,0,0,,It looks like there's a bathtub in the back.
+Dialogue: 0,0:10:49.20,0:10:52.20,Default,,0,0,0,,Say, SA10-kun... do you want to join me?
+Dialogue: 0,0:10:52.40,0:10:53.00,Default,,0,0,0,,Huh?
+Dialogue: 0,0:10:56.80,0:10:58.00,Default,,0,0,0,,I was just kidding.
+Dialogue: 0,0:11:00.00,0:11:01.80,Default,,0,0,0,,Er... yeah...
+Dialogue: 0,0:11:03.60,0:11:06.60,Default,,0,0,0,,This kind of situation isn't bad.
+Dialogue: 0,0:11:11.60,0:11:12.60,Default,,0,0,0,,Let's go, Mia.
+Dialogue: 0,0:11:13.40,0:11:14.60,Default,,0,0,0,,I'm ready, SA10-kun.
+Dialogue: 0,0:11:15.20,0:11:19.40,Default,,0,0,0,,Let the blue flames burn every enemy in sight!
+Dialogue: 0,0:11:19.60,0:11:22.00,Default,,0,0,0,,Spread Flame!
+Dialogue: 0,0:11:34.80,0:11:38.80,Default,,0,0,0,,SA10-kun, our combo attack was successful!
+Dialogue: 0,0:11:38.80,0:11:40.40,Default,,0,0,0,,I-I see...
+Dialogue: 0,0:11:41.00,0:11:42.40,Default,,0,0,0,,It worked!
+Dialogue: 0,0:11:44.20,0:11:45.80,Default,,0,0,0,,All right!
+Dialogue: 0,0:11:46.20,0:11:49.00,Default,,0,0,0,,Mia, you're the best partner!
+Dialogue: 0,0:11:49.00,0:11:50.20,Default,,0,0,0,,It's nothing...
+Dialogue: 0,0:11:51.20,0:11:53.60,Default,,0,0,0,,I finally realized it...
+Dialogue: 0,0:11:55.20,0:11:59.80,Default,,0,0,0,,The thing I was longing for all these years was this world.
+Dialogue: 0,0:12:00.60,0:12:06.60,Default,,0,0,0,,Nothing in the real world is as valuable as\Nthe experience I've obtained from this game!
+Dialogue: 0,0:12:07.00,0:12:11.80,Default,,0,0,0,,The people in the real world talk about love and friendship, but...
+Dialogue: 0,0:12:11.80,0:12:16.20,Default,,0,0,0,,It's a tainted world full of lies and avarice.
+Dialogue: 0,0:12:16.80,0:12:21.20,Default,,0,0,0,,However, a truly unpredictable adventure exists in this world!
+Dialogue: 0,0:12:21.20,0:12:23.00,Default,,0,0,0,,There are genuine companions!
+Dialogue: 0,0:12:30.20,0:12:34.80,Default,,0,0,0,,Mia, I feel like I can do anything with you.
+Dialogue: 0,0:12:34.80,0:12:37.60,Default,,0,0,0,,Stay with me for the rest of the adventure!
+Dialogue: 0,0:12:40.40,0:12:42.00,Default,,0,0,0,,But I...
+Dialogue: 0,0:12:42.20,0:12:46.00,Default,,0,0,0,,If you're worried about money, I'll earn it through RMT.
+Dialogue: 0,0:12:46.20,0:12:48.00,Default,,0,0,0,,So I beg you...
+Dialogue: 0,0:12:53.20,0:12:56.00,Default,,0,0,0,,Yes, okay.
+Dialogue: 0,0:12:56.20,0:12:57.20,Default,,0,0,0,,Mia...
+Dialogue: 0,0:12:58.20,0:13:00.40,Default,,0,0,0,,Mia!
+Dialogue: 0,0:13:00.80,0:13:01.80,Default,,0,0,0,,Wait...
+Dialogue: 0,0:13:01.80,0:13:02.40,Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:02.80,0:13:05.00,Default,,0,0,0,,There's one condition.
+Dialogue: 0,0:13:05.80,0:13:06.80,Default,,0,0,0,,Condition?
+Dialogue: 0,0:13:07.00,0:13:09.40,Default,,0,0,0,,I want to meet SA10-kun in the real world.
+Dialogue: 0,0:13:09.60,0:13:10.20,Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:11.00,0:13:14.20,Default,,0,0,0,,Can I come visit you in the real world, SA10-kun?
+Dialogue: 0,0:13:28.40,0:13:30.80,Default,,0,0,0,,The real world is slightly...
+Dialogue: 0,0:13:31.20,0:13:33.60,Default,,0,0,0,,Aw... I can't?
+Dialogue: 0,0:13:33.60,0:13:37.60,Default,,0,0,0,,It's not that I'm saying... no...
+Dialogue: 0,0:13:37.60,0:13:39.80,Default,,0,0,0,,Really? I'm so glad!
+Dialogue: 0,0:13:40.20,0:13:44.80,Default,,0,0,0,,To tell you the truth, I'm already in front of your apartment, SA10-kun.
+Dialogue: 0,0:13:44.80,0:13:45.60,Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:47.00,0:13:49.60,Default,,0,0,0,,I'm going up the stairs now.
+Dialogue: 0,0:13:50.60,0:13:53.20,Default,,0,0,0,,W-What are you talking about?
+Dialogue: 0,0:13:57.00,0:13:59.80,Default,,0,0,0,,Oh, I can see SA10-kun's room!
+Dialogue: 0,0:14:00.20,0:14:00.80,Default,,0,0,0,,Huh?
+Dialogue: 0,0:14:04.40,0:14:06.60,Default,,0,0,0,,It can't be... No way...
+Dialogue: 0,0:14:07.40,0:14:10.00,Default,,0,0,0,,I've arrived in front of your room, SA10-kun.
+Dialogue: 0,0:14:11.40,0:14:14.20,Default,,0,0,0,,I'm going to knock on your door.
+Dialogue: 0,0:14:26.20,0:14:28.00,Default,,0,0,0,,Your door isn't locked.
+Dialogue: 0,0:14:28.40,0:14:30.60,Default,,0,0,0,,I'm going to open the door.
+Dialogue: 0,0:14:42.00,0:14:42.60,Default,,0,0,0,,Huh?
+Dialogue: 0,0:14:47.00,0:14:50.60,Default,,0,0,0,,Hi, my name is Mia.
+Dialogue: 0,0:14:51.00,0:14:53.20,Default,,0,0,0,,Y-Yamazaki...
+Dialogue: 0,0:14:53.60,0:14:55.60,Default,,0,0,0,,How was it, Satou-san?
+Dialogue: 0,0:14:55.60,0:14:58.00,Default,,0,0,0,,Your adventurous journey with\Nthe beautiful cat-eared girl?
+Dialogue: 0,0:15:01.60,0:15:05.60,Default,,0,0,0,,I wanted to teach you the truth about online games.
+Dialogue: 0,0:15:06.00,0:15:09.60,Default,,0,0,0,,So I created the character "Mia" and played with you.
+Dialogue: 0,0:15:09.80,0:15:11.00,Default,,0,0,0,,Yamazaki...
+Dialogue: 0,0:15:11.80,0:15:14.20,Default,,0,0,0,,You were Mia's secret identity?
+Dialogue: 0,0:15:14.40,0:15:21.20,Default,,0,0,0,,Satou-san, don't tell me you thought the\Nperson playing as Mia was a beautiful girl, too.
+Dialogue: 0,0:15:22.60,0:15:29.20,Default,,0,0,0,,Over the Internet, name, age, gender,\Nand appearance can be changed at will.
+Dialogue: 0,0:15:29.20,0:15:32.60,Default,,0,0,0,,Genuine companionship is but a figment of your imagination.
+Dialogue: 0,0:15:33.80,0:15:35.20,Default,,0,0,0,,I-Imagination...
+Dialogue: 0,0:15:43.80,0:15:47.40,Default,,0,0,0,,I-I knew that from the start.
+Dialogue: 0,0:15:48.40,0:15:53.80,Default,,0,0,0,,The reason I stated playing online\Ngames was to earn money from RMT.
+Dialogue: 0,0:15:55.60,0:15:57.40,Default,,0,0,0,,RMT, huh?
+Dialogue: 0,0:15:58.00,0:16:03.60,Default,,0,0,0,,In order to make money from RMT, you need to form\Na team and dedicate yourself to severe practices.
+Dialogue: 0,0:16:04.00,0:16:07.60,Default,,0,0,0,,Those who are able to do so are a select few.
+Dialogue: 0,0:16:07.60,0:16:12.80,Default,,0,0,0,,It's impossible for someone who's gullible and\Nlacks programming knowledge like you, Satou-san.
+Dialogue: 0,0:16:13.00,0:16:15.60,Default,,0,0,0,,But I have all the time...
+Dialogue: 0,0:16:15.60,0:16:18.60,Default,,0,0,0,,Then how long do you plan on doing this?
+Dialogue: 0,0:16:18.60,0:16:21.40,Default,,0,0,0,,Ten years? Twenty years? Thirty years?
+Dialogue: 0,0:16:21.40,0:16:23.80,Default,,0,0,0,,Are you going to go on like that?
+Dialogue: 0,0:16:24.20,0:16:27.60,Default,,0,0,0,,Imagine yourself thirty years from now!
+Dialogue: 0,0:16:27.80,0:16:31.60,Default,,0,0,0,,T-Thirty years from now...
+Dialogue: 0,0:16:31.60,0:16:38.60,Default,,0,0,0,,Your RMT dreams crushed, forced to return to your family\Nhome... A fifty year old who's leeching off his parents.
+Dialogue: 0,0:16:44.60,0:16:48.40,Default,,0,0,0,,Tatsuhiro, your meal is ready.
+Dialogue: 0,0:16:48.60,0:16:51.40,Default,,0,0,0,,Come down to eat for once.
+Dialogue: 0,0:16:53.20,0:16:56.40,Default,,0,0,0,,Shut up, old woman! Leave me alone!
+Dialogue: 0,0:16:57.00,0:17:00.60,Default,,0,0,0,,But you must eat your vegetables...
+Dialogue: 0,0:17:00.80,0:17:05.80,Default,,0,0,0,,Leave him be. He's already fifty.
+Dialogue: 0,0:17:05.80,0:17:09.00,Default,,0,0,0,,He's at an age where he doesn't have\Nto listen to what others have to say.
+Dialogue: 0,0:17:09.00,0:17:12.20,Default,,0,0,0,,But that boy... he's still unemployed, and...
+Dialogue: 0,0:17:12.80,0:17:16.40,Default,,0,0,0,,It's too late for him to do anything.
+Dialogue: 0,0:17:17.60,0:17:20.80,Default,,0,0,0,,Geez, saying whatever you want...
+Dialogue: 0,0:17:24.40,0:17:32.20,Default,,0,0,0,,I may look like this, but I'm SA10, the\Nlevel thirteen thousand Magic Knight.
+Dialogue: 0,0:17:33.00,0:17:35.60,Default,,0,0,0,,The hero of Vina Teelo!
+Dialogue: 0,0:17:36.80,0:17:41.00,Default,,0,0,0,,Although I haven't been able to make money from RMT yet.
+Dialogue: 0,0:17:41.80,0:17:43.60,Default,,0,0,0,,You people can...
+Dialogue: 0,0:17:46.00,0:17:48.00,Default,,0,0,0,,Eat my confusion spell and...
+Dialogue: 0,0:17:51.20,0:17:52.20,Default,,0,0,0,,My back...
+Dialogue: 0,0:17:56.00,0:18:00.20,Default,,0,0,0,,I've gained weight recently, so...
+Dialogue: 0,0:18:00.20,0:18:01.60,Default,,0,0,0,,Shit...
+Dialogue: 0,0:18:20.40,0:18:22.80,Default,,0,0,0,,The ultimate NEET.
+Dialogue: 0,0:18:23.60,0:18:27.20,Default,,0,0,0,,If your parents pass away, you'll lose your means of survival, you know.
+Dialogue: 0,0:18:29.80,0:18:32.80,Default,,0,0,0,,Do you still want to engage in RMT?
+Dialogue: 0,0:18:33.80,0:18:40.60,Default,,0,0,0,,I'm letting you know your free trial period ended\Na long time ago, and you're currently in debt.
+Dialogue: 0,0:18:41.60,0:18:47.60,Default,,0,0,0,,It's not that... I didn't care about RMT when I was playing the game.
+Dialogue: 0,0:18:49.20,0:18:52.40,Default,,0,0,0,,The truth is... The truth is...
+Dialogue: 0,0:18:56.60,0:19:01.00,Default,,0,0,0,,Romantic feelings are nothing but chemical reactions.
+Dialogue: 0,0:19:01.40,0:19:05.40,Default,,0,0,0,,If the conditions are right, they come\Ninto fruition no matter who the person is.
+Dialogue: 0,0:19:07.20,0:19:10.20,Default,,0,0,0,,Yes, even if that person is me.
+Dialogue: 0,0:19:16.40,0:19:21.20,Default,,0,0,0,,Satou-san, trying to obtain something from a game is futile.
+Dialogue: 0,0:19:21.60,0:19:25.40,Default,,0,0,0,,Those who are making money are the people making the games.
+Dialogue: 0,0:19:26.00,0:19:31.20,Default,,0,0,0,,Therefore, let's resume our game\Nproduction... and head toward the Fuyucomi!
+Dialogue: 0,0:19:33.40,0:19:34.80,Default,,0,0,0,,Get out...
+Dialogue: 0,0:19:34.80,0:19:35.40,Default,,0,0,0,,Huh?
+Dialogue: 0,0:19:36.00,0:19:38.20,Default,,0,0,0,,Get out of my room!
+Dialogue: 0,0:19:41.40,0:19:45.40,Default,,0,0,0,,Satou-san, games are meant to be created, not played!
+Dialogue: 0,0:19:59.20,0:20:01.80,Default,,0,0,0,,The treatment might have been a little too potent.
+Dialogue: 0,0:20:08.80,0:20:12.40,Default,,0,0,0,,What am I going to do from now on?
+Dialogue: 0,0:20:21.00,0:20:22.20,Default,,0,0,0,,Hello...
+Dialogue: 0,0:20:22.80,0:20:26.00,Default,,0,0,0,,Um... Sa-Satou-kun?
+Dialogue: 0,0:20:26.60,0:20:27.80,Default,,0,0,0,,Yes...
+Dialogue: 0,0:20:28.00,0:20:32.20,Default,,0,0,0,,I'm Kobayashi, a classmate of yours during high school.
+Dialogue: 0,0:20:33.20,0:20:34.60,Default,,0,0,0,,Kobayashi?
+Dialogue: 0,0:20:35.20,0:20:37.20,Default,,0,0,0,,Don't you remember?
+Dialogue: 0,0:20:37.60,0:20:40.40,Default,,0,0,0,,I was one of the class representatives.
+Dialogue: 0,0:20:41.40,0:20:43.40,Default,,0,0,0,,Class representative...
+Dialogue: 0,0:20:44.00,0:20:45.60,Default,,0,0,0,,Ah, class president?
+Dialogue: 0,0:20:46.00,0:20:48.60,Default,,0,0,0,,Right, right! Do you finally remember?
+Dialogue: 0,0:20:49.00,0:20:52.60,Default,,0,0,0,,What's the occasion, calling all of a sudden?
+Dialogue: 0,0:20:52.60,0:20:54.80,Default,,0,0,0,,Is there going to be a reunion?
+Dialogue: 0,0:20:54.80,0:20:59.40,Default,,0,0,0,,Better news than that of a reunion, I think.
+Dialogue: 0,0:20:59.60,0:21:00.40,Default,,0,0,0,,Huh?
+Dialogue: 0,0:21:04.20,0:21:08.80,Default,,0,0,0,,My junior high school uniform, an apron, and homemade cooking...
+Dialogue: 0,0:21:09.40,0:21:13.20,Default,,0,0,0,,With this, I can definitely bring Satou-kun back to this world.
+Dialogue: 0,0:21:14.00,0:21:15.60,Default,,0,0,0,,I'm sure it'll be all right.
+Dialogue: 0,0:21:28.60,0:21:29.80,Default,,0,0,0,,Satou-kun?
+Dialogue: 0,0:21:31.80,0:21:33.00,Default,,0,0,0,,Satou-kun?
+Dialogue: 0,0:21:34.60,0:21:35.80,Default,,0,0,0,,Satou-kun!
+Dialogue: 0,0:21:37.60,0:21:39.20,Default,,0,0,0,,I'm coming in, okay?
+Dialogue: 0,0:21:40.00,0:21:41.00,Default,,0,0,0,,Satou-kun?
+Dialogue: 0,0:21:57.60,0:21:58.80,Default,,0,0,0,,Satou-kun?
+Dialogue: 0,0:23:31.00,0:23:32.80,Default,,0,0,0,,I'll never play an online game again.
+Dialogue: 0,0:23:32.80,0:23:34.60,Default,,0,0,0,,When he's hungry, he'll be back.
+Dialogue: 0,0:23:34.60,0:23:36.00,Default,,0,0,0,,There is no dream that can't be realized!
+Dialogue: 0,0:23:36.60,0:23:39.00,Default,,0,0,0,,Next Episode, Welcome to Happiness!

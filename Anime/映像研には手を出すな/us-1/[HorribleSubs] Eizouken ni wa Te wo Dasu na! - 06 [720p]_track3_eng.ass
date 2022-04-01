@@ -1,0 +1,607 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: OP_ED,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,13,13,24,0
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Keep Your Hands Off Eizouken,Open Sans Semibold,45,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_571_10_Film,Open Sans Semibold,45,&H009E9897,&H000000FF,&H005A5C5E,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,3,8,40,167,27,1
+Style: sign_273_8_96_days_until_th,Open Sans Semibold,18,&H00353430,&H000000FF,&H19E3DDDF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,9,40,40,27,1
+Style: sign_1563_27_Missing_Missing_,Open Sans Semibold,12,&H009D8ECE,&H000000FF,&H19000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_1563_28_Missing_Missing,Open Sans Semibold,14,&H00EFE5DF,&H000000FF,&H19A3533F,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_1563_30_Missing,Open Sans Semibold,29,&H0029A6B4,&H000000FF,&H1946CCD4,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_1563_31_Missing_Missing,Open Sans Semibold,14,&H007F9DA2,&H000000FF,&H19D5EBE8,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_4283_67_Episode_6__Let_s,Open Sans Semibold,29,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,1,153,40,327,1
+Style: sign_6910_80_R_a_m_e_n_,Open Sans Semibold,24,&H003A4B68,&H000000FF,&H199EC3C4,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,293,40,300,1
+Style: sign_7462_93_Missing,Open Sans Semibold,60,&H002C3234,&H000000FF,&H19CADFDE,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_8260_112_Brrrmm____brrrmm,Open Sans Semibold,59,&H00FFFFFF,&H000000FF,&H19888888,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,367,40,27,1
+Style: sign_8416_119_War_Room,Open Sans Semibold,12,&H003D4241,&H000000FF,&H00F6FBFA,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_8416_120_Computer_Room,Open Sans Semibold,12,&H003D4241,&H000000FF,&H00F6FBFA,&H00000000,0,0,0,0,100,100,0,0,1,4,0,3,40,40,27,1
+Style: sign_8416_118_Observation_Towe,Open Sans Semibold,18,&H003D4241,&H000000FF,&H00F6FBFA,&H00000000,0,0,0,0,100,100,0,0,1,4,0,9,40,40,27,1
+Style: sign_8416_119_Computer_Room__C,Open Sans Semibold,18,&H003D4241,&H000000FF,&H00F6FBFA,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_8972_127_Darker_than_the_,Open Sans Semibold,21,&H00424430,&H000000FF,&H00DFE9EC,&H0075947D,1,0,0,0,100,100,0,0,1,0,0,1,40,40,27,1
+Style: sign_9070_128_Wall,Open Sans Semibold,36,&H64373B36,&H000000FF,&H00888E90,&H0075947D,1,0,0,0,100,100,0,0,1,0,0,8,40,40,27,1
+Style: sign_9070_129_Rotating_emergen,Open Sans Semibold,18,&H3230312C,&H000000FF,&H00888E90,&H0075947D,1,0,0,0,100,100,0,0,1,0,0,7,40,40,27,1
+Style: sign_9187_131_Voice_on_the_Rad,Open Sans Semibold,30,&H00F5FFFF,&H000000FF,&H00473A31,&H0075947D,1,0,0,0,100,100,0,0,1,0,0,7,40,40,27,1
+Style: sign_9354_134_A1__In_Shadow___,Open Sans Semibold,24,&H003C3F35,&H000000FF,&H00888E90,&H0075947D,1,0,0,0,100,100,0,0,1,0,0,1,40,40,27,1
+Style: sign_9731_139_Bottom_of_gate,Open Sans Semibold,12,&H00787F7D,&H000000FF,&H00F2FBFC,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,320,320,27,1
+Style: sign_9731_140_Outer_Wall__Brig,Open Sans Semibold,21,&H00526C76,&H000000FF,&H009EC4D2,&H0075947D,1,0,0,0,100,100,0,-90,1,4,0,8,40,40,27,1
+Style: sign_9995_143_Preparing_Launch,Open Sans Semibold,42,&H00F2FFFF,&H000000FF,&H004A3933,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_8322_113_Whoosh___,Open Sans Semibold,59,&H00FFFFFF,&H000000FF,&H19575757,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,367,40,27,1
+Style: sign_8322_114_The_water_shoots,Open Sans Semibold,42,&H003E3E3E,&H000000FF,&H19FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,467,40,173,1
+Style: sign_10363_156_Shiba8_is_lit_up,Open Sans Semibold,36,&H0097A0A1,&H000000FF,&H00E0E7ED,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_14283_215_Student_Council,Open Sans Semibold,60,&H192F6548,&H000000FF,&H00A6FDDB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,100,40,347,1
+Style: sign_14615_222_Akihabara_Cultur,Open Sans Semibold,24,&H00382717,&H000000FF,&H00826B58,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_14684_226_Sound_Club__Igno,Open Sans Semibold,26,&H003E3928,&H000000FF,&H00FAF3DD,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_14888_229_Storage_Building,Open Sans Semibold,24,&H19575D4D,&H000000FF,&H007D826F,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_14888_230_Sliding_Door,Open Sans Semibold,27,&H19485757,&H000000FF,&H0083AEBD,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_14994_231_Music_Room,Open Sans Semibold,60,&H193A3C3B,&H000000FF,&H00C5C6C3,&H00000000,1,0,0,0,100,100,0,0,1,4,0,3,40,40,27,1
+Style: sign_15163_237_Sound_Club,Open Sans Semibold,60,&H19E2E8F1,&H000000FF,&H00AF6C39,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,67,40,27,1
+Style: sign_17536_272_Kegon_Falls__Cle,Open Sans Semibold,29,&H00C0CFD1,&H000000FF,&H00658086,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_18691_291_SEARCH_WARRANT,Open Sans Semibold,36,&H00000201,&H000000FF,&H00F4FAFA,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,8,40,351,27,1
+Style: sign_535_9_Film,Open Sans Semibold,39,&H007E6B6C,&H000000FF,&H00B29D9E,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,53,40,153,1
+Style: sign_1948_31_Film,Open Sans Semibold,12,&H0086878B,&H000000FF,&H00EDFAF9,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,47,100,1
+Style: sign_6984_82_Film,Open Sans Semibold,12,&H0081685E,&H000000FF,&H00FBFEFE,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,353,40,160,1
+Style: sign_23847_355_Film,Open Sans Semibold,39,&H00674D43,&H000000FF,&H00BA9A86,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,67,40,67,1
+Style: sign_28327_419_Film,Open Sans Semibold,39,&H0023383C,&H000000FF,&H001E6068,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,67,40,127,1
+Style: sign_30811_457_1__Press_down_th,Open Sans Semibold,12,&H006B6B6B,&H000000FF,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_31005_490_Taser_Gun__Multi,Open Sans Semibold,24,&H00080C0C,&H000000FF,&H00F5FBF8,&H00000000,1,0,0,0,100,100,0,0,1,4,0,9,40,40,27,1
+Style: sign_31114_489_Track_control_le,Open Sans Semibold,12,&H006B6B6B,&H000000FF,&H00F6FBFA,&H00000000,1,0,0,0,100,100,0,0,1,0,0,7,40,40,27,1
+Style: sign_35868_524_Illustration_by_,Open Sans Semibold,18,&H19000010,&H000000FF,&H002A2A2D,&H00000000,1,0,0,0,100,100,0,-1,1,0,0,1,649,40,53,1
+Style: sign_7745_100_Bamboo_Shoots,Open Sans Semibold,60,&H19232D37,&H000000FF,&H00B6D1DA,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_8324_119_Splash_,Open Sans Semibold,59,&H00FFFFFF,&H000000FF,&H19575757,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,667,40,200,1
+Style: sign_33224_520_Film,Open Sans Semibold,39,&H00463929,&H000000FF,&H006C5F50,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,67,40,127,1
+Style: sign_6568_76_Main_Gate,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,0
+Style: sign_8324_120_Splash,Open Sans Semibold,59,&H00FFFFFF,&H000000FF,&H19575757,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,516,191,267,1
+Style: sign_1496_28_Greatest__Strong,Open Sans Semibold,30,&H00494843,&H000000FF,&H00DBD7D3,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,133,0
+Style: sign_1563_33_A,Open Sans Semibold,29,&H00120299,&H000000FF,&H19E5EDE5,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,155,683,239,1
+Style: sign_1563_34_Cola,Open Sans Semibold,29,&H00E3E3EB,&H000000FF,&H19053EB8,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,599,199,292,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:02.48,sign_1948_31_Film,,0000,0000,0000,,{\move(322,235,322,45)}Film
+Dialogue: 0,0:00:02.07,0:00:04.21,main,A,0000,0000,0000,,We've definitely got to add all \Nthe coloring and sound effects
+Dialogue: 0,0:00:04.21,0:00:05.23,main,A,0000,0000,0000,,we had to skip last time.
+Dialogue: 0,0:00:05.23,0:00:07.20,main,M,0000,0000,0000,,Definitely. We definitely do!
+Dialogue: 0,0:00:07.20,0:00:10.44,main,A,0000,0000,0000,,A story, too! I want it to be \Neven better than last time!
+Dialogue: 0,0:00:10.44,0:00:11.36,main,M,0000,0000,0000,,Even better!
+Dialogue: 0,0:00:11.36,0:00:18.28,sign_273_8_96_days_until_th,,0000,0000,0000,,96 days until the culture festival\N\NLet's double what we did last time\N\NNot double!!\N\NSynopsis: Robot VS Monster\N\NTitle: TBD\N\NSetting: Shibahama High School\N\N 15-20 minute runtime\N\N"All Digital Animation"\N\N Now using Bit Winsoft across the board!!
+Dialogue: 0,0:00:12.10,0:00:14.33,main,M,0000,0000,0000,,If we're going to have dialog, \Nthat means we need voice actors, right?
+Dialogue: 0,0:00:14.33,0:00:15.82,main,M,0000,0000,0000,,We'll need to hold auditions.
+Dialogue: 0,0:00:15.82,0:00:18.28,main,K,0000,0000,0000,,I'd wait until the storyboard \Nis done to worry about that.
+Dialogue: 0,0:00:18.28,0:00:19.39,main,M,0000,0000,0000,,What about backgrounds?
+Dialogue: 0,0:00:19.39,0:00:21.37,main,A,0000,0000,0000,,Colored this time. Naturally, I'll—
+Dialogue: 0,0:00:21.37,0:00:25.25,main,K,0000,0000,0000,,The art club actually wants \Nto help us out this time.
+Dialogue: 0,0:00:25.25,0:00:26.66,main,K,0000,0000,0000,,They said our work
+Dialogue: 0,0:00:26.66,0:00:30.33,main,K,0000,0000,0000,,made an impression on them at the \Nbudget committee, much like the robot club.
+Dialogue: 0,0:00:30.33,0:00:32.04,main,M,0000,0000,0000,,Huh, that's pretty cool.
+Dialogue: 0,0:00:32.04,0:00:34.66,main,k,0000,0000,0000,,I'm sure they realize they \Ncan get something out of it.
+Dialogue: 0,0:00:34.66,0:00:36.49,main,k,0000,0000,0000,,As soon as Asakusa finishes the storyboards,
+Dialogue: 0,0:00:36.49,0:00:38.47,main,k,0000,0000,0000,,we'll meet with them to \Nhash out the backgrounds.
+Dialogue: 0,0:00:38.47,0:00:40.33,main,M,0000,0000,0000,,A meeting...
+Dialogue: 0,0:00:40.33,0:00:44.47,main,K,0000,0000,0000,,You're going to need to explain \Nto them what kind of art we need.
+Dialogue: 0,0:00:44.47,0:00:47.44,main,A,0000,0000,0000,,I-I can't tell people what to do...
+Dialogue: 0,0:00:47.91,0:00:51.41,main,K,0000,0000,0000,,Well, you also can't draw the backgrounds \Nfor every cut on your own, can you?
+Dialogue: 0,0:00:51.86,0:00:54.11,main,K,0000,0000,0000,,No groaning, moaning, or excuses.
+Dialogue: 0,0:00:54.11,0:00:56.83,main,K,0000,0000,0000,,There's one other hurdle to deal with.
+Dialogue: 0,0:00:57.82,0:01:01.95,main,K,0000,0000,0000,,The robot club has requested that an \Nopening sequence be included.
+Dialogue: 0,0:01:01.97,0:01:05.19,sign_1496_28_Greatest__Strong,K,0000,0000,0000,,Greatest, Strongest\NRobot Song
+Dialogue: 0,0:01:02.37,0:01:05.16,main,K,0000,0000,0000,,The song is already in the works, apparently.
+Dialogue: 0,0:01:05.16,0:01:12.42,sign_1563_27_Missing_Missing_,Sign,0000,0000,0000,,{\frz31\fax0.44\pos(324,257)}Lots of Nutrition!\N{\c&H40B8BB&\3c&H251F2B&\fs18}Allgrapes\N{\fs8}Natural Sweetness
+Dialogue: 0,0:01:05.16,0:01:12.42,sign_1563_28_Missing_Missing,Sign,0000,0000,0000,,{\pos(239,115)\frz17.1\fax-0.31}Bright Day\N{\fs13}Milk
+Dialogue: 0,0:01:05.16,0:01:12.42,sign_1563_28_Missing_Missing,Sign,0000,0000,0000,,{\frz17.1\fax-0.31\pos(285,86)}Bright Day\N{\fs13}Milk
+Dialogue: 0,0:01:05.16,0:01:12.42,sign_1563_30_Missing,Sign,0000,0000,0000,,{\pos(122,181)\frz-2.07}Egg Biscuits
+Dialogue: 0,0:01:05.16,0:01:12.42,sign_1563_33_A,Sign,0000,0000,0000,,{\pos(470,141)\frz-2.07}A
+Dialogue: 0,0:01:05.16,0:01:12.42,sign_1563_34_Cola,Sign,0000,0000,0000,,{\pos(230,300)\frz-2.07}Cola
+Dialogue: 0,0:01:05.16,0:01:12.42,sign_1563_31_Missing_Missing,Sign,0000,0000,0000,,{\frz26.57\fax-0.5\fay.1\pos(175,230)}Recommended for\N 7 months and up
+Dialogue: 0,0:01:05.69,0:01:08.78,main,K,0000,0000,0000,,We'll discuss it in more detail \Nonce the demo track is ready.
+Dialogue: 0,0:01:08.78,0:01:10.99,main,A,0000,0000,0000,,What about the music during the actual film?
+Dialogue: 0,0:01:10.99,0:01:12.42,main,M,0000,0000,0000,,I think it should be epic!
+Dialogue: 0,0:01:15.39,0:01:17.31,main,A,0000,0000,0000,,Could you handle that, Mizusaki?
+Dialogue: 0,0:01:17.98,0:01:20.67,main,M,0000,0000,0000,,Never done it before. \NWhat about you, Asakusa?
+Dialogue: 0,0:01:20.67,0:01:23.79,main,A,0000,0000,0000,,I've never had a chance to try before.
+Dialogue: 0,0:01:25.85,0:01:28.65,main,M,0000,0000,0000,,I'll ask around to see if \Nanyone I know writes music.
+Dialogue: 0,0:01:28.65,0:01:32.08,main,K,0000,0000,0000,,We've got three times the amount \Nof time for production...
+Dialogue: 0,0:01:32.08,0:01:34.82,main,K,0000,0000,0000,,But will our club activity \Ntime be enough, Mizusaki?
+Dialogue: 0,0:01:34.82,0:01:37.40,main,M,0000,0000,0000,,No way! I've gotta work at home, too!
+Dialogue: 0,0:01:37.71,0:01:41.16,main,M,0000,0000,0000,,Animating designs with so many \Nlines is a ton of work, y'know.
+Dialogue: 0,0:01:41.70,0:01:45.45,main,M,0000,0000,0000,,They say you're not a real animator \Nuntil you can do 500 pieces of art a month,
+Dialogue: 0,0:01:45.45,0:01:48.17,main,M,0000,0000,0000,,but for anime, you need to be able \Nto draw the necessary amount of art
+Dialogue: 0,0:01:48.17,0:01:50.02,main,M,0000,0000,0000,,at the required standard of quality,
+Dialogue: 0,0:01:50.02,0:01:54.76,main,M,0000,0000,0000,,which is nothing like randomly dashing \Noff 500 doodles of whatever you want!
+Dialogue: 0,0:01:54.76,0:01:57.38,main,K,0000,0000,0000,,How difficult is it, exactly?
+Dialogue: 0,0:01:57.85,0:02:03.50,main,M,0000,0000,0000,,Imagine having to draw 500 rough drafts \Nwhile wearing gloves and handcuffs,
+Dialogue: 0,0:02:03.50,0:02:07.06,main,M,0000,0000,0000,,and if you're even 0.02 millimeters \Noff from frame to frame, you end up in hell.
+Dialogue: 0,0:02:07.06,0:02:10.94,main,M,0000,0000,0000,,But even before that, imagine having \Nto uniformly draw ten pieces of art
+Dialogue: 0,0:02:10.94,0:02:14.07,main,M,0000,0000,0000,,that accurately move a millimeter at a time, \Nwhile wearing armor, or you starve.
+Dialogue: 0,0:02:14.07,0:02:16.26,main,M,0000,0000,0000,,Having to draw three pieces \Nof art, every hour,
+Dialogue: 0,0:02:16.26,0:02:18.01,main,M,0000,0000,0000,,with so many lines, while thinking\N about how it moves?
+Dialogue: 0,0:02:18.01,0:02:18.78,main,M,0000,0000,0000,,It's basically a curse!
+Dialogue: 0,0:02:18.78,0:02:22.13,main,M,0000,0000,0000,,Producing anime while in \Nhigh school is impossible!
+Dialogue: 0,0:02:22.13,0:02:25.49,main,K,0000,0000,0000,,So the entire premise of this club is invalid.
+Dialogue: 0,0:02:27.77,0:02:30.30,main,K,0000,0000,0000,,How are things coming along\N for you, Asakusa?
+Dialogue: 0,0:02:30.30,0:02:31.58,main,A,0000,0000,0000,,So far, so good!
+Dialogue: 0,0:02:31.58,0:02:34.66,main,K,0000,0000,0000,,I'm pretty sure that can't be the case \Nsince we're having to adjust the schedule
+Dialogue: 0,0:02:34.66,0:02:36.66,main,K,0000,0000,0000,,based on your progress with the storyboards.
+Dialogue: 0,0:02:36.66,0:02:39.80,main,K,0000,0000,0000,,Mizusaki, do you have any suggestions \Nfor how we can improve our efficiency?
+Dialogue: 0,0:02:39.80,0:02:44.01,main,M,0000,0000,0000,,Well, it'd definitely be faster if \Nwe had a computer in the club room.
+Dialogue: 0,0:02:44.01,0:02:47.09,main,M,0000,0000,0000,,That way, we can handle the finishing \Ntouches and the photography here.
+Dialogue: 0,0:02:47.09,0:02:49.85,main,A,0000,0000,0000,,Having to use the PC room every time \Nwe need to make slight adjustments
+Dialogue: 0,0:02:49.85,0:02:51.95,main,A,0000,0000,0000,,definitely eats up time.
+Dialogue: 0,0:02:53.27,0:02:54.78,main,K,0000,0000,0000,,I'm heading out.
+Dialogue: 0,0:02:58.61,0:03:02.03,sign_4283_67_Episode_6__Let_s,Eptitle sign,0000,0000,0000,,{\fscx103\fad(515,515)}Episode 6        {\fscx120}Let's Do Better Than Last Time!
+Dialogue: 0,0:03:55.25,0:03:56.40,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep
+Dialogue: 0,0:03:57.67,0:03:58.77,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Your
+Dialogue: 0,0:04:00.30,0:04:01.32,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Hands
+Dialogue: 0,0:04:02.72,0:04:03.70,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Off
+Dialogue: 0,0:04:04.03,0:04:14.69,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:04:14.69,0:04:22.90,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:04:29.20,0:04:31.62,main,M,0000,0000,0000,,Kanamori never came back, huh?
+Dialogue: 0,0:04:31.62,0:04:32.99,main,A,0000,0000,0000,,I imagine she went home.
+Dialogue: 0,0:04:33.94,0:04:36.31,sign_6568_76_Main_Gate,A,0000,0000,0000,,Main\NGate
+Dialogue: 0,0:04:38.11,0:04:40.42,main,K,0000,0000,0000,,Let's get something to eat.
+Dialogue: 0,0:04:40.42,0:04:43.10,main,M,0000,0000,0000,,Kanamori is inviting us out to eat?
+Dialogue: 0,0:04:45.31,0:04:46.54,main,M,0000,0000,0000,,Wh-What is this place?
+Dialogue: 0,0:04:46.54,0:04:48.18,main,K,0000,0000,0000,,Does it look like a shoe store?
+Dialogue: 0,0:04:48.18,0:04:52.77,sign_6910_80_R_a_m_e_n_,Sign,0000,0000,0000,,{\fry322}R\Na\Nm\Ne\Nn
+Dialogue: 0,0:04:48.74,0:04:50.96,main,A,0000,0000,0000,,I can smell gasoline. Is this a good idea?
+Dialogue: 0,0:04:50.96,0:04:52.77,main,K,0000,0000,0000,,A few fumes never killed anybody.
+Dialogue: 0,0:04:54.43,0:04:56.27,main,K,0000,0000,0000,,This is my treat.
+Dialogue: 0,0:04:56.27,0:04:56.86,main,A,0000,0000,0000,,Whuzzat?!
+Dialogue: 0,0:04:56.86,0:04:57.56,main,M,0000,0000,0000,,Really?
+Dialogue: 0,0:04:57.56,0:04:59.55,main,A,0000,0000,0000,,Whoa, hold on! This is \NKanamori we're talking about!
+Dialogue: 0,0:04:59.55,0:05:01.78,main,A,0000,0000,0000,,Nothing is scarier than a \Nfree meal from the yakuza!
+Dialogue: 0,0:05:01.78,0:05:03.18,main,K,0000,0000,0000,,It's fine.
+Dialogue: 0,0:05:03.18,0:05:04.46,main,K,0000,0000,0000,,I've just got ulterior motives.
+Dialogue: 0,0:05:04.46,0:05:05.99,main,A,0000,0000,0000,,That's the scary part!
+Dialogue: 0,0:05:06.47,0:05:09.38,main,K,0000,0000,0000,,Think of it as an advance \Non your overtime.
+Dialogue: 0,0:05:09.38,0:05:11.20,main,K,0000,0000,0000,,Since we're going to have \Nto work on this project
+Dialogue: 0,0:05:11.20,0:05:13.30,main,K,0000,0000,0000,,outside of club hours to finish it.
+Dialogue: 0,0:05:11.20,0:05:17.75,sign_7462_93_Missing,Sign,0000,0000,0000,,{\frz13.36\pos(108,123)\fax-0.21\fay.05}Pickled
+Dialogue: 0,0:05:11.20,0:05:17.75,sign_7462_93_Missing,Sign,0000,0000,0000,,{\pos(551,89)\frz-10.57\fax0.19\fay.1\3c&HE0E5E4&}Garlic
+Dialogue: 0,0:05:13.30,0:05:15.13,main,M,0000,0000,0000,,That's more considerate than I would've figured.
+Dialogue: 0,0:05:15.13,0:05:17.75,main,K,0000,0000,0000,,Hardly. I'm only doing the obvious thing.
+Dialogue: 0,0:05:17.75,0:05:20.46,main,K,0000,0000,0000,,You'll be expected to work it off, eventually.
+Dialogue: 0,0:05:23.01,0:05:29.22,sign_7745_100_Bamboo_Shoots,Menu signs,0000,0000,0000,,{\frz-84.34\pos(559,1)\fscx150\fax0.09}Bamboo Shoots
+Dialogue: 0,0:05:23.01,0:05:29.22,sign_7745_100_Bamboo_Shoots,Menu signs,0000,0000,0000,,{\frz-84.34\fscx150\pos(399,22)\fax0.1}Seaweed & Salt
+Dialogue: 0,0:05:23.01,0:05:29.22,sign_7745_100_Bamboo_Shoots,Menu signs,0000,0000,0000,,{\frz-84.34\fscx150\pos(239,55)\fax0.18}Roasted Pork
+Dialogue: 0,0:05:23.01,0:05:29.22,sign_7745_100_Bamboo_Shoots,Menu signs,0000,0000,0000,,{\frz-85.67\fscx150\pos(104,115)\fax0.08}Ramen
+Dialogue: 0,0:05:24.10,0:05:25.05,main,M,0000,0000,0000,,Kake ramen!
+Dialogue: 0,0:05:25.05,0:05:25.85,main,K,0000,0000,0000,,Red pepper, please.
+Dialogue: 0,0:05:25.85,0:05:27.73,main,A,0000,0000,0000,,Can I get a soft-boiled egg in mine? \NWith extra wakame!
+Dialogue: 0,0:05:27.73,0:05:28.65,main,A,0000,0000,0000,,And firm noodles?
+Dialogue: 0,0:05:28.65,0:05:29.53,main,Server,0000,0000,0000,,Sure thing!
+Dialogue: 0,0:05:29.53,0:05:32.67,main,K,0000,0000,0000,,So, Asakusa, have you made any \Nprogress with the storyboards?
+Dialogue: 0,0:05:33.41,0:05:34.22,main,A,0000,0000,0000,,Es perfecto!
+Dialogue: 0,0:05:35.73,0:05:37.29,main,A,0000,0000,0000,,The time is before school is open.
+Dialogue: 0,0:05:37.29,0:05:38.93,main,A,0000,0000,0000,,That'll save us the trouble \Nof drawing people.
+Dialogue: 0,0:05:38.93,0:05:40.33,main,K,0000,0000,0000,,Good idea.
+Dialogue: 0,0:05:40.33,0:05:43.50,main,A,0000,0000,0000,,Generally speaking, it's the \Nsame layout as Shibahama High.
+Dialogue: 0,0:05:44.51,0:05:47.09,sign_8260_112_Brrrmm____brrrmm,SFX Sign,0000,0000,0000,,Brrrmm... \NBrrrmm...
+Dialogue: 0,0:05:44.66,0:05:46.81,main,A,0000,0000,0000,,There are eerie movements underground.
+Dialogue: 0,0:05:47.07,0:05:49.24,sign_8322_113_Whoosh___,Storyboard sign,0000,0000,0000,,Whoosh...
+Dialogue: 0,0:05:47.09,0:05:49.24,sign_8322_114_The_water_shoots,,0000,0000,0000,,The water shoots up!
+Dialogue: 0,0:05:47.15,0:05:49.24,sign_8324_120_Splash,A,0000,0000,0000,,Splash
+Dialogue: 0,0:05:47.68,0:05:49.24,main,A,0000,0000,0000,,There's a sudden spray of water!
+Dialogue: 0,0:05:49.24,0:05:50.99,main,A,0000,0000,0000,,Here we have the base.
+Dialogue: 0,0:05:50.99,0:05:55.83,sign_8416_119_Computer_Room__C,,0000,0000,0000,,Computer Room\N\NCrane\N\NHydraulic Pistons\N\NHatch
+Dialogue: 0,0:05:50.99,0:05:55.91,sign_8416_118_Observation_Towe,,0000,0000,0000,,Observation Tower\N\NWar Room\N\NRabbit\N\NPump\N\NWater Tank\N\N{\3c&HDCECB5&}Catapult
+Dialogue: 0,0:05:51.57,0:05:53.71,main,A,0000,0000,0000,,The first and second floor \Nare directly connected!
+Dialogue: 0,0:05:54.81,0:05:55.79,main,M,0000,0000,0000,,Looks good.
+Dialogue: 0,0:05:56.22,0:05:59.67,main,A,0000,0000,0000,,For various reasons, the robot\N is now eight meters tall.
+Dialogue: 0,0:05:59.67,0:06:01.35,main,K,0000,0000,0000,,That's a fair bit bigger.
+Dialogue: 0,0:06:01.35,0:06:03.71,main,K,0000,0000,0000,,We'll need to confer with the robot club.
+Dialogue: 0,0:06:11.72,0:06:14.17,main,A,0000,0000,0000,,They're alerted to the monster's appearance!
+Dialogue: 0,0:06:14.17,0:06:16.64,main,A,0000,0000,0000,,There have been reports about \Nvibrations being detected underground.
+Dialogue: 0,0:06:14.20,0:06:16.64,sign_8972_127_Darker_than_the_,Storyboard signs,0000,0000,0000,,{\pos(489,91)\frz8\frx14\fry2}Darker than the last cut\N\h\h\h\h\h\h(but power is still on)\N\h\h\h\h\h\h Monitor is lit brightly
+Dialogue: 0,0:06:18.27,0:06:19.92,sign_9070_128_Wall,Storyboard signs,0000,0000,0000,,{\pos(233,7)\frx18\fry2}Wall
+Dialogue: 0,0:06:18.27,0:06:19.92,sign_9070_129_Rotating_emergen,Storyboard signs,0000,0000,0000,,{\pos(538,96)\frz6}Rotating emergency light
+Dialogue: 0,0:06:23.15,0:06:25.15,sign_9187_131_Voice_on_the_Rad,Direction sign,0000,0000,0000,,{\pos(400,50)}Voice on the Radio:\N"It's a monster.\N A crab-type monster\N has appeared!"
+Dialogue: 0,0:06:27.15,0:06:29.15,sign_9187_131_Voice_on_the_Rad,Direciton Sign,0000,0000,0000,,{\pos(249,74)}Captain:\N"Move out!\N Everyone, to your positions!"
+Dialogue: 0,0:06:30.13,0:06:34.66,sign_9354_134_A1__In_Shadow___,Storyboard signs,0000,0000,0000,,{\pos(455,49)\frz13.34\fax-0.01}A1 (In Shadow) \N A2 (Normal)
+Dialogue: 0,0:06:30.46,0:06:31.89,main,A,0000,0000,0000,,The robot is being mobilized!
+Dialogue: 0,0:06:34.66,0:06:36.53,main,A,0000,0000,0000,,The team rushes to their positions!
+Dialogue: 0,0:06:39.67,0:06:41.09,main,A,0000,0000,0000,,Off go the bolts!
+Dialogue: 0,0:06:39.67,0:06:43.13,sign_9354_134_A1__In_Shadow___,Storyboard sign,0000,0000,0000,,{\frz11.31\pos(471,60)\fs12}Underwater
+Dialogue: 0,0:06:43.13,0:06:44.10,main,A,0000,0000,0000,,The gate opens!
+Dialogue: 0,0:06:45.84,0:06:47.92,sign_9731_139_Bottom_of_gate,Storyboard signs,0000,0000,0000,,{\move(160,60,160,-25)}Bottom of Gate
+Dialogue: 0,0:06:45.84,0:06:48.55,sign_9731_140_Outer_Wall__Brig,Storyboard signs,0000,0000,0000,,{\move(610,250,610,145}Outer Wall (Bright)
+Dialogue: 0,0:06:50.05,0:06:50.80,main,A,0000,0000,0000,,Light up the rails!
+Dialogue: 0,0:06:52.65,0:06:55.56,main,A,0000,0000,0000,,All the various machines come \Nalive in a dizzying fashion!
+Dialogue: 0,0:06:56.85,0:06:57.56,sign_9995_143_Preparing_Launch,A,0000,0000,0000,,{\pos(334,194)\frz-11.11\fax0.1\fay-.009\fad(1,435)}Preparing Launch
+Dialogue: 0,0:06:57.14,0:06:58.60,sign_9995_143_Preparing_Launch,A,0000,0000,0000,,{\frz-12.5\fax0.1\fay-.009\pos(353,114)\fs40\fad(435,1)\fscx200\fscy200}Launching
+Dialogue: 0,0:06:57.29,0:06:58.60,main,A,0000,0000,0000,,It launches!
+Dialogue: 0,0:06:58.60,0:07:00.14,main,A,0000,0000,0000,,Ejected from the catapult!
+Dialogue: 0,0:07:00.46,0:07:02.99,main,A,0000,0000,0000,,It encounters the crabtle underground\N before the creature escapes,
+Dialogue: 0,0:07:02.99,0:07:05.62,main,A,0000,0000,0000,,but once it re-appears on the \Nschool grounds, they battle!
+Dialogue: 0,0:07:05.62,0:07:06.82,main,A,0000,0000,0000,,The robot wins! The end!
+Dialogue: 0,0:07:06.82,0:07:08.10,main,Server,0000,0000,0000,,Here you go.
+Dialogue: 0,0:07:08.10,0:07:09.70,main,Server,0000,0000,0000,,The others will be a bit longer.
+Dialogue: 0,0:07:09.70,0:07:11.22,main,M,0000,0000,0000,,Go ahead and eat.
+Dialogue: 0,0:07:11.22,0:07:12.20,main,A,0000,0000,0000,,Appreciate it.
+Dialogue: 0,0:07:12.20,0:07:13.59,sign_10363_156_Shiba8_is_lit_up,,0000,0000,0000,,SHIBA8 is lit up \N\NExplosion SE: {\c&HDEE7E8&\3c&H99A1A2&}Pow! \N\N {\c&H97A0A1&\3c&HE0E7EB&}Struck by the cavitation,\N SHIBA8 is blasted back \N\N SE: {\c&HDEE7E8&\3c&H99A1A2&}Bang!
+Dialogue: 0,0:07:12.85,0:07:14.14,main,A,0000,0000,0000,,Time to eat!
+Dialogue: 0,0:07:14.97,0:07:18.21,main,K,0000,0000,0000,,These action scenes are extremely... \Nbroad, to put it lightly.
+Dialogue: 0,0:07:18.66,0:07:19.96,main,A,0000,0000,0000,,That's all up here.
+Dialogue: 0,0:07:20.58,0:07:23.10,main,K,0000,0000,0000,,Well, it needs to be on the damn page!
+Dialogue: 0,0:07:23.10,0:07:25.37,main,K,0000,0000,0000,,How is this "perfecto"?! \NYou're supposed to be specific!
+Dialogue: 0,0:07:25.37,0:07:27.36,main,A,0000,0000,0000,,I'm not good at action, okay?!
+Dialogue: 0,0:07:27.36,0:07:30.09,main,M,0000,0000,0000,,I've been drawing a bit of action myself.
+Dialogue: 0,0:07:32.14,0:07:34.67,main,M,0000,0000,0000,,The arm shakes from the impact of the blow!
+Dialogue: 0,0:07:34.67,0:07:36.94,main,M,0000,0000,0000,,It pulls a leg back to avoid \Nfrom getting too close.
+Dialogue: 0,0:07:36.94,0:07:38.12,main,A,0000,0000,0000,,That's cool!
+Dialogue: 0,0:07:38.12,0:07:42.14,main,M,0000,0000,0000,,And then, the arm is knocked back \Nfrom the recoil of an attack!
+Dialogue: 0,0:07:42.14,0:07:44.29,main,M,0000,0000,0000,,The movements leading into a charge...
+Dialogue: 0,0:07:45.95,0:07:47.57,main,M,0000,0000,0000,,The wind-up for a punch...
+Dialogue: 0,0:07:47.77,0:07:49.82,main,M,0000,0000,0000,,When you're trying to show a powerful hit,
+Dialogue: 0,0:07:49.82,0:07:51.89,main,M,0000,0000,0000,,you need to include these little movements!
+Dialogue: 0,0:07:52.45,0:07:55.21,main,A,0000,0000,0000,,That's some high-quality acting.
+Dialogue: 0,0:07:55.21,0:07:58.08,main,K,0000,0000,0000,,Why don't we let Mizusaki \Nchoreograph the action scenes?
+Dialogue: 0,0:07:58.08,0:07:59.17,main,A,0000,0000,0000,,No objections.
+Dialogue: 0,0:07:59.17,0:08:01.41,main,Server,0000,0000,0000,,Here's your kake ramen.
+Dialogue: 0,0:08:01.41,0:08:04.46,main,Server,0000,0000,0000,,Sorry, the red pepper ramen's \Ngonna take a little bit longer.
+Dialogue: 0,0:08:04.46,0:08:06.24,main,M,0000,0000,0000,,Time to eat!
+Dialogue: 0,0:08:06.24,0:08:08.94,main,A,0000,0000,0000,,I wanted to ask, what're we \Ngonna do about sound effects?
+Dialogue: 0,0:08:08.94,0:08:10.69,main,A,0000,0000,0000,,They're really important.
+Dialogue: 0,0:08:11.42,0:08:13.27,main,M,0000,0000,0000,,Good question. What should we do?
+Dialogue: 0,0:08:16.13,0:08:19.12,main,M,0000,0000,0000,,For now, I can look into \Nusing royalty-free ones.
+Dialogue: 0,0:08:19.12,0:08:22.14,main,K,0000,0000,0000,,That reminds me, I've made \Narrangements for a computer.
+Dialogue: 0,0:08:22.14,0:08:23.21,main,M,0000,0000,0000,,How much was it?
+Dialogue: 0,0:08:23.21,0:08:25.06,main,K,0000,0000,0000,,Thirty-two thousand yen.
+Dialogue: 0,0:08:25.60,0:08:27.81,main,A,0000,0000,0000,,That is a thuggishly low price!
+Dialogue: 0,0:08:27.81,0:08:30.24,main,K,0000,0000,0000,,I talked to the information \Nservice research group.
+Dialogue: 0,0:08:30.24,0:08:33.42,main,K,0000,0000,0000,,Apparently, every time they \Nput together a new PC,
+Dialogue: 0,0:08:33.42,0:08:37.17,main,K,0000,0000,0000,,they dispose of the old one, \Nno matter how powerful it was.
+Dialogue: 0,0:08:37.17,0:08:38.34,main,A,0000,0000,0000,,Like when they tear down new buildings
+Dialogue: 0,0:08:38.34,0:08:40.04,main,A,0000,0000,0000,,just to throw up newer ones.
+Dialogue: 0,0:08:40.04,0:08:41.62,main,M,0000,0000,0000,,What about the software and other stuff?
+Dialogue: 0,0:08:41.62,0:08:43.03,main,K,0000,0000,0000,,It's already taken care of.
+Dialogue: 0,0:08:43.03,0:08:44.51,main,A,0000,0000,0000,,It is?!
+Dialogue: 0,0:08:44.51,0:08:47.29,main,A,0000,0000,0000,,You sure about this, Kanamori?
+Dialogue: 0,0:08:47.29,0:08:49.93,main,A,0000,0000,0000,,We're not gonna get raided later, are we?
+Dialogue: 0,0:08:50.41,0:08:53.25,main,K,0000,0000,0000,,Would you put a sock in it already,\N you cowardly raccoon dog?
+Dialogue: 0,0:08:54.09,0:08:58.83,main,K,0000,0000,0000,,For the software... the school \Nalready had paid for the licenses.
+Dialogue: 0,0:08:58.83,0:09:01.97,main,K,0000,0000,0000,,So it's... basically free.
+Dialogue: 0,0:09:07.10,0:09:09.63,main,Server,0000,0000,0000,,Here you are. One red pepper ramen.
+Dialogue: 0,0:09:09.63,0:09:11.65,main,M,0000,0000,0000,,I guess this is part of why she's so tall.
+Dialogue: 0,0:09:11.65,0:09:13.19,main,A,0000,0000,0000,,Her ramen's gonna get cold.
+Dialogue: 0,0:09:13.19,0:09:15.90,main,M,0000,0000,0000,,Okay, I'm ready to start \Ndrawing when I get home!
+Dialogue: 0,0:09:15.90,0:09:19.32,main,M,0000,0000,0000,,If we're doing this on PC, there's a\N tablet at home I can animate on.
+Dialogue: 0,0:09:19.32,0:09:20.86,main,A,0000,0000,0000,,You sure you won't get caught?
+Dialogue: 0,0:09:20.86,0:09:23.20,main,M,0000,0000,0000,,It's easy to hide stuff when you're in bed!
+Dialogue: 0,0:09:23.20,0:09:25.90,main,M,0000,0000,0000,,I'm gonna be animating at home and on the train!
+Dialogue: 0,0:09:25.90,0:09:28.88,main,M,0000,0000,0000,,Our goal this time is to complete this anime!
+Dialogue: 0,0:09:28.88,0:09:33.15,main,K,0000,0000,0000,,Completion isn't our goal, \Nit's a predetermined outcome!
+Dialogue: 0,0:09:35.50,0:09:39.53,main,K,0000,0000,0000,,We're not starting production, \Nwe've already started!
+Dialogue: 0,0:09:39.53,0:09:41.26,main,A,0000,0000,0000,,That is a terrifying way to eat.
+Dialogue: 0,0:09:42.13,0:09:44.56,main,K,0000,0000,0000,,Thank you for the food! Check, please!
+Dialogue: 0,0:09:45.65,0:09:47.72,main,Server,0000,0000,0000,,That'll be 2,450 yen!
+Dialogue: 0,0:09:47.72,0:09:49.35,main,K,0000,0000,0000,,Separate tickets, please.
+Dialogue: 0,0:09:49.35,0:09:52.27,main,K,0000,0000,0000,,I make it a point to never \Ncarry more than 1,000 yen.
+Dialogue: 0,0:09:52.27,0:09:54.62,main,K,0000,0000,0000,,I'll pay you back for the ramen later.
+Dialogue: 0,0:09:54.62,0:09:55.69,main,A,0000,0000,0000,,What the heck?!
+Dialogue: 0,0:09:55.69,0:09:59.74,sign_14283_215_Student_Council,Sign,0000,0000,0000,,{\fscx145\fscy145}Student Council
+Dialogue: 0,0:09:57.11,0:09:59.74,main,Sakaki,0000,0000,0000,,The robot club explained what's up.
+Dialogue: 0,0:09:59.74,0:10:02.20,main,Sakaki,0000,0000,0000,,The student council has to \Ntrack the flow of money.
+Dialogue: 0,0:10:02.65,0:10:04.93,main,K,0000,0000,0000,,Why, are you going to tax us?
+Dialogue: 0,0:10:04.93,0:10:08.32,main,Sakaki,0000,0000,0000,,It's just a simple check to make \Nsure it's not being misused.
+Dialogue: 0,0:10:08.32,0:10:12.97,main,Sakaki,0000,0000,0000,,We've got a lot of crazy clubs, \Nlike yours, and it keeps us busy.
+Dialogue: 0,0:10:09.56,0:10:12.42,sign_14615_222_Akihabara_Cultur,Sakaki,0000,0000,0000,,Akihabara Culture Group & Fermented Foods Advocacy Club: Odor complaints\N Drone Photography Club: Invasion of privacy\NMessenger Pigeon Club: Forgery of school documents\NCarbohydrates Revolution Lab: Dangerous protest activities\NSound Club: Ignored order to vacate\NLure Appreciation Club: Prohibited deals\NNeue Deutsche Härte Club: Noise complaints\NSaw Table Tennis: Destruction of equipment\NMan-Faced Fish Investigation Lab: Incitement of other students\NExterior Club: Excessive spending on renovations
+Dialogue: 0,0:10:12.42,0:10:15.42,sign_14684_226_Sound_Club__Igno,,0000,0000,0000,,{\frz270\pos(598,16)\3c&HBFB9A3&\t(1026,1526,\3c&H5B5A51&)}Messenger Pigeon Club: Forgery of school documents
+Dialogue: 0,0:10:12.42,0:10:15.42,sign_14684_226_Sound_Club__Igno,,0000,0000,0000,,{\frz270\pos(476,16)\t(1026,1526,\3c&H747065&)}Carbohydrates Revolution Lab: Dangerous protest activities
+Dialogue: 0,0:10:12.42,0:10:15.42,sign_14684_226_Sound_Club__Igno,,0000,0000,0000,,{\frz270\pos(356,16)}• Sound Club: Ignored order to vacate
+Dialogue: 0,0:10:12.42,0:10:15.42,sign_14684_226_Sound_Club__Igno,,0000,0000,0000,,{\frz270\pos(252,16)\fs15\t(1026,1526,\3c&H7A776C&)}• Lure Appreciation Club: Prohibited deals
+Dialogue: 0,0:10:12.42,0:10:15.42,sign_14684_226_Sound_Club__Igno,,0000,0000,0000,,{\frz270\pos(146,16)\t(1026,1526,\3c&H77736B&)}• Neue Deutsche Härte Club: Noise complaints
+Dialogue: 0,0:10:12.42,0:10:15.42,sign_14684_226_Sound_Club__Igno,,0000,0000,0000,,{\frz270\pos(59,16)\3c&HBAB4A3&\t(1026,1526,\3c&H6B685D&)}• Saw Table Tennis: Destruction of equipment
+Dialogue: 0,0:10:15.42,0:10:16.92,sign_14684_226_Sound_Club__Igno,,0000,0000,0000,,{\frz270\fs40\pos(395,31)}Sound
+Dialogue: 0,0:10:20.93,0:10:24.89,sign_14888_229_Storage_Building,Door sign,0000,0000,0000,,{\pos(475,110)\frz-80.87}Storage Building 3
+Dialogue: 0,0:10:20.93,0:10:24.89,sign_14888_230_Sliding_Door,Door sign,0000,0000,0000,,{\pos(483,229)\frz11}Sliding Door
+Dialogue: 0,0:10:25.37,0:10:26.14,sign_14994_231_Music_Room,Door Sign 2,0000,0000,0000,,{\move(400,280,400,-145)\fscx200\fscy200\frx326\fry0}Music Room
+Dialogue: 0,0:10:25.60,0:10:26.35,sign_14994_231_Music_Room,Door Sign 2,0000,0000,0000,,{\move(395,475,395,55)\fscx200\fscy150\frx350\fry0}Sound Club 2
+Dialogue: 0,0:10:28.12,0:10:28.89,sign_14994_231_Music_Room,Door sign 3,0000,0000,0000,,{\move(400,280,400,-145)\fscx200\fscy200\frx326\fry0}Audio Room
+Dialogue: 0,0:10:28.35,0:10:29.10,sign_14994_231_Music_Room,Door sign 3,0000,0000,0000,,{\move(395,475,395,55)\fscx200\fscy150\frx350\fry0}Sound Club 3
+Dialogue: 0,0:10:31.15,0:10:31.86,sign_14994_231_Music_Room,Door sign 4,0000,0000,0000,,{\move(400,280,400,-145)\fscx200\fscy200\frx326\fry0}Broadcast Room
+Dialogue: 0,0:10:31.36,0:10:32.06,sign_14994_231_Music_Room,Door sign 4,0000,0000,0000,,{\move(395,475,395,80)\fscx200\fscy150\frx350\fry0}Sound Club 4
+Dialogue: 0,0:10:32.40,0:10:34.40,sign_15163_237_Sound_Club,Door sign 5,0000,0000,0000,,{\frz271\pos(369,170)\fscx135\fscy135}Sound Club
+Dialogue: 0,0:10:34.40,0:10:36.53,main,K,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:10:39.30,0:10:41.05,main,K,0000,0000,0000,,A sound-proof door, huh?
+Dialogue: 0,0:10:46.83,0:10:48.30,main,Doumeki,0000,0000,0000,,Would you knock it off?!
+Dialogue: 0,0:10:48.30,0:10:49.62,main,Doumeki,0000,0000,0000,,Who are you supposed to be?
+Dialogue: 0,0:10:49.62,0:10:51.61,main,K,0000,0000,0000,,I'm with the film club.
+Dialogue: 0,0:10:51.61,0:10:54.18,main,Doumeki,0000,0000,0000,,Film club? No, thanks.
+Dialogue: 0,0:10:57.02,0:10:59.34,main,K,0000,0000,0000,,I don't exactly need \Nyour thanks, as it turns out.
+Dialogue: 0,0:10:59.34,0:11:01.05,main,Doumeki,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:11:01.05,0:11:02.43,main,K,0000,0000,0000,,Give it up...
+Dialogue: 0,0:11:02.43,0:11:03.73,main,Doumeki,0000,0000,0000,,Hey!
+Dialogue: 0,0:11:04.26,0:11:06.47,main,Doumeki,0000,0000,0000,,Don't just barge in here!
+Dialogue: 0,0:11:07.21,0:11:09.49,main,K,0000,0000,0000,,A bit cold, isn't it?
+Dialogue: 0,0:11:09.49,0:11:11.02,main,Doumeki,0000,0000,0000,,What exactly do you want?
+Dialogue: 0,0:11:11.97,0:11:13.90,main,K,0000,0000,0000,,I'm here on behalf of the student council.
+Dialogue: 0,0:11:14.59,0:11:17.25,main,K,0000,0000,0000,,It seems you've been \Noccupying four club rooms,
+Dialogue: 0,0:11:17.25,0:11:20.38,main,K,0000,0000,0000,,on top of ignoring orders to vacate them.
+Dialogue: 0,0:11:21.03,0:11:22.82,main,A,0000,0000,0000,,Wow!
+Dialogue: 0,0:11:22.82,0:11:23.85,main,,0000,0000,0000,,Whoa!
+Dialogue: 0,0:11:27.18,0:11:28.66,main,A,0000,0000,0000,,This is crazy!
+Dialogue: 0,0:11:30.15,0:11:31.43,main,K,0000,0000,0000,,You got here fast.
+Dialogue: 0,0:11:31.43,0:11:34.09,main,A,0000,0000,0000,,This place is totally amazing!
+Dialogue: 0,0:11:35.09,0:11:38.42,main,A,0000,0000,0000,,This room has every sound \Neffect you can imagine!
+Dialogue: 0,0:11:39.53,0:11:42.79,main,K,0000,0000,0000,,And how much do those cost to use?
+Dialogue: 0,0:11:42.79,0:11:44.42,main,A,0000,0000,0000,,There are free libraries,\Nand ones for professionals
+Dialogue: 0,0:11:44.42,0:11:45.81,main,A,0000,0000,0000,,that cost hundreds of thousands of yen...
+Dialogue: 0,0:11:45.81,0:11:48.39,main,A,0000,0000,0000,,For movies, they tend to be custom made.
+Dialogue: 0,0:11:48.70,0:11:52.39,main,A,0000,0000,0000,,This room alone might be \Nworth over five million yen!
+Dialogue: 0,0:11:53.81,0:11:55.86,main,K,0000,0000,0000,,All right, let's sell it all!
+Dialogue: 0,0:11:55.86,0:11:59.05,main,Doumeki,0000,0000,0000,,The library isn't for sale, not for \Nwhatever dirty money you're after!
+Dialogue: 0,0:11:59.05,0:12:01.15,main,Doumeki,0000,0000,0000,,You're looking at an audio collection!
+Dialogue: 0,0:12:01.15,0:12:04.74,main,Doumeki,0000,0000,0000,,A museum of sound, indexed by \Nlocation, time, and recorder!
+Dialogue: 0,0:12:04.74,0:12:09.80,main,Doumeki,0000,0000,0000,,You could search the entire world and \Nnot find something this valuable!
+Dialogue: 0,0:12:09.80,0:12:11.37,main,A,0000,0000,0000,,That's right!
+Dialogue: 0,0:12:11.37,0:12:14.62,main,A,0000,0000,0000,,For example, look at these 72 different \Nrecordings of Kegon Falls!
+Dialogue: 0,0:12:11.37,0:12:17.09,sign_17536_272_Kegon_Falls__Cle,Sign,0000,0000,0000,,{\frz5.65\fax-0.06\frx0\fry346\pos(286,153)}Kegon Falls: Clear Skies, Rain, Snow, Cloudy
+Dialogue: 0,0:12:11.37,0:12:17.09,sign_17536_272_Kegon_Falls__Cle,Sign,0000,0000,0000,,{\frz0\fax0.04\frx0\fry346\pos(270,214)\fs24}72 Variants
+Dialogue: 0,0:12:14.62,0:12:17.09,main,A,0000,0000,0000,,Normally, when you're indicating \Nthe season in anime...
+Dialogue: 0,0:12:17.09,0:12:18.78,main,A,0000,0000,0000,,You have cicadas in summer,
+Dialogue: 0,0:12:19.57,0:12:21.22,main,A,0000,0000,0000,,bell crickets in fall,
+Dialogue: 0,0:12:21.79,0:12:24.33,main,A,0000,0000,0000,,and dogs howling at night in winter.
+Dialogue: 0,0:12:25.11,0:12:27.10,main,A,0000,0000,0000,,Not a lot of variety, right?
+Dialogue: 0,0:12:27.58,0:12:31.53,main,A,0000,0000,0000,,But here we've got 72 different \Ntakes on the sounds of Kegon Falls!
+Dialogue: 0,0:12:31.53,0:12:34.27,main,A,0000,0000,0000,,That's every different type of weather \Ncondition multiplied times three plus alpha!
+Dialogue: 0,0:12:34.27,0:12:38.04,main,A,0000,0000,0000,,Forget the four seasons, we're talking \Nabout seventy-two times of year!
+Dialogue: 0,0:12:38.04,0:12:40.78,main,A,0000,0000,0000,,You're not going to find a massive \Nrecord like that anywhere else!
+Dialogue: 0,0:12:40.78,0:12:42.61,main,Doumeki,0000,0000,0000,,Yeah, what she said.
+Dialogue: 0,0:12:42.61,0:12:44.61,main,Doumeki,0000,0000,0000,,Now, if you understand, get out of here!
+Dialogue: 0,0:12:44.61,0:12:46.11,main,Doumeki,0000,0000,0000,,Before I call school security!
+Dialogue: 0,0:12:47.46,0:12:50.95,main,K,0000,0000,0000,,You still don't seem to \Nunderstand your situation.
+Dialogue: 0,0:12:50.95,0:12:53.94,main,Doumeki,0000,0000,0000,,I wouldn't try and threaten me, if I were you!
+Dialogue: 0,0:12:53.94,0:12:55.75,main,Doumeki,0000,0000,0000,,I'm recording this entire conversation!
+Dialogue: 0,0:12:55.75,0:12:59.17,italics,K,0000,0000,0000,,You still don't seem to \Nunderstand your situation.
+Dialogue: 0,0:12:59.56,0:13:04.17,sign_18691_291_SEARCH_WARRANT,Sign,0000,0000,0000,,SEARCH WARRANT
+Dialogue: 0,0:13:00.05,0:13:04.17,main,K,0000,0000,0000,,We're here to enact legitimate \Nschool council business.
+Dialogue: 0,0:13:05.38,0:13:08.60,main,Doumeki,0000,0000,0000,,Y-You can't trick me like \Nyou can everybody else!
+Dialogue: 0,0:13:09.01,0:13:11.66,main,Doumeki,0000,0000,0000,,Everyone knows that anarchists, \Nstreet gangs, the yakuza,
+Dialogue: 0,0:13:11.66,0:13:14.27,main,Doumeki,0000,0000,0000,,violent criminals, and the \Neizouken are public enemies!
+Dialogue: 0,0:13:14.27,0:13:17.31,main,Doumeki,0000,0000,0000,,So if you try to stick me up \Nand damage my precious sounds—
+Dialogue: 0,0:13:17.31,0:13:20.45,main,K,0000,0000,0000,,This has nothing to do with anarchy, \Nbureaucracy, or anything else.
+Dialogue: 0,0:13:20.45,0:13:23.78,main,K,0000,0000,0000,,The bottom line is you're squatting\N here against the rules.
+Dialogue: 0,0:13:23.78,0:13:24.83,main,K,0000,0000,0000,,Read the damn thing!
+Dialogue: 0,0:13:26.01,0:13:27.70,main,Doumeki,0000,0000,0000,,I am done!
+Dialogue: 0,0:13:28.31,0:13:31.53,main,Doumeki,0000,0000,0000,,I give up! You can have the building back.
+Dialogue: 0,0:13:31.53,0:13:34.37,main,Doumeki,0000,0000,0000,,But do you realize how long it \N took me to move this stuff in here?
+Dialogue: 0,0:13:34.37,0:13:37.78,main,Doumeki,0000,0000,0000,,And you want me to clear out in a rush?\N When there's four whole rooms?!
+Dialogue: 0,0:13:37.78,0:13:40.06,main,Doumeki,0000,0000,0000,,That's not happening, especially considering\N I don't have a budget.
+Dialogue: 0,0:13:40.06,0:13:42.34,main,A,0000,0000,0000,,Wait, there's another four rooms like this?!
+Dialogue: 0,0:13:42.34,0:13:44.54,main,Doumeki,0000,0000,0000,,The whole reason I joined \Nwas the sound library,
+Dialogue: 0,0:13:44.54,0:13:45.93,main,Doumeki,0000,0000,0000,,but I'm the only club member...
+Dialogue: 0,0:13:45.93,0:13:48.33,main,Doumeki,0000,0000,0000,,And now I'm supposed to clear \Nout right after joining?
+Dialogue: 0,0:13:48.77,0:13:51.61,main,Doumeki,0000,0000,0000,,I'm begging you, could you \Npretend you didn't see me?
+Dialogue: 0,0:13:51.61,0:13:54.31,main,Doumeki,0000,0000,0000,,Either that, or loan me some cash?
+Dialogue: 0,0:13:54.31,0:13:56.44,main,K,0000,0000,0000,,You expect a loan when your club's got no budget
+Dialogue: 0,0:13:56.44,0:13:58.77,main,K,0000,0000,0000,,and is on the verge of \Nbeing dissolved? Damn, you're dumb.
+Dialogue: 0,0:13:58.77,0:14:01.35,main,Doumeki,0000,0000,0000,,What?! I won't let them dissolve the club!
+Dialogue: 0,0:14:01.35,0:14:04.21,main,K,0000,0000,0000,,I'm not seeing any other \Noutcomes for you right now.
+Dialogue: 0,0:14:04.75,0:14:05.71,main,A,0000,0000,0000,,Yeah...
+Dialogue: 0,0:14:05.69,0:14:07.67,main,A,0000,0000,0000,,What a waste!
+Dialogue: 0,0:14:07.67,0:14:09.45,main,A,0000,0000,0000,,When there's all this great stuff...
+Dialogue: 0,0:14:09.80,0:14:12.19,main,A,0000,0000,0000,,Meanwhile, listen to our audio situation!
+Dialogue: 0,0:14:40.52,0:14:43.69,main,Doumeki,0000,0000,0000,,Stop those sound effects right now!
+Dialogue: 0,0:14:45.55,0:14:47.93,main,A,0000,0000,0000,,This is what we're actually dealing with.
+Dialogue: 0,0:14:55.33,0:14:58.20,main,Doumeki,0000,0000,0000,,Please, make it stop!
+Dialogue: 0,0:15:01.11,0:15:04.41,main,A,0000,0000,0000,,We've got basically no sound effect files.
+Dialogue: 0,0:15:04.41,0:15:07.09,main,K,0000,0000,0000,,And even if we were to take \Nall of these files in,
+Dialogue: 0,0:15:07.09,0:15:09.01,main,K,0000,0000,0000,,we wouldn't be able to \Ndigitize them quickly enough.
+Dialogue: 0,0:15:10.68,0:15:11.69,main,K,0000,0000,0000,,How about it?
+Dialogue: 0,0:15:11.69,0:15:14.24,main,K,0000,0000,0000,,We're willing to loan the \Nsound club our two stories
+Dialogue: 0,0:15:14.24,0:15:16.10,main,K,0000,0000,0000,,and one basement's worth of storage.
+Dialogue: 0,0:15:16.10,0:15:18.77,main,K,0000,0000,0000,,We'll also guarantee your independence \Nand continued existence.
+Dialogue: 0,0:15:18.77,0:15:23.61,main,K,0000,0000,0000,,In exchange, we'll be granted \Nfree use of your sound library.
+Dialogue: 0,0:15:24.34,0:15:25.58,main,K,0000,0000,0000,,You can digitize and sell
+Dialogue: 0,0:15:25.58,0:15:28.85,main,K,0000,0000,0000,,the sound club's library in \Norder to secure your own funds,
+Dialogue: 0,0:15:28.85,0:15:30.70,main,K,0000,0000,0000,,and we'll take a service fee.
+Dialogue: 0,0:15:31.14,0:15:36.16,main,K,0000,0000,0000,,One other thing... I'd like you to \Nbe an audio advisor on our projects.
+Dialogue: 0,0:15:36.51,0:15:39.93,main,Doumeki,0000,0000,0000,,If it'll keep the club from being dissolved,\N and won't cost me anything...
+Dialogue: 0,0:15:40.35,0:15:42.26,main,Doumeki,0000,0000,0000,,O-Okay, agreed.
+Dialogue: 0,0:15:42.26,0:15:44.46,main,K,0000,0000,0000,,We have a deal, then.
+Dialogue: 0,0:15:44.46,0:15:47.43,main,A,0000,0000,0000,,Yes! We just scored all \Nthe sound effects we need!
+Dialogue: 0,0:15:47.43,0:15:50.97,main,K,0000,0000,0000,,You'll need to empty this place \Nout and move everything today.
+Dialogue: 0,0:15:50.97,0:15:55.58,main,Doumeki,0000,0000,0000,,Whoa, I can't manage that! I've got \Nmy hands full with existing business!
+Dialogue: 0,0:15:55.58,0:15:56.97,main,Doumeki,0000,0000,0000,,I should be able to manage next month...
+Dialogue: 0,0:15:56.97,0:15:59.04,main,K,0000,0000,0000,,I suppose that'll have to do.
+Dialogue: 0,0:15:59.04,0:16:01.59,main,K,0000,0000,0000,,But make it some time this month.
+Dialogue: 0,0:16:02.38,0:16:04.19,main,Doumeki,0000,0000,0000,,Right, understood.
+Dialogue: 0,0:16:04.19,0:16:06.98,main,K,0000,0000,0000,,How about we get a formal handshake?
+Dialogue: 0,0:16:06.98,0:16:08.91,main,K,0000,0000,0000,,So I can report it to the student council.
+Dialogue: 0,0:16:08.91,0:16:10.49,main,A,0000,0000,0000,,Who, me?
+Dialogue: 0,0:16:11.37,0:16:13.24,main,A,0000,0000,0000,,The name's Asakusa. Nice to meet you.
+Dialogue: 0,0:16:13.24,0:16:14.74,main,Doumeki,0000,0000,0000,,I'm Doumeki.
+Dialogue: 0,0:16:15.26,0:16:17.99,main,A,0000,0000,0000,,Doumeki? How do you write that?
+Dialogue: 0,0:16:17.99,0:16:19.58,main,Doumeki,0000,0000,0000,,The kanji for "hundred-eyed demon."
+Dialogue: 0,0:16:19.58,0:16:21.34,main,A,0000,0000,0000,,Oh, wow! That's cool!
+Dialogue: 0,0:16:21.34,0:16:23.95,main,K,0000,0000,0000,,Yeah, yeah, I'm taking the shot. Look this way.
+Dialogue: 0,0:16:23.95,0:16:25.58,main,K,0000,0000,0000,,And click.
+Dialogue: 0,0:16:27.93,0:16:29.77,main,M,0000,0000,0000,,Kanamori! Good morning.
+Dialogue: 0,0:16:29.77,0:16:31.59,main,K,0000,0000,0000,,How are things progressing?
+Dialogue: 0,0:16:33.07,0:16:34.59,main,M,0000,0000,0000,,Straight to that, huh?
+Dialogue: 0,0:16:34.59,0:16:36.09,sign_23847_355_Film,Club Sign,0000,0000,0000,,Film
+Dialogue: 0,0:16:42.60,0:16:43.98,main,K,0000,0000,0000,,Asakusa?
+Dialogue: 0,0:16:43.98,0:16:45.11,main,A,0000,0000,0000,,G'mornin!
+Dialogue: 0,0:16:45.11,0:16:46.40,main,M,0000,0000,0000,,How'd you come in from up there?
+Dialogue: 0,0:16:46.40,0:16:48.04,main,A,0000,0000,0000,,I found a route into the club from the forest
+Dialogue: 0,0:16:48.04,0:16:50.65,main,A,0000,0000,0000,,that passes through the sound \Nclub's building three days ago!
+Dialogue: 0,0:16:50.65,0:16:52.03,main,A,0000,0000,0000,,Here's today's storyboards!
+Dialogue: 0,0:16:52.03,0:16:54.06,main,M,0000,0000,0000,,Wait, you already finished this much?
+Dialogue: 0,0:16:54.06,0:16:57.24,main,K,0000,0000,0000,,I see you're still fast when you get going.
+Dialogue: 0,0:16:57.86,0:16:59.73,main,A,0000,0000,0000,,I'm going exploring until \Nfirst period starts!
+Dialogue: 0,0:17:01.24,0:17:04.90,main,K,0000,0000,0000,,Asakusa has this ability to draw an \Nincredible amount once she gets going,
+Dialogue: 0,0:17:04.90,0:17:07.46,main,K,0000,0000,0000,,but she spends too much \Ntime not drawing otherwise.
+Dialogue: 0,0:17:07.84,0:17:10.54,main,K,0000,0000,0000,,How do the storyboards look, Mizusaki?
+Dialogue: 0,0:17:11.46,0:17:13.72,main,A,0000,0000,0000,,There's a big clang, and then a rumble...
+Dialogue: 0,0:17:14.82,0:17:16.72,main,A,0000,0000,0000,,And boom...
+Dialogue: 0,0:17:20.69,0:17:23.39,main,K,0000,0000,0000,,Four days of delays, and then \Nthree days' worth of progress.
+Dialogue: 0,0:17:30.52,0:17:32.98,main,K,0000,0000,0000,,Asakusa's motivation switch...
+Dialogue: 0,0:17:36.70,0:17:38.91,main,Okamoto,0000,0000,0000,,Okay, lemme introduce you.
+Dialogue: 0,0:17:38.91,0:17:40.39,main,Okamoto,0000,0000,0000,,I'm the club president, Okamoto.
+Dialogue: 0,0:17:40.39,0:17:42.70,main,Okamoto,0000,0000,0000,,And working on this is gonna be...
+Dialogue: 0,0:17:42.70,0:17:45.87,main,Okamoto,0000,0000,0000,,Nakamura and Kubo. \NThey're both second-years.
+Dialogue: 0,0:17:45.87,0:17:47.60,main,Nakamura,0000,0000,0000,,I'm Nakamura.
+Dialogue: 0,0:17:47.60,0:17:50.09,main,Kubo,0000,0000,0000,,I'm Kubo. It's nice to meet you.
+Dialogue: 0,0:17:50.09,0:17:52.42,main,A,0000,0000,0000,,H-Hello there! It's nice to meet you!
+Dialogue: 0,0:17:52.99,0:17:55.64,main,K,0000,0000,0000,,Let's begin, then. Asakusa?
+Dialogue: 0,0:17:55.64,0:17:56.57,main,A,0000,0000,0000,,R-Right!
+Dialogue: 0,0:17:57.27,0:18:00.79,top,A,0000,0000,0000,,Uh, um...
+Dialogue: 0,0:17:58.58,0:18:01.55,main,K,0000,0000,0000,,Here's the storyboard. \NWe've also got the data for you.
+Dialogue: 0,0:18:03.06,0:18:05.85,main,A,0000,0000,0000,,This scene takes place at around 6:00 AM,
+Dialogue: 0,0:18:05.85,0:18:07.64,main,A,0000,0000,0000,,so the light would be coming \Nfrom this direction.
+Dialogue: 0,0:18:07.64,0:18:10.23,main,Nakamura,0000,0000,0000,,Huh? What're these holes?
+Dialogue: 0,0:18:10.81,0:18:12.74,main,A,0000,0000,0000,,Oh, those are for pegs.
+Dialogue: 0,0:18:12.74,0:18:14.03,main,Nakamura,0000,0000,0000,,What pegs?
+Dialogue: 0,0:18:14.03,0:18:18.50,main,A,0000,0000,0000,,Uh, well, um...
+Dialogue: 0,0:18:17.37,0:18:20.91,top,Kubo,0000,0000,0000,,They hold the animation paper in \Nplace when animation is being drawn.
+Dialogue: 0,0:18:21.25,0:18:24.39,main,Kubo,0000,0000,0000,,It's also on the layouts, so you\N can use them to make sure
+Dialogue: 0,0:18:24.39,0:18:25.95,main,Kubo,0000,0000,0000,,the animation and backgrounds line up correctly.
+Dialogue: 0,0:18:31.37,0:18:33.18,main,A,0000,0000,0000,,They'll be fastened to them too,
+Dialogue: 0,0:18:33.18,0:18:35.37,main,A,0000,0000,0000,,so please be sure to note the peg \Nlocations in the backgrounds.
+Dialogue: 0,0:18:35.37,0:18:38.24,main,Nakamura,0000,0000,0000,,What color is this car? And the model?
+Dialogue: 0,0:18:38.24,0:18:41.72,main,A,0000,0000,0000,,Uh, the car is going to be \Na cel, so we'll be drawing that.
+Dialogue: 0,0:18:41.72,0:18:43.67,main,A,0000,0000,0000,,Anything you see that's yellow will be on a cel.
+Dialogue: 0,0:18:43.67,0:18:45.81,main,Nakamura,0000,0000,0000,,A cel? What's that?
+Dialogue: 0,0:18:45.81,0:18:47.81,main,A,0000,0000,0000,,Well, it's not actually a cel in this case...
+Dialogue: 0,0:18:50.31,0:18:52.78,main,A,0000,0000,0000,,So, considering the type of material...
+Dialogue: 0,0:18:52.78,0:18:55.32,main,Okamoto,0000,0000,0000,,Hey, why's there no students around?
+Dialogue: 0,0:18:55.32,0:18:58.89,main,Okamoto,0000,0000,0000,,Wouldn't a buncha people running \Naround be more of an anime thing?
+Dialogue: 0,0:18:58.89,0:19:00.29,main,Okamoto,0000,0000,0000,,Not that I'd know, but...
+Dialogue: 0,0:19:00.29,0:19:04.52,main,A,0000,0000,0000,,W-Well, having additional people \Nmakes it more difficult to draw.
+Dialogue: 0,0:19:04.52,0:19:06.74,main,A,0000,0000,0000,,That's why it's going to take \Nplace so early in the day.
+Dialogue: 0,0:19:06.74,0:19:10.75,main,Okamoto,0000,0000,0000,,Yeah, but don'tcha think it'd be weird \Nif there wasn't a night watchman around, y'know?
+Dialogue: 0,0:19:14.75,0:19:18.05,main,Okamoto,0000,0000,0000,,Oh, sorry? Did I say something funny?
+Dialogue: 0,0:19:18.05,0:19:19.31,main,Okamoto,0000,0000,0000,,Never mind me!
+Dialogue: 0,0:19:20.33,0:19:21.72,main,Nakamura,0000,0000,0000,,What were you thinking for this one?
+Dialogue: 0,0:19:21.72,0:19:23.90,main,A,0000,0000,0000,,Uh... W-Well...
+Dialogue: 0,0:19:23.90,0:19:24.88,main,N,0000,0000,0000,,Something like this?
+Dialogue: 0,0:19:24.88,0:19:26.78,main,A,0000,0000,0000,,Oh, right. Yes.
+Dialogue: 0,0:19:26.78,0:19:30.01,main,A,0000,0000,0000,,You just need something similar \Nin atmosphere. I'll leave the details to you.
+Dialogue: 0,0:19:30.01,0:19:32.55,main,A,0000,0000,0000,,But since it's going to need to match the cel,
+Dialogue: 0,0:19:32.55,0:19:34.15,main,A,0000,0000,0000,,make sure you keep these lines intact—
+Dialogue: 0,0:19:33.44,0:19:34.73,top,Nakamura,0000,0000,0000,,Okay.
+Dialogue: 0,0:19:35.46,0:19:37.86,main,Nakamura,0000,0000,0000,,So, where is this building?
+Dialogue: 0,0:19:37.86,0:19:40.07,main,A,0000,0000,0000,,R-Right...
+Dialogue: 0,0:19:40.57,0:19:41.45,main,A,0000,0000,0000,,Wait, what?
+Dialogue: 0,0:19:41.45,0:19:43.45,sign_28327_419_Film,Sign,0000,0000,0000,,Film
+Dialogue: 0,0:19:44.23,0:19:45.22,main,M,0000,0000,0000,,Welcome back!
+Dialogue: 0,0:19:45.95,0:19:48.16,main,M,0000,0000,0000,,Huh? Where's Asakusa?
+Dialogue: 0,0:19:49.89,0:19:53.42,main,K,0000,0000,0000,,She needed to oxygenate her depleted brain.
+Dialogue: 0,0:19:58.68,0:19:59.88,main,A,0000,0000,0000,,Obsidian!
+Dialogue: 0,0:20:00.26,0:20:03.51,main,A,0000,0000,0000,,If the soil here was brought \Nin from the residential area,
+Dialogue: 0,0:20:03.51,0:20:06.86,main,A,0000,0000,0000,,that means there might be more \Nobsidian over on that mountain...
+Dialogue: 0,0:20:06.86,0:20:09.03,main,A,0000,0000,0000,,Since the school grounds are \Nreclaimed land from a lake.
+Dialogue: 0,0:20:11.29,0:20:13.84,main,A,0000,0000,0000,,A groundhopper! They're so round and cute!
+Dialogue: 0,0:20:13.84,0:20:16.02,main,A,0000,0000,0000,,Groundhopper goes in the creature log.
+Dialogue: 0,0:20:16.57,0:20:20.11,main,A,0000,0000,0000,,I'll mark the boat remains and tires \Nas not being able to be removed.
+Dialogue: 0,0:20:20.11,0:20:22.58,main,A,0000,0000,0000,,As for the geological log, \NI found some obsidian.
+Dialogue: 0,0:20:22.58,0:20:25.14,main,A,0000,0000,0000,,Soil is mostly clay, but with lots of stones.
+Dialogue: 0,0:20:28.38,0:20:30.11,main,A,0000,0000,0000,,There's a logic to all things.
+Dialogue: 0,0:20:31.41,0:20:33.60,main,A,0000,0000,0000,,A monster-fighting robot...
+Dialogue: 0,0:20:33.60,0:20:36.42,main,A,0000,0000,0000,,Wait. Is this really what we should go with?
+Dialogue: 0,0:20:36.42,0:20:38.73,main,A,0000,0000,0000,,I've been trying to avoid thinking about it,
+Dialogue: 0,0:20:38.73,0:20:42.84,main,A,0000,0000,0000,,but shouldn't it be able to fold \Nits arms? And look directly up?
+Dialogue: 0,0:20:42.84,0:20:46.22,main,A,0000,0000,0000,,How does the pilot stay safe? \NWould they be protected in this thing?
+Dialogue: 0,0:20:47.98,0:20:52.18,main,A,0000,0000,0000,,I'm having trouble breathing. \NWhat if people criticize it?
+Dialogue: 0,0:20:52.65,0:20:54.47,main,A,0000,0000,0000,,Should we really have a robot like this?
+Dialogue: 0,0:20:54.47,0:20:57.83,main,A,0000,0000,0000,,Not to mention, giant robots are like a \Ncollection of lies in the first place!
+Dialogue: 0,0:20:57.83,0:20:58.94,main,A,0000,0000,0000,,In that case...
+Dialogue: 0,0:21:03.44,0:21:04.96,main,A,0000,0000,0000,,Let's ditch the giant robot anime!
+Dialogue: 0,0:21:04.96,0:21:05.99,main,K,0000,0000,0000,,Dumbass!
+Dialogue: 0,0:21:05.99,0:21:07.68,main,K,0000,0000,0000,,That's the one thing we can't do!
+Dialogue: 0,0:21:07.68,0:21:09.20,main,K,0000,0000,0000,,Stop rocking the boat.
+Dialogue: 0,0:21:09.20,0:21:13.20,main,A,0000,0000,0000,,But I can't come up with a robot \Npremise that can satisfy everybody!
+Dialogue: 0,0:21:13.20,0:21:16.41,main,K,0000,0000,0000,,It's fine. Your art is already amazing.
+Dialogue: 0,0:21:16.41,0:21:18.57,main,A,0000,0000,0000,,People who can't draw always say that!
+Dialogue: 0,0:21:19.17,0:21:21.66,main,K,0000,0000,0000,,You're more cynical than I figured.
+Dialogue: 0,0:21:21.66,0:21:22.80,main,A,0000,0000,0000,,Don't you worry.
+Dialogue: 0,0:21:22.80,0:21:24.45,main,A,0000,0000,0000,,I've got an alternative in mind.
+Dialogue: 0,0:21:24.45,0:21:25.05,main,A,0000,0000,0000,,Behold!
+Dialogue: 0,0:21:25.05,0:21:27.09,main,K,0000,0000,0000,,What's this tiny thing?
+Dialogue: 0,0:21:25.05,0:21:30.87,Default,A,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6FBFA&}m 480 26 l 411 24 410 8 477 10
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(414,13)}1) Press down the pedal
+Dialogue: 0,0:21:25.05,0:21:30.87,Default,A,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF5FBF8&}m 482 7 l 482 27 546 27 544 9
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(498,15)}2) Twist the seat
+Dialogue: 0,0:21:25.05,0:21:30.87,Default,A,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6FCF9&}m 552 8 l 552 28 624 26 624 10
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(558,13)}3) Squeeze the lever
+Dialogue: 0,0:21:25.05,0:21:30.87,Default,A,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6FBFA&}m 566 81 l 588 127 638 130 624 81
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(578,86)}4) As it goes down,\N they fold over
+Dialogue: 0,0:21:25.05,0:21:30.87,Default,A,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6FBFA&}m 450 177 l 481 178 489 228 453 222
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(457,173)\c&H303534&}Hunting\N Mode\N (High \NSpeed)
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\an1\pos(589,178)\c&H303534&\fs14}Normal
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(242,103)}Both
+Dialogue: 0,0:21:25.05,0:21:30.87,Default,A,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HF6FCF9&}m 137 125 l 138 144 266 141 264 122
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(143,127)\fs11}Buggy (Electric Powered Model)
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(207,158)}Track control levers
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(227,200)}Accelerator
+Dialogue: 0,0:21:25.05,0:21:30.87,sign_30811_457_1__Press_down_th,A,0000,0000,0000,,{\pos(226,229)}Brake
+Dialogue: 0,0:21:27.09,0:21:29.27,main,A,0000,0000,0000,,A vehicle that's going to take down \Nthe monster instead of the robot!
+Dialogue: 0,0:21:29.27,0:21:30.30,main,A,0000,0000,0000,,It's a buggy!
+Dialogue: 0,0:21:33.14,0:21:34.16,sign_31005_490_Taser_Gun__Multi,Sign,0000,0000,0000,,Taser Gun (Multi-Probe)\N\NPanel pressed\N\NElected
+Dialogue: 0,0:21:34.70,0:21:35.71,sign_31005_490_Taser_Gun__Multi,Sign,0000,0000,0000,,Electric flow
+Dialogue: 0,0:21:35.71,0:21:37.56,sign_31005_490_Taser_Gun__Multi,Sign,0000,0000,0000,,Exterior\N\N Generator & Converter\N\N Cable length is 35 meters\N\N Not very portable,\N but has high output!
+Dialogue: 0,0:21:37.71,0:21:39.31,Default,Sign,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HFFFDFF&}m 368 123 l 370 141 448 141 448 121
+Dialogue: 0,0:21:37.71,0:21:39.31,sign_30811_457_1__Press_down_th,Sign,0000,0000,0000,,{\fs11\pos(374,119)}Buggy (Electric\N Powered Model)
+Dialogue: 0,0:21:37.71,0:21:39.31,sign_31114_489_Track_control_le,Sign,0000,0000,0000,,{\pos(395,153)}Track control levers
+Dialogue: 0,0:21:37.71,0:21:39.31,sign_31114_489_Track_control_le,Sign,0000,0000,0000,,{\pos(413,195)}Accelerator
+Dialogue: 0,0:21:37.71,0:21:39.31,sign_31114_489_Track_control_le,Sign,0000,0000,0000,,{\pos(411,221)}Break
+Dialogue: 0,0:21:37.71,0:21:39.31,sign_31114_489_Track_control_le,Sign,0000,0000,0000,,{\pos(397,288)}Tail light
+Dialogue: 0,0:21:38.53,0:21:39.31,main,A,0000,0000,0000,,It's perfect!
+Dialogue: 0,0:21:39.31,0:21:41.07,main,K,0000,0000,0000,,Completely unacceptable!
+Dialogue: 0,0:21:41.07,0:21:42.89,main,K,0000,0000,0000,,We all agreed to this after trampling through
+Dialogue: 0,0:21:42.89,0:21:46.07,main,K,0000,0000,0000,,those contradictions in that \Npain-in-the-neck meeting!
+Dialogue: 0,0:21:46.07,0:21:48.73,main,A,0000,0000,0000,,But the audience can be really harsh.
+Dialogue: 0,0:21:48.73,0:21:51.60,main,A,0000,0000,0000,,If we cut corners, the robot \Npolice will catch on fast.
+Dialogue: 0,0:21:51.60,0:21:54.41,main,A,0000,0000,0000,,The pilot can't see behind them. \NThere's no space for an engine.
+Dialogue: 0,0:21:54.41,0:21:56.46,main,A,0000,0000,0000,,And how do they escape if there's an emergency?
+Dialogue: 0,0:21:56.46,0:21:58.87,main,M,0000,0000,0000,,Giant robots carry a lot \Nof responsibility, after all.
+Dialogue: 0,0:21:58.87,0:22:02.42,main,M,0000,0000,0000,,And working on a robot anime means \Nhaving to commit all kinds of crimes.
+Dialogue: 0,0:22:02.42,0:22:05.26,main,M,0000,0000,0000,,You're kind of doomed either way.
+Dialogue: 0,0:22:05.75,0:22:07.56,main,M,0000,0000,0000,,An imperfect giant robot...
+Dialogue: 0,0:22:07.56,0:22:10.18,main,M,0000,0000,0000,,Is my only option being doomed \Nto settle for what we've got?
+Dialogue: 0,0:22:10.18,0:22:14.56,main,K,0000,0000,0000,,Since when are you slick enough to \Nsatisfy everybody with your art, anyway?
+Dialogue: 0,0:22:14.56,0:22:16.34,main,A,0000,0000,0000,,Well, what the heck am I supposed to do?!
+Dialogue: 0,0:22:16.34,0:22:18.90,main,K,0000,0000,0000,,Just draw, and stop worrying \Nabout anyone else.
+Dialogue: 0,0:22:19.22,0:22:21.97,main,A,0000,0000,0000,,My dear Kanamori, if I were that bold, \Nwe wouldn't be having this discussion.
+Dialogue: 0,0:22:21.97,0:22:23.60,main,A,0000,0000,0000,,You can be quite foolish!
+Dialogue: 0,0:22:23.60,0:22:24.57,main,K,0000,0000,0000,,You want me to slap you silly?
+Dialogue: 0,0:22:24.57,0:22:28.62,main,K,0000,0000,0000,,Listen here. This project is only in \Ntrouble if you think it's in trouble.
+Dialogue: 0,0:22:28.62,0:22:30.11,main,K,0000,0000,0000,,It's got nothing to do with anyone else.
+Dialogue: 0,0:22:31.12,0:22:33.69,main,K,0000,0000,0000,,Your only choice here is \Nto draw the kind of robot
+Dialogue: 0,0:22:33.69,0:22:36.69,main,K,0000,0000,0000,,that you would be satisfied with!
+Dialogue: 0,0:22:37.21,0:22:40.93,main,K,0000,0000,0000,,Everyone is working their hardest \Nto follow your directions.
+Dialogue: 0,0:22:40.93,0:22:44.67,main,K,0000,0000,0000,,That's because we all believe you've \Nimagined something incredible.
+Dialogue: 0,0:22:44.67,0:22:46.72,main,K,0000,0000,0000,,I won't be particular about \Nthe final product as long
+Dialogue: 0,0:22:46.72,0:22:48.63,main,K,0000,0000,0000,,as it's done in time for the culture festival.
+Dialogue: 0,0:22:48.63,0:22:52.60,main,K,0000,0000,0000,,But if the finished product \Nis some boring piece of crap,
+Dialogue: 0,0:22:52.60,0:22:54.19,main,K,0000,0000,0000,,then that's your responsibility!
+Dialogue: 0,0:22:54.19,0:22:56.22,main,K,0000,0000,0000,,Because you're the director!
+Dialogue: 0,0:23:05.69,0:23:07.69,sign_33224_520_Film,,0000,0000,0000,,Film
+Dialogue: 0,0:23:09.51,0:23:10.53,main,M,0000,0000,0000,,Is she back?
+Dialogue: 0,0:23:13.83,0:23:15.48,main,K,0000,0000,0000,,Changing just the interior, huh?
+Dialogue: 0,0:23:15.48,0:23:16.76,main,M,0000,0000,0000,,This is amazing.
+Dialogue: 0,0:23:16.76,0:23:18.33,main,M,0000,0000,0000,,So that's the trick, huh?
+Dialogue: 0,0:23:18.33,0:23:19.89,main,A,0000,0000,0000,,I'm resuming my expedition!
+Dialogue: 0,0:23:20.33,0:23:23.21,main,A,0000,0000,0000,,Behold my blade, the Lightning Flash!
+Dialogue: 0,0:23:23.21,0:23:25.83,main,M,0000,0000,0000,,I guess Asakusa's motivation \Nswitch is pretty random.
+Dialogue: 0,0:23:25.83,0:23:27.59,Default,K,0000,0000,0000,,Random enough that we should let her run free.
+Dialogue: 0,0:24:55.97,0:24:57.97,Default,,0000,0000,0000,,
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_524_Illustration_by_,Sign,0000,0000,0000,,{\frz.25\fscx87}Illustration by Eri Kinoshita

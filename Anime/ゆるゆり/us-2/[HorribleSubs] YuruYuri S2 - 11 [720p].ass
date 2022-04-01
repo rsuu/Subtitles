@@ -1,0 +1,446 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: YY-main,Amira,25,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-overlap,Amira,25,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-note,Amira,22,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,1,0,0,100,100,0,0,1,2,1,7,0280,0020,0130,0
+Style: YY-note-big,Amira,35,&H00000000,&H000000FF,&H00EEF2ED,&H00FFFFFF,0,0,0,0,100,100,0,0,1,3,0,8,0020,0020,0060,0
+Style: YY-Sign-top,Amira,30,&H00FCFEFF,&H000000FF,&H0000082A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0090,0090,0020,0
+Style: YY-title,Amira,50,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,110,100,0,0,1,0,3,8,0020,0020,0020,0
+Style: YY-ep-title-top,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0100,0
+Style: YY-ep-title-bottom,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0100,0
+Style: YY-eyecatch,Amira,40,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,100,100,0,0,1,4,2,8,0020,0020,0020,0
+Style: Next Episode,Amira,25,&H00000000,&H000000FF,&H00FFFFFF,&H005E6E5A,0,0,0,0,100,100,0,0,1,2,1,8,0020,0050,0070,0
+Style: Next ep title,Amira,40,&H00001627,&H000000FF,&H0095C296,&H008CA695,0,0,0,0,100,100,0,0,1,0,2,1,0052,0020,0090,0
+Style: Natsume-end-title,Amira,30,&H00AC751D,&H000000FF,&H008ABEE8,&H00273821,1,0,0,0,100,100,0,0,1,0,2,9,0020,0020,0020,0
+Style: Class,Amira,33,&H00000000,&H000000FF,&H00D1C9B6,&H00000000,1,1,0,0,110,100,0,0,1,2,2,8,0010,0010,0015,0
+Style: Council,Amira,25,&H00FFFBF6,&H000000FF,&H00000000,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0010,0010,0010,0
+Style: 1 week later,Amira,27,&H00FFFFFF,&H000000FF,&H0025281E,&H003A3D33,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0090,0
+Style: ayano,Amira,32,&H005947FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,3,4,0040,0020,0100,1
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H007D4E07,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: anemic,Amira,45,&H00360BC4,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0060,0020,0020,1
+Style: missed,Amira,42,&H005947EE,&H000000FF,&H00EBEFFD,&H00000000,0,0,0,0,100,100,0,0,1,2,3,8,0200,0010,0020,1
+Style: unfortunately,Amira,45,&H00360BC4,&H000000FF,&H00FFFFFF,&H003A3D33,0,0,0,0,100,100,0,0,1,2,1,9,0020,0020,0080,0
+Style: Ding Dong,Amira,35,&H007AF0FD,&H000000FF,&H005F54B8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0090,1
+Style: punkin,Amira,35,&H00FFFFFF,&H000000FF,&H00FF00FF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0135,1
+Style: Map- Chinatsu,Amira,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,7,0190,0190,0062,1
+Style: Map- Store,Amira,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0010,0060,0050,1
+Style: Map- Yui,Amira,42,&H005947FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,3,5,0010,0010,0010,1
+Style: Map- Kyoko,Amira,42,&H005947EE,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,3,3,0050,0080,0060,1
+Style: Map- Street View,Amira,30,&H00000000,&H000000FF,&H00D1D011,&H00000000,0,1,0,0,100,100,0,0,1,2,2,8,0130,0050,0100,1
+Style: AA Battery,Amira,35,&H00FF00FF,&H00FFFFFF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0006,0061,0050,1
+Style: AAA Batteries,Amira,40,&H0000FFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,6,0045,0060,0021,1
+Style: New enemy,Amira,30,&H000000D8,&H00A03C02,&H0000FFFF,&H00000000,0,1,0,0,100,100,0,0,1,1,2,2,0150,0010,0070,1
+Style: Video Game- Yui,Amira,40,&H00FF00FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: Video Game- Kyoko,Amira,40,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0010,0010,0010,1
+Style: Video Game- Akari,Amira,40,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0180,0010,0140,1
+Style: Video Game- Chinatsu,Amira,40,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,3,0010,0010,0010,1
+Style: Revive,Amira,40,&H00FFFF00,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0081,1
+Style: No Boobs Allowed,Amira,40,&H00360BC4,&H0000FFFF,&H00FFFFFF,&H00142C68,0,0,0,0,100,100,0,0,1,2,2,7,0010,0010,0010,1
+Style: Pool,Amira,40,&H00FF00FF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,0,8,0180,0010,0010,1
+Style: Incoming message,Amira,35,&H00FF00FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0020,0006,0100,1
+Style: copyright,Amira,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,3,0010,0020,0045,1
+Style: missingposter,Amira,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,5,0010,0010,0010,1
+Style: missingposter2,Amira,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,3,0010,0030,0050,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.79,0:00:03.33,Default,ALL,0000,0000,0000,,Akarin!
+Dialogue: 0,0:00:03.33,0:00:07.46,Default,AKARI,0000,0000,0000,,Hey! Yuru Yuri's starting!
+Dialogue: 0,0:00:07.96,0:00:12.59,anemic,TEXT,0000,0000,0000,,Protagonist
+Dialogue: 0,0:00:08.30,0:00:10.57,Default,AKARI,0000,0000,0000,,This is the episode you've \N been waiting for...
+Dialogue: 0,0:00:10.57,0:00:12.54,Default,,0000,0000,0000,,My one man show!
+Dialogue: 0,0:00:13.07,0:00:16.41,Default,AKARI,0000,0000,0000,,After 23 episodes, the staff\N has finally realized
+Dialogue: 0,0:00:16.41,0:00:18.58,Default,,0000,0000,0000,,that I'm the protagonist!
+Dialogue: 0,0:00:19.09,0:00:20.41,Default,KYOKO,0000,0000,0000,,That's great, Akari.
+Dialogue: 0,0:00:20.90,0:00:21.95,Default,AKARI,0000,0000,0000,,Yeah, than—
+Dialogue: 0,0:00:24.15,0:00:26.99,Default,YUI,0000,0000,0000,,Kyoko, the new students \Nstart tomorrow.
+Dialogue: 0,0:00:26.99,0:00:28.14,Default,,0000,0000,0000,,Help clean!
+Dialogue: 0,0:00:28.14,0:00:30.46,Default,CHINATSU,0000,0000,0000,,We might even get new club members!
+Dialogue: 0,0:00:30.46,0:00:32.58,Default,CHINATSU,0000,0000,0000,,Let's welcome them \Nwith a clean room!
+Dialogue: 0,0:00:32.58,0:00:35.93,Default,AKARI,0000,0000,0000,,Hooray! We'll finally be upperclassmen!
+Dialogue: 0,0:00:37.84,0:00:40.51,Default,KYOKO,0000,0000,0000,,I just get the feeling\N this is a waste...
+Dialogue: 0,0:00:40.71,0:00:44.02,Default,CHINATSU,0000,0000,0000,,Senpai, should I clean this closet?
+Dialogue: 0,0:00:44.02,0:00:46.57,Default,YUI,0000,0000,0000,,We've never cleaned\N it before, have we?
+Dialogue: 0,0:00:46.57,0:00:49.27,Default,YUI,0000,0000,0000,,I think there's tea \Nceremony equipment in it.
+Dialogue: 0,0:00:50.44,0:00:52.36,Default,CHINATSU,0000,0000,0000,,It's like we're using \Nthe Tea Club's room.
+Dialogue: 0,0:00:52.36,0:00:55.65,Default,AKARI,0000,0000,0000,,Chinatsu-chan, didn't you\Ncome to join the Tea Club?
+Dialogue: 0,0:00:55.87,0:00:58.32,Default,YUI,0000,0000,0000,,All right. I guess we should \Nclean it more often.
+Dialogue: 0,0:01:07.33,0:01:09.25,Default,AKARI,0000,0000,0000,,Huh? What's that?
+Dialogue: 0,0:01:09.25,0:01:10.53,Default,KYOKO,0000,0000,0000,,What?
+Dialogue: 0,0:01:10.79,0:01:12.25,Default,AKARI,0000,0000,0000,,Kyoko-chan!
+Dialogue: 0,0:01:13.48,0:01:14.72,Default,YUI,0000,0000,0000,,What's this?
+Dialogue: 0,0:01:27.56,0:01:29.03,Default,CHINATSU,0000,0000,0000,,That's...
+Dialogue: 0,0:01:29.03,0:01:30.40,Default,YUI,0000,0000,0000,,It's got to be...
+Dialogue: 0,0:01:30.71,0:01:32.19,Default,KYOKO,0000,0000,0000,,A time machine!
+Dialogue: 0,0:01:32.57,0:01:33.70,Default,AKARI,0000,0000,0000,,A real one?!
+Dialogue: 0,0:01:33.70,0:01:36.82,Default,YUI,0000,0000,0000,,It must be the theater \Nclub's prop or something.
+Dialogue: 0,0:01:35.29,0:01:36.82,YY-overlap,BOTH,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:01:36.82,0:01:39.48,Default,KYOKO,0000,0000,0000,,I'll go check everyone's futures!
+Dialogue: 0,0:01:39.48,0:01:42.31,Default,CHINATSU,0000,0000,0000,,No, I wanna make \Nsure Yui-senpai and I
+Dialogue: 0,0:01:42.31,0:01:44.68,Default,,0000,0000,0000,,get happily married!
+Dialogue: 0,0:01:44.68,0:01:46.33,Default,YUI,0000,0000,0000,,Calm down, you two!
+Dialogue: 0,0:01:48.40,0:01:49.27,YY-note-big,BUTTON,0000,0000,0000,,Startup
+Dialogue: 0,0:01:50.88,0:01:53.75,Default,AKARI,0000,0000,0000,,Kyoko-chan, Chinatsu-chan, don't fight.
+Dialogue: 0,0:01:53.75,0:01:54.95,Default,YUI,0000,0000,0000,,Hey, listen...
+Dialogue: 0,0:01:54.95,0:01:57.30,Default,,0000,0000,0000,,There's only one person \Nat school who'd
+Dialogue: 0,0:01:57.30,0:01:58.97,Default,,0000,0000,0000,,make this sorta thing, right?
+Dialogue: 0,0:02:00.46,0:02:02.43,Default,NISHIGAKI,0000,0000,0000,,Explosions are necessary\N for invention!
+Dialogue: 0,0:02:08.71,0:02:09.79,YY-note-big,BUTTON,0000,0000,0000,,Liftoff
+Dialogue: 0,0:02:10.66,0:02:11.82,Default,YUI,0000,0000,0000,,A-Akari!
+Dialogue: 0,0:02:11.82,0:02:13.11,Default,BOTH,0000,0000,0000,,Akari-chan!
+Dialogue: 0,0:02:11.82,0:02:13.11,YY-overlap,BOTH,0000,0000,0000,,Akari!
+Dialogue: 0,0:02:15.32,0:02:15.98,Default,AKARI,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:15.98,0:02:16.65,Default,AKARI,0000,0000,0000,,What?
+Dialogue: 0,0:02:21.25,0:02:25.91,Default,AKARI,0000,0000,0000,,No! Someone help me!
+Dialogue: 0,0:02:25.85,0:02:27.52,missed,AKARI,0000,0000,0000,,Akarin~
+Dialogue: 0,0:02:37.87,0:02:38.64,Default,YUI,0000,0000,0000,,Akari!
+Dialogue: 0,0:02:38.64,0:02:39.63,Default,KYOKO,0000,0000,0000,,Akari!
+Dialogue: 0,0:02:39.63,0:02:40.69,Default,CHINATSU,0000,0000,0000,,Akari-chan!
+Dialogue: 0,0:02:41.28,0:02:44.43,Default,KYOKO,0000,0000,0000,,Not even a dotted outline! \NShe's really disappeared!
+Dialogue: 0,0:02:52.54,0:02:55.96,YY-eyecatch,EPTITLE,0000,0000,0000,,Yuru Yuri
+Dialogue: 0,0:02:52.54,0:02:55.96,Video Game- Yui,EPTITLE,0000,0000,0000,,The Akari Who Leapt Through Time
+Dialogue: 0,0:02:58.12,0:02:59.47,Default,AKARI,0000,0000,0000,,Niraka~
+Dialogue: 0,0:02:58.49,0:03:00.02,ayano,AKARI,0000,0000,0000,,Akarin~
+Dialogue: 0,0:03:01.92,0:03:04.87,Default,AKARI,0000,0000,0000,,What's this? A dream?
+Dialogue: 0,0:03:09.58,0:03:12.92,Default,AKARI,0000,0000,0000,,Maybe they left\N while I was unconscious...
+Dialogue: 0,0:03:12.31,0:03:15.15,AA Battery,BOOK,0000,0000,0000,,Mirakurun
+Dialogue: 0,0:03:17.55,0:03:21.40,Default,AKARI,0000,0000,0000,,That's weird. What's going on?
+Dialogue: 0,0:03:21.40,0:03:23.64,Default,AKARI,0000,0000,0000,,Even my stuff was missing.
+Dialogue: 0,0:03:26.81,0:03:28.37,Default,AKARI 2,0000,0000,0000,,I'm hungry...
+Dialogue: 0,0:03:28.37,0:03:29.92,Default,AKARI 1,0000,0000,0000,,See you tomorrow.
+Dialogue: 0,0:03:30.46,0:03:32.73,Default,KYOKO,0000,0000,0000,,Akari, don't oversleep!
+Dialogue: 0,0:03:33.15,0:03:34.79,Default,YUI,0000,0000,0000,,We'll come get you.
+Dialogue: 0,0:03:34.79,0:03:38.61,Default,AKARI 1,0000,0000,0000,,Okay. I can't wait to \Nbe a middle schooler!
+Dialogue: 0,0:03:41.43,0:03:42.99,Default,AKARI 2,0000,0000,0000,,What?!
+Dialogue: 0,0:03:46.20,0:03:47.20,Default,YUI,0000,0000,0000,,See you later.
+Dialogue: 0,0:03:47.20,0:03:48.82,Default,AKARI 1,0000,0000,0000,,Okay! I'll be waiting.
+Dialogue: 0,0:03:54.91,0:03:58.50,Default,AKARI 2,0000,0000,0000,,Does this mean I really \Ntraveled through time?
+Dialogue: 0,0:03:59.34,0:04:03.97,Default,AKARI 2,0000,0000,0000,,No!
+Dialogue: 0,0:04:03.99,0:04:04.82,YY-note-big,BUTTON,0000,0000,0000,,Startup
+Dialogue: 0,0:04:08.06,0:04:10.78,Default,AKARI 2,0000,0000,0000,,Huh? No!
+Dialogue: 0,0:04:18.59,0:04:19.59,Map- Street View,SFX,0000,0000,0000,,Growl
+Dialogue: 0,0:04:22.17,0:04:24.06,Default,AKARI 2,0000,0000,0000,,I'm hungry...
+Dialogue: 0,0:04:24.06,0:04:26.32,Default,AKARI 2,0000,0000,0000,,I know! Maybe Kyoko-chan...
+Dialogue: 0,0:04:28.08,0:04:28.95,Default,AKARI 2,0000,0000,0000,,There we go!
+Dialogue: 0,0:04:29.93,0:04:30.91,Default,AKARI 2,0000,0000,0000,,Lightly salted!
+Dialogue: 0,0:04:30.91,0:04:33.41,Default,,0000,0000,0000,,I love lightly salted chips!
+Dialogue: 0,0:04:30.91,0:04:33.41,unfortunately,CHIPS,0000,0000,0000,,Potato Chips\NLightly Salted
+Dialogue: 0,0:04:35.80,0:04:37.56,Default,AKARI 2,0000,0000,0000,,I've calmed down a bit.
+Dialogue: 0,0:04:38.06,0:04:40.38,Default,AKARI 2,0000,0000,0000,,But what am I gonna do now?
+Dialogue: 0,0:04:40.67,0:04:43.13,Default,AKARI 2,0000,0000,0000,,How will I fix \Nthe time machine?
+Dialogue: 0,0:04:44.40,0:04:46.81,Default,YUI,0000,0000,0000,,{\i1}There's only one person\N at school who'd{\i0}
+Dialogue: 0,0:04:46.81,0:04:48.39,Default,,0000,0000,0000,,{\i1}make this sorta thing, right?{\i0}
+Dialogue: 0,0:04:49.28,0:04:51.17,Default,AKARI 2,0000,0000,0000,,That's it! Nishigaki-sensei!
+Dialogue: 0,0:04:51.17,0:04:52.75,Default,AKARI 2,0000,0000,0000,,I'll have her fix it tomorrow!
+Dialogue: 0,0:04:57.31,0:05:00.61,Default,AKARI 2,0000,0000,0000,,This is the latest volume of\N "Witch Girl Mirakurun"!
+Dialogue: 0,0:05:01.10,0:05:04.65,Default,AKARI 2,0000,0000,0000,,In the future, I think I \Nread volume 11 yesterday...
+Dialogue: 0,0:05:06.77,0:05:09.39,Default,AKARI 2,0000,0000,0000,,I've really traveled \None year into the past...
+Dialogue: 0,0:05:09.81,0:05:11.45,Default,AKARI 2,0000,0000,0000,,One year ago...
+Dialogue: 0,0:05:12.51,0:05:15.08,Default,AKARI 1,0000,0000,0000,,Kyoko-chan, Yui-chan, \Nthanks for waiting!
+Dialogue: 0,0:05:16.36,0:05:18.65,Default,AKARI 1,0000,0000,0000,,Oh, no! I'm so embarrassed!
+Dialogue: 0,0:05:18.65,0:05:21.09,Default,KYOKO,0000,0000,0000,,Go for an even stronger gag next time!
+Dialogue: 0,0:05:22.19,0:05:25.08,Default,AKARI,0000,0000,0000,,I take the express \Nto everyone's heart!
+Dialogue: 0,0:05:25.55,0:05:28.80,Default,AKARI,0000,0000,0000,,Nice to meet you! I'm Akaza Akari!
+Dialogue: 0,0:05:31.10,0:05:33.73,Default,AKARI 2,0000,0000,0000,,My terrible middle\N school debut...
+Dialogue: 0,0:05:33.73,0:05:35.99,Default,AKARI 2,0000,0000,0000,,After that, Chinatsu-chan \Njoined the club,
+Dialogue: 0,0:05:35.99,0:05:38.35,Default,,0000,0000,0000,,and I've gotten less and \Nless screen time.
+Dialogue: 0,0:05:38.35,0:05:40.21,Default,,0000,0000,0000,,Now, I have no presence...
+Dialogue: 0,0:05:41.53,0:05:42.57,Default,AKARI 2,0000,0000,0000,,I know!
+Dialogue: 0,0:05:42.57,0:05:45.88,Default,,0000,0000,0000,,If I stop myself from\N making those mistakes,
+Dialogue: 0,0:05:46.70,0:05:48.57,Default,,0000,0000,0000,,I'll have more \Nscreen time and presence!
+Dialogue: 0,0:05:49.31,0:05:52.34,Default,AKARI 2,0000,0000,0000,,I'll start by making \Nsure my past self
+Dialogue: 0,0:05:52.34,0:05:54.66,Default,,0000,0000,0000,,wears her uniform tomorrow!
+Dialogue: 0,0:05:55.23,0:05:58.77,Default,AKARI 2,0000,0000,0000,,I'll wake up early and fix my mistakes!
+Dialogue: 0,0:06:04.75,0:06:06.97,Default,AKARI 2,0000,0000,0000,,I overslept!
+Dialogue: 0,0:06:07.76,0:06:09.72,Default,AKARI 2,0000,0000,0000,,Please let me be on time!
+Dialogue: 0,0:06:09.72,0:06:10.80,Default,,0000,0000,0000,,Please!
+Dialogue: 0,0:06:10.80,0:06:11.47,Default,AKARI 2,0000,0000,0000,,Plea—
+Dialogue: 0,0:06:11.47,0:06:14.14,Default,AKARI 1,0000,0000,0000,,Kyoko-chan, Yui-chan, \Nthanks for waiting!
+Dialogue: 0,0:06:15.91,0:06:18.75,Default,KYOKO,0000,0000,0000,,Go for an even stronger gag next time!
+Dialogue: 0,0:06:20.20,0:06:23.30,Default,YUI,0000,0000,0000,,If we don't hurry, we'll be late.
+Dialogue: 0,0:06:23.30,0:06:24.38,Default,AKARI 1,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:29.61,0:06:30.66,Default,AKARI 2,0000,0000,0000,,{\i1}It's okay!{\i0}
+Dialogue: 0,0:06:30.91,0:06:33.85,Default,,0000,0000,0000,,{\i1}I still have a chance to fix my mistakes!{\i0}
+Dialogue: 0,0:06:33.85,0:06:36.70,Default,AKANE,0000,0000,0000,,Oh, Akari.
+Dialogue: 0,0:06:36.70,0:06:37.62,Default,AKARI 2,0000,0000,0000,,Onee-chan!
+Dialogue: 0,0:06:37.96,0:06:40.73,Default,AKANE,0000,0000,0000,,I forgot something...
+Dialogue: 0,0:06:40.73,0:06:41.63,Default,AKANE,0000,0000,0000,,Oh?
+Dialogue: 0,0:06:45.38,0:06:48.55,Default,AKANE,0000,0000,0000,,Huh? Akari... What?
+Dialogue: 0,0:06:54.28,0:06:55.93,Default,AKANE,0000,0000,0000,,That must've been hard.
+Dialogue: 0,0:06:56.82,0:07:00.23,Default,AKARI 2,0000,0000,0000,,I'm glad you believe such \Nan unbelievable story.
+Dialogue: 0,0:07:00.23,0:07:04.23,Default,AKANE,0000,0000,0000,,I'd believe anything you told me.
+Dialogue: 0,0:07:04.77,0:07:06.08,Default,AKARI 2,0000,0000,0000,,Onee-chan...
+Dialogue: 0,0:07:06.52,0:07:09.23,Default,AKANE,0000,0000,0000,,So what will you do next?
+Dialogue: 0,0:07:09.23,0:07:10.78,Default,AKARI 2,0000,0000,0000,,I need to stop myself
+Dialogue: 0,0:07:10.78,0:07:13.43,Default,,0000,0000,0000,,from giving a weird\N introduction at school.
+Dialogue: 0,0:07:13.43,0:07:15.56,Default,AKARI 2,0000,0000,0000,,Also, I need to fix the time machine...
+Dialogue: 0,0:07:16.77,0:07:18.04,Default,AKARI 2,0000,0000,0000,,Thanks for the food.
+Dialogue: 0,0:07:28.38,0:07:29.42,Default,AKARI 2,0000,0000,0000,,Onee-chan?
+Dialogue: 0,0:07:29.42,0:07:33.08,Default,AKANE,0000,0000,0000,,You're one year older... \NYou've grown...
+Dialogue: 0,0:07:33.68,0:07:34.76,Default,AKARI 2,0000,0000,0000,,Really?
+Dialogue: 0,0:07:35.22,0:07:36.29,Default,AKANE,0000,0000,0000,,About 2 millimeters.
+Dialogue: 0,0:07:37.11,0:07:38.18,Default,AKARI 2,0000,0000,0000,,What?
+Dialogue: 0,0:07:38.18,0:07:41.56,YY-note,SIGN,0000,0000,0000,,Entrance Ceremony
+Dialogue: 0,0:07:38.55,0:07:41.21,Default,MC,0000,0000,0000,,This concludes the principal's speech.
+Dialogue: 0,0:07:49.99,0:07:51.80,Default,AKARI 2,0000,0000,0000,,{\i1}I'll write a message...{\i0}
+Dialogue: 0,0:07:52.62,0:07:55.18,Default,AKARI 2,0000,0000,0000,,{\i1}Warning: You're about to make{\i0}
+Dialogue: 0,0:07:55.18,0:07:57.66,Default,,0000,0000,0000,,{\i1}a mistake that will change your life.{\i0}
+Dialogue: 0,0:07:58.26,0:08:00.70,Default,AKARI 2,0000,0000,0000,,{\i1}You must introduce yourself normally!{\i0}
+Dialogue: 0,0:08:01.23,0:08:02.21,Default,AKARI 2,0000,0000,0000,,{\i1}There!{\i0}
+Dialogue: 0,0:08:03.08,0:08:05.65,Default,AKARI 2,0000,0000,0000,,What? That was quick...
+Dialogue: 0,0:08:11.10,0:08:13.23,Default,SAKURAKO,0000,0000,0000,,The principal wouldn't shut up.
+Dialogue: 0,0:08:13.60,0:08:15.67,Default,HIMAWARI,0000,0000,0000,,He took no longer than usual.
+Dialogue: 0,0:08:16.80,0:08:19.10,Default,AKARI 2,0000,0000,0000,,{\i1}Sakurako-chan, Himawari-chan...{\i0}
+Dialogue: 0,0:08:20.63,0:08:21.68,Default,AKARI 2,0000,0000,0000,,{\i1}Chinatsu-chan...{\i0}
+Dialogue: 0,0:08:23.76,0:08:26.21,Default,HIMAWARI,0000,0000,0000,,Oh my. Someone wrote on this desk.
+Dialogue: 0,0:08:26.21,0:08:27.83,Default,,0000,0000,0000,,That's unfortunate.
+Dialogue: 0,0:08:33.36,0:08:34.45,Default,AKARI 2,0000,0000,0000,,{\i1}Hey, Himawari-chan!{\i0}
+Dialogue: 0,0:08:34.45,0:08:37.10,Default,SAKURAKO,0000,0000,0000,,What're you doing to that girl's desk?
+Dialogue: 0,0:08:37.10,0:08:38.87,Default,HIMAWARI,0000,0000,0000,,Wouldn't it be sad to start your first
+Dialogue: 0,0:08:38.87,0:08:41.56,Default,,0000,0000,0000,,day at a new school \Nwith a vandalized desk?
+Dialogue: 0,0:08:41.56,0:08:42.41,Default,AKARI 1,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:43.37,0:08:45.54,Default,HIMAWARI,0000,0000,0000,,Someone wrote on your desk...
+Dialogue: 0,0:08:45.78,0:08:47.63,Default,AKARI 1,0000,0000,0000,,Thanks.
+Dialogue: 0,0:08:50.65,0:08:52.10,Default,AKARI 2,0000,0000,0000,,{\i1}No way!{\i0}
+Dialogue: 0,0:08:53.39,0:08:55.03,Default,GIRL,0000,0000,0000,,I wanna join the tennis club and
+Dialogue: 0,0:08:55.03,0:08:56.66,Default,,0000,0000,0000,,play at Wimbledon someday!
+Dialogue: 0,0:08:59.19,0:09:01.23,Default,AKARI 2,0000,0000,0000,,{\i1}What should I do?{\i0}
+Dialogue: 0,0:09:01.23,0:09:03.35,Default,AKARI 2,0000,0000,0000,,I'll have to do something drastic!
+Dialogue: 0,0:09:03.37,0:09:04.96,Next Episode,NOTE,0000,0000,0000,,Introduce yourself properly!
+Dialogue: 0,0:09:12.21,0:09:14.32,Default,AKARI 2,0000,0000,0000,,{\i1}I keep missing...{\i0}
+Dialogue: 0,0:09:14.32,0:09:15.24,Default,AKARI 2,0000,0000,0000,,{\i1}There.{\i0}
+Dialogue: 0,0:09:20.69,0:09:22.24,Default,AKARI 2,0000,0000,0000,,{\i1}Her hair ate it!{\i0}
+Dialogue: 0,0:09:22.69,0:09:24.53,Default,HIMAWARI,0000,0000,0000,,I'd like to join the student council
+Dialogue: 0,0:09:24.53,0:09:28.33,Default,,0000,0000,0000,,to make this school an even \Nbetter place for everyone.
+Dialogue: 0,0:09:26.99,0:09:28.33,YY-overlap,AKARI 2,0000,0000,0000,,{\i1}No, no.{\i0}
+Dialogue: 0,0:09:28.78,0:09:31.86,Default,SAKURAKO,0000,0000,0000,,Acting like a goody-two-shoes? \NWhat an idiot.
+Dialogue: 0,0:09:31.86,0:09:33.09,Default,HIMAWARI,0000,0000,0000,,What did you say?
+Dialogue: 0,0:09:33.09,0:09:33.76,Default,SAKURAKO,0000,0000,0000,,You wanna fight?
+Dialogue: 0,0:09:33.09,0:09:33.76,YY-overlap,AKARI 2,0000,0000,0000,,{\i1}There!{\i0}
+Dialogue: 0,0:09:37.26,0:09:39.15,Default,TEACHER,0000,0000,0000,,Next, Akaza-san.
+Dialogue: 0,0:09:39.90,0:09:40.77,Default,AKARI 1,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:44.46,0:09:49.15,Default,HIMAWARI,0000,0000,0000,,How unusual for you to \Nintroduce yourself properly.
+Dialogue: 0,0:09:49.51,0:09:51.74,Default,SAKURAKO,0000,0000,0000,,I got a warning note!
+Dialogue: 0,0:09:51.74,0:09:53.21,Default,HIMAWARI,0000,0000,0000,,A warning from God?
+Dialogue: 0,0:09:56.42,0:09:58.08,Default,AKARI 2,0000,0000,0000,,I-I still...
+Dialogue: 0,0:09:58.84,0:10:01.20,Default,,0000,0000,0000,,I still have a chance!
+Dialogue: 0,0:10:02.77,0:10:05.95,Default,KYOKO,0000,0000,0000,,We just hang out and \Ndo whatever we want!
+Dialogue: 0,0:10:06.72,0:10:09.63,Default,AKARI 2,0000,0000,0000,,{\i1}Soon, Chinatsu-chan will \Nget here with her club form...{\i0}
+Dialogue: 0,0:10:09.99,0:10:12.79,Default,AKARI 2,0000,0000,0000,,{\i1}If I tell her the Tea \NClub's been disbanded,{\i0}
+Dialogue: 0,0:10:12.79,0:10:14.25,Default,,0000,0000,0000,,{\i1}she should leave...{\i0}
+Dialogue: 0,0:10:14.59,0:10:16.16,Default,AKARI 2,0000,0000,0000,,{\i1}Sorry, Chinatsu-chan.{\i0}
+Dialogue: 0,0:10:16.16,0:10:18.63,Default,,0000,0000,0000,,{\i1}Once we're friends, \NI'm sure I'll invite you{\i0}
+Dialogue: 0,0:10:18.63,0:10:20.63,Default,,0000,0000,0000,,{\i1}to join the Amusement Club...{\i0}
+Dialogue: 0,0:10:21.48,0:10:22.51,Default,AKARI 2,0000,0000,0000,,{\i1}She's here!{\i0}
+Dialogue: 0,0:10:23.63,0:10:25.12,Default,AKARI 2,0000,0000,0000,,Uh, um!
+Dialogue: 0,0:10:25.41,0:10:26.10,Default,,0000,0000,0000,,What?
+Dialogue: 0,0:10:28.79,0:10:29.76,Default,AKARI 2,0000,0000,0000,,Su...
+Dialogue: 0,0:10:30.34,0:10:32.95,Default,CHITOSE,0000,0000,0000,,Oh? I haven't seen you before.
+Dialogue: 0,0:10:32.95,0:10:34.53,Default,AYANO,0000,0000,0000,,You must be a new student.
+Dialogue: 0,0:10:34.53,0:10:36.82,Default,AYANO,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:10:36.82,0:10:39.36,Default,AKARI 2,0000,0000,0000,,Uh, um... Well...
+Dialogue: 0,0:10:40.55,0:10:42.39,Default,CHITOSE,0000,0000,0000,,You must be lost.
+Dialogue: 0,0:10:42.39,0:10:43.62,Default,AYANO,0000,0000,0000,,There's no helping it.
+Dialogue: 0,0:10:44.04,0:10:45.55,Default,,0000,0000,0000,,The gates are this way.
+Dialogue: 0,0:10:46.91,0:10:47.71,Default,AKARI 2,0000,0000,0000,,{\i1}Hey!{\i0}
+Dialogue: 0,0:10:50.47,0:10:52.36,Default,AKARI 2,0000,0000,0000,,{\i1}She came that way...{\i0}
+Dialogue: 0,0:10:56.07,0:10:58.57,Default,AKARI 2,0000,0000,0000,,Why isn't anything \Nworking out?
+Dialogue: 0,0:10:58.57,0:11:01.15,Default,AKARI 2,0000,0000,0000,,In any case, I need to \Nhave Nishigaki-sensei
+Dialogue: 0,0:11:01.15,0:11:02.80,Default,,0000,0000,0000,,fix the time machine...
+Dialogue: 0,0:11:04.57,0:11:06.93,Default,AKARI 2,0000,0000,0000,,I'll find another way...
+Dialogue: 0,0:11:09.62,0:11:11.10,Default,AKARI 2,0000,0000,0000,,Matsumoto-senpai!
+Dialogue: 0,0:11:13.00,0:11:15.02,Default,NISHIGAKI,0000,0000,0000,,Oh, Matsumoto.
+Dialogue: 0,0:11:18.83,0:11:20.40,Default,NISHIGAKI,0000,0000,0000,,You want to speak with me?
+Dialogue: 0,0:11:21.56,0:11:24.32,Default,NISHIGAKI,0000,0000,0000,,You really came from the \Nfuture in this thing?
+Dialogue: 0,0:11:24.32,0:11:25.58,Default,AKARI 2,0000,0000,0000,,I'm not lying!
+Dialogue: 0,0:11:25.58,0:11:28.66,Default,AKARI 2,0000,0000,0000,,Didn't you make this?
+Dialogue: 0,0:11:28.66,0:11:31.71,Default,NISHIGAKI,0000,0000,0000,,It's not mine.
+Dialogue: 0,0:11:31.71,0:11:32.69,Default,AKARI 2,0000,0000,0000,,What?
+Dialogue: 0,0:11:35.14,0:11:38.84,Default,AKARI 2,0000,0000,0000,,If I can't fix this,\N I'm stuck here...
+Dialogue: 0,0:11:40.43,0:11:42.38,Default,NISHIGAKI,0000,0000,0000,,Okay, okay.
+Dialogue: 0,0:11:42.38,0:11:45.01,Default,,0000,0000,0000,,It might take some time, \Nbut I'll take a look.
+Dialogue: 0,0:11:45.41,0:11:48.22,Default,AKARI 2,0000,0000,0000,,Really? Thank you, Sensei!
+Dialogue: 0,0:11:48.77,0:11:50.64,Default,AKARI 1,0000,0000,0000,,I messed up my introduction,
+Dialogue: 0,0:11:51.12,0:11:53.51,Default,,0000,0000,0000,,but I got to play with Kyoko-chan \Nand Yui-chan at school again,
+Dialogue: 0,0:11:53.51,0:11:55.35,Default,,0000,0000,0000,,so I had lots of fun.
+Dialogue: 0,0:11:56.48,0:11:58.07,Default,AKANE,0000,0000,0000,,That's great.
+Dialogue: 0,0:11:59.68,0:12:02.02,Default,AKARI 1,0000,0000,0000,,It's nine. I'd better go to bed.
+Dialogue: 0,0:12:02.80,0:12:04.45,Default,AKARI 1,0000,0000,0000,,Goodnight, Onee-chan.
+Dialogue: 0,0:12:04.45,0:12:06.57,Default,AKANE,0000,0000,0000,,Goodnight, Akari.
+Dialogue: 0,0:12:12.36,0:12:14.54,Default,AKANE,0000,0000,0000,,Welcome home, Akari.
+Dialogue: 0,0:12:26.49,0:12:27.72,Default,AKARI 2,0000,0000,0000,,Thanks for the food.
+Dialogue: 0,0:12:27.72,0:12:29.72,Default,AKANE,0000,0000,0000,,Looks like you messed up.
+Dialogue: 0,0:12:29.72,0:12:30.39,Default,AKANE 2,0000,0000,0000,,Yeah...
+Dialogue: 0,0:12:31.04,0:12:32.69,Default,AKANE,0000,0000,0000,,What will you do now?
+Dialogue: 0,0:12:32.69,0:12:36.86,Default,AKARI 2,0000,0000,0000,,In a week, I'll have one last chance...
+Dialogue: 0,0:12:37.35,0:12:38.85,Default,AKARI 2,0000,0000,0000,,It'll take some time
+Dialogue: 0,0:12:38.85,0:12:40.40,Default,,0000,0000,0000,,to fix the time machine, so...
+Dialogue: 0,0:12:40.40,0:12:41.44,Default,AKANE,0000,0000,0000,,I see...
+Dialogue: 0,0:12:41.70,0:12:43.93,Default,AKARI 1,0000,0000,0000,,Sorry, but would it be okay
+Dialogue: 0,0:12:43.93,0:12:46.19,Default,,0000,0000,0000,,if I stayed in your room for a while?
+Dialogue: 0,0:12:46.19,0:12:46.74,Default,AKANE,0000,0000,0000,,What?
+Dialogue: 0,0:12:46.74,0:12:49.80,Default,AKANE,0000,0000,0000,,O-Of course! That would be fine!
+Dialogue: 0,0:12:49.80,0:12:50.70,Default,AKANE,0000,0000,0000,,Look, see?
+Dialogue: 0,0:12:51.16,0:12:52.97,Default,,0000,0000,0000,,I just bought new sheets,
+Dialogue: 0,0:12:52.97,0:12:55.33,Default,,0000,0000,0000,,and I even have some cute pajamas!
+Dialogue: 0,0:12:56.26,0:12:58.65,Default,AKANE,0000,0000,0000,,Getting to sleep with my beloved Akari
+Dialogue: 0,0:12:58.65,0:13:01.10,Default,,0000,0000,0000,,makes me two times...
+Dialogue: 0,0:13:01.10,0:13:03.01,Default,,0000,0000,0000,,No, one hundred times happier!
+Dialogue: 0,0:13:03.28,0:13:05.38,Default,AKARI 2,0000,0000,0000,,O-Onee-chan?
+Dialogue: 0,0:13:05.91,0:13:09.53,Default,AKARI 2,0000,0000,0000,,Oh yeah, I wonder how many years \Nit's been since I was last in here.
+Dialogue: 0,0:13:14.88,0:13:15.80,Default,AKANE,0000,0000,0000,,Akari!
+Dialogue: 0,0:13:15.80,0:13:18.40,Default,AKANE,0000,0000,0000,,The bath! The bath is ready!
+Dialogue: 0,0:13:18.72,0:13:20.83,Default,AKARI 2,0000,0000,0000,,Huh? Hooray!
+Dialogue: 0,0:13:20.83,0:13:23.36,Default,AKARI 2,0000,0000,0000,,I'm so glad since I didn't \Nget to take one yesterday.
+Dialogue: 0,0:13:23.36,0:13:26.40,Default,AKANE,0000,0000,0000,,Go warm yourself up.
+Dialogue: 0,0:13:26.40,0:13:27.20,Default,AKARI 2,0000,0000,0000,,Okay.
+Dialogue: 0,0:13:37.37,0:13:39.29,Default,AKANE,0000,0000,0000,,I'm turning off the light.
+Dialogue: 0,0:13:39.29,0:13:40.04,Default,AKARI 2,0000,0000,0000,,Okay.
+Dialogue: 0,0:13:50.90,0:13:51.97,Default,AKANE,0000,0000,0000,,Akari...
+Dialogue: 0,0:13:51.97,0:13:54.02,Default,AKANE,0000,0000,0000,,You seem desperate to do so,
+Dialogue: 0,0:13:54.02,0:13:57.39,Default,,0000,0000,0000,,but is it really so important \Nto fix your past mistakes?
+Dialogue: 0,0:13:57.71,0:14:00.03,Default,AKARI 2,0000,0000,0000,,Huh? Yeah...
+Dialogue: 0,0:14:00.64,0:14:04.74,Default,AKARI 2,0000,0000,0000,,Everyone says I have no presence...
+Dialogue: 0,0:14:05.10,0:14:08.82,Default,AKANE,0000,0000,0000,,Really? I don't think that's true.
+Dialogue: 0,0:14:09.19,0:14:12.26,Default,AKARI 2,0000,0000,0000,,But I wanna do something about it.
+Dialogue: 0,0:14:12.26,0:14:14.39,Default,AKARI 2,0000,0000,0000,,I think I came to the past
+Dialogue: 0,0:14:14.39,0:14:17.16,Default,,0000,0000,0000,,because God is giving me a chance.
+Dialogue: 0,0:14:17.74,0:14:18.79,Default,AKANE,0000,0000,0000,,I see.
+Dialogue: 0,0:14:19.78,0:14:21.15,Default,AKANE,0000,0000,0000,,But are you sure?
+Dialogue: 0,0:14:21.15,0:14:22.58,Default,,0000,0000,0000,,If you change the past,
+Dialogue: 0,0:14:22.58,0:14:27.22,Default,,0000,0000,0000,,a year's worth of your \Nmemories could change.
+Dialogue: 0,0:14:27.81,0:14:28.58,Default,AKARI 2,0000,0000,0000,,What?
+Dialogue: 0,0:14:29.31,0:14:32.97,Default,AKANE,0000,0000,0000,,You might like your new memories,
+Dialogue: 0,0:14:32.97,0:14:35.57,Default,,0000,0000,0000,,but your old memories will disappear.
+Dialogue: 0,0:14:36.28,0:14:38.16,Default,AKARI 2,0000,0000,0000,,But...
+Dialogue: 0,0:14:40.42,0:14:43.35,Default,AKARI 2,0000,0000,0000,,But my next chance is my last one!
+Dialogue: 0,0:14:43.35,0:14:45.90,Default,AKARI 2,0000,0000,0000,,I want to change myself!
+Dialogue: 0,0:14:48.45,0:14:51.66,Default,AKANE,0000,0000,0000,,I love you no matter who you are.
+Dialogue: 0,0:14:52.01,0:14:52.98,Default,AKANE,0000,0000,0000,,Goodnight.
+Dialogue: 0,0:14:53.66,0:14:55.87,Default,AKARI 2,0000,0000,0000,,Goodnight, Onee-chan...
+Dialogue: 0,0:15:14.18,0:15:21.60,Default,SONG,0000,0000,0000,,{\i1}I remember everyone's{\i0}
+Dialogue: 0,0:15:21.91,0:15:27.44,Default,SONG,0000,0000,0000,,{\i1}Smiling faces and close my eyes{\i0}
+Dialogue: 0,0:15:27.87,0:15:34.76,Default,SONG,0000,0000,0000,,{\i1}Sleeping in a warm and fuzzy bed{\i0}
+Dialogue: 0,0:15:35.65,0:15:41.22,Default,SONG,0000,0000,0000,,{\i1}I don't know why, but I cried{\i0}
+Dialogue: 0,0:15:43.27,0:15:46.21,Default,SONG,0000,0000,0000,,{\i1}Our fun conversations{\i0}
+Dialogue: 0,0:15:46.74,0:15:50.18,Default,SONG,0000,0000,0000,,{\i1}Doing nothing special{\i0}
+Dialogue: 0,0:15:50.18,0:15:55.69,Default,SONG,0000,0000,0000,,{\i1}Today passes us by{\i0}
+Dialogue: 0,0:15:56.66,0:16:03.60,Default,SONG,0000,0000,0000,,{\i1}But I want to convey \Nthese important feelings{\i0}
+Dialogue: 0,0:16:03.93,0:16:09.46,Default,SONG,0000,0000,0000,,{\i1}I want to tell you{\i0}
+Dialogue: 0,0:16:09.46,0:16:16.89,Default,SONG,0000,0000,0000,,{\i1}I love all of you{\i0}
+Dialogue: 0,0:16:16.89,0:16:23.59,Default,SONG,0000,0000,0000,,{\i1}I want to keep laughing \Nwith everyone forever{\i0}
+Dialogue: 0,0:16:23.59,0:16:30.83,Default,SONG,0000,0000,0000,,{\i1}So let's meet up again tomorrow{\i0}
+Dialogue: 0,0:16:30.83,0:16:40.29,Default,SONG,0000,0000,0000,,{\i1}Until then, just for now, goodnight{\i0}
+Dialogue: 0,0:16:43.69,0:16:51.26,Default,SONG,0000,0000,0000,,{\i1}I love all of you{\i0}
+Dialogue: 0,0:16:51.26,0:16:54.92,Default,SONG,0000,0000,0000,,{\i1}I'll see you all tomorrow{\i0}
+Dialogue: 0,0:16:54.92,0:17:02.79,Default,SONG,0000,0000,0000,,{\i1}Until then, just for now, goodnight{\i0}
+Dialogue: 0,0:17:09.21,0:17:11.82,Default,AKARI 2,0000,0000,0000,,We'll always be together...
+Dialogue: 0,0:17:16.49,0:17:18.20,1 week later,TEXT,0000,0000,0000,,One Week Later
+Dialogue: 0,0:17:16.78,0:17:19.85,Default,NISHIGAKI,0000,0000,0000,,I'm sorry. I tried taking it apart,
+Dialogue: 0,0:17:19.85,0:17:22.30,Default,,0000,0000,0000,,but I still don't understand it.
+Dialogue: 0,0:17:22.30,0:17:23.36,Default,AKARI 2,0000,0000,0000,,You're kidding!
+Dialogue: 0,0:17:23.36,0:17:25.31,Default,,0000,0000,0000,,You weren't able to fix it?
+Dialogue: 0,0:17:25.77,0:17:27.81,Default,NISHIGAKI,0000,0000,0000,,I didn't understand it, but I fixed it.
+Dialogue: 0,0:17:27.81,0:17:28.77,Default,AKARI 2,0000,0000,0000,,What?
+Dialogue: 0,0:17:31.82,0:17:33.57,Default,NISHIGAKI,0000,0000,0000,,It was out of batteries.
+Dialogue: 0,0:17:40.59,0:17:42.33,Default,AKARI 2,0000,0000,0000,,{\i1}This is my last chance...{\i0}
+Dialogue: 0,0:17:42.84,0:17:44.57,Default,AKARI 1,0000,0000,0000,,{\i1}Allow me to announce my strategy{\i0}
+Dialogue: 0,0:17:44.57,0:17:48.08,Default,,0000,0000,0000,,{\i1}for having more presence \Nthan anyone else!{\i0}
+Dialogue: 0,0:17:48.80,0:17:50.97,Default,AYANO,0000,0000,0000,,{\i1}Toshino Kyoko!{\i0}
+Dialogue: 0,0:17:50.97,0:17:52.19,Default,AKARI 1,0000,0000,0000,,{\i1}M...{\i0}
+Dialogue: 0,0:17:52.63,0:17:54.02,Default,,0000,0000,0000,,{\i1}My...{\i0}
+Dialogue: 0,0:17:54.92,0:17:57.72,Default,,0000,0000,0000,,{\i1}My presence!{\i0}
+Dialogue: 0,0:17:58.00,0:18:00.19,Default,AKARI 2,0000,0000,0000,,{\i1}If Sugiura-senpai hadn't interrupted,{\i0}
+Dialogue: 0,0:18:00.19,0:18:01.46,Default,,0000,0000,0000,,{\i1}it would've worked.{\i0}
+Dialogue: 0,0:18:01.46,0:18:05.06,Default,AKARI 2,0000,0000,0000,,{\i1}I need to keep them \Naway from the room...{\i0}
+Dialogue: 0,0:18:05.06,0:18:06.41,Default,AYANO,0000,0000,0000,,Toshino Kyoko!
+Dialogue: 0,0:18:06.41,0:18:08.68,Default,AYANO,0000,0000,0000,,You won't get away today!
+Dialogue: 0,0:18:08.68,0:18:10.56,Default,CHITOSE,0000,0000,0000,,Now, now, Ayano-chan.
+Dialogue: 0,0:18:10.96,0:18:11.95,Default,AKARI 2,0000,0000,0000,,{\i1}They're here!{\i0}
+Dialogue: 0,0:18:11.95,0:18:13.69,Default,AKARI 2,0000,0000,0000,,{\i1}This is my last chance!{\i0}
+Dialogue: 0,0:18:14.14,0:18:15.44,Default,AKARI 2,0000,0000,0000,,{\i1}My last chance!{\i0}
+Dialogue: 0,0:18:36.80,0:18:38.93,Default,AKANE,0000,0000,0000,,{\i1}Your old memories will disappear...{\i0}
+Dialogue: 0,0:18:39.35,0:18:41.30,Default,AKANE,0000,0000,0000,,{\i1}Disappear... disappear...{\i0}
+Dialogue: 0,0:18:49.38,0:18:50.76,Default,AKARI2,0000,0000,0000,,Disapp...
+Dialogue: 0,0:19:08.70,0:19:10.29,Default,AYANO,0000,0000,0000,,Toshino Kyoko!
+Dialogue: 0,0:19:10.79,0:19:14.80,Default,AKARI 2,0000,0000,0000,,I can't do it. I can't change\N my memories with my friends...
+Dialogue: 0,0:19:15.25,0:19:16.38,Default,AKARI 2,0000,0000,0000,,I can't!
+Dialogue: 0,0:19:17.46,0:19:20.30,Default,AKANE,0000,0000,0000,,You ended up not changing the past. \NAre you okay with that?
+Dialogue: 0,0:19:20.30,0:19:21.34,Default,AKARI 2,0000,0000,0000,,Yeah!
+Dialogue: 0,0:19:21.87,0:19:24.35,Default,AKARI 2,0000,0000,0000,,I'll win back my presence \Nin the future!
+Dialogue: 0,0:19:24.83,0:19:28.10,Default,NISHIGAKI,0000,0000,0000,,We won't tell anyone \Nyou visited the past,
+Dialogue: 0,0:19:28.10,0:19:29.44,Default,,0000,0000,0000,,so the future won't change.
+Dialogue: 0,0:19:29.44,0:19:30.60,Default,NISHIGAKI,0000,0000,0000,,Do your best.
+Dialogue: 0,0:19:30.92,0:19:33.11,Default,AKARI 2,0000,0000,0000,,Thank you, Nishigaki-sensei.
+Dialogue: 0,0:19:35.43,0:19:37.48,Default,AKARI 2,0000,0000,0000,,Thank you, Matsumoto-senpai.
+Dialogue: 0,0:19:38.31,0:19:39.56,Default,AKANE,0000,0000,0000,,Akari...
+Dialogue: 0,0:19:39.56,0:19:40.61,Default,AKARI 2,0000,0000,0000,,Onee-chan...
+Dialogue: 0,0:19:41.30,0:19:45.24,Default,AKANE,0000,0000,0000,,I was so happy to have two of you,
+Dialogue: 0,0:19:45.57,0:19:49.08,Default,,0000,0000,0000,,but my future self must\N be dying without you.
+Dialogue: 0,0:19:50.07,0:19:52.88,Default,AKANE,0000,0000,0000,,And I was so happy to\N share a bed with you...
+Dialogue: 0,0:19:53.58,0:19:55.61,Default,AKANE,0000,0000,0000,,I couldn't sleep.
+Dialogue: 0,0:19:55.61,0:19:56.84,Default,,0000,0000,0000,,I need sleep...
+Dialogue: 0,0:19:57.24,0:19:58.35,Default,AKARI 2,0000,0000,0000,,Onee-chan?
+Dialogue: 0,0:20:00.74,0:20:02.59,Default,AKARI 2,0000,0000,0000,,See you in the future!
+Dialogue: 0,0:20:03.03,0:20:03.88,Default,ALL,0000,0000,0000,,In the future!
+Dialogue: 0,0:20:05.14,0:20:06.60,Default,AKARI,0000,0000,0000,,Akarin!
+Dialogue: 0,0:20:05.20,0:20:06.24,Map- Kyoko,TEXT,0000,0000,0000,,Akarin~
+Dialogue: 0,0:20:09.71,0:20:11.68,Default,AKARI 2,0000,0000,0000,,I can finally return \Nto the future.
+Dialogue: 0,0:20:12.05,0:20:13.62,Default,AKARI 2,0000,0000,0000,,I wonder how everyone's doing...
+Dialogue: 0,0:20:15.05,0:20:17.02,Default,AKARI,0000,0000,0000,,I'm back, everyone.
+Dialogue: 0,0:20:17.78,0:20:18.78,Default,KYOKO,0000,0000,0000,,Akari.
+Dialogue: 0,0:20:18.78,0:20:19.97,Default,YUI,0000,0000,0000,,You're back.
+Dialogue: 0,0:20:19.97,0:20:21.79,Default,CHINATSU,0000,0000,0000,,Akari-chan, what'd \Nyou bring us?
+Dialogue: 0,0:20:21.79,0:20:24.37,Default,AKARI,0000,0000,0000,,Were you even \Nworried about me?!
+Dialogue: 0,0:20:24.68,0:20:27.58,Default,KYOKO,0000,0000,0000,,You have no presence,\N so we forgot.
+Dialogue: 0,0:20:28.41,0:20:29.85,Default,AKARI,0000,0000,0000,,You're kidding me!
+Dialogue: 0,0:20:31.91,0:20:33.33,Default,AKARI,0000,0000,0000,,That'd be my luck...
+Dialogue: 0,0:20:36.11,0:20:36.90,Map- Yui,TEXT,0000,0000,0000,,Akarin~
+Dialogue: 0,0:20:36.28,0:20:37.84,Default,AKARI,0000,0000,0000,,Niraka~
+Dialogue: 0,0:20:38.63,0:20:40.34,Default,AKARI,0000,0000,0000,,I'm back, everyone.
+Dialogue: 0,0:20:42.51,0:20:43.24,missingposter,,0000,0000,0000,,Disappeared suddenly on 4/4! \NFeatures: No Specific Features\NHair in Buns
+Dialogue: 0,0:20:42.51,0:20:43.24,missingposter2,,0000,0000,0000,,Please Contact \NToshino Kyoko
+Dialogue: 0,0:20:43.24,0:20:45.01,Video Game- Kyoko,POSTER,0000,0000,0000,,Missing! Akaza Akari (13)
+Dialogue: 0,0:20:45.01,0:20:46.64,Default,AKARI,0000,0000,0000,,What's this?
+Dialogue: 0,0:20:52.55,0:20:55.42,Default,KYOKO,0000,0000,0000,,A-Akari...
+Dialogue: 0,0:20:56.18,0:20:56.81,Default,AKARI,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:58.35,0:21:00.32,Default,KYOKO,0000,0000,0000,,Akari!
+Dialogue: 0,0:21:00.95,0:21:02.85,Default,KYOKO,0000,0000,0000,,Where have you been?
+Dialogue: 0,0:21:02.85,0:21:04.95,Default,YUI,0000,0000,0000,,You've been gone a week!\N Where were you?!
+Dialogue: 0,0:21:05.17,0:21:08.26,Default,CHINATSU,0000,0000,0000,,We were so worried about you!
+Dialogue: 0,0:21:08.26,0:21:11.20,Default,CHITOSE,0000,0000,0000,,I'm so glad you're back.
+Dialogue: 0,0:21:11.70,0:21:14.50,Default,AKARI,0000,0000,0000,,Sorry for making you worry.
+Dialogue: 0,0:21:14.50,0:21:16.48,Default,AKARI,0000,0000,0000,,I went to the past for a bit...
+Dialogue: 0,0:21:16.48,0:21:20.09,Default,AKARI,0000,0000,0000,,{\i1}I should've set it \Nfor a week earlier.{\i0}
+Dialogue: 0,0:21:20.55,0:21:24.51,Default,AKANE,0000,0000,0000,,We told them you'd be\N back soon and not to worry.
+Dialogue: 0,0:21:25.06,0:21:28.72,Default,AKARI,0000,0000,0000,,You were all so \Nworried about me...
+Dialogue: 0,0:21:29.25,0:21:31.64,Default,AKARI,0000,0000,0000,,I'm so happy.
+Dialogue: 0,0:21:31.64,0:21:34.77,Default,KYOKO,0000,0000,0000,,This thing really \Nwas a time machine?
+Dialogue: 0,0:21:34.77,0:21:37.81,Default,AKARI,0000,0000,0000,,Yeah. It stopped working \Nafter I arrived in the past,
+Dialogue: 0,0:21:37.81,0:21:40.32,Default,,0000,0000,0000,,but Nishigaki-sensei fixed it.
+Dialogue: 0,0:21:40.32,0:21:42.54,Default,KYOKO,0000,0000,0000,,Huh? Nishigaki-chan did?
+Dialogue: 0,0:21:49.76,0:21:52.79,Class,TEXT,0000,0000,0000,,{\i1}Boom{\i0}
+Dialogue: 0,0:21:52.79,0:21:56.02,copyright,,0000,0000,0000,,(c) Toshino Kyoko
+Dialogue: 0,0:21:52.79,0:21:56.04,Council,TEXT,0000,0000,0000,,Fin
+Dialogue: 0,0:21:54.12,0:21:56.04,Default,KYOKO,0000,0000,0000,,The end, the end.
+Dialogue: 0,0:21:56.42,0:21:59.88,Default,KYOKO,0000,0000,0000,,I felt inspired after \Nwatching a movie yesterday,
+Dialogue: 0,0:21:59.88,0:22:01.34,Default,,0000,0000,0000,,so I drew this.
+Dialogue: 0,0:22:01.34,0:22:02.46,Default,KYOKO,0000,0000,0000,,What'd you think?
+Dialogue: 0,0:22:02.68,0:22:03.71,Default,YUI,0000,0000,0000,,No.
+Dialogue: 0,0:22:03.71,0:22:04.38,Default,CHINATSU,0000,0000,0000,,No.
+Dialogue: 0,0:22:04.87,0:22:10.01,Default,AKARI,0000,0000,0000,,Kyoko-chan, we don't even get to \Nend this episode as being my dream?!
+Dialogue: 0,0:23:41.23,0:23:43.25,Default,AKARI,0000,0000,0000,,If this was our last episode,
+Dialogue: 0,0:23:43.25,0:23:46.94,Default,,0000,0000,0000,,then next week is the \NYuru Yuri Almost All Stars Finale!
+Dialogue: 0,0:23:46.94,0:23:49.24,Default,AKARI,0000,0000,0000,,The anime ends for now \Nwith the next episode,
+Dialogue: 0,0:23:49.24,0:23:51.24,Default,,0000,0000,0000,,but Yuru Yuri will never end!
+Dialogue: 0,0:23:51.24,0:23:53.85,Default,AKARI,0000,0000,0000,,I am your eternal \Nprotagonist, Akaza Akari!
+Dialogue: 0,0:23:53.85,0:23:55.85,Default,,0000,0000,0000,,

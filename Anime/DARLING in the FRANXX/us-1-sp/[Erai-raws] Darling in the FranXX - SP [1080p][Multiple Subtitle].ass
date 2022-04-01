@@ -1,0 +1,527 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 640
+PlayResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: sign_33134_360_Episode_1,Times New Roman,12,&H00797A77,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0070,1
+Style: sign_33134_361_Alone_and_Loneso,Verdana,14,&H00DAD9DA,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0200,1
+Style: sign_4657_39_APE_Hospital_Roo,Times New Roman,12,&H00EFE5DB,&H000000FF,&H002B2118,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0030,0030,0045,1
+Style: sign_218_1_Plantation__13__,Times New Roman,12,&H00E7EEF2,&H000000FF,&H003C454C,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0035,0400,0045,1
+Style: sign_369_4_Internal_Briefin,Times New Roman,12,&H00FFF9F7,&H000000FF,&H00948280,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0035,0030,0045,1
+Style: sign_1938_19_Mobile_Aerial_Fo,Times New Roman,12,&H00FAF5EF,&H000000FF,&H00968679,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0050,1
+Style: sign_1968_20_APE_Central_HQ_C,Times New Roman,12,&H00FFFDEE,&H000000FF,&H008D715E,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0035,0030,0045,1
+Style: sign_3186_32_DARLING_in_the_F,Verdana,20,&H00F8F3F7,&H000000FF,&H004C4546,&H00000000,0,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0045,1
+Style: sign_3279_34_Near_Gran_Crevas,Times New Roman,12,&H00E1EEFA,&H000000FF,&H004B4D51,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0035,0030,0045,1
+Style: sign_4063_42_9_s_Custom_FRANX,Arial,16,&H00FFFBF7,&H000000FF,&H0097674A,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0045,1
+Style: sign_4151_43_M9_,Arial,16,&H00FFFCF8,&H000000FF,&H00150B06,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0045,1
+Style: sign_4345_47_Plantation_13_Co,Times New Roman,12,&H00EEF6F4,&H000000FF,&H00212121,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0035,0030,0045,1
+Style: sign_4876_56_I_am___,Times New Roman,20,&H00D8CACD,&H000000FF,&H00666863,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_5148_60_Where_am_I_,Times New Roman,20,&H00293334,&H000000FF,&H0073818F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0257,0257,0020,1
+Style: sign_5304_62_6th_United_FRANX,Arial,16,&H00FFFFFF,&H000000FF,&H005A6068,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0045,1
+Style: sign_7546_92_I_m_going_to_dis,Times New Roman,20,&H00E9DDE1,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_13402_149_The_line_is_blur,Times New Roman,20,&H00353040,&H000000FF,&H00B4B9B8,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_13464_150_Somebody,Times New Roman,20,&H00ADABAB,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0100,1
+Style: sign_14389_164_Plantation_13__I,Times New Roman,12,&H00F5F5F3,&H000000FF,&H00232120,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0035,0030,0045,1
+Style: sign_15922_178_Who___,Times New Roman,20,&H00CCCDB9,&H000000FF,&H006F7F71,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_16003_179____am_I_,Times New Roman,20,&H00DCD2B9,&H000000FF,&H008898A5,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_17784_206_Zero_Two_,Times New Roman,20,&H00D7D4E9,&H000000FF,&H004A453A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_17858_208_I_want_to_tell_y,Times New Roman,20,&H00C4D1CF,&H000000FF,&H00414035,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_20099_248_I_m_coming_to_yo,Times New Roman,20,&H00CFC5CC,&H000000FF,&H00090909,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_26498_313____never_let_go_,Times New Roman,20,&H00777E70,&H000000FF,&H00F5F8F5,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_27291_323_I_m_here_for_you,Times New Roman,20,&H00272526,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0238,0238,0020,1
+Style: sign_33124_388_Episode_15,Times New Roman,12,&H00727272,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0070,1
+Style: sign_33124_389_Jian,Verdana,14,&H0038362C,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0200,1
+Style: sign_17858_208_waitforme,Times New Roman,20,&H00C4D1CF,&H000000FF,&H00414035,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0060,1
+Style: songstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H007B4D0D,&H00764504,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: sign_202_3_Mechanical_Desig,Arial,12,&H00FDEECC,&H000000FF,&H00D4AC11,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0000,0385,0070,1
+Style: sign_526_5_January_12th__20,Arial,12,&H0001022A,&H000000FF,&H00D0A404,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0030,0030,0070,1
+Style: sign_1185_10_Narrator__Katsuy,Arial,12,&H00EEFBFF,&H000000FF,&H00434548,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0030,0032,0067,1
+Style: sign_1978_17_Cast_Interviews,Verdana,24,&H000E0C16,&H000000FF,&H00889089,&H00000000,0,0,0,0,100,100,0,0,1,3,0,1,0050,0030,0160,1
+Style: sign_2147_19_Manga_Artist_Ken,Verdana,18,&H00000000,&H000000FF,&H006A622B,&H002F278B,0,0,0,0,100,100,0,0,1,2,2,1,0050,0030,0135,1
+Style: sign_2257_21_Director_Atsushi,Verdana,18,&H00000000,&H000000FF,&H006A622B,&H002F278B,0,0,0,0,100,100,0,0,1,2,2,3,0050,0050,0130,1
+Style: sign_2558_24_DARLING_in_the_F,Arial,20,&H00DBDCD9,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0090,1
+Style: sign_2777_26_Voice_of_Ichigo,Arial,12,&H00FAFAFA,&H000000FF,&H00010305,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0045,0400,0110,1
+Style: sign_2789_27_Voice_of_Goro,Arial,12,&H00FAFAFA,&H000000FF,&H00010305,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,3,0400,0045,0110,1
+Style: sign_2934_28_Voice_of_Ichigo_,Arial,12,&H00BAC1C5,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0020,0042,0050,1
+Style: sign_2934_29_Q__Which_scenes_,Times New Roman,18,&H00F3F8FA,&H000000FF,&H00060E15,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0010,0010,0100,1
+Style: sign_4052_39_Hiro_takes_his_f,Arial,16,&H00EEF6F4,&H000000FF,&H00212121,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0000,0000,0048,1
+Style: sign_4032_38_Episode_2___What,Times New Roman,12,&H00DEDFE1,&H000000FF,&H0023232A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0059,0030,0075,1
+Style: sign_7144_74_Episode_9__Trian,Times New Roman,12,&H00DEDFE1,&H000000FF,&H0023232A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0055,0030,0085,1
+Style: sign_7980_83_Voice_of_Ichigo_,Arial,12,&H00BAC1C5,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0420,0030,0100,1
+Style: sign_8990_97_Episode_7___Shoo,Arial,14,&H00FFFFFF,&H000000FF,&H000D1415,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,3,0030,0032,0135,1
+Style: sign_10728_120_Episode_8___Boys,Times New Roman,12,&H00DEDFE1,&H000000FF,&H0023232A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0060,0030,0050,1
+Style: sign_15322_169_Comic_Version__D,Arial,12,&H00FDEECC,&H000000FF,&H00D4AC11,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0000,0385,0070,1
+Style: sign_15322_170_Original_Work__C,Arial,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0454,0000,0085,1
+Style: sign_15956_175_Manga_Artist__Al,Arial,12,&H00FDEECC,&H000000FF,&H00D4AC11,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0010,0010,0095,1
+Style: sign_17732_186_Comic_Chapter_12,Times New Roman,12,&H00F2F1ED,&H000000FF,&H00373E39,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0020,0438,0115,1
+Style: sign_20127_201_Shonen_Jump__Dar,Arial,12,&H002D10ED,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0037,0300,0118,1
+Style: sign_24038_251_Episode_11___Par,Times New Roman,12,&H00DEDFE1,&H000000FF,&H0023232A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0050,0030,0100,1
+Style: sign_27326_290_Episode_11___Par,Times New Roman,12,&H00DEDFE1,&H000000FF,&H0023232A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0050,0414,0125,1
+Style: sign_30786_328_Voice_of_Hiro__Y,Arial,12,&H00BAC1C5,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0052,0020,0050,1
+Style: sign_35763_370_Episode_15___Jia,Times New Roman,12,&H00DEDFE1,&H000000FF,&H0023232A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0075,0030,0085,1
+Style: sign_40599_416_Darlifra__15,Comic Sans MS,20,&H001B436B,&H000000FF,&H006D99C8,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.10,0:00:04.59,italics,N,0000,0000,0000,,January 12th, 2018.
+Dialogue: 0,0:00:05.11,0:00:09.18,italicstop,N,0000,0000,0000,,At the pre-air screening \Nfor {\i0}DARLING in the FRANXX{\i1},
+Dialogue: 0,0:00:06.73,0:00:12.12,sign_202_3_Mechanical_Desig,Sign,0000,0000,0000,,{\fad(476,1)}Mechanical Designs: Shigeto Koyama\N{\fs22}Strelizia
+Dialogue: 0,0:00:09.18,0:00:14.56,italicstop,N,0000,0000,0000,,a scale version of the main robot, \NStrelizia, was presented to the public.
+Dialogue: 0,0:00:17.54,0:00:26.15,sign_526_5_January_12th__20,Sign,0000,0000,0000,,{\fad(77,496)}January 12th, 2018\N{\fs16} Episode 1 Pre-Air Screening
+Dialogue: 0,0:00:17.89,0:00:22.20,italicstop,N,0000,0000,0000,,On the stage, four members of the main \Ncast introduced the show to the audience
+Dialogue: 0,0:00:22.20,0:00:27.64,italicstop,N,0000,0000,0000,,and spoke about their hopes for the \NTV series about to begin airing.
+Dialogue: 0,0:00:29.33,0:00:31.79,italics,N,0000,0000,0000,,And then, the screening began.
+Dialogue: 0,0:00:32.89,0:00:37.01,italics,N,0000,0000,0000,,The curtain was raised on the \Nstory of the {\i0}Darlifra{\i1} anime.
+Dialogue: 0,0:00:39.53,0:00:45.00,sign_1185_10_Narrator__Katsuy,Sign,0000,0000,0000,,{\fad(508,491)}Narrator\N{\fs16}Katsuyuki Konishi
+Dialogue: 0,0:00:39.73,0:00:45.49,italicstop,N,0000,0000,0000,,A coming-of-age story about ten children\Nliving in a birdcage in the distant future.
+Dialogue: 0,0:00:46.66,0:00:51.61,italics,N,0000,0000,0000,,The meeting of disgraced genius \NHiro and the mysterious Zero Two
+Dialogue: 0,0:00:52.13,0:00:54.86,italics,N,0000,0000,0000,,sets the gears of destiny in motion.
+Dialogue: 0,0:00:56.60,0:00:58.87,italics,N,0000,0000,0000,,It's been about five months \Nsince the show began airing,
+Dialogue: 0,0:00:59.30,0:01:03.04,italics,N,0000,0000,0000,,and its story has reached the halfway point.
+Dialogue: 0,0:01:04.02,0:01:08.34,italicstop,N,0000,0000,0000,,Tonight, we will join the ten voice \Nactors playing the birdcage children
+Dialogue: 0,0:01:05.98,0:01:11.61,sign_1978_17_Cast_Interviews,Sigh,0000,0000,0000,,Cast Interviews
+Dialogue: 0,0:01:08.34,0:01:11.61,italicstop,N,0000,0000,0000,,and look back on the fifteen episodes \Nthat comprise the first half.
+Dialogue: 0,0:01:11.61,0:01:15.28,sign_2147_19_Manga_Artist_Ken,Sign,0000,0000,0000,,Manga Artist\N{\fs24}Kentaro Yabuki
+Dialogue: 0,0:01:12.79,0:01:14.86,italicstop,N,0000,0000,0000,,We'll get a sneak peek \Ninto the manga's creation
+Dialogue: 0,0:01:14.86,0:01:17.98,italicstop,N,0000,0000,0000,,and rare making-of footage! Don't miss them!
+Dialogue: 0,0:01:15.28,0:01:19.17,sign_2257_21_Director_Atsushi,Sign,0000,0000,0000,,{\fad(1,1000)}Director\N{\fs24}Atsushi Nishigori
+Dialogue: 0,0:01:25.34,0:01:31.23,sign_2558_24_DARLING_in_the_F,Sign,0000,0000,0000,,{\fad(1910,1)}DARLING in the FRANXX\NPlayback Special
+Dialogue: 0,0:01:25.74,0:01:29.02,italics,N,0000,0000,0000,,{\i0}DARLING in the FRANXX{\i1} Playback Special!
+Dialogue: 0,0:01:32.65,0:01:37.59,sign_2777_26_Voice_of_Ichigo,SignL,0000,0000,0000,,{\fad(606,563)}Voice of Ichigo
+Dialogue: 0,0:01:33.05,0:01:37.59,sign_2789_27_Voice_of_Goro,SignR,0000,0000,0000,,{\fad(607,697)}Voice of Goro
+Dialogue: 0,0:01:37.89,0:01:51.17,sign_2934_29_Q__Which_scenes_,Sign,0000,0000,0000,,{\fad(467,668)}Q: Which scenes from the first half made the biggest mark on you?
+Dialogue: 0,0:01:37.89,0:02:14.51,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,Voice of Ichigo: Kana Ichinose\NVoice of Goro: Yuichiro Umehara
+Dialogue: 0,0:01:41.77,0:01:44.95,main,15,0000,0000,0000,,Well, it'd have to be episode 2 for me.
+Dialogue: 0,0:01:44.95,0:01:49.05,main,15,0000,0000,0000,,The part where Ichigo tries \Nto pilot a FRANXX with Hiro,
+Dialogue: 0,0:01:49.05,0:01:51.65,main,15,0000,0000,0000,,has a hard time, and ultimately fails.
+Dialogue: 0,0:01:51.65,0:01:58.39,main,15,0000,0000,0000,,There were various factors, \Nlike Ichigo's desire to help Hiro pilot,
+Dialogue: 0,0:01:58.39,0:02:02.95,main,15,0000,0000,0000,,but she couldn't hold a candle \Nto Zero Two inside a FRANXX,
+Dialogue: 0,0:02:02.95,0:02:06.40,main,15,0000,0000,0000,,and the last line, "You were awful,"
+Dialogue: 0,0:02:06.40,0:02:11.35,main,15,0000,0000,0000,,had all sorts of emotions mixed in.
+Dialogue: 0,0:02:09.26,0:02:13.39,main,56,0000,0000,0000,,That line stings. A lot.
+Dialogue: 0,0:02:14.51,0:02:26.29,sign_4032_38_Episode_2___What,Sign,0000,0000,0000,,Episode 2: "What It Means to Connect"
+Dialogue: 0,0:02:15.19,0:02:22.30,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Hiro takes his first aptitude test in a real FRANXX.
+Dialogue: 0,0:02:15.84,0:02:17.75,top,666,0000,0000,0000,,Bring it on!
+Dialogue: 0,0:02:17.75,0:02:18.93,top,666,0000,0000,0000,,What?!
+Dialogue: 0,0:02:21.98,0:02:23.03,top,16,0000,0000,0000,,Why'd it stop?
+Dialogue: 0,0:02:22.30,0:02:30.11,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Worried by his fixation on his first ride with Zero Two,
+Dialogue: 0,0:02:23.03,0:02:24.52,top,16,0000,0000,0000,,Move! Move!
+Dialogue: 0,0:02:24.52,0:02:26.29,top,16,0000,0000,0000,,Damn it! Why is this happening?
+Dialogue: 0,0:02:27.17,0:02:28.22,top,16,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:02:29.63,0:02:30.81,top,15,0000,0000,0000,,Don't apologize.
+Dialogue: 0,0:02:30.11,0:02:37.65,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Ichigo volunteers to be his partner, but...
+Dialogue: 0,0:02:40.45,0:02:41.43,main,15,0000,0000,0000,,You were awful.
+Dialogue: 0,0:02:41.85,0:03:58.34,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,{\fad(440,1)}Voice of Ichigo: Kana Ichinose\NVoice of Goro: Yuichiro Umehara
+Dialogue: 0,0:02:42.21,0:02:45.10,main,56,0000,0000,0000,,I stand next to Konishi-san while dubbing.
+Dialogue: 0,0:02:45.10,0:02:45.94,main,15,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:02:45.94,0:02:48.98,main,56,0000,0000,0000,,And we were both like, "I couldn't \Nrecover if anyone said that to me."
+Dialogue: 0,0:02:48.98,0:02:49.91,main,15,0000,0000,0000,,Gosh!
+Dialogue: 0,0:02:50.97,0:02:54.55,main,15,0000,0000,0000,,Well, there are several ways \Nto interpret that line.
+Dialogue: 0,0:02:52.67,0:02:54.55,main,56,0000,0000,0000,,Yeah, of course.
+Dialogue: 0,0:02:54.55,0:03:00.46,main,15,0000,0000,0000,,I feel like Ichigo was \Ndirecting that at herself,
+Dialogue: 0,0:03:00.46,0:03:04.18,main,15,0000,0000,0000,,but take a step back, and it's likely \Nthat she was talking about Hiro.
+Dialogue: 0,0:03:04.18,0:03:07.40,main,15,0000,0000,0000,,It could very well be taken that way.
+Dialogue: 0,0:03:07.40,0:03:10.45,main,15,0000,0000,0000,,How you can take a different viewpoint,
+Dialogue: 0,0:03:10.45,0:03:13.82,main,15,0000,0000,0000,,and how each viewer can have a different \Ninterpretation of everything,
+Dialogue: 0,0:03:13.82,0:03:17.05,main,15,0000,0000,0000,,makes this a really fun show in my eyes.
+Dialogue: 0,0:03:17.05,0:03:21.54,main,56,0000,0000,0000,,For me, as Goro's voice actor,
+Dialogue: 0,0:03:21.54,0:03:25.09,main,56,0000,0000,0000,,it'd have to be episode 9,\Nthe "Goro episode," as it were.
+Dialogue: 0,0:03:25.09,0:03:27.01,main,56,0000,0000,0000,,Where Ichigo rejects him.
+Dialogue: 0,0:03:27.38,0:03:27.97,main,15,0000,0000,0000,,She didn't!
+Dialogue: 0,0:03:27.97,0:03:28.69,main,56,0000,0000,0000,,I guess not.
+Dialogue: 0,0:03:30.51,0:03:31.13,main,56,0000,0000,0000,,She didn't.
+Dialogue: 0,0:03:31.13,0:03:31.71,main,15,0000,0000,0000,,Right!
+Dialogue: 0,0:03:32.23,0:03:33.28,main,15,0000,0000,0000,,It's on hold!
+Dialogue: 0,0:03:33.28,0:03:35.67,main,56,0000,0000,0000,,That's the most painful!
+Dialogue: 0,0:03:36.50,0:03:44.51,main,56,0000,0000,0000,,But that's where Goro finally \Ngets a handle on his feelings
+Dialogue: 0,0:03:44.51,0:03:47.05,main,56,0000,0000,0000,,and has a weight taken off his shoulders.
+Dialogue: 0,0:03:47.05,0:03:49.27,main,56,0000,0000,0000,,That's the episode where he \Ncomes to terms with it all,
+Dialogue: 0,0:03:49.27,0:03:57.27,main,56,0000,0000,0000,,so I was really nervous while dubbing, \Nbut I also had a lot of fun.
+Dialogue: 0,0:03:58.34,0:03:59.85,top,16,0000,0000,0000,,Ichigo! Goro!
+Dialogue: 0,0:03:58.34,0:04:09.50,sign_7144_74_Episode_9__Trian,Sign,0000,0000,0000,,{\fad(1,660)}Episode 9: Triangle Bomb
+Dialogue: 0,0:03:58.99,0:04:07.13,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Delphinium gets absorbed into a klaxosaur's body in battle.
+Dialogue: 0,0:03:59.85,0:04:00.80,top,15,0000,0000,0000,,I can't move!
+Dialogue: 0,0:04:00.80,0:04:02.05,top,56,0000,0000,0000,,Everyone get away!
+Dialogue: 0,0:04:07.13,0:04:16.41,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Goro ejects Ichigo and is left behind in the cockpit all alone.
+Dialogue: 0,0:04:16.96,0:04:18.22,main,15,0000,0000,0000,,I'll save you.
+Dialogue: 0,0:04:19.30,0:04:20.93,main,15,0000,0000,0000,,I'll save you, no matter what.
+Dialogue: 0,0:04:21.97,0:04:23.50,main,15,0000,0000,0000,,So wait for me!
+Dialogue: 0,0:04:23.99,0:04:24.97,main,56,0000,0000,0000,,Ichigo...
+Dialogue: 0,0:04:26.24,0:04:31.41,main,56,0000,0000,0000,,At first, Goro felt like \Ntoo much of a good guy.
+Dialogue: 0,0:04:26.24,0:05:36.19,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,{\fad(1,466)}Voice of Ichigo: Kana Ichinose\NVoice of Goro: Yuichiro Umehara
+Dialogue: 0,0:04:31.41,0:04:33.41,main,56,0000,0000,0000,,He was extremely hard to play.
+Dialogue: 0,0:04:33.41,0:04:35.22,main,15,0000,0000,0000,,What? Really?
+Dialogue: 0,0:04:35.22,0:04:37.98,main,56,0000,0000,0000,,I'm not that nice a person.
+Dialogue: 0,0:04:37.98,0:04:40.23,main,15,0000,0000,0000,,Oh, please!
+Dialogue: 0,0:04:39.09,0:04:43.83,main,56,0000,0000,0000,,I tend to doubt anyone who's too nice.
+Dialogue: 0,0:04:43.83,0:04:45.42,main,56,0000,0000,0000,,I wonder if they're hiding something.
+Dialogue: 0,0:04:45.42,0:04:48.78,main,56,0000,0000,0000,,With Goro, you have the complication \Nof the Ichigo-Hiro relationship,
+Dialogue: 0,0:04:48.78,0:04:52.17,main,56,0000,0000,0000,,so I thought he might have some \Ndark emotions lurking within.
+Dialogue: 0,0:04:52.17,0:04:56.66,main,56,0000,0000,0000,,All those thoughts made him \Npretty difficult to voice...
+Dialogue: 0,0:04:56.66,0:04:58.83,main,56,0000,0000,0000,,But then came the swimsuit episode.
+Dialogue: 0,0:04:58.83,0:05:00.21,main,15,0000,0000,0000,,Yeah, that happened.
+Dialogue: 0,0:04:59.39,0:05:00.42,main,56,0000,0000,0000,,Right?
+Dialogue: 0,0:04:59.95,0:05:22.32,sign_8990_97_Episode_7___Shoo,Sign,0000,0000,0000,,Episode 7: "Shooting Star Moratorium"
+Dialogue: 0,0:05:00.42,0:05:08.28,main,56,0000,0000,0000,,When I got to see Goro as a normal \Nboy there, things changed.
+Dialogue: 0,0:05:08.28,0:05:12.49,main,56,0000,0000,0000,,It made me feel a lot closer to him.
+Dialogue: 0,0:05:12.49,0:05:15.75,main,56,0000,0000,0000,,I realized that maybe he was actually \Njust a nice guy, after all.
+Dialogue: 0,0:05:15.75,0:05:18.26,main,15,0000,0000,0000,,Like how he was bonding with the boys.
+Dialogue: 0,0:05:17.24,0:05:18.26,main,56,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:18.26,0:05:22.34,main,56,0000,0000,0000,,I realized that he's a guy who \Ncan mess around at times,
+Dialogue: 0,0:05:22.34,0:05:25.65,main,56,0000,0000,0000,,and the difficulty I felt voicing \Nhim until then went away.
+Dialogue: 0,0:05:25.65,0:05:28.29,main,56,0000,0000,0000,,I went, "He's truly just a really nice guy,"
+Dialogue: 0,0:05:28.29,0:05:30.98,main,56,0000,0000,0000,,and fell in love with him as a character.
+Dialogue: 0,0:05:30.98,0:05:35.85,main,56,0000,0000,0000,,Ever since then, it's been \Nreally easy to voice him.
+Dialogue: 0,0:05:37.85,0:05:42.86,sign_2777_26_Voice_of_Ichigo,SignL,0000,0000,0000,,{\fad(409,730)}Voice of Miku
+Dialogue: 0,0:05:38.22,0:05:42.86,sign_2789_27_Voice_of_Goro,SignR,0000,0000,0000,,{\fad(640,763)}Voice of Zorome
+Dialogue: 0,0:05:43.09,0:05:54.66,sign_2934_29_Q__Which_scenes_,Sign,0000,0000,0000,,{\fad(475,519)}Q: Which scenes from the first half made the biggest mark on you?
+Dialogue: 0,0:05:43.09,0:05:57.92,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,{\fad(475,1)}Voice of Miku: Nanami Yamashita\NVoice of Zorome: Mutsumi Tamura
+Dialogue: 0,0:05:43.90,0:05:47.06,main,666,0000,0000,0000,,Well, it'd have to be episode 8, right?
+Dialogue: 0,0:05:47.06,0:05:47.89,main,390,0000,0000,0000,,Right!
+Dialogue: 0,0:05:47.89,0:05:49.54,main,666,0000,0000,0000,,That's our episode.
+Dialogue: 0,0:05:49.54,0:05:50.29,main,390,0000,0000,0000,,Eight.
+Dialogue: 0,0:05:50.29,0:05:52.59,main,666,0000,0000,0000,,Zorome and Miku, especially Miku,
+Dialogue: 0,0:05:52.59,0:05:54.66,main,666,0000,0000,0000,,totally snapped.
+Dialogue: 0,0:05:53.46,0:05:54.66,main,390,0000,0000,0000,,Totally snapped!
+Dialogue: 0,0:05:54.66,0:05:57.92,main,666,0000,0000,0000,,But you can't blame her, can you?\NThe boys were in the wrong.
+Dialogue: 0,0:05:57.92,0:06:09.15,sign_10728_120_Episode_8___Boys,Sign,0000,0000,0000,,{\fad(1,528)}Episode 8: "Boys x Girls"
+Dialogue: 0,0:05:58.61,0:06:08.32,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,A big fight breaks out between the boys and girls of Squad 13 \Nover the perverted side of Zorome and the rest of the boys.
+Dialogue: 0,0:06:08.32,0:06:15.32,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Miku and the girls explode in anger.
+Dialogue: 0,0:06:13.51,0:06:15.77,top,56,0000,0000,0000,,Wait! I-It's not what it looks like!
+Dialogue: 0,0:06:15.32,0:06:23.23,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,It was a sign of puberty, something rare in this world.
+Dialogue: 0,0:06:17.17,0:06:19.68,top,666,0000,0000,0000,,Hear us out! It was Zero Two!
+Dialogue: 0,0:06:20.11,0:06:22.83,top,56,0000,0000,0000,,Crap. We can't stop them now.
+Dialogue: 0,0:06:28.81,0:06:30.02,main,16,0000,0000,0000,,Stop!
+Dialogue: 0,0:06:30.02,0:06:31.39,main,390,0000,0000,0000,,Perverts! You horny perverts!
+Dialogue: 0,0:06:31.82,0:06:33.89,main,390,0000,0000,0000,,Fiends! I'm gonna break you in half!
+Dialogue: 0,0:06:33.89,0:06:35.76,main,56,0000,0000,0000,,We should leave for now.
+Dialogue: 0,0:06:35.76,0:06:37.86,main,214,0000,0000,0000,,Hey, our clothes are gone!
+Dialogue: 0,0:06:37.86,0:06:38.60,main,666,0000,0000,0000,,What?!
+Dialogue: 0,0:06:41.11,0:06:43.17,main,Z2,0000,0000,0000,,Darling, you pervert!
+Dialogue: 0,0:06:46.54,0:06:51.67,main,Z2,0000,0000,0000,,Hey, darling, do I seem \Na little more human now?
+Dialogue: 0,0:06:55.91,0:07:03.21,main,390,0000,0000,0000,,It felt like the children's emotions were \Nquickly becoming more intense and varied.
+Dialogue: 0,0:06:55.91,0:08:15.61,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,Voice of Miku: Nanami Yamashita\NVoice of Zorome: Mutsumi Tamura
+Dialogue: 0,0:07:03.21,0:07:05.05,main,390,0000,0000,0000,,So it left a big impression on me.
+Dialogue: 0,0:07:05.05,0:07:06.42,main,666,0000,0000,0000,,Yeah, well...
+Dialogue: 0,0:07:06.42,0:07:10.81,main,666,0000,0000,0000,,Episode 8 also had a light-hearted tone,
+Dialogue: 0,0:07:10.81,0:07:13.22,main,666,0000,0000,0000,,but it wasn't all fun and games.
+Dialogue: 0,0:07:13.22,0:07:15.80,main,666,0000,0000,0000,,You had Zero Two going all,
+Dialogue: 0,0:07:15.80,0:07:18.60,main,666,0000,0000,0000,,"Is this human?"
+Dialogue: 0,0:07:18.60,0:07:19.95,main,390,0000,0000,0000,,Yeah, yeah.
+Dialogue: 0,0:07:18.90,0:07:22.44,main,666,0000,0000,0000,,All of that stuff was written with real impact.
+Dialogue: 0,0:07:22.44,0:07:25.61,main,390,0000,0000,0000,,It also felt a bit bittersweet.
+Dialogue: 0,0:07:23.67,0:07:24.50,main,666,0000,0000,0000,,Right?
+Dialogue: 0,0:07:25.61,0:07:28.48,main,666,0000,0000,0000,,Like, they weren't just \Nleering at them all the time.
+Dialogue: 0,0:07:28.48,0:07:29.01,main,390,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:29.01,0:07:33.16,main,390,0000,0000,0000,,They'd hit puberty, so their \Nemotions must've been in flux,
+Dialogue: 0,0:07:33.49,0:07:36.01,main,390,0000,0000,0000,,but ZoroMiku have this incomplete feel,
+Dialogue: 0,0:07:36.01,0:07:39.56,main,390,0000,0000,0000,,and it's great how they're \Nsupporting each other.
+Dialogue: 0,0:07:39.56,0:07:43.06,main,666,0000,0000,0000,,They both kinda-sorta love each other,
+Dialogue: 0,0:07:43.06,0:07:50.46,main,666,0000,0000,0000,,but you don't know if it's romantic \Nor if it's more like sibling love.
+Dialogue: 0,0:07:49.49,0:07:51.07,main,390,0000,0000,0000,,I know, right?
+Dialogue: 0,0:07:51.81,0:07:54.09,main,666,0000,0000,0000,,For what it's worth, it does \Nseem to be sibling love.
+Dialogue: 0,0:07:54.09,0:07:55.17,main,390,0000,0000,0000,,Yeah, yeah.
+Dialogue: 0,0:07:55.17,0:07:56.41,main,666,0000,0000,0000,,It's a bit removed from romance.
+Dialogue: 0,0:07:56.41,0:08:00.98,main,666,0000,0000,0000,,The romance is really prominent \Nwith the other characters,
+Dialogue: 0,0:08:00.98,0:08:04.13,main,666,0000,0000,0000,,but not so much with ZoroMiku. It's like...
+Dialogue: 0,0:08:03.26,0:08:06.00,main,390,0000,0000,0000,,Like they've been infected \Nwith each other's warmth.
+Dialogue: 0,0:08:06.00,0:08:10.52,main,666,0000,0000,0000,,Yeah. Like a familial love, which is on \Na plane beyond romance, in a way.
+Dialogue: 0,0:08:10.52,0:08:11.22,main,390,0000,0000,0000,,In a way, yeah.
+Dialogue: 0,0:08:11.22,0:08:13.93,main,666,0000,0000,0000,,That's how the two of them are.
+Dialogue: 0,0:08:13.93,0:08:14.73,main,390,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:15.92,0:08:18.24,italics,N,0000,0000,0000,,The cast interviews will keep coming.
+Dialogue: 0,0:08:18.24,0:08:20.95,italics,N,0000,0000,0000,,Keep an eye out for the \Nmanga making-of, too!
+Dialogue: 0,0:08:23.33,0:08:28.04,italics,N,0000,0000,0000,,Sci-fi coming-of-age story {\i0}DARLING \Nin the FRANXX{\i1} is a hot topic.
+Dialogue: 0,0:08:28.04,0:08:30.03,italics,N,0000,0000,0000,,Apart from the TV anime,
+Dialogue: 0,0:08:30.03,0:08:32.73,italics,N,0000,0000,0000,,did you know that there's \Nalso a manga version?
+Dialogue: 0,0:08:31.22,0:08:43.28,sign_15322_169_Comic_Version__D,SignTL,0000,0000,0000,,{\fad(507,1)}Comic Version\N{\fs16}DARLING in the FRANXX
+Dialogue: 0,0:08:31.22,0:08:43.28,sign_15322_170_Original_Work__C,SignBR,0000,0000,0000,,{\fad(507,1)}Original Work: Code:000\NArtist: Kentaro Yabuki
+Dialogue: 0,0:08:33.79,0:08:38.82,italics,N,0000,0000,0000,,It's a manga that adapts \Nthe anime's world to manga.
+Dialogue: 0,0:08:39.34,0:08:43.28,italics,N,0000,0000,0000,,It's currently serialized in the \Ndigital manga app {\i0}Shonen Jump+{\i1}.
+Dialogue: 0,0:08:44.22,0:08:48.72,italics,N,0000,0000,0000,,A physical volume was also \Nreleased back in February.
+Dialogue: 0,0:08:49.50,0:08:54.16,italicstop,N,0000,0000,0000,,Manga artist Kentaro Yabuki \Nis in charge of it.
+Dialogue: 0,0:08:52.37,0:08:59.97,sign_15956_175_Manga_Artist__Al,SignBL,0000,0000,0000,,{\fad(1478,1)}Manga Artist\N{\fs16}Also worked on {\i1}Black Cat{\i0} and the {\i1}To Love-Ru{\i0} series
+Dialogue: 0,0:08:54.59,0:08:59.31,italicstop,N,0000,0000,0000,,He gained much popularity with {\i0}To Love-Ru{\i1}, \Nserialized in {\i0}Weekly Shonen Jump{\i1},
+Dialogue: 0,0:08:59.31,0:09:02.43,italicstop,N,0000,0000,0000,,and this year marks the 20th anniversary \Nof his debut as a manga artist.
+Dialogue: 0,0:09:03.37,0:09:08.44,italics,N,0000,0000,0000,,But this manga adaptation was \Na major challenge for him, too.
+Dialogue: 0,0:09:09.39,0:09:16.28,main,KY,0000,0000,0000,,At first, I wasn't sure if I could \Neven draw robots and their battles.
+Dialogue: 0,0:09:16.28,0:09:23.13,main,KY,0000,0000,0000,,Each chapter takes around three or four \Ntimes the effort of my past manga.
+Dialogue: 0,0:09:24.29,0:09:29.09,main,KY,0000,0000,0000,,With any other manga, I could put out several \Nchapters with the effort I put into this.
+Dialogue: 0,0:09:29.66,0:09:32.93,main,KY,0000,0000,0000,,But that's what it takes \Nto recreate this world.
+Dialogue: 0,0:09:34.37,0:09:39.79,italics,N,0000,0000,0000,,Yabuki-san draws the rough sketches by hand.
+Dialogue: 0,0:09:40.37,0:09:44.81,italics,N,0000,0000,0000,,Everything after that is\Ndigital work, done on a tablet.
+Dialogue: 0,0:09:46.42,0:09:49.93,italics,N,0000,0000,0000,,Let's see how the process works \Nusing an actual manuscript.
+Dialogue: 0,0:09:51.63,0:10:02.84,sign_17732_186_Comic_Chapter_12,Sign,0000,0000,0000,,{\fad(441,1)}Comic Chapter 12
+Dialogue: 0,0:09:51.87,0:09:56.15,italics,N,0000,0000,0000,,First, the drafts are scanned,\Nand the line art is completed digitally.
+Dialogue: 0,0:09:56.15,0:10:01.50,italics,N,0000,0000,0000,,A specialized software is then \Nused to ink and tone the art.
+Dialogue: 0,0:10:03.39,0:10:10.53,italics,N,0000,0000,0000,,This is Yabuki-san's first manga \Nin which he's using digital art.
+Dialogue: 0,0:10:11.40,0:10:15.18,italics,N,0000,0000,0000,,He let go of his old friends, \Nthe paper and pen,
+Dialogue: 0,0:10:15.91,0:10:18.83,italics,N,0000,0000,0000,,as a show of his passion for {\i0}Darlifra{\i1}.
+Dialogue: 0,0:10:19.50,0:10:24.21,main,KY,0000,0000,0000,,I definitely wouldn't have been able \Nto draw {\i1}Darlifra{\i0} using my analog tools.
+Dialogue: 0,0:10:24.21,0:10:31.74,main,KY,0000,0000,0000,,It would've been tough to draw those \Nrobots on paper with my old methods.
+Dialogue: 0,0:10:32.29,0:10:38.56,main,KY,0000,0000,0000,,But when you work digitally, you can \Nzoom in and work on the minute details.
+Dialogue: 0,0:10:38.56,0:10:44.08,main,KY,0000,0000,0000,,I want this to be a crystallization of \Neverything I've done as a manga artist.
+Dialogue: 0,0:10:44.08,0:10:47.85,main,KY,0000,0000,0000,,I've doubled my support staff, too.
+Dialogue: 0,0:10:49.13,0:10:53.44,main,KY,0000,0000,0000,,I've even used all the connections I've made
+Dialogue: 0,0:10:54.25,0:10:57.74,main,KY,0000,0000,0000,,and asked for their help,
+Dialogue: 0,0:10:58.43,0:11:00.78,main,KY,0000,0000,0000,,and I'm giving this everything I've got.
+Dialogue: 0,0:11:00.78,0:11:05.05,main,KY,0000,0000,0000,,This does happen to be my \N20th anniversary project,
+Dialogue: 0,0:11:05.87,0:11:09.98,main,KY,0000,0000,0000,,so I'm giving it my all, and I \Nhope people will check it out.
+Dialogue: 0,0:11:11.53,0:11:18.14,italicstop,N,0000,0000,0000,,The comic version of {\i0}DARLING in the FRANXX{\i1}\Nis updated on Shonen Jump+ every Sunday.
+Dialogue: 0,0:11:11.53,0:11:21.24,sign_20127_201_Shonen_Jump__Dar,SignBL,0000,0000,0000,,Shonen Jump+\N{\fs16}DARLING in the FRANXX\N{\fs12}New chapters every Sunday at midnight JST
+Dialogue: 0,0:11:18.14,0:11:20.46,italicstop,N,0000,0000,0000,,Please enjoy it, too!
+Dialogue: 0,0:11:22.39,0:11:27.32,sign_2777_26_Voice_of_Ichigo,SignL,0000,0000,0000,,{\fad(602,691)}Voice of Ikuno
+Dialogue: 0,0:11:22.79,0:11:27.32,sign_2789_27_Voice_of_Goro,SignR,0000,0000,0000,,{\fad(603,691)}Voice of Futoshi
+Dialogue: 0,0:11:27.21,0:11:31.60,main,196,0000,0000,0000,,Personally, if we're talking about \Nthe story up to episode 15,
+Dialogue: 0,0:11:27.62,0:11:40.60,sign_2934_29_Q__Which_scenes_,Sign,0000,0000,0000,,{\fad(477,625)}Q: Which scenes from the first half made the biggest mark on you?
+Dialogue: 0,0:11:27.62,0:11:52.57,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,{\fad(477,1)}Voice of Ikuno: Shizuka Ishigami\NVoice of Futoshi: Hiroki Goto
+Dialogue: 0,0:11:31.60,0:11:34.06,main,196,0000,0000,0000,,it'd be episode 7, the swimsuit episode.
+Dialogue: 0,0:11:32.83,0:11:34.06,main,214,0000,0000,0000,,Ah, right.
+Dialogue: 0,0:11:34.06,0:11:37.83,main,196,0000,0000,0000,,Ikuno and Futoshi aren't a pair yet there,
+Dialogue: 0,0:11:37.83,0:11:44.89,main,196,0000,0000,0000,,but that's the first time Ikuno smiles,\Nand it's at Ichigo-chan.
+Dialogue: 0,0:11:44.89,0:11:50.33,main,196,0000,0000,0000,,That's when I think I got a \Nreal grasp of her character.
+Dialogue: 0,0:11:50.33,0:11:51.17,main,214,0000,0000,0000,,You understood her.
+Dialogue: 0,0:11:51.17,0:11:52.57,main,196,0000,0000,0000,,That's right.
+Dialogue: 0,0:11:52.57,0:11:55.04,top,666,0000,0000,0000,,Gotcha!
+Dialogue: 0,0:11:52.57,0:12:07.36,sign_4032_38_Episode_2___What,Sign,0000,0000,0000,,{\fad(518,492)}Episode 7: "Shooting Star Moratorium"
+Dialogue: 0,0:11:53.22,0:12:00.46,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,As Ichigo can't take her eyes off Hiro and Zero Two,
+Dialogue: 0,0:11:56.13,0:11:57.04,top,196,0000,0000,0000,,Ichigo?
+Dialogue: 0,0:11:59.59,0:12:00.65,top,196,0000,0000,0000,,Distracted, are we?
+Dialogue: 0,0:12:00.46,0:12:05.46,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Ikuno gently calls out to her.
+Dialogue: 0,0:12:00.65,0:12:01.49,top,15,0000,0000,0000,,Huh?!
+Dialogue: 0,0:12:03.11,0:12:04.67,top,196,0000,0000,0000,,By the ocean, I mean.
+Dialogue: 0,0:12:04.67,0:12:06.51,top,196,0000,0000,0000,,Aren't you going to swim?
+Dialogue: 0,0:12:05.46,0:12:12.77,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,For the children, it's their first time at \Na beach and a brief respite from their lives,
+Dialogue: 0,0:12:06.51,0:12:08.42,top,196,0000,0000,0000,,You were always good at swimming.
+Dialogue: 0,0:12:08.42,0:12:10.47,top,15,0000,0000,0000,,Oh, that's what you meant?
+Dialogue: 0,0:12:10.47,0:12:13.62,top,15,0000,0000,0000,,Well, yeah...
+Dialogue: 0,0:12:12.77,0:12:20.21,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,and their personalities really come to the forefront.
+Dialogue: 0,0:12:14.39,0:12:17.65,top,196,0000,0000,0000,,I've got this book, so don't \Nworry about me. Go on.
+Dialogue: 0,0:12:20.10,0:12:21.49,top,15,0000,0000,0000,,Thanks, Ikuno.
+Dialogue: 0,0:12:28.62,0:12:31.14,main,326,0000,0000,0000,,You came all this way just to read?
+Dialogue: 0,0:12:31.50,0:12:34.29,main,15,0000,0000,0000,,Forcing myself to frolic \Ndoesn't sit well with me.
+Dialogue: 0,0:12:34.97,0:12:37.58,main,196,0000,0000,0000,,But once Mitsuru shows up, \Nshe's the ice queen again.
+Dialogue: 0,0:12:34.97,0:13:22.02,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,Voice of Ikuno: Shizuka Ishigami\NVoice of Futoshi: Hiroki Goto
+Dialogue: 0,0:12:36.25,0:12:37.58,main,214,0000,0000,0000,,That's right.
+Dialogue: 0,0:12:37.58,0:12:41.59,main,196,0000,0000,0000,,When I first saw the script, I didn't\Nknow how expressive I should be.
+Dialogue: 0,0:12:41.59,0:12:42.98,main,214,0000,0000,0000,,Oh, yeah. You asked about that.
+Dialogue: 0,0:12:42.98,0:12:44.95,main,196,0000,0000,0000,,That's right. I wasn't sure.
+Dialogue: 0,0:12:44.95,0:12:50.74,main,196,0000,0000,0000,,But I realized that both her gentle \Nand cold sides were real parts of her.
+Dialogue: 0,0:12:50.74,0:12:51.70,main,214,0000,0000,0000,,I see.
+Dialogue: 0,0:12:51.70,0:12:57.01,main,196,0000,0000,0000,,She's not forcing herself to be aloof,\Nbut also not forcing herself to have fun,
+Dialogue: 0,0:12:57.01,0:13:00.45,main,196,0000,0000,0000,,and she can smile when she wants to.
+Dialogue: 0,0:13:00.45,0:13:03.54,main,214,0000,0000,0000,,That makes sense. She is still only a kid.
+Dialogue: 0,0:13:02.67,0:13:03.54,main,214,0000,0000,0000,,Exactly.
+Dialogue: 0,0:13:03.54,0:13:05.97,main,214,0000,0000,0000,,Futoshi's foolhardy and reckless, too.
+Dialogue: 0,0:13:05.97,0:13:07.50,main,196,0000,0000,0000,,In a way, he's what all kids are like.
+Dialogue: 0,0:13:07.50,0:13:08.34,main,214,0000,0000,0000,,Right?
+Dialogue: 0,0:13:08.34,0:13:09.41,main,196,0000,0000,0000,,What do you think of him?
+Dialogue: 0,0:13:09.41,0:13:14.19,main,214,0000,0000,0000,,Futoshi, huh? For me, it'd really \Nhave to be episode 11.
+Dialogue: 0,0:13:14.19,0:13:16.35,main,196,0000,0000,0000,,Of course.
+Dialogue: 0,0:13:16.35,0:13:18.42,main,214,0000,0000,0000,,The partner shuffle episode.
+Dialogue: 0,0:13:18.42,0:13:20.17,main,196,0000,0000,0000,,That's how we became a pair, too.
+Dialogue: 0,0:13:20.17,0:13:22.02,main,214,0000,0000,0000,,Yeah, that's right.
+Dialogue: 0,0:13:22.02,0:13:24.99,top,7,0000,0000,0000,,Is there anyone who wants to try \Nriding with a different partner?
+Dialogue: 0,0:13:22.02,0:13:39.04,sign_24038_251_Episode_11___Par,Episode 11,0000,0000,0000,,Episode 11: "Partner Shuffle"
+Dialogue: 0,0:13:22.67,0:13:31.88,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,When Nana asks if anyone wants to switch partners,
+Dialogue: 0,0:13:28.27,0:13:30.86,top,556,0000,0000,0000,,Let me try riding with Mitsuru.
+Dialogue: 0,0:13:31.86,0:13:33.50,top,214,0000,0000,0000,,What? But Kokoro...
+Dialogue: 0,0:13:31.88,0:13:37.08,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,surprisingly, it's Kokoro who raises her hand.
+Dialogue: 0,0:13:33.50,0:13:35.70,top,214,0000,0000,0000,,Y-You promised...
+Dialogue: 0,0:13:37.08,0:13:45.39,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Futoshi had asked her to be his partner forever, \Nso he is deeply shocked by this.
+Dialogue: 0,0:13:37.57,0:13:39.04,top,556,0000,0000,0000,,I'm sorry, Futoshi.
+Dialogue: 0,0:13:40.34,0:13:42.53,top,214,0000,0000,0000,,Whenever I think about Kokoro,
+Dialogue: 0,0:13:42.97,0:13:46.31,top,214,0000,0000,0000,,I feel this tightness in my chest.
+Dialogue: 0,0:13:47.14,0:13:50.72,main,214,0000,0000,0000,,But now that tightness hurts...
+Dialogue: 0,0:13:50.72,0:13:52.81,main,214,0000,0000,0000,,What is this?
+Dialogue: 0,0:13:53.89,0:13:55.19,main,16,0000,0000,0000,,I hear you.
+Dialogue: 0,0:13:56.82,0:13:59.66,main,214,0000,0000,0000,,Futoshi's emotions really struck me there.
+Dialogue: 0,0:13:59.66,0:14:39.78,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,{\fad(1,465)}Voice of Ikuno: Shizuka Ishigami\NVoice of Futoshi: Hiroki Goto
+Dialogue: 0,0:14:00.06,0:14:06.18,main,214,0000,0000,0000,,It kinda reminded me of my past. \NNot my first love, though.
+Dialogue: 0,0:14:05.50,0:14:06.18,main,196,0000,0000,0000,,Right.
+Dialogue: 0,0:14:06.18,0:14:09.05,main,214,0000,0000,0000,,But how obnoxious I used to be then.
+Dialogue: 0,0:14:09.05,0:14:12.19,main,214,0000,0000,0000,,I'd just express my feelings without \Nthinking about anything else.
+Dialogue: 0,0:14:12.89,0:14:15.67,main,214,0000,0000,0000,,That immaturity really overlapped \Nwith Futoshi in my mind.
+Dialogue: 0,0:14:15.67,0:14:18.85,main,196,0000,0000,0000,,Ah. So you were like that when younger?
+Dialogue: 0,0:14:18.85,0:14:20.18,main,214,0000,0000,0000,,A bit close, yeah.
+Dialogue: 0,0:14:20.18,0:14:24.21,main,214,0000,0000,0000,,The guy means no harm, but it's not \Nthe right time. That kinda thing.
+Dialogue: 0,0:14:24.21,0:14:26.76,main,214,0000,0000,0000,,I really saw myself in that side of him.
+Dialogue: 0,0:14:26.76,0:14:30.82,main,214,0000,0000,0000,,I have to admit I got a bit \Nteary-eyed while recording.
+Dialogue: 0,0:14:30.82,0:14:32.92,main,196,0000,0000,0000,,Well, it was sad, even to watch.
+Dialogue: 0,0:14:32.92,0:14:38.15,main,214,0000,0000,0000,,For me, that was the most dramatic \Nand memorable part so far.
+Dialogue: 0,0:14:41.68,0:14:46.68,sign_2777_26_Voice_of_Ichigo,SignL,0000,0000,0000,,{\fad(605,758)}Voice of Kokoro
+Dialogue: 0,0:14:42.08,0:14:46.68,sign_2789_27_Voice_of_Goro,SignR,0000,0000,0000,,{\fad(605,625)}Voice of Mitsuru
+Dialogue: 0,0:14:46.92,0:14:57.93,sign_2934_29_Q__Which_scenes_,Sign,0000,0000,0000,,{\fad(470,697)}Q: Which scenes from the first half made the biggest mark on you?
+Dialogue: 0,0:14:46.92,0:15:11.73,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,{\fad(470,1)}Voice of Kokoro: Saori Hayami\NVoice of Mitsuru: Aoi Ichikawa
+Dialogue: 0,0:14:49.89,0:14:53.07,main,Bo,0000,0000,0000,,For us, by unanimous vote,
+Dialogue: 0,0:14:53.07,0:14:54.27,main,Bo,0000,0000,0000,,it's episode 11.
+Dialogue: 0,0:14:55.58,0:14:57.67,main,556,0000,0000,0000,,It couldn't be anything else.
+Dialogue: 0,0:14:56.15,0:14:57.67,main,326,0000,0000,0000,,Indeed.
+Dialogue: 0,0:14:57.67,0:15:04.65,main,326,0000,0000,0000,,That's the episode in which Mitsuru's \Npast is first made clear.
+Dialogue: 0,0:15:02.26,0:15:03.94,main,556,0000,0000,0000,,It's all spelled out.
+Dialogue: 0,0:15:04.98,0:15:08.24,main,326,0000,0000,0000,,Until then, he'd only been a jerk.
+Dialogue: 0,0:15:08.24,0:15:09.67,main,556,0000,0000,0000,,But he had his reasons!
+Dialogue: 0,0:15:08.69,0:15:11.73,main,326,0000,0000,0000,,But you find out he had his reasons.
+Dialogue: 0,0:15:11.73,0:15:32.01,sign_27326_290_Episode_11___Par,Sign,0000,0000,0000,,Episode 11: "Partner Shuffle"
+Dialogue: 0,0:15:12.38,0:15:22.39,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Mitsuru's obvious hostility toward Hiro is a reversal \Nof his admiration when they were kids.
+Dialogue: 0,0:15:14.41,0:15:17.79,flashbacktop,16,0000,0000,0000,,I've been chosen to represent \Nall of us children.
+Dialogue: 0,0:15:17.79,0:15:19.50,flashbacktop,16,0000,0000,0000,,My code is 016.
+Dialogue: 0,0:15:19.81,0:15:22.77,flashbacktop,16,0000,0000,0000,,I'll continue to show my gratitude to Papa
+Dialogue: 0,0:15:20.42,0:15:21.13,flashbackitalicstop,326,0000,0000,0000,,Don't.
+Dialogue: 0,0:15:22.39,0:15:33.80,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,It was all started by one statement from Hiro, \Nsomething Mitsuru considers a betrayal.
+Dialogue: 0,0:15:22.77,0:15:25.01,flashbackitalicstop,326,0000,0000,0000,,Don't give him that look of admiration.
+Dialogue: 0,0:15:22.77,0:15:26.13,flashbacktop,16,0000,0000,0000,,and do my best so we can \Nall work toward our goals.
+Dialogue: 0,0:15:29.21,0:15:32.01,flashbackitalicstop,326,0000,0000,0000,,He's a filthy traitor!
+Dialogue: 0,0:15:33.80,0:15:44.11,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,He's also unable to open up to his new partner, Kokoro.
+Dialogue: 0,0:15:35.87,0:15:39.47,top,556,0000,0000,0000,,Why do you think humans\Nstopped having children?
+Dialogue: 0,0:15:39.47,0:15:41.69,top,326,0000,0000,0000,,Probably because we don't need to anymore.
+Dialogue: 0,0:15:41.69,0:15:44.71,top,326,0000,0000,0000,,We don't need others to live.
+Dialogue: 0,0:15:46.41,0:15:49.05,main,326,0000,0000,0000,,Why did you volunteer to be my partner?
+Dialogue: 0,0:15:49.05,0:15:51.45,main,326,0000,0000,0000,,Futoshi hates me now, \Nand it's a massive pain.
+Dialogue: 0,0:15:52.97,0:15:54.17,main,326,0000,0000,0000,,Was it out of pity?
+Dialogue: 0,0:15:54.17,0:15:58.20,main,556,0000,0000,0000,,No! No, it's not like that.
+Dialogue: 0,0:15:59.87,0:16:05.54,main,326,0000,0000,0000,,That episode truly drove home to me \Nthat they both have emotional baggage.
+Dialogue: 0,0:15:59.87,0:17:00.15,sign_2934_28_Voice_of_Ichigo_,SignTRL,0000,0000,0000,,{\fad(1,466)}Voice of Kokoro: Saori Hayami\NVoice of Mitsuru: Aoi Ichikawa
+Dialogue: 0,0:16:04.21,0:16:05.54,main,556,0000,0000,0000,,Yeah...
+Dialogue: 0,0:16:05.54,0:16:12.35,main,326,0000,0000,0000,,And they both started a new chapter \Nin their lives with episode 11.
+Dialogue: 0,0:16:12.35,0:16:17.52,main,326,0000,0000,0000,,A story that was different from the \Noverarching plot of {\i1}DARLING in the FRANXX{\i0}.
+Dialogue: 0,0:16:17.52,0:16:18.59,main,556,0000,0000,0000,,That's the thing.
+Dialogue: 0,0:16:18.59,0:16:25.59,main,556,0000,0000,0000,,Kokoro-chan, as a character,\Nchanged completely with that episode.
+Dialogue: 0,0:16:25.59,0:16:28.82,main,556,0000,0000,0000,,Until then, she seemed really mature.
+Dialogue: 0,0:16:28.82,0:16:33.45,main,556,0000,0000,0000,,She had her cute side, but she was very \Ntolerant and a bit like a mom of sorts.
+Dialogue: 0,0:16:33.45,0:16:36.08,main,556,0000,0000,0000,,But, just like everyone else, \Nshe's still growing as a person.
+Dialogue: 0,0:16:36.08,0:16:37.88,main,326,0000,0000,0000,,Ah, yeah.
+Dialogue: 0,0:16:37.88,0:16:39.10,main,556,0000,0000,0000,,She's not complete yet.
+Dialogue: 0,0:16:39.10,0:16:39.93,main,326,0000,0000,0000,,Indeed.
+Dialogue: 0,0:16:39.93,0:16:44.38,main,556,0000,0000,0000,,I really felt that she \Nstill had a long way to go.
+Dialogue: 0,0:16:44.38,0:16:48.38,main,326,0000,0000,0000,,You could say that was when \Nshe really began her journey.
+Dialogue: 0,0:16:46.17,0:16:47.29,main,556,0000,0000,0000,,Oh, totally!
+Dialogue: 0,0:16:47.29,0:16:49.05,main,556,0000,0000,0000,,Like this was her real starting point.
+Dialogue: 0,0:16:49.05,0:16:51.86,main,326,0000,0000,0000,,There's a bunch of stuff \Nin the second half, too.
+Dialogue: 0,0:16:50.90,0:16:55.16,main,556,0000,0000,0000,,A bunch. It might have even more, in fact.
+Dialogue: 0,0:16:55.16,0:16:58.69,main,326,0000,0000,0000,,Look forward to finding out which \Nepisode we're talking about.
+Dialogue: 0,0:17:01.95,0:17:06.99,sign_2777_26_Voice_of_Ichigo,SignL,0000,0000,0000,,{\fad(403,800)}Voice of Hiro
+Dialogue: 0,0:17:02.35,0:17:06.99,sign_2789_27_Voice_of_Goro,SignR,0000,0000,0000,,{\fad(804,666)}Voice of Zero Two
+Dialogue: 0,0:17:07.19,0:17:17.50,sign_2934_29_Q__Which_scenes_,Sign,0000,0000,0000,,{\fad(469,566)}Q: Which scenes from the first half left the biggest mark on you?
+Dialogue: 0,0:17:07.19,0:17:40.45,sign_30786_328_Voice_of_Hiro__Y,SignTLL,0000,0000,0000,,{\fad(469,460)}Voice of Hiro: Yuto Uemura\NVoice of Zero Two: Haruka Tomatsu
+Dialogue: 0,0:17:09.37,0:17:11.81,main,Z2,0000,0000,0000,,For me, it was episode 13,
+Dialogue: 0,0:17:11.81,0:17:15.57,main,Z2,0000,0000,0000,,with Zero Two and Hiro's flashback.
+Dialogue: 0,0:17:13.61,0:17:14.65,main,16,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:15.57,0:17:17.10,main,16,0000,0000,0000,,Of course.
+Dialogue: 0,0:17:15.91,0:17:19.35,main,Z2,0000,0000,0000,,Even out of character,
+Dialogue: 0,0:17:19.35,0:17:25.39,main,Z2,0000,0000,0000,,when I read the script, I felt it \Nwas a really heart-rending episode.
+Dialogue: 0,0:17:25.39,0:17:30.56,main,Z2,0000,0000,0000,,Until then, Zero Two gave \Noff a sort of antagonistic vibe.
+Dialogue: 0,0:17:30.56,0:17:35.13,main,Z2,0000,0000,0000,,You couldn't tell if she really \Nwas on our side, you know?
+Dialogue: 0,0:17:35.13,0:17:40.14,main,Z2,0000,0000,0000,,But after that episode, the way \Nyou see her completely changed.
+Dialogue: 0,0:17:40.87,0:17:55.68,sign_24038_251_Episode_11___Par,Sign,0000,0000,0000,,{\fad(1,476)}Episode 13: "The Beast and the Prince"
+Dialogue: 0,0:17:41.52,0:17:47.89,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,As a test subject, Zero Two was confined \Nin a room and never even spoken to.
+Dialogue: 0,0:17:41.74,0:17:45.61,italicstop,Z2,0000,0000,0000,,I was trapped in that room for \Nas far back as I can remember.
+Dialogue: 0,0:17:47.89,0:17:53.53,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,It was the young Hiro who got her out.
+Dialogue: 0,0:17:53.53,0:17:59.54,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,A human was shedding pretty tears and offered her his hand,
+Dialogue: 0,0:17:58.77,0:17:59.94,flashbacktop,16,0000,0000,0000,,Come this way!
+Dialogue: 0,0:17:59.54,0:18:06.68,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,and Zero Two saw the prince from her picture book in him.
+Dialogue: 0,0:18:00.72,0:18:02.62,flashbacktop,16,0000,0000,0000,,I can get you out of here!
+Dialogue: 0,0:18:07.23,0:18:09.02,flashback,16,0000,0000,0000,,What's your code number?
+Dialogue: 0,0:18:10.74,0:18:13.90,flashback,16,0000,0000,0000,,Man, does she not understand me at all?
+Dialogue: 0,0:18:14.46,0:18:18.07,flashback,16,0000,0000,0000,,002? I've never seen a \Ncode in the single digits.
+Dialogue: 0,0:18:19.03,0:18:20.74,flashback,16,0000,0000,0000,,002...
+Dialogue: 0,0:18:22.33,0:18:26.08,flashback,16,0000,0000,0000,,Oni? No, Zero Two?
+Dialogue: 0,0:18:26.08,0:18:28.22,flashback,16,0000,0000,0000,,Not very good, huh?
+Dialogue: 0,0:18:29.54,0:18:31.15,flashback,16,0000,0000,0000,,Eo To!
+Dialogue: 0,0:18:31.15,0:18:33.88,flashback,16,0000,0000,0000,,Huh? Do you understand what names are?
+Dialogue: 0,0:18:33.88,0:18:35.16,flashback,16,0000,0000,0000,,Eo To!
+Dialogue: 0,0:18:35.16,0:18:38.39,flashback,16,0000,0000,0000,,Eo To!
+Dialogue: 0,0:18:45.97,0:18:49.26,main,16,0000,0000,0000,,Acting that out must've been really tough, huh?
+Dialogue: 0,0:18:45.97,0:19:52.88,sign_30786_328_Voice_of_Hiro__Y,SignTLL,0000,0000,0000,,{\fad(1,462)}Voice of Hiro: Yuto Uemura\NVoice of Zero Two: Haruka Tomatsu
+Dialogue: 0,0:18:47.89,0:18:50.54,main,Z2,0000,0000,0000,,Yeah, it was really hard!
+Dialogue: 0,0:18:50.54,0:18:56.04,main,Z2,0000,0000,0000,,I actually had the director make time for \Nme during the previous dubbing session,
+Dialogue: 0,0:18:56.04,0:19:02.52,main,Z2,0000,0000,0000,,and we discussed how to portray \Nthe Zero Two of the past.
+Dialogue: 0,0:19:01.49,0:19:02.52,main,16,0000,0000,0000,,Right.
+Dialogue: 0,0:19:02.52,0:19:04.95,main,Z2,0000,0000,0000,,I asked how human she should sound,
+Dialogue: 0,0:19:04.95,0:19:08.41,main,Z2,0000,0000,0000,,and how much like an animal.
+Dialogue: 0,0:19:08.41,0:19:14.66,main,Z2,0000,0000,0000,,We spent quite some time figuring out \Nhow to strike the perfect balance.
+Dialogue: 0,0:19:14.66,0:19:18.26,main,Z2,0000,0000,0000,,When you know about her childhood,
+Dialogue: 0,0:19:18.26,0:19:25.58,main,Z2,0000,0000,0000,,you really empathize with her \Nand feel bad for her after that.
+Dialogue: 0,0:19:21.97,0:19:23.95,main,16,0000,0000,0000,,Totally.
+Dialogue: 0,0:19:25.58,0:19:28.76,main,16,0000,0000,0000,,Ever since the flashback in episode 13,
+Dialogue: 0,0:19:28.76,0:19:40.19,main,16,0000,0000,0000,,the mood in the studio has become a bit \Nmore teary, with people sniffling and all.
+Dialogue: 0,0:19:41.50,0:19:47.37,main,16,0000,0000,0000,,But for me... This special comes after it,
+Dialogue: 0,0:19:47.37,0:19:52.69,main,16,0000,0000,0000,,so I'd have to say episode 15 \Nhad a huge impact.
+Dialogue: 0,0:19:53.23,0:20:04.52,sign_35763_370_Episode_15___Jia,Sign,0000,0000,0000,,{\fad(1,925)}Episode 15: "Jian"
+Dialogue: 0,0:19:53.88,0:20:01.89,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,Hiro rushes to be with Zero Two, who's entered rampage mode.
+Dialogue: 0,0:19:59.82,0:20:01.62,top,Z2,0000,0000,0000,,D-Darling?
+Dialogue: 0,0:20:01.89,0:20:10.50,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,They'd been in pain ever since they were separated,
+Dialogue: 0,0:20:02.09,0:20:03.64,top,16,0000,0000,0000,,I finally got to see you!
+Dialogue: 0,0:20:03.64,0:20:04.88,top,Z2,0000,0000,0000,,D-Don't look at me!
+Dialogue: 0,0:20:06.43,0:20:08.11,top,Z2,0000,0000,0000,,Aren't you scared of me?
+Dialogue: 0,0:20:09.06,0:20:12.03,top,Z2,0000,0000,0000,,I used you, you know.
+Dialogue: 0,0:20:10.50,0:20:22.47,sign_4052_39_Hiro_takes_his_f,ScrollingDesc,0000,0000,0000,,but they finally recover their bond as partners and embark on \Nhumanity's great mission, the operation to take Gran Crevasse.
+Dialogue: 0,0:20:12.95,0:20:14.85,top,16,0000,0000,0000,,That doesn't matter anymore!
+Dialogue: 0,0:20:15.66,0:20:18.02,top,16,0000,0000,0000,,Let's go see the outside world together!
+Dialogue: 0,0:20:19.10,0:20:20.49,top,16,0000,0000,0000,,Zero Two...
+Dialogue: 0,0:20:21.03,0:20:23.13,top,16,0000,0000,0000,,Together, we are one.
+Dialogue: 0,0:20:31.20,0:20:32.57,main,16,0000,0000,0000,,Zero Two!
+Dialogue: 0,0:20:32.57,0:20:33.30,main,Z2,0000,0000,0000,,Darling!
+Dialogue: 0,0:20:34.54,0:20:35.70,main,16,0000,0000,0000,,Zero Two!
+Dialogue: 0,0:20:35.70,0:20:36.70,main,Z2,0000,0000,0000,,Darling!
+Dialogue: 0,0:20:36.70,0:20:37.53,main,Z2,0000,0000,0000,,Darling!
+Dialogue: 0,0:20:37.53,0:20:38.46,main,Z2,0000,0000,0000,,Darling!
+Dialogue: 0,0:20:38.46,0:20:40.11,main,Z2,0000,0000,0000,,Darling!
+Dialogue: 0,0:20:48.55,0:20:49.59,main,Z2,0000,0000,0000,,Darling...
+Dialogue: 0,0:20:50.43,0:20:53.02,main,Z2,0000,0000,0000,,I'm really happy I met you!
+Dialogue: 0,0:20:53.86,0:20:55.09,main,Z2,0000,0000,0000,,I love you!
+Dialogue: 0,0:20:59.37,0:21:01.60,main,Z2,0000,0000,0000,,Me too, Zero Two!
+Dialogue: 0,0:21:02.56,0:21:04.58,main,Z2,0000,0000,0000,,I love you!
+Dialogue: 0,0:21:05.57,0:21:09.96,main,16,0000,0000,0000,,In episode 15, they both \Nexpress clearly how they feel,
+Dialogue: 0,0:21:05.57,0:22:10.95,sign_30786_328_Voice_of_Hiro__Y,SignTLL,0000,0000,0000,,{\fad(1,462)}Voice of Hiro: Yuto Uemura\NVoice of Zero Two: Haruka Tomatsu
+Dialogue: 0,0:21:09.96,0:21:13.24,main,16,0000,0000,0000,,reach an understanding, \Nand head off to battle.
+Dialogue: 0,0:21:13.24,0:21:17.03,main,16,0000,0000,0000,,They feel so liberated and free,
+Dialogue: 0,0:21:17.03,0:21:22.14,main,16,0000,0000,0000,,and our direction was to portray them \Nas a pair of annoying lovebirds.
+Dialogue: 0,0:21:20.95,0:21:23.45,main,Z2,0000,0000,0000,,Oh, yeah! That's right!
+Dialogue: 0,0:21:24.02,0:21:28.92,main,16,0000,0000,0000,,Like how they go, "I love you,"\Nbefore going to fight.
+Dialogue: 0,0:21:28.92,0:21:36.90,main,16,0000,0000,0000,,It isn't often that you see such \Nheartfelt joy being expressed that way.
+Dialogue: 0,0:21:36.90,0:21:43.05,main,Z2,0000,0000,0000,,In a way, it was like everything \Nthey'd repressed so far exploded.
+Dialogue: 0,0:21:43.05,0:21:45.67,main,Z2,0000,0000,0000,,Like, when they called each other's names,
+Dialogue: 0,0:21:45.67,0:21:50.50,main,Z2,0000,0000,0000,,I was told several times \Nto put more heart into it.
+Dialogue: 0,0:21:50.50,0:21:54.61,main,16,0000,0000,0000,,That's how much it meant for \Nthem to get on the same page.
+Dialogue: 0,0:21:54.61,0:21:57.12,main,16,0000,0000,0000,,They had a really long road until now.
+Dialogue: 0,0:21:55.95,0:21:59.89,main,Z2,0000,0000,0000,,Yeah, their hearts finally became one.
+Dialogue: 0,0:21:59.89,0:22:03.65,main,16,0000,0000,0000,,They became real partners.
+Dialogue: 0,0:22:03.65,0:22:04.26,main,Z2,0000,0000,0000,,Right.
+Dialogue: 0,0:22:04.26,0:22:09.21,main,16,0000,0000,0000,,With that in mind, I hope everyone \Nwatches and enjoys the rest of the show.
+Dialogue: 0,0:22:11.94,0:22:15.67,italics,N,0000,0000,0000,,In the second half, the story begins anew.
+Dialogue: 0,0:22:15.67,0:22:19.02,italics,N,0000,0000,0000,,How is Director Nishigori feeling right now?
+Dialogue: 0,0:22:20.79,0:22:25.54,italics,N,0000,0000,0000,,We're at the recording and editing studio, \Nwhere the show's audio work is done.
+Dialogue: 0,0:22:26.70,0:22:31.02,italics,N,0000,0000,0000,,On this day, episode 15 was being mixed.
+Dialogue: 0,0:22:32.37,0:22:38.53,italics,N,0000,0000,0000,,They combine the voiced dialog, SFX, and \NBGM to produce one, final audio product.
+Dialogue: 0,0:22:34.59,0:22:36.42,sign_40599_416_Darlifra__15,Sign,0000,0000,0000,,Darlifra #15
+Dialogue: 0,0:22:43.15,0:22:47.13,italics,N,0000,0000,0000,,The scriptwriting for the show's climax \Nhas also reached its final stages,
+Dialogue: 0,0:22:47.13,0:22:49.31,italics,N,0000,0000,0000,,keeping Director Nishigori extremely busy.
+Dialogue: 0,0:22:51.29,0:22:56.71,italics,N,0000,0000,0000,,We asked him what to expect from the \Nstory's second half, which starts next week.
+Dialogue: 0,0:22:57.84,0:23:02.86,top,AN,0000,0000,0000,,This story began with Hiro and Zero Two,
+Dialogue: 0,0:22:59.39,0:23:08.25,sign_15956_175_Manga_Artist__Al,SignBL,0000,0000,0000,,{\fad(1476,1)}Director & Series Composition\NGurren Lagann (Character Designer)\NTHE IDOLM@STER (Director, Series Composition, Character Designer)
+Dialogue: 0,0:23:02.86,0:23:08.25,top,AN,0000,0000,0000,,and that's where I want \Nit to return in the end.
+Dialogue: 0,0:23:08.25,0:23:13.72,main,AN,0000,0000,0000,,I don't know if it will be a \Nhappy ending for everyone,
+Dialogue: 0,0:23:13.72,0:23:16.26,main,AN,0000,0000,0000,,but I hope the ending
+Dialogue: 0,0:23:16.26,0:23:22.21,main,AN,0000,0000,0000,,leaves viewers satisfied with each\Ncharacter's story purpose.
+Dialogue: 0,0:23:22.21,0:23:24.54,main,AN,0000,0000,0000,,I feel that's more important.
+Dialogue: 0,0:23:24.54,0:23:33.30,top,AN,0000,0000,0000,,It's a fictional story\Nabout fictional characters,
+Dialogue: 0,0:23:33.30,0:23:36.10,top,AN,0000,0000,0000,,but I believe they're alive.
+Dialogue: 0,0:23:36.10,0:23:43.82,top,AN,0000,0000,0000,,And I want to provide the right \Nkind of closure for their lives.
+Dialogue: 0,0:23:44.62,0:23:49.23,top,AN,0000,0000,0000,,It's a huge responsibility. I want to keep \Nthat in mind as we figure it out.
+Dialogue: 0,0:23:50.15,0:23:53.15,italics,N,0000,0000,0000,,The story will now enter its second half.
+Dialogue: 0,0:23:53.15,0:23:58.55,italics,N,0000,0000,0000,,Look forward to {\i0}DARLING in the FRANXX {\i1}\Nepisode 16 at this time next week!

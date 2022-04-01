@@ -1,0 +1,473 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: OP_ED,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,13,13,24,0
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Keep Your Hands Off Eizouken,Open Sans Semibold,45,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_3960_43_Film_Director_To,Open Sans Semibold,12,&H00343434,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_8714_106_Episode_8__The_G,Open Sans Semibold,29,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,1,267,40,327,1
+Style: sign_11759_124_Electro_magnetic,Open Sans Semibold,29,&H192B4100,&H000000FF,&H0089B330,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,200,40,207,1
+Style: sign_11759_125_Accessibility_Re,Open Sans Semibold,21,&H004533CC,&H000000FF,&H00F5F1F3,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_11807_126_Pi_Research_Club,Open Sans Semibold,45,&H006E3C27,&H000000FF,&H00FFF9F8,&H00E9EBE1,0,1,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_11826_127_Rap_Club,Open Sans Semibold,45,&H002CECED,&H000000FF,&H00CC4CD9,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_11826_128_Rakuda,Open Sans Semibold,45,&H00111618,&H000000FF,&H00E7E8EB,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_11874_130_Short_Wave_Radio,Open Sans Semibold,39,&H000D0918,&H000000FF,&H003360B9,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_11893_131_Oden_Club,Open Sans Semibold,27,&H00FFFCFF,&H000000FF,&H00544CC9,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_11893_132_Shaved_Ice_Club,Open Sans Semibold,27,&H00FCFAFF,&H000000FF,&H00F4D640,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_11953_135_Shingeki_Theater,Open Sans Semibold,45,&H0044D7D9,&H000000FF,&H00623522,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_11977_136_Presented_by_the,Open Sans Semibold,15,&H004D4E4B,&H000000FF,&H00FEFEFE,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_12427_145_Tsubame_Mizusaki,Open Sans Semibold,33,&H00152120,&H000000FF,&H0084B8C0,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,2,333,40,27,1
+Style: sign_12701_147_Tsubame_Mizusaki,Open Sans Semibold,23,&H00212532,&H000000FF,&H0056EFEF,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_14986_183_Auditorium_1,Open Sans Semibold,45,&H00050503,&H000000FF,&H00A9AAA7,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,2,40,40,400,1
+Style: sign_15076_184_Missing,Open Sans Semibold,15,&H00052441,&H000000FF,&H003C7DB0,&H00E9EBE1,1,0,0,0,100,100,0,0,1,2,0,2,40,53,460,1
+Style: sign_17674_222_Missing,Open Sans Semibold,30,&H009C8DC6,&H000000FF,&H00D1D5C3,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_18430_238_Japanese_Marchin,Open Sans Semibold,12,&H00132B30,&H000000FF,&H0086AFD1,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,40,40,27,1
+Style: sign_18803_244_Cardboard_Robot_,Open Sans Semibold,24,&H00BCAD96,&H000000FF,&H00633878,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_18803_245_Tsubame_Mizusaki,Open Sans Semibold,21,&H000B0915,&H000000FF,&H0065898A,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,8,40,167,27,1
+Style: sign_19960_269_Robot_anime_scre,Open Sans Semibold,33,&H003C3F3C,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_20062_273_Zipline,Open Sans Semibold,48,&H007F836F,&H000000FF,&H0019133E,&H00000000,1,0,0,0,100,100,0,0,1,4,0,3,40,40,27,1
+Style: sign_20780_278_Robot_anime_scre,Open Sans Semibold,32,&H00FDF5FF,&H000000FF,&H00953AEF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,200,40,27,1
+Style: sign_18755_242_Presented_by_the,Open Sans Semibold,15,&H004D4E4B,&H000000FF,&H00BAB8B8,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,7,40,469,27,1
+Style: sign_9995_143_Preparing_Launch,Open Sans Semibold,42,&H009BAAF6,&H000000FF,&H00B7CFF4,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_29758_353_Missing_Missing,Open Sans Semibold,12,&H00C3BBA3,&H000000FF,&H00403812,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_30058_356_Tsubame_Mizusaki,Open Sans Semibold,12,&H00566164,&H000000FF,&H00D1DCE4,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_30173_358_Candid_Photos_of,Open Sans Semibold,15,&H003A393C,&H000000FF,&H00E1E0EA,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_31081_374_Yakisoba,Open Sans Semibold,60,&H00E7EBE6,&H000000FF,&H00CCAB23,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,267,27,1
+Style: sign_31258_379_Yakisoba,Open Sans Semibold,60,&H00F7FBFF,&H000000FF,&H00CCAB23,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_35868_406_Illustraiton_by_,Open Sans Semibold,18,&H19000000,&H000000FF,&H002A2A2D,&H00000000,1,0,0,0,100,100,0,0,1,0,0,1,653,40,53,1
+Style: sign_17475_221_Missing,Open Sans Semibold,30,&H00EFF0F0,&H000000FF,&H00864137,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_17475_222_Missing,Open Sans Semibold,30,&H00F2F1F8,&H000000FF,&H0038637A,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_17475_223_Missing,Open Sans Semibold,30,&H0068C9FF,&H000000FF,&H003418DD,&H00E9EBE1,1,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_20411_277_Zipline,Open Sans Semibold,32,&H004B4DAE,&H000000FF,&H00EAF1B2,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1
+Style: sign_13831_166_Three_Star_Resta,Open Sans Semibold,24,&H00173149,&H000000FF,&H004E6F87,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,107,27,147,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.81,0:00:07.01,main,A,0000,0000,0000,,Once again, we're wrapping up \Nat the very last second.
+Dialogue: 0,0:00:07.73,0:00:09.88,main,M,0000,0000,0000,,I'm glad we made it in time, though!
+Dialogue: 0,0:00:09.88,0:00:11.40,main,K,0000,0000,0000,,Excuse me?
+Dialogue: 0,0:00:11.40,0:00:14.38,main,K,0000,0000,0000,,Not being able to record the voice-overs \Nmeans we didn't make it in time.
+Dialogue: 0,0:00:14.38,0:00:15.96,main,M,0000,0000,0000,,True...
+Dialogue: 0,0:00:15.96,0:00:18.03,main,M,0000,0000,0000,,We'll have to do the dubbing live.
+Dialogue: 0,0:00:18.03,0:00:21.65,main,K,0000,0000,0000,,All thanks to a certain someone \Nand their late animation.
+Dialogue: 0,0:00:22.10,0:00:24.56,main,D,0000,0000,0000,,I can go ahead and record the performance,
+Dialogue: 0,0:00:24.56,0:00:26.83,main,D,0000,0000,0000,,but there's a lot of echo \Nin the auditorium...
+Dialogue: 0,0:00:27.37,0:00:30.37,main,D,0000,0000,0000,,I don't know if it'll be good \Nenough to use on the DVDs.
+Dialogue: 0,0:00:30.37,0:00:33.38,main,A,0000,0000,0000,,I'm still worried about how Onocchy's \Nreads are gonna turn out.
+Dialogue: 0,0:00:33.38,0:00:34.97,main,D,0000,0000,0000,,I'll go ahead and run it.
+Dialogue: 0,0:00:59.87,0:01:01.61,main,D,0000,0000,0000,,What do you think, Asakusa?
+Dialogue: 0,0:01:02.37,0:01:04.23,main,A,0000,0000,0000,,You haven't balanced it yet, right?
+Dialogue: 0,0:01:04.23,0:01:06.50,main,D,0000,0000,0000,,Right. As it stands, only the timing is done.
+Dialogue: 0,0:01:06.50,0:01:09.51,main,D,0000,0000,0000,,Although I was making adjustments \Nwhile it was playing...
+Dialogue: 0,0:01:09.51,0:01:13.62,main,A,0000,0000,0000,,About the music in cut 6... \NDoes it seem out of sync to you?
+Dialogue: 0,0:01:13.62,0:01:15.68,main,D,0000,0000,0000,,Probably because the action \Non screen doesn't happen
+Dialogue: 0,0:01:15.68,0:01:17.66,main,D,0000,0000,0000,,until after the music peaks.
+Dialogue: 0,0:01:17.66,0:01:19.01,main,D,0000,0000,0000,,We could try delaying it.
+Dialogue: 0,0:01:19.66,0:01:21.58,main,M,0000,0000,0000,,You mean offsetting it even \Nmore from the action?
+Dialogue: 0,0:01:21.58,0:01:23.35,main,M,0000,0000,0000,,Wouldn't that mess with the big hit?
+Dialogue: 0,0:01:23.35,0:01:24.39,main,D,0000,0000,0000,,Let's see.
+Dialogue: 0,0:01:29.94,0:01:31.91,main,M,0000,0000,0000,,I'm not sure why, but I think that's better!
+Dialogue: 0,0:01:32.61,0:01:36.61,main,A,0000,0000,0000,,The music is setting the tone before \Nthe action, and leading the audience along!
+Dialogue: 0,0:01:36.61,0:01:40.17,main,A,0000,0000,0000,,There were a few spots where the music \Nand the action didn't have the right tone,
+Dialogue: 0,0:01:40.17,0:01:43.14,main,A,0000,0000,0000,,where I was thinking we \Ncould use different tracks.
+Dialogue: 0,0:01:43.14,0:01:47.26,main,A,0000,0000,0000,,For cut 150 and 82...
+Dialogue: 0,0:01:47.26,0:01:49.21,main,A,0000,0000,0000,,If we use the music from cut 24,
+Dialogue: 0,0:01:49.21,0:01:51.12,main,A,0000,0000,0000,,we can create a motif linking \Nthe different scenes.
+Dialogue: 0,0:01:51.12,0:01:52.07,main,A,0000,0000,0000,,What do you think?
+Dialogue: 0,0:01:52.07,0:01:54.42,main,D,0000,0000,0000,,Sounds like it might work. Let me try it.
+Dialogue: 0,0:01:55.17,0:01:58.93,main,M,0000,0000,0000,,Something about the music for\N cut 86 doesn't sit right with me.
+Dialogue: 0,0:02:01.18,0:02:04.39,main,A,0000,0000,0000,,What if we dropped \Nthe music for that part?
+Dialogue: 0,0:02:05.10,0:02:08.19,main,D,0000,0000,0000,,You mean to put an emphasis \Non the sound effects from 79?
+Dialogue: 0,0:02:11.19,0:02:14.94,main,A,0000,0000,0000,,The animation is amazing for that part.\N So by subtracting the music...
+Dialogue: 0,0:02:27.14,0:02:28.29,main,M,0000,0000,0000,,So cool!
+Dialogue: 0,0:02:28.29,0:02:30.50,main,A,0000,0000,0000,,That makes the scene really stand out!
+Dialogue: 0,0:02:30.50,0:02:33.23,main,M,0000,0000,0000,,You're some kind of music master, Asakusa!
+Dialogue: 0,0:02:41.09,0:02:42.80,main,Staff,0000,0000,0000,,We are so sorry.
+Dialogue: 0,0:02:42.80,0:02:45.14,main,Staff,0000,0000,0000,,Who would've thought production \Nwould end up canceled
+Dialogue: 0,0:02:45.14,0:02:48.98,main,Staff,0000,0000,0000,,because the director and screenwriter \Ntried to murder a producer?
+Dialogue: 0,0:02:45.14,0:02:48.98,sign_3960_43_Film_Director_To,Headline sign,0000,0000,0000,,{\frz37.5\fax0.41\pos(166,182)}Film Director Tomo Komatsu Arrested for Attempted Murder
+Dialogue: 0,0:02:45.14,0:02:48.98,sign_3960_43_Film_Director_To,Headline sign,0000,0000,0000,,{\frz41\fax0.41\pos(298,218)}Komatsu's arrest
+Dialogue: 0,0:02:45.14,0:02:48.98,sign_3960_43_Film_Director_To,Headline sign,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HFFFFFF&}m 280 111 l 377 161 478 71 385 28
+Dialogue: 0,0:02:45.14,0:02:48.98,sign_3960_43_Film_Director_To,Headline sign,0000,0000,0000,,{\frz41\fax0.41\b0\pos(291,107)}On the 19th in Nishi-Azabu, Tokyo,\Na movie director was arrested for \Nattempting to kill a movie producer.\Nwith a katana.\N\N\N\NDirector Tomo Komatsu (45) \Nand screenwriter Mazda-Ford (51) \Nwere charged with attempted murder.
+Dialogue: 0,0:02:45.14,0:02:48.98,sign_3960_43_Film_Director_To,Headline sign,0000,0000,0000,,{\an7\pos(0,0)\fscx100\fscy100\p1\bord0\shad0\c&HFFFFFF&}m 305 254 l 387 300 571 115 501 78
+Dialogue: 0,0:02:45.14,0:02:48.98,sign_3960_43_Film_Director_To,Headline sign,0000,0000,0000,,{\frz41\fax0.41\b0\pos(317,246)}Police believe that Komatsu and an accomplice attempted to slice open\Nthe stomach of movie producer Jubei Honda (52). Mr. Honda is in\N critical condition, but Mr. Komatsu denies the allegations stating he does\N not recall what happened.\N\NMr. Komatsu and Mr. Honda were reportedly having disagreements\N over finances for their newest movie.
+Dialogue: 0,0:02:48.98,0:02:52.92,main,Staff,0000,0000,0000,,It was supposed to be your first time \Nonscreen together in sixteen years, too.
+Dialogue: 0,0:02:52.92,0:02:54.58,main,Mom,0000,0000,0000,,It's not that big a deal, right?
+Dialogue: 0,0:02:54.58,0:02:57.67,main,Dad,0000,0000,0000,,Yeah. To be honest, we kind of saw this coming.
+Dialogue: 0,0:02:59.73,0:03:01.07,main,Guy,0000,0000,0000,,We are so sorry!
+Dialogue: 0,0:03:01.07,0:03:05.28,main,Dad,0000,0000,0000,,We can actually visit our daughter's \Nculture festival, thanks to this.
+Dialogue: 0,0:03:05.28,0:03:08.82,main,Mom,0000,0000,0000,,We were onscreen together sixteen years ago,
+Dialogue: 0,0:03:08.82,0:03:10.29,main,Mom,0000,0000,0000,,but we've never been to her cultural festival.
+Dialogue: 0,0:03:10.29,0:03:14.02,main,Dad,0000,0000,0000,,We haven't exactly been the most... \Npresent of parents for her.
+Dialogue: 0,0:03:39.86,0:03:42.43,main,A,0000,0000,0000,,Being able to improvise a kettle \Nstand from pegs like this...
+Dialogue: 0,0:03:42.43,0:03:44.07,main,A,0000,0000,0000,,Sometimes, I do impress myself.
+Dialogue: 0,0:03:48.14,0:03:51.46,main,M,0000,0000,0000,,Well, here's to the culture \Nfestival being a success!
+Dialogue: 0,0:03:51.46,0:03:53.54,main,M,0000,0000,0000,,Let's eat!
+Dialogue: 0,0:03:53.54,0:03:55.02,main,K,0000,0000,0000,,Unlike last time,
+Dialogue: 0,0:03:55.02,0:03:57.35,main,K,0000,0000,0000,,we're going to need to attract an \Naudience for today's screening.
+Dialogue: 0,0:03:57.35,0:03:59.58,main,M,0000,0000,0000,,I definitely want lots of people to watch it!
+Dialogue: 0,0:03:59.58,0:04:00.81,main,K,0000,0000,0000,,That's part of it,
+Dialogue: 0,0:04:00.81,0:04:02.98,main,K,0000,0000,0000,,but our primary objective \Ntoday is to score preorders
+Dialogue: 0,0:04:02.98,0:04:05.13,main,K,0000,0000,0000,,for the DVD release after \Nthe screening today.
+Dialogue: 0,0:04:05.57,0:04:06.23,main,A,0000,0000,0000,,Again with the money...
+Dialogue: 0,0:04:06.23,0:04:08.06,main,M,0000,0000,0000,,And that's why we need an audience.
+Dialogue: 0,0:04:08.06,0:04:12.14,main,K,0000,0000,0000,,First, since it's summer, we'll need to \Nmake sure our auditorium is nice and cool.
+Dialogue: 0,0:04:12.14,0:04:13.66,main,A,0000,0000,0000,,Good idea.
+Dialogue: 0,0:04:13.66,0:04:17.02,main,A,0000,0000,0000,,But I hear the HVAC club are \Nlackeys of the student council.
+Dialogue: 0,0:04:17.02,0:04:20.11,main,K,0000,0000,0000,,It'll be fine. I've got \Nwhat I need to negotiate.
+Dialogue: 0,0:04:20.11,0:04:22.86,main,K,0000,0000,0000,,But more important than even that...
+Dialogue: 0,0:04:24.36,0:04:27.42,main,K,0000,0000,0000,,is the involvement of the popular \Namateur model Tsubame Mizusaki,
+Dialogue: 0,0:04:27.42,0:04:30.63,main,K,0000,0000,0000,,and how much we can \Nput her out in front of this.
+Dialogue: 0,0:04:30.63,0:04:32.14,main,M,0000,0000,0000,,Whoa! Hang on!
+Dialogue: 0,0:04:32.14,0:04:34.75,main,M,0000,0000,0000,,That makes it sounds like the anime \Nwould be playing second fiddle
+Dialogue: 0,0:04:34.75,0:04:36.33,main,M,0000,0000,0000,,to Tsubame Mizusaki!
+Dialogue: 0,0:04:36.33,0:04:37.89,main,K,0000,0000,0000,,What're you talking about?
+Dialogue: 0,0:04:37.89,0:04:40.68,main,K,0000,0000,0000,,We're using you along with \Nair-conditioning to get people
+Dialogue: 0,0:04:40.68,0:04:42.67,main,K,0000,0000,0000,,to pay attention to the anime,
+Dialogue: 0,0:04:42.67,0:04:45.68,main,K,0000,0000,0000,,not the other way around. Right?
+Dialogue: 0,0:04:46.82,0:04:48.60,main,M,0000,0000,0000,,I-I guess, but...
+Dialogue: 0,0:04:48.60,0:04:52.85,main,K,0000,0000,0000,,We're going to win over the people who \Ncame to see you with the anime's quality.
+Dialogue: 0,0:04:52.85,0:04:55.91,main,K,0000,0000,0000,,Which we can't do if they won't show up.
+Dialogue: 0,0:04:55.91,0:04:59.07,main,K,0000,0000,0000,,And if the short is good enough, \Nthey're bound to preorder the DVD.
+Dialogue: 0,0:04:59.07,0:05:00.52,main,A,0000,0000,0000,,That's a lot of extra responsibility..
+Dialogue: 0,0:05:00.85,0:05:05.43,main,K,0000,0000,0000,,We've got a big spotlight that'll \Nallow us to draw plenty of attention.
+Dialogue: 0,0:05:05.43,0:05:08.74,main,K,0000,0000,0000,,We need to use that to our \Nadvantage as much as possible.
+Dialogue: 0,0:05:08.74,0:05:10.27,main,K,0000,0000,0000,,Whether we like it or not,
+Dialogue: 0,0:05:10.27,0:05:14.46,main,K,0000,0000,0000,,if it benefits our production situation \Nin the long run, we need to do it.
+Dialogue: 0,0:05:14.46,0:05:15.31,main,M,0000,0000,0000,,I'm kinda worried
+Dialogue: 0,0:05:15.31,0:05:17.82,main,M,0000,0000,0000,,my parents might find out if \NI draw too much attention, though.
+Dialogue: 0,0:05:17.82,0:05:20.55,main,A,0000,0000,0000,,Oh, right, if your parents find out...
+Dialogue: 0,0:05:20.55,0:05:21.84,main,M,0000,0000,0000,,Huh? Asakusa...
+Dialogue: 0,0:05:22.34,0:05:24.22,main,M,0000,0000,0000,,You're holding your chopsticks kind of weird.
+Dialogue: 0,0:05:29.90,0:05:31.37,main,M,0000,0000,0000,,You can actually grab stuff like that?!
+Dialogue: 0,0:05:36.74,0:05:39.35,main,M,0000,0000,0000,,I think I'll be our poster girl after all.
+Dialogue: 0,0:05:40.14,0:05:42.70,main,M,0000,0000,0000,,My parents found out I didn't go home today.
+Dialogue: 0,0:05:42.70,0:05:44.44,main,K,0000,0000,0000,,You didn't tell them?
+Dialogue: 0,0:05:44.44,0:05:46.42,main,M,0000,0000,0000,,If they knew I was working \Non the culture festival,
+Dialogue: 0,0:05:46.42,0:05:47.78,main,M,0000,0000,0000,,they'd want to know specifics...
+Dialogue: 0,0:05:47.78,0:05:52.24,main,M,0000,0000,0000,,And they just told me... that they're coming.
+Dialogue: 0,0:05:52.24,0:05:54.83,main,A,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:05:55.15,0:06:00.33,main,A,0000,0000,0000,,But if they find out, you won't be \Nable to make anime anymore, Mizusaki!
+Dialogue: 0,0:06:03.42,0:06:06.84,sign_8714_106_Episode_8__The_G,Eptitle sign,0000,0000,0000,,{\fad(515,515)}Episode 8       {\fscx57}The Grand Shibahama Festival!
+Dialogue: 0,0:07:00.06,0:07:01.21,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep
+Dialogue: 0,0:07:02.48,0:07:03.56,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Your
+Dialogue: 0,0:07:05.11,0:07:06.13,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Hands
+Dialogue: 0,0:07:07.53,0:07:08.51,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Off
+Dialogue: 0,0:07:08.86,0:07:19.50,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:07:19.50,0:07:27.71,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:07:41.70,0:07:44.48,main,K,0000,0000,0000,,Are you sure about this, Mizusaki?
+Dialogue: 0,0:07:44.48,0:07:48.45,main,M,0000,0000,0000,,I don't care if they find out anymore! \NMy family situation can suck it!
+Dialogue: 0,0:07:49.32,0:07:52.31,main,M,0000,0000,0000,,If they're coming, then bring 'em on!\N I'll give them a real eyeful!
+Dialogue: 0,0:07:52.31,0:07:54.25,main,M,0000,0000,0000,,Besides, if I can't bring in \Na crowd for this screening,
+Dialogue: 0,0:07:54.25,0:07:55.46,main,M,0000,0000,0000,,we're at a dead end anyway!
+Dialogue: 0,0:07:55.46,0:07:58.37,main,K,0000,0000,0000,,Hell yeah! You'll have our \Nfull support as backup!
+Dialogue: 0,0:07:58.37,0:08:00.28,main,A,0000,0000,0000,,For once, we're gonna \Ntackle things with spirit!
+Dialogue: 0,0:08:00.28,0:08:04.37,main,A,0000,0000,0000,,Spirit, spirit, spirit, go!
+Dialogue: 0,0:08:04.95,0:08:08.44,main,A,0000,0000,0000,,We've already lost the chance \Nto form a line, though...
+Dialogue: 0,0:08:08.44,0:08:10.42,main,A,0000,0000,0000,,It's like everyone's putting \Non a spirited show.
+Dialogue: 0,0:08:10.42,0:08:12.42,main,Carbogirls,0000,0000,0000,,Our electromagnetic amoeba!
+Dialogue: 0,0:08:10.42,0:08:12.42,sign_11759_124_Electro_magnetic,Sign,0000,0000,0000,,Electro-\Nmagnetic\N Amoeba
+Dialogue: 0,0:08:10.42,0:08:12.42,sign_11759_125_Accessibility_Re,Wheelchair sign,0000,0000,0000,,{\frz60\move(500,200,465,155)}Accessibility \N{\c&H1F1E1E&}Research Club
+Dialogue: 0,0:08:12.42,0:08:13.07,sign_11807_126_Pi_Research_Club,Fan sign,0000,0000,0000,,Pi Research Club \N~The Beauty of Pi~ \N{\fs20\fnComic Sans MS}Pi Is Great!
+Dialogue: 0,0:08:13.22,0:08:15.22,sign_11826_127_Rap_Club,Banner sign,0000,0000,0000,,{\frz-84.81\pos(354,36)}Rap Club
+Dialogue: 0,0:08:13.22,0:08:15.22,sign_11826_128_Rakuda,Other banner sign,0000,0000,0000,,{\frz-89.02\pos(270,113)\fax-0.27}Rakuda
+Dialogue: 0,0:08:13.22,0:08:15.84,main,Rap Club,0000,0000,0000,,I'm the best there is! No. 1 in the biz!
+Dialogue: 0,0:08:15.22,0:08:15.97,sign_11874_130_Short_Wave_Radio,Fan sign,0000,0000,0000,,Shortwave Radio Research Club!\N{\fnComic Sans MS\fs16}Shortwave radio tournament coming up on the East Tower roof
+Dialogue: 0,0:08:16.01,0:08:18.51,sign_11893_131_Oden_Club,Red banner,0000,0000,0000,,{\frz4.9\pos(217,71)}Oden Club
+Dialogue: 0,0:08:16.01,0:08:18.51,sign_11893_132_Shaved_Ice_Club,Blue Banner,0000,0000,0000,,{\frz7.5\pos(62,34)}Shaved {\c&HC34D28&}Ice {\c&H393940&}Club
+Dialogue: 0,0:08:16.01,0:08:18.51,main,Captive Eater,0000,0000,0000,,Hot, hot, hot! That radish is too...
+Dialogue: 0,0:08:16.01,0:08:18.51,top,Shaved Ice,0000,0000,0000,,Anyone want some shaved ice?
+Dialogue: 0,0:08:18.51,0:08:19.28,sign_11953_135_Shingeki_Theater,Fan sign,0000,0000,0000,,Shingeki Theater Research Club \N{\fs20\c&H174555&\fnComic Sans MS\3c&H6E9EB1&} We will be performing in Auditorium 3!!
+Dialogue: 0,0:08:19.52,0:08:21.18,sign_11977_136_Presented_by_the,Eizoken flier sign,0000,0000,0000,,Presented by the Robot Study Club Featuring the Eizouken\N{\fs20\fnVerdana\c&HFFFEFD&\3c&HBDA19D&}SHIBA8 {\c&H7975D2&\3c&HFFFFFF&}VS {\c&HFEFEFE&\3c&H969EDC&}The Pistol Crabtle\N{\fs14\c&H8CBE9A&\3c&HFFFFFE&}The Great Shibahama Festival!\N{\fs10\c&H887EB8&}Including an appearance by the famous model\N{\fs30\c&HFBC756&}Tsubame Mizusaki\N\N{\fs20\c&H5F605E&}Join us!\N\N\N{\fs14}Something will happen\Nin Shibahama...
+Dialogue: 0,0:08:19.52,0:08:23.28,main,M,0000,0000,0000,,We're the eizouken! Please check us out!
+Dialogue: 0,0:08:23.28,0:08:26.13,main,K,0000,0000,0000,,Tsubame Mizusaki has worked on an anime—
+Dialogue: 0,0:08:23.79,0:08:26.73,top,A,0000,0000,0000,,Please come by!
+Dialogue: 0,0:08:26.73,0:08:27.27,main,A,0000,0000,0000,,We've got anime!
+Dialogue: 0,0:08:27.62,0:08:31.03,main,M,0000,0000,0000,,Tsubame Mizusaki will be appearing at—
+Dialogue: 0,0:08:32.07,0:08:35.41,main,A,0000,0000,0000,,Even the people who'd come to see \Nyou won't notice us at this rate.
+Dialogue: 0,0:08:35.86,0:08:37.87,main,Ono,0000,0000,0000,,Thank you for your service!
+Dialogue: 0,0:08:38.28,0:08:39.83,sign_12427_145_Tsubame_Mizusaki,Robot Box signs,0000,0000,0000,,Tsubame Mizusaki
+Dialogue: 0,0:08:40.85,0:08:41.85,main,M,0000,0000,0000,,The robot club?
+Dialogue: 0,0:08:41.85,0:08:43.78,main,Ono,0000,0000,0000,,The prep took longer than anticipated.
+Dialogue: 0,0:08:49.73,0:08:53.88,sign_12701_147_Tsubame_Mizusaki,Banner sign,0000,0000,0000,,Tsubame Mizusaki! We're Launching a Rocket Before the Robot Anime Screening!
+Dialogue: 0,0:08:50.45,0:08:52.04,main,Crowd,0000,0000,0000,,Hey, what's that?
+Dialogue: 0,0:08:52.04,0:08:53.88,main,Crowd,0000,0000,0000,,What the...
+Dialogue: 0,0:08:55.88,0:08:58.60,main,Tsubame,0000,0000,0000,,Count down along with us!
+Dialogue: 0,0:08:58.60,0:09:00.72,main,Tsubame,0000,0000,0000,,Ten! Nine!
+Dialogue: 0,0:09:00.72,0:09:04.27,main,Eizouken,0000,0000,0000,,Eight! Seven! Six! Five!
+Dialogue: 0,0:09:04.27,0:09:06.85,sign_12701_147_Tsubame_Mizusaki,,0000,0000,0000,,{\fs10}Tsubame Mizusaki! We're Launching a Rocket Before the Robot Anime Screening!
+Dialogue: 0,0:09:04.27,0:09:08.11,main,Eizouken,0000,0000,0000,,Four! Three! Two! One!
+Dialogue: 0,0:09:08.11,0:09:10.11,main,M,0000,0000,0000,,Fire!
+Dialogue: 0,0:09:15.36,0:09:18.44,main,Ono,0000,0000,0000,,A robot anime featuring Tsubame Mizusaki
+Dialogue: 0,0:09:18.44,0:09:20.62,main,Ono,0000,0000,0000,,will be screening in Auditorium No. 1!
+Dialogue: 0,0:09:20.62,0:09:23.70,main,M,0000,0000,0000,,I made an anime! Come check it out!
+Dialogue: 0,0:09:23.70,0:09:26.21,main,M,0000,0000,0000,,I'll also be greeting the audience!
+Dialogue: 0,0:09:26.21,0:09:27.98,main,Crowd,0000,0000,0000,,Wait, isn't that...
+Dialogue: 0,0:09:26.81,0:09:27.98,main,Crowd,0000,0000,0000,,It's really her!
+Dialogue: 0,0:09:27.98,0:09:29.22,main,Crowd,0000,0000,0000,,Tsubame Mizusaki!
+Dialogue: 0,0:09:32.21,0:09:33.97,main,Crowd,0000,0000,0000,,She's so cute!
+Dialogue: 0,0:09:33.97,0:09:35.22,main,A,0000,0000,0000,,Dang...
+Dialogue: 0,0:09:35.22,0:09:36.84,main,Rap Club,0000,0000,0000,,Man, celebs have it easy.
+Dialogue: 0,0:09:36.84,0:09:38.40,main,Other clubs,0000,0000,0000,,I thought there was a ban on megaphones?
+Dialogue: 0,0:09:36.84,0:09:39.20,sign_13831_166_Three_Star_Resta,Other clubs,0000,0000,0000,,{\fad(1,500)}Three-Star\NRestaurant
+Dialogue: 0,0:09:38.40,0:09:41.68,main,K,0000,0000,0000,,It's nice and cool inside! Care to join us?
+Dialogue: 0,0:09:38.40,0:09:41.68,top,Other clubs,0000,0000,0000,,So she gets away with it because she's famous?
+Dialogue: 0,0:09:42.70,0:09:45.18,main,K,0000,0000,0000,,Let's leave this to Mizusaki \Nand the robot club.
+Dialogue: 0,0:09:45.18,0:09:47.27,main,K,0000,0000,0000,,We need to cover the rest of the campus.
+Dialogue: 0,0:09:47.27,0:09:48.60,main,Other two,0000,0000,0000,,Roger!
+Dialogue: 0,0:09:56.73,0:09:58.57,main,HVAC Club,0000,0000,0000,,What about twenty-two?
+Dialogue: 0,0:10:00.01,0:10:04.08,main,K,0000,0000,0000,,Is that number your idea of a joke? \NBecause I'm not here for comedy.
+Dialogue: 0,0:10:04.08,0:10:05.97,main,HVAC Club,0000,0000,0000,,You'd better watch your mouth.
+Dialogue: 0,0:10:05.97,0:10:06.73,main,HVAC Club,0000,0000,0000,,Who do you think you are?
+Dialogue: 0,0:10:06.73,0:10:07.54,main,Prez,0000,0000,0000,,Wait.
+Dialogue: 0,0:10:09.10,0:10:11.57,main,Prez,0000,0000,0000,,How about it? Twenty-one suit you better?
+Dialogue: 0,0:10:11.57,0:10:12.85,main,K,0000,0000,0000,,Eighteen.
+Dialogue: 0,0:10:13.61,0:10:14.54,main,Prez,0000,0000,0000,,Twenty.
+Dialogue: 0,0:10:14.54,0:10:15.98,main,K,0000,0000,0000,,Sixteen, then.
+Dialogue: 0,0:10:15.98,0:10:16.88,main,Prez,0000,0000,0000,,Nineteen!
+Dialogue: 0,0:10:17.26,0:10:18.95,main,K,0000,0000,0000,,I said sixteen.
+Dialogue: 0,0:10:21.63,0:10:23.51,main,Prez,0000,0000,0000,,You dirty, rotten...
+Dialogue: 0,0:10:25.02,0:10:26.52,sign_14986_183_Auditorium_1,Sign,0000,0000,0000,,Auditorium 1
+Dialogue: 0,0:10:28.77,0:10:38.99,sign_15076_184_Missing,Sign,0000,0000,0000,,Fight for every degree°
+Dialogue: 0,0:10:28.78,0:10:30.82,main,K,0000,0000,0000,,We've got a deal, then.
+Dialogue: 0,0:10:32.02,0:10:33.77,main,HVAC Club,0000,0000,0000,,President, why?!
+Dialogue: 0,0:10:33.77,0:10:35.16,main,HVAC Club,0000,0000,0000,,It's ecologically criminal!
+Dialogue: 0,0:10:35.16,0:10:37.42,main,HVAC Club,0000,0000,0000,,And if the student council \Nfinds out, we'll be in huge trouble!
+Dialogue: 0,0:10:37.42,0:10:38.99,main,Prez,0000,0000,0000,,You're all guilty, too!
+Dialogue: 0,0:10:42.49,0:10:45.82,main,Prez,0000,0000,0000,,If these pictures get out, we're done for!
+Dialogue: 0,0:10:46.23,0:10:50.25,main,Club,0000,0000,0000,,Damn it! She's a monster! A devil!
+Dialogue: 0,0:10:52.11,0:10:54.01,main,Ono,0000,0000,0000,,Autographs will be available \Nat the screening!
+Dialogue: 0,0:10:54.01,0:10:56.96,main,Ono,0000,0000,0000,,This is a handshake-only promotion!
+Dialogue: 0,0:10:56.96,0:10:59.98,main,Ono,0000,0000,0000,,Head to the auditorium if you want more!
+Dialogue: 0,0:10:57.83,0:10:59.98,main,Kumajima,0000,0000,0000,,Please don't crowd together!
+Dialogue: 0,0:10:59.98,0:11:01.98,top,Kumajima,0000,0000,0000,,
+Dialogue: 0,0:11:00.27,0:11:01.98,main,Dotonbori,0000,0000,0000,,Proceed into school grounds.
+Dialogue: 0,0:11:01.98,0:11:05.22,main,Kumajima,0000,0000,0000,,The use of megaphones and aerial \Naccoutrements is forbidden!
+Dialogue: 0,0:11:05.22,0:11:07.54,main,Kumajima,0000,0000,0000,,What were you going to do if you \Nhit someone with that rocket?!
+Dialogue: 0,0:11:07.54,0:11:11.07,main,Kumajima,0000,0000,0000,,Mizusaki of the eizouken, you're under\N arrest as the ringleader!
+Dialogue: 0,0:11:11.07,0:11:12.82,main,Ono,0000,0000,0000,,This is a promotion by the robot club!
+Dialogue: 0,0:11:12.82,0:11:14.73,main,Ono,0000,0000,0000,,The responsibility lies with us!
+Dialogue: 0,0:11:14.73,0:11:18.03,main,Ono,0000,0000,0000,,Everyone, head on over to \NAuditorium No. 1 and shake hands with me!
+Dialogue: 0,0:11:19.02,0:11:20.23,main,Seki,0000,0000,0000,,Mizusaki...
+Dialogue: 0,0:11:22.23,0:11:25.56,main,Seki,0000,0000,0000,,Here. Kanamori gave the order.
+Dialogue: 0,0:11:25.56,0:11:28.65,main,Seki,0000,0000,0000,,We're all going to protect you, so don't worry.
+Dialogue: 0,0:11:29.29,0:11:30.21,main,M,0000,0000,0000,,Thank you...
+Dialogue: 0,0:11:30.21,0:11:34.08,main,Seki,0000,0000,0000,,Anything for the robot anime's screening.
+Dialogue: 0,0:11:36.58,0:11:37.97,main,Kumajima,0000,0000,0000,,Where's Mizusaki?
+Dialogue: 0,0:11:37.97,0:11:39.58,main,Seki,0000,0000,0000,,I don't know.
+Dialogue: 0,0:11:39.58,0:11:42.80,main,Kumajima,0000,0000,0000,,You're in the robot club, \Nbut I don't see any cardboard.
+Dialogue: 0,0:11:47.59,0:11:48.57,main,Kumajima,0000,0000,0000,,There!
+Dialogue: 0,0:11:53.83,0:11:55.81,italics,Kumajima,0000,0000,0000,,Mizusaki, excellent work.
+Dialogue: 0,0:11:55.81,0:11:57.94,italics,Kumajima,0000,0000,0000,,Now you just need to make \Nit to the auditorium.
+Dialogue: 0,0:11:57.94,0:11:59.23,main,M,0000,0000,0000,,Is this gonna work?!
+Dialogue: 0,0:11:59.23,0:12:01.82,main,K,0000,0000,0000,,Keep going ahead. I'll direct you.
+Dialogue: 0,0:12:02.38,0:12:04.59,main,K,0000,0000,0000,,Anyone in a cardboard robot is on our side.
+Dialogue: 0,0:12:04.59,0:12:06.11,main,K,0000,0000,0000,,Watch out for the security club.
+Dialogue: 0,0:12:07.42,0:12:08.83,italics,K,0000,0000,0000,,Get down.
+Dialogue: 0,0:12:08.83,0:12:16.33,sign_17475_221_Missing,,0000,0000,0000,,{\frz66.6\fax-0.08\pos(145,312)}Udon
+Dialogue: 0,0:12:08.83,0:12:16.33,sign_17475_222_Missing,,0000,0000,0000,,{\frz67.31\fax-0.22\pos(199,188)}Woodworking\NClub
+Dialogue: 0,0:12:08.83,0:12:16.33,sign_17475_223_Missing,,0000,0000,0000,,{\frz26.57\fax-0.5\pos(543,139)\fay-.04}Karaage\NRamen
+Dialogue: 0,0:12:12.83,0:12:14.14,italics,K,0000,0000,0000,,Head down those stairs.
+Dialogue: 0,0:12:17.15,0:12:26.09,sign_17674_222_Missing,Sign,0000,0000,0000,,Danger
+Dialogue: 0,0:12:17.59,0:12:18.47,italics,K,0000,0000,0000,,Stop!
+Dialogue: 0,0:12:21.19,0:12:24.83,italics,K,0000,0000,0000,,Okay. Keep going, and then head \Ninto the hall on your left.
+Dialogue: 0,0:12:26.09,0:12:27.14,main,Security,0000,0000,0000,,I've got her!
+Dialogue: 0,0:12:28.10,0:12:30.06,main,Security,0000,0000,0000,,We've apprehended a robot.
+Dialogue: 0,0:12:30.06,0:12:31.60,main,Security,0000,0000,0000,,Get that one, too!
+Dialogue: 0,0:12:31.60,0:12:34.10,main,Security,0000,0000,0000,,We've caught a robot we believe to be Mizusaki.
+Dialogue: 0,0:12:34.10,0:12:36.44,main,Security,0000,0000,0000,,We've also caught one of the Mizusaki robots.
+Dialogue: 0,0:12:36.44,0:12:37.44,main,Security,0000,0000,0000,,Same here.
+Dialogue: 0,0:12:37.44,0:12:39.44,main,Security,0000,0000,0000,,We've spotted a crowd of them!
+Dialogue: 0,0:12:39.44,0:12:41.10,italics,Security,0000,0000,0000,,We'll move to apprehend them—
+Dialogue: 0,0:12:39.85,0:12:41.10,italics,Security,0000,0000,0000,,We've restrained one.
+Dialogue: 0,0:12:40.42,0:12:41.82,italicstop,Security,0000,0000,0000,,Got another one here.
+Dialogue: 0,0:12:41.10,0:12:42.49,italics,Security,0000,0000,0000,,Should we pursue?
+Dialogue: 0,0:12:42.49,0:12:44.45,main,Dotonbori,0000,0000,0000,,How many people are even in the eizouken?!
+Dialogue: 0,0:12:44.45,0:12:45.90,main,Dotonbori,0000,0000,0000,,Catch them all!
+Dialogue: 0,0:12:46.37,0:12:47.31,main,Security,0000,0000,0000,,You're under arrest!
+Dialogue: 0,0:12:48.66,0:12:53.50,sign_18430_238_Japanese_Marchin,Box Signs,0000,0000,0000,,Japanese Marching Band Study Group\N\N{\fs18\c&H21302C&\3c&HEFEAE0&}The {\c&H413CD0&}robot anime {\c&H21302C&}will\Nbe screening in Auditorium No. 1!\NThe famous {\c&HFC8909&}Tsubame\N Mizusaki {\c&H21302C&}will be there!!
+Dialogue: 0,0:12:48.66,0:12:53.50,main,Band,0000,0000,0000,,Paper robot costumes are available \Nto anyone who wants one!
+Dialogue: 0,0:12:53.50,0:12:58.37,main,Band,0000,0000,0000,,Make it to Auditorium No. 1 \Nin your robot cosplay,
+Dialogue: 0,0:12:58.37,0:13:02.21,main,Band,0000,0000,0000,,and you'll receive some \Nspecial Tsubame merchandise!
+Dialogue: 0,0:13:02.21,0:13:04.22,sign_18755_242_Presented_by_the,Sign,0000,0000,0000,,Presented by the Robot Study Club Featuring the Eizouken\N{\fs20\fnVerdana\c&HB8B7B7&\3c&H9A564D&}SHIBA8 {\3c&HB8B7B7&\c&H58509F&}VS {\c&HB8B7B7&\3c&H625EA3&}The Pistol Crabtle\N{\fs14\3c&HB8B7B7&\c&H63856D&}The Great Shibahama Festival!\N{\fs10\c&H4A4784&}Including an appearance by the famous model\N{\fs30\c&HB58D4E&}Tsubame Mizusaki\N\N{\fs20\c&H3F3E3A&}will be there!\N\N\N{\fs14}Something will happen\Nin Shibahama...
+Dialogue: 0,0:13:02.21,0:13:04.22,main,Crowd,0000,0000,0000,,Huh, it takes place at the school?
+Dialogue: 0,0:13:04.22,0:13:06.26,main,A,0000,0000,0000,,Yes. With a few alterations, but...
+Dialogue: 0,0:13:04.22,0:13:13.93,sign_18803_244_Cardboard_Robot_,Banner,0000,0000,0000,,{\frz-34\fax0.45\pos(196,63)\fay.02}Cardboard Robot Distribution
+Dialogue: 0,0:13:06.26,0:13:07.83,main,Crowd,0000,0000,0000,,Sounds like fun!
+Dialogue: 0,0:13:07.83,0:13:10.41,main,Crowd,0000,0000,0000,,And to think a girl like her \Nis making a robot anime!
+Dialogue: 0,0:13:10.41,0:13:11.97,main,Crowd,0000,0000,0000,,I'm in!
+Dialogue: 0,0:13:10.99,0:13:13.93,sign_18803_245_Tsubame_Mizusaki,Banner,0000,0000,0000,,Tsubame Mizusaki
+Dialogue: 0,0:13:11.97,0:13:13.93,main,A,0000,0000,0000,,Th-Thanks for your interest.
+Dialogue: 0,0:13:13.93,0:13:16.05,main,Kumajima,0000,0000,0000,,Bring them all in.
+Dialogue: 0,0:13:16.05,0:13:18.40,main,Ono,0000,0000,0000,,This is oppression by the majority—
+Dialogue: 0,0:13:16.89,0:13:18.40,main,Kumajima,0000,0000,0000,,Get those boxes off them!
+Dialogue: 0,0:13:18.40,0:13:19.66,main,Security,0000,0000,0000,,They're not coming off!
+Dialogue: 0,0:13:19.66,0:13:21.47,main,Kumajima,0000,0000,0000,,Some of them might not be students.
+Dialogue: 0,0:13:21.47,0:13:23.43,main,Kumajima,0000,0000,0000,,Don't get too rough.
+Dialogue: 0,0:13:24.78,0:13:26.61,main,Kumajima,0000,0000,0000,,He's getting away! After him!
+Dialogue: 0,0:13:27.79,0:13:32.95,main,Ono,0000,0000,0000,,My soul, dadada! A body of iron, dadada!
+Dialogue: 0,0:13:32.95,0:13:39.17,main,Ono,0000,0000,0000,,An invincible body with a steel \Nheart fighting to the end, dadada!
+Dialogue: 0,0:13:39.17,0:13:43.67,top,Ono,0000,0000,0000,,Dun dun dun dun, \Nmachines have no tears to shed!
+Dialogue: 0,0:13:39.57,0:13:43.67,main,Kobayashi,0000,0000,0000,,Ono... he's powering up!
+Dialogue: 0,0:13:43.67,0:13:47.93,top,Ono,0000,0000,0000,,But you can see the passion \Nwelling up inside!
+Dialogue: 0,0:13:44.62,0:13:46.07,main,Kumajima,0000,0000,0000,,We'll deal with them later!
+Dialogue: 0,0:13:46.07,0:13:47.93,main,Seki,0000,0000,0000,,Go, Ono!
+Dialogue: 0,0:13:47.93,0:13:49.72,main,Ono,0000,0000,0000,,Passion!
+Dialogue: 0,0:13:49.72,0:13:51.30,main,Crowd,0000,0000,0000,,Boy, that takes me back.
+Dialogue: 0,0:13:51.30,0:13:52.47,main,Crowd,0000,0000,0000,,So cool!
+Dialogue: 0,0:13:52.47,0:13:56.73,sign_19960_269_Robot_anime_scre,Ono back sign,0000,0000,0000,,Robot anime screening in Auditorium No. 1!\N With Tsubame Mizusaki!
+Dialogue: 0,0:13:52.78,0:13:54.98,main,Crowd,0000,0000,0000,,Huh, an anime screening?
+Dialogue: 0,0:13:54.98,0:13:55.80,main,Crowd,0000,0000,0000,,Let's check it out!
+Dialogue: 0,0:13:55.80,0:13:56.74,main,Crowd,0000,0000,0000,,Sounds good.
+Dialogue: 0,0:13:56.73,0:13:58.81,sign_20062_273_Zipline,Sign,0000,0000,0000,,Zip Line
+Dialogue: 0,0:14:11.28,0:14:13.54,sign_20411_277_Zipline,,0000,0000,0000,,{\move(240,170,285,170)}Z       {\3c&HEAEFEC&}I       {\3c&HE1E4BB&}P       {\3c&HEAEDEC&}L         {\3c&HEEEAAA&}I        {\3c&HEFF2F1&}NE
+Dialogue: 0,0:14:11.45,0:14:12.61,main,Zipline Guys,0000,0000,0000,,Here he comes!
+Dialogue: 0,0:14:12.61,0:14:13.54,main,Zipline Guys,0000,0000,0000,,Welcome!
+Dialogue: 0,0:14:15.17,0:14:18.67,main,Ono,0000,0000,0000,,Switch: Super Wing!
+Dialogue: 0,0:14:21.55,0:14:23.17,main,Zipline Guys,0000,0000,0000,,Easy does it!
+Dialogue: 0,0:14:26.69,0:14:30.45,sign_20780_278_Robot_anime_scre,Pink Banner Sign,0000,0000,0000,,Robot anime screening featuring Tsubame Mizusaki!
+Dialogue: 0,0:14:30.45,0:14:31.48,main,Crowd,0000,0000,0000,,What the heck?
+Dialogue: 0,0:14:31.48,0:14:32.43,main,Crowd,0000,0000,0000,,What's his deal?
+Dialogue: 0,0:14:32.93,0:14:34.18,main,Crowd,0000,0000,0000,,Holy moly!
+Dialogue: 0,0:14:40.22,0:14:42.14,main,Ono,0000,0000,0000,,Touchdown!
+Dialogue: 0,0:14:43.69,0:14:46.16,main,Crowd,0000,0000,0000,,I'm gonna check your show out!
+Dialogue: 0,0:14:46.16,0:14:47.32,main,Crowd,0000,0000,0000,,Good luck!
+Dialogue: 0,0:14:59.53,0:15:01.33,main,M,0000,0000,0000,,That's a big crowd!
+Dialogue: 0,0:15:01.33,0:15:03.01,main,K,0000,0000,0000,,Mission accomplished.
+Dialogue: 0,0:15:03.01,0:15:04.15,main,M,0000,0000,0000,,Where's Asakusa?
+Dialogue: 0,0:15:04.15,0:15:06.18,main,K,0000,0000,0000,,She's still passing out \Nfliers near the entrance.
+Dialogue: 0,0:15:06.18,0:15:08.00,main,K,0000,0000,0000,,She should be on her way back in.
+Dialogue: 0,0:15:08.00,0:15:10.18,main,Staff,0000,0000,0000,,Mizusaki! We need you \Nstanding by at stage left.
+Dialogue: 0,0:15:11.17,0:15:13.43,main,Ono,0000,0000,0000,,I did it... I've done it!
+Dialogue: 0,0:15:13.43,0:15:16.09,main,Ono,0000,0000,0000,,I did it!
+Dialogue: 0,0:15:16.09,0:15:17.68,main,D,0000,0000,0000,,You're not done yet.
+Dialogue: 0,0:15:18.02,0:15:20.06,main,A,0000,0000,0000,,The show's about to start!
+Dialogue: 0,0:15:20.06,0:15:22.37,sign_11977_136_Presented_by_the,Sign,0000,0000,0000,,Presented by the Robot Study Club Featuring the Eizouken\N{\fs20\fnVerdana\c&HFFFEFD&\3c&HCD7C70&}SHIBA8 {\3c&HFFFFFF&\c&H836BEE&}VS {\c&HFEFEFE&\3c&H97A0E0&}The Pistol Crabtle\N{\fs14\3c&HFFFFFE&\c&H8EB099&}The Great Shibahama Festival!\N{\fs10\c&H887EB8&}Including an appearance by the famous model\N{\fs30\c&HFBC756&}Tsubame Mizusaki\N\N{\fs20\c&H5F605E&}will be there!\N\N\N{\fs14}Something will happen\Nin Shibahama...
+Dialogue: 0,0:15:23.15,0:15:24.16,main,MIBS,0000,0000,0000,,I remember you!
+Dialogue: 0,0:15:24.16,0:15:25.19,main,A,0000,0000,0000,,Men in black!
+Dialogue: 0,0:15:25.19,0:15:26.23,main,MIBs,0000,0000,0000,,Get back here!
+Dialogue: 0,0:15:27.03,0:15:28.07,main,Mom,0000,0000,0000,,Hang on a sec.
+Dialogue: 0,0:15:30.97,0:15:33.42,main,Security,0000,0000,0000,,The robot club has holed up\N inside Auditorium No. 1.
+Dialogue: 0,0:15:33.42,0:15:34.78,main,Security,0000,0000,0000,,Should we breach?
+Dialogue: 0,0:15:34.78,0:15:37.16,main,Dotonbori,0000,0000,0000,,We can't take them in if \Nthey're inside the venue.
+Dialogue: 0,0:15:37.16,0:15:39.29,main,Dotonbori,0000,0000,0000,,Nail them as soon as they set foot outside!
+Dialogue: 0,0:15:40.10,0:15:41.79,main,A,0000,0000,0000,,Oh crap! Oh crap! Oh crap!
+Dialogue: 0,0:15:42.26,0:15:45.11,main,A,0000,0000,0000,,I just handed a flier to some men \Nin black and Mizusaki's parents!
+Dialogue: 0,0:15:46.41,0:15:47.63,main,K,0000,0000,0000,,They're already here.
+Dialogue: 0,0:15:53.79,0:15:55.27,main,Staff,0000,0000,0000,,It's almost time.
+Dialogue: 0,0:15:58.41,0:16:03.13,main,Ono,0000,0000,0000,,The robot study club will now \Nbegin the screening of its anime!
+Dialogue: 0,0:16:05.75,0:16:07.73,main,Crowd,0000,0000,0000,,This should be good!
+Dialogue: 0,0:16:07.73,0:16:10.25,main,Crowd,0000,0000,0000,,It's Tsubame Mizusaki!
+Dialogue: 0,0:16:10.25,0:16:11.77,main,Crowd,0000,0000,0000,,Tsubame!
+Dialogue: 0,0:16:11.77,0:16:13.63,main,Crowd,0000,0000,0000,,There she is!
+Dialogue: 0,0:16:16.26,0:16:19.79,main,MIBS,0000,0000,0000,,We're so sorry. We tried to stop her, but...
+Dialogue: 0,0:16:21.66,0:16:23.04,main,Mom,0000,0000,0000,,They did?
+Dialogue: 0,0:16:23.04,0:16:27.25,main,Dad,0000,0000,0000,,It was my idea. I wanted to get \NTsubame's mind off of anime.
+Dialogue: 0,0:16:27.83,0:16:30.95,main,Dad,0000,0000,0000,,You wanted her to be an actress, remember?
+Dialogue: 0,0:16:40.19,0:16:42.23,main,M,0000,0000,0000,,I am really excited for this.
+Dialogue: 0,0:16:42.69,0:16:43.36,main,A,0000,0000,0000,,Now!
+Dialogue: 0,0:16:43.36,0:16:44.48,main,K,0000,0000,0000,,Wait, it's not—
+Dialogue: 0,0:16:45.23,0:16:46.81,main,M,0000,0000,0000,,Please enjoy!
+Dialogue: 0,0:17:07.42,0:17:09.92,main,Crowd,0000,0000,0000,,Hey, that's really Shibahama! Cool!
+Dialogue: 0,0:17:11.29,0:17:12.88,main,Crowd,0000,0000,0000,,Look at them eat!
+Dialogue: 0,0:17:12.88,0:17:15.34,main,Crowd,0000,0000,0000,,Why so much crab?
+Dialogue: 0,0:17:16.81,0:17:18.41,main,Crowd,0000,0000,0000,,Look at that...
+Dialogue: 0,0:17:22.75,0:17:25.77,main,Seki,0000,0000,0000,,Vibrations have been detected \Nin the underground pit.
+Dialogue: 0,0:17:27.77,0:17:29.30,italics,Goto,0000,0000,0000,,A monster resembling a crab has appeared.
+Dialogue: 0,0:17:29.30,0:17:31.78,italics,Goto,0000,0000,0000,,I repeat, a monster resembling \Na crab has appeared...
+Dialogue: 0,0:17:37.61,0:17:40.33,main,Kobayashi,0000,0000,0000,,Open it up... Easy does it...
+Dialogue: 0,0:17:46.58,0:17:47.79,sign_9995_143_Preparing_Launch,Sign,0000,0000,0000,,{\pos(334,194)\frz-11.11\fax0.1\fay-.009\fad(1,435)}Preparing Launch
+Dialogue: 0,0:17:47.50,0:17:48.58,sign_9995_143_Preparing_Launch,Sign,0000,0000,0000,,{\frz-12.5\fax0.1\fay-.009\pos(353,114)\fs40\fad(435,1)\fscx200\fscy200\c&HA3FEFD&}Launching
+Dialogue: 0,0:17:53.34,0:17:55.63,main,Seki,0000,0000,0000,,Head directly to the subterranean waterway.
+Dialogue: 0,0:17:56.12,0:17:59.09,italics,Goto,0000,0000,0000,,The target is on a slow and steady \Ncourse through the underground.
+Dialogue: 0,0:18:02.81,0:18:05.93,main,Ono,0000,0000,0000,,Recoil starter!
+Dialogue: 0,0:18:31.04,0:18:32.46,main,Mom,0000,0000,0000,,That running...
+Dialogue: 0,0:18:32.46,0:18:33.55,main,Dad,0000,0000,0000,,It's Tsubame.
+Dialogue: 0,0:18:33.55,0:18:37.19,main,Ono,0000,0000,0000,,A cooling fan is down, and the movement \Nsoftware isn't coming online!
+Dialogue: 0,0:18:37.19,0:18:39.71,main,Ono,0000,0000,0000,,Wh-What?! Manual control?!
+Dialogue: 0,0:19:12.23,0:19:16.53,main,Dad,0000,0000,0000,,You remember how Tsubame's \Nalways been good at dancing?
+Dialogue: 0,0:19:17.01,0:19:18.73,main,Dad,0000,0000,0000,,She'd mimic what she saw on TV.
+Dialogue: 0,0:19:18.73,0:19:22.55,main,Mom,0000,0000,0000,,Yeah. She used to imitate \Nhow her grandma moved, too.
+Dialogue: 0,0:19:22.55,0:19:24.50,main,Mom,0000,0000,0000,,And that bit before...
+Dialogue: 0,0:19:31.17,0:19:34.39,main,Dad,0000,0000,0000,,She was always analyzing and \Nrepeating things she saw.
+Dialogue: 0,0:19:34.39,0:19:36.06,main,Dad,0000,0000,0000,,I always thought it was brilliant.
+Dialogue: 0,0:19:43.11,0:19:44.66,main,Mom,0000,0000,0000,,But at some point...
+Dialogue: 0,0:19:45.62,0:19:47.90,main,Mom,0000,0000,0000,,She started having more fun \Nrecreating the movements
+Dialogue: 0,0:19:47.90,0:19:50.93,main,Mom,0000,0000,0000,,she saw with art, rather than with her body.
+Dialogue: 0,0:19:52.33,0:19:55.96,main,Mom,0000,0000,0000,,I think her real talent is her eye for detail.
+Dialogue: 0,0:20:01.43,0:20:03.72,main,Dad,0000,0000,0000,,And even without the help of their parents...
+Dialogue: 0,0:20:03.72,0:20:05.85,main,Mom,0000,0000,0000,,Kids will still grow up.
+Dialogue: 0,0:20:08.74,0:20:10.94,main,Dad,0000,0000,0000,,There's real ingenuity to all this.
+Dialogue: 0,0:20:11.50,0:20:14.60,main,Dad,0000,0000,0000,,I've been on her case about \Nbecoming an actress, but...
+Dialogue: 0,0:20:16.94,0:20:20.61,main,Dad,0000,0000,0000,,Tsubame is already a fine performer.
+Dialogue: 0,0:20:41.15,0:20:44.61,sign_29758_353_Missing_Missing,Sign,0000,0000,0000,,{\frz-6.34\fax0.08\pos(248,213)\fad(1,611)\t(2592,3909,\3c&H2E260C&)}Sponsor\N{\fs12}Robot Study Club
+Dialogue: 0,0:20:49.43,0:20:50.55,main,Crowd,0000,0000,0000,,Tsubame!
+Dialogue: 0,0:20:51.49,0:20:52.55,main,Crowd,0000,0000,0000,,Tsubame!
+Dialogue: 0,0:20:53.64,0:20:57.90,sign_30058_356_Tsubame_Mizusaki,Banner sign,0000,0000,0000,,{\frz-86.4\fax0.32\fscx105\pos(109,193)}Tsubame Mizusaki Autograph Session
+Dialogue: 0,0:20:53.64,0:20:57.90,main,K,0000,0000,0000,,Preorder your DVD now and you'll get a bonus!
+Dialogue: 0,0:20:58.46,0:21:02.15,sign_30173_358_Candid_Photos_of,Sign,0000,0000,0000,,{\u1\move(433,20,433,70,1,130)\fscx105}Candid Photos{\u0} of Animator {\b1\c&H5239C3&}Tsubame Mizusaki{\b0}
+Dialogue: 0,0:20:58.86,0:20:59.85,main,Crowd,0000,0000,0000,,Want!
+Dialogue: 0,0:20:59.85,0:21:02.15,main,Crowd,0000,0000,0000,,I gotta get that bonus!
+Dialogue: 0,0:21:02.15,0:21:04.13,main,K,0000,0000,0000,,Please line up!
+Dialogue: 0,0:21:02.15,0:21:05.80,top,Ono,0000,0000,0000,,An invincible body and a steel heart!
+Dialogue: 0,0:21:04.13,0:21:07.16,main,K,0000,0000,0000,,You don't get in line, you don't get the bonus!
+Dialogue: 0,0:21:07.16,0:21:08.92,main,Crowd,0000,0000,0000,,That was amazing!
+Dialogue: 0,0:21:08.92,0:21:10.98,main,M,0000,0000,0000,,Really? Thank you so much!
+Dialogue: 0,0:21:13.35,0:21:14.93,main,M,0000,0000,0000,,Thanks for coming by!
+Dialogue: 0,0:21:16.70,0:21:18.68,main,K,0000,0000,0000,,We'll take it from here.
+Dialogue: 0,0:21:18.68,0:21:22.42,main,K,0000,0000,0000,,Head out the back and grab \Nus some lunch, please.
+Dialogue: 0,0:21:22.42,0:21:24.46,main,M,0000,0000,0000,,Yeah! Thanks.
+Dialogue: 0,0:21:24.46,0:21:27.46,main,K,0000,0000,0000,,We've got plenty to go around.
+Dialogue: 0,0:21:27.46,0:21:31.68,main,K,0000,0000,0000,,And if you preorder now, you can get an \Nautographed picture of Tsubame Mizusaki!
+Dialogue: 0,0:21:31.68,0:21:34.97,main,K,0000,0000,0000,,Go ahead and put down your name and \Naddress on the form while you're in line.
+Dialogue: 0,0:21:34.97,0:21:36.31,main,K,0000,0000,0000,,Cash only.
+Dialogue: 0,0:21:36.31,0:21:38.94,sign_31081_374_Yakisoba,Blue banner,0000,0000,0000,,Yakisoba
+Dialogue: 0,0:21:37.82,0:21:38.94,main,M,0000,0000,0000,,Four, please.
+Dialogue: 0,0:21:39.27,0:21:40.95,main,Food,0000,0000,0000,,That'll be 1,600 yen.
+Dialogue: 0,0:21:42.31,0:21:43.69,main,Dad,0000,0000,0000,,Let me get that.
+Dialogue: 0,0:21:43.69,0:21:45.95,sign_31258_379_Yakisoba,Blue banner,0000,0000,0000,,{\frz-95.95\fax-0.03\pos(114,11)\fscx116}Y{\3c&HD3A61A&}a{\3c&HBD9309&}k{\3c&HC58E13&}i{\3c&HC99315&}s{\3c&HC88B10&}o{\3c&HBC7D0A&}b{\3c&HBA7A12&}a
+Dialogue: 0,0:21:44.17,0:21:45.07,main,Dad,0000,0000,0000,,Hey.
+Dialogue: 0,0:21:51.25,0:21:55.55,main,M,0000,0000,0000,,Say... have you ever been \Nsatisfied with a performance?
+Dialogue: 0,0:21:57.62,0:21:59.46,main,Mom,0000,0000,0000,,I haven't.
+Dialogue: 0,0:21:59.46,0:22:00.67,main,Dad,0000,0000,0000,,Me neither.
+Dialogue: 0,0:22:00.67,0:22:01.93,main,M,0000,0000,0000,,I see.
+Dialogue: 0,0:22:03.98,0:22:05.47,main,M,0000,0000,0000,,I realized something working on it.
+Dialogue: 0,0:22:06.15,0:22:11.34,main,M,0000,0000,0000,,That to me, life is about \Nworking on stuff like this.
+Dialogue: 0,0:22:12.77,0:22:15.85,main,M,0000,0000,0000,,And there's nothing I can do about that, now.
+Dialogue: 0,0:22:18.94,0:22:20.63,main,M,0000,0000,0000,,I need to take this to the others!
+Dialogue: 0,0:22:24.97,0:22:27.11,main,M,0000,0000,0000,,What did you think of my animation?
+Dialogue: 0,0:22:29.41,0:22:32.26,main,Dad,0000,0000,0000,,Real explosions give off a different impression.
+Dialogue: 0,0:22:32.26,0:22:33.87,main,Dad,0000,0000,0000,,And the way they held those chopsticks...
+Dialogue: 0,0:22:33.87,0:22:37.00,main,M,0000,0000,0000,,You could've told me sooner! \NI didn't find out until this morning!
+Dialogue: 0,0:22:37.81,0:22:40.79,main,Mom,0000,0000,0000,,But... it was some fine acting.
+Dialogue: 0,0:22:43.46,0:22:47.30,main,M,0000,0000,0000,,Just what I'd expect from a couple \Nof actors. You know what to look for!
+Dialogue: 0,0:22:54.61,0:22:55.69,main,M,0000,0000,0000,,Sorry about the wait!
+Dialogue: 0,0:22:55.69,0:22:56.56,main,A,0000,0000,0000,,Mizusaki!
+Dialogue: 0,0:22:57.17,0:22:59.26,main,A,0000,0000,0000,,There were a ton of preorders for the DVDs.
+Dialogue: 0,0:22:59.26,0:23:01.57,main,A,0000,0000,0000,,And we ran out of all the \Npictures we had prepared.
+Dialogue: 0,0:23:02.59,0:23:05.91,main,A,0000,0000,0000,,Despite the reception, I feel like I'm \Nonly satisfied with 20% of what we did.
+Dialogue: 0,0:23:05.91,0:23:07.32,main,K,0000,0000,0000,,Again?
+Dialogue: 0,0:23:07.98,0:23:11.38,main,A,0000,0000,0000,,It might've been more impressive \Nwith more long shots...
+Dialogue: 0,0:23:11.38,0:23:13.00,main,A,0000,0000,0000,,And a more detailed \Nbackground during the scene
+Dialogue: 0,0:23:13.00,0:23:16.95,main,A,0000,0000,0000,,with the wall collapsing would've \Nadded to the sense of scale—
+Dialogue: 0,0:23:18.96,0:23:21.14,main,Mom,0000,0000,0000,,Are you Tsubame's friends?
+Dialogue: 0,0:23:22.96,0:23:25.21,main,A,0000,0000,0000,,N-No, ma'am...
+Dialogue: 0,0:23:26.07,0:23:27.31,main,A,0000,0000,0000,,We're her comrades!
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_406_Illustraiton_by_,,0000,0000,0000,,{\fscx75}Illustration by: Shoko Takahata

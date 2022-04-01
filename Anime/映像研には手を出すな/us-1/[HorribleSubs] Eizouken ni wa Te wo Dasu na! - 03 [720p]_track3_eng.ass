@@ -1,0 +1,457 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Default - Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: OP_ED,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,13,13,24,0
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Keep Your Hands Off Eizouken,Open Sans Semibold,45,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_535_9_Film,Open Sans Semibold,39,&H007E6B6C,&H000000FF,&H00B29D9E,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,53,40,153,1
+Style: sign_571_10_Film,Open Sans Semibold,45,&H009E9897,&H000000FF,&H005A5C5E,&H00FDFFFF,1,0,0,0,100,100,0,0,1,3,3,8,40,167,27,1
+Style: sign_1948_31_Film,Open Sans Semibold,12,&H0086878B,&H000000FF,&H00EDFAF9,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,47,100,1
+Style: sign_2268_35_Episode_3__Let_s,Open Sans Semibold,29,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,1,187,133,327,1
+Style: sign_6984_82_Film,Open Sans Semibold,12,&H0081685E,&H000000FF,&H00FBFEFE,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,353,40,160,1
+Style: sign_11560_139_Club_Room_Ship_L,Open Sans Semibold,27,&H006697F5,&H000000FF,&H004D5D77,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,3,7,447,40,19,1
+Style: sign_11560_140_Mess_Hall,Open Sans Semibold,12,&H008F928D,&H000000FF,&H00FCFAFF,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_17535_223_Budget_Deliberat,Open Sans Semibold,38,&H001B4D77,&H000000FF,&H00E3F2FC,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,8,40,53,27,1
+Style: sign_18176_233_Shibahama_Food,Open Sans Semibold,32,&H0057665D,&H000000FF,&H0059DDCE,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,8,87,40,60,1
+Style: sign_18219_234_Today_s__special,Open Sans Semibold,21,&H002E3939,&H000000FF,&H00EAF7FF,&H0075947D,1,0,0,0,100,100,0,0,1,4,0,2,19,733,373,1
+Style: sign_20915_268_In_Association_w,Open Sans Semibold,36,&H0078FDFF,&H000000FF,&H00CE41F2,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,320,27,1
+Style: sign_729_8_Shibahama_South_,Open Sans Semibold,24,&H00575150,&H000000FF,&H00F1F2EF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,233,40,27,1
+Style: sign_21541_278_Shibahama_South_,Open Sans Semibold,32,&H006D817E,&H000000FF,&H00FBFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,307,40,27,1
+Style: sign_22767_286_Exit,Open Sans Semibold,30,&H00C0B2B2,&H000000FF,&H00EBE2E1,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,387,40,27,1
+Style: sign_26911_344_Summer_Anime_Spe,Open Sans Semibold,45,&H004E34CC,&H000000FF,&H00FFFFFF,&H00BAE4F1,1,0,0,0,100,100,0,0,1,3,0,2,40,53,367,1
+Style: sign_26911_345_How_It_s_Made_,Open Sans Semibold,45,&H004E34CC,&H000000FF,&H00FFFFFF,&H00BAE4F1,1,0,0,0,100,100,0,0,1,3,0,2,40,53,40,1
+Style: sign_27013_346_Part_3__Attentio,Open Sans Semibold,27,&H00CF3B3E,&H000000FF,&H00FFFFFF,&H00BAE4F1,1,0,0,0,100,100,0,0,1,3,0,2,73,40,67,1
+Style: sign_35868_418_Illustration_by_,Open Sans Semibold,15,&H19FFFFFF,&H000000FF,&H003F4137,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,573,40,67,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.11,0:00:02.43,main,Tsubame,0000,0000,0000,,How's it look?
+Dialogue: 0,0:00:02.43,0:00:04.46,main,Midori,0000,0000,0000,,A little crooked on the right.
+Dialogue: 0,0:00:04.46,0:00:05.66,main,Midori,0000,0000,0000,,Too far.
+Dialogue: 0,0:00:05.66,0:00:06.98,main,Midori,0000,0000,0000,,There! Perfect!
+Dialogue: 0,0:00:07.57,0:00:10.54,main,Midori,0000,0000,0000,,Now that is quite the sight.
+Dialogue: 0,0:00:18.70,0:00:19.99,main,Tsubame,0000,0000,0000,,It looks good!
+Dialogue: 0,0:00:21.33,0:00:22.29,main,Midori,0000,0000,0000,,Studio...
+Dialogue: 0,0:00:22.29,0:00:23.79,main,Both,0000,0000,0000,,Eizouken!
+Dialogue: 0,0:00:22.29,0:00:23.79,sign_535_9_Film,Sign,0000,0000,0000,,Film
+Dialogue: 0,0:00:23.79,0:00:24.79,sign_571_10_Film,Sign,0000,0000,0000,,Film
+Dialogue: 0,0:00:26.66,0:00:30.55,main,Midori,0000,0000,0000,,What if we had the logo walk by at the \Nbeginning of every project, like this?
+Dialogue: 0,0:00:30.55,0:00:32.20,main,Tsubame,0000,0000,0000,,I love it!
+Dialogue: 0,0:00:32.20,0:00:34.93,main,Kanamori,0000,0000,0000,,We don't even have a project yet.
+Dialogue: 0,0:00:35.72,0:00:38.34,main,Tsubame,0000,0000,0000,,Oh, there you are, Kanamori—
+Dialogue: 0,0:00:38.34,0:00:40.76,main,Kanamori,0000,0000,0000,,Didn't I tell you two not \Nto get ahead of yourselves?
+Dialogue: 0,0:00:40.76,0:00:42.35,main,Tsubame,0000,0000,0000,,But since we've got a meeting place—
+Dialogue: 0,0:00:42.35,0:00:44.94,sign_535_9_Film,Sign,0000,0000,0000,,{\c&HAA9E9E&\3c&HFFFFFF&}Film
+Dialogue: 0,0:00:42.35,0:00:44.94,main,Kanamori,0000,0000,0000,,It just looks like a random \Nsign that says "film."
+Dialogue: 0,0:00:44.94,0:00:47.16,main,Midori,0000,0000,0000,,A good design is about paying attention \Nto the minute details that—
+Dialogue: 0,0:00:47.16,0:00:48.21,main,Kanamori,0000,0000,0000,,More importantly...
+Dialogue: 0,0:00:48.21,0:00:52.47,main,Kanamori,0000,0000,0000,,We need to fix up the building \Nand then get to some actual work.
+Dialogue: 0,0:00:52.47,0:00:55.95,main,Kanamori,0000,0000,0000,,Because otherwise, our little \Ngroup is going to be broken up.
+Dialogue: 0,0:00:55.95,0:00:59.14,main,Midori,0000,0000,0000,,Hang on! The eizouken\N only just came together!
+Dialogue: 0,0:00:59.14,0:01:01.85,main,Kanamori,0000,0000,0000,,Do you think we have\N all the time in the world?
+Dialogue: 0,0:01:01.85,0:01:04.92,main,Kanamori,0000,0000,0000,,After a certain someone \Nspilled the beans about our
+Dialogue: 0,0:01:04.92,0:01:06.94,main,Kanamori,0000,0000,0000,,anime production to a teacher?
+Dialogue: 0,0:01:06.94,0:01:09.94,main,Midori,0000,0000,0000,,No way... I thought you \Nconvinced him to back down!
+Dialogue: 0,0:01:09.94,0:01:13.29,main,Kanamori,0000,0000,0000,,Are you getting enough \Noxygen to your brain?
+Dialogue: 0,0:01:13.29,0:01:16.38,main,Kanamori,0000,0000,0000,,My arguments were all just to get \Nhim to back off for the time being.
+Dialogue: 0,0:01:16.38,0:01:19.70,main,Kanamori,0000,0000,0000,,If he thinks about it calmly, \Nhe'll realize that we don't have a case.
+Dialogue: 0,0:01:20.54,0:01:24.29,main,Kanamori,0000,0000,0000,,My point being, if you don't \Nwant to take that sign down,
+Dialogue: 0,0:01:21.22,0:01:26.73,sign_1948_31_Film,Sign,0000,0000,0000,,Film
+Dialogue: 0,0:01:24.29,0:01:26.73,main,Kanamori,0000,0000,0000,,we need to accomplish something.
+Dialogue: 0,0:01:26.73,0:01:32.98,sign_571_10_Film,Sign,0000,0000,0000,,{\t(1358,2734,\c&H9DAA9B&\3c&H3A211E&\4c&HEDFEFD&)}Film
+Dialogue: 0,0:01:34.57,0:01:37.99,sign_2268_35_Episode_3__Let_s,Eptitle sign,0000,0000,0000,,{\fad(515,515)}Episode 3        {\fscx115}Let's Accomplish Something!
+Dialogue: 0,0:02:31.20,0:02:32.35,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep
+Dialogue: 0,0:02:33.62,0:02:34.73,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Your
+Dialogue: 0,0:02:36.25,0:02:37.27,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Hands
+Dialogue: 0,0:02:38.67,0:02:39.65,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Off
+Dialogue: 0,0:02:39.99,0:02:50.64,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:02:50.64,0:02:58.85,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:03:02.58,0:03:05.99,main,Midori,0000,0000,0000,,It's time to begin the briefing \Nfor our repairs of the club room.
+Dialogue: 0,0:03:05.99,0:03:08.35,main,Midori,0000,0000,0000,,A lack of suitable seriousness \Nwill not be tolerated!
+Dialogue: 0,0:03:08.35,0:03:09.21,main,Tsubame,0000,0000,0000,,Okay!
+Dialogue: 0,0:03:09.21,0:03:11.25,main,Midori,0000,0000,0000,,Kanamori, if you could get us started.
+Dialogue: 0,0:03:11.25,0:03:14.50,main,Kanamori,0000,0000,0000,,The phrase "pure profit" speaks to the
+Dialogue: 0,0:03:14.50,0:03:18.92,main,Kanamori,0000,0000,0000,,long-held dream of doing business \Nwithout any initial costs,
+Dialogue: 0,0:03:18.92,0:03:23.72,main,Kanamori,0000,0000,0000,,but in reality, doing anything without \Nincurring costs is next to impossible!
+Dialogue: 0,0:03:23.72,0:03:28.29,main,Kanamori,0000,0000,0000,,We've been able to obtain an animation desk \Nand fans from the school for free,
+Dialogue: 0,0:03:28.29,0:03:30.73,main,Kanamori,0000,0000,0000,,but even those aren't usable \Nwithout additional elbow grease.
+Dialogue: 0,0:03:30.73,0:03:33.66,main,Kanamori,0000,0000,0000,,The greatest example of which \Nis this decrepit club room!
+Dialogue: 0,0:03:33.66,0:03:37.96,main,,0000,0000,0000,,To wit: if we do not repair the \Nholes in the walls and roof,
+Dialogue: 0,0:03:37.96,0:03:40.86,main,,0000,0000,0000,,our crucial equipment runs \Nthe risk of water damage—
+Dialogue: 0,0:03:40.86,0:03:42.72,main,Midori,0000,0000,0000,,That's a alpine black swallowtail!
+Dialogue: 0,0:03:42.72,0:03:43.61,main,Midori,0000,0000,0000,,Catch it!
+Dialogue: 0,0:03:43.61,0:03:45.05,top,Tsubame,0000,0000,0000,,Wow, a butterfly!
+Dialogue: 0,0:03:43.61,0:03:49.62,main,Midori,0000,0000,0000,,Butterfly, flutter butter fly fly!
+Dialogue: 0,0:03:49.62,0:03:53.62,main,Kanamori,0000,0000,0000,,I have to say, the two of you are doing \Nan incredible job of staying serious.
+Dialogue: 0,0:03:53.62,0:03:56.85,main,Midori,0000,0000,0000,,Uh... at this point I'd like \Nto remind you all that we,
+Dialogue: 0,0:03:56.85,0:03:59.63,main,Midori,0000,0000,0000,,previously, came upon the \Nsizable sum of 30,000 yen!
+Dialogue: 0,0:03:59.63,0:04:01.13,main,Tsubame,0000,0000,0000,,We did!
+Dialogue: 0,0:04:01.13,0:04:03.95,main,Midori,0000,0000,0000,,The footage of my fall from the second floor
+Dialogue: 0,0:04:03.95,0:04:06.83,main,Midori,0000,0000,0000,,managed to sell for 30,000 \Nas accident footage.
+Dialogue: 0,0:04:06.83,0:04:09.64,main,Midori,0000,0000,0000,,And if you'll look here, this is \Nall that remains of those 30,000.
+Dialogue: 0,0:04:10.31,0:04:13.26,main,Midori,0000,0000,0000,,It has been nearly exhausted in \Nservice of the roof and wall repairs.
+Dialogue: 0,0:04:13.89,0:04:16.39,main,Midori,0000,0000,0000,,A moment of silence for our \Nlate comrade, the 30,000 yen!
+Dialogue: 0,0:04:16.39,0:04:17.40,main,Tsubame,0000,0000,0000,,Silence!
+Dialogue: 0,0:04:18.03,0:04:20.72,italics,Kanamori,0000,0000,0000,,Dearly departed 30,000 yen, \Nplease send a large group
+Dialogue: 0,0:04:20.72,0:04:22.44,italics,Kanamori,0000,0000,0000,,of your comrades to my pocket.
+Dialogue: 0,0:04:23.25,0:04:25.11,italics,Tsubame,0000,0000,0000,,I guess 30,000 yen is a lot of money?
+Dialogue: 0,0:04:25.11,0:04:28.18,italics,Tsubame,0000,0000,0000,,That's about as much as I got for \Nallowance when I was in third grade.
+Dialogue: 0,0:04:29.74,0:04:31.25,main,Midori,0000,0000,0000,,Raccoon dog!
+Dialogue: 0,0:04:31.25,0:04:33.57,main,Midori,0000,0000,0000,,Row row woof, it's a raccoon dog!
+Dialogue: 0,0:04:32.43,0:04:33.57,top,Tsubame,0000,0000,0000,,It's a sign!
+Dialogue: 0,0:04:33.57,0:04:36.19,top,Tsubame,0000,0000,0000,,Asakusa, we should start \Na festival! It'd be great!
+Dialogue: 0,0:04:33.57,0:04:36.86,main,Midori,0000,0000,0000,,Row row woof, it's a raccoon dog!
+Dialogue: 0,0:04:36.86,0:04:38.50,main,Kanamori,0000,0000,0000,,Get serious!
+Dialogue: 0,0:04:39.80,0:04:42.46,main,Kanamori,0000,0000,0000,,We are finishing these repairs today!
+Dialogue: 0,0:04:42.46,0:04:45.07,main,Kanamori,0000,0000,0000,,Any idiot who wastes further time
+Dialogue: 0,0:04:45.07,0:04:48.43,main,Kanamori,0000,0000,0000,,will be punished without mercy,\N so keep that in mind!
+Dialogue: 0,0:04:49.31,0:04:51.27,main,Both,0000,0000,0000,,R-Roger that.
+Dialogue: 0,0:04:51.27,0:04:56.27,sign_6984_82_Film,Sign,0000,0000,0000,,Film
+Dialogue: 0,0:04:52.18,0:04:56.27,main,Midori,0000,0000,0000,,Well, I'll handle the external holes, \Nso the inside's all yours, Kanamori.
+Dialogue: 0,0:04:56.27,0:04:58.98,main,Kanamori,0000,0000,0000,,Please take this seriously, Asakusa.
+Dialogue: 0,0:04:58.98,0:05:00.01,main,Midori,0000,0000,0000,,But of course!
+Dialogue: 0,0:05:02.21,0:05:04.07,main,Kanamori,0000,0000,0000,,I have my doubts about that.
+Dialogue: 0,0:05:07.89,0:05:10.83,main,Tsubame,0000,0000,0000,,You say that, but Asakusa is pretty cool.
+Dialogue: 0,0:05:11.82,0:05:14.76,main,Kanamori,0000,0000,0000,,Gross. What brought that on? And how, exactly?
+Dialogue: 0,0:05:14.76,0:05:19.49,main,Kanamori,0000,0000,0000,,I have a big problem with people who \Nstart a conversation by praising someone.
+Dialogue: 0,0:05:20.38,0:05:22.18,main,Tsubame,0000,0000,0000,,That sounds like you!
+Dialogue: 0,0:05:22.18,0:05:24.83,main,Tsubame,0000,0000,0000,,But repairing the walls \Nseems like a lot of work.
+Dialogue: 0,0:05:24.83,0:05:27.76,main,Tsubame,0000,0000,0000,,Isn't it impressive that \Nshe volunteered to do it?
+Dialogue: 0,0:05:27.76,0:05:30.33,main,Kanamori,0000,0000,0000,,She's only doing it because she wants to.
+Dialogue: 0,0:05:30.33,0:05:32.65,main,Kanamori,0000,0000,0000,,Asakusa is self-interested in that way.
+Dialogue: 0,0:05:32.65,0:05:34.54,main,Tsubame,0000,0000,0000,,You mean she enjoys helping people?
+Dialogue: 0,0:05:34.54,0:05:38.69,main,Kanamori,0000,0000,0000,,She isn't considering the fact \Nthat the work might be difficult.
+Dialogue: 0,0:05:38.69,0:05:41.98,main,Kanamori,0000,0000,0000,,Getting to play with a drill is fun to her,\N and that gets her motivated.
+Dialogue: 0,0:05:41.98,0:05:43.97,main,Tsubame,0000,0000,0000,,So it's more like our interests aligned!
+Dialogue: 0,0:05:43.97,0:05:45.74,main,Kanamori,0000,0000,0000,,That what she's like.
+Dialogue: 0,0:05:45.74,0:05:47.65,main,Kanamori,0000,0000,0000,,Think about grade school. \NOne student always rushed to
+Dialogue: 0,0:05:47.65,0:05:49.69,main,Kanamori,0000,0000,0000,,the broom closet when clean-up time came.
+Dialogue: 0,0:05:49.69,0:05:51.99,main,Kanamori,0000,0000,0000,,They didn't really want to help clean.
+Dialogue: 0,0:05:51.99,0:05:53.94,main,Kanamori,0000,0000,0000,,They wanted to play with \Nthe coolest-looking broom.
+Dialogue: 0,0:05:53.94,0:05:56.09,main,Tsubame,0000,0000,0000,,That's a great example!
+Dialogue: 0,0:06:03.25,0:06:06.07,italics,Midori,0000,0000,0000,,I guess there wouldn't be any \Nmotor noise, since space is a vacuum.
+Dialogue: 0,0:06:06.07,0:06:07.99,italics,Midori,0000,0000,0000,,The effects make for a stronger impact,
+Dialogue: 0,0:06:07.99,0:06:10.26,italics,Midori,0000,0000,0000,,but I think I'll deliberately \Ngo with muted sound.
+Dialogue: 0,0:06:12.51,0:06:13.76,italics,Midori,0000,0000,0000,,There!
+Dialogue: 0,0:06:13.76,0:06:19.98,italics,Midori,0000,0000,0000,,Would liquid paint float off \Nbefore actually drying in space?
+Dialogue: 0,0:06:21.05,0:06:25.48,italics,Midori,0000,0000,0000,,That calls for electrostatic powder coating!
+Dialogue: 0,0:06:25.49,0:06:26.41,italics,Midori,0000,0000,0000,,Hang on...
+Dialogue: 0,0:06:26.41,0:06:30.44,italics,Midori,0000,0000,0000,,In a vacuum with no gravity, wouldn't the\N ship develop an electric charge?
+Dialogue: 0,0:06:30.44,0:06:32.87,italics,Midori,0000,0000,0000,,Will a regular electrostatic charge be \Nenough for the powder to coat properly?
+Dialogue: 0,0:06:33.23,0:06:35.53,italics,Midori,0000,0000,0000,,Ah, who cares, it's my fantasy!
+Dialogue: 0,0:06:35.53,0:06:38.15,italics,Midori,0000,0000,0000,,No big deal if it's a little \Nbit more convenient for me.
+Dialogue: 0,0:06:38.15,0:06:40.46,italics,Midori,0000,0000,0000,,That just leaves applying the heat.
+Dialogue: 0,0:06:44.04,0:06:47.47,main,Kanamori,0000,0000,0000,,Care to explain why you're doodling and\N wearing a worn-out bucket on your head?
+Dialogue: 0,0:06:48.05,0:06:49.63,main,Midori,0000,0000,0000,,Uh, well...
+Dialogue: 0,0:06:49.63,0:06:52.76,main,Midori,0000,0000,0000,,I was just imagining what it'd be like \Nto train to repair a spaceship.
+Dialogue: 0,0:06:52.76,0:06:55.37,main,Tsubame,0000,0000,0000,,A spaceship?! That sounds like a ton of fun!
+Dialogue: 0,0:06:55.37,0:06:57.54,main,Kanamori,0000,0000,0000,,I figured as much.
+Dialogue: 0,0:06:57.54,0:07:01.48,main,Kanamori,0000,0000,0000,,The walls can wait for now, so could \Nyou at least take care of the roof?
+Dialogue: 0,0:07:01.48,0:07:03.48,sign_535_9_Film,Sign,0000,0000,0000,,Film
+Dialogue: 0,0:07:03.81,0:07:05.98,main,Kanamori,0000,0000,0000,,What do you have your bag?
+Dialogue: 0,0:07:05.98,0:07:08.26,main,Midori,0000,0000,0000,,It's a manned maneuvering unit!
+Dialogue: 0,0:07:10.83,0:07:12.70,main,Tsubame,0000,0000,0000,,I'm going, too!
+Dialogue: 0,0:07:18.62,0:07:19.75,main,Tsubame,0000,0000,0000,,There we go.
+Dialogue: 0,0:07:32.38,0:07:35.80,main,Tsubame,0000,0000,0000,,This is so high up! Awesome!
+Dialogue: 0,0:07:42.33,0:07:45.27,main,Tsubame,0000,0000,0000,,Wow, the hole is huge up close.
+Dialogue: 0,0:07:48.66,0:07:51.78,main,Kanamori,0000,0000,0000,,It's set. Do you think you'll \Nbe able to close the hole?
+Dialogue: 0,0:07:51.78,0:07:54.33,main,Midori,0000,0000,0000,,It's just sticking another \Npanel over it! Piece of cake!
+Dialogue: 0,0:07:54.33,0:07:56.39,main,Kanamori,0000,0000,0000,,No accidents, please.
+Dialogue: 0,0:07:57.35,0:08:00.15,main,Tsubame,0000,0000,0000,,Let's commence the mission \Nto repair the spaceship.
+Dialogue: 0,0:08:00.15,0:08:01.27,main,Midori,0000,0000,0000,,I copy!
+Dialogue: 0,0:08:01.96,0:08:02.89,main,Midori,0000,0000,0000,,Ta-dah!
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_139_Club_Room_Ship_L,{Orange} Sign,0000,0000,0000,,{\fscx80\fscy200}Club Room Ship Layout\N{\fscy150\fscx200} Eizouken
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\pos(352,141)}Mess Hall
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\pos(462,282)}Rear Hatch
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\an7\pos(24,288)}Observation Room\NNot the bridge.
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\pos(161,163)}Captain's\N cabin
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\pos(196,154)}Beds
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\an7\pos(551,23)}Extra-large rangefinder\NNot engines.
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\an7\pos(570,57)}Antenna, not \Naerodynamic wings
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\an7\pos(518,210)}The lens changes state from liquid\N to solid instantaneously,\N extending the range\N of the telescope
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\an7\pos(519,253)}Ship's Hull\NSince it's a medium-sized \N space-faring vessel, it can't\N fly in high atmospheric pressure\N or high gravity, and it also can't\N withstand atmospheric entry.\N Designed with typical vertical\Norientation, but because gravity\N control is a pricier option, it'll\N be operated in zero gravity.
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\an7\pos(153,13)}A ramen bowl developed with the\N intent of making ramen slurpable\N even in zero gravity.
+Dialogue: 0,0:08:02.14,0:08:04.06,sign_11560_140_Mess_Hall,,0000,0000,0000,,{\an7\pos(143,106)}The scientific community spent 10 years \Nand 12 billion dollars to develop this bowl \Nwhich rectifies the issue. (79,8000 yen)
+Dialogue: 0,0:08:02.89,0:08:04.63,main,Midori,0000,0000,0000,,The Eizouken's Club Room Ship!
+Dialogue: 0,0:08:04.63,0:08:07.65,main,Midori,0000,0000,0000,,The hull! Since it's a medium-sized\N space-faring vessel,
+Dialogue: 0,0:08:07.65,0:08:09.98,main,Midori,0000,0000,0000,,it can't fly in high atmospheric \Npressure or high gravity,
+Dialogue: 0,0:08:09.98,0:08:11.65,main,Midori,0000,0000,0000,,and it also can't withstand \Natmospheric entry.
+Dialogue: 0,0:08:11.65,0:08:12.96,main,Midori,0000,0000,0000,,It uses typical vertical orientation,
+Dialogue: 0,0:08:12.96,0:08:16.13,main,Midori,0000,0000,0000,,but since gravity control is a pricier option,
+Dialogue: 0,0:08:16.13,0:08:17.69,main,Midori,0000,0000,0000,,it'll be operated in zero gravity.
+Dialogue: 0,0:08:17.69,0:08:19.02,main,Midori,0000,0000,0000,,Classical design!
+Dialogue: 0,0:08:19.02,0:08:22.17,main,Midori,0000,0000,0000,,It has a bulbous bow like you'd see in a \Nmaritime vessel for wave resistance,
+Dialogue: 0,0:08:22.17,0:08:25.44,main,Midori,0000,0000,0000,,but since that's pointless in space, \Nwe'll stick the radar in there!
+Dialogue: 0,0:08:25.44,0:08:27.88,main,Midori,0000,0000,0000,,The frame is made of a special material
+Dialogue: 0,0:08:27.88,0:08:29.53,main,Midori,0000,0000,0000,,that can transmit electrical\N and optical signals,
+Dialogue: 0,0:08:29.53,0:08:31.27,main,Midori,0000,0000,0000,,which eliminates the need for various cables!
+Dialogue: 0,0:08:31.27,0:08:32.98,main,Midori,0000,0000,0000,,By altering this material, you can create
+Dialogue: 0,0:08:32.98,0:08:36.82,main,Midori,0000,0000,0000,,optical and electric circuits inside of \Nthe frame that function like computers!
+Dialogue: 0,0:08:36.82,0:08:40.24,main,Midori,0000,0000,0000,,This is the part of the vessel that \Nneeds the most advanced technology!
+Dialogue: 0,0:08:40.24,0:08:43.31,main,Midori,0000,0000,0000,,And to allow for the slurping of \Nramen in zero gravity, there is—
+Dialogue: 0,0:08:42.19,0:08:43.31,top,Kanamori,0000,0000,0000,,Enough!
+Dialogue: 0,0:08:45.49,0:08:48.20,main,Midori,0000,0000,0000,,The hole must've been caused by a debris impact.
+Dialogue: 0,0:08:48.20,0:08:49.67,main,Tsubame,0000,0000,0000,,It's pretty long.
+Dialogue: 0,0:08:50.25,0:08:52.80,main,Midori,0000,0000,0000,,The impact must've been at a shallow angle.
+Dialogue: 0,0:08:52.80,0:08:55.68,main,Midori,0000,0000,0000,,We'll use a hydraulic cutter \Nto remove the warped parts.
+Dialogue: 0,0:08:55.68,0:08:59.35,main,Midori,0000,0000,0000,,And here's the Pistol Grip Power Tool, \NPGT, which needs no introduction!
+Dialogue: 0,0:08:59.35,0:09:00.81,main,Tsubame,0000,0000,0000,,I've never heard of it before.
+Dialogue: 0,0:09:01.30,0:09:04.98,main,Midori,0000,0000,0000,,Well, it's a battery-powered \Ndriving tool that's been
+Dialogue: 0,0:09:04.98,0:09:08.10,main,Midori,0000,0000,0000,,used since the first mission \Nfor the space telescope's—
+Dialogue: 0,0:09:09.71,0:09:12.93,main,Midori,0000,0000,0000,,Debris! Take cover! Now!
+Dialogue: 0,0:09:27.12,0:09:28.71,main,Tsubame,0000,0000,0000,,No way! It's hailing!
+Dialogue: 0,0:09:28.71,0:09:29.59,main,Midori,0000,0000,0000,,Yeowch!
+Dialogue: 0,0:09:39.68,0:09:43.93,main,Midori,0000,0000,0000,,The sudden rush of debris made the \Nclub room ship's emergency lock engage!
+Dialogue: 0,0:09:43.93,0:09:46.39,main,Tsubame,0000,0000,0000,,This is bad! I have to go to the bathroom!
+Dialogue: 0,0:09:46.39,0:09:48.38,main,Midori,0000,0000,0000,,We don't have much oxygen left.
+Dialogue: 0,0:09:55.55,0:09:57.06,main,Tsubame,0000,0000,0000,,Hey!
+Dialogue: 0,0:09:57.06,0:09:59.87,main,Midori,0000,0000,0000,,Mayday, mayday! Please respond!
+Dialogue: 0,0:09:59.87,0:10:02.26,main,Kanamori,0000,0000,0000,,Yeah, yeah, this is the command room!
+Dialogue: 0,0:10:02.26,0:10:03.69,main,Kanamori,0000,0000,0000,,Is it an incident or an accident?
+Dialogue: 0,0:10:03.69,0:10:06.27,main,Midori,0000,0000,0000,,An accident! The ladder fell down,\Nand we're stuck up here!
+Dialogue: 0,0:10:06.27,0:10:07.31,main,Midori,0000,0000,0000,,Requesting assistance!
+Dialogue: 0,0:10:07.31,0:10:09.61,main,Tsubame,0000,0000,0000,,I need oxygen—I mean, to use the bathroom!
+Dialogue: 0,0:10:10.39,0:10:13.07,main,Kanamori,0000,0000,0000,,What in the world are they doing?
+Dialogue: 0,0:10:15.67,0:10:17.38,main,Tsubame,0000,0000,0000,,Kanamori, I have to go!
+Dialogue: 0,0:10:17.38,0:10:20.09,main,Kanamori,0000,0000,0000,,That assistance is going to take a second.
+Dialogue: 0,0:10:20.09,0:10:22.39,main,Kanamori,0000,0000,0000,,I've got a bit of situation down here, too.
+Dialogue: 0,0:10:23.41,0:10:25.39,main,Midori,0000,0000,0000,,Help me!
+Dialogue: 0,0:10:25.39,0:10:27.39,main,Midori,0000,0000,0000,,We're down to the air in our suits!
+Dialogue: 0,0:10:27.39,0:10:30.31,italics,Tsubame,0000,0000,0000,,Please! We're gonna die!
+Dialogue: 0,0:10:30.31,0:10:31.74,main,Kanamori,0000,0000,0000,,Good grief.
+Dialogue: 0,0:10:31.74,0:10:35.33,italics,Midori,0000,0000,0000,,M-Mizusaki, calm down! Take deep breaths!
+Dialogue: 0,0:10:39.43,0:10:41.41,italics,Midori,0000,0000,0000,,We're doomed!
+Dialogue: 0,0:10:48.57,0:10:52.59,main,Kanamori,0000,0000,0000,,I'm not sure why, but please \Nrelease the emergency lock.
+Dialogue: 0,0:10:52.59,0:10:56.23,main,Kanamori,0000,0000,0000,,We've got two astronauts on the \Nverge of bladder rupture. Over.
+Dialogue: 0,0:10:57.66,0:10:58.72,main,Kanamori,0000,0000,0000,,Or alternatively...
+Dialogue: 0,0:11:13.98,0:11:17.78,main,Kanamori,0000,0000,0000,,All right, the ladder is up! Now get down here!
+Dialogue: 0,0:11:18.49,0:11:20.35,main,Midori,0000,0000,0000,,K-Kanamori...
+Dialogue: 0,0:11:23.29,0:11:24.56,main,Midori,0000,0000,0000,,The bathroom emergency is taken care—
+Dialogue: 0,0:11:24.56,0:11:25.75,main,Kanamori,0000,0000,0000,,How'd you get down?
+Dialogue: 0,0:11:26.26,0:11:27.72,main,Midori,0000,0000,0000,,We slid down the gutter pipe—
+Dialogue: 0,0:11:27.72,0:11:30.32,main,Kanamori,0000,0000,0000,,I ended up having to smash through a wall.
+Dialogue: 0,0:11:30.32,0:11:35.21,main,Kanamori,0000,0000,0000,,That's extra labor and expenses,\Nwhich I assure you will come at a cost.
+Dialogue: 0,0:11:36.27,0:11:40.33,main,Kanamori,0000,0000,0000,,This rescue costs a week's worth of \Nbottled milk from the Ongyoku Bathhouse.
+Dialogue: 0,0:11:40.33,0:11:42.09,main,Midori,0000,0000,0000,,S-Seven hundred yen, huh...
+Dialogue: 0,0:11:42.09,0:11:45.31,main,Kanamori,0000,0000,0000,,Fourteen hundred yen, actually.\NI intend to drink two a day.
+Dialogue: 0,0:11:42.09,0:11:45.97,sign_571_10_Film,Sign,0000,0000,0000,,Film
+Dialogue: 0,0:11:48.35,0:11:49.09,main,Midori,0000,0000,0000,,All right!
+Dialogue: 0,0:11:49.09,0:11:51.54,main,Midori,0000,0000,0000,,Now to make a name for ourselves, \Nso we can get promoted to club status!
+Dialogue: 0,0:11:51.54,0:11:53.19,main,Tsubame,0000,0000,0000,,How are we going to do that?
+Dialogue: 0,0:11:53.19,0:11:56.69,main,Kanamori,0000,0000,0000,,Well, we're the film club, so the \Nsmart thing to do would be to
+Dialogue: 0,0:11:56.69,0:11:58.81,main,Kanamori,0000,0000,0000,,produce something high quality \Nto make our case to the school.
+Dialogue: 0,0:11:58.81,0:12:00.03,main,Fujimoto,0000,0000,0000,,Heavy...
+Dialogue: 0,0:12:00.03,0:12:01.97,main,Fujimoto,0000,0000,0000,,So heavy.
+Dialogue: 0,0:12:03.49,0:12:07.65,main,Fujimoto,0000,0000,0000,,And here I thought being a club advisor \Nwould be good for my circulation,
+Dialogue: 0,0:12:07.65,0:12:09.98,main,Fujimoto,0000,0000,0000,,but my beard feels heavy, as usual.
+Dialogue: 0,0:12:09.98,0:12:11.91,main,Fujimoto,0000,0000,0000,,Oh, and here.
+Dialogue: 0,0:12:11.33,0:12:17.42,sign_17535_223_Budget_Deliberat,Sign,0000,0000,0000,,Budget Deliberation Committee
+Dialogue: 0,0:12:12.55,0:12:14.96,main,Fujimoto,0000,0000,0000,,The seasonal budgets for clubs and associations
+Dialogue: 0,0:12:14.96,0:12:17.42,main,Fujimoto,0000,0000,0000,,are based on the presentations given here.
+Dialogue: 0,0:12:18.01,0:12:19.59,main,Fujimoto,0000,0000,0000,,Well, good luck with that.
+Dialogue: 0,0:12:20.27,0:12:23.57,main,Kanamori,0000,0000,0000,,Let's announce a project \Nat that with our presentation.
+Dialogue: 0,0:12:23.57,0:12:25.39,main,Kanamori,0000,0000,0000,,If we succeed, we'll have \Nmade a name for ourselves,
+Dialogue: 0,0:12:25.39,0:12:28.37,main,Kanamori,0000,0000,0000,,gotten promoted to a club, \Nand secured a budget!
+Dialogue: 0,0:12:28.37,0:12:30.22,main,Kanamori,0000,0000,0000,,It'll be three birds with one stone!
+Dialogue: 0,0:12:30.22,0:12:32.15,main,Kanamori,0000,0000,0000,,It's time to go on the attack!
+Dialogue: 0,0:12:32.15,0:12:33.71,main,Both,0000,0000,0000,,Yeah!
+Dialogue: 0,0:12:37.22,0:12:41.50,main,Kanamori,0000,0000,0000,,It's essentially a place to announce \Nplans to the student council and teachers.
+Dialogue: 0,0:12:38.08,0:12:42.61,sign_18176_233_Shibahama_Food,Cafeteria Sign,0000,0000,0000,,{\fad(2721,1)}Shibahama Food
+Dialogue: 0,0:12:39.88,0:12:42.61,sign_18219_234_Today_s__special,Poster sign,0000,0000,0000,,{\fad(921,1)}Today's\N special
+Dialogue: 0,0:12:41.50,0:12:42.61,main,Lunch lady,0000,0000,0000,,Here's your beef bowl!
+Dialogue: 0,0:12:42.95,0:12:45.31,main,Midori,0000,0000,0000,,I'll take a shoyu ramen with \Nwith extra seaweed and nori!
+Dialogue: 0,0:12:46.73,0:12:50.01,main,Kanamori,0000,0000,0000,,The format has each team make their \Npresentation in the gymnasium,
+Dialogue: 0,0:12:50.01,0:12:54.47,main,Kanamori,0000,0000,0000,,which is then the basis for \Ntheir budget during that period.
+Dialogue: 0,0:12:54.47,0:12:57.38,main,Lunch lady,0000,0000,0000,,Here's your shoyu ramen with \Nextra seaweed and nori!
+Dialogue: 0,0:12:57.38,0:13:01.88,main,Kanamori,0000,0000,0000,,Two bottles of milk, seven croquettes, \Nand one red bean bun with smooth paste.
+Dialogue: 0,0:13:02.43,0:13:03.86,main,Midori,0000,0000,0000,,Wait, we've gotta go up in front of a crowd?
+Dialogue: 0,0:13:03.86,0:13:05.02,main,Kanamori,0000,0000,0000,,That's right.
+Dialogue: 0,0:13:06.64,0:13:08.85,main,Kanamori,0000,0000,0000,,Each group has ten minutes \Nto make their presentation.
+Dialogue: 0,0:13:08.85,0:13:13.26,main,Kanamori,0000,0000,0000,,Our film production association is \Ngoing to be requesting 60,000 yen.
+Dialogue: 0,0:13:13.26,0:13:16.31,main,Kanamori,0000,0000,0000,,That's the maximum amount an \N"association" can ask for.
+Dialogue: 0,0:13:16.31,0:13:18.50,main,Tsubame,0000,0000,0000,,So the anime should be about five minutes long?
+Dialogue: 0,0:13:18.50,0:13:20.61,main,Midori,0000,0000,0000,,We'll have to start with a \Nscript and some storyboards.
+Dialogue: 0,0:13:20.61,0:13:22.78,main,Kanamori,0000,0000,0000,,Quality isn't our prime concern here.
+Dialogue: 0,0:13:22.78,0:13:25.80,main,Kanamori,0000,0000,0000,,We need to make a big impact\N with the least effort possible.
+Dialogue: 0,0:13:25.80,0:13:28.85,main,Kanamori,0000,0000,0000,,Our goal is to overwhelm the \Ncommittee and secure funding,
+Dialogue: 0,0:13:28.85,0:13:31.08,main,Kanamori,0000,0000,0000,,along with a promotion to club status.
+Dialogue: 0,0:13:31.08,0:13:34.46,main,Tsubame,0000,0000,0000,,Aw, I wanna take the time to make something good.
+Dialogue: 0,0:13:34.46,0:13:38.37,main,Kanamori,0000,0000,0000,,Easily said, but we only \Nhave 55 days to finish it.
+Dialogue: 0,0:13:38.37,0:13:40.61,main,Kanamori,0000,0000,0000,,If we go for 12 frames a second,
+Dialogue: 0,0:13:40.61,0:13:42.79,main,Kanamori,0000,0000,0000,,a five minute film means you'd \Nneed to produce 3600 drawings.
+Dialogue: 0,0:13:42.79,0:13:44.92,main,Kanamori,0000,0000,0000,,Factor in additional work beyond animation,
+Dialogue: 0,0:13:44.92,0:13:49.05,main,Kanamori,0000,0000,0000,,and the two of you would need to work \N50 days in a row non-stop, without sleep.
+Dialogue: 0,0:13:50.47,0:13:53.38,main,Kanamori,0000,0000,0000,,That being the case, we need \Nto begin as soon as possible.
+Dialogue: 0,0:13:53.38,0:13:57.54,main,Midori,0000,0000,0000,,Let's... make the runtime... \Nthree minutes, then.
+Dialogue: 0,0:13:57.54,0:14:00.48,main,Tsubame,0000,0000,0000,,We can't get started if we don't have \Nany idea what the story is, though.
+Dialogue: 0,0:14:01.62,0:14:04.87,main,Midori,0000,0000,0000,,I've got a bunch of ideas\Nstockpiled over at my place.
+Dialogue: 0,0:14:14.50,0:14:16.54,main,Midori,0000,0000,0000,,End seat is first come, first serve!
+Dialogue: 0,0:14:17.45,0:14:19.49,main,Tsubame,0000,0000,0000,,Well, I get to sit on the end on the way back!
+Dialogue: 0,0:14:19.49,0:14:22.91,main,Midori,0000,0000,0000,,This is my trip home anyway, \Nso no rematch for you!
+Dialogue: 0,0:14:22.91,0:14:24.27,main,Tsubame,0000,0000,0000,,Dang it!
+Dialogue: 0,0:14:32.30,0:14:34.31,sign_20915_268_In_Association_w,Watch sign,0000,0000,0000,,In Association with Tsubame Mizusaki
+Dialogue: 0,0:14:35.51,0:14:36.53,main,Kanamori,0000,0000,0000,,Huh.
+Dialogue: 0,0:14:41.95,0:14:45.09,main,Midori,0000,0000,0000,,I think the car's been hijacked \Nby ads starring you, Mizusaki.
+Dialogue: 0,0:14:45.09,0:14:47.86,main,Kanamori,0000,0000,0000,,They definitely give off a \Ndifferent impression.
+Dialogue: 0,0:14:49.45,0:14:50.74,main,Fans,0000,0000,0000,,Can we shake your hand?
+Dialogue: 0,0:14:50.74,0:14:51.93,main,Tsubame,0000,0000,0000,,Of course.
+Dialogue: 0,0:14:51.93,0:14:53.55,main,Fans,0000,0000,0000,,Thank you so much!
+Dialogue: 0,0:14:54.15,0:14:55.41,main,Tsubame,0000,0000,0000,,You're very welcome.
+Dialogue: 0,0:14:55.41,0:14:58.41,italics,Kanamori,0000,0000,0000,,She's switched into popular model mode.
+Dialogue: 0,0:14:55.78,0:14:58.41,top,Fans,0000,0000,0000,,We're big fans! Please, keep up the great work!
+Dialogue: 0,0:14:58.41,0:15:03.27,sign_21541_278_Shibahama_South_,Sign,0000,0000,0000,,Shibahama South Building
+Dialogue: 0,0:15:00.29,0:15:02.42,main,Tsubame,0000,0000,0000,,This place is pretty neat!
+Dialogue: 0,0:15:05.65,0:15:07.01,main,Midori,0000,0000,0000,,M'home.
+Dialogue: 0,0:15:10.71,0:15:12.43,main,Midori,0000,0000,0000,,Gimme one sec.
+Dialogue: 0,0:15:18.03,0:15:19.65,main,Midori,0000,0000,0000,,Here we go.
+Dialogue: 0,0:15:30.35,0:15:32.41,main,Kanamori,0000,0000,0000,,Well, that's certainly detailed.
+Dialogue: 0,0:15:32.41,0:15:34.61,main,Tsubame,0000,0000,0000,,I looks like it'd be a lot of work to draw.
+Dialogue: 0,0:15:44.93,0:15:47.03,main,Kanamori,0000,0000,0000,,Let's avoid anything too complicated.
+Dialogue: 0,0:15:49.57,0:15:52.61,sign_22767_286_Exit,Tunnel sign,0000,0000,0000,,Exit
+Dialogue: 0,0:15:59.45,0:16:02.44,main,Kanamori,0000,0000,0000,,I like this one. It's relatively simple.
+Dialogue: 0,0:16:02.44,0:16:04.57,main,Midori,0000,0000,0000,,It's basically just a stack of cubes, after all.
+Dialogue: 0,0:16:07.11,0:16:10.15,main,Kanamori,0000,0000,0000,,Are we fine with using this for the location?
+Dialogue: 0,0:16:10.15,0:16:13.32,main,Tsubame,0000,0000,0000,,I like it! So, what's going to happen here?
+Dialogue: 0,0:16:13.32,0:16:15.78,main,Kanamori,0000,0000,0000,,We just need the animation.
+Dialogue: 0,0:16:22.02,0:16:23.51,main,Midori,0000,0000,0000,,Tank coming through!
+Dialogue: 0,0:16:25.45,0:16:26.87,main,Midori,0000,0000,0000,,Compact frame!
+Dialogue: 0,0:16:28.30,0:16:29.93,main,Midori,0000,0000,0000,,Two main guns!
+Dialogue: 0,0:16:31.23,0:16:33.94,main,Midori,0000,0000,0000,,And it comes with flashy \Nhydropneumatic suspension!
+Dialogue: 0,0:16:35.23,0:16:36.65,main,Tsubame,0000,0000,0000,,Is that flashy?
+Dialogue: 0,0:16:36.65,0:16:38.81,main,Kanamori,0000,0000,0000,,To her? Most likely.
+Dialogue: 0,0:16:38.81,0:16:41.84,main,Midori,0000,0000,0000,,Ta-dah! The personal defense tank!
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(462,165)}APFSDS\NArmor-piercing\N fin-stabilized\N discarding sabot
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(516,167)}HEAT\NHigh-explosive\N anti-tank\N ammunition
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(563,187)}Armor-Piercing\N Round
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(564,165)}Gun-launched\N anti-tank missile
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(332,182)}A trusty, fully-equipped vehicle \Nwhich provides consistent \Nsupport for our adventures!
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(456,220)}Uses an odd caliber \Nof 16.873cm.\N Has both rifled and\N smoothbore barrels. \NLength 300mm.
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(22,27)}Able to jump up\N to 1m vertically
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(87,22)}High-end \Nhydropneumatic\N suspension makes\N low riders you'd\N see in the streets\N seem like kids' stuff.
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(186,240)}Continuous tracks result in\N zero relative speed with\N the point of contact, which is cool!
+Dialogue: 0,0:16:38.99,0:16:41.62,sign_11560_140_Mess_Hall,Sign,0000,0000,0000,,{\an7\pos(176,274)}Reaches speeds of 190 kmph,\N even on rough terrain.
+Dialogue: 0,0:16:41.84,0:16:44.14,main,Midori,0000,0000,0000,,An older design that resembles a rice cake.
+Dialogue: 0,0:16:44.14,0:16:45.48,main,Midori,0000,0000,0000,,It's cool how using continuous tracks
+Dialogue: 0,0:16:45.48,0:16:48.82,main,Midori,0000,0000,0000,,results in zero relative speed \Ndifference with the point of contact!
+Dialogue: 0,0:16:49.34,0:16:52.11,main,Midori,0000,0000,0000,,It can hit 190 km/h,\N even over rough terrain!
+Dialogue: 0,0:16:52.52,0:16:57.41,main,Midori,0000,0000,0000,,A trusty, fully-equipped vehicle which provides \Nconsistent support for our adventures!
+Dialogue: 0,0:17:02.91,0:17:04.53,main,Midori,0000,0000,0000,,The turret knocks the entire \Nturret rig backwards
+Dialogue: 0,0:17:04.53,0:17:07.33,main,Midori,0000,0000,0000,,to eject the shell casing, \Nafter which it sits back up!
+Dialogue: 0,0:17:21.81,0:17:23.68,main,Kanamori,0000,0000,0000,,The sound's a bit out of sync.
+Dialogue: 0,0:17:24.04,0:17:25.82,main,Midori,0000,0000,0000,,That's detail in the sound effects.
+Dialogue: 0,0:17:25.82,0:17:28.25,main,Midori,0000,0000,0000,,Light travels faster than sound, y'know.
+Dialogue: 0,0:17:28.25,0:17:28.89,main,Midori,0000,0000,0000,,Think about light—
+Dialogue: 0,0:17:28.89,0:17:30.18,main,Kanamori,0000,0000,0000,,Okay, enough.
+Dialogue: 0,0:17:30.18,0:17:33.69,main,Kanamori,0000,0000,0000,,This is great and all, but can\N you draw it, Mizusaki?
+Dialogue: 0,0:17:33.69,0:17:36.77,main,Tsubame,0000,0000,0000,,Well, I've never done effects
+Dialogue: 0,0:17:36.77,0:17:39.70,main,Tsubame,0000,0000,0000,,like smoke and fire before, \Nso I'd have to try first.
+Dialogue: 0,0:17:39.70,0:17:43.70,main,Tsubame,0000,0000,0000,,But the kind of animation \NI want to make is more like...
+Dialogue: 0,0:17:50.71,0:17:52.41,main,Tsubame,0000,0000,0000,,Sliding down an incline—
+Dialogue: 0,0:17:53.59,0:17:54.66,main,Tsubame,0000,0000,0000,,And falling!
+Dialogue: 0,0:17:55.55,0:17:56.55,main,Kanamori,0000,0000,0000,,Too plain.
+Dialogue: 0,0:17:59.79,0:18:02.81,main,Tsubame,0000,0000,0000,,You know that some animation \Nputs a focus on realism, right?
+Dialogue: 0,0:18:02.81,0:18:05.18,main,Tsubame,0000,0000,0000,,It can be really ordinary, everyday actions...
+Dialogue: 0,0:18:05.18,0:18:08.06,main,Tsubame,0000,0000,0000,,But when animated, it looks really amazing!
+Dialogue: 0,0:18:08.06,0:18:10.02,main,Kanamori,0000,0000,0000,,Isn't there something more efficient?
+Dialogue: 0,0:18:10.02,0:18:11.71,main,Kanamori,0000,0000,0000,,Some kind of animation spectacle that
+Dialogue: 0,0:18:11.71,0:18:14.50,main,Kanamori,0000,0000,0000,,would be impressive to anyone who's watching?
+Dialogue: 0,0:18:14.50,0:18:18.49,main,Tsubame,0000,0000,0000,,To me, this is the most \Nspectacular animation there is!
+Dialogue: 0,0:18:18.49,0:18:20.97,main,Kanamori,0000,0000,0000,,It'd cost too much for how plain it is!
+Dialogue: 0,0:18:20.97,0:18:23.09,main,Kanamori,0000,0000,0000,,You can even use limited animation, but please,
+Dialogue: 0,0:18:23.09,0:18:25.37,main,Kanamori,0000,0000,0000,,make something that's more flashy!
+Dialogue: 0,0:18:27.79,0:18:29.99,main,Tsubame,0000,0000,0000,,Animation is supposed to be about motion,
+Dialogue: 0,0:18:29.99,0:18:34.50,main,Tsubame,0000,0000,0000,,and animators are supposed \Nto make stuff move!
+Dialogue: 0,0:18:32.21,0:18:37.30,top,,0000,0000,0000,,{\fs20}—make stuff move!
+Dialogue: 0,0:18:35.27,0:18:39.99,main,Tsubame,0000,0000,0000,,Y'know, some professional \Nanimators will pick up a sword
+Dialogue: 0,0:18:39.99,0:18:42.15,main,Tsubame,0000,0000,0000,,and swing it around while working.
+Dialogue: 0,0:18:42.41,0:18:45.16,sign_26911_344_Summer_Anime_Spe,Red Sign,0000,0000,0000,,{\fad(628,662)}Summer Anime Special
+Dialogue: 0,0:18:42.41,0:18:45.16,sign_26911_345_How_It_s_Made_,Red Sign,0000,0000,0000,,{\fad(628,662)}How It's Made!
+Dialogue: 0,0:18:46.66,0:18:48.54,sign_27013_346_Part_3__Attentio,Blue Sign,0000,0000,0000,,{\fad(382,413)}Part 3: Attention to Detail in Animation
+Dialogue: 0,0:18:52.55,0:18:56.19,main,Tsubame,0000,0000,0000,,What kind of poses happen when \Nyou've got a sword on your hip?
+Dialogue: 0,0:18:56.19,0:18:58.15,main,Tsubame,0000,0000,0000,,How does it look when you unsheathe it?
+Dialogue: 0,0:18:58.15,0:19:00.15,main,Tsubame,0000,0000,0000,,How do the wrinkles bunch up\N when you move in a hakama?
+Dialogue: 0,0:19:00.15,0:19:04.16,main,Tsubame,0000,0000,0000,,They work while studying all \Nthose details, not just imagining them!
+Dialogue: 0,0:19:06.17,0:19:09.01,main,Tsubame,0000,0000,0000,,Being an animator is like being an actor!
+Dialogue: 0,0:19:09.01,0:19:11.68,main,Tsubame,0000,0000,0000,,But you portray more than just people...
+Dialogue: 0,0:19:11.68,0:19:14.98,main,Tsubame,0000,0000,0000,,The movement of dogs and cats, \Nthe ocean, the weather...
+Dialogue: 0,0:19:14.98,0:19:18.92,main,Tsubame,0000,0000,0000,,Cars, planes, all of that \Nis the animators acting!
+Dialogue: 0,0:19:19.33,0:19:23.13,main,Tsubame,0000,0000,0000,,I want to draw realistic, \Nlifelike acting with my own hands!
+Dialogue: 0,0:19:23.13,0:19:28.18,main,Tsubame,0000,0000,0000,,I don't just want to make anime, \NI want to make animation!
+Dialogue: 0,0:19:25.90,0:19:34.26,top,,0000,0000,0000,,{\fs20}—to make animation!
+Dialogue: 0,0:19:29.54,0:19:31.98,italics,Kanamori,0000,0000,0000,,It won't matter how flashy \Nthe subject matter is
+Dialogue: 0,0:19:31.98,0:19:34.41,italics,Kanamori,0000,0000,0000,,if the final product has \Nless motion than a picture book.
+Dialogue: 0,0:19:34.41,0:19:36.65,italics,Kanamori,0000,0000,0000,,That won't make a good impression\N with the review committee.
+Dialogue: 0,0:19:37.00,0:19:39.82,italics,Kanamori,0000,0000,0000,,Technical experience \Nis valuable, but more than that,
+Dialogue: 0,0:19:39.82,0:19:42.11,italics,Kanamori,0000,0000,0000,,hurting the artist's motivation seems unwise.
+Dialogue: 0,0:19:42.66,0:19:48.66,main,Kanamori,0000,0000,0000,,Fair enough. Let's combine the tank \Nwith what you're trying to do, Mizusaki.
+Dialogue: 0,0:19:48.66,0:19:53.25,main,Midori,0000,0000,0000,,How about a schoolgirl with a \Nsword fighting a tank?!
+Dialogue: 0,0:19:53.25,0:19:57.38,main,Midori,0000,0000,0000,,You can put the focus on realistic \Nacting with the girl's animation!
+Dialogue: 0,0:19:57.38,0:19:59.22,main,Tsubame,0000,0000,0000,,Oh... okay.
+Dialogue: 0,0:19:59.65,0:20:02.25,main,Midori,0000,0000,0000,,And we can balance that by \Nmaking the parts with the tank
+Dialogue: 0,0:20:02.25,0:20:04.18,main,Midori,0000,0000,0000,,and the explosions as over-the-top as we can.
+Dialogue: 0,0:20:07.19,0:20:08.95,main,Tsubame,0000,0000,0000,,Sounds good to me!
+Dialogue: 0,0:20:32.35,0:20:34.75,main,Tsubame,0000,0000,0000,,Should the sword be a katana?
+Dialogue: 0,0:20:34.75,0:20:36.47,main,Midori,0000,0000,0000,,How about a machete?
+Dialogue: 0,0:20:36.47,0:20:37.95,main,Midori,0000,0000,0000,,It's a bit more realistic for combat,
+Dialogue: 0,0:20:37.95,0:20:40.18,main,Midori,0000,0000,0000,,and you see them in action movies all the time,
+Dialogue: 0,0:20:40.18,0:20:43.73,main,Midori,0000,0000,0000,,but not too much in anime, I think!
+Dialogue: 0,0:20:43.73,0:20:46.26,main,Tsubame,0000,0000,0000,,I like the realism! Let's go with that!
+Dialogue: 0,0:20:50.59,0:20:52.79,main,Tsubame,0000,0000,0000,,Her hair should be able to flutter in the wind.
+Dialogue: 0,0:20:57.15,0:20:58.59,main,Midori,0000,0000,0000,,So cool!
+Dialogue: 0,0:20:58.59,0:21:02.26,main,Kanamori,0000,0000,0000,,Maybe I'm missing something, but how's \Nshe going to be able to fight a tank?
+Dialogue: 0,0:21:04.18,0:21:06.77,main,Midori,0000,0000,0000,,What if we give her an oxygen tank and mask?
+Dialogue: 0,0:21:06.77,0:21:07.49,main,,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:07.49,0:21:09.54,main,Midori,0000,0000,0000,,The world she's on has low gravity!
+Dialogue: 0,0:21:09.54,0:21:13.01,main,Midori,0000,0000,0000,,Which means the atmosphere is thin, \Nand you need the mask to breathe!
+Dialogue: 0,0:21:13.01,0:21:15.93,main,Midori,0000,0000,0000,,But in exchange, since she came \Nfrom a world with stronger gravity,
+Dialogue: 0,0:21:15.93,0:21:18.31,main,Midori,0000,0000,0000,,she can jump around all over \Nthe place, really quickly!
+Dialogue: 0,0:21:19.09,0:21:20.47,main,Midori,0000,0000,0000,,Since you won't have to worry about the face,
+Dialogue: 0,0:21:20.47,0:21:22.30,main,Midori,0000,0000,0000,,you can put your focus on the action!
+Dialogue: 0,0:21:22.30,0:21:25.01,main,Midori,0000,0000,0000,,Faces take quite a bit of time, after all.
+Dialogue: 0,0:21:25.01,0:21:26.84,main,Tsubame,0000,0000,0000,,I wanted to draw expressions, too.
+Dialogue: 0,0:21:27.17,0:21:29.89,main,Midori,0000,0000,0000,,Then how about simplifying \Nthings for the long shots,
+Dialogue: 0,0:21:29.89,0:21:33.62,main,Midori,0000,0000,0000,,but then you go for detail \Nduring the close ups?
+Dialogue: 0,0:21:33.62,0:21:35.59,main,Tsubame,0000,0000,0000,,Yeah! That should work!
+Dialogue: 0,0:21:36.35,0:21:38.31,main,Tsubame,0000,0000,0000,,Okay! Let's do that!
+Dialogue: 0,0:21:38.31,0:21:40.21,main,Midori,0000,0000,0000,,You're getting fired up!
+Dialogue: 0,0:21:40.69,0:21:43.32,italics,Kanamori,0000,0000,0000,,I can't believe that animation \Npaper costs so much,
+Dialogue: 0,0:21:43.32,0:21:44.90,italics,Kanamori,0000,0000,0000,,when the only thing \Nspecial about it is the holes.
+Dialogue: 0,0:21:44.90,0:21:48.11,italics,Kanamori,0000,0000,0000,,Wouldn't punching holes in \Nregular paper be good enough?
+Dialogue: 0,0:21:48.47,0:21:51.02,italics,Kanamori,0000,0000,0000,,Hello... a hole puncher for animation pegs?
+Dialogue: 0,0:21:51.02,0:21:55.47,italics,Kanamori,0000,0000,0000,,It's the exact three holes needed... \Nthis'll cover its own cost in no time.
+Dialogue: 0,0:22:03.47,0:22:06.09,main,Midori,0000,0000,0000,,So one thing we can do to make things \Nlook flashy without extra work
+Dialogue: 0,0:22:06.09,0:22:08.05,main,Midori,0000,0000,0000,,is draw one explosion,
+Dialogue: 0,0:22:09.80,0:22:12.78,main,Midori,0000,0000,0000,,and then copy it, to make it \Nlook like a string of blasts.
+Dialogue: 0,0:22:14.99,0:22:16.31,main,Kanamoto,0000,0000,0000,,I see.
+Dialogue: 0,0:22:16.31,0:22:19.31,main,Tsubame,0000,0000,0000,,Oh, there's that thing where you build up\N tension during a big attack...
+Dialogue: 0,0:22:19.31,0:22:21.31,main,Tsubame,0000,0000,0000,,Cut between the tank, the girl,\N the tank, and the girl,
+Dialogue: 0,0:22:21.31,0:22:23.32,main,Tsubame,0000,0000,0000,,enough that it starts to seem repetitive!
+Dialogue: 0,0:22:26.69,0:22:28.82,main,Midori,0000,0000,0000,,Ta-dah! A vast world!
+Dialogue: 0,0:22:29.41,0:22:30.95,main,Midori,0000,0000,0000,,A girl in a gas mask!
+Dialogue: 0,0:22:30.95,0:22:32.33,main,Midori,0000,0000,0000,,And her foe...
+Dialogue: 0,0:22:52.65,0:22:54.98,main,Tsubame,0000,0000,0000,,Wouldn't it be easy to shoot \Nsomeone who's jumping around?
+Dialogue: 0,0:22:55.91,0:22:57.41,main,Midori,0000,0000,0000,,We can give her a cable gun, then.
+Dialogue: 0,0:22:59.57,0:23:02.77,main,Midori,0000,0000,0000,,And then, while firing \Nthe cable, she climbs up a wall!
+Dialogue: 0,0:23:03.38,0:23:05.92,main,Midori,0000,0000,0000,,All to get in the blind spot of the tank,
+Dialogue: 0,0:23:05.92,0:23:07.97,main,Midori,0000,0000,0000,,since its turret can't aim high enough!
+Dialogue: 0,0:23:13.74,0:23:14.70,main,Midori,0000,0000,0000,,But then!
+Dialogue: 0,0:23:21.73,0:23:26.00,main,Midori,0000,0000,0000,,Will it all work out in the end?!
+Dialogue: 0,0:23:26.31,0:23:28.23,main,,0000,0000,0000,,Dun dun...
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_418_Illustration_by_,,0000,0000,0000,,{\fscx105}Illustration by: Tsukumizu

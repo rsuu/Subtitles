@@ -1,0 +1,441 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashback italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_729_8_Shibahama_South_,Open Sans Semibold,24,&H00575150,&H000000FF,&H00F1F2EF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,233,40,27,1
+Style: sign_1477_14_Adventure_Log,Open Sans Semibold,36,&H002D242D,&H000000FF,&H00E9DEC7,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,309,309,27,1
+Style: sign_1609_15_Hidden_Door_,Open Sans Semibold,45,&H007E817E,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,40,40,27,1
+Style: sign_1609_16_Underground__Wor,Open Sans Semibold,30,&H007E817E,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,40,660,256,1
+Style: sign_1729_21_Station,Open Sans Semibold,30,&H00606262,&H000000FF,&H00FBFDFD,&H00000000,0,0,0,0,100,100,0,22.02,1,4,0,2,251,520,252,1
+Style: sign_2217_31_Fruit_Store,Open Sans Semibold,30,&H004B5253,&H000000FF,&H00C7CDCF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,597,128,433,1
+Style: sign_2366_33_Vegetable_Store,Open Sans Semibold,30,&H004B5253,&H000000FF,&H00C7CDCF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,569,100,27,1
+Style: sign_2960_41_Recommended_for_,Open Sans Semibold,20,&H00FDF8F6,&H000000FF,&H00473A3E,&H00000000,1,0,0,0,100,100,0,0,1,4,0,7,73,40,120,1
+Style: sign_2960_42_New_Releases,Open Sans Semibold,20,&H00FDF8F6,&H000000FF,&H00473A3E,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,73,40,93,1
+Style: sign_2960_43_Singing_Cactus,Open Sans Semibold,21,&H002DA8FD,&H000000FF,&H00BDE8FC,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,569,203,201,1
+Style: sign_3012_44_Lovely_Pet,Open Sans Semibold,36,&H00C04EE9,&H000000FF,&H00F7D7F3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,345,345,27,1
+Style: sign_3058_45_Conan_of_the_Los,Open Sans Semibold,45,&H00FFFCFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,1,420,25,317,1
+Style: sign_3171_46_In_July_of_2008_,Open Sans Semibold,23,&H00DFD1D1,&H000000FF,&H00433233,&H00000000,0,0,0,0,100,100,0,0,3,4,0,7,280,40,167,1
+Style: sign_3171_47_Watch_from_Begin,Open Sans Semibold,21,&H00E9E5FF,&H000000FF,&H00301ECB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,1,327,40,107,1
+Style: sign_3231_49_Getting_ready___,Open Sans Semibold,35,&H00F9F9F9,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,1,333,267,387,1
+Style: sign_4629_55_Episode_1_______,Open Sans Semibold,29,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,1,247,40,327,1
+Style: Keep Your Hands Off Eizouken,Open Sans Semibold,45,&H0006FFF4,&H000000FF,&H1989776F,&H00000000,1,1,0,0,100,100,0,0,1,2,0,8,40,40,27,1
+Style: sign_7896_70_Vollleyball,Open Sans Semibold,27,&H00656762,&H000000FF,&H00F7F7F0,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,647,40,107,1
+Style: sign_9219_95_Shibahama_High_S,Open Sans Semibold,15,&H0044437B,&H000000FF,&H00EEF7F6,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,100,40,213,1
+Style: sign_9459_96_Shibahama_High_S,Open Sans Semibold,21,&H0044437B,&H000000FF,&H00EEF7F6,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,480,253,1
+Style: sign_10475_112_A_V_Room_A,Open Sans Semibold,30,&H00305153,&H000000FF,&H00A7CECB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,344,344,27,1
+Style: sign_10475_113_Anime_Research_G,Open Sans Semibold,18,&H00A9B9BC,&H000000FF,&H00131A17,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,40,40,27,1
+Style: sign_14235_166_Strawberry_Milk,Open Sans Semibold,18,&H00192559,&H000000FF,&H00606768,&H00000000,1,0,0,0,100,100,0,91,1,4,0,8,211,515,109,1
+Style: sign_14289_167_Strawberry_Milk,Open Sans Semibold,33,&H00192559,&H000000FF,&H00606768,&H00000000,1,0,0,0,100,100,0,91,1,4,0,8,159,463,109,1
+Style: sign_19585_228_Coin_Laundry,Open Sans Semibold,15,&H003F3E30,&H000000FF,&H00799179,&H00000000,1,0,0,0,100,100,0,-84.4,1,4,0,2,439,327,225,1
+Style: sign_19585_229_Rear_Entrance_On,Open Sans Semibold,12,&H00728472,&H000000FF,&H00E2FFED,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,348,348,27,1
+Style: sign_19968_235_Detergent,Open Sans Semibold,12,&H00650E2E,&H000000FF,&H00787F44,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,385,385,27,1
+Style: sign_20064_237_Missing,Open Sans Semibold,24,&H001A1B16,&H000000FF,&H00383831,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,601,164,383,1
+Style: sign_20897_245_Coin_Laundry,Open Sans Semibold,27,&H00D0EACC,&H000000FF,&H007D7D4D,&H00A5A23B,1,0,0,0,100,100,0,0,1,2,3,2,347,347,27,1
+Style: sign_27602_333_All_Purpose_Mann,Open Sans Semibold,15,&H007E7B70,&H000000FF,&H00D1CDC3,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,533,40,137,1
+Style: sign_30551_356_Ice,Open Sans Semibold,42,&H00FBF8DF,&H000000FF,&H00FF7B55,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1
+Style: sign_35868_398_Illustration_by_,Open Sans Semibold,15,&H00F8F9FA,&H000000FF,&H000B151C,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,640,40,67,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:08.58,0:00:10.23,main,Mom,0000,0000,0000,,Are you okay, Midori?
+Dialogue: 0,0:00:11.31,0:00:12.42,main,Midori,0000,0000,0000,,I'm carsick.
+Dialogue: 0,0:00:13.50,0:00:14.77,main,Mom,0000,0000,0000,,Do you need a bag?
+Dialogue: 0,0:00:15.89,0:00:16.53,main,Midori,0000,0000,0000,,No.
+Dialogue: 0,0:00:17.85,0:00:19.54,main,Mom,0000,0000,0000,,Okay, almost there.
+Dialogue: 0,0:00:24.02,0:00:28.54,italics,Midori,0000,0000,0000,,By the time I was in sixth grade, \Nmy dream was to become an adventurer.
+Dialogue: 0,0:00:29.74,0:00:31.07,main,Midori,0000,0000,0000,,We're gonna live here?
+Dialogue: 0,0:00:30.40,0:00:31.69,sign_729_8_Shibahama_South_,Sign,0000,0000,0000,,Shibahama South Building
+Dialogue: 0,0:00:36.62,0:00:38.66,main,Midori,0000,0000,0000,,Holy cow!
+Dialogue: 0,0:00:38.66,0:00:40.56,main,Midori,0000,0000,0000,,It's on top of a river!
+Dialogue: 0,0:00:41.49,0:00:42.62,main,Midori,0000,0000,0000,,I'm gonna go explore!
+Dialogue: 0,0:00:42.62,0:00:45.18,main,Mom,0000,0000,0000,,You are? Be careful!
+Dialogue: 0,0:00:56.30,0:00:58.79,main,Midori,0000,0000,0000,,It's gonna take a long time \Nto see everything here!
+Dialogue: 0,0:01:01.58,0:01:03.06,sign_1477_14_Adventure_Log,Sign,0000,0000,0000,,{\move(415,110,640,5,1065,1480)\frz343.4}Adventure Log
+Dialogue: 0,0:01:07.08,0:01:07.77,sign_1609_15_Hidden_Door_,Design signs,0000,0000,0000,,{\frz4.609\move(455,35,455,-5,200,700)}Hidden Door!
+Dialogue: 0,0:01:07.08,0:01:08.71,sign_1609_16_Underground__Wor,Design signs,0000,0000,0000,,{\fad(1,559)}Underground\N World
+Dialogue: 0,0:01:07.39,0:01:09.09,sign_1609_16_Underground__Wor,Design signs,0000,0000,0000,,{\pos(55,35)\fad(1680,1)}Break Room
+Dialogue: 0,0:01:07.94,0:01:09.09,sign_1609_16_Underground__Wor,,0000,0000,0000,,{\pos(550,125)\fad(1129,1)}Kitchen
+Dialogue: 0,0:01:08.19,0:01:09.09,sign_1609_16_Underground__Wor,Design signs,0000,0000,0000,,{\pos(177,200)\frz8.314\fad(837,1)}Mysterious\N Giant Fish
+Dialogue: 0,0:01:08.69,0:01:09.09,sign_1609_16_Underground__Wor,,0000,0000,0000,,{\pos(178,303)\frz19.13\fad(337,1)}Undersea Tunnel
+Dialogue: 0,0:01:12.09,0:01:13.59,sign_1729_21_Station,Map sign,0000,0000,0000,,Station
+Dialogue: 0,0:01:32.46,0:01:38.68,sign_2217_31_Fruit_Store,River cut signs,0000,0000,0000,,{\frz328\frx346\fry332\fad(640,10}Fruit Store
+Dialogue: 0,0:01:33.13,0:01:38.68,sign_2217_31_Fruit_Store,River cut signs,0000,0000,0000,,{\frz330\pos(612,109)\frx346\fry332\3c&HC1C8C9&}Fish
+Dialogue: 0,0:01:38.68,0:01:42.12,sign_2366_33_Vegetable_Store,River cut signs,0000,0000,0000,,{\pos(187,9)\frz9.58\3c&HD7DEDF&}Vegetable Store
+Dialogue: 0,0:01:41.37,0:01:42.12,main,Mom,0000,0000,0000,,Midori?
+Dialogue: 0,0:01:44.59,0:01:46.96,main,Mom,0000,0000,0000,,I'm going to the airport to pick Dad up.
+Dialogue: 0,0:01:47.40,0:01:49.27,main,Mom,0000,0000,0000,,Watch some anime and wait for me, okay?
+Dialogue: 0,0:01:49.27,0:01:51.18,main,Midori,0000,0000,0000,,Okay. Be safe.
+Dialogue: 0,0:01:59.94,0:02:02.09,main,Midori,0000,0000,0000,,It's raining like it's the \Nend of the world.
+Dialogue: 0,0:02:03.43,0:02:04.89,sign_2960_43_Singing_Cactus,Youtube signs,0000,0000,0000,,Singing\N{\c&H7685E7&}Cactus
+Dialogue: 0,0:02:03.43,0:02:10.65,sign_2960_41_Recommended_for_,Youtube signs,0000,0000,0000,,Recommended for You
+Dialogue: 0,0:02:03.43,0:02:10.65,sign_2960_42_New_Releases,Youtube signs,0000,0000,0000,,New Releases
+Dialogue: 0,0:02:05.54,0:02:06.68,sign_3012_44_Lovely_Pet,Youtube signs,0000,0000,0000,,{\frz14.01\pos(268,202)}Lovely {\c&HB3EFED&\3c&HC74EBD&}Pet
+Dialogue: 0,0:02:07.52,0:02:10.65,sign_3058_45_Conan_of_the_Los,Youtube signs,0000,0000,0000,,Conan\N{\b0\fs20}of the Lost Island
+Dialogue: 0,0:02:12.23,0:02:14.73,sign_3171_46_In_July_of_2008_,Conan Sign,0000,0000,0000,,{\fad(1987,1)}In July of 2008 AD, humanity faced the threat of extinction.\NThe use of supermagnetic weapons, with power that\N dwarfs even nuclear bombs, result in half the world being\N devastated in just moments.\N Twenty years later, Conan, the last inhabitant of a solitary island,\N rescues a young girl who washes up on its shore.
+Dialogue: 0,0:02:12.23,0:02:14.73,sign_3171_47_Watch_from_Begin,Conan Sign,0000,0000,0000,,{\fad(1987,1)}Watch from Beginning
+Dialogue: 0,0:02:12.23,0:02:14.73,sign_3171_47_Watch_from_Begin,Conan Sign,0000,0000,0000,,{\pos(459,280)\fad(1987,1)}Episodes
+Dialogue: 0,0:02:14.73,0:02:16.24,sign_3231_49_Getting_ready___,Conan Sign,0000,0000,0000,,Getting ready...
+Dialogue: 0,0:02:51.06,0:02:53.43,italics,Midori,0000,0000,0000,,It wasn't something I could do myself.
+Dialogue: 0,0:02:54.09,0:02:58.41,italics,Midori,0000,0000,0000,,But the big, epic world of adventure \NI wanted to experience...
+Dialogue: 0,0:02:58.41,0:02:59.57,italics,Midori,0000,0000,0000,,was right in front of me.
+Dialogue: 0,0:03:03.70,0:03:04.86,italics,Midori,0000,0000,0000,,That was the first time I realized...
+Dialogue: 0,0:03:04.86,0:03:07.91,italics,Midori,0000,0000,0000,,that someone {\i0}made{\i1} the anime I watched.
+Dialogue: 0,0:03:12.79,0:03:16.21,sign_4629_55_Episode_1_______,Eptitle,0000,0000,0000,,{\fad(515,515)}Episode 1        {\fscx103}The Greatest World!
+Dialogue: 0,0:04:09.41,0:04:10.56,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep
+Dialogue: 0,0:04:11.83,0:04:12.94,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Your
+Dialogue: 0,0:04:14.46,0:04:15.48,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Hands
+Dialogue: 0,0:04:16.88,0:04:17.86,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Off
+Dialogue: 0,0:04:18.21,0:04:28.85,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:04:28.85,0:04:37.06,Keep Your Hands Off Eizouken,Title zoom in/Scroll out,0000,0000,0000,,Keep Your Hands Off Eizouken!
+Dialogue: 0,0:04:58.56,0:05:01.53,main,Kanamori,0000,0000,0000,,Here's what you asked for, Asakusa.
+Dialogue: 0,0:05:01.53,0:05:03.57,main,Kanamori,0000,0000,0000,,Red bean soup and green soybean mochi.
+Dialogue: 0,0:05:03.57,0:05:05.54,main,Midori,0000,0000,0000,,Excellent work, Kanamori.
+Dialogue: 0,0:05:05.54,0:05:09.91,main,Kanamori,0000,0000,0000,,If you're that curious, you could \Nalways head down there yourself.
+Dialogue: 0,0:05:09.91,0:05:11.97,main,Midori,0000,0000,0000,,I don't do well in crowds.
+Dialogue: 0,0:05:13.25,0:05:16.33,main,Midori,0000,0000,0000,,Huh? Kanamori? Where's my change?
+Dialogue: 0,0:05:18.18,0:05:20.34,main,Kanamori,0000,0000,0000,,I'm taking it as a service fee.
+Dialogue: 0,0:05:22.78,0:05:29.30,main,Kanamori,0000,0000,0000,,Why, Asakusa, did you expect to \Nget my labor without compensation?
+Dialogue: 0,0:05:29.30,0:05:31.31,sign_7896_70_Vollleyball,Tent roof signs; right to left,0000,0000,0000,,{\frz299.6}Volleyball
+Dialogue: 0,0:05:29.30,0:05:31.31,sign_7896_70_Vollleyball,Tent roof signs; right to left,0000,0000,0000,,{\pos(509,214)\frz299.6\c&H5A8ABE&}Tennis
+Dialogue: 0,0:05:29.30,0:05:31.31,sign_7896_70_Vollleyball,Tent roof signs; right to left,0000,0000,0000,,{\frz303.5\fs14\pos(424,57)\c&HA2AD7D&}Water Polo
+Dialogue: 0,0:05:31.31,0:05:33.31,main,Glasses,0000,0000,0000,,It's the age of robots! The time has come for—
+Dialogue: 0,0:05:33.62,0:05:35.58,main,Midori,0000,0000,0000,,I guess I didn't think it through.
+Dialogue: 0,0:05:38.02,0:05:39.78,main,Midori,0000,0000,0000,,Anyway, Kanamori, my friend...
+Dialogue: 0,0:05:39.78,0:05:40.96,main,Kanamori,0000,0000,0000,,What's up?
+Dialogue: 0,0:05:40.96,0:05:42.29,main,Midori,0000,0000,0000,,I'll buy you some milk,
+Dialogue: 0,0:05:42.29,0:05:44.01,main,Midori,0000,0000,0000,,so would you come see the screening by the anime—
+Dialogue: 0,0:05:44.01,0:05:45.44,main,Kanamori,0000,0000,0000,,Absolutely not. Sounds lame.
+Dialogue: 0,0:05:45.44,0:05:46.98,main,Midori,0000,0000,0000,,I'm begging you!
+Dialogue: 0,0:05:46.98,0:05:49.91,main,Midori,0000,0000,0000,,I'll up it to two bottles of the milk \Nthey sell at the Ongyoku Bathhouse!
+Dialogue: 0,0:05:49.91,0:05:53.65,main,Kanamori,0000,0000,0000,,Is this like how some people only go to\N the bathroom as part of a group, Asakusa?
+Dialogue: 0,0:05:53.65,0:05:55.75,main,Midori,0000,0000,0000,,I'd feel weird going alone.
+Dialogue: 0,0:05:56.43,0:05:58.66,main,Kanamori,0000,0000,0000,,Why the anime club, exactly?
+Dialogue: 0,0:05:58.66,0:06:00.93,main,Midori,0000,0000,0000,,Well, because I love anime, of course.
+Dialogue: 0,0:06:00.93,0:06:03.75,main,Kanamori,0000,0000,0000,,Why not make something at home, on your own?
+Dialogue: 0,0:06:03.75,0:06:07.51,main,Midori,0000,0000,0000,,It's hard to make anything more \Nthan a short on your own.
+Dialogue: 0,0:06:07.51,0:06:13.47,main,Midori,0000,0000,0000,,And I need the right kind of environment,\N and an opportunity to get anything done.
+Dialogue: 0,0:06:13.47,0:06:17.62,main,Kanamori,0000,0000,0000,,And that means you spend your days \Njust staring out at the campus?
+Dialogue: 0,0:06:17.62,0:06:21.69,main,Kanamori,0000,0000,0000,,What exactly are you looking at, Your Excellency?
+Dialogue: 0,0:06:21.69,0:06:24.19,main,Midori,0000,0000,0000,,Isn't it obvious, Kanamori?!
+Dialogue: 0,0:06:24.19,0:06:26.99,main,Midori,0000,0000,0000,,Look at this campus, built on the water!
+Dialogue: 0,0:06:24.50,0:06:26.99,sign_9219_95_Shibahama_High_S,Building sign,0000,0000,0000,,Shibahama High School
+Dialogue: 0,0:06:26.99,0:06:28.74,main,Midori,0000,0000,0000,,The continued renovations, over time,
+Dialogue: 0,0:06:28.74,0:06:30.49,main,Midori,0000,0000,0000,,have created a layout both\N complicated and inexplicable!
+Dialogue: 0,0:06:30.49,0:06:32.49,main,Midori,0000,0000,0000,,A total lack of consistency \Nbetween upper and lower levels!
+Dialogue: 0,0:06:32.49,0:06:34.49,main,Midori,0000,0000,0000,,The bridges that go into town!
+Dialogue: 0,0:06:34.49,0:06:36.41,sign_9459_96_Shibahama_High_S,Building sign,0000,0000,0000,,{\fad(1,280)}Shibahama High School
+Dialogue: 0,0:06:34.49,0:06:36.71,main,Midori,0000,0000,0000,,That clock, which isn't visible \Nfrom most of the campus!
+Dialogue: 0,0:06:37.75,0:06:39.80,main,Midori,0000,0000,0000,,Which means we usually end up looking at...
+Dialogue: 0,0:06:39.80,0:06:42.02,main,Midori,0000,0000,0000,,The clock over on the coast!
+Dialogue: 0,0:06:42.02,0:06:44.25,main,Midori,0000,0000,0000,,It's a public building shaped like a dungeon!
+Dialogue: 0,0:06:44.67,0:06:47.22,main,Midori,0000,0000,0000,,I want to make an anime with \Nthis school as the setting!
+Dialogue: 0,0:06:47.22,0:06:50.63,main,Midori,0000,0000,0000,,It's gonna look like this! What do you think?!
+Dialogue: 0,0:06:52.61,0:06:56.14,main,Kanamori,0000,0000,0000,,You get fired up at the drop \Nof a hat, don't you, Asakusa?
+Dialogue: 0,0:06:56.54,0:06:58.26,main,Kanamori,0000,0000,0000,,I'm not sure what you want me to say...
+Dialogue: 0,0:07:01.65,0:07:05.01,main,Kanamori,0000,0000,0000,,We just enrolled here, and you've\N got all this... stuff.
+Dialogue: 0,0:07:05.01,0:07:09.54,main,Kanamori,0000,0000,0000,,Don't you have anything better \Nto do with your energy?
+Dialogue: 0,0:07:09.54,0:07:12.00,main,Midori,0000,0000,0000,,Come on, let's go to the anime \Nclub's screening, Kanamori!
+Dialogue: 0,0:07:13.21,0:07:15.47,main,Kanamori,0000,0000,0000,,Make it four bottles of milk.
+Dialogue: 0,0:07:15.47,0:07:16.87,main,Midori,0000,0000,0000,,You're taking advantage of me.
+Dialogue: 0,0:07:16.87,0:07:19.18,sign_10475_112_A_V_Room_A,Door signs,0000,0000,0000,,{\move(335,80,335,-20)\frx28\fry14\frz342.4}A/V Room A
+Dialogue: 0,0:07:16.87,0:07:19.87,sign_10475_113_Anime_Research_G,Door signs,0000,0000,0000,,{\frz348.7\move(195,260,195,125)}Anime Research Group\NSpecial Screening
+Dialogue: 0,0:07:19.87,0:07:22.55,main,Midori,0000,0000,0000,,Go on, go on. Head in there.
+Dialogue: 0,0:07:23.05,0:07:25.50,main,Kanamori,0000,0000,0000,,Please stop using me as a shield.
+Dialogue: 0,0:07:26.38,0:07:28.15,main,Midori,0000,0000,0000,,Doesn't seem to be very busy...
+Dialogue: 0,0:07:28.15,0:07:30.22,main,Midori,0000,0000,0000,,Let's sit in the back, Kanamori.
+Dialogue: 0,0:07:39.53,0:07:40.83,main,Midori,0000,0000,0000,,Let's sit somewhere else!
+Dialogue: 0,0:07:40.83,0:07:43.23,main,Club,0000,0000,0000,,Start it up, please.
+Dialogue: 0,0:07:52.24,0:07:54.24,sign_3058_45_Conan_of_the_Los,Title sign,0000,0000,0000,,{\pos(229,56)}Conan\N{\fs21\b0}of the Lost Island
+Dialogue: 0,0:07:55.10,0:07:57.74,main,Kanamori,0000,0000,0000,,What about this is entertaining to you?
+Dialogue: 0,0:07:57.74,0:08:00.09,main,Midori,0000,0000,0000,,You have this simple-looking, round machine,
+Dialogue: 0,0:08:00.09,0:08:03.17,main,Midori,0000,0000,0000,,that can fly thanks to a \Nunexplained anti-gravity device,
+Dialogue: 0,0:08:03.17,0:08:05.71,main,Midori,0000,0000,0000,,which is depicted with an \Nattention to fine details...
+Dialogue: 0,0:08:05.71,0:08:07.58,main,Midori,0000,0000,0000,,Like how they pick it up with their hands!
+Dialogue: 0,0:08:07.58,0:08:10.17,main,Midori,0000,0000,0000,,It's like when you push a car, \Nhoping the engine will turn over!
+Dialogue: 0,0:08:10.17,0:08:11.96,main,Midori,0000,0000,0000,,They're taking the obvious \Nvisual cues of the animation
+Dialogue: 0,0:08:11.96,0:08:13.63,main,Midori,0000,0000,0000,,and using it to create an air of reality!
+Dialogue: 0,0:08:16.70,0:08:18.47,main,Midori,0000,0000,0000,,The spacing of the frame...
+Dialogue: 0,0:08:18.47,0:08:19.41,main,Midori,0000,0000,0000,,Establishing the location...
+Dialogue: 0,0:08:19.41,0:08:21.46,main,Midori,0000,0000,0000,,The relaxed pace that's set by the running!
+Dialogue: 0,0:08:21.46,0:08:24.48,main,Midori,0000,0000,0000,,The way it sets up the character's physicality!
+Dialogue: 0,0:08:25.02,0:08:26.98,main,Midori,0000,0000,0000,,And this sense of scale!
+Dialogue: 0,0:08:26.98,0:08:31.10,main,Midori,0000,0000,0000,,Look at the size contrast created \Nin this crossover shot!
+Dialogue: 0,0:08:31.10,0:08:32.49,main,Midori,0000,0000,0000,,And by having debris flying around,
+Dialogue: 0,0:08:32.49,0:08:35.49,main,Midori,0000,0000,0000,,it creates a real sense of propulsion!
+Dialogue: 0,0:08:35.49,0:08:38.01,main,Midori,0000,0000,0000,,And the movement of the air...
+Dialogue: 0,0:08:38.01,0:08:40.20,main,Midori,0000,0000,0000,,With the character running against it,\N showing the resistance,
+Dialogue: 0,0:08:40.20,0:08:41.33,main,Midori,0000,0000,0000,,and how it pushes them around...
+Dialogue: 0,0:08:41.33,0:08:42.12,main,Midori,0000,0000,0000,,Right here!
+Dialogue: 0,0:08:42.12,0:08:44.81,main,Midori,0000,0000,0000,,You take something that's totally implausible,\N but pass it off like it is!
+Dialogue: 0,0:08:44.81,0:08:48.31,main,Midori,0000,0000,0000,,You take reality and then exaggerate \Nit in a way that makes sense!
+Dialogue: 0,0:08:48.31,0:08:51.76,main,Midori,0000,0000,0000,,A character moves around on top of \Na background, and it creates an entire world!
+Dialogue: 0,0:08:51.76,0:08:55.33,main,Midori,0000,0000,0000,,Seeing a character wandering around a mysterious \Nworld fills you with a sense of adventure—
+Dialogue: 0,0:08:53.87,0:08:56.17,top,Kanamori,0000,0000,0000,,I understand, and you can stop now.
+Dialogue: 0,0:08:56.17,0:08:59.17,main,Kanamori,0000,0000,0000,,Getting more of an explanation than \Nyou asked for is excruciating.
+Dialogue: 0,0:08:59.17,0:09:00.36,main,Midori,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:09:00.36,0:09:03.56,main,Kanamori,0000,0000,0000,,I'll admit, anime is more \Ncomplicated than I ever thought.
+Dialogue: 0,0:09:09.11,0:09:10.62,main,Tsubame,0000,0000,0000,,Excuse me, you in the hat?
+Dialogue: 0,0:09:10.62,0:09:14.40,main,Tsubame,0000,0000,0000,,Nice to meet you. I'm a first-year, too! \NTsubame Mizusaki! I like anime, too!
+Dialogue: 0,0:09:14.40,0:09:15.61,main,Midori,0000,0000,0000,,Wow, close! Uh, yes! Okay!
+Dialogue: 0,0:09:15.61,0:09:18.01,main,Tsubame,0000,0000,0000,,Sorry to spring this on you,\Nbut I need to borrow your hat!
+Dialogue: 0,0:09:18.01,0:09:18.62,main,Goons,0000,0000,0000,,There she is.
+Dialogue: 0,0:09:18.62,0:09:20.40,main,Midori,0000,0000,0000,,Whoa, are those MiBs?
+Dialogue: 0,0:09:20.40,0:09:21.82,main,Tsubame,0000,0000,0000,,Thanks, see you later!
+Dialogue: 0,0:09:22.38,0:09:24.62,main,Midori,0000,0000,0000,,Wait, my hat? Where'd it—
+Dialogue: 0,0:09:25.98,0:09:27.47,italics,Movie?,0000,0000,0000,,Conan!
+Dialogue: 0,0:09:27.47,0:09:29.03,italics,Movie?,0000,0000,0000,,Kana!
+Dialogue: 0,0:09:30.38,0:09:32.37,main,Midori,0000,0000,0000,,A young girl, fleeing from villains...
+Dialogue: 0,0:09:32.37,0:09:35.54,main,Kanamori,0000,0000,0000,,She's actually a famous fashion model...
+Dialogue: 0,0:09:35.54,0:09:37.54,main,Kanamori,0000,0000,0000,,On top of being the daughter \Nof some huge megacorp's boss.
+Dialogue: 0,0:09:37.54,0:09:39.55,main,Midori,0000,0000,0000,,I thought there were anti-monopoly \Nlaws to get rid of those.
+Dialogue: 0,0:09:40.41,0:09:42.68,main,Kanamori,0000,0000,0000,,This smells like cash...
+Dialogue: 0,0:09:42.68,0:09:44.02,main,Midori,0000,0000,0000,,And adventure.
+Dialogue: 0,0:09:53.71,0:09:55.94,sign_14235_166_Strawberry_Milk,Package sign,0000,0000,0000,,{\fad(440,1)}Strawberry Milk
+Dialogue: 0,0:09:55.94,0:09:56.97,sign_14289_167_Strawberry_Milk,Package sign,0000,0000,0000,,{\move(270,0,270,360)\c&H242D65&\3c&H79787C&\frx34\fry358}Strawberry Milk
+Dialogue: 0,0:09:59.41,0:10:00.33,main,Midori,0000,0000,0000,,There she is!
+Dialogue: 0,0:10:01.35,0:10:02.55,main,Kanamori,0000,0000,0000,,Well, now...
+Dialogue: 0,0:10:07.75,0:10:09.35,main,Midori,0000,0000,0000,,What are they talking about?
+Dialogue: 0,0:10:09.35,0:10:10.62,main,Midori,0000,0000,0000,,I can't hear.
+Dialogue: 0,0:10:16.07,0:10:18.76,main,Tsubame,0000,0000,0000,,If this is just a lecture, you didn't\N need to follow me to school.
+Dialogue: 0,0:10:19.17,0:10:21.26,main,Tsubame,0000,0000,0000,,I was looking forward to the \Nanime club's screening.
+Dialogue: 0,0:10:22.73,0:10:27.02,main,Tsubame,0000,0000,0000,,I don't understand why I'm supposed to put\N on an act just because my parents both do it!
+Dialogue: 0,0:10:27.02,0:10:30.52,main,Tsubame,0000,0000,0000,,I want a normal life! Going home with \Nmy friends, doing after school activities!
+Dialogue: 0,0:10:30.52,0:10:34.27,main,Goon,0000,0000,0000,,Our orders are to keep you \Nfrom joining the anime club.
+Dialogue: 0,0:10:35.23,0:10:37.85,main,Tsubame,0000,0000,0000,,So if it was live action or any other \Nkind of film club, it'd be fine?!
+Dialogue: 0,0:10:37.85,0:10:38.24,main,Goon,0000,0000,0000,,Correct.
+Dialogue: 0,0:10:41.74,0:10:43.17,main,Kanamori,0000,0000,0000,,Asakusa...
+Dialogue: 0,0:10:44.07,0:10:47.25,main,Kanamori,0000,0000,0000,,Go and make friends with Mizusaki, all right?
+Dialogue: 0,0:10:50.75,0:10:53.04,main,Tsubame,0000,0000,0000,,Being an animator is a real job!
+Dialogue: 0,0:10:53.04,0:10:54.46,main,Tsubame,0000,0000,0000,,You breathe life into all kinds of roles!
+Dialogue: 0,0:10:54.46,0:10:57.64,main,Tsubame,0000,0000,0000,,And not just people, but wind, \Nthe environment, machines...
+Dialogue: 0,0:10:57.64,0:11:00.34,main,Tsubame,0000,0000,0000,,Sometimes they create performances \Nbigger than anything live action could!
+Dialogue: 0,0:11:00.34,0:11:01.37,main,Midori,0000,0000,0000,,Hey...
+Dialogue: 0,0:11:03.02,0:11:05.01,main,Tsubame,0000,0000,0000,,You're the girl who had the hat...
+Dialogue: 0,0:11:05.01,0:11:06.93,main,Midori,0000,0000,0000,,S-Sup! Sorry about the delay!
+Dialogue: 0,0:11:06.93,0:11:08.60,main,Midori,0000,0000,0000,,I was late catching my bike! Can you believe it?
+Dialogue: 0,0:11:08.60,0:11:09.98,main,Midori,0000,0000,0000,,Hey, it's almost 2!
+Dialogue: 0,0:11:09.98,0:11:13.91,main,Midori,0000,0000,0000,,Why don't we chill on the roof and chow \Ndown our lunches, Tsubamecchy Mizusaki?
+Dialogue: 0,0:11:14.82,0:11:17.63,main,Midori,0000,0000,0000,,Come on, there's a weirdo lurking around.
+Dialogue: 0,0:11:17.63,0:11:18.95,main,Tsubame,0000,0000,0000,,Uh...
+Dialogue: 0,0:11:18.95,0:11:21.24,main,Goon,0000,0000,0000,,Excuse me. Who are you, exactly?
+Dialogue: 0,0:11:22.27,0:11:22.88,main,Midori,0000,0000,0000,,Run for it!
+Dialogue: 0,0:11:22.88,0:11:24.37,main,Tsubame,0000,0000,0000,,Wait! Hey, hang on!
+Dialogue: 0,0:11:24.37,0:11:24.99,main,Goon,0000,0000,0000,,Get back here!
+Dialogue: 0,0:11:25.51,0:11:26.16,main,Midori,0000,0000,0000,,This way!
+Dialogue: 0,0:11:30.82,0:11:32.04,main,Midori,0000,0000,0000,,Go up!
+Dialogue: 0,0:11:36.81,0:11:37.67,main,Goon,0000,0000,0000,,There you are!
+Dialogue: 0,0:12:07.99,0:12:10.25,main,Tsubame,0000,0000,0000,,That guy works for my parents!
+Dialogue: 0,0:12:10.25,0:12:13.47,main,Tsubame,0000,0000,0000,,Thankfully, he's tough enough that\N that probably didn't hurt him.
+Dialogue: 0,0:12:13.47,0:12:15.78,main,Tsubame,0000,0000,0000,,Man, you grabbed me when I was taking a sip,
+Dialogue: 0,0:12:15.78,0:12:17.21,main,Tsubame,0000,0000,0000,,and now I'm covered in strawberry milk!
+Dialogue: 0,0:12:17.21,0:12:18.91,main,Midori,0000,0000,0000,,I am so sorry.
+Dialogue: 0,0:12:18.91,0:12:22.21,main,Tsubame,0000,0000,0000,,It's kind of crazy you thought he \Nwas some kind of bad guy, though.
+Dialogue: 0,0:12:22.21,0:12:25.53,main,Kanamori,0000,0000,0000,,Sending someone to spy on you at school...
+Dialogue: 0,0:12:25.53,0:12:27.68,main,Kanamori,0000,0000,0000,,Your parents keep you on \Na short leash, don't they?
+Dialogue: 0,0:12:27.68,0:12:29.89,main,Midori,0000,0000,0000,,Whoa, Kanamori!
+Dialogue: 0,0:12:29.89,0:12:32.22,main,Tsubame,0000,0000,0000,,They won't shut up about \Nwanting me to be an actress.
+Dialogue: 0,0:12:32.22,0:12:34.65,main,Tsubame,0000,0000,0000,,I'm not allowed to join the anime club,
+Dialogue: 0,0:12:34.65,0:12:36.56,main,Tsubame,0000,0000,0000,,so I told him to get me a \Nstrawberry milk and slipped away.
+Dialogue: 0,0:12:38.82,0:12:40.49,main,Tsubame,0000,0000,0000,,Not that it matters now.
+Dialogue: 0,0:12:40.49,0:12:42.53,main,Tsubame,0000,0000,0000,,Wow, I smell like strawberry milk.
+Dialogue: 0,0:12:42.03,0:12:44.46,top,Crowd,0000,0000,0000,,That's Mizusaki Tsubame!
+Dialogue: 0,0:12:53.30,0:12:56.46,main,Kanamori,0000,0000,0000,,No sense in chatting with an audience.\N Let's get you cleaned up.
+Dialogue: 0,0:12:58.99,0:13:02.89,main,Midori,0000,0000,0000,,Kanamori, I'm not sure we should \Nbe butting in this much.
+Dialogue: 0,0:13:02.89,0:13:07.18,main,Kanamori,0000,0000,0000,,What're you saying? First you save \Nthe princess, then comes the treasure.
+Dialogue: 0,0:13:07.18,0:13:10.97,main,Midori,0000,0000,0000,,This isn't about rescuing a princess \Nfrom a villain! It's a family disagreement!
+Dialogue: 0,0:13:10.97,0:13:14.91,main,Kanamori,0000,0000,0000,,I know you heard her talk about anime, Asakusa.
+Dialogue: 0,0:13:15.27,0:13:17.61,main,Kanamori,0000,0000,0000,,Let's just escort her to the laundromat for now.
+Dialogue: 0,0:13:17.61,0:13:19.46,main,Midori,0000,0000,0000,,You're scheming something up,\Naren't you, Kanamori?
+Dialogue: 0,0:13:22.47,0:13:24.15,main,Tsubame,0000,0000,0000,,Is this where you sleep?
+Dialogue: 0,0:13:24.15,0:13:26.62,main,Midori,0000,0000,0000,,Mizusaki, that's where actual people sleep!
+Dialogue: 0,0:13:26.62,0:13:27.91,main,Tsubame,0000,0000,0000,,Wait, someone lives here?!
+Dialogue: 0,0:13:30.93,0:13:32.01,main,Midori,0000,0000,0000,,Here we are.
+Dialogue: 0,0:13:32.01,0:13:33.83,main,Tsubame,0000,0000,0000,,This is the laundromat?
+Dialogue: 0,0:13:33.83,0:13:36.85,main,Kanamori,0000,0000,0000,,Admittedly, it doesn't exactly give\N off the impression of cleanliness.
+Dialogue: 0,0:13:36.85,0:13:40.07,sign_19585_228_Coin_Laundry,Sign,0000,0000,0000,,{\fad(1842,1)}Coin Laundry
+Dialogue: 0,0:13:36.85,0:13:40.07,sign_19585_229_Rear_Entrance_On,Sign,0000,0000,0000,,{\pos(234,56)\frz266.8\frx18\fry0}Rear Entrance\N{\c&H475058&\fad(1842,1)}Ongyoku Bathhouse
+Dialogue: 0,0:13:36.85,0:13:40.07,main,Tsubame,0000,0000,0000,,Wow! Why is it in such an out-of-the-way place?
+Dialogue: 0,0:13:40.07,0:13:43.59,main,Midori,0000,0000,0000,,There's a walkway on the second floor \Nthat leads to the Ongyoku Bathhouse!
+Dialogue: 0,0:13:43.59,0:13:45.78,main,Kanamori,0000,0000,0000,,Why's the air conditioner on the door?
+Dialogue: 0,0:13:45.78,0:13:47.49,main,Midori,0000,0000,0000,,Lots of places have cramped entrances.
+Dialogue: 0,0:13:50.77,0:13:52.81,main,Tsubame,0000,0000,0000,,It's bigger on the inside than I expected.
+Dialogue: 0,0:13:52.81,0:13:55.53,main,Midori,0000,0000,0000,,This place is a bit like my secret hideout.
+Dialogue: 0,0:13:52.81,0:13:56.81,sign_19968_235_Detergent,Sign,0000,0000,0000,,{\frz7.325\frx26\fry338\pos(249,58)\fad(800,1)}Detergent
+Dialogue: 0,0:13:53.31,0:13:56.81,sign_19968_235_Detergent,Sign,0000,0000,0000,,{\frz7.325\frx26\fry338\pos(161,68)\fad(320,1)}Detergent
+Dialogue: 0,0:13:56.81,0:14:01.82,sign_20064_237_Missing,,0000,0000,0000,,Change Machine
+Dialogue: 0,0:13:58.73,0:14:00.02,main,Midori,0000,0000,0000,,Take this as an apology.
+Dialogue: 0,0:14:00.02,0:14:01.82,main,Tsubame,0000,0000,0000,,Aw, you didn't have to...
+Dialogue: 0,0:14:08.27,0:14:09.98,main,Kanamori,0000,0000,0000,,I've got some cash.
+Dialogue: 0,0:14:09.98,0:14:11.07,main,Tsubame,0000,0000,0000,,Wow, thanks!
+Dialogue: 0,0:14:11.07,0:14:13.52,main,Kanamori,0000,0000,0000,,Oh, no, just think of it as an investment.
+Dialogue: 0,0:14:13.52,0:14:16.41,main,Midori,0000,0000,0000,,There's a waiting room on the second floor!
+Dialogue: 0,0:14:31.55,0:14:34.08,sign_20897_245_Coin_Laundry,Sign,0000,0000,0000,,{\move(235,265,235,-25)}Coin Laundry
+Dialogue: 0,0:14:42.91,0:14:47.69,main,Tsubame,0000,0000,0000,,I love weird buildings like this. \NCan never draw them right, though...
+Dialogue: 0,0:14:49.50,0:14:52.07,main,Midori,0000,0000,0000,,You draw, Mizusaki?
+Dialogue: 0,0:14:52.07,0:14:54.38,main,Tsubame,0000,0000,0000,,Well, I want to be an animator.
+Dialogue: 0,0:14:54.38,0:14:56.43,main,Kanamori,0000,0000,0000,,What kind of things do you draw?
+Dialogue: 0,0:14:59.30,0:15:00.21,main,Tsubame,0000,0000,0000,,Take a look.
+Dialogue: 0,0:15:09.01,0:15:11.11,main,Kanamori,0000,0000,0000,,What do you say, Asakusa?
+Dialogue: 0,0:15:11.65,0:15:14.26,main,Midori,0000,0000,0000,,You can tell she's serious \Nabout being an animator.
+Dialogue: 0,0:15:14.26,0:15:16.01,main,Midori,0000,0000,0000,,Lots of figure drawing,\N the kind I have trouble with.
+Dialogue: 0,0:15:16.01,0:15:18.13,main,Tsubame,0000,0000,0000,,You draw too, Asakusa?!
+Dialogue: 0,0:15:18.13,0:15:20.49,main,Midori,0000,0000,0000,,Uh, well, I...
+Dialogue: 0,0:15:21.65,0:15:22.85,main,Kanamori,0000,0000,0000,,Here you go.
+Dialogue: 0,0:15:22.85,0:15:24.01,main,Tsubame,0000,0000,0000,,Thanks!
+Dialogue: 0,0:15:24.01,0:15:24.95,main,Tsubame,0000,0000,0000,,I'm gonna take a look.
+Dialogue: 0,0:15:26.48,0:15:28.65,main,Midori,0000,0000,0000,,Damn it, Kanamori, who said you could—
+Dialogue: 0,0:15:30.97,0:15:31.74,main,Midori,0000,0000,0000,,Let me go!
+Dialogue: 0,0:15:31.74,0:15:35.24,main,Tsubame,0000,0000,0000,,These are... image boards \Nand concept designs right?
+Dialogue: 0,0:15:36.65,0:15:38.47,main,Midori,0000,0000,0000,,E-E-Exactly.
+Dialogue: 0,0:15:39.07,0:15:41.00,main,Kanamori,0000,0000,0000,,What's an image board?
+Dialogue: 0,0:15:41.00,0:15:43.90,main,Tsubame,0000,0000,0000,,It's the art done early in \Nanime production to establish
+Dialogue: 0,0:15:43.90,0:15:45.96,main,Tsubame,0000,0000,0000,,the look and feel of the world.
+Dialogue: 0,0:15:48.71,0:15:49.80,main,Midori,0000,0000,0000,,Are you trying to kill me?!
+Dialogue: 0,0:15:49.80,0:15:52.32,main,Midori,0000,0000,0000,,I've wanted to make anime \Never since elementary school,
+Dialogue: 0,0:15:52.32,0:15:54.25,main,Midori,0000,0000,0000,,and this is the kind of \Nstuff I would always draw.
+Dialogue: 0,0:15:54.25,0:15:57.93,main,Midori,0000,0000,0000,,But you're the first person to ever\N recognize that it was concept art.
+Dialogue: 0,0:15:58.86,0:16:01.88,main,Tsubame,0000,0000,0000,,I've never met anyone who \Ndid concept design before.
+Dialogue: 0,0:16:01.88,0:16:04.56,main,Tsubame,0000,0000,0000,,Most people just do character art. Including me.
+Dialogue: 0,0:16:05.39,0:16:09.03,main,Tsubame,0000,0000,0000,,This is amazing... It's full of ideas.
+Dialogue: 0,0:16:14.38,0:16:15.74,main,Midori,0000,0000,0000,,You want to try an overlay?
+Dialogue: 0,0:16:25.31,0:16:26.85,main,Tsubame,0000,0000,0000,,It's like my art has a background!
+Dialogue: 0,0:16:26.85,0:16:28.21,main,Midori,0000,0000,0000,,That worked better than I thought!
+Dialogue: 0,0:16:28.54,0:16:29.98,main,Midori,0000,0000,0000,,Let's try with others.
+Dialogue: 0,0:16:29.98,0:16:30.86,main,,0000,0000,0000,,Yeah!
+Dialogue: 0,0:16:32.57,0:16:33.74,main,Midori,0000,0000,0000,,How about this?
+Dialogue: 0,0:16:33.74,0:16:34.67,main,Tsubame,0000,0000,0000,,Nice!
+Dialogue: 0,0:16:34.67,0:16:35.45,main,Midori,0000,0000,0000,,And this?
+Dialogue: 0,0:16:35.45,0:16:36.93,main,Tsubame,0000,0000,0000,,It looks good! This is fun!
+Dialogue: 0,0:16:38.25,0:16:40.30,main,Midori,0000,0000,0000,,This is starting to get interesting!
+Dialogue: 0,0:16:40.85,0:16:45.27,main,Kanamori,0000,0000,0000,,Mizusaki, how would you like to make \Nanime with Midori Asakusa here?
+Dialogue: 0,0:16:46.14,0:16:48.27,main,Tsubame,0000,0000,0000,,But I'm not allowed to join the anime club.
+Dialogue: 0,0:16:48.27,0:16:50.70,main,Midori,0000,0000,0000,,That's right! Where'd that come from?!
+Dialogue: 0,0:16:50.70,0:16:53.24,main,Midori,0000,0000,0000,,It's not like I have any experience, \Nor know-how, or the guts to—
+Dialogue: 0,0:16:54.11,0:16:56.18,main,Kanamori,0000,0000,0000,,Why should a pair of bright young people
+Dialogue: 0,0:16:56.18,0:16:58.83,main,Kanamori,0000,0000,0000,,let nonsense like that stop them?
+Dialogue: 0,0:16:58.83,0:17:02.34,main,Kanamori,0000,0000,0000,,Do you want to make anime or not?!
+Dialogue: 0,0:17:02.34,0:17:03.62,main,Kanamori,0000,0000,0000,,If you can't join the anime club,
+Dialogue: 0,0:17:03.62,0:17:06.37,main,Kanamori,0000,0000,0000,,then you can just start a new club of your own!
+Dialogue: 0,0:17:06.69,0:17:09.75,main,Kanamori,0000,0000,0000,,We've got youth on our side.
+Dialogue: 0,0:17:09.75,0:17:12.23,main,Kanamori,0000,0000,0000,,That means we don't stand to lose \Nanything here. There's no risk involved.
+Dialogue: 0,0:17:12.23,0:17:16.59,main,Kanamori,0000,0000,0000,,And I may not know anything about anime,\N but I can back you up in other ways.
+Dialogue: 0,0:17:16.59,0:17:18.26,main,Tsubame,0000,0000,0000,,Why would you do that?
+Dialogue: 0,0:17:18.62,0:17:23.14,main,Kanamori,0000,0000,0000,,Because a famous fashion model making \Nanime sounds like a great way to rake in cash.
+Dialogue: 0,0:17:23.14,0:17:24.25,main,Both,0000,0000,0000,,You want money?!
+Dialogue: 0,0:17:27.65,0:17:29.47,main,Midori,0000,0000,0000,,This ship is cool.
+Dialogue: 0,0:17:29.47,0:17:33.39,main,Tsubame,0000,0000,0000,,You think? I just drew it because I \Nfelt like I needed to try and do something
+Dialogue: 0,0:17:33.39,0:17:34.90,main,Tsubame,0000,0000,0000,,other than characters.
+Dialogue: 0,0:17:40.43,0:17:43.29,main,Tsubame,0000,0000,0000,,Asakusa, try drawing some \Nlines on the frame there!
+Dialogue: 0,0:17:43.29,0:17:44.91,main,Midori,0000,0000,0000,,A couple of safety stripes, right?
+Dialogue: 0,0:17:49.11,0:17:50.87,main,Tsubame,0000,0000,0000,,Go ahead and pull mine out!
+Dialogue: 0,0:17:56.42,0:17:59.23,main,Midori,0000,0000,0000,,What do you suppose it does, though?
+Dialogue: 0,0:17:59.23,0:18:02.03,main,Tsubame,0000,0000,0000,,I hadn't thought about it, \Nbut I guess it's for construction.
+Dialogue: 0,0:18:02.03,0:18:04.47,main,Midori,0000,0000,0000,,In that case, some arms \Nand winches would be good!
+Dialogue: 0,0:18:04.47,0:18:05.26,main,Kanamori,0000,0000,0000,,Winches?
+Dialogue: 0,0:18:05.26,0:18:06.84,main,Midori,0000,0000,0000,,Like the kind for spooling cables!
+Dialogue: 0,0:18:06.84,0:18:08.27,main,Tsubame,0000,0000,0000,,Good idea! Put some on!
+Dialogue: 0,0:18:08.76,0:18:10.03,main,Midori,0000,0000,0000,,Does it look good here?
+Dialogue: 0,0:18:10.03,0:18:11.48,main,Tsubame,0000,0000,0000,,Wow!
+Dialogue: 0,0:18:12.03,0:18:15.36,main,Tsubame,0000,0000,0000,,Y'know, I've never done any concept art before.
+Dialogue: 0,0:18:15.36,0:18:17.43,main,Midori,0000,0000,0000,,I like setting up concepts.
+Dialogue: 0,0:18:17.43,0:18:20.20,main,Midori,0000,0000,0000,,Did you ever draw a layout for a \Nsecret base when you were a kid?
+Dialogue: 0,0:18:20.51,0:18:22.07,main,Midori,0000,0000,0000,,That was always a ton of fun!
+Dialogue: 0,0:18:23.33,0:18:27.09,main,Tsubame,0000,0000,0000,,I remember adding traps\N and setting mines...
+Dialogue: 0,0:18:27.09,0:18:29.25,main,Tsubame,0000,0000,0000,,Not sure who they were supposed to be for.
+Dialogue: 0,0:18:30.67,0:18:33.27,main,Midori,0000,0000,0000,,The greatest world I can imagine!
+Dialogue: 0,0:18:33.27,0:18:35.03,main,Midori,0000,0000,0000,,I draw to bring that world to life,
+Dialogue: 0,0:18:35.03,0:18:39.41,main,Midori,0000,0000,0000,,so concepts are what it's all about!
+Dialogue: 0,0:18:41.75,0:18:43.43,main,Tsubame,0000,0000,0000,,You're really something, Asakusa!
+Dialogue: 0,0:18:43.74,0:18:47.38,main,Tsubame,0000,0000,0000,,In that case, let's keep going! \NMaybe it should have a light around here?
+Dialogue: 0,0:18:47.38,0:18:49.94,main,Midori,0000,0000,0000,,That'd make the engine look kind of cramped.
+Dialogue: 0,0:18:49.94,0:18:55.23,main,Tsubame,0000,0000,0000,,I'd like it better if it moved around \Nin a more distinct way, though.
+Dialogue: 0,0:18:56.17,0:18:58.45,main,Tsubame,0000,0000,0000,,How about something like this? \NWings like you'd see on a bug.
+Dialogue: 0,0:18:58.45,0:18:59.97,main,Midori,0000,0000,0000,,Oh, wow! That's awesome!
+Dialogue: 0,0:19:01.17,0:19:03.53,main,Midori,0000,0000,0000,,It can't really land like that, though.
+Dialogue: 0,0:19:03.98,0:19:05.87,main,Midori,0000,0000,0000,,Let's add some landing gear with \Ntires for a counterweight,
+Dialogue: 0,0:19:05.87,0:19:08.54,main,Midori,0000,0000,0000,,and turn the ducted fans into \Ncontra-rotating propellers.
+Dialogue: 0,0:19:08.54,0:19:11.07,main,Tsubame,0000,0000,0000,,We can attach a tail to make \Nit look like a dragonfly!
+Dialogue: 0,0:19:11.23,0:19:20.24,sign_27602_333_All_Purpose_Mann,Title sign,0000,0000,0000,,All-Purpose {\c&H2A3547&\3c&H9FADC5&}Manned Flying Pod\N{\fs30\c&H5B595F&\3c&HA6C0CE&}Kairi
+Dialogue: 0,0:19:11.50,0:19:12.29,main,Midori,0000,0000,0000,,It's done!
+Dialogue: 0,0:19:12.29,0:19:13.14,main,Tsubame,0000,0000,0000,,Fantastic!
+Dialogue: 0,0:19:13.14,0:19:16.79,main,Midori,0000,0000,0000,,And the wings' surfaces\Nare made of solar panels!
+Dialogue: 0,0:19:16.79,0:19:17.90,main,Midori,0000,0000,0000,,Plus, the structure for
+Dialogue: 0,0:19:17.90,0:19:20.24,main,Midori,0000,0000,0000,,the wing joints is modeled after \Nreal exoskeletons and muscle fibers!
+Dialogue: 0,0:19:20.95,0:19:21.89,main,Tsubame,0000,0000,0000,,It's tiny!
+Dialogue: 0,0:19:21.89,0:19:23.60,main,Midori,0000,0000,0000,,It has to be, to be light enough.
+Dialogue: 0,0:19:29.35,0:19:32.35,main,Midori,0000,0000,0000,,All right, let's do a motion \Ncheck for the wings.
+Dialogue: 0,0:19:38.87,0:19:40.01,main,Midori,0000,0000,0000,,All good!
+Dialogue: 0,0:19:45.28,0:19:46.78,main,Goons,0000,0000,0000,,Hold it!
+Dialogue: 0,0:19:47.66,0:19:49.47,main,Tsubame,0000,0000,0000,,Oh, no! Let's get out of here!
+Dialogue: 0,0:19:50.55,0:19:52.48,main,Midori,0000,0000,0000,,The switch for the launch \Ncatapult is on the outside.
+Dialogue: 0,0:19:52.48,0:19:53.25,main,Tsubame,0000,0000,0000,,I'll go!
+Dialogue: 0,0:19:55.61,0:19:57.00,main,Kanamori,0000,0000,0000,,There was a door here?
+Dialogue: 0,0:19:59.19,0:20:00.11,main,Tsubame,0000,0000,0000,,Is this it?
+Dialogue: 0,0:20:05.14,0:20:05.62,main,Midori,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:05.62,0:20:07.33,italics,Tsubame,0000,0000,0000,,It says number three is empty!
+Dialogue: 0,0:20:07.33,0:20:10.02,main,Midori,0000,0000,0000,,That means there's no steam pressure! \NThe catapult's not gonna work!
+Dialogue: 0,0:20:10.02,0:20:12.44,main,Tsubame,0000,0000,0000,,I'll push! Kanamori, help me!
+Dialogue: 0,0:20:12.44,0:20:13.98,main,Kanamori,0000,0000,0000,,Whatever...
+Dialogue: 0,0:20:20.73,0:20:23.21,main,Tsubame,0000,0000,0000,,Move!
+Dialogue: 0,0:20:35.47,0:20:39.65,main,Midori,0000,0000,0000,,All right! Get in, you two!
+Dialogue: 0,0:20:52.27,0:20:54.81,main,Midori,0000,0000,0000,,Come on!
+Dialogue: 0,0:21:09.28,0:21:11.86,main,Tsubame,0000,0000,0000,,It worked! We're actually flying!
+Dialogue: 0,0:21:14.23,0:21:15.92,sign_30551_356_Ice,Enemy fighter sign,0000,0000,0000,,Ice
+Dialogue: 0,0:21:28.18,0:21:29.85,main,Tsubame,0000,0000,0000,,Is there no way out of here?!
+Dialogue: 0,0:21:29.85,0:21:31.86,main,Midori,0000,0000,0000,,There are massive skyscrapers \Nin every direction!
+Dialogue: 0,0:21:31.86,0:21:33.35,main,Kanamori,0000,0000,0000,,This is bad.
+Dialogue: 0,0:21:33.35,0:21:34.35,main,Midori,0000,0000,0000,,Over there!
+Dialogue: 0,0:21:34.35,0:21:35.15,main,Tsubame,0000,0000,0000,,It's too narrow!
+Dialogue: 0,0:21:35.15,0:21:35.85,main,Midori,0000,0000,0000,,We'll fly sideways!
+Dialogue: 0,0:21:35.85,0:21:37.26,main,Tusbame,0000,0000,0000,,It's not gonna work!
+Dialogue: 0,0:21:38.62,0:21:39.36,main,Midori,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:39.36,0:21:40.58,main,Tsubame,0000,0000,0000,,What? What is it?
+Dialogue: 0,0:21:40.58,0:21:42.06,main,Midori,0000,0000,0000,,One of the wings isn't responding!
+Dialogue: 0,0:21:42.65,0:21:44.32,main,Midori,0000,0000,0000,,It took a hit!
+Dialogue: 0,0:21:44.32,0:21:46.32,main,Midori,0000,0000,0000,,We're gonna crash!
+Dialogue: 0,0:21:46.32,0:21:48.30,main,Tsubame,0000,0000,0000,,The three of us can figure this out!
+Dialogue: 0,0:21:48.30,0:21:49.90,main,Tsubame,0000,0000,0000,,Kanamori, let's try and shift the weight!
+Dialogue: 0,0:21:49.90,0:21:51.20,main,Kanamori,0000,0000,0000,,Oh, for the love of...
+Dialogue: 0,0:21:58.21,0:22:00.25,main,Tsubame,0000,0000,0000,,Yeah!
+Dialogue: 0,0:22:10.75,0:22:12.15,main,Tsubame,0000,0000,0000,,Ow, ow, ow...
+Dialogue: 0,0:22:18.34,0:22:23.15,main,Midori,0000,0000,0000,,This... It's the greatest world.
+Dialogue: 0,0:22:36.53,0:22:39.48,main,Midori,0000,0000,0000,,Is it just me, or did we go somewhere awesome?
+Dialogue: 0,0:22:39.48,0:22:41.94,main,Tsubame,0000,0000,0000,,It felt like we saw something amazing.
+Dialogue: 0,0:22:42.55,0:22:44.63,main,Tsubame,0000,0000,0000,,Oh, shoot, I need to go!
+Dialogue: 0,0:22:44.63,0:22:46.76,main,Tsubame,0000,0000,0000,,The new anime by the animation dream team of
+Dialogue: 0,0:22:46.76,0:22:48.82,main,Tsubame,0000,0000,0000,,Inoue-san, Ohira-san, and Iso-san is gonna air!
+Dialogue: 0,0:22:48.82,0:22:49.36,main,Midori,0000,0000,0000,,Can't you record it?
+Dialogue: 0,0:22:49.36,0:22:50.65,main,Tsubame,0000,0000,0000,,I've gotta see it live!
+Dialogue: 0,0:22:52.94,0:22:53.99,main,Tsubame,0000,0000,0000,,Which way is the station?!
+Dialogue: 0,0:22:53.99,0:22:55.64,main,Midori,0000,0000,0000,,I'll show you the shortest route!
+Dialogue: 0,0:22:55.64,0:22:57.93,main,Kanamori,0000,0000,0000,,I am not running.
+Dialogue: 0,0:22:57.93,0:22:59.91,main,Midori,0000,0000,0000,,But you always get better times than me.
+Dialogue: 0,0:22:59.91,0:23:01.80,main,Midori,0000,0000,0000,,Mizusaki, how fast can you do 100 meters?
+Dialogue: 0,0:23:01.80,0:23:03.95,main,Tsubame,0000,0000,0000,,When I was little, I used to say \NI could do it in one second.
+Dialogue: 0,0:23:03.95,0:23:05.65,main,Midori,0000,0000,0000,,Then we can get to the station in eight seconds!
+Dialogue: 0,0:23:05.65,0:23:09.49,main,Kanamori,0000,0000,0000,,Whoever's last to the station \Nhas to treat me to something.
+Dialogue: 0,0:23:09.49,0:23:10.48,main,Kanamori,0000,0000,0000,,See ya!
+Dialogue: 0,0:23:10.48,0:23:11.54,main,Tsubame,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:23:11.54,0:23:12.32,main,Midori,0000,0000,0000,,That's cheating!
+Dialogue: 0,0:23:12.32,0:23:14.69,main,Kanamori,0000,0000,0000,,You two are the ones who \Ndecided to just stand around!
+Dialogue: 0,0:23:14.69,0:23:15.46,main,Midori,0000,0000,0000,,Why wouldn't we?!
+Dialogue: 0,0:23:15.46,0:23:17.23,main,Tsubame,0000,0000,0000,,Kanamori, you're too fast!
+Dialogue: 0,0:23:19.97,0:23:24.45,italics,Laundry,0000,0000,0000,,Your washing is done. Please unload the machine.
+Dialogue: 0,0:23:24.45,0:23:28.35,italics,Laundry,0000,0000,0000,,Your washing is done. Please unload the machine.
+Dialogue: 0,0:24:55.97,0:25:00.25,sign_35868_398_Illustration_by_,Endcard sign,0000,0000,0000,,Illustration by Aoki Toshinao

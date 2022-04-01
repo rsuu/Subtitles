@@ -1,0 +1,467 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: YY-main,Amira,25,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-overlap,Amira,25,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: YY-note,Amira,22,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: YY-note-big,Amira,27,&H00000000,&H000000FF,&H00EEF2ED,&H00FFFFFF,0,0,0,0,100,100,0,0,1,3,0,8,0020,0020,0015,0
+Style: YY-Sign-top,Amira,30,&H00FCFEFF,&H000000FF,&H0000082A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0090,0090,0020,0
+Style: YY-title,Amira,50,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,110,100,0,0,1,0,3,8,0020,0020,0020,0
+Style: YY-ep-title-top,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0100,0
+Style: YY-ep-title-bottom,Amira,27,&H00CA66D1,&H000000FF,&H00F6E3FF,&H00696975,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0100,0
+Style: YY-eyecatch,Amira,30,&H0037F7ED,&H000000FF,&H00A969E1,&H00000000,1,0,0,0,100,100,0,0,1,4,2,4,0020,0020,0020,0
+Style: Next Episode,Amira,45,&H000000A7,&H000000FF,&H00FFFFFF,&H005E6E5A,1,0,0,0,100,100,0,0,1,2,1,3,0020,0050,0080,0
+Style: Next ep title,Amira,40,&H00001627,&H000000FF,&H0095C296,&H008CA695,0,0,0,0,100,100,0,0,1,0,2,1,0052,0020,0090,0
+Style: Natsume-end-title,Amira,30,&H00AC751D,&H000000FF,&H008ABEE8,&H00273821,1,0,0,0,100,100,0,0,1,0,2,9,0020,0020,0020,0
+Style: Class,Amira,25,&H0045432D,&H000000FF,&H00D1C9B6,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0010,0010,0015,0
+Style: Council,Amira,25,&H00FFFBF6,&H000000FF,&H00474C45,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0020,0020,0020,0
+Style: 1 week later,Amira,27,&H00FFFFFF,&H000000FF,&H0025281E,&H003A3D33,0,0,0,0,100,100,0,0,1,3,2,2,0020,0020,0020,0
+Style: ayano,Amira,32,&H001333E8,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H007D4E07,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,7,7,13,1
+Style: anemic,Amira,45,&H00F8FBFF,&H000000FF,&H00020076,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,0060,0020,0020,1
+Style: missed,Amira,42,&H005947EE,&H000000FF,&H00EBEFFD,&H00000000,0,0,0,0,100,100,0,0,1,2,3,8,0020,0020,0020,1
+Style: unfortunately,Amira,35,&H00FFFFFF,&H000000FF,&H0025281E,&H003A3D33,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0080,0
+Style: Ding Dong,Amira,40,&H007AF0FD,&H000000FF,&H005F54B8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: punkin,Amira,40,&H00362B3D,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0120,1
+Style: Refuge,Amira,40,&H00FCFEFF,&H000000FF,&H0000082A,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,0090,0090,0020,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,Yuru Yuri 2 Episode 2 \N"Yuru Yuri Everyday"
+Dialogue: 0,0:00:02.21,0:00:04.00,Default,ALL,0000,0000,0000,,Akarin!
+Dialogue: 0,0:00:04.37,0:00:05.60,Default,AKARI,0000,0000,0000,,Hey!
+Dialogue: 0,0:00:05.92,0:00:08.73,Default,AKARI,0000,0000,0000,,Yuru Yuri's starting!
+Dialogue: 0,0:00:10.16,0:00:12.56,Default,AKARI,0000,0000,0000,,I'm so glad to see all of you again.
+Dialogue: 0,0:00:12.56,0:00:14.11,Default,AKARI,0000,0000,0000,,I look forward to...
+Dialogue: 0,0:01:43.99,0:01:48.96,YY-ep-title-top,EPTITLE,0000,0000,0000,,Yuru Yuri Everyday
+Dialogue: 0,0:02:03.67,0:02:05.25,Default,KYOKO,0000,0000,0000,,I can't take it anymore...
+Dialogue: 0,0:02:10.67,0:02:13.48,Default,KYOKO,0000,0000,0000,,I can't lake it anymore.
+Dialogue: 0,0:02:15.93,0:02:17.62,Default,KYOKO,0000,0000,0000,,Sorry, forget I said that.
+Dialogue: 0,0:02:17.62,0:02:19.48,Default,YUI,0000,0000,0000,,Just focus.
+Dialogue: 0,0:02:19.48,0:02:21.66,Default,YUI,0000,0000,0000,,You're going to get called \Non in math class.
+Dialogue: 0,0:02:21.66,0:02:24.29,Default,KYOKO,0000,0000,0000,,Yeah, I will! The teacher \Nalways picks me!
+Dialogue: 0,0:02:24.82,0:02:27.06,Default,KYOKO,0000,0000,0000,,But I'm never picked to win the lottery.
+Dialogue: 0,0:02:27.06,0:02:28.14,Default,YUI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:02:29.06,0:02:31.64,Default,KYOKO,0000,0000,0000,,What would you do if you \Nwon 300 million yen?
+Dialogue: 0,0:02:31.64,0:02:33.00,Default,KYOKO,0000,0000,0000,,And you can't say you'd save it.
+Dialogue: 0,0:02:37.42,0:02:40.76,Default,YUI,0000,0000,0000,,I'd go on a trip with everyone \Nand eat delicious food.
+Dialogue: 0,0:02:42.94,0:02:45.06,Default,KYOKO,0000,0000,0000,,Yui, I love you.
+Dialogue: 0,0:02:45.06,0:02:46.02,Default,YUI,0000,0000,0000,,Thanks.
+Dialogue: 0,0:02:46.56,0:02:48.92,Default,YUI,0000,0000,0000,,But you know, now that \NI really think about it,
+Dialogue: 0,0:02:48.92,0:02:50.92,Default,,0000,0000,0000,,there's nothing I want that badly.
+Dialogue: 0,0:02:51.37,0:02:52.98,Default,KYOKO,0000,0000,0000,,I have things I want.
+Dialogue: 0,0:02:52.98,0:02:53.77,Default,YUI,0000,0000,0000,,Like what?
+Dialogue: 0,0:02:54.36,0:02:56.69,Default,KYOKO,0000,0000,0000,,I want to build an arcade under my house!
+Dialogue: 0,0:02:56.77,0:03:01.78,YY-Sign-top,TEXT,0000,0000,0000,,Toshino's House
+Dialogue: 0,0:02:57.72,0:03:00.71,Default,KYOKO,0000,0000,0000,,On the national rankings, \Nyou'd see "Toshino's House!"
+Dialogue: 0,0:03:00.71,0:03:01.78,Default,KYOKO,0000,0000,0000,,It'd be so cool!
+Dialogue: 0,0:03:03.58,0:03:04.52,Default,YUI,0000,0000,0000,,I could see that.
+Dialogue: 0,0:03:04.52,0:03:05.51,Default,KYOKO,0000,0000,0000,,I know, right?
+Dialogue: 0,0:03:05.92,0:03:09.14,Default,KYOKO,0000,0000,0000,,But I've never won \Nany lotteries.
+Dialogue: 0,0:03:09.14,0:03:10.56,Default,YUI,0000,0000,0000,,Have you made any progress \Non your homework?
+Dialogue: 0,0:03:11.06,0:03:12.12,Default,KYOKO,0000,0000,0000,,Nope.
+Dialogue: 0,0:03:17.52,0:03:18.90,Default,KYOKO,0000,0000,0000,,Hey, Yui.
+Dialogue: 0,0:03:20.07,0:03:22.63,Default,KYOKO,0000,0000,0000,,Do you... love me?
+Dialogue: 0,0:03:24.38,0:03:25.26,Default,YUI,0000,0000,0000,,I do.
+Dialogue: 0,0:03:25.86,0:03:27.08,Default,KYOKO,0000,0000,0000,,Really?
+Dialogue: 0,0:03:27.08,0:03:28.76,Default,KYOKO,0000,0000,0000,,All right, then let me see your homewo—
+Dialogue: 0,0:03:28.76,0:03:29.56,Default,YUI,0000,0000,0000,,No.
+Dialogue: 0,0:03:30.72,0:03:31.77,Default,KYOKO,0000,0000,0000,,Why not?
+Dialogue: 0,0:03:32.42,0:03:35.77,Default,YUI,0000,0000,0000,,I like you, so I don't want \Nto hinder your learning.
+Dialogue: 0,0:03:36.31,0:03:38.61,Default,KYOKO,0000,0000,0000,,Darn it! Love is rough.
+Dialogue: 0,0:03:38.61,0:03:39.60,Default,YUI,0000,0000,0000,,Just do it.
+Dialogue: 0,0:03:39.60,0:03:40.49,Default,KYOKO,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:40.49,0:03:41.99,1 week later,TEXT,0000,0000,0000,,10 Minutes Later
+Dialogue: 0,0:03:43.62,0:03:44.74,Default,KYOKO,0000,0000,0000,,It never ends!
+Dialogue: 0,0:03:44.74,0:03:47.07,Default,YUI,0000,0000,0000,,Lunch is gonna be over in five minutes.
+Dialogue: 0,0:03:47.07,0:03:48.99,Default,KYOKO,0000,0000,0000,,There's no time!
+Dialogue: 0,0:03:49.72,0:03:52.46,Default,KYOKO,0000,0000,0000,,If I beat you at rock-paper-scissors, \Nwill you show me your homework?
+Dialogue: 0,0:03:54.33,0:03:56.48,Default,YUI,0000,0000,0000,,Oh, fine. You're out of time, anyway.
+Dialogue: 0,0:03:56.48,0:03:57.56,Default,KYOKO,0000,0000,0000,,All right!
+Dialogue: 0,0:03:58.37,0:03:59.95,Default,KYOKO,0000,0000,0000,,Here we go.
+Dialogue: 0,0:03:59.95,0:04:02.26,Default,KYOKO,0000,0000,0000,,Rock, paper, scissors!
+Dialogue: 0,0:04:08.66,0:04:10.96,Default,YUI,0000,0000,0000,,I don't think that pose was necessary.
+Dialogue: 0,0:04:10.96,0:04:12.32,Default,KYOKO,0000,0000,0000,,Just forget about it...
+Dialogue: 0,0:04:15.52,0:04:17.39,Default,KYOKO,0000,0000,0000,,Rock, paper, scissors!
+Dialogue: 0,0:04:22.52,0:04:23.81,Default,KYOKO,0000,0000,0000,,By the way...
+Dialogue: 0,0:04:23.81,0:04:26.03,Default,YUI,0000,0000,0000,,You can't focus on anything, can you?
+Dialogue: 0,0:04:26.33,0:04:29.01,Default,KYOKO,0000,0000,0000,,We haven't changed at all, have we?
+Dialogue: 0,0:04:29.01,0:04:30.44,Default,YUI,0000,0000,0000,,I guess not.
+Dialogue: 0,0:04:30.44,0:04:32.91,Default,,0000,0000,0000,,You, especially, haven't matured one bit.
+Dialogue: 0,0:04:32.91,0:04:34.43,Default,KYOKO,0000,0000,0000,,But...
+Dialogue: 0,0:04:37.01,0:04:38.65,Default,KYOKO,0000,0000,0000,,It's better that way.
+Dialogue: 0,0:04:38.65,0:04:39.42,Default,YUI,0000,0000,0000,,Why?
+Dialogue: 0,0:04:39.97,0:04:42.93,Default,KYOKO,0000,0000,0000,,Because you'll always look after me.
+Dialogue: 0,0:04:47.12,0:04:49.44,Default,YUI,0000,0000,0000,,You need to grow up a little.
+Dialogue: 0,0:04:50.01,0:04:51.11,Default,KYOKO,0000,0000,0000,,Are you embarrassed?
+Dialogue: 0,0:04:51.11,0:04:52.31,Default,YUI,0000,0000,0000,,Shut up.
+Dialogue: 0,0:04:53.28,0:04:55.97,Default,KYOKO,0000,0000,0000,,Our friendship is rock solid.
+Dialogue: 0,0:04:56.22,0:04:57.14,Default,YUI,0000,0000,0000,,Yeah, yeah.
+Dialogue: 0,0:04:57.69,0:04:58.39,Default,KYOKO,0000,0000,0000,,Let me see your homewo—
+Dialogue: 0,0:04:58.39,0:04:59.48,Default,YUI,0000,0000,0000,,No.
+Dialogue: 0,0:05:12.99,0:05:14.85,Default,KYOKO,0000,0000,0000,,Let me see it!
+Dialogue: 0,0:05:14.85,0:05:15.58,Default,YUI,0000,0000,0000,,No.
+Dialogue: 0,0:05:29.95,0:05:31.31,Default,KYOKO,0000,0000,0000,,I'm out.
+Dialogue: 0,0:05:32.82,0:05:34.89,Default,AKARI,0000,0000,0000,,I lost again.
+Dialogue: 0,0:05:35.99,0:05:38.88,Default,CHINATSU,0000,0000,0000,,Akari-chan, you're terrible at Old Maid.
+Dialogue: 0,0:05:38.88,0:05:41.19,Default,KYOKO,0000,0000,0000,,Akari, you're so easy to read.
+Dialogue: 0,0:05:41.52,0:05:43.45,Default,KYOKO,0000,0000,0000,,When someone starts to take a \Ncard that's not the Old Maid...
+Dialogue: 0,0:05:43.45,0:05:45.53,Default,,0000,0000,0000,,...you look like you're gonna cry.
+Dialogue: 0,0:05:46.07,0:05:48.08,Default,KYOKO,0000,0000,0000,,And when someone's about to \Ntake the Old Maid...
+Dialogue: 0,0:05:48.08,0:05:49.70,Default,,0000,0000,0000,,...you look really happy.
+Dialogue: 0,0:05:51.31,0:05:52.53,Default,AKARI,0000,0000,0000,,Is it that obvious?
+Dialogue: 0,0:06:07.28,0:06:07.97,Default,AKARI,0000,0000,0000,,This one!
+Dialogue: 0,0:06:08.42,0:06:10.23,Default,AKARI,0000,0000,0000,,The Old Maid!?
+Dialogue: 0,0:06:14.07,0:06:15.89,Default,AKARI,0000,0000,0000,,I don't believe it!
+Dialogue: 0,0:06:16.19,0:06:17.64,Default,KYOKO,0000,0000,0000,,Yui, you're good!
+Dialogue: 0,0:06:17.64,0:06:18.89,Default,KYOKO,0000,0000,0000,,You didn't lose once today.
+Dialogue: 0,0:06:18.89,0:06:19.87,Default,YUI,0000,0000,0000,,Really?
+Dialogue: 0,0:06:19.87,0:06:22.65,Default,KYOKO,0000,0000,0000,,What makes someone good \Nat Old Maid? Is it luck?
+Dialogue: 0,0:06:22.87,0:06:26.49,Default,CHINATSU,0000,0000,0000,,Yui-senpai doesn't let her \Nemotions show on her face.
+Dialogue: 0,0:06:26.49,0:06:29.11,Default,CHINATSU,0000,0000,0000,,Her poker face is so cool!
+Dialogue: 0,0:06:29.53,0:06:30.85,Default,KYOKO,0000,0000,0000,,I see...
+Dialogue: 0,0:06:30.85,0:06:32.28,Default,KYOKO,0000,0000,0000,,Poker face...
+Dialogue: 0,0:06:32.72,0:06:34.24,Default,KYOKO,0000,0000,0000,,Poker face...
+Dialogue: 0,0:06:34.62,0:06:35.74,Default,KYOKO,0000,0000,0000,,Old Maid...
+Dialogue: 0,0:06:36.26,0:06:38.37,Default,KYOKO,0000,0000,0000,,Poker face...
+Dialogue: 0,0:06:39.48,0:06:41.23,Default,KYOKO,0000,0000,0000,,Old Face!
+Dialogue: 0,0:06:41.23,0:06:42.58,Default,YUI,0000,0000,0000,,You're proud of that?
+Dialogue: 0,0:06:43.11,0:06:44.25,Default,KYOKO,0000,0000,0000,,Mandarin oranges!
+Dialogue: 0,0:06:44.25,0:06:46.51,Default,YUI,0000,0000,0000,,And don't give me any weird nicknames.
+Dialogue: 0,0:06:46.86,0:06:50.43,Default,AKARI,0000,0000,0000,,Speaking of which, none \Nof us have nicknames.
+Dialogue: 0,0:06:50.75,0:06:54.41,Default,KYOKO,0000,0000,0000,,Then I'm Super Sexy Commando Kyoko.
+Dialogue: 0,0:06:54.41,0:06:57.77,Default,YUI,0000,0000,0000,,Super Sexy Commando Kyoko, \Npass me an orange.
+Dialogue: 0,0:06:57.77,0:06:58.63,Default,KYOKO,0000,0000,0000,,Roger.
+Dialogue: 0,0:06:59.37,0:07:01.44,Default,AKARI,0000,0000,0000,,Not that sort of nickname!
+Dialogue: 0,0:07:02.04,0:07:03.57,Default,AKARI,0000,0000,0000,,For example...
+Dialogue: 0,0:07:03.57,0:07:06.86,Default,,0000,0000,0000,,Someone named Sachiko \Nmight be Sacchan or Sachi.
+Dialogue: 0,0:07:08.25,0:07:10.23,Default,KYOKO,0000,0000,0000,,You come up with something, then.
+Dialogue: 0,0:07:10.23,0:07:11.24,Default,AKARI,0000,0000,0000,,Really?
+Dialogue: 0,0:07:12.58,0:07:14.86,Default,AKARI,0000,0000,0000,,Kyoko-chan, you're...
+Dialogue: 0,0:07:14.86,0:07:16.24,Default,,0000,0000,0000,,Kyoppi!
+Dialogue: 0,0:07:16.24,0:07:17.31,Default,KYOKO,0000,0000,0000,,Kyoppi?
+Dialogue: 0,0:07:17.87,0:07:19.86,Default,AKARI,0000,0000,0000,,Yui-chan, you're...
+Dialogue: 0,0:07:19.86,0:07:21.60,Default,,0000,0000,0000,,Yuppi, I guess.
+Dialogue: 0,0:07:21.60,0:07:22.62,Default,YUI,0000,0000,0000,,Yu...
+Dialogue: 0,0:07:23.28,0:07:25.13,Default,KYOKO,0000,0000,0000,,Kyoppi and Yuppi.
+Dialogue: 0,0:07:25.97,0:07:28.13,Default,YUI,0000,0000,0000,,Sounds like a comedy team.
+Dialogue: 0,0:07:29.78,0:07:30.93,Default,KYOKO,0000,0000,0000,,Thank you!
+Dialogue: 0,0:07:30.93,0:07:33.51,Default,KYOKO,0000,0000,0000,,We're Kyoppi and Yuppi.
+Dialogue: 0,0:07:35.30,0:07:37.59,Default,KYOKO,0000,0000,0000,,Okay! Today we'll be performing a
+Dialogue: 0,0:07:37.59,0:07:39.27,Default,,0000,0000,0000,,\Nshort skit with these mandarin oranges!
+Dialogue: 0,0:07:39.74,0:07:41.27,Default,AKARI,0000,0000,0000,,Sounds interesting.
+Dialogue: 0,0:07:44.01,0:07:45.73,Default,KYOKO,0000,0000,0000,,Daruma otoshi!
+Dialogue: 0,0:07:50.16,0:07:51.24,Default,KYOKO,0000,0000,0000,,Googly eyes.
+Dialogue: 0,0:07:54.33,0:07:55.31,Default,KYOKO,0000,0000,0000,,Akari.
+Dialogue: 0,0:07:55.84,0:07:58.01,Default,,0000,0000,0000,,Boob missiles!
+Dialogue: 0,0:08:02.72,0:08:04.17,Default,AKARI,0000,0000,0000,,Chinachu.
+Dialogue: 0,0:08:08.09,0:08:09.20,Default,KYOKO,0000,0000,0000,,Empty husks.
+Dialogue: 0,0:08:09.20,0:08:10.26,Default,YUI,0000,0000,0000,,That's not a joke.
+Dialogue: 0,0:08:10.95,0:08:11.74,Default,KYOKO,0000,0000,0000,,Go throw these out.
+Dialogue: 0,0:08:11.74,0:08:12.85,Default,YUI,0000,0000,0000,,You do it.
+Dialogue: 0,0:08:13.71,0:08:16.78,Default,KYOKO,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:08:16.78,0:08:19.91,Default,CHINATSU,0000,0000,0000,,Kyoppi's the only one who said anything.
+Dialogue: 0,0:08:19.91,0:08:21.52,Default,KYOKO,0000,0000,0000,,But we get paid the same amount.
+Dialogue: 0,0:08:22.01,0:08:24.66,Default,CHINATSU,0000,0000,0000,,Yuppi is so cute.
+Dialogue: 0,0:08:24.66,0:08:25.64,Default,YUI,0000,0000,0000,,What?
+Dialogue: 0,0:08:25.64,0:08:27.02,Default,CHINATSU,0000,0000,0000,,What's my nickname?
+Dialogue: 0,0:08:27.02,0:08:27.86,Default,AKARI,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:28.87,0:08:30.86,Default,,0000,0000,0000,,Um...
+Dialogue: 0,0:08:31.51,0:08:32.53,Default,,0000,0000,0000,,China, I guess?
+Dialogue: 0,0:08:33.57,0:08:35.14,Default,CHINATSU,0000,0000,0000,,China!
+Dialogue: 0,0:08:38.99,0:08:43.66,Default,CHINATSU,0000,0000,0000,,Hey, everyone! Thanks for \Ncoming out to see me today!
+Dialogue: 0,0:08:44.88,0:08:49.95,Default,ALL,0000,0000,0000,,China! China! China!
+Dialogue: 0,0:08:51.28,0:08:53.44,Default,CHINATSU,0000,0000,0000,,It sounds like an idol's name. So cute!
+Dialogue: 0,0:08:54.31,0:08:57.19,Default,AKARI,0000,0000,0000,,Hey, give me a nickname.
+Dialogue: 0,0:08:59.21,0:09:01.29,Default,AKARI,0000,0000,0000,,Aka... Aka...
+Dialogue: 0,0:09:03.84,0:09:04.94,Default,KYOKO,0000,0000,0000,,Aka Baby!
+Dialogue: 0,0:09:06.09,0:09:09.11,Default,AKARI,0000,0000,0000,,Um... Could you choose \Nsomething else?
+Dialogue: 0,0:09:09.11,0:09:11.05,Default,KYOKO,0000,0000,0000,,I can't think of anything.
+Dialogue: 0,0:09:16.70,0:09:17.93,Default,KYOKO,0000,0000,0000,,The Red One!
+Dialogue: 0,0:09:18.33,0:09:19.39,Default,KYOKO,0000,0000,0000,,Pink Breath!
+Dialogue: 0,0:09:19.88,0:09:21.43,Default,KYOKO,0000,0000,0000,,The Ebony Queen!
+Dialogue: 0,0:09:21.43,0:09:23.41,Default,YUI,0000,0000,0000,,You're just saying the \Ncolor of our hair.
+Dialogue: 0,0:09:23.65,0:09:26.40,Default,KYOKO,0000,0000,0000,,But I think focusing on \Ncolors would be good.
+Dialogue: 0,0:09:27.33,0:09:31.94,Default,KYOKO,0000,0000,0000,,Amusement Club Red! Yellow! Black! Pink!
+Dialogue: 0,0:09:31.94,0:09:33.17,Default,YUI,0000,0000,0000,,What are we, the Power Rangers?
+Dialogue: 0,0:09:33.47,0:09:35.05,Default,KYOKO,0000,0000,0000,,Our enemy is the Student Council!
+Dialogue: 0,0:09:35.05,0:09:37.88,Default,YUI,0000,0000,0000,,Yellow hasn't been eating curry lately.
+Dialogue: 0,0:09:38.80,0:09:43.63,Default,KYOKO,0000,0000,0000,,Student Council Purple! \NWhite! Blue! Light Brown!
+Dialogue: 0,0:09:43.63,0:09:45.18,Default,YUI,0000,0000,0000,,Hey, that last one...
+Dialogue: 0,0:09:45.41,0:09:49.06,Default,KYOKO,0000,0000,0000,,Oh, man. Not only \Nwill it be live action,
+Dialogue: 0,0:09:49.06,0:09:50.56,Default,,0000,0000,0000,,but we can load it\N with special effects!
+Dialogue: 0,0:09:50.56,0:09:52.69,Default,YUI,0000,0000,0000,,No, we can't. \NWe can't do either of those things.
+Dialogue: 0,0:09:53.22,0:09:56.18,Default,AKARI,0000,0000,0000,,Hey, have any of you \Nhad nicknames before?
+Dialogue: 0,0:09:56.59,0:09:57.72,Default,KYOKO,0000,0000,0000,,I have.
+Dialogue: 0,0:09:57.72,0:10:01.55,Default,KYOKO,0000,0000,0000,,Kyo-chan, Ke-chan, Toshinon, Toshibo.
+Dialogue: 0,0:10:01.55,0:10:04.43,Default,CHINATSU,0000,0000,0000,,China-chan and Chinacchi, I guess.
+Dialogue: 0,0:10:04.43,0:10:07.08,Default,AKARI,0000,0000,0000,,You two have nicknames? Lucky ducks!
+Dialogue: 0,0:10:07.60,0:10:10.24,Default,YUI,0000,0000,0000,,I've never had a nickname.
+Dialogue: 0,0:10:10.24,0:10:12.41,Default,KYOKO,0000,0000,0000,,You have one already, Akari!
+Dialogue: 0,0:10:12.40,0:10:13.48,YY-note,TEXT,0000,0000,0000,,Akarin
+Dialogue: 0,0:10:12.41,0:10:13.84,Default,KYOKO,0000,0000,0000,,Akarin!
+Dialogue: 0,0:10:14.05,0:10:15.84,Default,AKARI,0000,0000,0000,,I don't like that one!
+Dialogue: 0,0:10:16.28,0:10:18.43,Default,KYOKO,0000,0000,0000,,You're so selfish.
+Dialogue: 0,0:10:18.98,0:10:20.91,Default,KYOKO,0000,0000,0000,,Starting today, you're Selfishman.
+Dialogue: 0,0:10:20.91,0:10:22.47,Default,AKARI,0000,0000,0000,,No!
+Dialogue: 0,0:10:22.86,0:10:25.06,Default,CHINATSU,0000,0000,0000,,What about names of fruit?
+Dialogue: 0,0:10:25.78,0:10:27.10,Default,KYOKO,0000,0000,0000,,I'm Lemon-chan!
+Dialogue: 0,0:10:26.16,0:10:27.08,YY-Sign-top,TEXT,0000,0000,0000,,Lemon
+Dialogue: 0,0:10:27.33,0:10:28.42,YY-Sign-top,TEXT,0000,0000,0000,,Peach
+Dialogue: 0,0:10:27.58,0:10:28.31,Default,KYOKO,0000,0000,0000,,Peach!
+Dialogue: 0,0:10:29.12,0:10:32.00,YY-Sign-top,TEXT,0000,0000,0000,,Apple
+Dialogue: 0,0:10:29.19,0:10:30.09,Default,KYOKO,0000,0000,0000,,Apple!
+Dialogue: 0,0:10:30.09,0:10:32.02,Default,AKARI,0000,0000,0000,,That's sort of cute.
+Dialogue: 0,0:10:33.86,0:10:35.03,Default,THREE,0000,0000,0000,,{\i1}Black...{\i0}
+Dialogue: 0,0:10:35.49,0:10:37.40,Default,THREE,0000,0000,0000,,{\i1}A black fruit?{\i0}
+Dialogue: 0,0:10:40.08,0:10:41.49,Default,KYOKO,0000,0000,0000,,(Rotten) Banana.
+Dialogue: 0,0:10:41.49,0:10:42.67,Default,YUI,0000,0000,0000,,I heard that.
+Dialogue: 0,0:10:44.00,0:10:45.16,Default,KYOKO,0000,0000,0000,,Ah well...
+Dialogue: 0,0:10:45.70,0:10:48.18,Default,KYOKO,0000,0000,0000,,None of us are very \Ngood at naming things.
+Dialogue: 0,0:10:48.18,0:10:49.67,Default,YUI,0000,0000,0000,,It's devastating.
+Dialogue: 0,0:10:50.07,0:10:52.50,Default,CHINATSU,0000,0000,0000,,{\i1}I thought China was cute...{\i0}
+Dialogue: 0,0:10:55.40,0:10:59.47,Default,KYOKO,0000,0000,0000,,Forget the nicknames. \NLet's play Concentration.
+Dialogue: 0,0:10:59.47,0:11:01.26,Default,CHINATSU,0000,0000,0000,,I won't lose this time!
+Dialogue: 0,0:11:01.69,0:11:03.39,Default,AKARI,0000,0000,0000,,I might be able to win!
+Dialogue: 0,0:11:03.94,0:11:06.66,Default,KYOKO,0000,0000,0000,,Old Face, pass me some tissues.
+Dialogue: 0,0:11:06.66,0:11:08.29,Default,YUI,0000,0000,0000,,Forget that nickname, too.
+Dialogue: 0,0:11:33.38,0:11:35.74,Default,AYANO,0000,0000,0000,,We're organizing the \Nclass roster today, aren't we?
+Dialogue: 0,0:11:35.74,0:11:37.50,Default,CHITOSE,0000,0000,0000,,We'd better work hard.
+Dialogue: 0,0:11:37.50,0:11:41.01,YY-Sign-top,,0000,0000,0000,,Student Council
+Dialogue: 0,0:11:37.94,0:11:38.79,Default,HIMAWARI,0000,0000,0000,,No!
+Dialogue: 0,0:11:38.79,0:11:40.13,Default,HIMAWARI,0000,0000,0000,,Sakurako, no!
+Dialogue: 0,0:11:41.35,0:11:44.84,Default,AYANO,0000,0000,0000,,Sounds like Omuro-san and \NFurutani-san are already here.
+Dialogue: 0,0:11:48.06,0:11:50.40,Default,SAKURAKO,0000,0000,0000,,You can't escape now.
+Dialogue: 0,0:11:50.40,0:11:52.45,Default,HIMAWARI,0000,0000,0000,,But... But this is so sudden...
+Dialogue: 0,0:11:55.16,0:11:57.69,Default,SAKURAKO,0000,0000,0000,,More... Deeper...
+Dialogue: 0,0:11:57.69,0:12:01.20,Default,HIMAWARI,0000,0000,0000,,Wait! Don't go so deep...
+Dialogue: 0,0:12:01.45,0:12:03.45,Default,SAKURAKO,0000,0000,0000,,It's so... tight...
+Dialogue: 0,0:12:03.93,0:12:05.45,Default,HIMAWARI,0000,0000,0000,,Sakurako...
+Dialogue: 0,0:12:06.52,0:12:09.09,Default,SAKURAKO,0000,0000,0000,,It's... It's coming!
+Dialogue: 0,0:12:09.09,0:12:09.87,Default,HIMAWARI,0000,0000,0000,,It came out!
+Dialogue: 0,0:12:09.87,0:12:10.96,Default,AYANO,0000,0000,0000,,What? Huh?
+Dialogue: 0,0:12:13.92,0:12:15.21,Default,CHITOSE,0000,0000,0000,,Oh my.
+Dialogue: 0,0:12:15.90,0:12:18.46,Default,AYANO,0000,0000,0000,,What are you two...
+Dialogue: 0,0:12:19.85,0:12:21.11,Default,HIMAWARI,0000,0000,0000,,Senpai, watch out!
+Dialogue: 0,0:12:21.11,0:12:22.67,Default,HIMAWARI,0000,0000,0000,,Look down!
+Dialogue: 0,0:12:22.67,0:12:23.34,Default,AYANO,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:35.23,0:12:37.42,Default,SAKURAKO,0000,0000,0000,,It went back to hiding.
+Dialogue: 0,0:12:37.42,0:12:39.15,Default,CHITOSE,0000,0000,0000,,I see.
+Dialogue: 0,0:12:39.15,0:12:42.09,Default,CHITOSE,0000,0000,0000,,You were using the broom\Nto guide a snake, that had crawled
+Dialogue: 0,0:12:42.09,0:12:44.03,Default,,0000,0000,0000,,beneath the fridge,\Nso you could capture it.
+Dialogue: 0,0:12:44.28,0:12:47.55,Default,AYANO,0000,0000,0000,,What is a snake doing \Nhere at this time of year?
+Dialogue: 0,0:12:47.55,0:12:49.36,Default,AYANO,0000,0000,0000,,Shouldn't they be hibernating?
+Dialogue: 0,0:12:49.36,0:12:52.66,Default,CHITOSE,0000,0000,0000,,Maybe it snuck \Nin here because it's warm.
+Dialogue: 0,0:12:52.66,0:12:53.79,Default,CHITOSE,0000,0000,0000,,By the way...
+Dialogue: 0,0:12:54.14,0:12:57.16,Default,CHITOSE,0000,0000,0000,,Furutani-san, what are \Nyou doing on the table?
+Dialogue: 0,0:12:57.16,0:13:00.29,Default,HIMAWARI,0000,0000,0000,,I don't like snakes...
+Dialogue: 0,0:13:00.83,0:13:03.09,Default,CHITOSE,0000,0000,0000,,Omuro-san, you don't mind snakes?
+Dialogue: 0,0:13:03.58,0:13:06.01,Default,SAKURAKO,0000,0000,0000,,Nope! I don't like to touch them, though.
+Dialogue: 0,0:13:06.35,0:13:09.01,Default,HIMAWARI,0000,0000,0000,,There must be something wrong with you\N if you don't mind snakes.
+Dialogue: 0,0:13:10.49,0:13:13.02,Default,SAKURAKO,0000,0000,0000,,They're way better than cockroaches.
+Dialogue: 0,0:13:13.02,0:13:16.81,Default,HIMAWARI,0000,0000,0000,,No way! If I had a choice, \NI'd choose cockroaches any day!
+Dialogue: 0,0:13:16.81,0:13:18.98,Default,SAKURAKO,0000,0000,0000,,No, that's crazy.
+Dialogue: 0,0:13:19.53,0:13:21.28,Default,SAKURANO,0000,0000,0000,,That's why your boobs are so big!
+Dialogue: 0,0:13:21.57,0:13:23.53,Default,HIMAWARI,0000,0000,0000,,That has nothing to do with this!
+Dialogue: 0,0:13:26.31,0:13:30.47,Default,AYANO,0000,0000,0000,,Just do something about that snake.
+Dialogue: 0,0:13:30.47,0:13:33.50,Default,CHITOSE,0000,0000,0000,,Don't you think Toshino-san \Nwould be good at this?
+Dialogue: 0,0:13:34.62,0:13:37.76,Default,KYOKO,0000,0000,0000,,I got the snake!
+Dialogue: 0,0:13:38.60,0:13:40.01,Default,CHITOSE,0000,0000,0000,,Shall I go get her?
+Dialogue: 0,0:13:40.01,0:13:42.00,Default,AYANO,0000,0000,0000,,Of course not!
+Dialogue: 0,0:13:42.23,0:13:46.21,Default,AYANO,0000,0000,0000,,If she finds out I'm afraid of snakes...
+Dialogue: 0,0:13:49.61,0:13:51.99,Default,SAKURAKO,0000,0000,0000,,Ikeda-senpai, you're not scared?
+Dialogue: 0,0:13:51.99,0:13:53.76,Default,CHITOSE,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:13:53.76,0:13:54.86,Default,HIMAWARI,0000,0000,0000,,Then can you catch it—
+Dialogue: 0,0:13:54.86,0:13:57.90,Default,CHITOSE,0000,0000,0000,,Sorry, I'm busy.
+Dialogue: 0,0:13:59.44,0:14:01.41,Default,KYOKO,0000,0000,0000,,Snakes aren't scary.
+Dialogue: 0,0:14:02.78,0:14:05.17,Default,KYOKO,0000,0000,0000,,Don't worry. I'm here.
+Dialogue: 0,0:14:05.17,0:14:06.80,Default,AYANO,0000,0000,0000,,Kyoko.
+Dialogue: 0,0:14:09.90,0:14:12.45,Default,CHITOSE,0000,0000,0000,,This is the best.
+Dialogue: 0,0:14:13.31,0:14:15.12,Default,SAKURAKO,0000,0000,0000,,You all disgust me!
+Dialogue: 0,0:14:15.12,0:14:17.08,Default,SAKURAKO,0000,0000,0000,,I, Sakurako-sama,
+Dialogue: 0,0:14:17.53,0:14:19.86,Default,,0000,0000,0000,,shall capture the snake for you!
+Dialogue: 0,0:14:19.86,0:14:21.21,Default,HIMAWARI,0000,0000,0000,,Who're you impersonating?
+Dialogue: 0,0:14:21.58,0:14:22.47,Default,SAKURAKO,0000,0000,0000,,Hey!
+Dialogue: 0,0:14:22.47,0:14:23.65,Default,SAKURAKO,0000,0000,0000,,Come on out, snake!
+Dialogue: 0,0:14:23.65,0:14:26.92,Default,HIMAWARI,0000,0000,0000,,Sakurako, you're so strong.
+Dialogue: 0,0:14:28.90,0:14:31.29,Default,SAKURAKO,0000,0000,0000,,Come out! Come...
+Dialogue: 0,0:14:37.12,0:14:39.80,Default,HIMAWARI,0000,0000,0000,,I knew that would happen.
+Dialogue: 0,0:14:39.80,0:14:41.23,Default,SAKURAKO,0000,0000,0000,,Then you do it!
+Dialogue: 0,0:14:43.37,0:14:45.48,Default,SAKURAKO,0000,0000,0000,,Fine then, I'll just \Ngrab you with my hand!
+Dialogue: 0,0:14:45.48,0:14:46.95,Default,AYANO,0000,0000,0000,,Isn't that dangerous?
+Dialogue: 0,0:14:46.95,0:14:50.46,Default,SAKURAKO,0000,0000,0000,,I'll be fine as long \Nas it doesn't bite me.
+Dialogue: 0,0:14:48.22,0:14:50.78,Refuge,TEXT,0000,0000,0000,,{\pos(592,47)}Taking\NRefuge
+Dialogue: 0,0:14:48.22,0:14:51.60,YY-Sign-top,TEXT,0000,0000,0000,,{\pos(343,16)}Taking\NRefuge
+Dialogue: 0,0:14:51.97,0:14:53.43,YY-Sign-top,TEXT,0000,0000,0000,,{\pos(149,7)}Still Fantasizing
+Dialogue: 0,0:14:55.77,0:14:59.58,Default,SAKURKO,0000,0000,0000,,Why... you... little...
+Dialogue: 0,0:15:03.78,0:15:05.59,Default,HIMAWARI,0000,0000,0000,,Heads up.
+Dialogue: 0,0:15:05.93,0:15:07.26,Default,SAKURAKO,0000,0000,0000,,You should've said that earlier!
+Dialogue: 0,0:15:07.26,0:15:08.78,Default,SAKURAKO,0000,0000,0000,,Now I'm angry!
+Dialogue: 0,0:15:08.78,0:15:10.96,Default,SAKURAKO,0000,0000,0000,,Prepare yourself, snake!
+Dialogue: 0,0:15:10.96,0:15:12.39,Default,HIMAWARI,0000,0000,0000,,She's angry at the wrong person.
+Dialogue: 0,0:15:14.45,0:15:17.54,YY-note-big,TEXT,0000,0000,0000,,Snake hunt in progress.
+Dialogue: 0,0:15:14.45,0:15:17.54,YY-note-big,TEXT,0000,0000,0000,,Meanwhile, please enjoy \NChitose's fantasy.
+Dialogue: 0,0:15:17.86,0:15:19.31,Default,SAKURAKO,0000,0000,0000,,Got it!
+Dialogue: 0,0:15:19.70,0:15:22.22,Default,AYANO,0000,0000,0000,,Good work, Omuro-san.
+Dialogue: 0,0:15:22.22,0:15:23.56,Default,CHITOSE,0000,0000,0000,,Amazing.
+Dialogue: 0,0:15:25.84,0:15:29.24,Default,SAKURAKO,0000,0000,0000,,It'd be a waste to just let it go.
+Dialogue: 0,0:15:29.24,0:15:30.82,Default,SAKURAKO,0000,0000,0000,,I'll go show Akari-chan!
+Dialogue: 0,0:15:31.11,0:15:32.28,Default,HIMAWARI,0000,0000,0000,,What? Wait...
+Dialogue: 0,0:15:33.90,0:15:35.95,Default,CHITOSE,0000,0000,0000,,Does Akaza-san even like snakes?
+Dialogue: 0,0:15:35.95,0:15:38.15,Default,HIMAWARI,0000,0000,0000,,No, I think she just \Nwants to show her...
+Dialogue: 0,0:15:38.85,0:15:40.46,Default,SAKURAKO,0000,0000,0000,,Akari-chan!
+Dialogue: 0,0:15:41.50,0:15:43.58,Default,SAKURAKO,0000,0000,0000,,Look, a snake!
+Dialogue: 0,0:15:44.37,0:15:45.64,Default,AKARI,0000,0000,0000,,Sakurako-chan!
+Dialogue: 0,0:15:45.64,0:15:47.34,Default,AKARI,0000,0000,0000,,You shouldn't have come in...
+Dialogue: 0,0:15:48.57,0:15:49.84,Default,SAKURAKO,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:15:50.05,0:15:51.35,Default,AKARI,0000,0000,0000,,Um...
+Dialogue: 0,0:16:18.89,0:16:21.69,Default,CHINATSU,0000,0000,0000,,The snake! Sakurako-chan, the snake!
+Dialogue: 0,0:16:23.88,0:16:26.22,Default,CHITOSE,0000,0000,0000,,Omuro-san's still not back.
+Dialogue: 0,0:16:26.22,0:16:28.68,Default,HIMAWARI,0000,0000,0000,,She must've gotten herself into trouble.
+Dialogue: 0,0:16:29.07,0:16:30.78,YY-Sign-top,TEXT,0000,0000,0000,,Correct
+Dialogue: 0,0:16:35.07,0:16:39.54,YY-Sign-top,TV,0000,0000,0000,,New Influenza Epidemic
+Dialogue: 0,0:16:35.40,0:16:39.00,Default,CASTER,0000,0000,0000,,{\i1}This year's influenza \Nis spreading rapidly.{\i0}
+Dialogue: 0,0:16:39.00,0:16:42.31,Default,CASTER,0000,0000,0000,,{\i1}Make sure you take care \Nnot to get infected.{\i0}
+Dialogue: 0,0:16:43.00,0:16:44.56,Default,CHINATSU,0000,0000,0000,,It's really getting around.
+Dialogue: 0,0:16:45.11,0:16:46.67,Default,KYOKO,0000,0000,0000,,My character song?
+Dialogue: 0,0:16:46.67,0:16:48.24,Default,YUI,0000,0000,0000,,Hey.
+Dialogue: 0,0:16:48.24,0:16:52.86,Default,CHINATSU,0000,0000,0000,,It sounds like it's been going \N around my sister's school, too.
+Dialogue: 0,0:16:52.86,0:16:54.53,Default,YUI,0000,0000,0000,,We have to protect ourselves \Nagainst getting sick.
+Dialogue: 0,0:16:54.53,0:16:57.74,Default,AKARI,0000,0000,0000,,What are we supposed to do?
+Dialogue: 0,0:16:58.05,0:16:59.68,Default,KYOKO,0000,0000,0000,,Don't go outside until spring!
+Dialogue: 0,0:16:59.68,0:17:00.79,Default,KYOKO,0000,0000,0000,,Nice idea!
+Dialogue: 0,0:17:00.79,0:17:01.83,Default,YUI,0000,0000,0000,,Don't be ridiculous.
+Dialogue: 0,0:17:02.58,0:17:05.16,Default,AKARI,0000,0000,0000,,Eat a balanced diet?
+Dialogue: 0,0:17:06.00,0:17:07.46,Default,CHINATSU,0000,0000,0000,,Balanced nutrition.
+Dialogue: 0,0:17:07.83,0:17:10.46,Default,KYOKO,0000,0000,0000,,Yui, how are you doing with that?
+Dialogue: 0,0:17:12.17,0:17:15.17,Default,YUI,0000,0000,0000,,Since I live alone, my diet\Nmight be a little off balance.
+Dialogue: 0,0:17:15.17,0:17:16.47,Default,CHINATSU,0000,0000,0000,,What?
+Dialogue: 0,0:17:16.72,0:17:18.32,Default,CHINATSU,0000,0000,0000,,Senpai, you have to fix that!
+Dialogue: 0,0:17:18.32,0:17:20.68,Default,CHINATSU,0000,0000,0000,,What if you catch a cold?
+Dialogue: 0,0:17:20.68,0:17:22.47,Default,YUI,0000,0000,0000,,Yeah, I'll be careful.
+Dialogue: 0,0:17:23.03,0:17:25.68,Default,YUI,0000,0000,0000,,Kyoko, I bet you eat tons of rice.
+Dialogue: 0,0:17:25.68,0:17:27.04,Default,YUI,0000,0000,0000,,You probably get extra helpings.
+Dialogue: 0,0:17:27.04,0:17:28.13,Default,KYOKO,0000,0000,0000,,How rude!
+Dialogue: 0,0:17:28.13,0:17:29.94,Default,,0000,0000,0000,,Are you saying I gained two kilos?
+Dialogue: 0,0:17:30.48,0:17:31.78,Default,YUI,0000,0000,0000,,You do eat a lot.
+Dialogue: 0,0:17:32.95,0:17:35.62,Default,AKARI,0000,0000,0000,,I guess you should also \Nmake sure to get plenty of sleep.
+Dialogue: 0,0:17:35.62,0:17:37.44,Default,KYOKO,0000,0000,0000,,Akari, do you get enough sleep?
+Dialogue: 0,0:17:37.44,0:17:39.34,Default,AKARI,0000,0000,0000,,I go to bed at nine every night,
+Dialogue: 0,0:17:39.34,0:17:41.07,Default,,0000,0000,0000,,so I get plenty of sleep.
+Dialogue: 0,0:17:41.07,0:17:43.12,Default,KYOKO,0000,0000,0000,,You always go to bed so early.
+Dialogue: 0,0:17:43.12,0:17:46.13,Default,CHINATSU,0000,0000,0000,,I get a fair amount of sleep.
+Dialogue: 0,0:17:46.13,0:17:48.50,Default,YUI,0000,0000,0000,,Sounds like you're all sleeping enough.
+Dialogue: 0,0:17:49.01,0:17:52.55,Default,YUI,0000,0000,0000,,Though Kyoko seems the \Ntype who'd stay up late.
+Dialogue: 0,0:17:54.87,0:17:56.40,Default,KYOKO,0000,0000,0000,,I'm sure you think I do.
+Dialogue: 0,0:17:56.40,0:17:58.26,Default,KYOKO,0000,0000,0000,,But the truth is...
+Dialogue: 0,0:17:59.27,0:18:00.51,Default,CHINATSU,0000,0000,0000,,The truth is...?
+Dialogue: 0,0:18:01.98,0:18:03.21,Default,KYOKO,0000,0000,0000,,That's exactly right.
+Dialogue: 0,0:18:03.21,0:18:04.52,Default,YUI,0000,0000,0000,,We knew that...
+Dialogue: 0,0:18:04.89,0:18:07.15,Default,KYOKO,0000,0000,0000,,I do try to go to sleep.
+Dialogue: 0,0:18:07.15,0:18:11.31,Default,,0000,0000,0000,,I say I'll read manga \Nuntil I get tired...
+Dialogue: 0,0:18:12.74,0:18:15.00,Default,KYOKO,0000,0000,0000,,...but before I know it, \NI've read every volume.
+Dialogue: 0,0:18:15.87,0:18:17.54,Default,KYOKO,0000,0000,0000,,And it's morning.
+Dialogue: 0,0:18:19.18,0:18:21.03,Default,KYOKO,0000,0000,0000,,I notice because the \Nbirds start tweeting.
+Dialogue: 0,0:18:21.29,0:18:22.56,Default,CHINATSU,0000,0000,0000,,That's how?
+Dialogue: 0,0:18:23.05,0:18:27.17,Default,CHINATSU,0000,0000,0000,,I'm surprised you can make it \Nthrough school without sleep.
+Dialogue: 0,0:18:27.17,0:18:28.32,Default,KYOKO,0000,0000,0000,,I know, right?
+Dialogue: 0,0:18:28.32,0:18:30.12,Default,YUI,0000,0000,0000,,Are you kidding me?
+Dialogue: 0,0:18:30.12,0:18:32.20,Default,,0000,0000,0000,,You sleep through all your classes.
+Dialogue: 0,0:18:32.20,0:18:33.57,Default,KYOKO,0000,0000,0000,,You knew?
+Dialogue: 0,0:18:33.57,0:18:36.86,Default,KYOKO,0000,0000,0000,,I'm always surprised when I \Nwake up and school's over.
+Dialogue: 0,0:18:37.92,0:18:40.55,Default,AKARI,0000,0000,0000,,If you sleep that much, it's no \Nwonder you can't sleep at night.
+Dialogue: 0,0:18:41.98,0:18:45.43,Default,AKARI,0000,0000,0000,,But Yui-chan, I'm surprised \Nyou don't stay up all night.
+Dialogue: 0,0:18:45.83,0:18:46.68,Default,YUI,0000,0000,0000,,Really?
+Dialogue: 0,0:18:47.25,0:18:49.56,Default,KYOKO,0000,0000,0000,,She seems like the type \Nwho'd play games all night.
+Dialogue: 0,0:18:50.17,0:18:52.37,Default,YUI,0000,0000,0000,,I play games in the morning.
+Dialogue: 0,0:18:52.37,0:18:53.96,Default,CHINATSU,0000,0000,0000,,In the morning?
+Dialogue: 0,0:18:53.96,0:18:55.97,Default,YUI,0000,0000,0000,,I get up early to play games.
+Dialogue: 0,0:18:55.97,0:18:57.42,Default,YUI,0000,0000,0000,,It helps me wake up.
+Dialogue: 0,0:18:57.42,0:18:58.89,Default,YUI,0000,0000,0000,,It clears my head, too.
+Dialogue: 0,0:18:58.89,0:19:00.02,Default,CHINATSU,0000,0000,0000,,I see.
+Dialogue: 0,0:19:00.41,0:19:02.70,Default,,0000,0000,0000,,That sounds pretty nice.
+Dialogue: 0,0:19:05.94,0:19:07.56,Default,YUI,0000,0000,0000,,What were we talking about?
+Dialogue: 0,0:19:07.56,0:19:08.74,Default,AKARI,0000,0000,0000,,Preventing colds.
+Dialogue: 0,0:19:08.74,0:19:09.37,Default,YUI,0000,0000,0000,,Right...
+Dialogue: 0,0:19:09.81,0:19:13.04,Default,AKARI,0000,0000,0000,,I guess washing your hands and \Ngargling are also a must.
+Dialogue: 0,0:19:13.69,0:19:14.50,Default,KYOKO,0000,0000,0000,,Hand-gargle.
+Dialogue: 0,0:19:15.74,0:19:17.41,Default,YUI,0000,0000,0000,,Why would you shorten that?
+Dialogue: 0,0:19:17.41,0:19:19.45,Default,KYOKO,0000,0000,0000,,Hand-gargling's important.
+Dialogue: 0,0:19:19.45,0:19:21.03,Default,KYOKO,0000,0000,0000,,Let's all hand-gargle!
+Dialogue: 0,0:19:21.03,0:19:22.36,Default,YUI,0000,0000,0000,,That'll never catch on.
+Dialogue: 0,0:19:22.36,0:19:23.51,Default,YUI,0000,0000,0000,,Who are you even talking to?
+Dialogue: 0,0:19:24.16,0:19:27.66,Default,YUI,0000,0000,0000,,Anyway, Kyoko doesn't seem like \Nthe type who'd catch a cold.
+Dialogue: 0,0:19:27.66,0:19:28.89,Default,CHINATSU,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:28.89,0:19:29.69,Default,KYOKO,0000,0000,0000,,Hey.
+Dialogue: 0,0:19:31.81,0:19:33.48,Default,KYOKO,0000,0000,0000,,Cold prevention is important!
+Dialogue: 0,0:19:33.94,0:19:36.98,Default,KYOKO,0000,0000,0000,,Let's form a Cold Prevention \NTeam here and now!
+Dialogue: 0,0:19:36.98,0:19:39.40,Default,YUI,0000,0000,0000,,You're awfully spirited, \Nconsidering how cold it is.
+Dialogue: 0,0:19:39.88,0:19:43.03,Default,KYOKO,0000,0000,0000,,I can't play if I'm sick. \NI'd be bored!
+Dialogue: 0,0:19:43.49,0:19:44.86,Default,YUI,0000,0000,0000,,So that's it.
+Dialogue: 0,0:19:44.86,0:19:47.65,Default,KYOKO,0000,0000,0000,,First, make sure you're \Ngetting enough nutrients!
+Dialogue: 0,0:19:47.65,0:19:50.15,Default,KYOKO,0000,0000,0000,,Second, get enough sleep!
+Dialogue: 0,0:19:50.15,0:19:51.93,Default,YUI,0000,0000,0000,,You should fix your sleep schedule.
+Dialogue: 0,0:19:51.93,0:19:53.00,Default,KYOKO,0000,0000,0000,,I'll try!
+Dialogue: 0,0:19:54.13,0:19:57.55,Default,KYOKO,0000,0000,0000,,Also, dehydration isn't good, \N so use a humidifier.
+Dialogue: 0,0:19:57.86,0:20:01.23,Default,CHINATSU,0000,0000,0000,,They say it's good to wear a mask, too.
+Dialogue: 0,0:20:01.23,0:20:03.70,Default,KYOKO,0000,0000,0000,,Fantastic idea, Squad Member Chinatsu!
+Dialogue: 0,0:20:04.30,0:20:07.20,Default,KYOKO,0000,0000,0000,,Finally, there's hand-gargling! Got it?
+Dialogue: 0,0:20:07.51,0:20:09.31,Default,YUI,0000,0000,0000,,I told you, that'll never catch on.
+Dialogue: 0,0:20:10.09,0:20:11.85,Default,AKARI,0000,0000,0000,,I'll be careful.
+Dialogue: 0,0:20:12.57,0:20:13.73,Default,CHINATSU,0000,0000,0000,,Me, too.
+Dialogue: 0,0:20:14.10,0:20:17.09,Default,KYOKO,0000,0000,0000,,Good! Sounds like you all understand!
+Dialogue: 0,0:20:17.09,0:20:19.65,Default,KYOKO,0000,0000,0000,,Now that that's settled, Captain \NKyoko's going to sleep.
+Dialogue: 0,0:20:20.16,0:20:22.94,Default,CHINATSU,0000,0000,0000,,They say you'll catch a cold \Nif you sleep under a kotatsu.
+Dialogue: 0,0:20:22.94,0:20:24.11,Default,KYOKO,0000,0000,0000,,You're right!
+Dialogue: 0,0:20:24.61,0:20:26.84,Default,KYOKO,0000,0000,0000,,Then where should I sleep?
+Dialogue: 0,0:20:26.84,0:20:28.03,Default,YUI,0000,0000,0000,,Go sleep at home.
+Dialogue: 0,0:20:28.03,0:20:30.78,Default,KYOKO,0000,0000,0000,,Aww! Don't say that, Yui-tan.
+Dialogue: 0,0:20:35.64,0:20:37.93,Default,AKARI,0000,0000,0000,,Moving around might wake you up.
+Dialogue: 0,0:20:37.93,0:20:38.88,Default,KYOKO,0000,0000,0000,,That's it!
+Dialogue: 0,0:20:39.50,0:20:41.91,Default,YUI,0000,0000,0000,,Is everyone okay with milk tea?
+Dialogue: 0,0:20:41.91,0:20:43.34,Default,CHINATSU,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:46.36,0:20:47.33,Default,YUI,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:20:47.33,0:20:48.72,Default,KYOKO,0000,0000,0000,,Air hula hoop.
+Dialogue: 0,0:20:49.17,0:20:50.41,Default,KYOKO,0000,0000,0000,,Allow me to explain!
+Dialogue: 0,0:20:50.41,0:20:53.73,Default,KYOKO,0000,0000,0000,,Moving as though you are \Nactually using a hula hoop
+Dialogue: 0,0:20:53.73,0:20:56.06,Default,,0000,0000,0000,,will help you shape up your waist!
+Dialogue: 0,0:20:56.06,0:20:57.06,Default,KYOKO,0000,0000,0000,,Probably!
+Dialogue: 0,0:20:58.86,0:21:00.15,Default,AKARI,0000,0000,0000,,It's delicious.
+Dialogue: 0,0:21:02.10,0:21:04.19,Default,KYOKO,0000,0000,0000,,Furthermore, it even prevents colds!
+Dialogue: 0,0:21:04.19,0:21:05.16,Default,YUI,0000,0000,0000,,No, it doesn't.
+Dialogue: 0,0:21:05.47,0:21:07.39,1 week later,TEXT,0000,0000,0000,,After School
+Dialogue: 0,0:21:07.77,0:21:09.13,Default,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:21:09.13,0:21:10.66,Default,AKARI,0000,0000,0000,,Kyoko-chan's sick?
+Dialogue: 0,0:21:10.93,0:21:13.91,Default,YUI,0000,0000,0000,,Yeah, so she took the day off.
+Dialogue: 0,0:21:14.62,0:21:16.58,Default,CHINATSU,0000,0000,0000,,Kyoko-senpai's sick...
+Dialogue: 0,0:21:17.10,0:21:19.85,Default,AKARI,0000,0000,0000,,But she was so passionate about \Ncold prevention yesterday...
+Dialogue: 0,0:21:20.84,0:21:23.35,Default,AKARI,0000,0000,0000,,Let's all go visit her!
+Dialogue: 0,0:21:23.35,0:21:25.18,Default,AKARI,0000,0000,0000,,I'm sure she's feeling \Ndown since she got sick.
+Dialogue: 0,0:21:25.92,0:21:27.24,Default,YUI,0000,0000,0000,,You're right.
+Dialogue: 0,0:21:27.24,0:21:27.93,Default,YUI,0000,0000,0000,,Let's go.
+Dialogue: 0,0:21:30.78,0:21:32.46,Default,KYOKO,0000,0000,0000,,Sorry, everyone.
+Dialogue: 0,0:21:34.75,0:21:36.69,Default,AKARI,0000,0000,0000,,Kyoko-chan, are you okay?
+Dialogue: 0,0:21:37.18,0:21:39.42,Default,KYOKO,0000,0000,0000,,I'm not doing so well...
+Dialogue: 0,0:21:40.42,0:21:41.99,Default,CHINATSU,0000,0000,0000,,You seem to be in pain.
+Dialogue: 0,0:21:42.82,0:21:44.71,Default,YUI,0000,0000,0000,,How did you get sick?
+Dialogue: 0,0:21:45.18,0:21:47.45,Default,YUI,0000,0000,0000,,You were so into cold prevention.
+Dialogue: 0,0:21:48.97,0:21:52.18,Default,KYOKO,0000,0000,0000,,Well, after I came home yesterday...
+Dialogue: 0,0:21:53.10,0:21:55.09,Default,KYOKO,0000,0000,0000,,I thought it would stop \Nme from catching a cold,
+Dialogue: 0,0:21:55.09,0:21:57.21,Default,,0000,0000,0000,,so I rubbed myself with \Na towel for about an hour.
+Dialogue: 0,0:21:59.60,0:22:01.53,Default,YUI,0000,0000,0000,,Forget your cold. \NYou need a cure for stupidity.
+Dialogue: 0,0:22:01.91,0:22:03.21,Default,KYOKO,0000,0000,0000,,Indeed...
+Dialogue: 0,0:22:04.15,0:22:05.36,Default,KYOKO,0000,0000,0000,,Also, hand-gargling.
+Dialogue: 0,0:22:05.36,0:22:06.58,Default,YUI,0000,0000,0000,,You're still saying that?
+Dialogue: 0,0:23:41.28,0:23:43.61,Default,KYOKO,0000,0000,0000,,The wild protagonist, \NToshino Kyoko, is here.
+Dialogue: 0,0:23:44.26,0:23:46.15,Default,KYOKO,0000,0000,0000,,I kind of liked "hand-gargling."
+Dialogue: 0,0:23:46.59,0:23:50.21,Default,KYOKO,0000,0000,0000,,Are there any doctors \Nwatching this show?
+Dialogue: 0,0:23:50.21,0:23:52.35,Default,KYOKO,0000,0000,0000,,Starting tomorrow, let's all say it!
+Dialogue: 0,0:23:52.35,0:23:53.82,Default,KYOKO,0000,0000,0000,,It won't cost you a cent.

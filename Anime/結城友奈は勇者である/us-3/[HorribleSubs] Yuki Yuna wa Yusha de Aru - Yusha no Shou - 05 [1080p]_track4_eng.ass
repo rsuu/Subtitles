@@ -1,0 +1,394 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.08,0:00:05.21,Default,,0,0,0,,So I tried putting some ramune in.
+Dialogue: 0,0:00:05.42,0:00:07.75,Default,,0,0,0,,-How was it?\N-It was so-so.
+Dialogue: 0,0:00:11.88,0:00:15.72,Default,,0,0,0,,-It's starting to get warm.\N-Yes.
+Dialogue: 0,0:00:16.55,0:00:19.64,Default,,0,0,0,,-It'll be spring soon.\N-Yes.
+Dialogue: 0,0:00:20.14,0:00:23.31,Default,,0,0,0,,-Ms. Togo, I...\N-Yes?
+Dialogue: 0,0:00:23.85,0:00:24.94,Default,,0,0,0,,I'm going to get married.
+Dialogue: 0,0:00:25.31,0:00:26.31,Default,,0,0,0,,Yes.
+Dialogue: 0,0:00:26.65,0:00:27.65,Default,,0,0,0,,Huh!?
+Dialogue: 0,0:00:28.86,0:00:30.15,Default,,0,0,0,,This may be sudden,
+Dialogue: 0,0:00:30.40,0:00:33.15,Default,,0,0,0,,but Yuna Yuki will get married.
+Dialogue: 0,0:00:35.41,0:00:37.70,Default,,0,0,0,,Wha... What are you saying, Yuna!?
+Dialogue: 0,0:00:37.91,0:00:39.03,Default,,0,0,0,,You're in middle school!
+Dialogue: 0,0:00:39.24,0:00:40.83,Default,,0,0,0,,Who are you getting married to!?
+Dialogue: 0,0:00:41.04,0:00:42.62,Default,,0,0,0,,To Shinjyu-sama.
+Dialogue: 0,0:00:43.33,0:00:44.33,Default,,0,0,0,,What?
+Dialogue: 0,0:00:54.30,0:00:56.18,Default,,0,0,0,,Yuki Yuna is a Hero -Hero Chapter-
+Dialogue: 0,0:02:16.51,0:02:18.93,Default,,0,0,0,,EPISODE 5\NINCORRUPTIBLE HEART
+Dialogue: 0,0:02:29.77,0:02:34.11,Default,,0,0,0,,Please raise your head.
+Dialogue: 0,0:02:34.94,0:02:37.19,Default,,0,0,0,,Today...
+Dialogue: 0,0:02:41.74,0:02:44.49,Default,,0,0,0,,How can I help you today?
+Dialogue: 0,0:02:45.16,0:02:49.46,Default,,0,0,0,,There is something\Nwe must tell you in haste, Ms. Yuna.
+Dialogue: 0,0:02:50.08,0:02:53.46,Default,,0,0,0,,We have already received\Napproval from your parents.
+Dialogue: 0,0:02:54.84,0:02:56.38,Default,,0,0,0,,What is it?
+Dialogue: 0,0:02:56.63,0:03:00.30,Default,,0,0,0,,Shinjyu-sama, who has been\Nprotecting us for 300 years,
+Dialogue: 0,0:03:00.51,0:03:03.14,Default,,0,0,0,,is approaching the end of his life.
+Dialogue: 0,0:03:05.06,0:03:07.43,Default,,0,0,0,,Once Shinjyu-sama withers away,
+Dialogue: 0,0:03:07.64,0:03:10.73,Default,,0,0,0,,we will no longer have the barrier\Nthat protects us from the flames outside.
+Dialogue: 0,0:03:10.94,0:03:13.90,Default,,0,0,0,,The world we live in will be engulfed in flames
+Dialogue: 0,0:03:14.11,0:03:16.36,Default,,0,0,0,,and disappear.
+Dialogue: 0,0:03:16.86,0:03:19.24,Default,,0,0,0,,Disappear?
+Dialogue: 0,0:03:19.45,0:03:21.49,Default,,0,0,0,,-Unfortunately.\N-Wait! Wait!
+Dialogue: 0,0:03:21.70,0:03:23.16,Default,,0,0,0,,This is all too sudden.
+Dialogue: 0,0:03:23.37,0:03:26.24,Default,,0,0,0,,It'll disappear? That can't happen.
+Dialogue: 0,0:03:26.62,0:03:28.33,Default,,0,0,0,,Exactly.
+Dialogue: 0,0:03:28.54,0:03:31.37,Default,,0,0,0,,We cannot let the human race\Nbe wiped out.
+Dialogue: 0,0:03:32.42,0:03:36.05,Default,,0,0,0,,We have found a solution to avoid
+Dialogue: 0,0:03:36.25,0:03:38.13,Default,,0,0,0,,the destruction of the human race.
+Dialogue: 0,0:03:38.34,0:03:40.13,Default,,0,0,0,,Um, shouldn't everyone
+Dialogue: 0,0:03:40.34,0:03:42.55,Default,,0,0,0,,from the Hero Club listen to this?
+Dialogue: 0,0:03:42.76,0:03:45.85,Default,,0,0,0,,We would like to talk to you about this first.
+Dialogue: 0,0:03:47.51,0:03:50.52,Default,,0,0,0,,-The only way for everyone to survive...\N-Huh?
+Dialogue: 0,0:03:51.56,0:03:55.36,Default,,0,0,0,,Is for a chosen person\Nto get married to Shinjyu-sama.
+Dialogue: 0,0:03:56.19,0:03:58.82,Default,,0,0,0,,Get married? Married...
+Dialogue: 0,0:03:59.03,0:04:00.78,Default,,0,0,0,,Like really get married?
+Dialogue: 0,0:04:00.99,0:04:02.03,Default,,0,0,0,,Yes.
+Dialogue: 0,0:04:02.24,0:04:03.91,Default,,0,0,0,,From the ancient times, we have called
+Dialogue: 0,0:04:04.11,0:04:06.16,Default,,0,0,0,,the act of marrying god a Shinkon.
+Dialogue: 0,0:04:06.37,0:04:08.83,Default,,0,0,0,,A union between a god and a saintly maiden.
+Dialogue: 0,0:04:09.04,0:04:11.83,Default,,0,0,0,,A ceremony to maintain peace in the world.
+Dialogue: 0,0:04:12.58,0:04:14.33,Default,,0,0,0,,That is a Shinkon.
+Dialogue: 0,0:04:23.72,0:04:24.84,Default,,0,0,0,,If...
+Dialogue: 0,0:04:25.05,0:04:28.93,Default,,0,0,0,,If I do that, will everyone be saved?
+Dialogue: 0,0:04:29.14,0:04:30.72,Default,,0,0,0,,Yes.
+Dialogue: 0,0:04:32.06,0:04:33.60,Default,,0,0,0,,Be saved...
+Dialogue: 0,0:04:34.06,0:04:36.98,Default,,0,0,0,,By performing the Shinkon,\Npeople will acquire a new power
+Dialogue: 0,0:04:37.19,0:04:39.32,Default,,0,0,0,,that will help them\Nbecome the people of god.
+Dialogue: 0,0:04:39.53,0:04:42.99,Default,,0,0,0,,And they will all be able to\Nlive with Shinjyu-sama eternally.
+Dialogue: 0,0:04:44.20,0:04:46.37,Default,,0,0,0,,Do you understand?
+Dialogue: 0,0:04:46.57,0:04:48.37,Default,,0,0,0,,I don't understand.
+Dialogue: 0,0:04:48.58,0:04:51.12,Default,,0,0,0,,But I don't want the human race wiped out.
+Dialogue: 0,0:04:51.45,0:04:54.58,Default,,0,0,0,,We also feel the same way.
+Dialogue: 0,0:04:54.96,0:04:56.67,Default,,0,0,0,,Once the Shinkon is complete,
+Dialogue: 0,0:04:56.88,0:05:00.17,Default,,0,0,0,,the body of the chosen girl\Nwill be moved to the world of god.
+Dialogue: 0,0:05:00.38,0:05:02.84,Default,,0,0,0,,And you will no longer be able\Nget in contact with the outside world.
+Dialogue: 0,0:05:03.17,0:05:04.30,Default,,0,0,0,,What?
+Dialogue: 0,0:05:04.68,0:05:06.39,Default,,0,0,0,,Meaning the girl chosen for the Shinkon
+Dialogue: 0,0:05:06.59,0:05:08.14,Default,,0,0,0,,must die.
+Dialogue: 0,0:05:09.51,0:05:12.27,Default,,0,0,0,,Shinjyu-sama has chosen
+Dialogue: 0,0:05:12.47,0:05:16.69,Default,,0,0,0,,you, Ms. Yuna,\Nas his bride for the Shinkon.
+Dialogue: 0,0:05:17.23,0:05:19.65,Default,,0,0,0,,Why... Why did he choose me?
+Dialogue: 0,0:05:19.86,0:05:22.90,Default,,0,0,0,,Because both your body\Nand soul are the closest to god.
+Dialogue: 0,0:05:23.53,0:05:25.78,Default,,0,0,0,,Because you are a Misugata.
+Dialogue: 0,0:05:28.32,0:05:31.74,Default,,0,0,0,,I believe it is similar to the reason why god
+Dialogue: 0,0:05:31.95,0:05:34.00,Default,,0,0,0,,chose you as a sacrifice.
+Dialogue: 0,0:05:34.87,0:05:38.54,Default,,0,0,0,,So I have to go through with the Shinkon?
+Dialogue: 0,0:05:38.75,0:05:40.17,Default,,0,0,0,,All of us at the amnesty
+Dialogue: 0,0:05:40.38,0:05:45.22,Default,,0,0,0,,have worked hard trying to figure out\Ndifferent ways to save the human race.
+Dialogue: 0,0:05:45.42,0:05:46.43,Default,,0,0,0,,And we've come
+Dialogue: 0,0:05:46.63,0:05:50.51,Default,,0,0,0,,to the conclusion that the Shinkon\Nis the only choice we have left.
+Dialogue: 0,0:05:50.89,0:05:52.51,Default,,0,0,0,,Um...
+Dialogue: 0,0:05:52.72,0:05:54.22,Default,,0,0,0,,I'm sorry.
+Dialogue: 0,0:05:54.43,0:05:56.69,Default,,0,0,0,,I can't answer right away.
+Dialogue: 0,0:05:56.89,0:05:59.02,Default,,0,0,0,,My mind hasn't been able to\Nkeep up with everything.
+Dialogue: 0,0:05:59.48,0:06:02.11,Default,,0,0,0,,You already have the wrath of god\Non your shoulders.
+Dialogue: 0,0:06:02.32,0:06:04.15,Default,,0,0,0,,So this must be very difficult for you.
+Dialogue: 0,0:06:04.57,0:06:08.45,Default,,0,0,0,,Unable to tell anyone, because of the curse.
+Dialogue: 0,0:06:08.66,0:06:10.74,Default,,0,0,0,,Even if I couldn't talk about it,
+Dialogue: 0,0:06:10.95,0:06:14.29,Default,,0,0,0,,I'm sure there would have been\Nother ways I could have told people.
+Dialogue: 0,0:06:14.75,0:06:16.79,Default,,0,0,0,,But I...
+Dialogue: 0,0:06:17.16,0:06:19.00,Default,,0,0,0,,hurt my friend's feelings.
+Dialogue: 0,0:06:19.21,0:06:21.71,Default,,0,0,0,,Your heart that holds compassion for everyone.
+Dialogue: 0,0:06:21.92,0:06:25.30,Default,,0,0,0,,I believe that you are a great hero.
+Dialogue: 0,0:06:25.51,0:06:27.17,Default,,0,0,0,,That's not true.
+Dialogue: 0,0:06:27.38,0:06:28.93,Default,,0,0,0,,Yuna, you are the only person
+Dialogue: 0,0:06:29.13,0:06:33.14,Default,,0,0,0,,who has the power to\Nsave your friend and the human race.
+Dialogue: 0,0:06:34.10,0:06:37.18,Default,,0,0,0,,So if I were to do this Shinkon,
+Dialogue: 0,0:06:37.39,0:06:39.39,Default,,0,0,0,,what do you mean by they would live eternally
+Dialogue: 0,0:06:39.60,0:06:41.61,Default,,0,0,0,,as the people of god?
+Dialogue: 0,0:06:41.81,0:06:43.90,Default,,0,0,0,,It means just that.
+Dialogue: 0,0:06:44.23,0:06:47.49,Default,,0,0,0,,We will have Shinjyu-sama manage all of us.
+Dialogue: 0,0:06:47.69,0:06:49.86,Default,,0,0,0,,In a kind world.
+Dialogue: 0,0:06:50.07,0:06:52.49,Default,,0,0,0,,When people die,\Nthat is the end for them.
+Dialogue: 0,0:06:52.70,0:06:54.28,Default,,0,0,0,,But if we can live as people of god
+Dialogue: 0,0:06:54.49,0:06:56.70,Default,,0,0,0,,alongside Shinjyu-sama,
+Dialogue: 0,0:06:56.91,0:06:58.37,Default,,0,0,0,,we may have hope.
+Dialogue: 0,0:06:59.00,0:07:02.75,Default,,0,0,0,,Would everyone still be human?
+Dialogue: 0,0:07:03.13,0:07:04.42,Default,,0,0,0,,We would be able to exist
+Dialogue: 0,0:07:04.63,0:07:06.71,Default,,0,0,0,,under the god's care.
+Dialogue: 0,0:07:06.92,0:07:10.72,Default,,0,0,0,,The ones with stronger faith will\Nbe with Shinjyu-sama.
+Dialogue: 0,0:07:13.35,0:07:16.72,Default,,0,0,0,,Everyone with Shinjyu-sama.
+Dialogue: 0,0:07:17.35,0:07:18.31,Default,,0,0,0,,Please,
+Dialogue: 0,0:07:18.98,0:07:23.02,Default,,0,0,0,,help us save the human race.
+Dialogue: 0,0:07:24.36,0:07:27.28,Default,,0,0,0,,Please make a merciful decision.
+Dialogue: 0,0:07:40.66,0:07:43.33,Default,,0,0,0,,After the curse,\Nnow I have to get married?
+Dialogue: 0,0:07:43.54,0:07:46.21,Default,,0,0,0,,What a shock, huh, Gyuki?
+Dialogue: 0,0:07:46.42,0:07:50.09,Default,,0,0,0,,Mom and Dad were crying but...
+Dialogue: 0,0:07:50.30,0:07:53.30,Default,,0,0,0,,They said they would let me decide.
+Dialogue: 0,0:07:54.47,0:07:55.93,Default,,0,0,0,,My body...
+Dialogue: 0,0:07:56.93,0:07:59.52,Default,,0,0,0,,My life is already...
+Dialogue: 0,0:08:04.61,0:08:07.65,Default,,0,0,0,,I wonder what happens when I die for the Shinkon?
+Dialogue: 0,0:08:08.61,0:08:11.40,Default,,0,0,0,,Would it be less painful than dying from the curse?
+Dialogue: 0,0:08:13.74,0:08:16.62,Default,,0,0,0,,It's not good, I'm only thinking about myself.
+Dialogue: 0,0:08:16.83,0:08:19.29,Default,,0,0,0,,I am a hero.
+Dialogue: 0,0:08:19.87,0:08:22.04,Default,,0,0,0,,I have to do what a hero would do.
+Dialogue: 0,0:08:22.71,0:08:29.00,Default,,0,0,0,,I can't let the world be engulfed by the flames.
+Dialogue: 0,0:08:30.51,0:08:32.17,Default,,0,0,0,,Hero club 5 clauses.
+Dialogue: 0,0:08:32.59,0:08:35.43,Default,,0,0,0,,Things will work out if you try.
+Dialogue: 0,0:08:36.01,0:08:40.22,Default,,0,0,0,,That's right. It's not the time\Nfor me to be unsure or scared.
+Dialogue: 0,0:08:40.47,0:08:41.43,Default,,0,0,0,,I have to do it.
+Dialogue: 0,0:08:41.77,0:08:45.10,Default,,0,0,0,,I'm a hero!
+Dialogue: 0,0:08:50.40,0:08:53.28,Default,,0,0,0,,If this life will perish with the curse,
+Dialogue: 0,0:08:54.28,0:08:56.78,Default,,0,0,0,,I want to use this life for everyone.
+Dialogue: 0,0:08:58.74,0:09:00.54,Default,,0,0,0,,I'm not scared.
+Dialogue: 0,0:09:02.66,0:09:03.91,Default,,0,0,0,,I'm not scared.
+Dialogue: 0,0:09:06.75,0:09:09.96,Default,,0,0,0,,I'm not scared!
+Dialogue: 0,0:09:19.55,0:09:21.43,Default,,0,0,0,,How beautiful.
+Dialogue: 0,0:09:37.49,0:09:40.41,Default,,0,0,0,,I've decided.
+Dialogue: 0,0:09:40.62,0:09:41.08,Default,,0,0,0,,PREPARATION ROOM\NHERO CLUB'S CLUB ROOM
+Dialogue: 0,0:09:41.29,0:09:42.62,Default,,0,0,0,,There's something wrong!
+Dialogue: 0,0:09:42.83,0:09:44.91,Default,,0,0,0,,What have you taken on!
+Dialogue: 0,0:09:45.12,0:09:48.08,Default,,0,0,0,,Yu-yu, I don't think that's right.
+Dialogue: 0,0:09:49.17,0:09:50.92,Default,,0,0,0,,Everyone...
+Dialogue: 0,0:09:51.13,0:09:53.76,Default,,0,0,0,,You can tell by our reactions, right?
+Dialogue: 0,0:09:53.96,0:09:56.47,Default,,0,0,0,,That your decision is wrong.
+Dialogue: 0,0:09:57.47,0:09:59.51,Default,,0,0,0,,Ms. Togo...
+Dialogue: 0,0:09:59.97,0:10:01.97,Default,,0,0,0,,Those amnesty people!
+Dialogue: 0,0:10:02.18,0:10:04.56,Default,,0,0,0,,Yuna, we'll go with you.
+Dialogue: 0,0:10:04.77,0:10:06.06,Default,,0,0,0,,Let's go turn it down!
+Dialogue: 0,0:10:06.27,0:10:08.90,Default,,0,0,0,,You don't need to go through with the Shinkon!
+Dialogue: 0,0:10:09.19,0:10:12.65,Default,,0,0,0,,Sonoko, can you contact the amnesty right now?
+Dialogue: 0,0:10:13.03,0:10:14.69,Default,,0,0,0,,I can't hold back any longer.
+Dialogue: 0,0:10:14.99,0:10:15.94,Default,,0,0,0,,Let's go.
+Dialogue: 0,0:10:16.15,0:10:18.74,Default,,0,0,0,,It might be a good thing to take them down.
+Dialogue: 0,0:10:18.95,0:10:20.03,Default,,0,0,0,,Wait!
+Dialogue: 0,0:10:20.24,0:10:22.66,Default,,0,0,0,,I decided...
+Dialogue: 0,0:10:22.87,0:10:24.91,Default,,0,0,0,,To accept the Shinkon.
+Dialogue: 0,0:10:25.12,0:10:27.00,Default,,0,0,0,,You don't have to do this!
+Dialogue: 0,0:10:27.21,0:10:28.79,Default,,0,0,0,,This would kill you, right?
+Dialogue: 0,0:10:29.00,0:10:30.33,Default,,0,0,0,,That makes no sense.
+Dialogue: 0,0:10:30.54,0:10:32.17,Default,,0,0,0,,It's the same as a sacrifice.
+Dialogue: 0,0:10:32.38,0:10:35.30,Default,,0,0,0,,Also living alongside Shinjyu-sama.
+Dialogue: 0,0:10:35.51,0:10:36.67,Default,,0,0,0,,What does that mean?
+Dialogue: 0,0:10:37.01,0:10:40.59,Default,,0,0,0,,It makes me shiver.
+Dialogue: 0,0:10:40.80,0:10:43.06,Default,,0,0,0,,It couldn't possibly be something good.
+Dialogue: 0,0:10:43.26,0:10:45.52,Default,,0,0,0,,But if I don't do the Shinkon,
+Dialogue: 0,0:10:45.85,0:10:48.98,Default,,0,0,0,,Shinjyu-sama will wither away,\Nand the world will end.
+Dialogue: 0,0:10:49.19,0:10:51.36,Default,,0,0,0,,I understand why Shinjyu-sama\Nwould wither away,
+Dialogue: 0,0:10:51.56,0:10:54.27,Default,,0,0,0,,but that doesn't mean you have to do this!
+Dialogue: 0,0:10:56.69,0:10:58.61,Default,,0,0,0,,Fu-senpai,
+Dialogue: 0,0:10:58.82,0:11:00.28,Default,,0,0,0,,the hero club
+Dialogue: 0,0:11:00.49,0:11:04.62,Default,,0,0,0,,is a club that does things for other people, right?
+Dialogue: 0,0:11:04.83,0:11:06.87,Default,,0,0,0,,-Yuna, this is not the same!\N-But!
+Dialogue: 0,0:11:07.08,0:11:09.62,Default,,0,0,0,,I think this is also part of the hero club.
+Dialogue: 0,0:11:10.17,0:11:11.58,Default,,0,0,0,,No one is at fault.
+Dialogue: 0,0:11:12.25,0:11:13.84,Default,,0,0,0,,If there is nothing else left to do
+Dialogue: 0,0:11:14.04,0:11:17.55,Default,,0,0,0,,to save the world...
+Dialogue: 0,0:11:17.76,0:11:20.93,Default,,0,0,0,,If this is the only way, as a hero I have to...
+Dialogue: 0,0:11:21.13,0:11:22.30,Default,,0,0,0,,Yuna!
+Dialogue: 0,0:11:22.68,0:11:24.47,Default,,0,0,0,,Go and calm yourself.
+Dialogue: 0,0:11:24.68,0:11:28.43,Default,,0,0,0,,Yu-yu, let's not see that as the only way.
+Dialogue: 0,0:11:28.64,0:11:31.44,Default,,0,0,0,,Before Shinjyu-sama withers away,
+Dialogue: 0,0:11:31.65,0:11:33.15,Default,,0,0,0,,let's try to come up with something else.
+Dialogue: 0,0:11:33.36,0:11:34.94,Default,,0,0,0,,That's right!
+Dialogue: 0,0:11:35.65,0:11:37.23,Default,,0,0,0,,We can't.
+Dialogue: 0,0:11:37.44,0:11:39.65,Default,,0,0,0,,Even if we were to think together,
+Dialogue: 0,0:11:39.86,0:11:43.07,Default,,0,0,0,,I don't have much time left anymore.
+Dialogue: 0,0:11:45.37,0:11:46.83,Default,,0,0,0,,Yuna?
+Dialogue: 0,0:11:47.29,0:11:49.33,Default,,0,0,0,,We know.
+Dialogue: 0,0:11:49.79,0:11:52.46,Default,,0,0,0,,That your body is weak from the curse
+Dialogue: 0,0:11:52.67,0:11:53.79,Default,,0,0,0,,god gave you.
+Dialogue: 0,0:11:54.00,0:11:55.21,Default,,0,0,0,,Please don't talk about it!
+Dialogue: 0,0:11:55.42,0:11:56.96,Default,,0,0,0,,I never told you anything!
+Dialogue: 0,0:11:57.17,0:11:59.17,Default,,0,0,0,,Yuna, it's okay.
+Dialogue: 0,0:11:59.38,0:12:02.43,Default,,0,0,0,,Including all that, we'll definitely solve this.
+Dialogue: 0,0:12:02.63,0:12:07.39,Default,,0,0,0,,It's not right!\NWhy is this all happening just to Ms. Yuna?!
+Dialogue: 0,0:12:07.93,0:12:10.14,Default,,0,0,0,,But, Itsuki...
+Dialogue: 0,0:12:10.35,0:12:11.98,Default,,0,0,0,,I don't like
+Dialogue: 0,0:12:12.19,0:12:14.06,Default,,0,0,0,,that someone could get hurt
+Dialogue: 0,0:12:14.27,0:12:16.15,Default,,0,0,0,,or go through something painful.
+Dialogue: 0,0:12:16.36,0:12:17.65,Default,,0,0,0,,So this time,
+Dialogue: 0,0:12:17.86,0:12:19.65,Default,,0,0,0,,-the burden has to be on me only.\N-No!
+Dialogue: 0,0:12:19.86,0:12:21.03,Default,,0,0,0,,If Yuna dies,
+Dialogue: 0,0:12:21.24,0:12:23.45,Default,,0,0,0,,do you know how much pain
+Dialogue: 0,0:12:23.66,0:12:26.03,Default,,0,0,0,,that will cause all of us here!
+Dialogue: 0,0:12:26.24,0:12:28.70,Default,,0,0,0,,I tried to imagine it,
+Dialogue: 0,0:12:29.08,0:12:32.21,Default,,0,0,0,,but I'll probably stab my stomach and follow you.
+Dialogue: 0,0:12:33.62,0:12:36.17,Default,,0,0,0,,But even you, Ms. Togo,
+Dialogue: 0,0:12:36.38,0:12:38.71,Default,,0,0,0,,you went to the sea of flames to save everyone.
+Dialogue: 0,0:12:39.30,0:12:43.26,Default,,0,0,0,,You also thought you could sacrifice\Nyourself to save the world, right?
+Dialogue: 0,0:12:43.47,0:12:44.47,Default,,0,0,0,,I did!
+Dialogue: 0,0:12:44.68,0:12:47.76,Default,,0,0,0,,But it was my fault\Nfor breaking the wall in the first place.
+Dialogue: 0,0:12:47.97,0:12:49.64,Default,,0,0,0,,You did nothing wrong!
+Dialogue: 0,0:12:49.85,0:12:52.60,Default,,0,0,0,,I'm against it! I'll stab myself!
+Dialogue: 0,0:12:52.81,0:12:55.40,Default,,0,0,0,,That's not fair.
+Dialogue: 0,0:12:55.60,0:12:59.69,Default,,0,0,0,,I'm like this, because I took your place...
+Dialogue: 0,0:13:00.65,0:13:04.28,Default,,0,0,0,,Took my place? What does that mean?
+Dialogue: 0,0:13:06.78,0:13:08.78,Default,,0,0,0,,Ms. Yuna.
+Dialogue: 0,0:13:08.99,0:13:11.08,Default,,0,0,0,,If heroes are like what you say,
+Dialogue: 0,0:13:11.29,0:13:14.79,Default,,0,0,0,,I feel like they need\Nto work to make everyone happy.
+Dialogue: 0,0:13:15.04,0:13:17.71,Default,,0,0,0,,I know, that's why I'm working so hard.
+Dialogue: 0,0:13:17.92,0:13:19.04,Default,,0,0,0,,B... but...
+Dialogue: 0,0:13:19.25,0:13:20.50,Default,,0,0,0,,When we say everyone,
+Dialogue: 0,0:13:20.71,0:13:23.67,Default,,0,0,0,,you are also included, Yuna!
+Dialogue: 0,0:13:24.22,0:13:26.80,Default,,0,0,0,,I am... very happy.
+Dialogue: 0,0:13:27.01,0:13:29.26,Default,,0,0,0,,If everyone can be saved.
+Dialogue: 0,0:13:29.51,0:13:31.85,Default,,0,0,0,,-That's a lie!\N-The hero club five clauses.
+Dialogue: 0,0:13:32.06,0:13:33.56,Default,,0,0,0,,Try your best to not give up.
+Dialogue: 0,0:13:33.77,0:13:36.52,Default,,0,0,0,,I'm betting on a future where everyone is safe.
+Dialogue: 0,0:13:36.73,0:13:38.94,Default,,0,0,0,,But you've given up on surviving!
+Dialogue: 0,0:13:39.15,0:13:41.78,Default,,0,0,0,,Hero club five clauses!\NThings will work out if you try!
+Dialogue: 0,0:13:41.98,0:13:43.61,Default,,0,0,0,,Nothing will happen if you don't try!
+Dialogue: 0,0:13:43.82,0:13:46.32,Default,,0,0,0,,Yuna! Don't use the clauses like that!
+Dialogue: 0,0:13:46.53,0:13:51.08,Default,,0,0,0,,I want to do everything I can\Nwith the time I have left!
+Dialogue: 0,0:13:51.28,0:13:54.25,Default,,0,0,0,,Which is why I came here to discuss it with you!
+Dialogue: 0,0:13:54.45,0:13:56.12,Default,,0,0,0,,This is just an announcement.
+Dialogue: 0,0:13:56.33,0:13:58.63,Default,,0,0,0,,-We have to discuss it more.\N-I am!
+Dialogue: 0,0:13:58.83,0:14:01.00,Default,,0,0,0,,Yuna, anyway
+Dialogue: 0,0:14:01.38,0:14:03.80,Default,,0,0,0,,-don't push yourself too hard.\N-I'm not!
+Dialogue: 0,0:14:04.01,0:14:06.38,Default,,0,0,0,,-I'm sorry.\N-I am hero like,
+Dialogue: 0,0:14:06.93,0:14:08.30,Default,,0,0,0,,just like I always am!
+Dialogue: 0,0:14:08.51,0:14:09.59,Default,,0,0,0,,-Wait...\N-Yuna!
+Dialogue: 0,0:14:09.80,0:14:11.56,Default,,0,0,0,,You still don't understand what we're saying?
+Dialogue: 0,0:14:11.76,0:14:13.68,Default,,0,0,0,,There are no other options left!
+Dialogue: 0,0:14:13.89,0:14:15.73,Default,,0,0,0,,-So we have to do this!\N-Wait.
+Dialogue: 0,0:14:18.40,0:14:21.27,Default,,0,0,0,,Why is it like this?
+Dialogue: 0,0:14:21.48,0:14:23.48,Default,,0,0,0,,Don't fight...
+Dialogue: 0,0:14:24.07,0:14:25.74,Default,,0,0,0,,Itsuki...
+Dialogue: 0,0:14:26.24,0:14:27.82,Default,,0,0,0,,Itsuki.
+Dialogue: 0,0:14:36.04,0:14:37.62,Default,,0,0,0,,I...
+Dialogue: 0,0:14:38.96,0:14:40.17,Default,,0,0,0,,I really
+Dialogue: 0,0:14:40.38,0:14:42.79,Default,,0,0,0,,don't have any time left.
+Dialogue: 0,0:14:54.51,0:14:56.81,Default,,0,0,0,,-Yuna!\N-Yu-yu!
+Dialogue: 0,0:15:03.48,0:15:07.49,Default,,0,0,0,,What is the right answer in situations like these?
+Dialogue: 0,0:15:09.07,0:15:10.07,Default,,0,0,0,,I can't find her.
+Dialogue: 0,0:15:10.28,0:15:12.07,Default,,0,0,0,,Did she hide somewhere?
+Dialogue: 0,0:15:12.28,0:15:13.37,Default,,0,0,0,,I checked the terminal,
+Dialogue: 0,0:15:13.58,0:15:16.12,Default,,0,0,0,,and there is a reaction from Yuna's home.
+Dialogue: 0,0:15:16.58,0:15:18.16,Default,,0,0,0,,-Let's go!\N-Yes.
+Dialogue: 0,0:15:22.42,0:15:24.71,Default,,0,0,0,,If we talk at once,
+Dialogue: 0,0:15:24.92,0:15:26.80,Default,,0,0,0,,Yu-yu will be overwhelmed.
+Dialogue: 0,0:15:27.01,0:15:28.30,Default,,0,0,0,,So let's talk to her calmly.
+Dialogue: 0,0:15:28.51,0:15:29.80,Default,,0,0,0,,That's true.
+Dialogue: 0,0:15:37.43,0:15:38.48,Default,,0,0,0,,Yuna?
+Dialogue: 0,0:15:38.89,0:15:42.27,Default,,0,0,0,,The radar was reacting to this?
+Dialogue: 0,0:15:43.06,0:15:44.36,Default,,0,0,0,,It has today's date.
+Dialogue: 0,0:15:44.56,0:15:46.27,Default,,0,0,0,,Where did she go, leaving her terminal?
+Dialogue: 0,0:15:46.48,0:15:46.94,Default,,0,0,0,,SORRY ABOUT EVERYHING.\NI AM GOING.
+Dialogue: 0,0:15:47.78,0:15:49.49,Default,,0,0,0,,It can't be.
+Dialogue: 0,0:15:53.53,0:15:55.95,Default,,0,0,0,,THE AMNESTY'S HEADQUARTERS
+Dialogue: 0,0:15:56.53,0:15:59.91,Default,,0,0,0,,Yuki Yuna is a Hero -Hero Chapter-
+Dialogue: 0,0:16:16.35,0:16:18.85,Default,,0,0,0,,My highest respects to the heroes.
+Dialogue: 0,0:16:19.06,0:16:21.23,Default,,0,0,0,,Please stop.
+Dialogue: 0,0:16:23.19,0:16:27.82,Default,,0,0,0,,This is where all the previous\Nheroes and shrine maidens lie.
+Dialogue: 0,0:16:28.40,0:16:30.32,Default,,0,0,0,,Is Yuna here?
+Dialogue: 0,0:16:30.53,0:16:31.65,Default,,0,0,0,,It can't be!
+Dialogue: 0,0:16:31.86,0:16:33.99,Default,,0,0,0,,Ms. Yuna is not here.
+Dialogue: 0,0:16:34.20,0:16:37.28,Default,,0,0,0,,I just thought this was a good place to talk.
+Dialogue: 0,0:16:38.33,0:16:41.16,Default,,0,0,0,,We came here to see Yuna!
+Dialogue: 0,0:16:41.37,0:16:43.75,Default,,0,0,0,,Where is Ms. Yuna?
+Dialogue: 0,0:16:43.96,0:16:46.00,Default,,0,0,0,,She is at the amnesty.
+Dialogue: 0,0:16:46.21,0:16:48.71,Default,,0,0,0,,-Then we'll break in there.\N-Yes.
+Dialogue: 0,0:16:49.05,0:16:51.92,Default,,0,0,0,,So you've heard everything from Ms. Yuna.
+Dialogue: 0,0:16:52.13,0:16:55.84,Default,,0,0,0,,The only way to save the world\Nis for her to do the Shinkon.
+Dialogue: 0,0:16:56.05,0:16:58.01,Default,,0,0,0,,Yes, she told us!
+Dialogue: 0,0:16:58.22,0:17:00.31,Default,,0,0,0,,Are you aware of the reason
+Dialogue: 0,0:17:00.52,0:17:01.85,Default,,0,0,0,,behind the hurry?
+Dialogue: 0,0:17:02.06,0:17:04.89,Default,,0,0,0,,Ms. Yuna only has a short time to live.
+Dialogue: 0,0:17:05.10,0:17:09.32,Default,,0,0,0,,Is there really no way we can get rid of Yuna's curse?
+Dialogue: 0,0:17:09.77,0:17:12.07,Default,,0,0,0,,We tried to find a way.
+Dialogue: 0,0:17:12.53,0:17:15.70,Default,,0,0,0,,A way to save Ms. Yuna.
+Dialogue: 0,0:17:16.28,0:17:18.83,Default,,0,0,0,,But we couldn't find anything.
+Dialogue: 0,0:17:19.16,0:17:20.79,Default,,0,0,0,,As long as the flames outside exist,
+Dialogue: 0,0:17:20.99,0:17:22.87,Default,,0,0,0,,Ms. Yuna will be cursed.
+Dialogue: 0,0:17:23.08,0:17:25.79,Default,,0,0,0,,Then is there anything we can\Ndo about the flames outside?
+Dialogue: 0,0:17:26.46,0:17:28.67,Default,,0,0,0,,We did have a few plans.
+Dialogue: 0,0:17:29.46,0:17:31.34,Default,,0,0,0,,-Then we can do those!\N-But...
+Dialogue: 0,0:17:31.55,0:17:33.05,Default,,0,0,0,,We realized they were impossible to do.
+Dialogue: 0,0:17:33.26,0:17:35.05,Default,,0,0,0,,Why did you decide that?!
+Dialogue: 0,0:17:35.43,0:17:37.43,Default,,0,0,0,,There isn't enough time.
+Dialogue: 0,0:17:37.64,0:17:40.93,Default,,0,0,0,,Ms. Yuna will be doing the Shinkon ceremony shortly.
+Dialogue: 0,0:17:41.14,0:17:43.64,Default,,0,0,0,,Don't mess around! We'll stop it!
+Dialogue: 0,0:17:44.10,0:17:46.35,Default,,0,0,0,,Many of the previous heroes
+Dialogue: 0,0:17:46.56,0:17:48.77,Default,,0,0,0,,lost their lives fulfilling their duties.
+Dialogue: 0,0:17:50.32,0:17:54.86,Default,,0,0,0,,Gin Minowa gave her life\Ntwo years ago to protect humanity.
+Dialogue: 0,0:17:56.07,0:17:57.45,Default,,0,0,0,,Ms. Gin
+Dialogue: 0,0:17:57.66,0:18:00.24,Default,,0,0,0,,fought hard and long for humanity,
+Dialogue: 0,0:18:00.58,0:18:02.37,Default,,0,0,0,,and fulfilled her duties,
+Dialogue: 0,0:18:02.58,0:18:04.16,Default,,0,0,0,,and became an eternal spirit.
+Dialogue: 0,0:18:05.25,0:18:06.79,Default,,0,0,0,,Ms. Yuna,
+Dialogue: 0,0:18:07.00,0:18:08.63,Default,,0,0,0,,though the circumstance is different
+Dialogue: 0,0:18:08.83,0:18:12.09,Default,,0,0,0,,she too will be sacrificing herself for the greater good.
+Dialogue: 0,0:18:12.88,0:18:15.59,Default,,0,0,0,,Understanding that, that is what a hero must do.
+Dialogue: 0,0:18:16.47,0:18:18.84,Default,,0,0,0,,So you want us
+Dialogue: 0,0:18:19.05,0:18:20.85,Default,,0,0,0,,to be understanding?
+Dialogue: 0,0:18:21.43,0:18:23.72,Default,,0,0,0,,Previous heroes and shrine maidens.
+Dialogue: 0,0:18:24.47,0:18:28.23,Default,,0,0,0,,So they were all around the same age as us.
+Dialogue: 0,0:18:29.15,0:18:33.27,Default,,0,0,0,,So you've always survived\Nby sacrificing the lives of children.
+Dialogue: 0,0:18:33.78,0:18:35.99,Default,,0,0,0,,How can a world like that exist?
+Dialogue: 0,0:18:36.19,0:18:38.78,Default,,0,0,0,,If this is the only way,
+Dialogue: 0,0:18:38.99,0:18:42.03,Default,,0,0,0,,it must be done to protect everyone's lives.
+Dialogue: 0,0:18:42.91,0:18:46.54,Default,,0,0,0,,This is how people exist in this world.
+Dialogue: 0,0:18:46.75,0:18:49.29,Default,,0,0,0,,It must be done?
+Dialogue: 0,0:18:49.96,0:18:51.17,Default,,0,0,0,,Yes.
+Dialogue: 0,0:18:51.38,0:18:54.42,Default,,0,0,0,,You hated bell peppers. Right?
+Dialogue: 0,0:18:55.17,0:18:56.84,Default,,0,0,0,,You were strict.
+Dialogue: 0,0:18:57.05,0:19:01.80,Default,,0,0,0,,But I really liked the charming side\Nyou sometimes showed.
+Dialogue: 0,0:19:02.55,0:19:04.18,Default,,0,0,0,,But now...
+Dialogue: 0,0:19:04.39,0:19:06.93,Default,,0,0,0,,You're no longer that Aki-sensei.
+Dialogue: 0,0:19:08.06,0:19:11.19,Default,,0,0,0,,You mourned Gin's death with us.
+Dialogue: 0,0:19:11.40,0:19:13.27,Default,,0,0,0,,If you know that pain,
+Dialogue: 0,0:19:13.48,0:19:15.57,Default,,0,0,0,,you wouldn't sacrifice any more people!
+Dialogue: 0,0:19:17.15,0:19:19.36,Default,,0,0,0,,You classmates,
+Dialogue: 0,0:19:19.57,0:19:21.45,Default,,0,0,0,,their friends,
+Dialogue: 0,0:19:21.66,0:19:23.07,Default,,0,0,0,,and family
+Dialogue: 0,0:19:23.28,0:19:26.24,Default,,0,0,0,,are excitedly waiting for spring to come.
+Dialogue: 0,0:19:26.45,0:19:27.91,Default,,0,0,0,,Eating udon at home.
+Dialogue: 0,0:19:28.12,0:19:30.16,Default,,0,0,0,,Sleeping in their warm futons.
+Dialogue: 0,0:19:30.37,0:19:33.54,Default,,0,0,0,,They are leading peaceful lives.
+Dialogue: 0,0:19:34.63,0:19:36.84,Default,,0,0,0,,With a small sacrifice,
+Dialogue: 0,0:19:37.05,0:19:42.01,Default,,0,0,0,,we've been able to help\Nthe majority of the people live happy lives.
+Dialogue: 0,0:19:42.22,0:19:43.34,Default,,0,0,0,,If that's the case...
+Dialogue: 0,0:19:43.97,0:19:45.05,Default,,0,0,0,,If that's the case!
+Dialogue: 0,0:19:45.26,0:19:47.64,Default,,0,0,0,,Then you should all sacrifice yourselves!
+Dialogue: 0,0:19:48.02,0:19:51.02,Default,,0,0,0,,We would, if that were possible.
+Dialogue: 0,0:19:51.90,0:19:55.52,Default,,0,0,0,,But Shinjyu-sama will not accept us.
+Dialogue: 0,0:19:56.19,0:19:58.53,Default,,0,0,0,,Maybe he accepts you
+Dialogue: 0,0:19:58.74,0:20:00.65,Default,,0,0,0,,for the anger you feel for things like this.
+Dialogue: 0,0:20:05.87,0:20:07.66,Default,,0,0,0,,This is...
+Dialogue: 0,0:20:22.34,0:20:23.43,Default,,0,0,0,,It's already here.
+Dialogue: 0,0:20:23.64,0:20:25.76,Default,,0,0,0,,Wait... What is this?!
+Dialogue: 0,0:20:25.97,0:20:27.47,Default,,0,0,0,,It's your turn.
+Dialogue: 0,0:20:29.18,0:20:30.22,Default,,0,0,0,,The god above
+Dialogue: 0,0:20:30.60,0:20:33.48,Default,,0,0,0,,was angered by how close\Nthe humans got to his powers.
+Dialogue: 0,0:20:33.69,0:20:36.23,Default,,0,0,0,,So it is said that he sent down his judgement.
+Dialogue: 0,0:20:36.73,0:20:40.49,Default,,0,0,0,,A Shinkon would be out of the question.
+Dialogue: 0,0:20:40.69,0:20:43.40,Default,,0,0,0,,The Vertex is coming.
+Dialogue: 0,0:20:44.49,0:20:45.28,Default,,0,0,0,,No.
+Dialogue: 0,0:20:55.71,0:20:58.00,Default,,0,0,0,,What is this?
+Dialogue: 0,0:20:58.38,0:21:00.00,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:21:00.21,0:21:02.01,Default,,0,0,0,,What?
+Dialogue: 0,0:21:23.24,0:21:25.24,Default,,0,0,0,,An enemy in the real world?
+Dialogue: 0,0:21:25.45,0:21:27.49,Default,,0,0,0,,Is that... an enemy?
+Dialogue: 0,0:21:27.99,0:21:30.28,Default,,0,0,0,,What is that?
+Dialogue: 0,0:21:31.87,0:21:33.87,Default,,0,0,0,,Something like that...
+Dialogue: 0,0:21:44.67,0:21:45.72,Default,,0,0,0,,A Shinkon is realized
+Dialogue: 0,0:21:45.93,0:21:48.55,Default,,0,0,0,,when Ms. Yuna goes to where Shinjyu-sama is,
+Dialogue: 0,0:21:48.76,0:21:52.93,Default,,0,0,0,,and becomes the sacrifice for the people's wishes.
+Dialogue: 0,0:21:54.48,0:21:56.31,Default,,0,0,0,,Once the Shinkon is realized,
+Dialogue: 0,0:21:56.52,0:21:58.44,Default,,0,0,0,,humans will become the people of god.
+Dialogue: 0,0:21:59.23,0:22:01.90,Default,,0,0,0,,No longer being humans,\Nthey will not be attacked anymore.
+Dialogue: 0,0:22:02.53,0:22:07.03,Default,,0,0,0,,So everyone will be able to\Nlive in peace with Shinjyu-sama.
+Dialogue: 0,0:22:09.24,0:22:11.41,Default,,0,0,0,,This is your last duty.
+Dialogue: 0,0:22:14.12,0:22:18.17,Default,,0,0,0,,Hold back the attacks until the Shinkon is complete.
+Dialogue: 0,0:23:57.39,0:23:59.23,Default,,0,0,0,,ON THE NEXT EPISODE
+Dialogue: 0,0:23:59.43,0:24:02.15,Default,,0,0,0,,-Don't mess with us!\N-I can't forgive this!
+Dialogue: 0,0:24:02.35,0:24:05.90,Default,,0,0,0,,-For Yuna's happiness!\N-Please believe in humanity.
+Dialogue: 0,0:24:06.11,0:24:08.15,Default,,0,0,0,,-We want to...\N-We want to...
+Dialogue: 0,0:24:08.36,0:24:09.74,Default,,0,0,0,,live!
+Dialogue: 0,0:24:09.94,0:24:11.99,Default,,0,0,0,,FINAL EPISODE\NONLY YOU CAN MAKE ME HAPPY

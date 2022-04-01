@@ -1,0 +1,321 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montara  Gothic,18,&H00787F75,&H00FFFFFF,&H00D4D3CA,&H64400040,-1,0,0,0,100,100,0,0,1,1,3,2,30,30,10,0
+Style: Song,Arial,18,&H00E6E0B0,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Song2,Arial,14,&H00E6E0B0,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,1
+Style: TL,Arial,12,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Background,Arial,14,&H00AAFFFF,&H0300FFFF,&H00000000,&H02000000,0,1,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.11,0:00:00.15,Song,,0,0,0,,
+Dialogue: 0,0:00:12.81,0:00:15.94,Song,,0,0,0,,Glancing up towards the sky,
+Dialogue: 0,0:00:15.94,0:00:18.98,Song,,0,0,0,,Whenever I turn my back
+Dialogue: 0,0:00:18.98,0:00:21.98,Song,,0,0,0,,Against this perfect world
+Dialogue: 0,0:00:21.98,0:00:24.12,Song,,0,0,0,,I mumble out
+Dialogue: 0,0:00:24.12,0:00:27.82,Song,,0,0,0,,"Where should I go?"
+Dialogue: 0,0:00:27.82,0:00:33.24,Song,,0,0,0,,With you, someone who shares the same thoughts I do.
+Dialogue: 0,0:00:36.97,0:00:42.77,Song,,0,0,0,,In the shadows of an alley, the hands on a clock
+Dialogue: 0,0:00:42.77,0:00:49.28,Song,,0,0,0,,Restart the time that stood still
+Dialogue: 0,0:00:50.08,0:00:53.08,Song,,0,0,0,,The arms extended out to you
+Dialogue: 0,0:00:53.08,0:00:57.00,Song,,0,0,0,,And the unfinished puzzle
+Dialogue: 0,0:00:58.85,0:01:01.63,Song,,0,0,0,,Have been left behind
+Dialogue: 0,0:01:01.63,0:01:05.93,Song,,0,0,0,,Until we met
+Dialogue: 0,0:01:06.93,0:01:10.23,Song,,0,0,0,,And realized something was missing.
+Dialogue: 0,0:01:10.23,0:01:14.11,Song,,0,0,0,,So the last piece
+Dialogue: 0,0:01:14.11,0:01:19.06,Song,,0,0,0,,Must be found
+Dialogue: 0,0:01:19.94,0:01:24.36,Song,,0,0,0,,In order to move forward.
+Dialogue: 0,0:01:38.10,0:01:39.30,Default,,0,0,0,,Satou-kun...
+Dialogue: 0,0:01:39.90,0:01:41.30,Default,,0,0,0,,Where have you gone?
+Dialogue: 0,0:01:42.50,0:01:43.30,Default,,0,0,0,,Satou-kun!
+Dialogue: 0,0:01:47.70,0:01:49.10,Default,,0,0,0,,Kobayashi?
+Dialogue: 0,0:01:49.10,0:01:50.70,Default,,0,0,0,,Don't you remember?
+Dialogue: 0,0:01:50.70,0:01:52.70,Default,,0,0,0,,I was one of the class representatives.
+Dialogue: 0,0:01:52.90,0:01:54.70,Default,,0,0,0,,Ah, class president?
+Dialogue: 0,0:01:54.90,0:02:02.50,Default,,0,0,0,,I know it's kind of sudden, but I have something to tell\Nyou. I was wondering if we could meet, Satou-kun.
+Dialogue: 0,0:02:02.50,0:02:04.70,Default,,0,0,0,,Yes, I'm living around here now.
+Dialogue: 0,0:02:05.30,0:02:06.90,Default,,0,0,0,,Come on... Can't you?
+Dialogue: 0,0:02:07.30,0:02:10.30,Default,,0,0,0,,I'll meet you at the time and place of your choice, Satou-kun.
+Dialogue: 0,0:02:11.30,0:02:13.10,Default,,0,0,0,,How about right now?
+Dialogue: 0,0:02:13.10,0:02:13.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:02:22.50,0:02:26.30,Default,,0,0,0,,To be honest, I just didn't want to be in that room.
+Dialogue: 0,0:02:27.30,0:02:29.50,Default,,0,0,0,,I wanted to forget about the online game.
+Dialogue: 0,0:02:30.50,0:02:32.90,Default,,0,0,0,,I wanted to go to a place where there weren't any computers.
+Dialogue: 0,0:02:33.90,0:02:36.50,Default,,0,0,0,,Any excuse would have been sufficient.
+Dialogue: 0,0:02:37.90,0:02:39.10,Default,,0,0,0,,Welcome.
+Dialogue: 0,0:02:44.30,0:02:46.70,Default,,0,0,0,,She isn't here yet.
+Dialogue: 0,0:02:54.30,0:02:55.70,Default,,0,0,0,,Satou-kun?
+Dialogue: 0,0:02:59.30,0:03:01.50,Default,,0,0,0,,As I thought... it's Satou-kun!
+Dialogue: 0,0:03:02.90,0:03:03.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:03:06.50,0:03:08.50,Default,,0,0,0,,C-Class president?
+Dialogue: 0,0:03:10.90,0:03:13.90,Default,,0,0,0,,My brother was already living in Tokyo, so...
+Dialogue: 0,0:03:14.30,0:03:16.90,Default,,0,0,0,,I enrolled in an university out here as well.
+Dialogue: 0,0:03:17.50,0:03:20.50,Default,,0,0,0,,What I'm doing now is... Let's see...
+Dialogue: 0,0:03:20.50,0:03:22.10,Default,,0,0,0,,Something like volunteer work.
+Dialogue: 0,0:03:23.90,0:03:25.10,Default,,0,0,0,,Volunteer work...
+Dialogue: 0,0:03:25.50,0:03:27.90,Default,,0,0,0,,So you're still doing work befitting of a class president...
+Dialogue: 0,0:03:27.90,0:03:29.10,Default,,0,0,0,,What's that supposed to mean?
+Dialogue: 0,0:03:29.10,0:03:30.50,Default,,0,0,0,,What cynical remarks...
+Dialogue: 0,0:03:31.50,0:03:33.90,Default,,0,0,0,,Satou-kun has been like that since the old days...
+Dialogue: 0,0:03:34.70,0:03:38.70,Default,,0,0,0,,Always wearing that cold stare and degrading demeanor.
+Dialogue: 0,0:03:39.10,0:03:41.90,Default,,0,0,0,,At first, I thought you acted like that around everyone, but...
+Dialogue: 0,0:03:42.30,0:03:44.70,Default,,0,0,0,,After a while, I realized...
+Dialogue: 0,0:03:44.70,0:03:47.50,Default,,0,0,0,,It was a reaction directed only at me.
+Dialogue: 0,0:03:47.70,0:03:50.90,Default,,0,0,0,,Satou-kun, you hated me, didn't you?
+Dialogue: 0,0:03:51.30,0:03:53.50,Default,,0,0,0,,No... it wasn't that.
+Dialogue: 0,0:03:54.30,0:03:58.70,Default,,0,0,0,,lt's just that... the way you talked\Ndid sort of rub me the wrong way.
+Dialogue: 0,0:03:59.10,0:04:01.50,Default,,0,0,0,,You were too uptight, Pres.
+Dialogue: 0,0:04:02.50,0:04:05.70,Default,,0,0,0,,You said the same thing in the past.
+Dialogue: 0,0:04:05.70,0:04:06.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:04:06.90,0:04:08.90,Default,,0,0,0,,During our senior year at the culture festival...
+Dialogue: 0,0:04:10.70,0:04:12.30,Default,,0,0,0,,Satou-kun, stop wasting time!
+Dialogue: 0,0:04:12.70,0:04:15.70,Default,,0,0,0,,The culture festival is tomorrow, you know! Do you understand?
+Dialogue: 0,0:04:15.70,0:04:17.10,Default,,0,0,0,,Get serious...
+Dialogue: 0,0:04:18.50,0:04:19.30,Default,,0,0,0,,Damn!
+Dialogue: 0,0:04:20.10,0:04:23.50,Default,,0,0,0,,Pres, don't you get tired from being so uptight?
+Dialogue: 0,0:04:23.70,0:04:24.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:04:24.90,0:04:28.50,Default,,0,0,0,,"Serious, serious" might be okay with you, but...
+Dialogue: 0,0:04:28.90,0:04:33.70,Default,,0,0,0,,If you can't be considerate of other people's paces,\Nwouldn't that simply make you an egoist?
+Dialogue: 0,0:04:35.70,0:04:38.70,Default,,0,0,0,,Did I say those things?
+Dialogue: 0,0:04:38.70,0:04:43.70,Default,,0,0,0,,You certainly did. Actually, those words really hit me later on...
+Dialogue: 0,0:04:44.30,0:04:47.70,Default,,0,0,0,,After I graduated from high school and experienced many things.
+Dialogue: 0,0:04:50.50,0:04:53.50,Default,,0,0,0,,Speaking of which, Satou-kun... What are you doing now?
+Dialogue: 0,0:04:54.30,0:04:58.10,Default,,0,0,0,,When I asked your parents, they didn't give me a clear answer.
+Dialogue: 0,0:04:58.50,0:04:59.90,Default,,0,0,0,,Did you have to repeat grades?
+Dialogue: 0,0:04:59.90,0:05:02.10,Default,,0,0,0,,Or have you graduated from college only to remain unemployed?
+Dialogue: 0,0:05:02.30,0:05:05.30,Default,,0,0,0,,I-I'd be better off if that was the case.
+Dialogue: 0,0:05:05.30,0:05:05.90,Default,,0,0,0,,Huh?
+Dialogue: 0,0:05:14.90,0:05:16.50,Default,,0,0,0,,What are you doing?
+Dialogue: 0,0:05:18.90,0:05:21.90,Default,,0,0,0,,Satou-kun went somewhere...
+Dialogue: 0,0:05:22.30,0:05:25.10,Default,,0,0,0,,There's no need to worry.
+Dialogue: 0,0:05:25.10,0:05:27.10,Default,,0,0,0,,He has nowhere to go.
+Dialogue: 0,0:05:27.30,0:05:29.70,Default,,0,0,0,,When he's hungry, he'll be back.
+Dialogue: 0,0:05:30.30,0:05:31.10,Default,,0,0,0,,But...
+Dialogue: 0,0:05:35.70,0:05:38.70,Default,,0,0,0,,What if he falls from a cliff?
+Dialogue: 0,0:05:38.70,0:05:41.50,Default,,0,0,0,,Huh? What are you talking about?
+Dialogue: 0,0:05:44.70,0:05:45.90,Default,,0,0,0,,Nothing...
+Dialogue: 0,0:05:46.90,0:05:49.50,Default,,0,0,0,,Hikikomori? You, Satou-kun?
+Dialogue: 0,0:05:50.10,0:05:53.10,Default,,0,0,0,,I'm not attending school or working...
+Dialogue: 0,0:05:53.10,0:05:54.90,Default,,0,0,0,,In other words, I'm a NEET.
+Dialogue: 0,0:05:54.90,0:05:55.90,Default,,0,0,0,,Go ahead and laugh.
+Dialogue: 0,0:05:58.90,0:06:02.90,Default,,0,0,0,,There's no telling what makes someone become a hikikomori.
+Dialogue: 0,0:06:02.90,0:06:03.90,Default,,0,0,0,,It's not a laughing matter.
+Dialogue: 0,0:06:03.90,0:06:04.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:06:05.50,0:06:09.90,Default,,0,0,0,,Oh, in that case, why don't you meet my senpai?
+Dialogue: 0,0:06:09.90,0:06:10.90,Default,,0,0,0,,Senpai?
+Dialogue: 0,0:06:11.30,0:06:13.10,Default,,0,0,0,,He's part of a wonderful group!
+Dialogue: 0,0:06:13.10,0:06:16.90,Default,,0,0,0,,Even I was able to change upon meeting senpai.
+Dialogue: 0,0:06:16.90,0:06:19.30,Default,,0,0,0,,Instead of being misguided by the words of those surrounding you...
+Dialogue: 0,0:06:19.30,0:06:21.70,Default,,0,0,0,,You can have words you can call your very own!
+Dialogue: 0,0:06:23.30,0:06:27.70,Default,,0,0,0,,Because every person has great potential!
+Dialogue: 0,0:06:27.70,0:06:30.30,Default,,0,0,0,,Even Satou-kun's hikikomori ways can be cured!
+Dialogue: 0,0:06:30.30,0:06:31.90,Default,,0,0,0,,Your life could change!
+Dialogue: 0,0:06:32.30,0:06:36.70,Default,,0,0,0,,Talk about great timing... I'm about to meet senpai now.
+Dialogue: 0,0:06:36.70,0:06:38.90,Default,,0,0,0,,Let's go together, Satou-kun.
+Dialogue: 0,0:06:38.90,0:06:39.90,Default,,0,0,0,,Right now?
+Dialogue: 0,0:06:39.90,0:06:42.10,Default,,0,0,0,,You have plenty of time, don't you?
+Dialogue: 0,0:06:42.50,0:06:44.50,Default,,0,0,0,,Since you can afford to be a hikikomori...
+Dialogue: 0,0:06:48.30,0:06:51.90,Default,,0,0,0,,What kind of person is this senpai we're going to meet?
+Dialogue: 0,0:06:51.90,0:06:56.70,Default,,0,0,0,,Well, in short, someone who realized his dream.
+Dialogue: 0,0:06:56.70,0:06:57.70,Default,,0,0,0,,Dream?
+Dialogue: 0,0:06:57.70,0:07:03.70,Default,,0,0,0,,His name is Sagawa-san, a living legend who was\Nable to purchase a super car in less than a year!
+Dialogue: 0,0:07:04.10,0:07:05.50,Default,,0,0,0,,Super car?
+Dialogue: 0,0:07:05.90,0:07:08.30,Default,,0,0,0,,What kind of occupation does he hold?
+Dialogue: 0,0:07:08.30,0:07:11.50,Default,,0,0,0,,I'll explain the details when we arrive, but...
+Dialogue: 0,0:07:11.50,0:07:14.10,Default,,0,0,0,,It's a job that contributes to society!
+Dialogue: 0,0:07:21.10,0:07:24.50,Default,,0,0,0,,Satou-kun, do you play online games?
+Dialogue: 0,0:07:24.50,0:07:25.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:07:26.10,0:07:28.30,Default,,0,0,0,,Why do you ask?
+Dialogue: 0,0:07:28.30,0:07:32.90,Default,,0,0,0,,Well, they say hikikomori often indulge in those kinds of activities.
+Dialogue: 0,0:07:33.50,0:07:35.70,Default,,0,0,0,,I'll never play an online game again.
+Dialogue: 0,0:07:36.10,0:07:40.30,Default,,0,0,0,,Only the lowest kinds of people become\Nobsessed with such a fabricated world.
+Dialogue: 0,0:07:42.50,0:07:48.10,Default,,0,0,0,,Satou-kun, since you're able to ride in a train, your\Nhikikomori condition must not be that serious.
+Dialogue: 0,0:07:48.10,0:07:49.70,Default,,0,0,0,,That's not true.
+Dialogue: 0,0:07:49.70,0:07:53.90,Default,,0,0,0,,Going out at night to shop was the best I could do until six months ago.
+Dialogue: 0,0:07:53.90,0:07:57.30,Default,,0,0,0,,Does that mean your condition is improving?
+Dialogue: 0,0:07:57.70,0:07:58.50,Default,,0,0,0,,How?
+Dialogue: 0,0:07:59.50,0:08:01.70,Default,,0,0,0,,Even if you ask me how...
+Dialogue: 0,0:08:06.90,0:08:10.50,Default,,0,0,0,,A lot of things have occurred recently, so it's probably because of that.
+Dialogue: 0,0:08:13.70,0:08:16.90,Default,,0,0,0,,Yeah, it's not because of her...
+Dialogue: 0,0:08:17.50,0:08:19.10,Default,,0,0,0,,Definitely!
+Dialogue: 0,0:08:28.30,0:08:31.30,Default,,0,0,0,,We're going pretty far, aren't we?
+Dialogue: 0,0:08:31.30,0:08:32.50,Default,,0,0,0,,We're almost there.
+Dialogue: 0,0:08:33.30,0:08:38.30,Default,,0,0,0,,I followed her without giving it much\Nthought, but where the hell are we going?
+Dialogue: 0,0:08:45.10,0:08:46.10,Default,,0,0,0,,Let's go.
+Dialogue: 0,0:08:46.10,0:08:46.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:08:46.70,0:08:50.10,Default,,0,0,0,,Sagawa-san's house is thirty minutes by foot from here.
+Dialogue: 0,0:08:50.10,0:08:51.50,Default,,0,0,0,,Thirty minutes?
+Dialogue: 0,0:08:51.50,0:08:52.70,Default,,0,0,0,,By foot?
+Dialogue: 0,0:08:53.30,0:08:56.90,Default,,0,0,0,,I can't see anything besides silver grass...
+Dialogue: 0,0:08:57.50,0:08:58.70,Default,,0,0,0,,Wait a second!
+Dialogue: 0,0:08:58.70,0:09:00.50,Default,,0,0,0,,This is a legendary person, right?
+Dialogue: 0,0:09:00.50,0:09:02.10,Default,,0,0,0,,I'm not lying.
+Dialogue: 0,0:09:09.10,0:09:10.70,Default,,0,0,0,,See? There it is... a super car!
+Dialogue: 0,0:09:11.70,0:09:14.50,Default,,0,0,0,,It certainly is... but...
+Dialogue: 0,0:09:18.70,0:09:22.10,Default,,0,0,0,,S-Something isn't right.
+Dialogue: 0,0:09:22.30,0:09:25.50,Default,,0,0,0,,Come on. Don't just stand there, let's go in.
+Dialogue: 0,0:09:26.90,0:09:29.50,Default,,0,0,0,,Excuse me, it's Kobayashi!
+Dialogue: 0,0:09:30.10,0:09:32.70,Default,,0,0,0,,M-Mouse Road?
+Dialogue: 0,0:09:33.30,0:09:37.70,Default,,0,0,0,,A company that makes excellent products that\Nare used by celebrities all over the world...
+Dialogue: 0,0:09:37.90,0:09:41.50,Default,,0,0,0,,We are the proud members of Mouse Road.
+Dialogue: 0,0:09:41.50,0:09:44.30,Default,,0,0,0,,C-Could this be...
+Dialogue: 0,0:09:46.10,0:09:48.10,Default,,0,0,0,,Ah, Kobayashi-san.
+Dialogue: 0,0:09:48.70,0:09:50.50,Default,,0,0,0,,The preparations are complete.
+Dialogue: 0,0:09:51.30,0:09:53.50,Default,,0,0,0,,Was that the Sagawa guy?
+Dialogue: 0,0:09:53.50,0:09:58.30,Default,,0,0,0,,No, that's Kurokawa, a lower tier member like myself.
+Dialogue: 0,0:09:59.10,0:10:03.50,Default,,0,0,0,,Sagawa-san will make an appearance and a\Nclosing speech after the product presentation.
+Dialogue: 0,0:10:09.70,0:10:10.50,Default,,0,0,0,,Please come in.
+Dialogue: 0,0:10:30.90,0:10:31.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:10:40.90,0:10:41.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:10:56.10,0:10:57.50,Default,,0,0,0,,Yay!
+Dialogue: 0,0:11:08.90,0:11:10.90,Default,,0,0,0,,Ah, delicious!
+Dialogue: 0,0:11:10.90,0:11:14.30,Default,,0,0,0,,A good, natural taste!
+Dialogue: 0,0:11:14.70,0:11:16.50,Default,,0,0,0,,P-Pres...
+Dialogue: 0,0:11:16.70,0:11:21.30,Default,,0,0,0,,Yes, we here at Mouse Road advocate safety!
+Dialogue: 0,0:11:21.30,0:11:28.10,Default,,0,0,0,,It is our duty to provide safe products for people\Nwith allergic reactions, from the young to the old!
+Dialogue: 0,0:11:32.70,0:11:39.30,Default,,0,0,0,,In order to prove the products we sell\Nare superior to those sold at retailers...
+Dialogue: 0,0:11:39.30,0:11:40.90,Default,,0,0,0,,We will conduct a demonstration.
+Dialogue: 0,0:11:41.50,0:11:46.50,Default,,0,0,0,,The item we will demonstrate this time is\None hundred percent natural detergent.
+Dialogue: 0,0:11:47.70,0:11:50.70,Default,,0,0,0,,This is a synthetic detergent, "Brand X".
+Dialogue: 0,0:11:51.10,0:11:54.70,Default,,0,0,0,,We will pour both products separately into containers filled with water.
+Dialogue: 0,0:11:57.10,0:11:59.10,Default,,0,0,0,,Look, Kurokawa-san!
+Dialogue: 0,0:11:59.10,0:12:03.10,Default,,0,0,0,,Compared to the translucency of Mouse Road, "Brand X" is less clear.
+Dialogue: 0,0:12:03.30,0:12:07.90,Default,,0,0,0,,You're right. "Brand X" contains an excess\Nof substances that make it opaque.
+Dialogue: 0,0:12:09.70,0:12:12.90,Default,,0,0,0,,If we shake the two, the difference should be noticeable.
+Dialogue: 0,0:12:13.10,0:12:16.70,Default,,0,0,0,,Oh, I can't hear any sounds from "Brand X"!
+Dialogue: 0,0:12:16.70,0:12:21.10,Default,,0,0,0,,Exactly! "Brand X" creates too much foam,\Nwhich is why there isn't any sound!
+Dialogue: 0,0:12:21.10,0:12:27.10,Default,,0,0,0,,But washing clothes utilizes dynamics like the force of impact\Nwith water, as well as the friction created by fabrics rubbing together.
+Dialogue: 0,0:12:27.10,0:12:31.90,Default,,0,0,0,,Right, which makes it obvious that Mouse Road products are superior!
+Dialogue: 0,0:12:32.10,0:12:33.70,Default,,0,0,0,,Wow, I get it!
+Dialogue: 0,0:12:33.70,0:12:34.70,Default,,0,0,0,,Fantastic!
+Dialogue: 0,0:12:36.30,0:12:37.30,Default,,0,0,0,,Whoa, I see!
+Dialogue: 0,0:12:37.30,0:12:37.90,Default,,0,0,0,,Awesome!
+Dialogue: 0,0:12:37.90,0:12:38.70,Default,,0,0,0,,Bravo!
+Dialogue: 0,0:12:46.10,0:12:48.70,Default,,0,0,0,,That... class president...
+Dialogue: 0,0:12:49.90,0:12:53.50,Default,,0,0,0,,Who would have thought she'd be doing this?
+Dialogue: 0,0:12:53.90,0:12:58.90,Default,,0,0,0,,Now that you understand the advantages of Mouse Road products...
+Dialogue: 0,0:12:58.90,0:13:02.50,Default,,0,0,0,,Let me introduce you to the long-awaited\Nappearance of our super supplier, Sagawa-san!
+Dialogue: 0,0:13:05.70,0:13:08.70,Default,,0,0,0,,Sagawa! Sagawa!
+Dialogue: 0,0:13:09.30,0:13:12.10,Default,,0,0,0,,Sagawa! Sagawa!
+Dialogue: 0,0:13:12.70,0:13:22.30,Default,,0,0,0,,Sagawa! Sagawa! Sagawa!
+Dialogue: 0,0:13:24.10,0:13:32.70,Default,,0,0,0,,Ladies and gentlemen, born into this world as human\Nbeings, have you not wished to ride in a super car?
+Dialogue: 0,0:13:32.70,0:13:35.50,Default,,0,0,0,,I realized my dreams through Mouse Road!
+Dialogue: 0,0:13:35.50,0:13:37.50,Default,,0,0,0,,You can do it, too!
+Dialogue: 0,0:13:37.50,0:13:43.90,Default,,0,0,0,,Those of you who wish to make your dreams come true, I\Nrecommend you take part in the lecture following this presentation.
+Dialogue: 0,0:13:47.10,0:14:11.90,Default,,0,0,0,,Mouse Road! Mouse Road! Mouse Road!
+Dialogue: 0,0:14:16.50,0:14:21.70,Default,,0,0,0,,{\be1}Even though I put my lots in so my chances\Nwere up to more than 50%...
+Dialogue: 0,0:14:21.70,0:14:23.70,Default,,0,0,0,,{\be1}You weren't able to draw a bonus?\NI pulled out a lot of "draw again" tabs, but...
+Dialogue: 0,0:14:23.70,0:14:24.50,Default,,0,0,0,,Satou-kun!
+Dialogue: 0,0:14:25.10,0:14:27.70,Default,,0,0,0,,Aren't you going to attend the lecture?
+Dialogue: 0,0:14:29.50,0:14:31.70,Default,,0,0,0,,You're going to take my money, right?
+Dialogue: 0,0:14:31.70,0:14:36.90,Default,,0,0,0,,Well... you'll have to purchase the\Nproducts, so it won't be for free, but...
+Dialogue: 0,0:14:37.30,0:14:39.70,Default,,0,0,0,,It's not a large amount.
+Dialogue: 0,0:14:39.70,0:14:42.50,Default,,0,0,0,,If all goes well, you'll be able to see returns in a month...
+Dialogue: 0,0:14:42.50,0:14:46.30,Default,,0,0,0,,More importantly, it's a job with social significance.
+Dialogue: 0,0:14:47.10,0:14:52.70,Default,,0,0,0,,In other words, you want me to aggressively sell products, which\NI have to purchase here, to people and reap huge profits, right?
+Dialogue: 0,0:14:52.90,0:14:55.90,Default,,0,0,0,,Yes, yes... You understand well.
+Dialogue: 0,0:14:56.10,0:14:58.90,Default,,0,0,0,,And recruit new members, upon which I'll receive promotions.
+Dialogue: 0,0:14:59.70,0:15:01.10,Default,,0,0,0,,It's that kind of system, right?
+Dialogue: 0,0:15:01.10,0:15:02.30,Default,,0,0,0,,Right, right.
+Dialogue: 0,0:15:02.90,0:15:03.90,Default,,0,0,0,,This kind of thing...
+Dialogue: 0,0:15:03.90,0:15:04.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:15:05.30,0:15:08.50,Default,,0,0,0,,It's called multi-level marketing, isn't it?
+Dialogue: 0,0:15:10.30,0:15:14.30,Default,,0,0,0,,You see, I'm a hikikomori, so I watch a lot of television.
+Dialogue: 0,0:15:15.10,0:15:18.30,Default,,0,0,0,,That's why I'm aware of the many controversies regarding this issue.
+Dialogue: 0,0:15:19.50,0:15:22.70,Default,,0,0,0,,So what? It's not an illegal practice.
+Dialogue: 0,0:15:24.10,0:15:25.90,Default,,0,0,0,,Damn it!
+Dialogue: 0,0:15:25.90,0:15:26.90,Default,,0,0,0,,Satou-kun!
+Dialogue: 0,0:15:27.50,0:15:29.90,Default,,0,0,0,,Treating me like easy prey!
+Dialogue: 0,0:15:40.10,0:15:42.50,Default,,0,0,0,,Shit! Shit, shit!
+Dialogue: 0,0:15:43.30,0:15:46.50,Default,,0,0,0,,Everyone around me treats me like shit!
+Dialogue: 0,0:15:48.10,0:15:49.70,Default,,0,0,0,,Satou-kun!
+Dialogue: 0,0:15:52.30,0:15:54.90,Default,,0,0,0,,Satou-kun... listen to me...
+Dialogue: 0,0:15:55.50,0:15:56.70,Default,,0,0,0,,Go away!
+Dialogue: 0,0:15:56.90,0:15:59.70,Default,,0,0,0,,I'm not as gullible as the others back there!
+Dialogue: 0,0:16:00.30,0:16:02.50,Default,,0,0,0,,Wrong, it's not like that...
+Dialogue: 0,0:16:02.50,0:16:04.10,Default,,0,0,0,,What was I wrong about?
+Dialogue: 0,0:16:04.10,0:16:10.10,Default,,0,0,0,,Pres, you're just like that old man Sagawa...\NEnvisioning a nice car and receiving flattery from everyone!
+Dialogue: 0,0:16:10.70,0:16:16.10,Default,,0,0,0,,So you called me, your old high school classmate...\Nwith the intention of using me for your personal needs!
+Dialogue: 0,0:16:17.10,0:16:18.70,Default,,0,0,0,,Isn't that the truth?
+Dialogue: 0,0:16:20.70,0:16:22.10,Default,,0,0,0,,Yeah, you're right!
+Dialogue: 0,0:16:22.10,0:16:28.50,Default,,0,0,0,,I was going to deceive Satou-kun into purchasing\Nenough detergent to last you more than ten years!
+Dialogue: 0,0:16:29.10,0:16:30.50,Default,,0,0,0,,Not only detergent, either.
+Dialogue: 0,0:16:30.70,0:16:32.90,Default,,0,0,0,,Organic food, pots, and kettles as well!
+Dialogue: 0,0:16:33.30,0:16:35.50,Default,,0,0,0,,But is there anything wrong with that?
+Dialogue: 0,0:16:35.50,0:16:40.70,Default,,0,0,0,,Senpai persuaded me into buying a mountain of products, too.
+Dialogue: 0,0:16:40.70,0:16:44.50,Default,,0,0,0,,That's your fault! Don't involve me!
+Dialogue: 0,0:16:44.50,0:16:47.90,Default,,0,0,0,,Right, right! All of this is my fault!
+Dialogue: 0,0:16:47.90,0:16:49.90,Default,,0,0,0,,But... I'm...
+Dialogue: 0,0:16:50.30,0:16:54.50,Default,,0,0,0,,I'm sick of being on the losing end!
+Dialogue: 0,0:16:54.50,0:16:55.70,Default,,0,0,0,,What?
+Dialogue: 0,0:17:02.50,0:17:03.50,Default,,0,0,0,,Pres?
+Dialogue: 0,0:17:04.30,0:17:08.50,Default,,0,0,0,,My father collapsed soon after I came to Tokyo...
+Dialogue: 0,0:17:09.50,0:17:12.90,Default,,0,0,0,,I had no other choice but to pay for\Ntuition and living expenses on my own...
+Dialogue: 0,0:17:12.90,0:17:17.30,Default,,0,0,0,,In order to earn money, I wasn't in a position to be selective with jobs.
+Dialogue: 0,0:17:18.50,0:17:21.50,Default,,0,0,0,,D-Don't tell me... Pres...
+Dialogue: 0,0:17:22.90,0:17:25.50,Default,,0,0,0,,I engaged in cosplay and sold jewelry.
+Dialogue: 0,0:17:25.90,0:17:31.30,Default,,0,0,0,,It was commission-based, and I climbed\Nall the way up to the number one position.
+Dialogue: 0,0:17:31.90,0:17:35.70,Default,,0,0,0,,However, I didn't receive any decent pay.
+Dialogue: 0,0:17:37.90,0:17:41.30,Default,,0,0,0,,In the end, the owner took the money and ran off.
+Dialogue: 0,0:17:41.90,0:17:44.30,Default,,0,0,0,,I had no choice but to live with my predicament.
+Dialogue: 0,0:17:46.30,0:17:50.70,Default,,0,0,0,,It was during that time... I was invited to Mouse Road.
+Dialogue: 0,0:17:50.70,0:17:56.30,Default,,0,0,0,,But, as a result, I was burdened with a large debt.
+Dialogue: 0,0:18:01.70,0:18:03.10,Default,,0,0,0,,What about you?
+Dialogue: 0,0:18:04.70,0:18:09.50,Default,,0,0,0,,Are you going to live the rest of your life at\Nthe bottom of the rat race as a hikikomori?
+Dialogue: 0,0:18:10.70,0:18:13.90,Default,,0,0,0,,Being a smart person, I'm sure you\Nnoticed it a long time ago, Satou-kun...
+Dialogue: 0,0:18:14.30,0:18:17.50,Default,,0,0,0,,The condescending stares of the people around you.
+Dialogue: 0,0:18:19.10,0:18:22.10,Default,,0,0,0,,Pathetic filth. Human failure.
+Dialogue: 0,0:18:22.10,0:18:24.30,Default,,0,0,0,,A hikikomori failure.
+Dialogue: 0,0:18:24.50,0:18:26.70,Default,,0,0,0,,You're a hikikomori, aren't you, Satou-kun?
+Dialogue: 0,0:18:31.50,0:18:33.10,Default,,0,0,0,,Listen, Satou-kun...
+Dialogue: 0,0:18:33.50,0:18:35.90,Default,,0,0,0,,You're being exploited by everyone.
+Dialogue: 0,0:18:36.30,0:18:40.90,Default,,0,0,0,,The reason why an unemployed\Nhikikomori exists is because society desires it.
+Dialogue: 0,0:18:40.90,0:18:48.30,Default,,0,0,0,,People need someone they can openly look down on...
+Dialogue: 0,0:18:53.70,0:18:55.30,Default,,0,0,0,,Don't you understand?
+Dialogue: 0,0:18:55.30,0:19:01.30,Default,,0,0,0,,The world is but a dog-eat-dog, look down or be\Nlooked down upon, zero-sum game, you know!
+Dialogue: 0,0:19:01.50,0:19:05.10,Default,,0,0,0,,If that's the case, why not be on the side that exploits?
+Dialogue: 0,0:19:05.10,0:19:07.30,Default,,0,0,0,,Look down upon the people around you!
+Dialogue: 0,0:19:07.50,0:19:15.30,Default,,0,0,0,,Right... If human relationships are going to deteriorate,\Nyou might as well deteriorate them for the money.
+Dialogue: 0,0:19:18.30,0:19:20.70,Default,,0,0,0,,Let's climb the ladder through Mouse Road!
+Dialogue: 0,0:19:20.70,0:19:25.50,Default,,0,0,0,,By doing so, my debt will be cleared,\Nand Satou-kun's dream can come true!
+Dialogue: 0,0:19:26.50,0:19:28.70,Default,,0,0,0,,My dream?
+Dialogue: 0,0:19:28.70,0:19:31.50,Default,,0,0,0,,Yes, there is no dream that can't be realized!
+Dialogue: 0,0:19:31.50,0:19:34.10,Default,,0,0,0,,Your success story awaits you, Satou-kun!
+Dialogue: 0,0:19:34.50,0:19:37.30,Default,,0,0,0,,In order to earn it, you have to do whatever it takes!
+Dialogue: 0,0:19:37.70,0:19:42.10,Song2,,0,0,0,,The dream and conspiracy of...
+Dialogue: 0,0:19:42.70,0:19:46.90,Song2,,0,0,0,,The dream and conspiracy of...
+Dialogue: 0,0:19:53.30,0:19:58.10,Default,,0,0,0,,That's right... You must take advantage of whatever you can.
+Dialogue: 0,0:20:22.70,0:20:23.70,Default,,0,0,0,,Satou-ku...
+Dialogue: 0,0:20:25.50,0:20:27.30,Default,,0,0,0,,Are you still here?
+Dialogue: 0,0:20:27.30,0:20:29.50,Default,,0,0,0,,Don't you think it's time for you to go home?
+Dialogue: 0,0:20:37.90,0:20:41.30,Default,,0,0,0,,I'm a super supplier!
+Dialogue: 0,0:20:41.30,0:20:43.50,Background,,0,0,0,,Satou-san?
+Dialogue: 0,0:20:41.70,0:20:48.30,Default,,0,0,0,,I'm a great success drea.... huh? Yamazaki, what are you doing?
+Dialogue: 0,0:20:48.70,0:20:50.90,Default,,0,0,0,,That's what I should be asking.
+Dialogue: 0,0:20:50.90,0:20:53.10,Default,,0,0,0,,What in the world were you doing until now?
+Dialogue: 0,0:20:54.50,0:20:56.90,Default,,0,0,0,,Satou-kun, what are those?
+Dialogue: 0,0:20:56.90,0:21:02.70,Default,,0,0,0,,Oh, I wanted to sell you some fabulous products, so I purchased them.
+Dialogue: 0,0:21:02.70,0:21:03.90,Default,,0,0,0,,Products?
+Dialogue: 0,0:21:03.90,0:21:06.70,Default,,0,0,0,,Purchased? Where did you get the money?
+Dialogue: 0,0:21:07.30,0:21:10.10,Default,,0,0,0,,I had an acquaintance introduce me to a credit loan.
+Dialogue: 0,0:21:10.10,0:21:11.30,Default,,0,0,0,,Loan?
+Dialogue: 0,0:21:11.30,0:21:13.70,Default,,0,0,0,,Oh, don't worry!
+Dialogue: 0,0:21:13.70,0:21:16.70,Default,,0,0,0,,As soon as I sell everything, I'll be able to repay it.
+Dialogue: 0,0:21:16.70,0:21:20.30,Default,,0,0,0,,My success story has now begun!
+Dialogue: 0,0:21:23.10,0:21:25.30,Default,,0,0,0,,Can I have a word with you, Satou-san?
+Dialogue: 0,0:21:25.30,0:21:26.70,Default,,0,0,0,,Huh? What is it?
+Dialogue: 0,0:21:27.70,0:21:29.50,Default,,0,0,0,,Could it be...
+Dialogue: 0,0:21:30.10,0:21:33.30,Default,,0,0,0,,A typical, corrupt multi-level marketing scheme?
+Dialogue: 0,0:21:33.50,0:21:37.30,Default,,0,0,0,,Don't be absurd! Do you think I'd fall for that kind of...
+Dialogue: 0,0:21:38.30,0:21:40.10,Default,,0,0,0,,For that kind of...
+Dialogue: 0,0:21:57.50,0:21:59.30,Default,,0,0,0,,I fell for it!
+Dialogue: 0,0:23:30.70,0:23:32.50,Default,,0,0,0,,The cause is a deficiency of hormones in the brain.
+Dialogue: 0,0:23:34.30,0:23:36.90,Default,,0,0,0,,T-This is good detergent.
+Dialogue: 0,0:23:36.90,0:23:39.30,Default,,0,0,0,,Next Episode, Welcome to No Future!

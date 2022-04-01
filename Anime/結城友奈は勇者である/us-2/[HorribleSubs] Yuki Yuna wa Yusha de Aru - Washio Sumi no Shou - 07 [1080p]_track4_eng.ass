@@ -1,0 +1,360 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:07.29,0:00:08.46,Default,,0,0,0,,Where am I?
+Dialogue: 0,0:00:15.55,0:00:18.01,Default,,0,0,0,,I don't have any memories\Nof the last two years.
+Dialogue: 0,0:00:18.51,0:00:19.52,Default,,0,0,0,,And I also can't walk.
+Dialogue: 0,0:00:19.68,0:00:20.10,Default,,0,0,0,,SUMI WASHIO-SAMA
+Dialogue: 0,0:00:21.52,0:00:22.39,Default,,0,0,0,,MIMORI TOGO-SAMA
+Dialogue: 0,0:00:22.64,0:00:24.85,Default,,0,0,0,,I was told it was\Nbecause I had an accident.
+Dialogue: 0,0:00:26.11,0:00:29.36,Default,,0,0,0,,Just when I started\Ngetting used to life in a wheelchair...
+Dialogue: 0,0:00:30.11,0:00:32.86,Default,,0,0,0,,it was decided that we would move\Nbecause of my parent's job.
+Dialogue: 0,0:00:35.11,0:00:38.28,Default,,0,0,0,,Living in a place\Nwhere I didn't know anyone, in this body...
+Dialogue: 0,0:00:38.83,0:00:41.08,Default,,0,0,0,,Yuna-chan was the one who save me...
+Dialogue: 0,0:00:41.37,0:00:44.00,Default,,0,0,0,,when I was being crushed\Nwith anxiety.
+Dialogue: 0,0:00:44.75,0:00:45.75,Default,,0,0,0,,Hello!
+Dialogue: 0,0:00:47.59,0:00:50.13,Default,,0,0,0,,Are you the girl who is going to live here?
+Dialogue: 0,0:00:51.17,0:00:52.17,Default,,0,0,0,,Yes.
+Dialogue: 0,0:00:52.38,0:00:54.51,Default,,0,0,0,,Then you're my next-door neighbor.
+Dialogue: 0,0:00:54.76,0:00:57.68,Default,,0,0,0,,Oh, I'm Yuna Yuki. Nice to meet you.
+Dialogue: 0,0:00:58.89,0:01:00.01,Default,,0,0,0,,I'm Mimori Togo.
+Dialogue: 0,0:01:00.43,0:01:03.77,Default,,0,0,0,,Togo-san!\NWow, that's a cool surname.
+Dialogue: 0,0:01:03.93,0:01:05.14,Default,,0,0,0,,T...thanks.
+Dialogue: 0,0:01:06.56,0:01:08.81,Default,,0,0,0,,MUNICIPAL\NSANSHU MIDDLE SCHOOL
+Dialogue: 0,0:01:09.65,0:01:12.90,Default,,0,0,0,,Every day was fun after entering\Nthe Sanshu Middle School...
+Dialogue: 0,0:01:13.07,0:01:14.65,Default,,0,0,0,,with Yuna-chan.
+Dialogue: 0,0:01:15.07,0:01:15.74,Default,,0,0,0,,PREPARATION ROOM\NHERO CLUB'S CLUB ROOM
+Dialogue: 0,0:01:15.91,0:01:19.66,Default,,0,0,0,,I joined the Hero Club\Nafter being encouraged by Fu-senpai.
+Dialogue: 0,0:01:20.41,0:01:22.91,Default,,0,0,0,,We did things that would\Nbenefit everyone in high glee.
+Dialogue: 0,0:01:24.08,0:01:26.54,Default,,0,0,0,,The everyday life\NI spent with everyone
+Dialogue: 0,0:01:26.71,0:01:28.58,Default,,0,0,0,,at the Hero Club was my treasure.
+Dialogue: 0,0:01:33.71,0:01:38.18,Default,,0,0,0,,But that everyday life\Nsuddenly ended one day.
+Dialogue: 0,0:01:39.22,0:01:41.06,Default,,0,0,0,,We became real heroes...
+Dialogue: 0,0:01:42.39,0:01:46.19,Default,,0,0,0,,without knowing that\Nit was my second time.
+Dialogue: 0,0:01:51.94,0:01:55.95,Default,,0,0,0,,YUKI YUNA IS A HERO
+Dialogue: 0,0:03:20.24,0:03:21.86,Default,,0,0,0,,EPISODE 7\NA SUNNY PLACE
+Dialogue: 0,0:03:28.62,0:03:30.58,Default,,0,0,0,,-Huh?\N-Yuna-chan.
+Dialogue: 0,0:03:31.46,0:03:32.79,Default,,0,0,0,,Togo-san.
+Dialogue: 0,0:03:34.29,0:03:35.38,Default,,0,0,0,,It can't be.
+Dialogue: 0,0:03:35.79,0:03:36.84,Default,,0,0,0,,Surely not!
+Dialogue: 0,0:03:39.72,0:03:41.38,Default,,0,0,0,,-Oh, sis!\N-Itsuki!
+Dialogue: 0,0:03:41.55,0:03:44.26,Default,,0,0,0,,I'm glad you were okay, sis.
+Dialogue: 0,0:03:44.43,0:03:46.81,Default,,0,0,0,,Listen, everyone's acting strange,\Nand...
+Dialogue: 0,0:03:46.97,0:03:48.22,Default,,0,0,0,,-Itsuki.\N-Huh?
+Dialogue: 0,0:03:48.89,0:03:50.81,Default,,0,0,0,,Itsuki, listen to me carefully.
+Dialogue: 0,0:03:51.85,0:03:54.81,Default,,0,0,0,,We...were the one.
+Dialogue: 0,0:03:58.90,0:04:01.61,Default,,0,0,0,,It's a phenomenon\Ncalled forestization.
+Dialogue: 0,0:04:01.78,0:04:03.11,Default,,0,0,0,,-Is it an earthquake?\N-Time stopped,
+Dialogue: 0,0:04:03.32,0:04:05.37,Default,,0,0,0,,and the people who were\Nchosen as heroes
+Dialogue: 0,0:04:05.53,0:04:08.54,Default,,0,0,0,,got sent to the sacred boundary\Nwhich Shinjyu-sama created.
+Dialogue: 0,0:04:09.87,0:04:12.33,Default,,0,0,0,,Fu-senpai, who was sent\Nby the amnesty,
+Dialogue: 0,0:04:12.50,0:04:14.96,Default,,0,0,0,,gathered girls\Nwho had high aptitudes
+Dialogue: 0,0:04:15.13,0:04:16.38,Default,,0,0,0,,and formed the Hero Club.
+Dialogue: 0,0:04:16.54,0:04:17.42,Default,,0,0,0,,Humanity's enemy.
+Dialogue: 0,0:04:17.59,0:04:19.71,Default,,0,0,0,,Heroes must fight\Nthe mysterious life forms
+Dialogue: 0,0:04:19.88,0:04:23.09,Default,,0,0,0,,called Vertex\Nin order to protect the world.
+Dialogue: 0,0:04:25.34,0:04:29.64,Default,,0,0,0,,The world will be brought to ruin\Nif Vertex reaches Shinjyu-sama.
+Dialogue: 0,0:04:30.39,0:04:33.64,Default,,0,0,0,,Before that happens,\Nwe show our willingness to fight
+Dialogue: 0,0:04:33.81,0:04:35.85,Default,,0,0,0,,and become heroes for Shinjyu-sama.
+Dialogue: 0,0:04:37.31,0:04:39.44,Default,,0,0,0,,Even though the world might end...
+Dialogue: 0,0:04:40.07,0:04:41.65,Default,,0,0,0,,Even though everyone is at risk...
+Dialogue: 0,0:04:42.15,0:04:44.95,Default,,0,0,0,,I couldn't show my willingness.
+Dialogue: 0,0:04:45.11,0:04:46.16,Default,,0,0,0,,Yuna-chan!
+Dialogue: 0,0:04:46.32,0:04:48.03,Default,,0,0,0,,But Yuna-chan was...
+Dialogue: 0,0:04:50.91,0:04:51.95,Default,,0,0,0,,I don't want...
+Dialogue: 0,0:04:54.16,0:04:55.79,Default,,0,0,0,,someone to get hurt...
+Dialogue: 0,0:04:56.13,0:04:57.71,Default,,0,0,0,,nor feel the pain.
+Dialogue: 0,0:04:59.04,0:05:02.51,Default,,0,0,0,,If everyone has to go through\Nsomething like that...
+Dialogue: 0,0:05:05.26,0:05:08.47,Default,,0,0,0,,I'd rather be the one\Nwho gives it my best!
+Dialogue: 0,0:05:10.97,0:05:12.27,Default,,0,0,0,,Yuna-chan!
+Dialogue: 0,0:05:12.43,0:05:17.60,Default,,0,0,0,,Hero's punch!
+Dialogue: 0,0:05:21.98,0:05:23.32,Default,,0,0,0,,The Hero Club's activity
+Dialogue: 0,0:05:23.49,0:05:26.49,Default,,0,0,0,,is to do things that would\Nbenefit everyone in high glee.
+Dialogue: 0,0:05:27.28,0:05:32.12,Default,,0,0,0,,I'm Sanshu Middle School\NHero Club's Yuna Yuki.
+Dialogue: 0,0:05:32.66,0:05:35.37,Default,,0,0,0,,I'm going to become a hero.
+Dialogue: 0,0:05:35.96,0:05:36.75,Default,,0,0,0,,PREPARATION ROOM\NHERO CLUB'S CLUB ROOM
+Dialogue: 0,0:05:36.92,0:05:38.29,Default,,0,0,0,,I'm sorry for keeping it a secret.
+Dialogue: 0,0:05:38.92,0:05:41.71,Default,,0,0,0,,Why didn't you tell us\Nabout the real meaning
+Dialogue: 0,0:05:41.88,0:05:43.38,Default,,0,0,0,,of the Hero Club earlier?
+Dialogue: 0,0:05:44.09,0:05:47.68,Default,,0,0,0,,Both Yuna-chan and Itsuki-chan\Nmight have died.
+Dialogue: 0,0:05:48.55,0:05:49.55,Default,,0,0,0,,I'm sorry.
+Dialogue: 0,0:05:49.72,0:05:52.85,Default,,0,0,0,,But we didn't know\Nwhich team would be chosen
+Dialogue: 0,0:05:53.02,0:05:56.35,Default,,0,0,0,,by Shinjyu-sama\Nuntil the enemy came.
+Dialogue: 0,0:05:56.98,0:05:59.35,Default,,0,0,0,,It's a big deal since humans might\Nbecome extinct.
+Dialogue: 0,0:06:00.11,0:06:04.32,Default,,0,0,0,,You kept something this important\Na secret this whole time?
+Dialogue: 0,0:06:05.86,0:06:06.99,Default,,0,0,0,,Togo...
+Dialogue: 0,0:06:07.95,0:06:11.03,Default,,0,0,0,,If I'm the only one\Nwho can't transform at this rate,
+Dialogue: 0,0:06:11.20,0:06:13.29,Default,,0,0,0,,I'll slow down the Hero Club.
+Dialogue: 0,0:06:14.75,0:06:16.91,Default,,0,0,0,,I felt pathetic for giving in to fear...
+Dialogue: 0,0:06:17.41,0:06:20.79,Default,,0,0,0,,and I said horrible things\Nto Fu-senpai.
+Dialogue: 0,0:06:21.50,0:06:22.71,Default,,0,0,0,,But I was glad.
+Dialogue: 0,0:06:22.88,0:06:24.00,Default,,0,0,0,,Because of our aptitude
+Dialogue: 0,0:06:24.17,0:06:26.88,Default,,0,0,0,,I was able to meet people like\NFu-senpai and Itsuki-chan.
+Dialogue: 0,0:06:28.18,0:06:31.18,Default,,0,0,0,,-Because of our aptitude?\N-Yup.
+Dialogue: 0,0:06:32.51,0:06:34.10,Default,,0,0,0,,We'll have fun from now on too.
+Dialogue: 0,0:06:34.35,0:06:36.73,Default,,0,0,0,,We just have a mission\Nthat's a little bit harder.
+Dialogue: 0,0:06:38.73,0:06:40.81,Default,,0,0,0,,Oh... You're right.
+Dialogue: 0,0:06:41.90,0:06:45.15,Default,,0,0,0,,I was happy that I was able to\Nmeet everyone too.
+Dialogue: 0,0:06:46.40,0:06:48.45,Default,,0,0,0,,It's our mission\Nto protect this world.
+Dialogue: 0,0:06:49.57,0:06:53.37,Default,,0,0,0,,If I also have the power\Nto protect my important friends...
+Dialogue: 0,0:06:56.33,0:06:57.33,Default,,0,0,0,,Stop...
+Dialogue: 0,0:06:57.54,0:07:02.67,Default,,0,0,0,,Don't bully Yuna-chan!
+Dialogue: 0,0:07:08.13,0:07:09.42,Default,,0,0,0,,Togo-san...?
+Dialogue: 0,0:07:36.16,0:07:37.91,Default,,0,0,0,,According to Fu-senpai,
+Dialogue: 0,0:07:38.08,0:07:40.96,Default,,0,0,0,,our job will end\Nonce we defeat 12 Vertex.
+Dialogue: 0,0:07:41.87,0:07:44.79,Default,,0,0,0,,And Karin-chan\Nwho had special training,
+Dialogue: 0,0:07:44.96,0:07:47.17,Default,,0,0,0,,and was send from the amnesty\Njoined us.
+Dialogue: 0,0:07:48.38,0:07:51.01,Default,,0,0,0,,Karin-chan, who was dismissive about\Nthe Hero Club at the beginning,
+Dialogue: 0,0:07:51.18,0:07:53.43,Default,,0,0,0,,opened up to us little by little.
+Dialogue: 0,0:07:54.34,0:07:58.31,Default,,0,0,0,,Each and every one of us have\Nimportant everyday lives and dreams.
+Dialogue: 0,0:07:59.18,0:08:00.56,Default,,0,0,0,,We have to protect that.
+Dialogue: 0,0:08:05.61,0:08:07.11,Default,,0,0,0,,Seven more to go.
+Dialogue: 0,0:08:08.03,0:08:09.82,Default,,0,0,0,,Maybe all of them are here.
+Dialogue: 0,0:08:11.65,0:08:13.70,Default,,0,0,0,,It's the worst attack pattern.
+Dialogue: 0,0:08:14.53,0:08:16.62,Default,,0,0,0,,Down to the battlefield!
+Dialogue: 0,0:08:18.79,0:08:20.54,Default,,0,0,0,,All right! Line of battle!
+Dialogue: 0,0:08:20.70,0:08:22.25,Default,,0,0,0,,-Let's go!\N-Yes!
+Dialogue: 0,0:08:24.17,0:08:25.96,Default,,0,0,0,,Mankai, a hero's trump card
+Dialogue: 0,0:08:26.13,0:08:28.13,Default,,0,0,0,,which releases the\Naccumulated power.
+Dialogue: 0,0:08:28.88,0:08:32.76,Default,,0,0,0,,By repeating Mankai,\Nthe hero amplifies her power.
+Dialogue: 0,0:08:33.51,0:08:35.39,Default,,0,0,0,,That's how the amnesty explained it.
+Dialogue: 0,0:08:36.35,0:08:41.10,Default,,0,0,0,,We went Mankai one after another\Nagainst the remaining seven Vertex.
+Dialogue: 0,0:08:44.35,0:08:45.48,Default,,0,0,0,,Mankai!
+Dialogue: 0,0:08:54.91,0:08:57.53,Default,,0,0,0,,Right there!
+Dialogue: 0,0:09:01.33,0:09:02.79,Default,,0,0,0,,You all did great!
+Dialogue: 0,0:09:02.96,0:09:06.17,Default,,0,0,0,,Let's celebrate the great victory\Nof the Hero Club. Cheers!
+Dialogue: 0,0:09:06.33,0:09:07.92,Default,,0,0,0,,Cheers!
+Dialogue: 0,0:09:11.09,0:09:14.34,Default,,0,0,0,,Juice definitely tastes better\Nafter achieving a goal.
+Dialogue: 0,0:09:16.05,0:09:18.64,Default,,0,0,0,,The members who went Mankai\Nin that battle
+Dialogue: 0,0:09:18.80,0:09:20.85,Default,,0,0,0,,all had some unusual changes\Nto their bodies.
+Dialogue: 0,0:09:21.39,0:09:23.10,Default,,0,0,0,,Yuna-chan lost her sense of taste.
+Dialogue: 0,0:09:23.27,0:09:24.73,Default,,0,0,0,,Fu-senpai lost her left eye.
+Dialogue: 0,0:09:25.73,0:09:27.06,Default,,0,0,0,,Itsuki-chan lost her voice.
+Dialogue: 0,0:09:28.02,0:09:29.61,Default,,0,0,0,,I lost the hearing in my left ear.
+Dialogue: 0,0:09:30.98,0:09:34.24,Default,,0,0,0,,Both the amnesty and the doctor\Nsaid it'll heal right away...
+Dialogue: 0,0:09:34.65,0:09:36.45,Default,,0,0,0,,but there was no sign of recovery.
+Dialogue: 0,0:09:37.32,0:09:41.45,Default,,0,0,0,,And I found out the truth\Nabout the system of heroes.
+Dialogue: 0,0:09:41.95,0:09:44.75,Default,,0,0,0,,I've been calling for you\Nthe whole time, Wasshi.
+Dialogue: 0,0:09:45.04,0:09:46.42,Default,,0,0,0,,-I missed you.\N-Huh?
+Dialogue: 0,0:09:50.67,0:09:52.96,Default,,0,0,0,,Her name was Sonoko Nogi.
+Dialogue: 0,0:09:53.84,0:09:56.30,Default,,0,0,0,,She looked at me\Nwith a very sad eye...
+Dialogue: 0,0:09:56.80,0:09:59.55,Default,,0,0,0,,and called me Wasshi.
+Dialogue: 0,0:10:01.47,0:10:05.27,Default,,0,0,0,,-You went Mankai, right, Yuna-chan?\N-Huh?
+Dialogue: 0,0:10:05.43,0:10:08.81,Default,,0,0,0,,The one where you open up in a breath\Nand get stronger in one go.
+Dialogue: 0,0:10:09.23,0:10:11.61,Default,,0,0,0,,Oh... Yes, I did.
+Dialogue: 0,0:10:12.69,0:10:14.23,Default,,0,0,0,,I did too.
+Dialogue: 0,0:10:14.53,0:10:18.99,Default,,0,0,0,,What do you think would happen\Nto a flower in bloom?
+Dialogue: 0,0:10:19.78,0:10:23.37,Default,,0,0,0,,You must have become\Nphysically disabled in some way...
+Dialogue: 0,0:10:23.54,0:10:25.08,Default,,0,0,0,,after going Mankai.
+Dialogue: 0,0:10:30.67,0:10:35.09,Default,,0,0,0,,I think it was from kindness\Nthat the people at the amnesty
+Dialogue: 0,0:10:35.26,0:10:37.09,Default,,0,0,0,,kept this system a secret.
+Dialogue: 0,0:10:38.72,0:10:39.72,Default,,0,0,0,,But...
+Dialogue: 0,0:10:40.68,0:10:42.35,Default,,0,0,0,,I wish...
+Dialogue: 0,0:10:42.60,0:10:46.89,Default,,0,0,0,,they told me about that properly.
+Dialogue: 0,0:10:49.81,0:10:50.98,Default,,0,0,0,,If I knew that...
+Dialogue: 0,0:10:51.52,0:10:57.11,Default,,0,0,0,,I could have played\Nwith my friends a lot more.
+Dialogue: 0,0:10:57.69,0:10:58.70,Default,,0,0,0,,So...
+Dialogue: 0,0:11:10.33,0:11:12.63,Default,,0,0,0,,That ribbon looks great on you.
+Dialogue: 0,0:11:14.29,0:11:18.26,Default,,0,0,0,,This ribbon\Nis really important to me.
+Dialogue: 0,0:11:19.84,0:11:21.47,Default,,0,0,0,,I do remember that.
+Dialogue: 0,0:11:22.26,0:11:23.30,Default,,0,0,0,,But...
+Dialogue: 0,0:11:24.85,0:11:26.10,Default,,0,0,0,,I'm sorry...
+Dialogue: 0,0:11:26.26,0:11:28.27,Default,,0,0,0,,I can't remember...
+Dialogue: 0,0:11:29.56,0:11:31.27,Default,,0,0,0,,It can't be helped.
+Dialogue: 0,0:11:34.61,0:11:36.23,Default,,0,0,0,,YUKI YUNA IS A HERO
+Dialogue: 0,0:11:39.61,0:11:42.36,Default,,0,0,0,,What's wrong, Togo?\NWhy did you call us out suddenly?
+Dialogue: 0,0:11:44.37,0:11:45.99,Default,,0,0,0,,Fu-senpai, Yuna-chan...
+Dialogue: 0,0:11:46.16,0:11:48.08,Default,,0,0,0,,there's something\NI want you guys to see.
+Dialogue: 0,0:11:49.29,0:11:51.00,Default,,0,0,0,,T...Togo-san?
+Dialogue: 0,0:11:59.05,0:12:00.72,Default,,0,0,0,,Heroes can never die.
+Dialogue: 0,0:12:01.43,0:12:04.09,Default,,0,0,0,,In order to make sure\Nthat the story of the late Hero...
+Dialogue: 0,0:12:04.26,0:12:05.64,Default,,0,0,0,,Sonoko Nogi's story was true...
+Dialogue: 0,0:12:05.80,0:12:06.93,Default,,0,0,0,,DEATH BY DROWNING\NSELF POISONING
+Dialogue: 0,0:12:07.10,0:12:09.18,Default,,0,0,0,,I tried to die\Nby using every possible method.
+Dialogue: 0,0:12:11.02,0:12:13.90,Default,,0,0,0,,The spirit stopped it\Nno matter what method I tried.
+Dialogue: 0,0:12:14.69,0:12:17.02,Default,,0,0,0,,The spirit wasn't there\Nto protect the hero.
+Dialogue: 0,0:12:17.48,0:12:20.11,Default,,0,0,0,,It existed to bind the heroes\Nto their roles.
+Dialogue: 0,0:12:20.82,0:12:24.07,Default,,0,0,0,,In other words,\Nwhat Sonoko Nogi was saying was true.
+Dialogue: 0,0:12:25.20,0:12:26.66,Default,,0,0,0,,The aftereffects we had
+Dialogue: 0,0:12:26.83,0:12:29.12,Default,,0,0,0,,was the price\Nfor the power of Mankai.
+Dialogue: 0,0:12:30.50,0:12:31.75,Default,,0,0,0,,It was an offering.
+Dialogue: 0,0:12:33.17,0:12:34.46,Default,,0,0,0,,Then...
+Dialogue: 0,0:12:34.62,0:12:38.30,Default,,0,0,0,,Itsuki's voice will never...
+Dialogue: 0,0:12:43.51,0:12:44.84,Default,,0,0,0,,I didn't know...
+Dialogue: 0,0:12:45.64,0:12:46.97,Default,,0,0,0,,I had no idea.
+Dialogue: 0,0:12:48.26,0:12:52.48,Default,,0,0,0,,In order to protect humans,\Nwe sacrifice our bodies and fight.
+Dialogue: 0,0:12:53.23,0:12:54.39,Default,,0,0,0,,That's what heroes are.
+Dialogue: 0,0:12:56.23,0:13:00.82,Default,,0,0,0,,Because I made Itsuki\Njoin the Hero Club...
+Dialogue: 0,0:13:01.74,0:13:03.24,Default,,0,0,0,,Hey, sis.
+Dialogue: 0,0:13:03.65,0:13:07.20,Default,,0,0,0,,-I found something I want to do.\N-What is it?
+Dialogue: 0,0:13:07.37,0:13:09.87,Default,,0,0,0,,You have a dream for the future?
+Dialogue: 0,0:13:10.04,0:13:11.83,Default,,0,0,0,,If so, you should tell me.
+Dialogue: 0,0:13:13.12,0:13:15.67,Default,,0,0,0,,-It's a secret.\N-What? Don't be mean.
+Dialogue: 0,0:13:15.83,0:13:16.58,Default,,0,0,0,,THERE'S NO MEDICAL ISSUES\NTO THE BODY, AND SHOULD HEAL SOON
+Dialogue: 0,0:13:16.75,0:13:18.08,Default,,0,0,0,,I won't tell anyone.
+Dialogue: 0,0:13:18.54,0:13:19.92,Default,,0,0,0,,I'll tell you one day.
+Dialogue: 0,0:13:27.26,0:13:28.26,Default,,0,0,0,,Wait!
+Dialogue: 0,0:13:32.27,0:13:34.10,Default,,0,0,0,,What are you planning to do?
+Dialogue: 0,0:13:34.27,0:13:36.48,Default,,0,0,0,,I'm going to destroy the amnesty!
+Dialogue: 0,0:13:37.23,0:13:39.90,Default,,0,0,0,,The amnesty deceived us!
+Dialogue: 0,0:13:40.77,0:13:43.82,Default,,0,0,0,,The aftereffects of Mankai\Nis permanent!
+Dialogue: 0,0:13:47.11,0:13:49.20,Default,,0,0,0,,Why do we have to go through this?
+Dialogue: 0,0:13:49.95,0:13:50.37,Default,,0,0,0,,THINGS TO DO TO MAKE ME FEEL BETTER\NSLEEP A LOT
+Dialogue: 0,0:13:50.53,0:13:50.95,Default,,0,0,0,,IF I GET MY VOICE BACK, I WANT TO...\NSING!!
+Dialogue: 0,0:13:51.12,0:13:52.62,Default,,0,0,0,,Why does Itsuki\Nhave to lose her voice?
+Dialogue: 0,0:13:52.79,0:13:54.79,Default,,0,0,0,,Why does she have to give up\Non her dreams?
+Dialogue: 0,0:13:54.96,0:13:58.54,Default,,0,0,0,,This is the price for saving the world?
+Dialogue: 0,0:14:00.34,0:14:02.17,Default,,0,0,0,,-Yuna!\N-Get out of my way!
+Dialogue: 0,0:14:02.34,0:14:03.21,Default,,0,0,0,,No!
+Dialogue: 0,0:14:03.38,0:14:06.63,Default,,0,0,0,,I don't want to see you hurt people,\NFu-senpai!
+Dialogue: 0,0:14:06.80,0:14:09.05,Default,,0,0,0,,How could I forgive such a thing?!
+Dialogue: 0,0:14:10.18,0:14:13.64,Default,,0,0,0,,But...even if they have told us\Nabout the aftereffects,
+Dialogue: 0,0:14:13.93,0:14:16.27,Default,,0,0,0,,we would have been\Nfighting the Vertex anyways!
+Dialogue: 0,0:14:16.48,0:14:19.60,Default,,0,0,0,,-What?\N-It was the only way to save the world.
+Dialogue: 0,0:14:19.85,0:14:22.36,Default,,0,0,0,,No one had any choice!
+Dialogue: 0,0:14:26.03,0:14:27.03,Default,,0,0,0,,Itsuki...
+Dialogue: 0,0:14:35.41,0:14:37.37,Default,,0,0,0,,I'm sorry...everyone.
+Dialogue: 0,0:14:40.50,0:14:43.92,Default,,0,0,0,,I WOULDN'T HAVE HAD THE DREAM\NTO SING IF I DIDN'T MEET YOU GUYS
+Dialogue: 0,0:14:44.09,0:14:45.67,Default,,0,0,0,,I'M REALLY GLAD THAT\NI JOINED THE HERO CLUB
+Dialogue: 0,0:14:45.84,0:14:46.63,Default,,0,0,0,,ITSUKI
+Dialogue: 0,0:14:47.26,0:14:48.72,Default,,0,0,0,,Listen to me calmly.
+Dialogue: 0,0:14:49.55,0:14:51.85,Default,,0,0,0,,I'll tell you the secret\Nof the world beyond the wall...
+Dialogue: 0,0:14:52.01,0:14:54.51,Default,,0,0,0,,and the scheme of this world.
+Dialogue: 0,0:14:55.18,0:14:56.27,Default,,0,0,0,,You see...
+Dialogue: 0,0:15:01.02,0:15:05.40,Default,,0,0,0,,I think you should\Nsee the truth with your own eyes.
+Dialogue: 0,0:15:06.32,0:15:08.36,Default,,0,0,0,,Her story was true.
+Dialogue: 0,0:15:09.40,0:15:12.70,Default,,0,0,0,,The world is in a sacred boundary\Non a cosmic scale...
+Dialogue: 0,0:15:13.37,0:15:15.41,Default,,0,0,0,,and Vertex regenerates\Ninfinitely.
+Dialogue: 0,0:15:16.37,0:15:18.41,Default,,0,0,0,,We repeat an endless battle
+Dialogue: 0,0:15:18.58,0:15:21.83,Default,,0,0,0,,while sacrificing\Nthe functions of our bodies.
+Dialogue: 0,0:15:22.67,0:15:23.88,Default,,0,0,0,,And eventually...
+Dialogue: 0,0:15:25.25,0:15:28.21,Default,,0,0,0,,Like a tree, you won't be\Nable to move your body...
+Dialogue: 0,0:15:28.92,0:15:31.80,Default,,0,0,0,,and will be enshrined like this\Nin the end.
+Dialogue: 0,0:15:33.18,0:15:34.68,Default,,0,0,0,,I made the decision
+Dialogue: 0,0:15:34.85,0:15:37.93,Default,,0,0,0,,to destroy the wall\Nand defeat Shinjyu-sama.
+Dialogue: 0,0:15:39.02,0:15:40.77,Default,,0,0,0,,I have to destroy Shinjyu-sama
+Dialogue: 0,0:15:40.94,0:15:43.56,Default,,0,0,0,,to break free from being\Nthe sacrifice as a hero.
+Dialogue: 0,0:15:44.77,0:15:48.53,Default,,0,0,0,,I can't bear everyone getting hurt\Nmore than they are now.
+Dialogue: 0,0:15:53.82,0:15:54.91,Default,,0,0,0,,Itsuki...
+Dialogue: 0,0:15:59.62,0:16:01.62,Default,,0,0,0,,Why go to such lengths...
+Dialogue: 0,0:16:03.08,0:16:04.08,Default,,0,0,0,,Thanks.
+Dialogue: 0,0:16:05.09,0:16:08.00,Default,,0,0,0,,I just felt like saying it\Nfor no special reason.
+Dialogue: 0,0:16:08.76,0:16:11.68,Default,,0,0,0,,Things like this house\Nand the Hero Club...
+Dialogue: 0,0:16:12.30,0:16:15.22,Default,,0,0,0,,I've been making you do\Nall the hard things...
+Dialogue: 0,0:16:15.85,0:16:18.18,Default,,0,0,0,,But, to tell you the truth...
+Dialogue: 0,0:16:18.68,0:16:21.89,Default,,0,0,0,,I wanted to be able\Nto walk alongside you.
+Dialogue: 0,0:16:23.06,0:16:24.73,Default,,0,0,0,,Never mind being alongside me...
+Dialogue: 0,0:16:27.48,0:16:31.74,Default,,0,0,0,,you're standing in front of me\Nwithout realizing it.
+Dialogue: 0,0:16:33.03,0:16:35.24,Default,,0,0,0,,Why? How come?
+Dialogue: 0,0:16:36.45,0:16:38.20,Default,,0,0,0,,Why can't I transform?
+Dialogue: 0,0:16:51.21,0:16:53.63,Default,,0,0,0,,I... I'm...
+Dialogue: 0,0:16:56.34,0:16:59.14,Default,,0,0,0,,a failure as a friend.
+Dialogue: 0,0:17:11.11,0:17:12.40,Default,,0,0,0,,Karin-chan...
+Dialogue: 0,0:17:13.65,0:17:14.65,Default,,0,0,0,,Yuna.
+Dialogue: 0,0:17:16.53,0:17:17.53,Default,,0,0,0,,I'm...
+Dialogue: 0,0:17:18.12,0:17:21.49,Default,,0,0,0,,going to stop fighting\Nas a hero for the amnesty.
+Dialogue: 0,0:17:21.75,0:17:22.75,Default,,0,0,0,,What?
+Dialogue: 0,0:17:22.91,0:17:23.91,Default,,0,0,0,,From now on...
+Dialogue: 0,0:17:25.00,0:17:27.29,Default,,0,0,0,,I'll fight as a member\Nof the Hero Club.
+Dialogue: 0,0:17:29.17,0:17:32.51,Default,,0,0,0,,I won't let them\Ndestroy our Hero Club.
+Dialogue: 0,0:17:34.51,0:17:38.09,Default,,0,0,0,,I don't want to see\Nyour crying face, Yuna.
+Dialogue: 0,0:17:39.22,0:17:40.31,Default,,0,0,0,,Karin-chan!
+Dialogue: 0,0:17:47.06,0:17:48.10,Default,,0,0,0,,What an idiot.
+Dialogue: 0,0:17:48.65,0:17:50.82,Default,,0,0,0,,The impermanence of all things.
+Dialogue: 0,0:17:51.23,0:17:52.69,Default,,0,0,0,,Come on.
+Dialogue: 0,0:17:53.07,0:17:54.99,Default,,0,0,0,,It's showtime!
+Dialogue: 0,0:17:55.45,0:17:58.11,Default,,0,0,0,,Ye who are afar, hear and tremble!
+Dialogue: 0,0:17:58.28,0:18:01.49,Default,,0,0,0,,Ye who are near, behold and wonder!
+Dialogue: 0,0:18:01.83,0:18:04.25,Default,,0,0,0,,Sanshu Middle School's\Nsecond year...
+Dialogue: 0,0:18:04.41,0:18:06.04,Default,,0,0,0,,and a member of the Hero Club...
+Dialogue: 0,0:18:06.21,0:18:09.67,Default,,0,0,0,,This is the power of Karin Miyoshi!
+Dialogue: 0,0:18:14.88,0:18:18.13,Default,,0,0,0,,Take that!
+Dialogue: 0,0:18:25.52,0:18:28.02,Default,,0,0,0,,The world where Fu-senpai\Nand Itsuki-chan
+Dialogue: 0,0:18:28.19,0:18:30.10,Default,,0,0,0,,don't have to fight anymore...
+Dialogue: 0,0:18:31.69,0:18:33.65,Default,,0,0,0,,Five articles of the Hero Club!
+Dialogue: 0,0:18:33.82,0:18:36.32,Default,,0,0,0,,First!
+Dialogue: 0,0:18:36.90,0:18:38.99,Default,,0,0,0,,You're likely to succeed...
+Dialogue: 0,0:18:39.95,0:18:44.08,Default,,0,0,0,,if you try!
+Dialogue: 0,0:18:47.25,0:18:48.41,Default,,0,0,0,,Karin-chan!
+Dialogue: 0,0:18:49.58,0:18:52.96,Default,,0,0,0,,Please don't lose\Nany more than this, Karin-chan.
+Dialogue: 0,0:18:53.38,0:18:54.38,Default,,0,0,0,,Please!
+Dialogue: 0,0:18:56.59,0:19:00.68,Default,,0,0,0,,How cruel this world is.\NAnd the amnesty is...
+Dialogue: 0,0:19:01.68,0:19:05.10,Default,,0,0,0,,This is the only way\Nfor us to be saved.
+Dialogue: 0,0:19:06.22,0:19:07.52,Default,,0,0,0,,Hey, Yuna.
+Dialogue: 0,0:19:09.48,0:19:11.44,Default,,0,0,0,,There's something\NI wanted to tell you.
+Dialogue: 0,0:19:12.56,0:19:14.48,Default,,0,0,0,,I wanted to say thanks.
+Dialogue: 0,0:19:14.86,0:19:15.86,Default,,0,0,0,,What?
+Dialogue: 0,0:19:16.40,0:19:21.45,Default,,0,0,0,,I've been trained as a hero\Nfor a long time.
+Dialogue: 0,0:19:22.32,0:19:26.45,Default,,0,0,0,,Fighting was the only meaning\Nof my existence.
+Dialogue: 0,0:19:27.12,0:19:31.29,Default,,0,0,0,,But, thanks to you guys, I...
+Dialogue: 0,0:19:33.04,0:19:34.21,Default,,0,0,0,,HAPPY BIRTHDAY
+Dialogue: 0,0:19:34.38,0:19:37.80,Default,,0,0,0,,If it's you, Yuna,\Nyou can change Togo's mind...
+Dialogue: 0,0:19:38.63,0:19:39.76,Default,,0,0,0,,no doubt...
+Dialogue: 0,0:19:43.85,0:19:45.72,Default,,0,0,0,,Stop!
+Dialogue: 0,0:19:47.47,0:19:48.89,Default,,0,0,0,,-Mankai!\N-Mankai!
+Dialogue: 0,0:19:49.06,0:19:53.69,Default,,0,0,0,,I fought as a hero at one time\Nand lost memory of it.
+Dialogue: 0,0:19:54.69,0:19:58.23,Default,,0,0,0,,I can't be a hero\Nif I can't protect my best friends.
+Dialogue: 0,0:19:59.53,0:20:03.87,Default,,0,0,0,,If we end everything,\Nour living hell will end.
+Dialogue: 0,0:20:04.82,0:20:07.66,Default,,0,0,0,,If Yuna-chan and everyone\Nwere to become victims...
+Dialogue: 0,0:20:08.29,0:20:12.21,Default,,0,0,0,,if I were to forget the\Nfeeling of caring again, I'd rather...
+Dialogue: 0,0:20:13.21,0:20:14.29,Default,,0,0,0,,Togo-san!
+Dialogue: 0,0:20:25.09,0:20:26.22,Default,,0,0,0,,You won't forget.
+Dialogue: 0,0:20:27.14,0:20:28.93,Default,,0,0,0,,-You're lying.\N-I'm not.
+Dialogue: 0,0:20:30.22,0:20:32.19,Default,,0,0,0,,-You're lying.\N-I'm not!
+Dialogue: 0,0:20:37.73,0:20:39.78,Default,,0,0,0,,-Really?\N-Yup.
+Dialogue: 0,0:20:40.99,0:20:42.61,Default,,0,0,0,,I'll always be with you.
+Dialogue: 0,0:20:43.40,0:20:45.66,Default,,0,0,0,,By doing that, you won't forget.
+Dialogue: 0,0:20:46.37,0:20:47.95,Default,,0,0,0,,Yuna-chan.
+Dialogue: 0,0:20:55.58,0:20:56.63,Default,,0,0,0,,What is that?
+Dialogue: 0,0:20:57.42,0:20:58.42,Default,,0,0,0,,The sun...
+Dialogue: 0,0:21:01.67,0:21:03.63,Default,,0,0,0,,I've done something horrible.
+Dialogue: 0,0:21:03.80,0:21:05.30,Default,,0,0,0,,It's not your fault, Togo-san.
+Dialogue: 0,0:21:05.72,0:21:07.72,Default,,0,0,0,,-We'll stop him!\N-Okay!
+Dialogue: 0,0:21:11.68,0:21:13.85,Default,,0,0,0,,It won't stop...
+Dialogue: 0,0:21:16.56,0:21:20.32,Default,,0,0,0,,I'll never give up...
+Dialogue: 0,0:21:23.78,0:21:24.82,Default,,0,0,0,,Yuna-chan!
+Dialogue: 0,0:21:27.24,0:21:28.83,Default,,0,0,0,,Not here...
+Dialogue: 0,0:21:31.45,0:21:32.50,Default,,0,0,0,,My legs...
+Dialogue: 0,0:21:36.29,0:21:37.38,Default,,0,0,0,,Itsuki-chan.
+Dialogue: 0,0:21:38.33,0:21:40.25,Default,,0,0,0,,Sorry for what I did\Nat an important time like this!
+Dialogue: 0,0:21:41.38,0:21:42.55,Default,,0,0,0,,Fu-senpai.
+Dialogue: 0,0:21:43.30,0:21:44.51,Default,,0,0,0,,I...
+Dialogue: 0,0:21:45.72,0:21:47.47,Default,,0,0,0,,Welcome back, Togo.
+Dialogue: 0,0:21:49.97,0:21:53.31,Default,,0,0,0,,-There!\N-Karin!
+Dialogue: 0,0:21:53.64,0:21:58.48,Default,,0,0,0,,Don't underestimate the Hero Club!
+Dialogue: 0,0:21:59.56,0:22:00.86,Default,,0,0,0,,All right!
+Dialogue: 0,0:22:01.02,0:22:05.61,Default,,0,0,0,,-The Hero Club...is the best!\N-Is the best!
+Dialogue: 0,0:22:23.17,0:22:24.17,Default,,0,0,0,,Yuna!
+Dialogue: 0,0:22:25.01,0:22:27.26,Default,,0,0,0,,-Yuna!\N-Yuna-chan!
+Dialogue: 0,0:22:35.60,0:22:39.81,Default,,0,0,0,,Take that!
+Dialogue: 0,0:22:52.74,0:22:54.12,Default,,0,0,0,,FOR HEROES TOMORROW
+Dialogue: 0,0:22:54.91,0:22:58.58,Default,,0,0,0,,Even though everyone in the Hero Club\Nwere going through hard times themselves,
+Dialogue: 0,0:22:58.75,0:23:00.88,Default,,0,0,0,,they stopped me\Nwith all their might
+Dialogue: 0,0:23:01.04,0:23:02.38,Default,,0,0,0,,for their friends.
+Dialogue: 0,0:23:04.00,0:23:06.59,Default,,0,0,0,,Yuna-chan put forth\Nher whole energy against me...
+Dialogue: 0,0:23:06.76,0:23:08.55,Default,,0,0,0,,and hugged me with all her might.
+Dialogue: 0,0:23:10.09,0:23:12.18,Default,,0,0,0,,So, I'm not scared anymore.
+Dialogue: 0,0:23:13.47,0:23:16.31,Default,,0,0,0,,And the functions of our bodies\Nstarted to come back to us...
+Dialogue: 0,0:23:16.47,0:23:18.39,Default,,0,0,0,,after wiping out the enemy.
+Dialogue: 0,0:23:19.39,0:23:22.19,Default,,0,0,0,,I was able to get\Nmy important memories back.
+Dialogue: 0,0:23:23.40,0:23:26.32,Default,,0,0,0,,I still don't know\Nwhy it came back to me...
+Dialogue: 0,0:23:26.78,0:23:28.82,Default,,0,0,0,,but at least I know\Nthat this isn't a dream.
+Dialogue: 0,0:23:29.65,0:23:33.03,Default,,0,0,0,,It's because the life which was lost\Ndidn't come back.
+Dialogue: 0,0:23:34.99,0:23:39.87,Default,,0,0,0,,Going to school, studying,\Nplaying, and going home together...
+Dialogue: 0,0:23:40.87,0:23:43.50,Default,,0,0,0,,I didn't know everyday life\Ncould be this precious.
+Dialogue: 0,0:23:44.59,0:23:47.21,Default,,0,0,0,,I know that everything isn't over yet.
+Dialogue: 0,0:23:47.96,0:23:49.76,Default,,0,0,0,,Vertex is still out there.
+Dialogue: 0,0:23:50.47,0:23:53.22,Default,,0,0,0,,I don't know what will happen\Nin the future.
+Dialogue: 0,0:23:54.55,0:23:59.39,Default,,0,0,0,,But we're enjoying this\Nprecious sunny place for now.

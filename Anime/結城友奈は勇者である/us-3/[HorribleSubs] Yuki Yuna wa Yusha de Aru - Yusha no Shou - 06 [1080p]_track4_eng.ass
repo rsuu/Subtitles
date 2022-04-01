@@ -1,0 +1,253 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:07.29,0:00:09.63,Default,,0,0,0,,An enemy in the real world?
+Dialogue: 0,0:00:09.84,0:00:11.34,Default,,0,0,0,,Is that an enemy?
+Dialogue: 0,0:00:11.97,0:00:13.68,Default,,0,0,0,,What is that?
+Dialogue: 0,0:00:15.55,0:00:17.72,Default,,0,0,0,,Something like that...
+Dialogue: 0,0:00:30.99,0:00:32.86,Default,,0,0,0,,With this, everyone here
+Dialogue: 0,0:00:33.07,0:00:34.91,Default,,0,0,0,,will be able to become one\Nwith Shinjyu-sama.
+Dialogue: 0,0:00:35.11,0:00:37.78,Default,,0,0,0,,We will be accepted as the people of God.
+Dialogue: 0,0:00:37.99,0:00:41.45,Default,,0,0,0,,What a fortunate thing.
+Dialogue: 0,0:00:42.79,0:00:45.54,Default,,0,0,0,,This is your last duty.
+Dialogue: 0,0:00:45.75,0:00:47.04,Default,,0,0,0,,Hold back the attacks
+Dialogue: 0,0:00:47.25,0:00:50.09,Default,,0,0,0,,until the Shinkon is complete.
+Dialogue: 0,0:00:50.63,0:00:54.09,Default,,0,0,0,,We'll do it. But we'll also take Yuna back!
+Dialogue: 0,0:00:54.30,0:00:56.09,Default,,0,0,0,,We won't let her go through with the Shinkon!
+Dialogue: 0,0:01:47.81,0:01:51.15,Default,,0,0,0,,Yuki Yuna is a Hero -Hero Chapter-
+Dialogue: 0,0:03:11.98,0:03:13.86,Default,,0,0,0,,FINAL EPISODE\NONLY YOU CAN MAKE ME HAPPY
+Dialogue: 0,0:03:24.49,0:03:25.53,Default,,0,0,0,,Oh, no!
+Dialogue: 0,0:03:31.21,0:03:33.13,Default,,0,0,0,,The god above...
+Dialogue: 0,0:03:36.84,0:03:40.93,Default,,0,0,0,,If my life is going to end soon,
+Dialogue: 0,0:03:41.63,0:03:45.43,Default,,0,0,0,,if I can use my life to save everyone,
+Dialogue: 0,0:03:46.06,0:03:47.97,Default,,0,0,0,,I'm not scared.
+Dialogue: 0,0:03:48.18,0:03:49.68,Default,,0,0,0,,I'm not scared.
+Dialogue: 0,0:03:53.81,0:03:55.36,Default,,0,0,0,,That thing is crazy.
+Dialogue: 0,0:03:55.56,0:03:58.03,Default,,0,0,0,,-Fu!\N-Karin!
+Dialogue: 0,0:03:58.23,0:04:00.24,Default,,0,0,0,,You guys, go to where Yuna is!
+Dialogue: 0,0:04:00.44,0:04:02.49,Default,,0,0,0,,I'll keep this thing busy!
+Dialogue: 0,0:04:02.70,0:04:05.53,Default,,0,0,0,,-Keep it busy!?\N-Don't underestimate me...
+Dialogue: 0,0:04:05.74,0:04:07.91,Default,,0,0,0,,I still have my Mankai left!
+Dialogue: 0,0:04:08.12,0:04:09.16,Default,,0,0,0,,Karin!
+Dialogue: 0,0:04:15.75,0:04:17.88,Default,,0,0,0,,I have to apologize to Yuna.
+Dialogue: 0,0:04:18.09,0:04:20.13,Default,,0,0,0,,And go back together.
+Dialogue: 0,0:04:20.67,0:04:23.97,Default,,0,0,0,,The unparalleled, Karin Miyoshi!
+Dialogue: 0,0:04:24.18,0:04:26.22,Default,,0,0,0,,Thoroughly watch my
+Dialogue: 0,0:04:26.47,0:04:28.93,Default,,0,0,0,,once-in-a-lifetime rampage!
+Dialogue: 0,0:04:44.45,0:04:46.24,Default,,0,0,0,,This...
+Dialogue: 0,0:04:46.45,0:04:48.66,Default,,0,0,0,,Fu, I...
+Dialogue: 0,0:04:48.87,0:04:51.29,Default,,0,0,0,,Itsuki, can I ask you to handle this?
+Dialogue: 0,0:04:52.91,0:04:55.92,Default,,0,0,0,,Yes. Go to Yuna, Fu.
+Dialogue: 0,0:04:56.13,0:04:58.67,Default,,0,0,0,,Yes. I'll bring Yuna back!
+Dialogue: 0,0:04:58.88,0:05:01.63,Default,,0,0,0,,-Please stay safe.\N-Yeah.
+Dialogue: 0,0:05:07.89,0:05:09.89,Default,,0,0,0,,Get on, Fu-senpai!
+Dialogue: 0,0:05:10.10,0:05:11.14,Default,,0,0,0,,Togo!
+Dialogue: 0,0:05:11.68,0:05:14.27,Default,,0,0,0,,All right! Let's go to where Yuna is!
+Dialogue: 0,0:05:14.48,0:05:17.27,Default,,0,0,0,,I'll head there full speed!
+Dialogue: 0,0:05:23.28,0:05:24.40,Default,,0,0,0,,A barrier?
+Dialogue: 0,0:05:24.99,0:05:26.24,Default,,0,0,0,,This is the reason...
+Dialogue: 0,0:05:29.62,0:05:31.45,Default,,0,0,0,,Don't mess with me!
+Dialogue: 0,0:05:36.29,0:05:38.71,Default,,0,0,0,,You!
+Dialogue: 0,0:05:44.97,0:05:46.18,Default,,0,0,0,,Sonoko!
+Dialogue: 0,0:05:46.59,0:05:49.55,Default,,0,0,0,,Don't go ahead too much, Nibosshi!
+Dialogue: 0,0:05:52.39,0:05:55.10,Default,,0,0,0,,-Itsuki!\N-Let's protect it together.
+Dialogue: 0,0:05:55.43,0:05:58.60,Default,,0,0,0,,This place, Yuna will come back to.
+Dialogue: 0,0:06:01.69,0:06:03.23,Default,,0,0,0,,Togo! Look!
+Dialogue: 0,0:06:04.23,0:06:05.99,Default,,0,0,0,,Towards Shinjyu-sama...
+Dialogue: 0,0:06:06.74,0:06:08.86,Default,,0,0,0,,Yuna is up ahead!
+Dialogue: 0,0:06:12.16,0:06:13.20,Default,,0,0,0,,What is that?
+Dialogue: 0,0:06:21.67,0:06:23.67,Default,,0,0,0,,One after another!
+Dialogue: 0,0:06:24.17,0:06:25.55,Default,,0,0,0,,Fu-senpai.
+Dialogue: 0,0:06:28.88,0:06:30.51,Default,,0,0,0,,Abandon ship!
+Dialogue: 0,0:06:43.77,0:06:45.07,Default,,0,0,0,,Togo...
+Dialogue: 0,0:06:52.37,0:06:54.28,Default,,0,0,0,,We're being blocked by Shinjyu-sama.
+Dialogue: 0,0:06:54.49,0:06:56.04,Default,,0,0,0,,Who cares?!
+Dialogue: 0,0:06:57.00,0:06:58.87,Default,,0,0,0,,Even if it's Shinjyu-sama,
+Dialogue: 0,0:06:59.08,0:07:01.88,Default,,0,0,0,,I won't yield this time!
+Dialogue: 0,0:07:27.61,0:07:30.36,Default,,0,0,0,,The road is...
+Dialogue: 0,0:07:51.93,0:07:53.64,Default,,0,0,0,,This is...
+Dialogue: 0,0:08:00.06,0:08:02.85,Default,,0,0,0,,Togo, can you do it?
+Dialogue: 0,0:08:03.27,0:08:04.69,Default,,0,0,0,,Without fail.
+Dialogue: 0,0:08:05.19,0:08:07.44,Default,,0,0,0,,Then I will...
+Dialogue: 0,0:08:07.98,0:08:09.19,Default,,0,0,0,,create the...
+Dialogue: 0,0:08:14.99,0:08:19.24,Default,,0,0,0,,path!
+Dialogue: 0,0:08:39.47,0:08:41.27,Default,,0,0,0,,Where...
+Dialogue: 0,0:08:44.56,0:08:46.15,Default,,0,0,0,,is this?
+Dialogue: 0,0:08:46.36,0:08:49.02,Default,,0,0,0,,Will I be able to return with the power of the Spirit?
+Dialogue: 0,0:09:10.09,0:09:11.13,Default,,0,0,0,,Yuna!
+Dialogue: 0,0:09:12.84,0:09:15.38,Default,,0,0,0,,Ms. Togo? Why?
+Dialogue: 0,0:09:15.59,0:09:17.30,Default,,0,0,0,,Yuna, let's go back home!
+Dialogue: 0,0:09:17.55,0:09:18.76,Default,,0,0,0,,I came to take you back!
+Dialogue: 0,0:09:25.64,0:09:27.19,Default,,0,0,0,,You really don't want
+Dialogue: 0,0:09:27.81,0:09:29.94,Default,,0,0,0,,to give her up, do you?
+Dialogue: 0,0:09:30.15,0:09:32.90,Default,,0,0,0,,Yuna! I'm going to save you right now!
+Dialogue: 0,0:09:33.82,0:09:36.53,Default,,0,0,0,,But, I...
+Dialogue: 0,0:09:36.74,0:09:37.91,Default,,0,0,0,,I have to do this...
+Dialogue: 0,0:09:38.70,0:09:40.91,Default,,0,0,0,,otherwise the world will disappear.
+Dialogue: 0,0:09:41.16,0:09:44.12,Default,,0,0,0,,Someone has to do this.
+Dialogue: 0,0:09:44.33,0:09:46.16,Default,,0,0,0,,So I will...
+Dialogue: 0,0:09:46.37,0:09:47.54,Default,,0,0,0,,Yuna!
+Dialogue: 0,0:09:47.75,0:09:49.92,Default,,0,0,0,,No one has to do this!
+Dialogue: 0,0:09:50.21,0:09:51.50,Default,,0,0,0,,I don't want to
+Dialogue: 0,0:09:51.71,0:09:52.92,Default,,0,0,0,,lose any more
+Dialogue: 0,0:09:53.21,0:09:54.67,Default,,0,0,0,,important people in my life!
+Dialogue: 0,0:09:56.01,0:09:58.18,Default,,0,0,0,,I just have to endure this...
+Dialogue: 0,0:09:58.68,0:10:00.76,Default,,0,0,0,,-and it'll be okay.\N-Yuna!
+Dialogue: 0,0:10:02.43,0:10:03.97,Default,,0,0,0,,Please say the truth.
+Dialogue: 0,0:10:04.39,0:10:06.06,Default,,0,0,0,,If you're scared...
+Dialogue: 0,0:10:06.27,0:10:07.31,Default,,0,0,0,,please tell me.
+Dialogue: 0,0:10:08.19,0:10:10.90,Default,,0,0,0,,If we're really friends,
+Dialogue: 0,0:10:11.36,0:10:13.65,Default,,0,0,0,,please ask me for help!
+Dialogue: 0,0:10:20.82,0:10:22.83,Default,,0,0,0,,I don't want to...
+Dialogue: 0,0:10:24.49,0:10:25.91,Default,,0,0,0,,I'm scared...
+Dialogue: 0,0:10:26.12,0:10:28.29,Default,,0,0,0,,But I can't say that.
+Dialogue: 0,0:10:28.50,0:10:30.58,Default,,0,0,0,,But I...
+Dialogue: 0,0:10:31.00,0:10:33.38,Default,,0,0,0,,I don't want to die.
+Dialogue: 0,0:10:34.21,0:10:36.67,Default,,0,0,0,,I don't want to be apart
+Dialogue: 0,0:10:36.88,0:10:38.18,Default,,0,0,0,,from everyone!
+Dialogue: 0,0:10:39.30,0:10:40.93,Default,,0,0,0,,Yuna...
+Dialogue: 0,0:10:41.30,0:10:42.60,Default,,0,0,0,,We were
+Dialogue: 0,0:10:42.80,0:10:45.64,Default,,0,0,0,,doing our best.
+Dialogue: 0,0:10:46.48,0:10:48.27,Default,,0,0,0,,But why?
+Dialogue: 0,0:10:48.89,0:10:50.77,Default,,0,0,0,,I don't want this.
+Dialogue: 0,0:10:51.06,0:10:52.86,Default,,0,0,0,,I want to...
+Dialogue: 0,0:10:53.40,0:10:55.03,Default,,0,0,0,,I want to...
+Dialogue: 0,0:10:55.53,0:10:57.99,Default,,0,0,0,,I want to stay with everyone!
+Dialogue: 0,0:10:58.20,0:11:00.95,Default,,0,0,0,,Yuna! Reach your hand out!
+Dialogue: 0,0:11:01.20,0:11:03.58,Default,,0,0,0,,Ms. Togo! Please save me!
+Dialogue: 0,0:11:03.91,0:11:05.08,Default,,0,0,0,,Yuna!
+Dialogue: 0,0:11:05.29,0:11:06.75,Default,,0,0,0,,Ms. Togo!
+Dialogue: 0,0:11:23.01,0:11:26.10,Default,,0,0,0,,No... Why is it still getting in the way?
+Dialogue: 0,0:11:26.31,0:11:27.85,Default,,0,0,0,,Ms. Togo...
+Dialogue: 0,0:11:29.06,0:11:31.35,Default,,0,0,0,,Please save me...
+Dialogue: 0,0:11:31.90,0:11:32.94,Default,,0,0,0,,Yuna!
+Dialogue: 0,0:11:33.94,0:11:36.40,Default,,0,0,0,,Ms. Togo...
+Dialogue: 0,0:11:37.28,0:11:39.49,Default,,0,0,0,,No!
+Dialogue: 0,0:11:57.17,0:11:58.67,Default,,0,0,0,,This can't be...
+Dialogue: 0,0:12:00.88,0:12:02.63,Default,,0,0,0,,We...
+Dialogue: 0,0:12:02.84,0:12:04.43,Default,,0,0,0,,shouldn't be doing this...
+Dialogue: 0,0:12:09.10,0:12:10.68,Default,,0,0,0,,I am thankful...
+Dialogue: 0,0:12:11.48,0:12:13.10,Default,,0,0,0,,But...
+Dialogue: 0,0:12:13.81,0:12:14.90,Default,,0,0,0,,But...
+Dialogue: 0,0:12:15.52,0:12:17.15,Default,,0,0,0,,It's fine.
+Dialogue: 0,0:12:18.94,0:12:20.74,Default,,0,0,0,,I don't want a world
+Dialogue: 0,0:12:20.94,0:12:23.03,Default,,0,0,0,,you can only gain
+Dialogue: 0,0:12:23.24,0:12:25.62,Default,,0,0,0,,by sacrificing my friends and other people.
+Dialogue: 0,0:12:26.66,0:12:28.74,Default,,0,0,0,,I don't want...
+Dialogue: 0,0:12:30.25,0:12:31.58,Default,,0,0,0,,a world like that.
+Dialogue: 0,0:12:35.08,0:12:36.96,Default,,0,0,0,,That is...
+Dialogue: 0,0:13:16.96,0:13:18.79,Default,,0,0,0,,Shinjyu-sama.
+Dialogue: 0,0:13:19.46,0:13:20.63,Default,,0,0,0,,There are...
+Dialogue: 0,0:13:20.84,0:13:22.67,Default,,0,0,0,,many kinds of people.
+Dialogue: 0,0:13:23.22,0:13:24.84,Default,,0,0,0,,But if you
+Dialogue: 0,0:13:25.05,0:13:27.43,Default,,0,0,0,,really intend to save them.
+Dialogue: 0,0:13:28.51,0:13:30.18,Default,,0,0,0,,Please...
+Dialogue: 0,0:13:32.52,0:13:35.23,Default,,0,0,0,,put your trust in people!
+Dialogue: 0,0:14:02.96,0:14:04.01,Default,,0,0,0,,We...
+Dialogue: 0,0:14:08.72,0:14:11.93,Default,,0,0,0,,will choose the path of a human.
+Dialogue: 0,0:14:32.74,0:14:34.33,Default,,0,0,0,,Yuna!
+Dialogue: 0,0:14:34.62,0:14:36.50,Default,,0,0,0,,Ms. Togo?
+Dialogue: 0,0:14:38.00,0:14:39.92,Default,,0,0,0,,Yuna!
+Dialogue: 0,0:14:41.04,0:14:43.25,Default,,0,0,0,,Ms. Togo.
+Dialogue: 0,0:14:45.01,0:14:47.01,Default,,0,0,0,,Ms. Togo!
+Dialogue: 0,0:14:47.22,0:14:49.76,Default,,0,0,0,,I'm sorry, I...
+Dialogue: 0,0:14:49.97,0:14:52.01,Default,,0,0,0,,-said too much.\N-I...
+Dialogue: 0,0:14:52.22,0:14:54.10,Default,,0,0,0,,I'm also sorry.
+Dialogue: 0,0:14:54.31,0:14:57.89,Default,,0,0,0,,I said some horrible things to you\Nand everyone.
+Dialogue: 0,0:14:58.10,0:15:00.77,Default,,0,0,0,,It's fine. It's all fine now.
+Dialogue: 0,0:15:00.98,0:15:03.36,Default,,0,0,0,,What do we do? The world!
+Dialogue: 0,0:15:03.57,0:15:06.32,Default,,0,0,0,,The world is going to end now!
+Dialogue: 0,0:15:06.53,0:15:09.20,Default,,0,0,0,,That's not your fault, Yuna.
+Dialogue: 0,0:15:10.24,0:15:13.07,Default,,0,0,0,,Even if the world were to end now...
+Dialogue: 0,0:15:13.45,0:15:16.83,Default,,0,0,0,,it's all out of our control.
+Dialogue: 0,0:15:24.63,0:15:26.42,Default,,0,0,0,,Gyuki.
+Dialogue: 0,0:15:35.51,0:15:38.18,Default,,0,0,0,,-What are you...?\N-It's okay.
+Dialogue: 0,0:15:38.77,0:15:40.77,Default,,0,0,0,,It's so warm.
+Dialogue: 0,0:16:21.10,0:16:22.73,Default,,0,0,0,,I...
+Dialogue: 0,0:16:22.94,0:16:24.48,Default,,0,0,0,,We...
+Dialogue: 0,0:16:24.73,0:16:27.11,Default,,0,0,0,,will fight as humans.
+Dialogue: 0,0:16:27.52,0:16:29.28,Default,,0,0,0,,We want to live!
+Dialogue: 0,0:16:47.00,0:16:49.42,Default,,0,0,0,,Heroes are unyielding.
+Dialogue: 0,0:16:49.63,0:16:52.42,Default,,0,0,0,,We'll get right back up no matter\Nhow many times we go down!
+Dialogue: 0,0:16:52.63,0:16:54.22,Default,,0,0,0,,Go! Yuna!
+Dialogue: 0,0:16:54.51,0:16:56.68,Default,,0,0,0,,For Ms. Yuna's happiness!
+Dialogue: 0,0:16:56.89,0:16:58.39,Default,,0,0,0,,You're likely to succeed...
+Dialogue: 0,0:16:58.60,0:17:00.10,Default,,0,0,0,,If you try!
+Dialogue: 0,0:17:00.31,0:17:02.31,Default,,0,0,0,,Hero club...
+Dialogue: 0,0:17:02.52,0:17:08.36,Default,,0,0,0,,Fight on!
+Dialogue: 0,0:17:22.12,0:17:23.58,Default,,0,0,0,,A hero
+Dialogue: 0,0:17:23.79,0:17:27.33,Default,,0,0,0,,has guts!
+Dialogue: 0,0:17:35.13,0:17:36.51,Default,,0,0,0,,Hero...
+Dialogue: 0,0:17:36.72,0:17:40.31,Default,,0,0,0,,Punch!
+Dialogue: 0,0:18:22.39,0:18:23.56,Default,,0,0,0,,The flames are...
+Dialogue: 0,0:18:23.77,0:18:24.89,Default,,0,0,0,,This...
+Dialogue: 0,0:18:25.68,0:18:27.64,Default,,0,0,0,,Is different from usual.
+Dialogue: 0,0:19:05.43,0:19:07.43,Default,,0,0,0,,Gyuki, you are...
+Dialogue: 0,0:19:15.57,0:19:17.19,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:19:20.99,0:19:22.70,Default,,0,0,0,,Goodbye.
+Dialogue: 0,0:19:42.14,0:19:44.22,Default,,0,0,0,,We made it back.
+Dialogue: 0,0:19:44.68,0:19:46.06,Default,,0,0,0,,The world...
+Dialogue: 0,0:19:46.72,0:19:48.56,Default,,0,0,0,,Still exists.
+Dialogue: 0,0:19:49.23,0:19:51.56,Default,,0,0,0,,What about Shinjyu-sama?
+Dialogue: 0,0:19:52.65,0:19:54.23,Default,,0,0,0,,He's gone.
+Dialogue: 0,0:19:54.44,0:19:56.32,Default,,0,0,0,,Did he perish?
+Dialogue: 0,0:19:59.32,0:20:02.36,Default,,0,0,0,,It's the usual sky.
+Dialogue: 0,0:20:10.37,0:20:13.08,Default,,0,0,0,,What's wrong, Yuna? Are you not feeling well?
+Dialogue: 0,0:20:16.63,0:20:18.34,Default,,0,0,0,,It's gone.
+Dialogue: 0,0:20:18.55,0:20:21.13,Default,,0,0,0,,Are the markings gone?
+Dialogue: 0,0:20:23.34,0:20:24.39,Default,,0,0,0,,Everyone...
+Dialogue: 0,0:20:25.55,0:20:28.72,Default,,0,0,0,,I'm so sorry, everyone.
+Dialogue: 0,0:20:28.93,0:20:30.14,Default,,0,0,0,,Me too.
+Dialogue: 0,0:20:32.69,0:20:33.81,Default,,0,0,0,,I'm sorry.
+Dialogue: 0,0:20:35.19,0:20:37.57,Default,,0,0,0,,Karin!
+Dialogue: 0,0:20:41.15,0:20:44.28,Default,,0,0,0,,Welcome back, Yuna.
+Dialogue: 0,0:20:47.12,0:20:49.04,Default,,0,0,0,,I'm back.
+Dialogue: 0,0:21:01.80,0:21:04.47,Default,,0,0,0,,The large-scale fire stretching across the city...
+Dialogue: 0,0:21:04.68,0:21:07.01,Default,,0,0,0,,-In one week,\N-The prolonged shelter living has...
+Dialogue: 0,0:21:07.22,0:21:08.89,Default,,0,0,0,,-has spread to 10,000 Hectare.\N-Many of the citizens are fatigued.
+Dialogue: 0,0:21:09.10,0:21:11.18,Default,,0,0,0,,-So the Amnesty was aware of what\N-The Amnesty's role in the future will be discussed.
+Dialogue: 0,0:21:11.39,0:21:12.43,Default,,0,0,0,,-was beyond the wall?\N-Please take a look!
+Dialogue: 0,0:21:12.64,0:21:14.39,Default,,0,0,0,,-The headquarters are completely abandoned!\N-People will have to figure out
+Dialogue: 0,0:21:14.60,0:21:16.02,Default,,0,0,0,,-There is no sign of anyone!\N-a way to survive on limited resources.
+Dialogue: 0,0:21:16.23,0:21:18.82,Default,,0,0,0,,There is a theory that the\Nflowing oil field is the remains
+Dialogue: 0,0:21:19.02,0:21:21.19,Default,,0,0,0,,-of the world of trees.\N-The children are not at fault.
+Dialogue: 0,0:21:21.40,0:21:23.86,Default,,0,0,0,,The god on land has perished.
+Dialogue: 0,0:21:24.45,0:21:30.33,Default,,0,0,0,,Losing its protection, humanity must learn\Nto survive on limited resources.
+Dialogue: 0,0:21:30.62,0:21:32.37,Default,,0,0,0,,There will be chaos.
+Dialogue: 0,0:21:33.08,0:21:36.67,Default,,0,0,0,,But this is fine.
+Dialogue: 0,0:21:37.58,0:21:41.88,Default,,0,0,0,,I am proud of the decision the girls made.
+Dialogue: 0,0:21:42.96,0:21:44.42,Default,,0,0,0,,The new era
+Dialogue: 0,0:21:44.63,0:21:47.39,Default,,0,0,0,,will be for the children.
+Dialogue: 0,0:21:47.89,0:21:50.89,Default,,0,0,0,,The adults will have to take the responsibilities.
+Dialogue: 0,0:21:51.68,0:21:54.10,Default,,0,0,0,,This is how it must be.
+Dialogue: 0,0:21:57.94,0:22:00.98,Default,,0,0,0,,The Hero club is back in its original form!
+Dialogue: 0,0:22:01.19,0:22:03.53,Default,,0,0,0,,Fu-senpai has been accepted into high school.
+Dialogue: 0,0:22:03.74,0:22:08.07,Default,,0,0,0,,And Itsuki has been chosen\Nas the next club leader!
+Dialogue: 0,0:22:08.61,0:22:10.70,Default,,0,0,0,,Let's do our best today.
+Dialogue: 0,0:22:10.91,0:22:13.08,Default,,0,0,0,,Of course, without pushing yourself too hard.
+Dialogue: 0,0:22:13.29,0:22:16.50,Default,,0,0,0,,That way, the future will be wonderful.
+Dialogue: 0,0:22:16.71,0:22:18.62,Default,,0,0,0,,So you can look back,
+Dialogue: 0,0:22:18.83,0:22:22.05,Default,,0,0,0,,and see everything as something great.
+Dialogue: 0,0:22:22.84,0:22:24.09,Default,,0,0,0,,With everyone here.
+Dialogue: 0,0:22:24.30,0:22:26.63,Default,,0,0,0,,Because everyone was here.
+Dialogue: 0,0:22:26.92,0:22:29.34,Default,,0,0,0,,Because I care about everyone.
+Dialogue: 0,0:22:29.93,0:22:31.39,Default,,0,0,0,,I...
+Dialogue: 0,0:22:31.60,0:22:33.97,Default,,0,0,0,,I'm glad I was in the Hero club.
+Dialogue: 0,0:22:34.85,0:22:36.68,Default,,0,0,0,,I see...
+Dialogue: 0,0:22:36.89,0:22:38.64,Default,,0,0,0,,So this is...
+Dialogue: 0,0:22:40.44,0:22:43.90,Default,,0,0,0,,CONGRATULATIONS ON YOUR\NGRADUATION, FU-SENPAI.
+Dialogue: 0,0:22:44.11,0:22:46.65,Default,,0,0,0,,CONGRATS ON BECOMING\NA NEXT LEADER, ITSUKI!
+Dialogue: 0,0:22:46.86,0:22:49.66,Default,,0,0,0,,SANSHU MIDDLE SCHOOL\NHERO CLUB WILL LIVE ON FOREVER
+Dialogue: 0,0:24:06.15,0:24:11.15,Default,,0,0,0,,I HOPE YOUR DAYS ARE PEACEFUL\NHERO CHAPTER

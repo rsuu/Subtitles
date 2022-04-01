@@ -1,0 +1,266 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Montara  Gothic,18,&H00787F75,&H00FFFFFF,&H00D4D3CA,&H64400040,-1,0,0,0,100,100,0,0,1,1,3,2,30,30,10,0
+Style: Song,Arial,18,&H00E6E0B0,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Song2,Arial,14,&H00E6E0B0,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,1
+Style: TL,Arial,12,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Background,Arial,14,&H00AAFFFF,&H0300FFFF,&H00000000,&H02000000,0,1,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.11,0:00:00.15,Song,,0,0,0,,
+Dialogue: 0,0:00:12.81,0:00:15.94,Song,,0,0,0,,Glancing up towards the sky,
+Dialogue: 0,0:00:15.94,0:00:18.98,Song,,0,0,0,,Whenever I turn my back
+Dialogue: 0,0:00:18.98,0:00:21.98,Song,,0,0,0,,Against this perfect world
+Dialogue: 0,0:00:21.98,0:00:24.12,Song,,0,0,0,,I mumble out
+Dialogue: 0,0:00:24.12,0:00:27.82,Song,,0,0,0,,"Where should I go?"
+Dialogue: 0,0:00:27.82,0:00:33.24,Song,,0,0,0,,With you, someone who shares the same thoughts I do.
+Dialogue: 0,0:00:36.97,0:00:42.77,Song,,0,0,0,,In the shadows of an alley, the hands on a clock
+Dialogue: 0,0:00:42.77,0:00:49.28,Song,,0,0,0,,Restart the time that stood still
+Dialogue: 0,0:00:50.08,0:00:53.08,Song,,0,0,0,,The arms extended out to you
+Dialogue: 0,0:00:53.08,0:00:57.00,Song,,0,0,0,,And the unfinished puzzle
+Dialogue: 0,0:00:58.85,0:01:01.63,Song,,0,0,0,,Have been left behind
+Dialogue: 0,0:01:01.63,0:01:05.93,Song,,0,0,0,,Until we met
+Dialogue: 0,0:01:06.93,0:01:10.23,Song,,0,0,0,,And realized something was missing.
+Dialogue: 0,0:01:10.23,0:01:14.11,Song,,0,0,0,,So the last piece
+Dialogue: 0,0:01:14.11,0:01:19.06,Song,,0,0,0,,Must be found
+Dialogue: 0,0:01:19.94,0:01:24.36,Song,,0,0,0,,In order to move forward.
+Dialogue: 0,0:02:01.10,0:02:02.30,Default,,0,0,0,,What's the matter?
+Dialogue: 0,0:02:05.70,0:02:06.70,Default,,0,0,0,,Nothing...
+Dialogue: 0,0:02:07.90,0:02:08.90,Default,,0,0,0,,Nothing at all.
+Dialogue: 0,0:02:09.70,0:02:10.50,Default,,0,0,0,,I see.
+Dialogue: 0,0:02:13.50,0:02:15.70,Default,,0,0,0,,It's nothing, really.
+Dialogue: 0,0:02:15.70,0:02:19.30,Default,,0,0,0,,In that case, let's get started. It's cold out here.
+Dialogue: 0,0:02:22.90,0:02:25.30,Default,,0,0,0,,I shall commence the lecture.
+Dialogue: 0,0:02:26.30,0:02:30.10,Default,,0,0,0,,Today's topic is about the last words of famous people.
+Dialogue: 0,0:02:30.50,0:02:31.10,Default,,0,0,0,,Huh?
+Dialogue: 0,0:02:32.50,0:02:33.90,Default,,0,0,0,,"Light, more light!"
+Dialogue: 0,0:02:33.90,0:02:34.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:02:34.70,0:02:36.90,Default,,0,0,0,,Whose words were these?
+Dialogue: 0,0:02:36.90,0:02:37.90,Default,,0,0,0,,Is this a quiz?
+Dialogue: 0,0:02:38.10,0:02:39.70,Default,,0,0,0,,Don't you know?
+Dialogue: 0,0:02:39.70,0:02:40.90,Default,,0,0,0,,It's a famous person.
+Dialogue: 0,0:02:42.10,0:02:45.70,Default,,0,0,0,,I-It's him... that person...
+Dialogue: 0,0:02:45.70,0:02:47.50,Default,,0,0,0,,Come on... a very famous person...
+Dialogue: 0,0:02:49.50,0:02:51.70,Default,,0,0,0,,The answer is Goethe.
+Dialogue: 0,0:02:51.70,0:02:53.50,Default,,0,0,0,,He was a famous novelist.
+Dialogue: 0,0:02:53.50,0:02:56.50,Default,,0,0,0,,Yeah, Goethe. I was just about to say that.
+Dialogue: 0,0:02:56.50,0:02:58.10,Default,,0,0,0,,Next question.
+Dialogue: 0,0:02:58.90,0:03:01.30,Default,,0,0,0,,"I want to eat something."
+Dialogue: 0,0:03:01.50,0:03:02.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:03:02.50,0:03:04.70,Default,,0,0,0,,Someone uttered those words right before their death?
+Dialogue: 0,0:03:04.70,0:03:07.10,Default,,0,0,0,,Here's a hint. This person was a novelist as well.
+Dialogue: 0,0:03:07.10,0:03:12.70,Default,,0,0,0,,Then it's... you know, that foreign novelist\Nwho wrote that book, whatever the title was...
+Dialogue: 0,0:03:14.90,0:03:17.50,Default,,0,0,0,,The answer is Natsume Souseki-san.
+Dialogue: 0,0:03:17.90,0:03:19.70,Default,,0,0,0,,He must have been a gluttonous person.
+Dialogue: 0,0:03:21.30,0:03:22.90,Default,,0,0,0,,Next question.
+Dialogue: 0,0:03:23.70,0:03:25.70,Default,,0,0,0,,"Ibuse-san is an evil person."
+Dialogue: 0,0:03:27.10,0:03:29.70,Default,,0,0,0,,How about... Dazai Osamu.
+Dialogue: 0,0:03:29.70,0:03:32.10,Default,,0,0,0,,Yes, you got it!
+Dialogue: 0,0:03:32.10,0:03:32.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:03:34.10,0:03:39.10,Default,,0,0,0,,What a will he left, criticizing someone to the very end.
+Dialogue: 0,0:03:39.10,0:03:43.10,Default,,0,0,0,,I wonder what that Ibuse person did to him.
+Dialogue: 0,0:03:45.10,0:03:49.10,Default,,0,0,0,,The novelist series is done. The athlete series is next.
+Dialogue: 0,0:03:49.10,0:03:53.30,Default,,0,0,0,,The first quote is "The mikka tororo tasted good."
+Dialogue: 0,0:03:50.70,0:03:52.90,TL,,0,0,0,,Note: Tororo is grated yam.
+Dialogue: 0,0:03:54.10,0:03:56.50,Default,,0,0,0,,That's from the suicide note of Tsuburaya, the marathon runner.
+Dialogue: 0,0:03:56.50,0:03:59.10,Default,,0,0,0,,Right! You're absolutely correct!
+Dialogue: 0,0:03:59.10,0:04:00.30,Default,,0,0,0,,All right!
+Dialogue: 0,0:04:00.30,0:04:02.50,Default,,0,0,0,,I'm surprised you knew the answer, Satou-kun.
+Dialogue: 0,0:04:03.70,0:04:05.50,Default,,0,0,0,,It's a famous suicide note, after all.
+Dialogue: 0,0:04:05.50,0:04:10.50,Default,,0,0,0,,In addition to that, he also wrote that\Nsushi, wine, and cuttlefish all tasted good.
+Dialogue: 0,0:04:10.50,0:04:12.90,Default,,0,0,0,,Right, right. You know it well.
+Dialogue: 0,0:04:13.70,0:04:23.30,Default,,0,0,0,,It seems Tsuburaya-san returned to his homeland\Nand ate tororo with his parents just before his death.
+Dialogue: 0,0:04:25.30,0:04:30.10,Default,,0,0,0,,I suppose people want to go back to their birthplace before they die.
+Dialogue: 0,0:04:31.10,0:04:34.10,Default,,0,0,0,,Speaking of which, are you from this town, Misaki-chan?
+Dialogue: 0,0:04:35.50,0:04:37.30,Default,,0,0,0,,No, I'm not.
+Dialogue: 0,0:04:40.30,0:04:44.70,Default,,0,0,0,,Since that's Cassiopeia, the North Star should be around there...
+Dialogue: 0,0:04:44.70,0:04:48.30,Default,,0,0,0,,So it's around there, a small town along the Sea of Japan.
+Dialogue: 0,0:04:50.50,0:04:56.10,Default,,0,0,0,,There's a pretty cape down there, but ever since a famous\Nperson committed suicide during the Meiji Period...
+Dialogue: 0,0:04:56.10,0:04:58.50,Default,,0,0,0,,It became known as a landmark suicide spot.
+Dialogue: 0,0:04:59.90,0:05:07.30,Default,,0,0,0,,I didn't know about it as a child, so I frequently played at the cape.
+Dialogue: 0,0:05:38.70,0:05:41.90,Default,,0,0,0,,Even now, I occasionally see it in my dreams.
+Dialogue: 0,0:05:43.70,0:05:48.10,Default,,0,0,0,,It might have all been a dream from the beginning, though.
+Dialogue: 0,0:05:53.30,0:05:56.70,Default,,0,0,0,,I wonder if mikka tororo tastes good.
+Dialogue: 0,0:05:56.70,0:05:57.70,Default,,0,0,0,,Who knows...
+Dialogue: 0,0:05:59.70,0:06:03.10,Default,,0,0,0,,Don't be surprised, but there will be an exam tomorrow.
+Dialogue: 0,0:06:03.50,0:06:06.10,Default,,0,0,0,,Is it the end of the term exam that was postponed from last year?
+Dialogue: 0,0:06:06.50,0:06:08.70,Default,,0,0,0,,No, it's a graduation exam.
+Dialogue: 0,0:06:08.90,0:06:09.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:06:10.30,0:06:14.10,Default,,0,0,0,,It looks like I have to go away to a distant place.
+Dialogue: 0,0:06:16.90,0:06:17.70,Default,,0,0,0,,I see.
+Dialogue: 0,0:06:19.90,0:06:22.90,Default,,0,0,0,,Aren't you going to ask me where I'm going?
+Dialogue: 0,0:06:24.50,0:06:26.70,Default,,0,0,0,,Where are you going?
+Dialogue: 0,0:06:27.30,0:06:29.70,Default,,0,0,0,,To a distant town no one knows about.
+Dialogue: 0,0:06:30.70,0:06:31.90,Default,,0,0,0,,I see.
+Dialogue: 0,0:06:37.90,0:06:41.90,Default,,0,0,0,,I'll meet you in front of the station at noon tomorrow, even if it rains.
+Dialogue: 0,0:06:41.90,0:06:42.90,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:06:42.90,0:06:43.70,Default,,0,0,0,,Night.
+Dialogue: 0,0:06:47.90,0:06:49.50,Default,,0,0,0,,Even if it snows, okay?
+Dialogue: 0,0:07:49.50,0:07:52.70,Default,,0,0,0,,I will now announce the results of the test.
+Dialogue: 0,0:07:56.70,0:07:58.30,Default,,0,0,0,,You passed with flying colors!
+Dialogue: 0,0:07:58.30,0:08:00.10,Default,,0,0,0,,Congratulations, Satou-kun!
+Dialogue: 0,0:08:01.50,0:08:04.50,Default,,0,0,0,,This concludes the project.
+Dialogue: 0,0:08:04.50,0:08:07.10,Default,,0,0,0,,I commend you for your hard work over this period of time.
+Dialogue: 0,0:08:07.10,0:08:08.30,Default,,0,0,0,,Misaki-chan...
+Dialogue: 0,0:08:08.30,0:08:08.90,Default,,0,0,0,,Huh?
+Dialogue: 0,0:08:09.90,0:08:12.70,Default,,0,0,0,,Why... was it me?
+Dialogue: 0,0:08:13.70,0:08:16.50,Default,,0,0,0,,Why did I become the subject of your project?
+Dialogue: 0,0:08:19.50,0:08:26.30,Default,,0,0,0,,You already know I can see this park and\Nyour apartment from my room, Satou-kun.
+Dialogue: 0,0:08:26.30,0:08:31.70,Default,,0,0,0,,As I was looking outside my window,\NI found... a person worse than I was.
+Dialogue: 0,0:08:31.90,0:08:34.30,Default,,0,0,0,,It happened to be you, Satou-kun.
+Dialogue: 0,0:08:35.70,0:08:36.90,Default,,0,0,0,,As I thought.
+Dialogue: 0,0:08:38.50,0:08:40.10,Default,,0,0,0,,Sign this.
+Dialogue: 0,0:08:40.70,0:08:41.30,Default,,0,0,0,,Huh?
+Dialogue: 0,0:08:47.90,0:08:50.30,Default,,0,0,0,,This agreement is made by and between Satou\NTatsuhiro, hereby referred to as "Subject A",
+Dialogue: 0,0:08:50.30,0:08:53.70,Default,,0,0,0,,and Nakahara Misaki, hereby referred to as "Subject B", which states...
+Dialogue: 0,0:08:54.30,0:08:57.70,Default,,0,0,0,,One: Subject A shall not dislike Subject B.
+Dialogue: 0,0:08:57.70,0:09:00.70,Default,,0,0,0,,Two: Consequently, Subject A will gradually come to like Subject B.
+Dialogue: 0,0:09:05.10,0:09:08.30,Default,,0,0,0,,Three: Those feelings will remain perpetual.
+Dialogue: 0,0:09:08.70,0:09:11.70,Default,,0,0,0,,Four: Those feelings will never change at any time.
+Dialogue: 0,0:09:12.10,0:09:15.90,Default,,0,0,0,,Five: In times of loneliness, both parties will stay by each other's side.
+Dialogue: 0,0:09:15.90,0:09:22.30,Default,,0,0,0,,Six: However, this is always the case for Subject B.\NTherefore, Subject A will always remain at the side of Subject B.
+Dialogue: 0,0:09:22.30,0:09:26.90,Default,,0,0,0,,Seven: As a result, the lives of both\Nsubjects will probably change for the better.
+Dialogue: 0,0:09:26.90,0:09:30.10,Default,,0,0,0,,Eight: Therefore, both subjects' struggles are likely to dissipate.
+Dialogue: 0,0:09:30.50,0:09:35.90,Default,,0,0,0,,Nine: In the case of a breach of the preceding\Narticles, a fine of ten million yen will be assessed.
+Dialogue: 0,0:09:39.50,0:09:41.10,Default,,0,0,0,,It's simple...
+Dialogue: 0,0:09:41.90,0:09:43.90,Default,,0,0,0,,Be kind to me...
+Dialogue: 0,0:09:43.90,0:09:47.30,Default,,0,0,0,,In return, I'll be kind to you, Satou-kun.
+Dialogue: 0,0:09:48.70,0:09:54.50,Default,,0,0,0,,I dedicated a lot of effort in order to rescue you, Satou-kun.
+Dialogue: 0,0:09:54.50,0:09:57.70,Default,,0,0,0,,Satou-kun, aren't you head over heels for me?
+Dialogue: 0,0:09:59.50,0:10:01.70,Default,,0,0,0,,This is... no good.
+Dialogue: 0,0:10:03.50,0:10:07.90,Default,,0,0,0,,Why? Satou-kun, I'm the only one left in your life.
+Dialogue: 0,0:10:08.30,0:10:12.30,Default,,0,0,0,,If you don't sign this, you'll be alone forever!
+Dialogue: 0,0:10:12.30,0:10:13.10,Default,,0,0,0,,I can't!
+Dialogue: 0,0:10:14.50,0:10:17.70,Default,,0,0,0,,This is... so futile.
+Dialogue: 0,0:10:21.90,0:10:26.30,Default,,0,0,0,,Sign it! If you don't, I'll become useless!
+Dialogue: 0,0:10:26.30,0:10:27.50,Default,,0,0,0,,It's okay!
+Dialogue: 0,0:10:27.90,0:10:29.50,Default,,0,0,0,,You'll be okay.
+Dialogue: 0,0:10:29.50,0:10:33.90,Default,,0,0,0,,Misaki-chan, you could toughen yourself mentally and\Nphysically by rubbing your body with a dry cloth.
+Dialogue: 0,0:10:33.90,0:10:36.90,Default,,0,0,0,,You won't think of stupid\Nthings if you occupy yourself by training.
+Dialogue: 0,0:10:37.90,0:10:42.70,Default,,0,0,0,,A cute girl like you will surely be able to attain a wonderful life.
+Dialogue: 0,0:10:42.70,0:10:44.90,Default,,0,0,0,,Lift your head up and walk!
+Dialogue: 0,0:10:44.90,0:10:47.50,Default,,0,0,0,,Say, aren't you lonely!
+Dialogue: 0,0:10:47.70,0:10:49.30,Default,,0,0,0,,I'm not lonely.
+Dialogue: 0,0:10:49.70,0:10:52.90,Default,,0,0,0,,I'm... I'm...
+Dialogue: 0,0:10:53.90,0:10:55.10,Default,,0,0,0,,Lonely!
+Dialogue: 0,0:10:55.70,0:10:58.30,Default,,0,0,0,,I'm not... lonely!
+Dialogue: 0,0:11:00.10,0:11:01.90,Default,,0,0,0,,Liar!
+Dialogue: 0,0:11:31.30,0:11:32.90,Default,,0,0,0,,Say, Satou-kun...
+Dialogue: 0,0:11:35.10,0:11:36.90,Default,,0,0,0,,Aren't you lonely, purin?
+Dialogue: 0,0:11:37.70,0:11:39.90,Default,,0,0,0,,I'm not lonely.
+Dialogue: 0,0:11:40.70,0:11:41.50,Default,,0,0,0,,Are you sure?
+Dialogue: 0,0:11:43.70,0:11:44.90,Default,,0,0,0,,Are you sure?
+Dialogue: 0,0:11:47.30,0:11:48.90,Default,,0,0,0,,Of course I'm lonely!
+Dialogue: 0,0:11:48.90,0:11:51.70,Default,,0,0,0,,Why didn't you sign the contract, purin?
+Dialogue: 0,0:11:52.90,0:11:56.50,Default,,0,0,0,,Is it because she called you a failure of a human?
+Dialogue: 0,0:11:57.90,0:12:02.70,Default,,0,0,0,,I'm not qualified to save Misaki-chan.
+Dialogue: 0,0:12:02.70,0:12:04.30,Default,,0,0,0,,Is that really it?
+Dialogue: 0,0:12:06.10,0:12:12.10,Default,,0,0,0,,Satou-san, it's natural for a person to\Ndeny he's a failure as a human being.
+Dialogue: 0,0:12:12.10,0:12:16.10,Default,,0,0,0,,That's why he searches for somebody\Nwho is more miserable than himself.
+Dialogue: 0,0:12:19.50,0:12:23.90,Default,,0,0,0,,That's why so much animosity exists on the Internet.
+Dialogue: 0,0:12:24.30,0:12:31.90,Default,,0,0,0,,Those who aren't able to find a more miserable person turn to the\NInternet and call other people losers, even though they've never met...
+Dialogue: 0,0:12:31.90,0:12:34.90,Default,,0,0,0,,Just to make themselves feel superior.
+Dialogue: 0,0:12:34.90,0:12:36.30,Default,,0,0,0,,Isn't that pathetic?
+Dialogue: 0,0:12:36.70,0:12:42.70,Default,,0,0,0,,There's a sense of security that comes\Nfrom speaking badly of someone else.
+Dialogue: 0,0:12:44.10,0:12:47.10,Default,,0,0,0,,But... that isn't true salvation.
+Dialogue: 0,0:12:47.30,0:12:53.50,Default,,0,0,0,,Wouldn't you feel more relieved simply\Nadmitting you're a failure of a human?
+Dialogue: 0,0:12:53.90,0:12:54.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:12:54.50,0:13:00.30,Default,,0,0,0,,A mere NEET... A failure who's receiving\Nthe pity of a girl younger than you.
+Dialogue: 0,0:13:01.30,0:13:04.50,Default,,0,0,0,,Yes. Admit it, Satou-san.
+Dialogue: 0,0:13:04.70,0:13:06.90,Default,,0,0,0,,Admit it, Satou-kun.
+Dialogue: 0,0:13:06.90,0:13:15.10,Default,,0,0,0,,Admit it.
+Dialogue: 0,0:13:17.30,0:13:19.90,Default,,0,0,0,,You guys... Who are you?
+Dialogue: 0,0:13:42.10,0:13:45.10,Default,,0,0,0,,Here, Satou-kun. Say "Ah".
+Dialogue: 0,0:13:50.70,0:13:51.50,Default,,0,0,0,,Huh?
+Dialogue: 0,0:13:51.90,0:13:52.90,Default,,0,0,0,,Ah!
+Dialogue: 0,0:13:59.50,0:14:00.10,Default,,0,0,0,,Huh?
+Dialogue: 0,0:14:00.30,0:14:01.70,Default,,0,0,0,,Ah!
+Dialogue: 0,0:14:04.10,0:14:07.90,Default,,0,0,0,,Hey, wait... Let me eat that!
+Dialogue: 0,0:14:08.30,0:14:09.10,Default,,0,0,0,,Ah!
+Dialogue: 0,0:14:10.50,0:14:12.50,Default,,0,0,0,,Wait... wait up!
+Dialogue: 0,0:14:12.50,0:14:16.30,Default,,0,0,0,,Let me eat it... Wait... Let me eat!
+Dialogue: 0,0:14:28.30,0:14:33.50,Default,,0,0,0,,I stopped receiving money from my parents\Nfor living expenses one day in January.
+Dialogue: 0,0:14:34.10,0:14:41.90,Default,,0,0,0,,I'm sorry, Tatsuhiro. Your father is going to be\Nhospitalized, so your allowance is no longer...
+Dialogue: 0,0:14:43.10,0:14:47.90,Default,,0,0,0,,My last hope, which was assistance from Yamazaki, also...
+Dialogue: 0,0:14:47.90,0:14:51.30,Default,,0,0,0,,About sending you cheese and stuff the other day...
+Dialogue: 0,0:14:52.50,0:14:56.50,Default,,0,0,0,,Well, there were a lot of problems, so the plan fell through.
+Dialogue: 0,0:14:57.70,0:15:00.30,Default,,0,0,0,,Don't laugh it off, bastard!
+Dialogue: 0,0:15:01.50,0:15:06.70,Default,,0,0,0,,How many days has it been since I ate a decent meal?
+Dialogue: 0,0:15:07.10,0:15:09.10,Default,,0,0,0,,I need some calories...
+Dialogue: 0,0:15:09.70,0:15:13.30,Default,,0,0,0,,Anything is fine... I just want something to eat.
+Dialogue: 0,0:15:13.70,0:15:21.10,Default,,0,0,0,,Ramen, curry rice, hamburger, katsudon, tuna and rice...
+Dialogue: 0,0:15:21.90,0:15:27.30,Default,,0,0,0,,DHA is a substance present in tuna\Nthat causes the brain to become active.
+Dialogue: 0,0:15:27.70,0:15:35.90,Default,,0,0,0,,By eating tuna, it will definitely have a\Npositive influence on your creative activities.
+Dialogue: 0,0:16:03.50,0:16:07.50,Default,,0,0,0,,Question: Why would someone want to continue living as a hikikomori?
+Dialogue: 0,0:16:07.50,0:16:08.50,Background,,0,0,0,,Stop it!
+Dialogue: 0,0:16:08.50,0:16:09.30,Background,,0,0,0,,Wait!
+Dialogue: 0,0:16:09.30,0:16:13.50,Default,,0,0,0,,Answer: Because his clothing, food, and housing are guaranteed.
+Dialogue: 0,0:16:14.70,0:16:20.50,Default,,0,0,0,,Since he always finds a way to get by, he\Ncan afford to continue living as hikikomori.
+Dialogue: 0,0:16:26.90,0:16:32.50,Default,,0,0,0,,In hindsight, living as a hikikomori was a luxury in itself.
+Dialogue: 0,0:16:37.90,0:16:45.50,Default,,0,0,0,,Without clothing, food, and housing, you don't have any\Nother choice but to work unless you're prepared to die.
+Dialogue: 0,0:17:23.10,0:17:24.90,Default,,0,0,0,,Congratulations, Satou-kun.
+Dialogue: 0,0:17:25.70,0:17:27.90,Default,,0,0,0,,You finally managed to escape from your hikikomori lifestyle.
+Dialogue: 0,0:18:19.50,0:18:22.30,Default,,0,0,0,,Misaki-chan, get a hold of yourself! Misaki-chan!
+Dialogue: 0,0:18:31.50,0:18:34.10,Default,,0,0,0,,What in the world happened to her?
+Dialogue: 0,0:18:34.10,0:18:36.90,Default,,0,0,0,,Well, there are a lot of things going on in the Chiba household.
+Dialogue: 0,0:18:36.90,0:18:38.70,Default,,0,0,0,,They say she collapsed in the bath.
+Dialogue: 0,0:18:38.70,0:18:40.70,Default,,0,0,0,,My, the poor girl.
+Dialogue: 0,0:19:00.70,0:19:01.50,Default,,0,0,0,,You must be...
+Dialogue: 0,0:19:04.10,0:19:06.50,Default,,0,0,0,,Satou-kun from Mita House, correct?
+Dialogue: 0,0:19:06.90,0:19:07.70,Default,,0,0,0,,Huh?
+Dialogue: 0,0:19:12.90,0:19:17.30,Default,,0,0,0,,I didn't know Misaki-chan's uncle was the landlord of Mita House.
+Dialogue: 0,0:19:17.50,0:19:20.30,Default,,0,0,0,,I met you when you signed the lease.
+Dialogue: 0,0:19:20.70,0:19:21.70,Default,,0,0,0,,Of course.
+Dialogue: 0,0:19:22.50,0:19:27.70,Default,,0,0,0,,No wonder Misaki-chan knew about my\Nbirthplace and the university I attended.
+Dialogue: 0,0:19:28.30,0:19:30.70,Default,,0,0,0,,Um, how is Misaki-chan?
+Dialogue: 0,0:19:31.70,0:19:36.50,Default,,0,0,0,,}She got dizzy and collapsed in the bathroom,\Nand that's when she got injured.
+Dialogue: 0,0:19:37.30,0:19:38.10,Default,,0,0,0,,Oh.
+Dialogue: 0,0:19:39.50,0:19:43.50,Default,,0,0,0,,That girl was my younger sister's only daughter.
+Dialogue: 0,0:19:44.30,0:19:46.30,Default,,0,0,0,,She was a victim of unfortunate circumstances.
+Dialogue: 0,0:19:47.70,0:19:53.70,Default,,0,0,0,,Soon after she was born, her father passed away.\NMy sister remarried after some time, but...
+Dialogue: 0,0:19:54.30,0:19:56.30,Default,,0,0,0,,Her new husband was a horrible person.
+Dialogue: 0,0:19:56.90,0:20:00.10,Background,,0,0,0,,Stop! Stop!
+Dialogue: 0,0:19:57.70,0:20:04.50,Default,,0,0,0,,He rarely went to work, he would constantly get\Ndrunk and inflict violence upon his family...
+Dialogue: 0,0:20:02.30,0:20:03.50,Background,,0,0,0,,Stop!
+Dialogue: 0,0:20:07.70,0:20:11.30,Default,,0,0,0,,Eventually, her mother...
+Dialogue: 0,0:20:16.90,0:20:21.70,Default,,0,0,0,,Whether it was suicide or an accident, the truth was never known.
+Dialogue: 0,0:20:24.30,0:20:32.30,Default,,0,0,0,,That girl, left with only her stepfather,\Napparently suffered through her share of hardships.
+Dialogue: 0,0:20:36.90,0:20:38.10,Default,,0,0,0,,P-Please...
+Dialogue: 0,0:20:38.10,0:20:39.30,Default,,0,0,0,,Stop...
+Dialogue: 0,0:20:40.90,0:20:45.30,Default,,0,0,0,,As a result, she became someone who\Nfound difficulty in dealing with people.
+Dialogue: 0,0:20:46.50,0:20:53.50,Default,,0,0,0,,After I took her in and had her enroll in a school here,\Nshe couldn't adapt and dropped out soon after.
+Dialogue: 0,0:20:54.70,0:20:58.70,Default,,0,0,0,,She probably feels like she's indebted to me and my wife.
+Dialogue: 0,0:20:58.70,0:21:04.30,Default,,0,0,0,,At an age when girls want to dress up and have\Nfun, she doesn't indulge herself at all.
+Dialogue: 0,0:21:04.30,0:21:09.70,Default,,0,0,0,,Instead, she accompanies my wife and works at the manga cafe I own.
+Dialogue: 0,0:21:14.10,0:21:19.70,Default,,0,0,0,,However, she became rather cheerful after she met you, Satou-kun.
+Dialogue: 0,0:21:20.90,0:21:25.70,Default,,0,0,0,,She looked so happy whenever she talked about you, Satou-kun.
+Dialogue: 0,0:21:26.90,0:21:30.10,Default,,0,0,0,,Although it might sound strange coming from me...
+Dialogue: 0,0:21:31.10,0:21:33.70,Default,,0,0,0,,Please continue to be good friends with her.
+Dialogue: 0,0:21:46.30,0:21:47.30,Default,,0,0,0,,Misaki-chan!
+Dialogue: 0,0:21:50.10,0:21:51.90,Default,,0,0,0,,Kazuko isn't here, either!
+Dialogue: 0,0:21:51.90,0:21:54.30,Default,,0,0,0,,If they're together, I wouldn't have any worries, but...
+Dialogue: 0,0:21:54.30,0:21:56.30,Default,,0,0,0,,Kazuko! Kazuko!
+Dialogue: 0,0:21:59.05,0:22:01.95,Default,,0,0,0,,\NNationwide Compact\NRailway Timetable
+Dialogue: 0,0:22:05.70,0:22:10.40,TL,,0,0,0,,The mikka tororo was good. Therefore... farewell, everyone.
+Dialogue: 0,0:22:10.50,0:22:12.70,Default,,0,0,0,,She was in a really deep sleep!
+Dialogue: 0,0:22:12.70,0:22:15.50,Default,,0,0,0,,I told you not to take your eyes off of her in her present state!
+Dialogue: 0,0:22:15.70,0:22:17.30,Default,,0,0,0,,Misaki-chan!
+Dialogue: 0,0:22:18.10,0:22:19.10,Default,,0,0,0,,Satou-kun's gone, too!
+Dialogue: 0,0:22:27.90,0:22:29.50,Default,,0,0,0,,Welcome.
+Dialogue: 0,0:22:35.10,0:22:39.90,Default,,0,0,0,,I suppose people want to go back to their birthplace before they die.
+Dialogue: 0,0:22:40.10,0:22:43.70,Default,,0,0,0,,You know I'm poor, Misaki-chan!
+Dialogue: 0,0:23:26.50,0:23:29.30,Default,,0,0,0,,Therefore... Farewell, everyone.
+Dialogue: 0,0:23:30.50,0:23:32.10,Default,,0,0,0,,Nihon Hikikomori Kyokai.
+Dialogue: 0,0:23:32.10,0:23:33.30,Default,,0,0,0,,Nihon Hiyowa Kyokai.
+Dialogue: 0,0:23:33.00,0:23:37.00,TL,,0,0,0,,Note: Hiyowa translates to "weakling",\Nhikan translates to "pessimist".
+Dialogue: 0,0:23:33.30,0:23:34.90,Default,,0,0,0,,Nihon Hysteric Kyokai.
+Dialogue: 0,0:23:34.90,0:23:36.50,Default,,0,0,0,,Nihon Hikan Kyokai.
+Dialogue: 0,0:23:37.10,0:23:38.90,Default,,0,0,0,,Welcome to the N.H.K!

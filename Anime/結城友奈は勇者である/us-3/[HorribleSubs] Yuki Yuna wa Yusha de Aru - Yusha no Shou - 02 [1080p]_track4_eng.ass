@@ -1,0 +1,315 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:08.80,0:00:11.05,Default,,0,0,0,,Togo-san is gone.
+Dialogue: 0,0:00:11.26,0:00:12.30,Default,,0,0,0,,SCHOOL FESTIVAL ENDED\NON A HIGH NOTE!!
+Dialogue: 0,0:00:12.47,0:00:15.39,Default,,0,0,0,,She's gone from the photos too.
+Dialogue: 0,0:00:15.85,0:00:18.10,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:00:18.93,0:00:21.52,Default,,0,0,0,,At any rate, let's go find Togo-san.
+Dialogue: 0,0:00:21.68,0:00:22.81,Default,,0,0,0,,Yup.
+Dialogue: 0,0:00:26.15,0:00:31.90,Default,,0,0,0,,I promised that I'll never forget about Togo-san.
+Dialogue: 0,0:00:32.65,0:00:34.45,Default,,0,0,0,,And yet...
+Dialogue: 0,0:00:42.58,0:00:43.87,Default,,0,0,0,,Yuki Yuna is a Hero -Hero Chapter-
+Dialogue: 0,0:02:05.62,0:02:07.92,Default,,0,0,0,,EPISODE 1\NSPECTACULAR DAYS
+Dialogue: 0,0:02:10.42,0:02:12.59,Default,,0,0,0,,SANSHU
+Dialogue: 0,0:02:17.76,0:02:21.43,Default,,0,0,0,,No one has any leads.
+Dialogue: 0,0:02:21.89,0:02:25.64,Default,,0,0,0,,It's as if Togo-san never existed.
+Dialogue: 0,0:02:25.89,0:02:27.81,Default,,0,0,0,,Even her desk is gone from the classroom.
+Dialogue: 0,0:02:27.98,0:02:30.40,Default,,0,0,0,,The support messages I got from you guys...
+Dialogue: 0,0:02:30.56,0:02:31.56,Default,,0,0,0,,TO ITSUKI-CHAN
+Dialogue: 0,0:02:31.73,0:02:33.86,Default,,0,0,0,,This part has been erased,
+Dialogue: 0,0:02:34.02,0:02:37.44,Default,,0,0,0,,but Togo-senpai wrote that everyone's a pumpkin.
+Dialogue: 0,0:02:37.61,0:02:40.53,Default,,0,0,0,,This is what vicious bullying would look like.
+Dialogue: 0,0:02:40.70,0:02:43.28,Default,,0,0,0,,The amnesty would probably\Nknow something about it.
+Dialogue: 0,0:02:43.45,0:02:46.25,Default,,0,0,0,,But they told me they don't know anything about it.
+Dialogue: 0,0:02:46.41,0:02:49.58,Default,,0,0,0,,I got the same answer from them.
+Dialogue: 0,0:02:50.42,0:02:53.92,Default,,0,0,0,,Does this mean the amnesty is playing dumb again?
+Dialogue: 0,0:02:54.09,0:02:57.46,Default,,0,0,0,,The amnesty really doesn't\Nseem to know anything about it.
+Dialogue: 0,0:02:57.92,0:03:00.59,Default,,0,0,0,,Nogi, where have you been?
+Dialogue: 0,0:03:00.76,0:03:02.39,Default,,0,0,0,,The amnesty's headquarters.
+Dialogue: 0,0:03:02.55,0:03:07.60,Default,,0,0,0,,I've asked about Wasshi to the priests of the shrine\Nin a rank whom I could talk to,
+Dialogue: 0,0:03:07.77,0:03:09.98,Default,,0,0,0,,but they just trembled\Nand said they don't know about it.
+Dialogue: 0,0:03:10.73,0:03:13.77,Default,,0,0,0,,Even the amnesty doesn't know what's going on.
+Dialogue: 0,0:03:15.36,0:03:16.98,Default,,0,0,0,,Togo-san...
+Dialogue: 0,0:03:17.48,0:03:19.82,Default,,0,0,0,,I guess this is our only way.
+Dialogue: 0,0:03:24.99,0:03:26.37,Default,,0,0,0,,Is this...?
+Dialogue: 0,0:03:26.83,0:03:28.62,Default,,0,0,0,,The Hero System.
+Dialogue: 0,0:03:28.79,0:03:31.71,Default,,0,0,0,,The people at the amnesty brought it out\Nwhen I got angry,
+Dialogue: 0,0:03:31.87,0:03:33.54,Default,,0,0,0,,and told them to give it to me.
+Dialogue: 0,0:03:33.71,0:03:35.21,Default,,0,0,0,,Let's go find her with this.
+Dialogue: 0,0:03:35.38,0:03:36.84,Default,,0,0,0,,Find her?
+Dialogue: 0,0:03:37.00,0:03:39.13,Default,,0,0,0,,We can still transform, right?
+Dialogue: 0,0:03:39.30,0:03:41.05,Default,,0,0,0,,That's right, Nibosshi.
+Dialogue: 0,0:03:41.22,0:03:44.80,Default,,0,0,0,,Look, Wasshi's phone is gone.
+Dialogue: 0,0:03:44.97,0:03:49.10,Default,,0,0,0,,But Wasshi hasn't appeared\Non the radar on my phone.
+Dialogue: 0,0:03:49.27,0:03:50.27,Default,,0,0,0,,YUNA YUKI, SONOKO NOGI,\NKARIN MIYOSHI, INUBOZAKI FU, ITSUKI
+Dialogue: 0,0:03:50.43,0:03:54.69,Default,,0,0,0,,Maybe Wasshi is somewhere\Nthat's really unexpected.
+Dialogue: 0,0:03:54.86,0:03:56.52,Default,,0,0,0,,That means, in other words...
+Dialogue: 0,0:03:58.03,0:04:00.74,Default,,0,0,0,,-She might be beyond the wall?\N-That's right.
+Dialogue: 0,0:04:00.90,0:04:03.74,Default,,0,0,0,,That's possible, since Togo's insane.
+Dialogue: 0,0:04:03.91,0:04:07.62,Default,,0,0,0,,So I'm thinking of transforming\Ninto a hero, and going there.
+Dialogue: 0,0:04:08.74,0:04:10.70,Default,,0,0,0,,The spirit.
+Dialogue: 0,0:04:10.87,0:04:14.75,Default,,0,0,0,,If we become heroes,\Nwill there be a price for its power like before?
+Dialogue: 0,0:04:15.17,0:04:17.50,Default,,0,0,0,,They said it's a new version this time,
+Dialogue: 0,0:04:17.67,0:04:20.05,Default,,0,0,0,,and we won't lose our body functions.
+Dialogue: 0,0:04:20.21,0:04:22.34,Default,,0,0,0,,It sounds too good to be true...
+Dialogue: 0,0:04:22.51,0:04:23.84,Default,,0,0,0,,She's right.
+Dialogue: 0,0:04:24.01,0:04:26.64,Default,,0,0,0,,Even if they tell us that it's a new system,
+Dialogue: 0,0:04:26.80,0:04:28.72,Default,,0,0,0,,we could end up...
+Dialogue: 0,0:04:28.89,0:04:30.93,Default,,0,0,0,,It's natural to be scared.
+Dialogue: 0,0:04:31.48,0:04:32.98,Default,,0,0,0,,I understand.
+Dialogue: 0,0:04:35.85,0:04:39.86,Default,,0,0,0,,All right. If it's to save Togo-san, I'll...
+Dialogue: 0,0:04:41.19,0:04:43.20,Default,,0,0,0,,-Wait.\N-But...
+Dialogue: 0,0:04:43.36,0:04:45.61,Default,,0,0,0,,It's different from the first time.
+Dialogue: 0,0:04:45.78,0:04:50.12,Default,,0,0,0,,As the club president, I don't want\Nto let you guys transform so easily.
+Dialogue: 0,0:04:50.33,0:04:53.58,Default,,0,0,0,,Don't do this on impulse.
+Dialogue: 0,0:04:53.75,0:04:55.00,Default,,0,0,0,,Yes.
+Dialogue: 0,0:04:55.17,0:04:57.54,Default,,0,0,0,,Nogi, you too.
+Dialogue: 0,0:04:57.71,0:04:59.96,Default,,0,0,0,,Yup, thanks.
+Dialogue: 0,0:05:00.13,0:05:03.59,Default,,0,0,0,,We certainly did have terrible experiences,
+Dialogue: 0,0:05:04.59,0:05:06.43,Default,,0,0,0,,but the world would have been destroyed
+Dialogue: 0,0:05:06.59,0:05:09.14,Default,,0,0,0,,if the heroes didn't fight by offering their bodies.
+Dialogue: 0,0:05:09.30,0:05:11.43,Default,,0,0,0,,There was no choice.
+Dialogue: 0,0:05:11.60,0:05:15.35,Default,,0,0,0,,The amnesty just did it in a bad way,\Nbut it wasn't anyone's fault.
+Dialogue: 0,0:05:15.52,0:05:21.36,Default,,0,0,0,,The amnesty said they won't keep any secrets\Nabout the Hero System anymore.
+Dialogue: 0,0:05:21.53,0:05:25.90,Default,,0,0,0,,I was told that in person,\Nand decided to believe them.
+Dialogue: 0,0:05:26.82,0:05:29.87,Default,,0,0,0,,So it's different from before.
+Dialogue: 0,0:05:30.03,0:05:32.79,Default,,0,0,0,,This time I'm doing it after fully understanding it,
+Dialogue: 0,0:05:32.95,0:05:34.20,Default,,0,0,0,,so I'm going to go.
+Dialogue: 0,0:05:38.29,0:05:39.38,Default,,0,0,0,,I'll believe too.
+Dialogue: 0,0:05:40.59,0:05:41.75,Default,,0,0,0,,Yuna...
+Dialogue: 0,0:05:41.92,0:05:44.21,Default,,0,0,0,,I'm not sure about the people at the amnesty,
+Dialogue: 0,0:05:44.38,0:05:47.43,Default,,0,0,0,,but I'll believe it\Nbecause you believe them, Sono-chan.
+Dialogue: 0,0:05:47.59,0:05:48.72,Default,,0,0,0,,Yu-yu...
+Dialogue: 0,0:05:49.34,0:05:50.60,Default,,0,0,0,,Fu-senpai.
+Dialogue: 0,0:05:50.76,0:05:53.43,Default,,0,0,0,,I thought this through. I'm going to go.
+Dialogue: 0,0:05:58.44,0:05:59.94,Default,,0,0,0,,Jeez.
+Dialogue: 0,0:06:00.11,0:06:02.11,Default,,0,0,0,,Don't leave the club president behind.
+Dialogue: 0,0:06:02.27,0:06:03.53,Default,,0,0,0,,Fu-senpai.
+Dialogue: 0,0:06:04.19,0:06:07.49,Default,,0,0,0,,I do trust you guys, Yuna and Nogi.
+Dialogue: 0,0:06:09.53,0:06:13.16,Default,,0,0,0,,Well, since a member of the Hero Club is missing,
+Dialogue: 0,0:06:13.33,0:06:15.66,Default,,0,0,0,,the members of the same club should look for her.
+Dialogue: 0,0:06:15.83,0:06:17.25,Default,,0,0,0,,Karin-chan.
+Dialogue: 0,0:06:17.41,0:06:19.00,Default,,0,0,0,,I'll go too.
+Dialogue: 0,0:06:19.71,0:06:21.13,Default,,0,0,0,,Itsuki...
+Dialogue: 0,0:06:26.51,0:06:28.01,Default,,0,0,0,,You guys.
+Dialogue: 0,0:06:28.18,0:06:30.22,Default,,0,0,0,,Beyond the wall, huh?
+Dialogue: 0,0:06:30.39,0:06:32.47,Default,,0,0,0,,We don't know what could happen.
+Dialogue: 0,0:06:32.64,0:06:35.22,Default,,0,0,0,,Itsuki, for now, you should take this supplement.
+Dialogue: 0,0:06:35.39,0:06:37.85,Default,,0,0,0,,-Wait--\N-I'll take some this time.
+Dialogue: 0,0:06:38.02,0:06:39.60,Default,,0,0,0,,-Itsuki?\N-Thank you.
+Dialogue: 0,0:06:39.77,0:06:40.77,Default,,0,0,0,,Don't!
+Dialogue: 0,0:06:40.94,0:06:43.07,Default,,0,0,0,,You guys have wonderful friends.
+Dialogue: 0,0:06:43.23,0:06:45.15,Default,,0,0,0,,You too, Sono-chan.
+Dialogue: 0,0:06:49.24,0:06:54.87,Default,,0,0,0,,The Mankai gauge is full to begin with,\Nin the new Hero System.
+Dialogue: 0,0:06:55.58,0:06:58.00,Default,,0,0,0,,The spirit will protect you with its barrier,
+Dialogue: 0,0:06:58.16,0:07:01.75,Default,,0,0,0,,but each time you use the barrier,\Nyou'll consume your Mankai gauge.
+Dialogue: 0,0:07:01.92,0:07:04.13,Default,,0,0,0,,The gauge won't get restored.
+Dialogue: 0,0:07:04.29,0:07:07.38,Default,,0,0,0,,You can use Mankai if the gauge is full,
+Dialogue: 0,0:07:07.55,0:07:10.59,Default,,0,0,0,,but if you use it,\Nthe gauge will become empty at once.
+Dialogue: 0,0:07:10.76,0:07:14.05,Default,,0,0,0,,When the gauge is empty,\Nthe spirit won't be able to put up a barrier.
+Dialogue: 0,0:07:14.81,0:07:19.10,Default,,0,0,0,,If you get attacked in that situation,\Nit'll be a matter of life or death.
+Dialogue: 0,0:07:20.02,0:07:23.77,Default,,0,0,0,,This is the new Hero System,\Nwhich won't make us lose our body functions.
+Dialogue: 0,0:07:23.94,0:07:27.82,Default,,0,0,0,,All in all, it's better to have it all explained like this.
+Dialogue: 0,0:07:27.99,0:07:30.74,Default,,0,0,0,,You're right. Now we can be prepared.
+Dialogue: 0,0:07:30.90,0:07:33.78,Default,,0,0,0,,Sounds like it'll be a lot of work to clean.
+Dialogue: 0,0:07:39.20,0:07:40.50,Default,,0,0,0,,Inugami.
+Dialogue: 0,0:07:44.08,0:07:47.17,Default,,0,0,0,,Gyuki, long time no see.\NLooking forward to working together again.
+Dialogue: 0,0:07:47.34,0:07:49.38,Default,,0,0,0,,Hey, I can't see.
+Dialogue: 0,0:07:49.55,0:07:52.18,Default,,0,0,0,,Just as I thought, Inugami is my sister's great friend.
+Dialogue: 0,0:07:52.34,0:07:54.18,Default,,0,0,0,,I get it, so get off me!
+Dialogue: 0,0:07:54.34,0:07:57.01,Default,,0,0,0,,-How have you been?\N-You brute.
+Dialogue: 0,0:07:57.18,0:07:58.81,Default,,0,0,0,,You haven't changed a bit.
+Dialogue: 0,0:07:58.97,0:08:01.69,Default,,0,0,0,,The impermanence of all things.
+Dialogue: 0,0:08:14.99,0:08:18.04,Default,,0,0,0,,-I'm sorry!\N-Excuse us!
+Dialogue: 0,0:08:23.58,0:08:27.21,Default,,0,0,0,,It'll get fierce beyond this point, so be careful.
+Dialogue: 0,0:08:27.38,0:08:31.42,Default,,0,0,0,,I'll lead, so you support from the back, Sonoko.
+Dialogue: 0,0:08:31.59,0:08:34.30,Default,,0,0,0,,Nibosshi, make sure you don't go too far ahead.
+Dialogue: 0,0:08:36.30,0:08:37.80,Default,,0,0,0,,Okay.
+Dialogue: 0,0:08:38.72,0:08:42.68,Default,,0,0,0,,Itsuki, I'll make you special udon tonight.
+Dialogue: 0,0:08:42.85,0:08:46.02,Default,,0,0,0,,Yup. I'll be looking forward to it, sis.
+Dialogue: 0,0:08:46.61,0:08:48.98,Default,,0,0,0,,All right, let's go.
+Dialogue: 0,0:08:54.70,0:08:57.74,Default,,0,0,0,,-It's as fierce as ever.\N-No matter how many times you look at it,
+Dialogue: 0,0:08:57.91,0:09:00.04,Default,,0,0,0,,it doesn't look like a scene from this world.
+Dialogue: 0,0:09:00.20,0:09:02.62,Default,,0,0,0,,Oh, it appeared on the radar.
+Dialogue: 0,0:09:02.79,0:09:04.12,Default,,0,0,0,,What? Where?
+Dialogue: 0,0:09:04.29,0:09:05.29,Default,,0,0,0,,MIMORI TOGO
+Dialogue: 0,0:09:05.46,0:09:07.92,Default,,0,0,0,,-Here.\N-Oh, it's Togo-san.
+Dialogue: 0,0:09:08.09,0:09:11.00,Default,,0,0,0,,Just as we'd expected,\NTogo-san was beyond the wall.
+Dialogue: 0,0:09:11.17,0:09:14.09,Default,,0,0,0,,-Seems like it's going to be all right, Yuna.\N-Yes.
+Dialogue: 0,0:09:14.26,0:09:16.72,Default,,0,0,0,,She seems to be surprisingly close.
+Dialogue: 0,0:09:19.72,0:09:22.22,Default,,0,0,0,,This direction should be right--
+Dialogue: 0,0:09:22.39,0:09:26.35,Default,,0,0,0,,-Oh, my god!\N-What is that?
+Dialogue: 0,0:09:39.49,0:09:42.24,Default,,0,0,0,,-Over there, right?\N-Yeah.
+Dialogue: 0,0:09:42.41,0:09:44.58,Default,,0,0,0,,It seems like Wasshi is in there.
+Dialogue: 0,0:09:45.37,0:09:46.71,Default,,0,0,0,,Togo-san...
+Dialogue: 0,0:09:46.87,0:09:49.71,Default,,0,0,0,,Togo-san turned into a black hole.
+Dialogue: 0,0:09:49.88,0:09:54.01,Default,,0,0,0,,I don't know anyone else that's turned into a black hole\Nafter not seeing them for a while.
+Dialogue: 0,0:09:54.17,0:09:55.76,Default,,0,0,0,,Sis...
+Dialogue: 0,0:09:56.68,0:09:58.80,Default,,0,0,0,,There are Vertex around it.
+Dialogue: 0,0:09:59.68,0:10:02.51,Default,,0,0,0,,-Let's go.\N-But...
+Dialogue: 0,0:10:02.97,0:10:04.56,Default,,0,0,0,,How?
+Dialogue: 0,0:10:06.73,0:10:08.10,Default,,0,0,0,,This would happen at a time like this.
+Dialogue: 0,0:10:11.06,0:10:13.19,Default,,0,0,0,,Thanks, Itsuki.
+Dialogue: 0,0:10:30.42,0:10:31.71,Default,,0,0,0,,You did great, Sonoko.
+Dialogue: 0,0:10:31.88,0:10:34.09,Default,,0,0,0,,Yay, I got complemented.
+Dialogue: 0,0:10:34.25,0:10:36.55,Default,,0,0,0,,But at this rate, they'll beat us.
+Dialogue: 0,0:10:36.72,0:10:38.63,Default,,0,0,0,,How should we get to where Togo is?
+Dialogue: 0,0:10:38.80,0:10:41.35,Default,,0,0,0,,I think we can go there on a ship.
+Dialogue: 0,0:10:41.51,0:10:42.93,Default,,0,0,0,,A ship? Sonoko?
+Dialogue: 0,0:10:43.76,0:10:45.35,Default,,0,0,0,,Mankai!
+Dialogue: 0,0:10:54.32,0:10:58.95,Default,,0,0,0,,You're using Mankai already?\NYou won't be able to have the help of the spirit.
+Dialogue: 0,0:10:59.11,0:11:02.91,Default,,0,0,0,,There never used to be a barrier, so it's no problem.
+Dialogue: 0,0:11:03.08,0:11:05.29,Default,,0,0,0,,-What do you mean, "It's no problem"?\N-Come on.
+Dialogue: 0,0:11:05.45,0:11:07.50,Default,,0,0,0,,This is the ship that can take us to Wasshi.
+Dialogue: 0,0:11:07.66,0:11:08.66,Default,,0,0,0,,Get on.
+Dialogue: 0,0:11:09.54,0:11:11.83,Default,,0,0,0,,Jeez, I guess we have no choice.
+Dialogue: 0,0:11:12.46,0:11:15.92,Default,,0,0,0,,-Excuse us.\N-What a cool ship.
+Dialogue: 0,0:11:16.09,0:11:18.17,Default,,0,0,0,,I think Togo and you guys are cunning.
+Dialogue: 0,0:11:18.34,0:11:20.55,Default,,0,0,0,,Mine is the coolest.
+Dialogue: 0,0:11:20.72,0:11:23.39,Default,,0,0,0,,You're amazing, Sono-chan.
+Dialogue: 0,0:11:23.55,0:11:25.18,Default,,0,0,0,,Thanks, Yu-yu.
+Dialogue: 0,0:11:25.64,0:11:27.14,Default,,0,0,0,,Now...
+Dialogue: 0,0:11:27.31,0:11:29.73,Default,,0,0,0,,We're off!
+Dialogue: 0,0:11:31.48,0:11:33.90,Default,,0,0,0,,We'll be there, Togo-san.
+Dialogue: 0,0:11:34.65,0:11:37.90,Default,,0,0,0,,Yuki Yuna is a Hero -Hero Chapter-
+Dialogue: 0,0:11:55.88,0:11:58.13,Default,,0,0,0,,You guys, do you have any motion sickness?
+Dialogue: 0,0:11:58.84,0:12:02.43,Default,,0,0,0,,Never mind the motion sickness,\Nthis is just plain dangerous.
+Dialogue: 0,0:12:02.59,0:12:05.55,Default,,0,0,0,,I wonder what's going on in there.
+Dialogue: 0,0:12:05.72,0:12:07.10,Default,,0,0,0,,Togo-san...
+Dialogue: 0,0:12:11.31,0:12:13.52,Default,,0,0,0,,They're launching an attack.
+Dialogue: 0,0:12:13.69,0:12:16.73,Default,,0,0,0,,Could they be protecting this place?
+Dialogue: 0,0:12:18.57,0:12:20.90,Default,,0,0,0,,We're surrounded.
+Dialogue: 0,0:12:21.07,0:12:23.36,Default,,0,0,0,,I'll go to where Togo-san is.
+Dialogue: 0,0:12:23.53,0:12:24.53,Default,,0,0,0,,Yuna.
+Dialogue: 0,0:12:25.12,0:12:26.95,Default,,0,0,0,,I'll come back with her at any cost.
+Dialogue: 0,0:12:27.83,0:12:29.33,Default,,0,0,0,,Yu-yu...
+Dialogue: 0,0:12:29.49,0:12:31.33,Default,,0,0,0,,Hey, are you going to be okay?
+Dialogue: 0,0:12:31.50,0:12:35.17,Default,,0,0,0,,Sheesh, make sure to come back, Yuna.\NThat's an order.
+Dialogue: 0,0:12:35.33,0:12:38.21,Default,,0,0,0,,We'll beat the ones that interfere.
+Dialogue: 0,0:12:38.38,0:12:41.34,Default,,0,0,0,,Anything could happen in a place like that.
+Dialogue: 0,0:12:41.51,0:12:43.43,Default,,0,0,0,,-Put your spirit into it.\N-Yup.
+Dialogue: 0,0:12:43.59,0:12:45.14,Default,,0,0,0,,Yu-yu...
+Dialogue: 0,0:12:45.59,0:12:48.89,Default,,0,0,0,,Take care of Wasshi.
+Dialogue: 0,0:12:50.06,0:12:51.77,Default,,0,0,0,,You can count on me, Sono-chan.
+Dialogue: 0,0:12:51.93,0:12:53.69,Default,,0,0,0,,All right.
+Dialogue: 0,0:12:53.85,0:12:58.11,Default,,0,0,0,,Right, we'll go there without stopping!
+Dialogue: 0,0:12:58.27,0:13:00.73,Default,,0,0,0,,MIMORI TOGO
+Dialogue: 0,0:13:06.66,0:13:09.45,Default,,0,0,0,,I won't let you get in the way of Yu-yu!
+Dialogue: 0,0:13:12.41,0:13:15.37,Default,,0,0,0,,-Yu-yu, now.\N-Yup.
+Dialogue: 0,0:13:16.00,0:13:18.04,Default,,0,0,0,,See you guys later.
+Dialogue: 0,0:13:45.11,0:13:47.28,Default,,0,0,0,,I have to get there.
+Dialogue: 0,0:13:52.83,0:13:54.20,Default,,0,0,0,,Togo-san...
+Dialogue: 0,0:13:58.08,0:13:59.96,Default,,0,0,0,,Togo-san...
+Dialogue: 0,0:14:23.69,0:14:26.95,Default,,0,0,0,,Out-of-body experience?
+Dialogue: 0,0:14:46.13,0:14:49.63,Default,,0,0,0,,Could this mean that if I fall apart,
+Dialogue: 0,0:14:49.80,0:14:53.26,Default,,0,0,0,,my body would stay like this forever?
+Dialogue: 0,0:14:59.73,0:15:01.65,Default,,0,0,0,,Togo-san?
+Dialogue: 0,0:15:05.15,0:15:09.03,Default,,0,0,0,,After a while since Sonocchi came\Nto our middle school,
+Dialogue: 0,0:15:09.20,0:15:13.45,Default,,0,0,0,,something that the amnesty\Nhadn't expected was happening.
+Dialogue: 0,0:15:13.62,0:15:16.83,Default,,0,0,0,,Because I broke a part of the sacred boundary,
+Dialogue: 0,0:15:17.00,0:15:21.04,Default,,0,0,0,,the outside flames were activated.
+Dialogue: 0,0:15:21.21,0:15:25.75,Default,,0,0,0,,At this rate, the flames from the outside\Nwill eat up the world.
+Dialogue: 0,0:15:25.92,0:15:29.42,Default,,0,0,0,,They needed to shut down the crime plan\Nthat the amnesty had planned,
+Dialogue: 0,0:15:29.59,0:15:32.05,Default,,0,0,0,,and defuse the current situation.
+Dialogue: 0,0:15:34.30,0:15:37.93,Default,,0,0,0,,Did I just see Togo-san's memory?
+Dialogue: 0,0:15:38.10,0:15:40.64,Default,,0,0,0,,Togo-san, just as I thought, you are in there.
+Dialogue: 0,0:15:40.81,0:15:42.44,Default,,0,0,0,,What else?
+Dialogue: 0,0:15:46.48,0:15:49.99,Default,,0,0,0,,The only way to suppress the flames
+Dialogue: 0,0:15:50.15,0:15:52.41,Default,,0,0,0,,is to beg for forgiveness from God
+Dialogue: 0,0:15:52.57,0:15:55.33,Default,,0,0,0,,by offering a shrine maiden\Nwho can hear God's voice
+Dialogue: 0,0:15:55.49,0:15:56.62,Default,,0,0,0,,to the outside flames.
+Dialogue: 0,0:15:57.45,0:15:59.37,Default,,0,0,0,,They said it's a ritual sacrifice
+Dialogue: 0,0:15:59.54,0:16:02.87,Default,,0,0,0,,which was also done at the end of the Christian Era.
+Dialogue: 0,0:16:04.13,0:16:08.09,Default,,0,0,0,,A couple of the shrine maidens\Nwho are currently serving at the amnesty
+Dialogue: 0,0:16:08.25,0:16:10.13,Default,,0,0,0,,were chosen to be the sacrifices.
+Dialogue: 0,0:16:11.22,0:16:15.55,Default,,0,0,0,,But they said I can also take their places.
+Dialogue: 0,0:16:15.72,0:16:20.18,Default,,0,0,0,,Apparently, I was the one and only existence\Nwho was qualified to be a hero,
+Dialogue: 0,0:16:20.35,0:16:23.81,Default,,0,0,0,,while also having the power of a shrine maiden.
+Dialogue: 0,0:16:23.98,0:16:25.69,Default,,0,0,0,,I didn't even have to think about it.
+Dialogue: 0,0:16:25.86,0:16:31.28,Default,,0,0,0,,I was the one who made a hole\Nin the sacred boundary. I have to pay for it.
+Dialogue: 0,0:16:31.44,0:16:34.32,Default,,0,0,0,,If Yuna-chan and everyone would be safe...
+Dialogue: 0,0:16:34.49,0:16:36.78,Default,,0,0,0,,If it's only myself...
+Dialogue: 0,0:16:38.03,0:16:39.33,Default,,0,0,0,,If I disappear...
+Dialogue: 0,0:16:39.79,0:16:44.00,Default,,0,0,0,,Yuna-chan and the others will probably look for me.
+Dialogue: 0,0:16:44.17,0:16:49.96,Default,,0,0,0,,Shinjyu-sama, please, don't let that happen.
+Dialogue: 0,0:16:56.80,0:16:58.26,Default,,0,0,0,,Yuna-chan...
+Dialogue: 0,0:17:02.27,0:17:05.52,Default,,0,0,0,,Togo-san always does things in haste.
+Dialogue: 0,0:17:05.69,0:17:08.98,Default,,0,0,0,,She made it seem like she didn't exist.
+Dialogue: 0,0:17:11.90,0:17:17.12,Default,,0,0,0,,But I promised that I won't leave Togo-san alone.
+Dialogue: 0,0:17:22.91,0:17:28.08,Default,,0,0,0,,So I'll save her over and over again!
+Dialogue: 0,0:17:35.30,0:17:37.05,Default,,0,0,0,,What's going on?!
+Dialogue: 0,0:17:43.68,0:17:46.23,Default,,0,0,0,,I've been here before.
+Dialogue: 0,0:18:00.33,0:18:01.58,Default,,0,0,0,,I knew it.
+Dialogue: 0,0:18:02.16,0:18:04.50,Default,,0,0,0,,This is the place from that time.
+Dialogue: 0,0:18:08.33,0:18:09.96,Default,,0,0,0,,Togo-san.
+Dialogue: 0,0:18:19.47,0:18:21.81,Default,,0,0,0,,What is this?
+Dialogue: 0,0:18:24.02,0:18:25.56,Default,,0,0,0,,Togo-san!
+Dialogue: 0,0:18:26.43,0:18:28.19,Default,,0,0,0,,This is horrible.
+Dialogue: 0,0:18:28.65,0:18:30.31,Default,,0,0,0,,Togo-san!
+Dialogue: 0,0:18:39.66,0:18:42.20,Default,,0,0,0,,I'll save you now.
+Dialogue: 0,0:19:01.97,0:19:05.60,Default,,0,0,0,,I don't care! Let go of Togo-san!
+Dialogue: 0,0:19:16.90,0:19:19.78,Default,,0,0,0,,Let's go home, Togo-san!
+Dialogue: 0,0:19:26.41,0:19:29.12,Default,,0,0,0,,Yes. Now we can...
+Dialogue: 0,0:19:45.89,0:19:47.72,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:20:06.62,0:20:09.54,Default,,0,0,0,,Yes, she's awake. Togo-san.
+Dialogue: 0,0:20:09.70,0:20:11.33,Default,,0,0,0,,Wasshi.
+Dialogue: 0,0:20:13.04,0:20:16.67,Default,,0,0,0,,You guys, where am I?
+Dialogue: 0,0:20:16.84,0:20:19.30,Default,,0,0,0,,You've been sleeping for a couple of days.
+Dialogue: 0,0:20:19.46,0:20:22.26,Default,,0,0,0,,You saved me?
+Dialogue: 0,0:20:22.43,0:20:24.68,Default,,0,0,0,,-Yup.\N-But...
+Dialogue: 0,0:20:24.84,0:20:28.01,Default,,0,0,0,,But the fire will destroy the world at this rate.
+Dialogue: 0,0:20:28.18,0:20:29.68,Default,,0,0,0,,I heard your story.
+Dialogue: 0,0:20:29.85,0:20:34.56,Default,,0,0,0,,The power of the fire has been stabilized already,\Nso they don't need a sacrifice anymore.
+Dialogue: 0,0:20:34.73,0:20:37.77,Default,,0,0,0,,-Don't tell me someone had to replace me.\N-Nope.
+Dialogue: 0,0:20:37.94,0:20:42.95,Default,,0,0,0,,Togo. Apparently, you had a fatal amount\Nof life force taken from you.
+Dialogue: 0,0:20:43.11,0:20:45.45,Default,,0,0,0,,So your job was done, because of that.
+Dialogue: 0,0:20:45.62,0:20:47.95,Default,,0,0,0,,But you're tough, so you were still alive.
+Dialogue: 0,0:20:48.12,0:20:49.79,Default,,0,0,0,,And we made it in time.
+Dialogue: 0,0:20:49.95,0:20:51.25,Default,,0,0,0,,That's what happened.
+Dialogue: 0,0:20:51.41,0:20:54.29,Default,,0,0,0,,It was a good thing that you trained a lot.
+Dialogue: 0,0:20:54.46,0:20:56.50,Default,,0,0,0,,Apparently, you're in good condition.
+Dialogue: 0,0:20:56.67,0:20:59.05,Default,,0,0,0,,Have I really been spared?
+Dialogue: 0,0:20:59.50,0:21:01.01,Default,,0,0,0,,That's right. You're safe now.
+Dialogue: 0,0:21:01.17,0:21:05.64,Default,,0,0,0,,Good job. Well, you'll probably have to stay\Nat the hospital for a bit longer.
+Dialogue: 0,0:21:05.80,0:21:10.64,Default,,0,0,0,,Now everyone in the Hero Club\Nis here again together.
+Dialogue: 0,0:21:10.81,0:21:11.98,Default,,0,0,0,,You guys...
+Dialogue: 0,0:21:12.14,0:21:14.85,Default,,0,0,0,,I'm sorry, Togo-san.
+Dialogue: 0,0:21:15.02,0:21:19.02,Default,,0,0,0,,Even though I promised I'll never forget about you,
+Dialogue: 0,0:21:19.19,0:21:21.11,Default,,0,0,0,,I did for couple of days.
+Dialogue: 0,0:21:22.40,0:21:24.74,Default,,0,0,0,,I'm the one who's sorry.
+Dialogue: 0,0:21:24.95,0:21:27.03,Default,,0,0,0,,I made you worry so much.
+Dialogue: 0,0:21:27.20,0:21:28.49,Default,,0,0,0,,You had no choice.
+Dialogue: 0,0:21:28.66,0:21:31.04,Default,,0,0,0,,I probably would have done the same.
+Dialogue: 0,0:21:31.20,0:21:34.33,Default,,0,0,0,,Make sure to tell us everything next time.
+Dialogue: 0,0:21:34.50,0:21:35.50,Default,,0,0,0,,Yes.
+Dialogue: 0,0:21:35.67,0:21:38.54,Default,,0,0,0,,Well, I think we're both to blame.
+Dialogue: 0,0:21:38.71,0:21:40.55,Default,,0,0,0,,We did forget too.
+Dialogue: 0,0:21:40.96,0:21:44.59,Default,,0,0,0,,Still, you guys all remembered about me.
+Dialogue: 0,0:21:44.76,0:21:46.51,Default,,0,0,0,,This isn't a dream, is it?
+Dialogue: 0,0:21:46.68,0:21:48.68,Default,,0,0,0,,That's right, Togo-san.
+Dialogue: 0,0:21:48.85,0:21:50.18,Default,,0,0,0,,Thanks.
+Dialogue: 0,0:21:50.35,0:21:52.56,Default,,0,0,0,,There, there.
+Dialogue: 0,0:21:52.72,0:21:55.52,Default,,0,0,0,,-Case closed, right?\N-Yup.
+Dialogue: 0,0:21:55.69,0:22:00.02,Default,,0,0,0,,All right. We can all celebrate\NChristmas, New Year's Eve,
+Dialogue: 0,0:22:00.19,0:22:01.61,Default,,0,0,0,,and New Year together.
+Dialogue: 0,0:22:01.77,0:22:03.53,Default,,0,0,0,,You're only thinking about playing.
+Dialogue: 0,0:23:57.14,0:23:59.52,Default,,0,0,0,,ON THE NEXT EPISODE
+Dialogue: 0,0:23:59.68,0:24:01.94,Default,,0,0,0,,-Way to go!\N-How cruel!
+Dialogue: 0,0:24:02.10,0:24:03.98,Default,,0,0,0,,-What a mishap.\N-I may have figured it out.
+Dialogue: 0,0:24:04.15,0:24:05.36,Default,,0,0,0,,Please be careful not to hurt yourself.
+Dialogue: 0,0:24:05.52,0:24:07.57,Default,,0,0,0,,We must not get anyone involved.
+Dialogue: 0,0:24:07.73,0:24:08.73,Default,,0,0,0,,Fu!
+Dialogue: 0,0:24:08.90,0:24:11.95,Default,,0,0,0,,EPISODE 3\NMY HEART HURTS WHEN I THINK OF YOU

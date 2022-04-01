@@ -1,0 +1,293 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:50.71,0:00:53.80,Default,,0,0,0,,Look. Christmas decorations\Nare already up everywhere.
+Dialogue: 0,0:00:53.97,0:00:55.34,Default,,0,0,0,,We are such a tolerant nation
+Dialogue: 0,0:00:55.51,0:01:00.39,Default,,0,0,0,,-to embrace foreign festivities without hesitation.\N-You sound like a politician.
+Dialogue: 0,0:01:01.85,0:01:04.44,Default,,0,0,0,,How do you think we should decorate\Nour Christmas tree?
+Dialogue: 0,0:01:05.23,0:01:06.94,Default,,0,0,0,,-I'm so glad.\N-What?
+Dialogue: 0,0:01:07.61,0:01:11.32,Default,,0,0,0,,It looks like I'll be able to celebrate\Nthis year's Christmas with you.
+Dialogue: 0,0:01:13.40,0:01:17.41,Default,,0,0,0,,Of course we will, unless you disappear.
+Dialogue: 0,0:01:17.57,0:01:19.24,Default,,0,0,0,,Oh, stop it.
+Dialogue: 0,0:01:19.41,0:01:21.37,Default,,0,0,0,,How about me?
+Dialogue: 0,0:01:21.54,0:01:23.00,Default,,0,0,0,,Sonocchi.
+Dialogue: 0,0:01:25.29,0:01:29.96,Default,,0,0,0,,This may be our first time\Ncelebrating Christmas together.
+Dialogue: 0,0:01:30.50,0:01:34.22,Default,,0,0,0,,Let's do it together. It should be fun.
+Dialogue: 0,0:01:34.38,0:01:37.55,Default,,0,0,0,,-Yeah!\N-Yeah!
+Dialogue: 0,0:01:37.72,0:01:39.14,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:01:39.30,0:01:42.85,Default,,0,0,0,,Christmas!
+Dialogue: 0,0:01:55.11,0:01:58.16,Default,,0,0,0,,Yuki Yuna is a Hero -Hero Chapter-
+Dialogue: 0,0:03:18.82,0:03:20.86,Default,,0,0,0,,EPISODE 3\NMY HEART HURTS WHEN I THINK OF YOU
+Dialogue: 0,0:03:21.07,0:03:23.66,Default,,0,0,0,,PREPARATION ROOM\NHERO CLUB'S CLUB ROOM
+Dialogue: 0,0:03:23.82,0:03:26.62,Default,,0,0,0,,Hey, Yuna, isn't it a little crooked?
+Dialogue: 0,0:03:27.08,0:03:32.17,Default,,0,0,0,,-Let's see. It's fine.\N-Itsuki, you check it too. It's a little more to the right...
+Dialogue: 0,0:03:39.30,0:03:42.93,Default,,0,0,0,,-What's with those glasses?\N-I hear her vision's gotten worse.
+Dialogue: 0,0:03:43.09,0:03:46.47,Default,,0,0,0,,Even studying for the entrance exam\Nin the club room? I feel bad for her.
+Dialogue: 0,0:03:46.64,0:03:51.06,Default,,0,0,0,,I had a tough week and found no time to study.
+Dialogue: 0,0:03:51.23,0:03:52.94,Default,,0,0,0,,I must make up for it.
+Dialogue: 0,0:03:53.10,0:03:56.94,Default,,0,0,0,,-I apologize.\N-I didn't mean to blame you.
+Dialogue: 0,0:03:57.11,0:03:58.11,Default,,0,0,0,,It's not your fault.
+Dialogue: 0,0:03:58.28,0:04:01.11,Default,,0,0,0,,Of course, Black Hole is more urgent\Nthan the entrance exam.
+Dialogue: 0,0:04:01.28,0:04:03.20,Default,,0,0,0,,I guess so.
+Dialogue: 0,0:04:03.36,0:04:05.24,Default,,0,0,0,,I apologize.
+Dialogue: 0,0:04:05.99,0:04:10.00,Default,,0,0,0,,Correct. Correct. Correct.
+Dialogue: 0,0:04:10.16,0:04:13.71,Default,,0,0,0,,Good. Even the last one is correct too.
+Dialogue: 0,0:04:13.87,0:04:16.17,Default,,0,0,0,,Fumin-senpai got a perfect score.
+Dialogue: 0,0:04:16.34,0:04:18.30,Default,,0,0,0,,Good. Am I a genius or what?
+Dialogue: 0,0:04:18.46,0:04:21.22,Default,,0,0,0,,-Bonus chance.\N-What is that?
+Dialogue: 0,0:04:21.38,0:04:24.09,Default,,0,0,0,,If you answer correctly,\Nyou'll become twice as attractive.
+Dialogue: 0,0:04:24.26,0:04:26.55,Default,,0,0,0,,-I will do it.\N-Is it still for the entrance exam?
+Dialogue: 0,0:04:26.72,0:04:29.68,Default,,0,0,0,,I was just kidding.
+Dialogue: 0,0:04:29.85,0:04:31.81,Default,,0,0,0,,But I want to become more attractive!
+Dialogue: 0,0:04:31.98,0:04:35.44,Default,,0,0,0,,You did well, so you will be fine. I'm impressed.
+Dialogue: 0,0:04:35.94,0:04:38.65,Default,,0,0,0,,Thank you, Nogi. I couldn't do it without your help.
+Dialogue: 0,0:04:38.82,0:04:41.69,Default,,0,0,0,,Next week I will be busy with Itsuki's show.
+Dialogue: 0,0:04:41.86,0:04:44.49,Default,,0,0,0,,I see. That's why you are studying so hard this week.
+Dialogue: 0,0:04:44.66,0:04:48.58,Default,,0,0,0,,Fu, it's not my show.\NIt's a community Christmas event.
+Dialogue: 0,0:04:48.74,0:04:50.24,Default,,0,0,0,,It's the school chorus.
+Dialogue: 0,0:04:50.41,0:04:53.58,Default,,0,0,0,,Impressive. You are selected to represent our school.
+Dialogue: 0,0:04:53.75,0:04:56.46,Default,,0,0,0,,Ms. Yuna, thank you for your help.
+Dialogue: 0,0:04:56.63,0:04:59.75,Default,,0,0,0,,You are just talented. That's all.\NYour voice is exceptional.
+Dialogue: 0,0:04:59.92,0:05:04.59,Default,,0,0,0,,I'm so proud of you. Go beat the other schools, okay?
+Dialogue: 0,0:05:04.76,0:05:06.64,Default,,0,0,0,,That's not what this event is all about.
+Dialogue: 0,0:05:06.80,0:05:11.14,Default,,0,0,0,,Don't catch a cold.\NYou must be on top of your health.
+Dialogue: 0,0:05:11.31,0:05:13.68,Default,,0,0,0,,Be healthy. Be healthy. Be healthy.
+Dialogue: 0,0:05:13.85,0:05:16.90,Default,,0,0,0,,You are making me nervous.
+Dialogue: 0,0:05:17.06,0:05:19.98,Default,,0,0,0,,-Do you want a supplement?\N-Give me an effective one.
+Dialogue: 0,0:05:20.15,0:05:24.99,Default,,0,0,0,,-Can I sell your merchandise?\N-Stop it!
+Dialogue: 0,0:05:26.99,0:05:29.41,Default,,0,0,0,,What's up with you? Is something bothering you?
+Dialogue: 0,0:05:29.58,0:05:32.04,Default,,0,0,0,,What? Well, nothing really bothers me.
+Dialogue: 0,0:05:32.20,0:05:34.29,Default,,0,0,0,,Nothing? Really?
+Dialogue: 0,0:05:34.46,0:05:36.79,Default,,0,0,0,,Don't you feel sick or something?
+Dialogue: 0,0:05:36.96,0:05:39.54,Default,,0,0,0,,What? Yuna feels sick?
+Dialogue: 0,0:05:39.71,0:05:41.25,Default,,0,0,0,,Be healthy. Be healthy.
+Dialogue: 0,0:05:41.42,0:05:45.01,Default,,0,0,0,,-No way it works.\N-I'm getting warm.
+Dialogue: 0,0:05:45.17,0:05:47.80,Default,,0,0,0,,No way. You must be kidding.
+Dialogue: 0,0:05:47.97,0:05:51.26,Default,,0,0,0,,-Be healthy. Be healthy.\N-Stop it.
+Dialogue: 0,0:05:51.43,0:05:52.68,Default,,0,0,0,,I'm getting warm.
+Dialogue: 0,0:05:53.14,0:05:56.23,Default,,0,0,0,,-Wait. What are you doing to my body?\N-Be healthy. Be healthy.
+Dialogue: 0,0:05:56.39,0:05:57.98,Default,,0,0,0,,IF TROUBLED, ALWAYS TALK ABOUT IT!
+Dialogue: 0,0:05:59.86,0:06:00.98,Default,,0,0,0,,Fu.
+Dialogue: 0,0:06:01.15,0:06:04.32,Default,,0,0,0,,Help us decorate the tree if you finished studying.
+Dialogue: 0,0:06:04.49,0:06:06.36,Default,,0,0,0,,You are almost done anyway.
+Dialogue: 0,0:06:08.82,0:06:12.49,Default,,0,0,0,,Listen, everyone.
+Dialogue: 0,0:06:12.66,0:06:16.00,Default,,0,0,0,,Well...
+Dialogue: 0,0:06:16.16,0:06:17.79,Default,,0,0,0,,I give you a riddle.
+Dialogue: 0,0:06:17.96,0:06:22.59,Default,,0,0,0,,A grasshopper shoulders the debt of an ant secretly.
+Dialogue: 0,0:06:22.75,0:06:25.88,Default,,0,0,0,,Now what kind of problem will they face?
+Dialogue: 0,0:06:27.13,0:06:31.26,Default,,0,0,0,,-What in the world are you talking about?\N-I have no idea...
+Dialogue: 0,0:06:31.43,0:06:35.85,Default,,0,0,0,,-Some kind of empirical question for social studies?\N-Well...
+Dialogue: 0,0:06:36.02,0:06:38.89,Default,,0,0,0,,I'm thinking about a riddle for our class newspaper.
+Dialogue: 0,0:06:39.06,0:06:43.23,Default,,0,0,0,,-I see.\N-But it's not a riddle at all.
+Dialogue: 0,0:06:43.40,0:06:46.90,Default,,0,0,0,,An ant has debt? That's too unrealistic.
+Dialogue: 0,0:06:47.07,0:06:51.07,Default,,0,0,0,,-Then maybe...\N-She is talking nonsense again.
+Dialogue: 0,0:06:51.24,0:06:54.58,Default,,0,0,0,,To tell you the truth, I was...
+Dialogue: 0,0:06:59.46,0:07:02.92,Default,,0,0,0,,A riddle about shouldering someone's debt?
+Dialogue: 0,0:07:04.50,0:07:09.01,Default,,0,0,0,,Let's use the story about the red ogre\Nwho sacrifices himself for the blue ogre
+Dialogue: 0,0:07:09.17,0:07:12.72,Default,,0,0,0,,to come up with a new riddle.
+Dialogue: 0,0:07:27.94,0:07:30.32,Default,,0,0,0,,When I saved Ms. Togo,
+Dialogue: 0,0:07:30.49,0:07:33.20,Default,,0,0,0,,I took over "the duty."
+Dialogue: 0,0:07:35.41,0:07:40.04,Default,,0,0,0,,If Ms. Togo finds out, she will be shocked.
+Dialogue: 0,0:07:40.21,0:07:44.17,Default,,0,0,0,,Finally we are all together, having fun. I can't ruin it.
+Dialogue: 0,0:07:44.33,0:07:47.96,Default,,0,0,0,,-"Christmas" sounds too foreign to me.\N-How about "The Festival of Pine Trees?
+Dialogue: 0,0:07:48.13,0:07:50.55,Default,,0,0,0,,-That doesn't sound too appealing...\N-Are you stupid?
+Dialogue: 0,0:07:50.72,0:07:52.97,Default,,0,0,0,,-That's a little...\N-Wasshi, you never change!
+Dialogue: 0,0:07:53.14,0:07:55.93,Default,,0,0,0,,I detest my lack in writing skills!!
+Dialogue: 0,0:08:00.85,0:08:02.44,Default,,0,0,0,,I...
+Dialogue: 0,0:08:04.73,0:08:08.19,Default,,0,0,0,,I am being kept alive.
+Dialogue: 0,0:08:09.28,0:08:12.20,Default,,0,0,0,,That's why I can stay on this side.
+Dialogue: 0,0:08:16.70,0:08:22.04,Default,,0,0,0,,I can't believe it. Why did our AC\Nbreak on such a cold day?
+Dialogue: 0,0:08:22.21,0:08:26.34,Default,,0,0,0,,We also had a power outage yesterday.\NIt was terrible.
+Dialogue: 0,0:08:26.50,0:08:30.71,Default,,0,0,0,,-You two had a rough day, huh?\N-What a mishap.
+Dialogue: 0,0:08:30.88,0:08:32.76,Default,,0,0,0,,That's nothing, compared to my troubles.
+Dialogue: 0,0:08:32.93,0:08:36.60,Default,,0,0,0,,Yesterday, Itsuki lost the keys,\Nand we couldn't get in the house.
+Dialogue: 0,0:08:36.76,0:08:39.81,Default,,0,0,0,,-On such a cold night.\N-Please, don't bring it up.
+Dialogue: 0,0:08:39.97,0:08:44.73,Default,,0,0,0,,We just went to a convenience store.\NIt turned into a disaster.
+Dialogue: 0,0:08:44.90,0:08:46.56,Default,,0,0,0,,You are so careless.
+Dialogue: 0,0:08:46.73,0:08:50.32,Default,,0,0,0,,I thought you were becoming dependable.
+Dialogue: 0,0:08:52.11,0:08:54.07,Default,,0,0,0,,Sonoko is here.
+Dialogue: 0,0:08:54.61,0:08:56.32,Default,,0,0,0,,What happened to your hand?
+Dialogue: 0,0:08:56.78,0:08:58.74,Default,,0,0,0,,It's nothing. Don't worry.
+Dialogue: 0,0:08:58.91,0:09:04.41,Default,,0,0,0,,If I put my Sancho on it, you don't see it.
+Dialogue: 0,0:09:04.58,0:09:06.63,Default,,0,0,0,,It's biting your hand!
+Dialogue: 0,0:09:06.79,0:09:08.84,Default,,0,0,0,,What happened?
+Dialogue: 0,0:09:09.00,0:09:11.42,Default,,0,0,0,,I burned it with a hot kettle this morning.
+Dialogue: 0,0:09:11.59,0:09:15.38,Default,,0,0,0,,-I'm glad it's nothing serious.\N-Not at all.
+Dialogue: 0,0:09:15.55,0:09:19.47,Default,,0,0,0,,What an end of the year.\NEveryone's got some bad luck.
+Dialogue: 0,0:09:19.97,0:09:22.89,Default,,0,0,0,,All Hero Club members should get exorcised.
+Dialogue: 0,0:09:23.06,0:09:25.94,Default,,0,0,0,,Stop it. Don't say things like that.
+Dialogue: 0,0:09:26.10,0:09:29.52,Default,,0,0,0,,-But wait. Maybe we need it.\N-Don't take it seriously.
+Dialogue: 0,0:09:29.69,0:09:31.90,Default,,0,0,0,,Yuna, have you had anything bad happen to you?
+Dialogue: 0,0:09:32.48,0:09:34.95,Default,,0,0,0,,-No. I'm fine.\N-Glad to hear that.
+Dialogue: 0,0:09:35.11,0:09:39.24,Default,,0,0,0,,If you had, it would mean that we were all cursed.
+Dialogue: 0,0:09:39.41,0:09:41.70,Default,,0,0,0,,Amnesty!
+Dialogue: 0,0:09:46.29,0:09:49.21,Default,,0,0,0,,No, no, no way.
+Dialogue: 0,0:09:49.38,0:09:50.71,Default,,0,0,0,,You are right.
+Dialogue: 0,0:09:50.88,0:09:54.17,Default,,0,0,0,,We are becoming too suspicious.
+Dialogue: 0,0:09:59.14,0:10:03.47,Default,,0,0,0,,Okay. Listen, everyone. Get back to work.
+Dialogue: 0,0:10:03.64,0:10:05.39,Default,,0,0,0,,Okay.
+Dialogue: 0,0:10:11.06,0:10:13.94,Default,,0,0,0,,Excuse me, Fu-senpai.
+Dialogue: 0,0:10:14.48,0:10:17.20,Default,,0,0,0,,You have a minute?
+Dialogue: 0,0:10:20.74,0:10:23.58,Default,,0,0,0,,What's the matter? Are you troubled?
+Dialogue: 0,0:10:23.95,0:10:27.21,Default,,0,0,0,,Well... Well...
+Dialogue: 0,0:10:27.62,0:10:31.75,Default,,0,0,0,,Is it about your love life?\NWait. That would upset Togo.
+Dialogue: 0,0:10:31.92,0:10:35.21,Default,,0,0,0,,-She wouldn't be upset.\N-I don't know about that.
+Dialogue: 0,0:10:35.38,0:10:37.55,Default,,0,0,0,,Then tell me.
+Dialogue: 0,0:10:37.72,0:10:39.30,Default,,0,0,0,,What is it?
+Dialogue: 0,0:10:40.47,0:10:43.18,Default,,0,0,0,,To tell you the truth, the other day...
+Dialogue: 0,0:10:43.35,0:10:45.56,Default,,0,0,0,,-The other day? When?\N-Well...
+Dialogue: 0,0:10:45.72,0:10:48.98,Default,,0,0,0,,The day I got my smartphone back.
+Dialogue: 0,0:10:49.14,0:10:51.19,Default,,0,0,0,,Something happened on that day?
+Dialogue: 0,0:10:51.90,0:10:55.23,Default,,0,0,0,,Believe it or not, Ms. Togo...
+Dialogue: 0,0:10:55.82,0:10:57.82,Default,,0,0,0,,What?
+Dialogue: 0,0:11:00.16,0:11:01.91,Default,,0,0,0,,Well, nothing...
+Dialogue: 0,0:11:07.62,0:11:12.54,Default,,0,0,0,,All our pictures were gone from the phone.
+Dialogue: 0,0:11:12.71,0:11:15.21,Default,,0,0,0,,I see. But you can't do anything about that.
+Dialogue: 0,0:11:15.38,0:11:17.67,Default,,0,0,0,,Amnesty's inspection may have erased them.
+Dialogue: 0,0:11:17.84,0:11:20.22,Default,,0,0,0,,But I feel bad for my friends.
+Dialogue: 0,0:11:20.38,0:11:23.14,Default,,0,0,0,,Were there embarrassing pictures of you two?
+Dialogue: 0,0:11:23.30,0:11:24.72,Default,,0,0,0,,Wait a second.
+Dialogue: 0,0:11:24.89,0:11:27.81,Default,,0,0,0,,Now I get it. No wonder you came to me.
+Dialogue: 0,0:11:27.97,0:11:30.73,Default,,0,0,0,,But seriously, how embarrassing was it?
+Dialogue: 0,0:11:30.89,0:11:32.31,Default,,0,0,0,,No, nothing like that!
+Dialogue: 0,0:11:49.87,0:11:51.58,Default,,0,0,0,,The same one...
+Dialogue: 0,0:11:52.37,0:11:54.84,Default,,0,0,0,,It was on Fu-senpai.
+Dialogue: 0,0:12:02.30,0:12:04.30,Default,,0,0,0,,It sounds great.
+Dialogue: 0,0:12:04.47,0:12:07.26,Default,,0,0,0,,Don't practice too much. You may hurt your voice.
+Dialogue: 0,0:12:09.72,0:12:12.02,Default,,0,0,0,,I can't wait to see your event.
+Dialogue: 0,0:12:12.19,0:12:16.23,Default,,0,0,0,,-I will be cheering for you.\N-It's not my event.
+Dialogue: 0,0:12:17.32,0:12:18.82,Default,,0,0,0,,But...
+Dialogue: 0,0:12:19.36,0:12:21.03,Default,,0,0,0,,Thank you for your support.
+Dialogue: 0,0:12:21.19,0:12:23.70,Default,,0,0,0,,That's the way to go.
+Dialogue: 0,0:12:23.86,0:12:26.83,Default,,0,0,0,,Let's cook something hot today.
+Dialogue: 0,0:12:26.99,0:12:29.16,Default,,0,0,0,,-Let's stop by at the supermarket.\N-Yes, ma'am.
+Dialogue: 0,0:12:52.31,0:12:54.10,Default,,0,0,0,,Fu!
+Dialogue: 0,0:13:06.57,0:13:09.16,Default,,0,0,0,,YUKI
+Dialogue: 0,0:13:17.71,0:13:21.55,Default,,0,0,0,,AT THE HOSPITAL RIGHT NOW.\NFU GOT HIT BY A CAR.
+Dialogue: 0,0:13:21.71,0:13:22.96,Default,,0,0,0,,What?
+Dialogue: 0,0:13:23.13,0:13:26.38,Default,,0,0,0,,I DON'T KNOW WHAT TO DO.
+Dialogue: 0,0:13:26.55,0:13:28.22,Default,,0,0,0,,CALM DOWN, ITSUKI. WE'RE ON OUR WAY.
+Dialogue: 0,0:13:28.39,0:13:29.97,Default,,0,0,0,,-I'LL BE RIGHT THERE.\N-I JUST LEFT.
+Dialogue: 0,0:13:54.91,0:13:57.50,Default,,0,0,0,,-Guys...\N-Yuna...
+Dialogue: 0,0:13:57.67,0:13:59.67,Default,,0,0,0,,How is Fu-senpai doing?
+Dialogue: 0,0:14:00.46,0:14:02.05,Default,,0,0,0,,EMERGENCY ROOM
+Dialogue: 0,0:14:03.80,0:14:05.63,Default,,0,0,0,,She is still in there.
+Dialogue: 0,0:14:24.53,0:14:25.57,Default,,0,0,0,,Fu.
+Dialogue: 0,0:14:26.19,0:14:29.61,Default,,0,0,0,,Well, it was unfortunate... Ouch.
+Dialogue: 0,0:14:29.78,0:14:32.24,Default,,0,0,0,,-Fu.\N-Fu-senpai.
+Dialogue: 0,0:14:32.41,0:14:34.91,Default,,0,0,0,,I'm fine.
+Dialogue: 0,0:14:35.08,0:14:37.33,Default,,0,0,0,,Can you believe it? The car didn't stop at all.
+Dialogue: 0,0:14:37.50,0:14:40.58,Default,,0,0,0,,-Who runs a red light?\N-But...
+Dialogue: 0,0:14:40.75,0:14:42.50,Default,,0,0,0,,Itsuki...
+Dialogue: 0,0:14:44.38,0:14:48.05,Default,,0,0,0,,Thank you for coming, everyone.
+Dialogue: 0,0:14:48.22,0:14:50.34,Default,,0,0,0,,Come on. You always make us worry.
+Dialogue: 0,0:14:50.51,0:14:53.05,Default,,0,0,0,,Can't you be nice to me a little?
+Dialogue: 0,0:14:53.22,0:14:54.97,Default,,0,0,0,,So it's not life-threatening, right?
+Dialogue: 0,0:14:55.14,0:14:58.48,Default,,0,0,0,,Of course not. Don't be so serious.
+Dialogue: 0,0:14:58.64,0:15:01.23,Default,,0,0,0,,But this may ruin your chance\Nat the entrance exam.
+Dialogue: 0,0:15:01.40,0:15:05.44,Default,,0,0,0,,Don't say that. I will take the exam, no matter what.
+Dialogue: 0,0:15:05.61,0:15:08.86,Default,,0,0,0,,-You have to stay in the hospital, right?\N-Just for a couple of weeks!
+Dialogue: 0,0:15:09.03,0:15:11.53,Default,,0,0,0,,This is a hospital. Please, be quiet.
+Dialogue: 0,0:15:11.70,0:15:14.49,Default,,0,0,0,,-Are you her sister?\N-Yes, I am.
+Dialogue: 0,0:15:14.66,0:15:16.66,Default,,0,0,0,,I need you to fill out the forms.
+Dialogue: 0,0:15:16.83,0:15:20.08,Default,,0,0,0,,-Can you come with me?\N-Sure.
+Dialogue: 0,0:15:20.25,0:15:22.83,Default,,0,0,0,,I have to go now. Thank you for coming.
+Dialogue: 0,0:15:23.00,0:15:25.84,Default,,0,0,0,,-Be quiet.\N-Please, Fu.
+Dialogue: 0,0:15:26.00,0:15:27.71,Default,,0,0,0,,That was a relief, right?
+Dialogue: 0,0:15:27.88,0:15:30.34,Default,,0,0,0,,You guys take care of yourselves. Don't get hurt.
+Dialogue: 0,0:15:30.51,0:15:32.43,Default,,0,0,0,,It's time for alpha waves.
+Dialogue: 0,0:15:32.59,0:15:35.93,Default,,0,0,0,,-Forget about it.\N-Sorry.
+Dialogue: 0,0:15:39.68,0:15:42.85,Default,,0,0,0,,Anyone that violates road traffic laws\Nshould never be forgiven.
+Dialogue: 0,0:15:43.02,0:15:46.44,Default,,0,0,0,,The good news is that she is going to be fine.
+Dialogue: 0,0:15:46.61,0:15:49.49,Default,,0,0,0,,I wonder what the Spirit was doing.
+Dialogue: 0,0:15:50.53,0:15:53.49,Default,,0,0,0,,If something happens to any of you,
+Dialogue: 0,0:15:53.66,0:15:55.74,Default,,0,0,0,,I will lose my mind.
+Dialogue: 0,0:15:55.91,0:15:57.87,Default,,0,0,0,,Togo...
+Dialogue: 0,0:15:58.04,0:16:01.29,Default,,0,0,0,,No more National Defense Mask. No more Black Hole.
+Dialogue: 0,0:16:01.46,0:16:03.58,Default,,0,0,0,,Stop it. I mean it.
+Dialogue: 0,0:16:05.42,0:16:07.38,Default,,0,0,0,,-You too, Yuna.\N-Me too?
+Dialogue: 0,0:16:07.55,0:16:10.84,Default,,0,0,0,,-Please, be careful not to hurt yourself.\N-Sure.
+Dialogue: 0,0:16:11.84,0:16:13.76,Default,,0,0,0,,It's green now. See you.
+Dialogue: 0,0:16:13.93,0:16:17.06,Default,,0,0,0,,-See you.\N-Bye.
+Dialogue: 0,0:16:17.22,0:16:19.02,Default,,0,0,0,,Bye.
+Dialogue: 0,0:16:51.05,0:16:53.01,Default,,0,0,0,,Whenever I tried to talk to someone,
+Dialogue: 0,0:16:54.09,0:16:57.51,Default,,0,0,0,,something bad happened to them.
+Dialogue: 0,0:16:58.43,0:17:03.73,Default,,0,0,0,,I tried to discuss the issue with Fu-senpai,\Nand she got in an accident.
+Dialogue: 0,0:17:03.89,0:17:10.48,Default,,0,0,0,,Heaven has power to influence our world.
+Dialogue: 0,0:17:11.32,0:17:15.49,Default,,0,0,0,,Whatever I try to do, there will be a ripple effect.
+Dialogue: 0,0:17:15.66,0:17:17.95,Default,,0,0,0,,That's how the world keeps balance.
+Dialogue: 0,0:17:18.78,0:17:20.66,Default,,0,0,0,,What's happening to me
+Dialogue: 0,0:17:21.33,0:17:23.83,Default,,0,0,0,,needs to be kept to myself.
+Dialogue: 0,0:17:24.04,0:17:28.79,Default,,0,0,0,,If I break the rule,\Nan unfortunate event occurs to everyone.
+Dialogue: 0,0:17:30.42,0:17:33.76,Default,,0,0,0,,Our battle is over.
+Dialogue: 0,0:17:33.92,0:17:37.51,Default,,0,0,0,,Nobody needs to suffer.
+Dialogue: 0,0:17:37.68,0:17:41.06,Default,,0,0,0,,If I keep quiet, nothing will change.
+Dialogue: 0,0:17:41.56,0:17:44.93,Default,,0,0,0,,We can enjoy Hero Club every day.
+Dialogue: 0,0:17:45.10,0:17:48.77,Default,,0,0,0,,I must not get anyone involved.
+Dialogue: 0,0:17:52.78,0:17:54.32,Default,,0,0,0,,If I keep it to myself,
+Dialogue: 0,0:17:55.40,0:17:57.41,Default,,0,0,0,,it's going to be fine.
+Dialogue: 0,0:18:08.92,0:18:11.42,Default,,0,0,0,,Itsuki, you have the important event today.
+Dialogue: 0,0:18:11.59,0:18:13.21,Default,,0,0,0,,It doesn't matter.
+Dialogue: 0,0:18:13.38,0:18:16.42,Default,,0,0,0,,-It does.\N-You got hurt.
+Dialogue: 0,0:18:16.59,0:18:20.68,Default,,0,0,0,,I cannot have fun while you are here.
+Dialogue: 0,0:18:20.85,0:18:22.97,Default,,0,0,0,,Don't make me feel bad.
+Dialogue: 0,0:18:23.14,0:18:26.31,Default,,0,0,0,,You shouldn't worry about me.
+Dialogue: 0,0:18:27.48,0:18:31.36,Default,,0,0,0,,If you are not having fun, I can't have fun.
+Dialogue: 0,0:18:31.52,0:18:33.44,Default,,0,0,0,,So I will skip today's event.
+Dialogue: 0,0:18:33.61,0:18:36.40,Default,,0,0,0,,Don't worry. I got someone to take my place.
+Dialogue: 0,0:18:36.57,0:18:37.57,Default,,0,0,0,,Jeez.
+Dialogue: 0,0:18:37.74,0:18:40.37,Default,,0,0,0,,You must rest to recover.
+Dialogue: 0,0:18:40.53,0:18:43.83,Default,,0,0,0,,Have you been eating?\NYou can order delivery if you want.
+Dialogue: 0,0:18:43.99,0:18:48.29,Default,,0,0,0,,Of course. I've been cooking.\NWell, I mostly eat store-bought food.
+Dialogue: 0,0:18:49.37,0:18:53.42,Default,,0,0,0,,-You couldn't even cook rice before.\N-That was a long time ago.
+Dialogue: 0,0:18:53.59,0:18:56.05,Default,,0,0,0,,I'm okay. Don't worry about me.
+Dialogue: 0,0:18:56.84,0:18:58.97,Default,,0,0,0,,-Have you been getting up every morning?\N-Yes.
+Dialogue: 0,0:18:59.13,0:19:02.05,Default,,0,0,0,,I have not been late for school at all.
+Dialogue: 0,0:19:02.22,0:19:05.14,Default,,0,0,0,,Don't worry about me.
+Dialogue: 0,0:19:07.10,0:19:10.23,Default,,0,0,0,,Sounds like you are the big sister.
+Dialogue: 0,0:19:10.40,0:19:12.77,Default,,0,0,0,,You think so? Yay!
+Dialogue: 0,0:19:12.94,0:19:15.36,Default,,0,0,0,,Don't get too excited.
+Dialogue: 0,0:19:17.44,0:19:19.40,Default,,0,0,0,,Whatever.
+Dialogue: 0,0:19:20.24,0:19:22.95,Default,,0,0,0,,But thank you.
+Dialogue: 0,0:19:26.33,0:19:30.25,Default,,0,0,0,,Let's do something fun together\Nwhen you are discharged.
+Dialogue: 0,0:19:30.42,0:19:34.84,Default,,0,0,0,,-Sure. I can't wait for New Year's Day.\N-Me too.
+Dialogue: 0,0:19:35.00,0:19:37.51,Default,,0,0,0,,It has been an eventful year.
+Dialogue: 0,0:19:37.67,0:19:41.68,Default,,0,0,0,,Let's make the new year a better one.\NWith a lot of fun.
+Dialogue: 0,0:19:41.84,0:19:45.10,Default,,0,0,0,,We tried so hard. We deserve it.
+Dialogue: 0,0:19:45.26,0:19:48.56,Default,,0,0,0,,We all deserve to be happy...
+Dialogue: 0,0:19:48.73,0:19:52.65,Default,,0,0,0,,I mean, Itsuki, Togo, Karin, Sonoko, and Yuna.
+Dialogue: 0,0:19:52.81,0:19:58.11,Default,,0,0,0,,You are all good girls.\NThe president of Hero Club is very lucky.
+Dialogue: 0,0:20:02.07,0:20:03.82,Default,,0,0,0,,Look.
+Dialogue: 0,0:20:03.99,0:20:07.62,Default,,0,0,0,,-White Christmas.\N-Yes, indeed.
+Dialogue: 0,0:20:08.16,0:20:11.96,Default,,0,0,0,,-Hey, victim.\N-Sorry we are late.
+Dialogue: 0,0:20:12.12,0:20:15.46,Default,,0,0,0,,You don't need to come so often.
+Dialogue: 0,0:20:15.63,0:20:18.13,Default,,0,0,0,,Wait, why are you dressed like that?
+Dialogue: 0,0:20:18.30,0:20:22.01,Default,,0,0,0,,We thought you might be lonely\Nthat you're in a hospital on Christmas Eve.
+Dialogue: 0,0:20:22.18,0:20:25.51,Default,,0,0,0,,I'm not lonely at all. Absolutely not.
+Dialogue: 0,0:20:25.68,0:20:29.18,Default,,0,0,0,,Please, forgive her. She is very happy to see you.
+Dialogue: 0,0:20:29.35,0:20:31.43,Default,,0,0,0,,Come on, Itsuki!
+Dialogue: 0,0:20:31.73,0:20:33.52,Default,,0,0,0,,Wait. Where is Yuna?
+Dialogue: 0,0:20:33.69,0:20:35.69,Default,,0,0,0,,I thought she would be here.
+Dialogue: 0,0:20:51.33,0:20:53.37,Default,,0,0,0,,YUKI
+Dialogue: 0,0:20:57.04,0:20:58.29,Default,,0,0,0,,Thanks to the accident,
+Dialogue: 0,0:20:58.46,0:21:02.72,Default,,0,0,0,,-you will fail the entrance exam for sure.\N-Shut up. It's not over yet.
+Dialogue: 0,0:21:02.88,0:21:06.14,Default,,0,0,0,,I wonder what happened to Yuna.
+Dialogue: 0,0:21:21.19,0:21:24.99,Default,,0,0,0,,I may have figured it out.
+Dialogue: 0,0:23:57.52,0:23:59.10,Default,,0,0,0,,ON THE NEXT EPISODE
+Dialogue: 0,0:23:59.27,0:24:00.27,Default,,0,0,0,,Meow! Meow!
+Dialogue: 0,0:24:00.43,0:24:02.48,Default,,0,0,0,,-This is an important record.\N-I scared them.
+Dialogue: 0,0:24:02.65,0:24:04.69,Default,,0,0,0,,-How did this turn up...?\N-Wait, Wasshi!
+Dialogue: 0,0:24:04.86,0:24:09.15,Default,,0,0,0,,I wanted to help my friends. I'm sorry.
+Dialogue: 0,0:24:09.32,0:24:11.90,Default,,0,0,0,,EPISODE 4\NUNSPOKEN INTENTIONS
